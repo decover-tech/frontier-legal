@@ -1,8 +1,5 @@
 Data/
+Production/
+Logs/
 .DS_Store
 *.DS_Store
-Production/
-BATCH*_METADATA.csv
-EVENT_LEDGER_BATCH*.md
-CONTINUITY_BATCH01.md
-FINANCIAL_LEDGER_BATCH06.md
