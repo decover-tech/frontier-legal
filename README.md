@@ -1,0 +1,142 @@
+# Cascade Timber: Synthetic Legal-Investigation Corpus
+
+A synthetic eDiscovery matter, *USA v. Cascade Timber Holdings, Inc.*, built by DecoverAI. It is
+an email corpus with planted evidence chains, designed for training and evaluating models on
+**legal evidence reasoning**: responsiveness, privilege, chronology, knowledge analysis and
+joins across several documents. All companies, people and events are fictional.
+
+> **Not ready for training.** The internal assessment ([`suggestions.md`](suggestions.md))
+> scores it Q ≈ 49/100, in the band marked "blocked for training". It's sound as a demo and
+> an evaluation seed, but the answers leak through headers, there are few supervised
+> targets, some facts contradict each other, and there's only one matter. Read
+> [Known issues](#known-issues) before you use it.
+
+## At a glance
+
+| | |
+|---|---|
+| Documents rendered | 850 RFC 5322 `.eml` (250 seed plus 600 generated in batches 1–6) |
+| Documents planned | 1,400 (`DOCUMENT_MANIFEST.csv`) |
+| Time span | Nov 2021 – Sep 2023 (generated batches currently end 27 Mar 2023) |
+| Custodians | 26 mailboxes |
+| Organizations | Cascade Timber (client), Alder Point Partners (administrator), Bellhaven Advisory (broker), L&L Associates (outside counsel), GreenAcre (surveyor), Moss & Lane (auditors), IRS, consultants, buyers |
+| Labels | Seed documents only: 1 review tag each, plus privileged and PII flags |
+| Benchmark | 28 tasks, 10 flagship and 18 atomic, with separate hidden gold |
+| Matters | 1 |
+
+## Why the corpus is interesting
+
+- **You have to join documents.** The corpus is built so that no single document settles an
+  issue. Take the question of whether an acreage problem was known before the applications
+  were filed: answering it takes option dates, application dates, ledger entries and one
+  employee's role, all from different documents.
+- **The past is never written from hindsight.** Each batch is scanned for terms its authors
+  couldn't have known yet, such as the subpoena, counsel's engagement or the pause. The
+  results are in `CONTINUITY_BATCH0N.md`. A model can't pick up the answer from a document
+  that was written "too early".
+- **Doctrines come as contrast pairs.** Privilege, work product, Kovel consultants, bare
+  forwards and responsiveness each appear as small chains: a clear positive, a clear negative
+  and a genuinely ambiguous case.
+- **Some readings are left open on purpose.** Several issues are `[DISPUTED]` by design,
+  for example EMAIL-117 (a clerical error or a cover story?). The right output is to state the
+  uncertainty, not to force a label.
+- **The email looks like real collected mail.** Quoted history nests one level per reply,
+  quoting follows each sender's mail client (Outlook or Gmail), each organization has its own
+  signature, time zones follow daylight saving, and about a third of the corpus is routine
+  noise, decoys and near-duplicates.
+
+## Layout
+
+```text
+Data/Cascade_Timber_EML_Dataset/      # corpus (git-ignored; distributed separately)
+  Custodians/<Name>/EMAIL-NNN_<subject>.eml
+  Loadfile_Cascade_Timber.{csv,dat}   # load file: seed 250 only (DOCID, dates, parties, TAG, PRIVILEGED, CONTAINS_PII, …)
+  README.md                           # corpus build notes (v3 realism pass)
+Definitions/                          # labeling protocols: Responsiveness, ACP, Work Product, Subpoena
+Logs/                                 # demo privilege log (see Known issues)
+cascade_agent_benchmark/              # tasks, hidden gold, splits, schema, rubric
+CASE_BIBLE.md                         # ground-truth world model (AUTHORING ONLY)
+EVIDENCE_ARCS.md                      # arcs A–J, planned joins and open questions (AUTHORING ONLY)
+DOCUMENT_MANIFEST.csv                 # 1,400-row plan with arc, event and evidentiary role (AUTHORING ONLY)
+EVENT_LEDGER_BATCH0N.md               # events per batch (AUTHORING ONLY)
+FINANCIAL_LEDGER_BATCH0N.md           # amounts per batch (AUTHORING ONLY)
+CONTINUITY_BATCH0N.md                 # per-batch QA reports
+MATTER_AGENT_TASKS.md                 # taxonomy of 18 investigation tasks
+Cascade_Timber_EML_Dataset_Plan.md    # spec for threading, signatures and doctrine chains
+suggestions.md                        # training-value assessment and top fixes
+```
+
+## Supervision available today
+
+| Source | Coverage | Form |
+|---|---|---|
+| `X-Decover-Tag` / `X-Decover-Privileged` headers and the load file | Seed EMAIL-001–250 | One mixed tag per document, such as `Not Responsive`, `Routine`, `Privileged Legal Advice`, `Knowledge/Scienter` or `Red Flag`. This isn't multi-label, and privileged documents carry no responsiveness label. |
+| `DOCUMENT_MANIFEST.csv` | All 1,400 rows | `arc`, `event_id` and `intended_evidentiary_role`. These are authoring intent, not reviewed gold. |
+| `cascade_agent_benchmark/hidden_gold/` | 28 tasks, all answerable from seed documents | Required, counter, distractor and context evidence IDs; gold facts and inferences; `must_include`, `must_not_claim` and `must_qualify` lists; unknowns. The schema is in `schemas/task.schema.json`. |
+| `CASE_BIBLE.md` / `EVIDENCE_ARCS.md` | The whole matter | Prose ground truth with `[ESTABLISHED]`, `[PROPOSED]`, `[DISPUTED]` and `[INFERENCE]` tags. This is the fastest source for writing new (task, evidence, target) examples. |
+
+The 600 generated documents carry only an `X-Decover-DocID` header and have **no document-level
+labels yet**.
+
+## Splits and leakage
+
+- **Don't split at random.** Documents in a thread or evidence chain answer each other.
+  `cascade_agent_benchmark/splits/evidence_packages_sample.csv` defines packages by family
+  that must stay together, currently 17 of them.
+- Task splits are `train`, `test_id` (a skill seen in training, on an unseen family) and
+  `test_ood` (held-out flagship compositions). The mapping is in the
+  [benchmark README](cascade_agent_benchmark/README.md).
+- **All of it is one matter.** A held-out split measures generalization within this matter,
+  not transfer to a new one. Building a second, independent matter for evaluation is still
+  open.
+- **Keep the model away from:** the `X-Decover-*` headers (strip them from every input),
+  `CASE_BIBLE.md`, `EVIDENCE_ARCS.md`, the manifest's `arc`/`event_id`/role columns, the
+  ledgers and `hidden_gold/`. The model may see the EML bodies, the Definitions files and
+  ordinary load-file metadata.
+
+## Known issues
+
+These come from `suggestions.md`. They're kept as they are in the seed, and the benchmark tasks
+don't depend on them.
+
+- **The legal framing is wrong.** The subpoena cites 26 U.S.C. § 7602, but that section
+  authorizes an IRS *summons*, not a subpoena duces tecum. Don't train on it as a real-law
+  fact.
+- **Some facts contradict each other.**
+  - The IRS contact, Kevin Tran, has two sets of details: an irs.gov address and (202) number
+    in 12 emails, but irs-example.gov and (503) in the subpoena.
+  - Cascade's address appears as two different locations.
+  - The deadline chain doesn't add up (EMAIL-027, 056, 057 and 158).
+- **The privilege log is out of step with the corpus.** Most of its 1,009 rows name people who
+  don't appear in the corpus.
+- **Workbook search queries and chronology are stale.** They cover only EMAIL-001–030.
+- **Emails are short and convenient.** Replies average about 32 new words, and some
+  admissions are too tidy (e.g. "keep this between us").
+- **Generation isn't reproducible.** No generator or model versions or file hashes are
+  recorded.
+
+## Using it
+
+1. Parse the `.eml` files with any MIME library. Use `DATESENT`, or the `Date:` header, for
+   chronology. The DocID order follows collection order, not time.
+2. Strip every `X-Decover-*` header before building inputs.
+3. Build examples by evidence package, not by document, and hold out whole packages.
+4. For any label beyond the seed tags, generate targets from `CASE_BIBLE.md` and the
+   benchmark gold, and have an expert review them. Treat `[PROPOSED]` facts as unknowns
+   until the documents that support them exist.
+5. Score with `cascade_agent_benchmark/eval/scoring_rubric.md`. It covers evidence recall,
+   join correctness, counter-evidence, restraint on uncertain points, citation accuracy and
+   stopping efficiency.
+
+## Status and roadmap
+
+- Batches 1–6 are done (850 of 1,400 documents). Batches 7 onward cover the period after the
+  subpoena, through September 2023.
+- The top fixes for training readiness, from `suggestions.md`:
+  1. Move labels out of the headers.
+  2. Write 150–200 examples reviewed by experts, with multi-label responsiveness, privilege
+     basis, chronology and grounded QA, including examples where the right answer is to
+     abstain.
+  3. Resolve the contradictions listed above.
+  4. Fix the summons/subpoena mislabel.
+  5. Add a second matter for evaluation, plus hashes.
