@@ -30,7 +30,7 @@ whistleblower, privilege and preservation.
 
 These paths are git-ignored and exist only locally:
 
-- `Data/`: the rendered corpus (`Cascade_Timber_EML_Dataset/`, with EML files by custodian) and `Cascade Timber Data Set.xlsx`.
+- `Data/`: the rendered corpus (`data/emails/`, with EML files by custodian) and `Cascade Timber Data Set.xlsx`.
 - `Production/`: production output.
 - `BATCH*_METADATA.csv`: per-batch working metadata.
 

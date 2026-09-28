@@ -34,7 +34,7 @@ from email.utils import format_datetime, getaddresses, parseaddr, parsedate_to_d
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.abspath(os.environ.get("THREAD_KIT_ROOT") or os.path.join(os.path.dirname(__file__), "..", ".."))
-CORPUS = os.path.join(ROOT, "Data", "Cascade_Timber_EML_Dataset")
+CORPUS = os.path.join(ROOT, "data", "emails")
 CUSTODIANS = os.path.join(CORPUS, "Custodians")
 MANIFEST = os.path.join(ROOT, "DOCUMENT_MANIFEST.csv")
 WORKDIR = os.path.join(ROOT, "Logs", "threads")

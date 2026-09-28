@@ -55,7 +55,7 @@ joins across several documents. All companies, people and events are fictional.
 ## Layout
 
 ```text
-Data/Cascade_Timber_EML_Dataset/      # corpus (git-ignored; distributed separately)
+data/emails/                          # corpus (tracked; new files need `git add -f`, see .gitignore)
   Custodians/<Name>/EMAIL-NNN_<subject>.eml
   Loadfile_Cascade_Timber.{csv,dat}   # load file: seed 250 only (DOCID, dates, parties, TAG, PRIVILEGED, CONTAINS_PII, …)
   README.md                           # corpus build notes (v3 realism pass)
