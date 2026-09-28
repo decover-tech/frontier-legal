@@ -9,3 +9,6 @@ CONTINUITY_BATCH01.md
 FINANCIAL_LEDGER_BATCH06.md
 
 .claude/
+
+__pycache__/
+*.pyc
