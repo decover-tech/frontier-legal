@@ -1,0 +1,18 @@
+package_id,split,arc,subarc,member_docs,reason
+PKG-A-001,train,A,,EMAIL-037;EMAIL-003;EMAIL-039,core acreage knowledge chain — keep together (notice + escalation + confirmation)
+PKG-A-002,train,A,,EMAIL-113;EMAIL-114;EMAIL-115,southern-tracts secrecy thread — family integrity
+PKG-A-003,train,A,,EMAIL-116;EMAIL-117,recorder flag + cover claim — disputed pair must stay together
+PKG-D-001,train,D,,EMAIL-009;EMAIL-010;EMAIL-011,candid renewal + proceed-anyway — leakage if split
+PKG-D-002,train,D,,EMAIL-045;EMAIL-018;EMAIL-029,finalized vs haven't-confirmed + restatement — operative contradiction family
+PKG-D-003,train,D,,EMAIL-041;EMAIL-042;EMAIL-043;EMAIL-044,renewal status + what-do-I-tell-Renee thread
+PKG-E-001,test_ood,E,,EMAIL-012;EMAIL-013;EMAIL-014,pause advice + decline — flagship holdout answer path
+PKG-E-002,test_ood,E,,EMAIL-127;EMAIL-128,waiver-framing chronology — hold out with E
+PKG-J-001,test_ood,J,,EMAIL-176;EMAIL-140;EMAIL-141;EMAIL-198,Clearwater lead + post-app payments + intent analysis + handoff — join-only conclusion
+PKG-G-001,test_ood,G,,EMAIL-019;EMAIL-046;EMAIL-163;EMAIL-164;EMAIL-134;EMAIL-135,whistleblower complaint + channel + pool-narrowing — holdout
+PKG-H-001,test_id,H,,EMAIL-023;EMAIL-054;EMAIL-055;EMAIL-024;EMAIL-206;EMAIL-207,subpoena + forwards + hold + pre-hold suspension — seen-skill unseen-episode candidate
+PKG-H-002,test_id,H,,EMAIL-158;EMAIL-159;EMAIL-160;EMAIL-161;EMAIL-162,schedule + follow-ups + receipt chain
+PKG-BF-001,test_id,B/F,,EMAIL-136;EMAIL-140;EMAIL-193;EMAIL-194,exposure + revenue close — financial join family
+PKG-C2-001,validation,C,C2,EMAIL-066;EMAIL-067;EMAIL-199;EMAIL-200,routine-to-de-routinized version trail — unseen disclosure variant
+PKG-PRIV-001,train,doctrine,,EMAIL-137;EMAIL-138;EMAIL-142;EMAIL-143;EMAIL-145,Kovel protected vs business-unprotected contrast — keep as contrast set
+PKG-PRIV-002,test_id,doctrine,,EMAIL-146;EMAIL-147;EMAIL-025,PR path-dependent + Alder third-party — held-out privilege family
+PKG-RIDGE-001,train,I,,EMAIL-095;EMAIL-096;EMAIL-097;EMAIL-100,Mountain Ridge decoy family — hard negatives
