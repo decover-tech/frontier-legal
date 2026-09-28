@@ -2,3 +2,4 @@ Data/
 .DS_Store
 *.DS_Store
 Production/
+BATCH*_METADATA.csv
