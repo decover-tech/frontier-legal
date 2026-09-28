@@ -1,0 +1,4 @@
+{
+  "_doc": "Hand fixes applied on top of the directory mined from the corpus (address -> fields to override). Use for missing/incorrect signatures or custodian folders. Keep signatures in the org's corpus fingerprint.",
+  "hr@alderpointpartners.com": {"name": "HR", "signature": "Human Resources\nAlder Point Partners", "custodian_folder": "HR"}
+}
