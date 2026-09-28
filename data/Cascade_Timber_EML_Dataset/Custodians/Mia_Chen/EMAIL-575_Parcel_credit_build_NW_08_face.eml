@@ -7,9 +7,13 @@ In-Reply-To: <email-552.202111261340@larsentaxadvisory.com>
 References: <email-552.202111261340@larsentaxadvisory.com>
 X-Decover-DocID: EMAIL-575
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============9133013715655669717=="
+Content-Type: multipart/mixed; boundary="===============7472818357628443808=="
 
---===============9133013715655669717==
+--===============7472818357628443808==
+Content-Type: multipart/alternative;
+ boundary="===============4600298064883610050=="
+
+--===============4600298064883610050==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -38,12 +42,77 @@ Owen Larsen
 Principal | Larsen Tax Advisory
 olarsen@larsentaxadvisory.com
 
---===============9133013715655669717==
-Content-Type: text/csv
+--===============4600298064883610050==
+MIME-Version: 1.0
+Content-Type: multipart/related;
+ boundary="===============8791584645908330943=="
+
+--===============8791584645908330943==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
+t-size:11pt">
+Build computation attached for review =E2=80=94 inputs flagged where the scan=
+ was hard to read.<br>
+&nbsp;<br>
+Robert Denniston<br>
+Chief Financial Officer<br>
+Cascade Timber Holdings, Inc.<br>
+1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
+(503) 555-0102 | rdenniston@cascadetimber.com<br>
+<img src=3D"cid:image001.png@01D50F9918A.66773CA8" alt=3D"Cascade Timber Hold=
+ings, Inc." style=3D"margin:4px 0"><br>
+&nbsp;<br>
+This message and any attachments are confidential and may be protected by<br>
+legal privilege. If you are not the intended recipient, please notify the<br>
+sender immediately and delete all copies.<br>
+&nbsp;<br>
+-----Original Message-----<br>
+From: EMAIL-552<br>
+Subject: (prior subject)<br>
+&nbsp;<br>
+Year-end close planning: deferred treatment for any undelivered lots, consist=
+ent with the pilot-year approach. Will write up the position for the close fi=
+le once Q4 numbers land.<br>
+&nbsp;<br>
+Owen Larsen<br>
+Principal | Larsen Tax Advisory<br>
+olarsen@larsentaxadvisory.com<br>
+</div></body></html>
+
+--===============8791584645908330943==
+Content-Type: image/png
 Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.png"
+Content-ID: <image001.png@01D50F9918A.66773CA8>
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
+19iWl5imp6h2d3jGx8cUFxlUVVcFBggkJihKS03kxrnMiGxeYGEcHiCen6CfoKB/gIEeICJ0Tj5Y
+XWC/wMA/QEJ0UEG/fGDy5d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD06UnyAAAAQHRSTlP///////////////////////////////////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8wduJAAAASxJREFUeNrtlklyxCAMRTVLgO30mDn3v2ag
+etPOItlk4Xbp4aKwygs+X5IBSJIkSZIk2S8u+9CBpxn//OYRhLRpauuIEv0wKWzMRkTFb8ra5nTY
+3LFVaCnKaohewIqagofhGcGMLuzFvZyBTEBE3TcjpHitfcf3hozTvkTwYmHuQcxX7mZ0HwgKeWMK
+ix6nxi10K0K01npa18Ai5RrcJI5NhbiRGDVjAFl62gkXfouj8juxH7dT6nWq/Vkp0ehbN7aeRuRu
+LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
+9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
+AABJRU5ErkJggg==
+
+--===============8791584645908330943==--
+
+--===============4600298064883610050==--
+
+--===============7472818357628443808==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="NW-04_build.csv"
 MIME-Version: 1.0
 
-cGFyY2VsLGlucHV0LHN0YXR1cwpOVy0wNCxjbGFpbWVkX2FjLHByZWxpbWluYXJ5Cg==
+parcel,input,status
+NW-04,claimed_ac,preliminary
 
---===============9133013715655669717==--
+--===============7472818357628443808==--

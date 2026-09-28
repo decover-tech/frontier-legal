@@ -11,6 +11,7 @@ what they say). This tool does everything mechanical and checkable:
            [--dry-run]      print the rendered messages instead of writing
   rollback <THREAD_ID>      delete a rendered thread's files and manifest rows
   scan                      corpus-wide thread statistics (longest chains, broken links)
+  logos [--apply]           retrofit signature logos into generated docs (seed stays locked)
   people                    sender directory (org, mail client, signature, active window)
 
 Quoting, signatures, headers, Message-IDs, References chains, logos, and file placement are
@@ -177,7 +178,7 @@ def build_people(docs):
         dates = sorted(d.date for d in ds)
         people[addr] = {
             "name": name, "address": addr, "org": ORGS.get(addr.split("@")[-1], addr.split("@")[-1]),
-            "client": client_for(addr), "logo": addr in RULES["logo_senders"],
+            "client": client_for(addr), "logo": addr.split("@")[-1] in RULES["logo_domains"],
             "signature": sig, "custodian_folder": folder,
             "first_sent": dates[0].date().isoformat(), "last_sent": dates[-1].date().isoformat(),
             "sent_count": len(ds),
@@ -200,11 +201,48 @@ def build_people(docs):
     return people
 
 
-def logo_bytes(docs):
-    for d in sorted(docs.values(), key=lambda d: num(d.docid)):
-        if d.logo:
-            return d.logo
-    return None
+LOGO_DIR = os.path.join(os.path.dirname(__file__), "logos")
+CONTACT_RE = re.compile(r"^(?:.*\|\s*)?([\w.+-]+)@([\w.-]+)$")
+_logo_cache = {}
+
+
+def logo_for(domain):
+    fn = RULES["logo_domains"].get(domain)
+    if fn and fn not in _logo_cache:
+        _logo_cache[fn] = open(os.path.join(LOGO_DIR, fn), "rb").read()
+    return _logo_cache.get(fn)
+
+
+def html_with_logos(plain):
+    """HTML alternative of a plain body with an org logo after every matching signature
+    contact line (quoted layers included). Returns (html, [png bytes in cid order]) or (None, [])."""
+    import html as H
+    out, imgs, depth = [], [], 0
+    style = "margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex"
+    for line in plain.rstrip("\n").split("\n"):
+        m = re.match(r"^((?:> ?)*)(.*)$", line)
+        d = m.group(1).count(">")
+        content = m.group(2)
+        while depth < d:
+            out.append(f'<blockquote style="{style}">'); depth += 1
+        while depth > d:
+            out.append("</blockquote>"); depth -= 1
+        out.append((H.escape(content) or "&nbsp;") + "<br>")
+        c = CONTACT_RE.match(content.strip())
+        if c and not re.match(r"^(From|To|Cc|Sent|Date):", content.strip()) and \
+                c.group(1).lower() not in RULES["logo_excluded_mailboxes"]:
+            png = logo_for(c.group(2).lower())
+            if png:
+                n = len(imgs) + 1
+                imgs.append(png)
+                org = ORGS.get(c.group(2).lower(), "")
+                out.append(f'<img src="cid:{{CID{n}}}" alt="{H.escape(org)}" style="margin:4px 0"><br>')
+    out += ["</blockquote>"] * depth
+    if not imgs:
+        return None, []
+    body = "\n".join(out)
+    return ('<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>'
+            '<body><div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">\n' + body + "\n</div></body></html>"), imgs
 
 
 # ---------------------------------------------------------------- thread graph
@@ -421,6 +459,8 @@ def build(spec, docs, people, manifest):
 
         docid = f"EMAIL-{n}"
         n += 1
+        if docid in docs or docid in manifest:
+            err(key, f"{docid} is already used in the corpus/manifest — pick another start_docid")
         dom = sender["address"].split("@")[-1]
         msgid = f"<email-{num(docid)}.{dt.strftime('%Y%m%d%H%M')}@{dom}>"
         refs = (parent.refs or []) + [parent.msgid]
@@ -562,30 +602,61 @@ def chain_of(r, msgs):
 
 # ---------------------------------------------------------------- rendering
 
-def to_eml(m, logo):
+def build_mime(headers, plain, attachments):
+    """headers: list of (name, value) in order (no Content-*/MIME-Version)."""
     em = EmailMessage(policy=policy.default)
-    em["From"] = fmt_addr(m.from_name, m.from_addr)
-    em["To"] = ", ".join(fmt_addr(n, a) for n, a in m.to)
-    if m.cc:
-        em["Cc"] = ", ".join(fmt_addr(n, a) for n, a in m.cc)
-    em["Subject"] = m.subject
-    em["Message-ID"] = m.msgid
-    em["Date"] = format_datetime(m.date)
-    if m.refs:
-        em["In-Reply-To"] = m.refs[-1]
-        em["References"] = " ".join(m.refs)
-    em["X-Decover-DocID"] = m.docid
-    em.set_content(m.body, charset="utf-8", cte="quoted-printable")
-    if logo is not None:
-        cid = f"image001.png@{os.urandom(4).hex()}.{os.urandom(4).hex()}"
-        em.add_related(logo, "image", "png", cid=f"<{cid}>", filename="image001.png", disposition="inline")
-    for fn, ctype, data in m.attachments:
+    for k, v in headers:
+        em[k] = v
+    em.set_content(plain, charset="utf-8", cte="quoted-printable")
+    html, imgs = html_with_logos(plain)
+    if html:
+        tag = os.urandom(4).hex().upper() + "." + os.urandom(4).hex().upper()
+        cids = [f"image{n:03d}.png@01D{tag}" for n in range(1, len(imgs) + 1)]
+        for n, cid in enumerate(cids, 1):
+            html = html.replace(f"{{CID{n}}}", cid)
+        em.add_alternative(html, subtype="html", charset="utf-8", cte="quoted-printable")
+        hpart = em.get_payload()[1]
+        for n, (png, cid) in enumerate(zip(imgs, cids), 1):
+            hpart.add_related(png, "image", "png", cid=f"<{cid}>", filename=f"image{n:03d}.png", disposition="inline")
+    for fn, ctype, data in attachments:
         maintype, subtype = ctype.split("/", 1)
         if maintype == "text":
             em.add_attachment(data.decode("utf-8", "ignore"), subtype=subtype, filename=fn)
         else:
             em.add_attachment(data, maintype=maintype, subtype=subtype, filename=fn)
     return em.as_bytes(policy=policy.default.clone(linesep="\n"))
+
+
+def to_eml(m):
+    h = [("From", fmt_addr(m.from_name, m.from_addr)), ("To", ", ".join(fmt_addr(n, a) for n, a in m.to))]
+    if m.cc:
+        h.append(("Cc", ", ".join(fmt_addr(n, a) for n, a in m.cc)))
+    h += [("Subject", m.subject), ("Message-ID", m.msgid), ("Date", format_datetime(m.date))]
+    if m.refs:
+        h += [("In-Reply-To", m.refs[-1]), ("References", " ".join(m.refs))]
+    h.append(("X-Decover-DocID", m.docid))
+    return build_mime(h, m.body, m.attachments)
+
+
+def retrofit_logos(docs, apply):
+    """Rebuild generated docs (DocID > 250) so Outlook-org signatures carry logos. Headers and
+    plain text are preserved verbatim; old inline images are replaced; true attachments kept."""
+    changed = 0
+    for d in sorted(docs.values(), key=lambda d: num(d.docid)):
+        if num(d.docid) <= SEED_MAX:
+            continue
+        html, imgs = html_with_logos(d.body)
+        if not html and not d.logo:
+            continue
+        with open(d.path, "rb") as f:
+            m = email.message_from_binary_file(f, policy=policy.default)
+        hdrs = [(k, v) for k, v in m.items() if not k.lower().startswith("content-") and k.lower() != "mime-version"]
+        data = build_mime(hdrs, d.body, d.attachments)
+        changed += 1
+        if apply:
+            with open(d.path, "wb") as f:
+                f.write(data)
+    print(f"{'rewrote' if apply else 'would rewrite'} {changed} generated docs (seed EMAIL-001–{SEED_MAX:03d} untouched)")
 
 
 def manifest_row(r, docid, custodian, family, parent_docid, role):
@@ -607,7 +678,6 @@ def render(spec, docs, people, manifest, fields, dry):
     report_issues(issues)
     if any(i[0] == "ERROR" for i in issues):
         sys.exit("render aborted: fix ERRORs first")
-    logo = logo_bytes(docs)
     anchor = spec["anchor"]
     family = manifest.get(anchor, {}).get("family_id") or anchor
     files, rows = [], []
@@ -618,7 +688,7 @@ def render(spec, docs, people, manifest, fields, dry):
             (did, c, f"custodial duplicate of {m.docid}") for did, c in zip(r["dup_ids"], r["duplicates"])]
         for did, cust, role in copies:
             m.docid = did
-            data = to_eml(m, logo if r["sender"].get("logo") else None)
+            data = to_eml(m)
             path = os.path.join(CUSTODIANS, cust, f"{did}_{slug(m.subject)}.eml")
             if dry:
                 print(f"\n{'=' * 100}\n{os.path.relpath(path, ROOT)}\n{'=' * 100}")
@@ -635,7 +705,7 @@ def render(spec, docs, people, manifest, fields, dry):
     if dry:
         return
     with open(MANIFEST, "a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(fields))
+        w = csv.DictWriter(f, fieldnames=list(fields), lineterminator="\n")
         for row in rows:
             w.writerow(row)
     os.makedirs(WORKDIR, exist_ok=True)
@@ -687,7 +757,7 @@ def rollback(tid, fields):
     with open(MANIFEST, newline="", encoding="utf-8") as f:
         rows = [r for r in csv.DictReader(f) if not (r["document_id"] in ids and r["status"] == "thread-expansion")]
     with open(MANIFEST, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(fields))
+        w = csv.DictWriter(f, fieldnames=list(fields), lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
     os.remove(recp)
@@ -808,6 +878,8 @@ def main():
     r = sub.add_parser("render"); r.add_argument("spec"); r.add_argument("--dry-run", action="store_true")
     rb = sub.add_parser("rollback"); rb.add_argument("thread_id")
     sub.add_parser("scan")
+    lg = sub.add_parser("logos", help="retrofit signature logos into generated docs (DocID > 250)")
+    lg.add_argument("--apply", action="store_true")
     pp = sub.add_parser("people"); pp.add_argument("address", nargs="?")
     a = ap.parse_args()
 
@@ -815,6 +887,8 @@ def main():
     manifest, fields = load_manifest()
     if a.cmd == "scan":
         return scan(docs)
+    if a.cmd == "logos":
+        return retrofit_logos(docs, a.apply)
     if a.cmd == "rollback":
         return rollback(a.thread_id, fields)
     people = build_people(docs)

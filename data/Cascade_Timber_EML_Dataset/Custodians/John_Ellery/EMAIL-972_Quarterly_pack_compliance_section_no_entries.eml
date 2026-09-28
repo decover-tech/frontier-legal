@@ -5,9 +5,13 @@ Subject: Quarterly pack =?utf-8?b?4oCU?= compliance section (no entries)
 Message-ID: <email-972.202308271100@cascadetimber.com>
 X-Decover-DocID: EMAIL-972
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2099867301826068147=="
+Content-Type: multipart/mixed; boundary="===============1928795891174132708=="
 
---===============2099867301826068147==
+--===============1928795891174132708==
+Content-Type: multipart/alternative;
+ boundary="===============6680640906681633182=="
+
+--===============6680640906681633182==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -24,12 +28,64 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============2099867301826068147==
-Content-Type: text/plain
+--===============6680640906681633182==
+MIME-Version: 1.0
+Content-Type: multipart/related;
+ boundary="===============4563897502412489487=="
+
+--===============4563897502412489487==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
+t-size:11pt">
+Quarterly pack section attached =E2=80=94 compliance update with samples test=
+ed this quarter listed.<br>
+&nbsp;<br>
+Craig Sato<br>
+Controller<br>
+Cascade Timber Holdings, Inc.<br>
+1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
+(503) 555-0107 | csato@cascadetimber.com<br>
+<img src=3D"cid:image001.png@01DF7B3806D.016BD5AA" alt=3D"Cascade Timber Hold=
+ings, Inc." style=3D"margin:4px 0"><br>
+&nbsp;<br>
+This message and any attachments are confidential and may be protected by<br>
+legal privilege. If you are not the intended recipient, please notify the<br>
+sender immediately and delete all copies.<br>
+</div></body></html>
+
+--===============4563897502412489487==
+Content-Type: image/png
 Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.png"
+Content-ID: <image001.png@01DF7B3806D.016BD5AA>
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
+19iWl5imp6h2d3jGx8cUFxlUVVcFBggkJihKS03kxrnMiGxeYGEcHiCen6CfoKB/gIEeICJ0Tj5Y
+XWC/wMA/QEJ0UEG/fGDy5d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD06UnyAAAAQHRSTlP///////////////////////////////////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8wduJAAAASxJREFUeNrtlklyxCAMRTVLgO30mDn3v2ag
+etPOItlk4Xbp4aKwygs+X5IBSJIkSZIk2S8u+9CBpxn//OYRhLRpauuIEv0wKWzMRkTFb8ra5nTY
+3LFVaCnKaohewIqagofhGcGMLuzFvZyBTEBE3TcjpHitfcf3hozTvkTwYmHuQcxX7mZ0HwgKeWMK
+ix6nxi10K0K01npa18Ai5RrcJI5NhbiRGDVjAFl62gkXfouj8juxH7dT6nWq/Vkp0ehbN7aeRuRu
+LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
+9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
+AABJRU5ErkJggg==
+
+--===============4563897502412489487==--
+
+--===============6680640906681633182==--
+
+--===============1928795891174132708==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="qpack_compliance.txt"
 MIME-Version: 1.0
 
-UXVhcnRlcmx5IGNvbXBsaWFuY2Ugc2VjdGlvbi4gU2FtcGxlcyB0ZXN0ZWQ6IGxpc3RlZC4K
+Quarterly compliance section. Samples tested: listed.
 
---===============2099867301826068147==--
+--===============1928795891174132708==--

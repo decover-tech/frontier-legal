@@ -5,9 +5,13 @@ Subject: Recorder notice =?utf-8?b?4oCU?= parcel number cited (map required)
 Message-ID: <email-286.202308031610@cascadetimber.com>
 X-Decover-DocID: EMAIL-286
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2303124705421578214=="
+Content-Type: multipart/mixed; boundary="===============1198737779866914422=="
 
---===============2303124705421578214==
+--===============1198737779866914422==
+Content-Type: multipart/alternative;
+ boundary="===============7204117184005527002=="
+
+--===============7204117184005527002==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -24,13 +28,65 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============2303124705421578214==
-Content-Type: text/plain
+--===============7204117184005527002==
+MIME-Version: 1.0
+Content-Type: multipart/related;
+ boundary="===============0246176340910451508=="
+
+--===============0246176340910451508==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
+t-size:11pt">
+County notice attached =E2=80=94 cites a parcel number and a correction reque=
+st. Not mapping it to internal IDs here; pulling the filing to check.<br>
+&nbsp;<br>
+Hannah Cole<br>
+Land Records Administrator<br>
+Cascade Timber Holdings, Inc.<br>
+1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
+(503) 555-0111 | hcole@cascadetimber.com<br>
+<img src=3D"cid:image001.png@01DD0DE5041.3C6D24C6" alt=3D"Cascade Timber Hold=
+ings, Inc." style=3D"margin:4px 0"><br>
+&nbsp;<br>
+This message and any attachments are confidential and may be protected by<br>
+legal privilege. If you are not the intended recipient, please notify the<br>
+sender immediately and delete all copies.<br>
+</div></body></html>
+
+--===============0246176340910451508==
+Content-Type: image/png
 Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.png"
+Content-ID: <image001.png@01DD0DE5041.3C6D24C6>
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
+19iWl5imp6h2d3jGx8cUFxlUVVcFBggkJihKS03kxrnMiGxeYGEcHiCen6CfoKB/gIEeICJ0Tj5Y
+XWC/wMA/QEJ0UEG/fGDy5d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD06UnyAAAAQHRSTlP///////////////////////////////////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8wduJAAAASxJREFUeNrtlklyxCAMRTVLgO30mDn3v2ag
+etPOItlk4Xbp4aKwygs+X5IBSJIkSZIk2S8u+9CBpxn//OYRhLRpauuIEv0wKWzMRkTFb8ra5nTY
+3LFVaCnKaohewIqagofhGcGMLuzFvZyBTEBE3TcjpHitfcf3hozTvkTwYmHuQcxX7mZ0HwgKeWMK
+ix6nxi10K0K01npa18Ai5RrcJI5NhbiRGDVjAFl62gkXfouj8juxH7dT6nWq/Vkp0ehbN7aeRuRu
+LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
+9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
+AABJRU5ErkJggg==
+
+--===============0246176340910451508==--
+
+--===============7204117184005527002==--
+
+--===============1198737779866914422==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
 Content-Disposition: attachment; filename="recorder_notice.txt"
 MIME-Version: 1.0
 
-Q09VTlRZIE5PVElDRTogY29ycmVjdGlvbiByZXF1ZXN0ZWQuIFBhcmNlbCBuby4gY2l0ZWQgKGNv
-dW50eSBzeXN0ZW0pLiBNYXBwaW5nIHJlcXVpcmVzIHRoZSBmaWxlZCByZWNvcmQuCg==
+COUNTY NOTICE: correction requested. Parcel no. cited (county system). Mappin=
+g requires the filed record.
 
---===============2303124705421578214==--
+--===============1198737779866914422==--

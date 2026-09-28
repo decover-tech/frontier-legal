@@ -15,9 +15,9 @@ joins across several documents. All companies, people and events are fictional.
 
 | | |
 |---|---|
-| Documents rendered | 850 RFC 5322 `.eml` (250 seed plus 600 generated in batches 1–6) |
-| Documents planned | 1,400 (`DOCUMENT_MANIFEST.csv`) |
-| Time span | Nov 2021 – Sep 2023 (generated batches currently end 27 Mar 2023) |
+| Documents rendered | 1,454 RFC 5322 `.eml` (250 seed, 1,150 generated in batches, 54 in 4 long threads from `thread_kit`) |
+| Documents planned | 1,454 (`DOCUMENT_MANIFEST.csv`; thread rows have `status=thread-expansion`) |
+| Time span | Nov 2021 – Sep 2023 |
 | Custodians | 26 mailboxes |
 | Organizations | Cascade Timber (client), Alder Point Partners (administrator), Bellhaven Advisory (broker), L&L Associates (outside counsel), GreenAcre (surveyor), Moss & Lane (auditors), IRS, consultants, buyers |
 | Labels | Seed documents only: 1 review tag each, plus privileged and PII flags |
@@ -44,6 +44,13 @@ joins across several documents. All companies, people and events are fictional.
   quoting follows each sender's mail client (Outlook or Gmail), each organization has its own
   signature, time zones follow daylight saving, and about a third of the corpus is routine
   noise, decoys and near-duplicates.
+- **Long threads, not just pairs.** Four expanded threads (THR-001–004) run 12–14 messages
+  each, with forks, reply-alls that add or drop people, side forwards and unanswered
+  questions. The longest reply chain is 12 deep.
+- **Signature logos.** Outlook-style orgs (Cascade Timber, L&L, Moss & Lane, Whitaker) carry
+  an inline logo in an HTML part, and quoted signatures keep theirs, so long threads pile up
+  `image001.png`, `image002.png` and so on. Inline logos aren't counted as attachments. The
+  seed keeps its original structure.
 
 ## Layout
 
@@ -64,6 +71,9 @@ CONTINUITY_BATCH0N.md                 # per-batch QA reports
 MATTER_AGENT_TASKS.md                 # taxonomy of 18 investigation tasks
 Cascade_Timber_EML_Dataset_Plan.md    # spec for threading, signatures and doctrine chains
 suggestions.md                        # training-value assessment and top fixes
+tools/thread_kit/                     # thread expander: context, validate, render, rollback, scan, logos
+  rules.json                          # knowledge cutoffs, participant windows, logo orgs (AUTHORING ONLY)
+  logos/                              # org logos (full size + signature size)
 ```
 
 ## Supervision available today
@@ -111,7 +121,9 @@ don't depend on them.
   don't appear in the corpus.
 - **Workbook search queries and chronology are stale.** They cover only EMAIL-001–030.
 - **Emails are short and convenient.** Replies average about 32 new words, and some
-  admissions are too tidy (e.g. "keep this between us").
+  admissions are too tidy (e.g. "keep this between us"). The `thread_kit` threads push back
+  on this: they have longer replies, a validator that flags tidy admissions, and hedged
+  readings that stay open.
 - **Generation isn't reproducible.** No generator or model versions or file hashes are
   recorded.
 
@@ -130,8 +142,10 @@ don't depend on them.
 
 ## Status and roadmap
 
-- Batches 1–6 are done (850 of 1,400 documents). Batches 7 onward cover the period after the
-  subpoena, through September 2023.
+- All 1,400 planned documents are rendered. Thread expansion has added 54 more: THR-001
+  Clearwater scouting (EMAIL-1401–1412), THR-002 Bellhaven registration (1421–1434), THR-003
+  Q4 push-through (1441–1454) and THR-004 the $2.4M estimate (1461–1474). Their specs and
+  reports are in `Logs/threads/`.
 - The top fixes for training readiness, from `suggestions.md`:
   1. Move labels out of the headers.
   2. Write 150–200 examples reviewed by experts, with multi-label responsiveness, privilege

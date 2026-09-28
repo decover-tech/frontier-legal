@@ -5,14 +5,17 @@ Message-ID: <email-341.202201241735@cascadetimber.com>
 In-Reply-To: <email-383.202201200935@alderpointpartners.com>
 References: <email-383.202201200935@alderpointpartners.com>
 X-Decover-DocID: EMAIL-341
-MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8726217716232397713=="
 To: GreenAcre Land Survey Co. <surveys@greenacresurvey.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3841923317355460261=="
 
---===============8726217716232397713==
+--===============3841923317355460261==
+Content-Type: multipart/alternative;
+ boundary="===============3986689347227846745=="
+
+--===============3986689347227846745==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
-MIME-Version: 1.0
 
 Pre-submission checklist for NW-06: county filing pulled, field notes request=
 ed, option draft in progress. Missing the survey overlay =E2=80=94 chasing th=
@@ -36,13 +39,77 @@ County notice attached =E2=80=94 cites a parcel number and a correction reque=
 st. I'm not mapping it to our internal parcel IDs here; pulling the filing to=
  check.
 
---===============8726217716232397713==
-Content-Type: text/plain
+--===============3986689347227846745==
+MIME-Version: 1.0
+Content-Type: multipart/related;
+ boundary="===============1146666161033344123=="
+
+--===============1146666161033344123==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
+t-size:11pt">
+Pre-submission checklist for NW-06: county filing pulled, field notes request=
+ed, option draft in progress. Missing the survey overlay =E2=80=94 chasing th=
+at this week. Nothing filed yet.<br>
+&nbsp;<br>
+Hannah Cole<br>
+Land Records Administrator<br>
+Cascade Timber Holdings, Inc.<br>
+1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
+(503) 555-0111 | hcole@cascadetimber.com<br>
+<img src=3D"cid:image001.png@01D26EE1E48.A38EDEAA" alt=3D"Cascade Timber Hold=
+ings, Inc." style=3D"margin:4px 0"><br>
+&nbsp;<br>
+This message and any attachments are confidential and may be protected by<br>
+legal privilege. If you are not the intended recipient, please notify the<br>
+sender immediately and delete all copies.<br>
+&nbsp;<br>
+-----Original Message-----<br>
+From: EMAIL-383<br>
+Subject: (prior subject)<br>
+&nbsp;<br>
+County notice attached =E2=80=94 cites a parcel number and a correction reque=
+st. I&#x27;m not mapping it to our internal parcel IDs here; pulling the fili=
+ng to check.<br>
+</div></body></html>
+
+--===============1146666161033344123==
+Content-Type: image/png
 Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.png"
+Content-ID: <image001.png@01D26EE1E48.A38EDEAA>
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
+19iWl5imp6h2d3jGx8cUFxlUVVcFBggkJihKS03kxrnMiGxeYGEcHiCen6CfoKB/gIEeICJ0Tj5Y
+XWC/wMA/QEJ0UEG/fGDy5d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD06UnyAAAAQHRSTlP///////////////////////////////////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8wduJAAAASxJREFUeNrtlklyxCAMRTVLgO30mDn3v2ag
+etPOItlk4Xbp4aKwygs+X5IBSJIkSZIk2S8u+9CBpxn//OYRhLRpauuIEv0wKWzMRkTFb8ra5nTY
+3LFVaCnKaohewIqagofhGcGMLuzFvZyBTEBE3TcjpHitfcf3hozTvkTwYmHuQcxX7mZ0HwgKeWMK
+ix6nxi10K0K01npa18Ai5RrcJI5NhbiRGDVjAFl62gkXfouj8juxH7dT6nWq/Vkp0ehbN7aeRuRu
+LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
+9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
+AABJRU5ErkJggg==
+
+--===============1146666161033344123==--
+
+--===============3986689347227846745==--
+
+--===============3841923317355460261==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="NW-06_checklist.txt"
 MIME-Version: 1.0
 
-Q0hFQ0tMSVNUIE5XLTA2Clt4XSBjb3VudHkgZmlsaW5nIHB1bGxlZApbIF0gc3VydmV5IG92ZXJs
-YXkKWyBdIG9wdGlvbiBkcmFmdApbIF0gYXBwbGljYXRpb24gKG5vdCBmaWxlZCkK
+CHECKLIST NW-06
+[x] county filing pulled
+[ ] survey overlay
+[ ] option draft
+[ ] application (not filed)
 
---===============8726217716232397713==--
+--===============3841923317355460261==--

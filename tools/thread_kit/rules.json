@@ -1,58 +1,271 @@
 {
   "_doc": "Knowledge-cutoff and participant rules for thread expansion. Dates are the earliest day a term/participant may appear (not_before) or the last day a person may SEND (not_after). Anchors cite CASE_BIBLE.md sections / seed DocIDs. Scanned against subject + new body + new attachment text of every generated message.",
   "terms": [
-    {"pattern": "\\bwhistle-?blower", "not_before": "2023-02-20", "anchor": "EMAIL-019 (bible §0)"},
-    {"pattern": "\\bsubpoena", "not_before": "2023-05-23", "anchor": "EMAIL-023"},
-    {"pattern": "\\b(legal|litigation|document) hold\\b", "not_before": "2023-05-26", "anchor": "EMAIL-206 pre-hold prep; hold issued 6/13 (024)"},
-    {"pattern": "\\bL&L\\b|L&L Associates|llassociates", "not_before": "2023-02-24", "anchor": "EMAIL-021 engagement"},
-    {"pattern": "\\b(Grace Lin|Mia Chen|Alan Brooks)\\b", "not_before": "2023-02-24", "anchor": "EMAIL-021"},
-    {"pattern": "\\bwork[- ]product\\b", "not_before": "2023-02-24", "anchor": "WP trigger default 2/24/23 (bible §0; 020 note)"},
-    {"pattern": "\\bWhitaker\\b|whitakerforensic", "not_before": "2023-07-27", "anchor": "EMAIL-137 Kovel engagement"},
-    {"pattern": "\\bKovel\\b", "not_before": "2023-07-27", "anchor": "EMAIL-137/138"},
-    {"pattern": "\\bUpjohn\\b", "not_before": "2023-07-18", "anchor": "EMAIL-120"},
-    {"pattern": "\\$\\s?512\\s?K|\\$512,000|\\b181 (ac|acres)\\b", "not_before": "2023-08-14", "anchor": "EMAIL-140"},
-    {"pattern": "\\$\\s?2\\.4\\s?M|\\$2,400,000", "not_before": "2023-05-24", "anchor": "EMAIL-205 (136 controls)"},
-    {"pattern": "\\b(placement|program|marketing) pause\\b|\\bpause (memo|recommendation|advice)\\b", "not_before": "2022-10-04", "anchor": "EMAIL-012 pause advice"},
-    {"pattern": "\\bboard (resolution|action)\\b.{0,60}\\bpause|\\bpause\\b.{0,60}\\bboard (resolution|action)\\b", "not_before": "2023-06-27", "anchor": "EMAIL-030 leadership pause; 171/172 board"},
-    {"pattern": "\\bKevin Tran\\b|\\bTran\\b|irs\\.gov", "not_before": "2023-05-23", "anchor": "EMAIL-023 subpoena"},
-    {"pattern": "\\b(IRS|Service'?s?) (inquiry|examination|exam)\\b", "not_before": "2023-05-23", "anchor": "EMAIL-023"},
-    {"pattern": "\\bexam(ination)? (is )?(now )?open", "not_before": "2023-09-01", "anchor": "EMAIL-162"},
-    {"pattern": "(registration|renewal)[^.]{0,80}\\bfinali[sz]ed\\b|\\bfinali[sz]ed\\b[^.]{0,80}(registration|renewal)", "not_before": "2022-12-20", "anchor": "EMAIL-045 (DISPUTED)"},
-    {"pattern": "\\broutine review\\b", "not_before": "2023-06-29", "anchor": "EMAIL-067"},
-    {"pattern": "\\bMar(ch)?[- ]10 (record|call|intake)", "not_before": "2023-03-10", "anchor": "EMAIL-163/164"},
-    {"pattern": "\\bprivilege log\\b", "not_before": "2023-05-23", "anchor": "post-subpoena only (158 is first seed use)"},
-    {"pattern": "\\bD&O\\b", "not_before": "2023-04-03", "anchor": "EMAIL-167"},
-    {"pattern": "\\bdownside[- ]case\\b", "not_before": "2023-04-04", "anchor": "EMAIL-169/170"},
-    {"pattern": "\\bTAR\\b|technology[- ]assisted review", "not_before": "2023-06-01", "anchor": "EMAIL-026/027 (June 2023)"},
-    {"pattern": "\\bClearwater\\b|Route[- ]97", "not_before": "2022-03-16", "anchor": "EMAIL-176 Nina lead"},
-    {"pattern": "\\bKW-0[12]\\b", "not_before": "2022-03-17", "anchor": "Arc J guard: KW records strictly after 3/16/22"},
-    {"pattern": "(Clearwater|KW-0[12])[\\s\\S]{0,300}\\bintent\\b|\\bintent\\b[\\s\\S]{0,300}(Clearwater|KW-0[12])", "not_before": "2023-08-16", "anchor": "EMAIL-141 'may cut against us on intent'"},
-    {"pattern": "GreenAcre[^.]{0,60}\\b(finding|findings|results|discrepanc)", "not_before": "2022-03-15", "anchor": "EMAIL-039 findings dated 3/15/22"},
-    {"pattern": "\\bre-?survey\\b[^.]{0,80}Klamath|Klamath[^.]{0,80}\\bre-?survey\\b", "not_before": "2022-04-01", "anchor": "Klamath re-survey is post-application (121); no pre-April-2022 mentions"}
+    {
+      "pattern": "\\bwhistle-?blower",
+      "not_before": "2023-02-20",
+      "anchor": "EMAIL-019 (bible §0)"
+    },
+    {
+      "pattern": "\\bsubpoena",
+      "not_before": "2023-05-23",
+      "anchor": "EMAIL-023"
+    },
+    {
+      "pattern": "\\b(legal|litigation|document) hold\\b",
+      "not_before": "2023-05-26",
+      "anchor": "EMAIL-206 pre-hold prep; hold issued 6/13 (024)"
+    },
+    {
+      "pattern": "\\bL&L\\b|L&L Associates|llassociates",
+      "not_before": "2023-02-24",
+      "anchor": "EMAIL-021 engagement"
+    },
+    {
+      "pattern": "\\b(Grace Lin|Mia Chen|Alan Brooks)\\b",
+      "not_before": "2023-02-24",
+      "anchor": "EMAIL-021"
+    },
+    {
+      "pattern": "\\bwork[- ]product\\b",
+      "not_before": "2023-02-24",
+      "anchor": "WP trigger default 2/24/23 (bible §0; 020 note)"
+    },
+    {
+      "pattern": "\\bWhitaker\\b|whitakerforensic",
+      "not_before": "2023-07-27",
+      "anchor": "EMAIL-137 Kovel engagement"
+    },
+    {
+      "pattern": "\\bKovel\\b",
+      "not_before": "2023-07-27",
+      "anchor": "EMAIL-137/138"
+    },
+    {
+      "pattern": "\\bUpjohn\\b",
+      "not_before": "2023-07-18",
+      "anchor": "EMAIL-120"
+    },
+    {
+      "pattern": "\\$\\s?512\\s?K|\\$512,000|\\b181 (ac|acres)\\b",
+      "not_before": "2023-08-14",
+      "anchor": "EMAIL-140"
+    },
+    {
+      "pattern": "\\$\\s?2\\.4\\s?M|\\$2,400,000",
+      "not_before": "2023-05-24",
+      "anchor": "EMAIL-205 (136 controls)"
+    },
+    {
+      "pattern": "\\b(placement|program|marketing) pause\\b|\\bpause (memo|recommendation|advice)\\b",
+      "not_before": "2022-10-04",
+      "anchor": "EMAIL-012 pause advice"
+    },
+    {
+      "pattern": "\\bboard (resolution|action)\\b.{0,60}\\bpause|\\bpause\\b.{0,60}\\bboard (resolution|action)\\b",
+      "not_before": "2023-06-27",
+      "anchor": "EMAIL-030 leadership pause; 171/172 board"
+    },
+    {
+      "pattern": "\\bKevin Tran\\b|\\bTran\\b|irs\\.gov",
+      "not_before": "2023-05-23",
+      "anchor": "EMAIL-023 subpoena"
+    },
+    {
+      "pattern": "\\b(IRS|Service'?s?) (inquiry|examination|exam)\\b",
+      "not_before": "2023-05-23",
+      "anchor": "EMAIL-023"
+    },
+    {
+      "pattern": "\\bexam(ination)? (is )?(now )?open",
+      "not_before": "2023-09-01",
+      "anchor": "EMAIL-162"
+    },
+    {
+      "pattern": "(registration|renewal)[^.]{0,80}\\bfinali[sz]ed\\b|\\bfinali[sz]ed\\b[^.]{0,80}(registration|renewal)",
+      "not_before": "2022-12-20",
+      "anchor": "EMAIL-045 (DISPUTED)"
+    },
+    {
+      "pattern": "\\broutine review\\b",
+      "not_before": "2023-06-29",
+      "anchor": "EMAIL-067"
+    },
+    {
+      "pattern": "\\bMar(ch)?[- ]10 (record|call|intake)",
+      "not_before": "2023-03-10",
+      "anchor": "EMAIL-163/164"
+    },
+    {
+      "pattern": "\\bprivilege log\\b",
+      "not_before": "2023-05-23",
+      "anchor": "post-subpoena only (158 is first seed use)"
+    },
+    {
+      "pattern": "\\bD&O\\b",
+      "not_before": "2023-04-03",
+      "anchor": "EMAIL-167"
+    },
+    {
+      "pattern": "\\bdownside[- ]case\\b",
+      "not_before": "2023-04-04",
+      "anchor": "EMAIL-169/170"
+    },
+    {
+      "pattern": "\\bTAR\\b|technology[- ]assisted review",
+      "not_before": "2023-06-01",
+      "anchor": "EMAIL-026/027 (June 2023)"
+    },
+    {
+      "pattern": "\\bClearwater\\b|Route[- ]97",
+      "not_before": "2022-03-16",
+      "anchor": "EMAIL-176 Nina lead"
+    },
+    {
+      "pattern": "\\bKW-0[12]\\b",
+      "not_before": "2022-03-17",
+      "anchor": "Arc J guard: KW records strictly after 3/16/22"
+    },
+    {
+      "pattern": "(Clearwater|KW-0[12])[\\s\\S]{0,300}\\bintent\\b|\\bintent\\b[\\s\\S]{0,300}(Clearwater|KW-0[12])",
+      "not_before": "2023-08-16",
+      "anchor": "EMAIL-141 'may cut against us on intent'"
+    },
+    {
+      "pattern": "GreenAcre[^.]{0,60}\\b(finding|findings|results|discrepanc)",
+      "not_before": "2022-03-15",
+      "anchor": "EMAIL-039 findings dated 3/15/22"
+    },
+    {
+      "pattern": "\\bre-?survey\\b[^.]{0,80}Klamath|Klamath[^.]{0,80}\\bre-?survey\\b",
+      "not_before": "2022-04-01",
+      "anchor": "Klamath re-survey is post-application (121); no pre-April-2022 mentions"
+    }
   ],
   "never": [
-    {"pattern": "\\bjoint[- ]defen[cs]e (agreement|memo|privilege)\\b", "reason": "bible §5d / Arc I: joint-defense is absent by design; shown by gaps, never a memo"},
-    {"pattern": "\\bwhistle-?blower\\b[^.]{0,80}\\b(is|was) (Hannah|Nina|Tom)\\b", "reason": "Arc G: identity stays UNKNOWN (3-live pool); no sole-ID confession"}
+    {
+      "pattern": "\\bjoint[- ]defen[cs]e (agreement|memo|privilege)\\b",
+      "reason": "bible §5d / Arc I: joint-defense is absent by design; shown by gaps, never a memo"
+    },
+    {
+      "pattern": "\\bwhistle-?blower\\b[^.]{0,80}\\b(is|was) (Hannah|Nina|Tom)\\b",
+      "reason": "Arc G: identity stays UNKNOWN (3-live pool); no sole-ID confession"
+    }
   ],
   "participants": [
-    {"address_pattern": "@llassociates\\.com$", "not_before": "2023-02-24", "anchor": "EMAIL-021"},
-    {"address_pattern": "^dwhitaker@", "not_before": "2023-07-27", "anchor": "EMAIL-137"},
-    {"address_pattern": "@irs\\.gov$", "not_before": "2023-05-23", "anchor": "EMAIL-023"},
-    {"address_pattern": "@northstar-comms\\.com$", "not_before": "2023-06-27", "anchor": "PR consultant enters with pause messaging (146-149)"},
-    {"address_pattern": "@bellhavenadvisory\\.com$", "not_before": "2022-01-01", "anchor": "pre-engagement contact OK; placements only after 9/2/22 (008)"}
+    {
+      "address_pattern": "@llassociates\\.com$",
+      "not_before": "2023-02-24",
+      "anchor": "EMAIL-021"
+    },
+    {
+      "address_pattern": "^dwhitaker@",
+      "not_before": "2023-07-27",
+      "anchor": "EMAIL-137"
+    },
+    {
+      "address_pattern": "@irs\\.gov$",
+      "not_before": "2023-05-23",
+      "anchor": "EMAIL-023"
+    },
+    {
+      "address_pattern": "@northstar-comms\\.com$",
+      "not_before": "2023-06-27",
+      "anchor": "PR consultant enters with pause messaging (146-149)"
+    },
+    {
+      "address_pattern": "@bellhavenadvisory\\.com$",
+      "not_before": "2022-01-01",
+      "anchor": "pre-engagement contact OK; placements only after 9/2/22 (008)"
+    }
   ],
   "senders": [
-    {"address": "nalvarez@alderpointpartners.com", "not_after": "2023-06-30", "reason": "Nina departed 6/30/23 (059/061/082/198); mailbox administered by CTH IT/HR"}
+    {
+      "address": "nalvarez@alderpointpartners.com",
+      "not_after": "2023-06-30",
+      "reason": "Nina departed 6/30/23 (059/061/082/198); mailbox administered by CTH IT/HR"
+    }
   ],
-  "outside_parties": ["@alderpointpartners.com", "@bellhavenadvisory.com", "@greenacresurvey.com", "@bluerivercap.com", "@cppension.org", "@willamettefh.com", "@northforkef.com", "@irs.gov", "@mosslane-cpa.com", "@larsentaxadvisory.com"],
+  "outside_parties": [
+    "@alderpointpartners.com",
+    "@bellhavenadvisory.com",
+    "@greenacresurvey.com",
+    "@bluerivercap.com",
+    "@cppension.org",
+    "@willamettefh.com",
+    "@northforkef.com",
+    "@irs.gov",
+    "@mosslane-cpa.com",
+    "@larsentaxadvisory.com"
+  ],
   "privilege_note": "Outside parties on a privileged-bannered message usually vitiate privilege. Northstar (PR) and Whitaker (Kovel via L&L) and Larsen/Kim are path-dependent — flagged, not blocked (see bible §10).",
-  "known_figures": ["$6.8M", "$1.4M", "$4.55M", "$2.25M", "$2.4M", "$2.40M", "$512K", "$1.9M", "$400K", "$2.1M", "$8K", "$18,500", "$18.5K", "$6,400", "$6.1M", "$590K", "$520K", "$620K", "$580K", "$550K", "$640K", "$560K", "$490K"],
-  "known_parcels": ["NW-01", "NW-02", "NW-03", "NW-04", "NW-05", "NW-06", "NW-07", "NW-08", "KW-01", "KW-02"],
-  "tidy_admissions": ["keep this between us", "delete this", "don't put this in writing", "we knew all along", "cover this up", "for the record"],
-  "logo_senders": ["emarlowe@cascadetimber.com", "rdenniston@cascadetimber.com", "jellery@cascadetimber.com", "fdelgado@cascadetimber.com"],
-  "outlook_domains": ["cascadetimber.com", "llassociates.com", "irs.gov", "mosslane-cpa.com", "whitakerforensic.com", "cppension.org"],
+  "known_figures": [
+    "$6.8M",
+    "$1.4M",
+    "$4.55M",
+    "$2.25M",
+    "$2.4M",
+    "$2.40M",
+    "$512K",
+    "$1.9M",
+    "$400K",
+    "$2.1M",
+    "$8K",
+    "$18,500",
+    "$18.5K",
+    "$6,400",
+    "$6.1M",
+    "$590K",
+    "$520K",
+    "$620K",
+    "$580K",
+    "$550K",
+    "$640K",
+    "$560K",
+    "$490K"
+  ],
+  "known_parcels": [
+    "NW-01",
+    "NW-02",
+    "NW-03",
+    "NW-04",
+    "NW-05",
+    "NW-06",
+    "NW-07",
+    "NW-08",
+    "KW-01",
+    "KW-02"
+  ],
+  "tidy_admissions": [
+    "keep this between us",
+    "delete this",
+    "don't put this in writing",
+    "we knew all along",
+    "cover this up",
+    "for the record"
+  ],
+  "outlook_domains": [
+    "cascadetimber.com",
+    "llassociates.com",
+    "irs.gov",
+    "mosslane-cpa.com",
+    "whitakerforensic.com",
+    "cppension.org"
+  ],
   "banners": {
     "acp": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***",
     "wp": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY WORK PRODUCT ***"
-  }
+  },
+  "logo_domains": {
+    "cascadetimber.com": "sig_cascadetimber.png",
+    "llassociates.com": "sig_llassociates.png",
+    "mosslane-cpa.com": "sig_mosslane.png",
+    "whitakerforensic.com": "sig_whitaker.png"
+  },
+  "_logo_doc": "Outlook-style orgs carry a signature logo (inline cid image in an HTML alternative). Placed after the contact line of every matching signature in the body, including quoted layers. Broadcast mailboxes excluded. Seed EMAIL-001-250 are never retrofitted.",
+  "logo_excluded_mailboxes": [
+    "hr",
+    "facilities",
+    "it-notifications"
+  ]
 }

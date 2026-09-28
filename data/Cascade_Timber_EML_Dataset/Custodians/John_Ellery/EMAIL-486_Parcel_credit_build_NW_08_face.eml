@@ -5,9 +5,13 @@ Subject: Parcel credit build =?utf-8?b?4oCU?= NW-08 (face)
 Message-ID: <email-486.202308091415@cascadetimber.com>
 X-Decover-DocID: EMAIL-486
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============0713186750048924277=="
+Content-Type: multipart/mixed; boundary="===============0036479047253651649=="
 
---===============0713186750048924277==
+--===============0036479047253651649==
+Content-Type: multipart/alternative;
+ boundary="===============0526714615770669458=="
+
+--===============0526714615770669458==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -24,12 +28,65 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============0713186750048924277==
-Content-Type: text/csv
+--===============0526714615770669458==
+MIME-Version: 1.0
+Content-Type: multipart/related;
+ boundary="===============4587159822051512110=="
+
+--===============4587159822051512110==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
+t-size:11pt">
+Build computation attached for review =E2=80=94 inputs flagged where the scan=
+ was hard to read.<br>
+&nbsp;<br>
+Robert Denniston<br>
+Chief Financial Officer<br>
+Cascade Timber Holdings, Inc.<br>
+1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
+(503) 555-0102 | rdenniston@cascadetimber.com<br>
+<img src=3D"cid:image001.png@01D521F37D6.E2F37031" alt=3D"Cascade Timber Hold=
+ings, Inc." style=3D"margin:4px 0"><br>
+&nbsp;<br>
+This message and any attachments are confidential and may be protected by<br>
+legal privilege. If you are not the intended recipient, please notify the<br>
+sender immediately and delete all copies.<br>
+</div></body></html>
+
+--===============4587159822051512110==
+Content-Type: image/png
 Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.png"
+Content-ID: <image001.png@01D521F37D6.E2F37031>
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
+19iWl5imp6h2d3jGx8cUFxlUVVcFBggkJihKS03kxrnMiGxeYGEcHiCen6CfoKB/gIEeICJ0Tj5Y
+XWC/wMA/QEJ0UEG/fGDy5d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD06UnyAAAAQHRSTlP///////////////////////////////////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8wduJAAAASxJREFUeNrtlklyxCAMRTVLgO30mDn3v2ag
+etPOItlk4Xbp4aKwygs+X5IBSJIkSZIk2S8u+9CBpxn//OYRhLRpauuIEv0wKWzMRkTFb8ra5nTY
+3LFVaCnKaohewIqagofhGcGMLuzFvZyBTEBE3TcjpHitfcf3hozTvkTwYmHuQcxX7mZ0HwgKeWMK
+ix6nxi10K0K01npa18Ai5RrcJI5NhbiRGDVjAFl62gkXfouj8juxH7dT6nWq/Vkp0ehbN7aeRuRu
+LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
+9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
+AABJRU5ErkJggg==
+
+--===============4587159822051512110==--
+
+--===============0526714615770669458==--
+
+--===============0036479047253651649==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="NW-02_build.csv"
 MIME-Version: 1.0
 
-cGFyY2VsLGlucHV0LHN0YXR1cwpOVy0wMixjbGFpbWVkX2FjLHByZWxpbWluYXJ5Cg==
+parcel,input,status
+NW-02,claimed_ac,preliminary
 
---===============0713186750048924277==--
+--===============0036479047253651649==--

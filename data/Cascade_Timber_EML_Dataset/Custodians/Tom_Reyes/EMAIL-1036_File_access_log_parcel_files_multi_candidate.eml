@@ -5,9 +5,13 @@ Subject: File-access log =?utf-8?b?4oCU?= parcel files (multi-candidate)
 Message-ID: <email-1036.202309151310@cascadetimber.com>
 X-Decover-DocID: EMAIL-1036
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8079452670534147361=="
+Content-Type: multipart/mixed; boundary="===============4220549077876471225=="
 
---===============8079452670534147361==
+--===============4220549077876471225==
+Content-Type: multipart/alternative;
+ boundary="===============4718279378862516366=="
+
+--===============4718279378862516366==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -24,12 +28,65 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============8079452670534147361==
-Content-Type: text/csv
+--===============4718279378862516366==
+MIME-Version: 1.0
+Content-Type: multipart/related;
+ boundary="===============4740383884371127426=="
+
+--===============4740383884371127426==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
+t-size:11pt">
+File-access record attached showing which parcel files were touched and when.=
+ Multiple custodians appear; no conclusions drawn.<br>
+&nbsp;<br>
+Sarah Nguyen<br>
+Chief Compliance Officer<br>
+Cascade Timber Holdings, Inc.<br>
+1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
+(503) 555-0104 | snguyen@cascadetimber.com<br>
+<img src=3D"cid:image001.png@01D97D023BA.D1CC6E1F" alt=3D"Cascade Timber Hold=
+ings, Inc." style=3D"margin:4px 0"><br>
+&nbsp;<br>
+This message and any attachments are confidential and may be protected by<br>
+legal privilege. If you are not the intended recipient, please notify the<br>
+sender immediately and delete all copies.<br>
+</div></body></html>
+
+--===============4740383884371127426==
+Content-Type: image/png
 Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.png"
+Content-ID: <image001.png@01D97D023BA.D1CC6E1F>
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
+19iWl5imp6h2d3jGx8cUFxlUVVcFBggkJihKS03kxrnMiGxeYGEcHiCen6CfoKB/gIEeICJ0Tj5Y
+XWC/wMA/QEJ0UEG/fGDy5d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD06UnyAAAAQHRSTlP///////////////////////////////////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8wduJAAAASxJREFUeNrtlklyxCAMRTVLgO30mDn3v2ag
+etPOItlk4Xbp4aKwygs+X5IBSJIkSZIk2S8u+9CBpxn//OYRhLRpauuIEv0wKWzMRkTFb8ra5nTY
+3LFVaCnKaohewIqagofhGcGMLuzFvZyBTEBE3TcjpHitfcf3hozTvkTwYmHuQcxX7mZ0HwgKeWMK
+ix6nxi10K0K01npa18Ai5RrcJI5NhbiRGDVjAFl62gkXfouj8juxH7dT6nWq/Vkp0ehbN7aeRuRu
+LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
+9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
+AABJRU5ErkJggg==
+
+--===============4740383884371127426==--
+
+--===============4718279378862516366==--
+
+--===============4220549077876471225==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="file_access_log.csv"
 MIME-Version: 1.0
 
-ZmlsZSxhY2Nlc3NvcixkYXRlCihwYXJjZWwgZmlsZXM7IG11bHRpcGxlIGN1c3RvZGlhbnMpCg==
+file,accessor,date
+(parcel files; multiple custodians)
 
---===============8079452670534147361==--
+--===============4220549077876471225==--
