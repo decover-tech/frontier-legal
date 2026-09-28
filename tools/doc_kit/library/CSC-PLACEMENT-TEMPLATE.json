@@ -1,0 +1,219 @@
+{
+  "doc_id": "CSC-PLACEMENT-TEMPLATE",
+  "title": "Coastal Solar Credit Placement Agreement (Template)",
+  "type": "contract",
+  "org": "",
+  "parcels": [],
+  "arc": "C",
+  "doc_control": "APP-CPT template (Program Administration draft)",
+  "figures_ok": [
+    "$1.00",
+    "$0.",
+    "$0",
+    "$0.88",
+    "$0.93"
+  ],
+  "vars": {
+    "price": "$0.[__] per $1.00 of Face Amount",
+    "law": "[California] [Oregon] — Legal to confirm",
+    "elig_text": "[Seller eligibility representation — scope to be confirmed by Legal. Consider tying to the Program marketing materials and the Administrator's eligibility screening.]",
+    "remedy_text": "[Remedies — TBD. Purchaser's remedy if any Credit is disallowed to be discussed with Legal; placeholder only.]",
+    "jurisdiction_text": "[Reserved.]",
+    "delivery_days": "[__]"
+  },
+  "content": {
+    "letterhead": {
+      "name": "Alder Point Partners",
+      "lines": "Coastal Solar Credit Program — Program Administration | Sacramento, California"
+    },
+    "subtitle": "DRAFT — terms preliminary; subject to Legal review before use",
+    "preamble": [
+      "This Coastal Solar Credit Placement Agreement (this “Agreement”) is entered into as of [__________], 2022 (the “Effective Date”), by and between Cascade Timber Holdings, Inc., an Oregon corporation with offices at 1200 Forest Park Way, Suite 900, Portland, Oregon 97209 (“Seller”), acting through Alder Point Partners, with offices in Sacramento, California, as administrator of the Coastal Solar Credit Program (“Administrator”), and [PURCHASER NAME], a [__________] with offices at [__________] (“Purchaser”)."
+    ],
+    "recitals": [
+      "Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the “Program”) in respect of qualifying easement and solar-siting parcels (the “Credits”).",
+      "Administrator administers the Program on Seller's behalf, including eligibility screening, certificate issuance and placement of Credits with purchasers.",
+      "Purchaser wishes to purchase, and Seller wishes to sell, Credits in the face amount and at the price set forth in Schedule 1, on the terms of this Agreement."
+    ],
+    "recitals_close": "NOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as follows:",
+    "sections": [
+      {
+        "heading": "Definitions",
+        "text": [
+          "“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit Certificate” means the certificate issued under the Program evidencing a Credit. “Program Documentation” means the Program description, eligibility screening materials, eligibility checklist and related materials prepared and furnished by Administrator. “Closing” means the date on which Purchaser pays the Purchase Price. [Additional definitions TBD.]"
+        ]
+      },
+      {
+        "heading": "Purchase and Sale",
+        "text": [
+          "Subject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits having the aggregate Face Amount set forth in Schedule 1."
+        ]
+      },
+      {
+        "heading": "Purchase Price",
+        "text": [
+          "The purchase price for the Credits shall be {{price}} (the “Purchase Price”), payable by wire transfer of immediately available funds to the account designated by Administrator at Closing."
+        ]
+      },
+      {
+        "heading": "Delivery of Credit Certificates",
+        "text": [
+          "Within {{delivery_days}} business days after Closing, Administrator shall deliver to Purchaser Credit Certificates evidencing the Credits purchased, each identifying the certificate number, Program vintage and Face Amount. Title to the Credits passes to Purchaser upon delivery of the Credit Certificates."
+        ]
+      },
+      {
+        "heading": "Seller Representations",
+        "text": [
+          "Seller represents that (a) it has the authority to enter into this Agreement; (b) the Credits are free of liens and have not been previously sold or assigned; and (c) {{elig_text}}"
+        ]
+      },
+      {
+        "heading": "Purchaser Representations",
+        "text": [
+          "Purchaser represents that it is acquiring the Credits for its own account, that it has had the opportunity to review the Program Documentation and to ask questions of Administrator, and that it has the authority to enter into this Agreement."
+        ]
+      },
+      {
+        "heading": "Remedies",
+        "text": [
+          "{{remedy_text}}"
+        ]
+      },
+      {
+        "heading": "Offering Jurisdictions",
+        "text": [
+          "{{jurisdiction_text}}"
+        ]
+      },
+      {
+        "heading": "Notices",
+        "text": [
+          "Notices shall be in writing and delivered to Administrator (Attn: Program Administration, Sacramento, California), with a copy to Seller at the address above, and to Purchaser at the address first written above."
+        ]
+      },
+      {
+        "heading": "Governing Law",
+        "text": [
+          "This Agreement shall be governed by the laws of the State of {{law}}, without regard to its conflict-of-laws rules."
+        ]
+      },
+      {
+        "heading": "Miscellaneous",
+        "text": [
+          "This Agreement, together with Schedule 1, is the entire agreement of the parties regarding its subject matter and may be amended only in a writing signed by Seller (or Administrator on its behalf) and Purchaser. This Agreement may be executed in counterparts."
+        ]
+      }
+    ],
+    "signature_intro": "IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.",
+    "exhibits": [
+      {
+        "title": "Schedule 1 — Credits and Purchase Price",
+        "table": [
+          [
+            "Item",
+            "Term"
+          ],
+          [
+            "Purchaser",
+            "[__________]"
+          ],
+          [
+            "Aggregate Face Amount",
+            "$[__________] of Face Amount"
+          ],
+          [
+            "Purchase Price per $1.00 of Face Amount",
+            "{{price_short}} per unit"
+          ],
+          [
+            "Aggregate Purchase Price",
+            "$[__________]"
+          ],
+          [
+            "Credit Certificates",
+            "Numbers to be assigned by Administrator at delivery"
+          ]
+        ]
+      }
+    ],
+    "footer": "Alder Point Partners — DRAFT template — preliminary; subject to Legal review",
+    "docx_author": "Tom Reyes"
+  },
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2022-05-20",
+      "status": "draft",
+      "format": "docx",
+      "filename": "Coastal Solar Placement Template v1 (draft).docx",
+      "vars": {
+        "price_short": "$0.[__]"
+      },
+      "changes": "first internal draft; eligibility representation, remedies and governing law bracketed for Legal",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Program Administrator",
+          "name": "[__________]",
+          "title": "[__________]"
+        },
+        {
+          "party": "PURCHASER: [__________]",
+          "name": "[__________]",
+          "title": "[__________]"
+        }
+      ]
+    },
+    {
+      "version": "v2",
+      "date": "2022-07-18",
+      "status": "draft",
+      "format": "docx",
+      "filename": "Coastal Solar Placement Template v2 (draft).docx",
+      "vars": {
+        "price": "$0.[__] per $1.00 of Face Amount [indicative range $0.88–$0.93; to be set per lot]",
+        "price_short": "$0.[__] [indicative $0.88–$0.93]",
+        "law": "Oregon",
+        "delivery_days": "ten (10)",
+        "elig_text": "in reliance on the eligibility screening performed by Administrator and the Program Documentation (including the eligibility checklist furnished with the approved marketing kit dated May 4, 2022), each Credit has been screened for eligibility under the Program and is eligible for application in all western states in which the Program is marketed.",
+        "remedy_text": "If any Credit is disallowed, reduced or determined ineligible under the Program (a “Disallowance”), Purchaser may deliver written notice to Administrator within ninety (90) days after Purchaser receives notice of the Disallowance. Seller shall, at its election, (a) deliver replacement Credits of equal Face Amount, or (b) refund the Purchase Price paid for the disallowed Face Amount. [Legal: confirm whether replacement-or-refund is sole remedy; consider survival period.]"
+      },
+      "changes": "price range, delivery period (10 business days) and Oregon governing law filled in; eligibility representation drafted in reliance on Administrator screening and Program Documentation; replacement-or-refund remedy added",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Program Administrator",
+          "name": "[__________]",
+          "title": "[__________]"
+        },
+        {
+          "party": "PURCHASER: [__________]",
+          "name": "[__________]",
+          "title": "[__________]"
+        }
+      ]
+    },
+    {
+      "version": "v3",
+      "date": "2022-08-12",
+      "status": "draft",
+      "format": "docx",
+      "filename": "Coastal Solar Placement Template v3 (draft).docx",
+      "vars": {
+        "remedy_text": "If any Credit is disallowed, reduced or determined ineligible under the Program (a “Disallowance”), Purchaser may deliver written notice to Administrator within ninety (90) days after Purchaser receives notice of the Disallowance. Seller shall, at its election, (a) deliver replacement Credits of equal Face Amount, or (b) refund the Purchase Price paid for the disallowed Face Amount. The remedies in this Section are Purchaser's sole and exclusive remedies for a Disallowance, shall not exceed the Purchase Price paid, and survive Closing for [four (4)] years.",
+        "jurisdiction_text": "The Credits are offered to Purchaser at its principal office in [Oregon] [Washington] [__________]. Purchaser acknowledges that the Program Documentation describes the jurisdictions in which Credits may be applied, and that no person is authorized to make any representation regarding the Credits other than as set forth in this Agreement and the Program Documentation."
+      },
+      "changes": "remedy made sole/exclusive, capped at Purchase Price, survival [4 years]; Offering Jurisdictions section added (Oregon/Washington placeholders)",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Program Administrator",
+          "name": "[__________]",
+          "title": "[__________]"
+        },
+        {
+          "party": "PURCHASER: [__________]",
+          "name": "[__________]",
+          "title": "[__________]"
+        }
+      ]
+    }
+  ]
+}

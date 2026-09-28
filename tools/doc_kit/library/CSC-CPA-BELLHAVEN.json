@@ -1,0 +1,440 @@
+{
+  "doc_id": "CSC-CPA-BELLHAVEN",
+  "title": "CREDIT PURCHASE AGREEMENT",
+  "type": "contract",
+  "org": "",
+  "parcels": [],
+  "arc": "C",
+  "doc_control": "BHA-CPA form rev. 2022-09",
+  "figures_ok": [
+    "$1.00",
+    "$0.",
+    "$0",
+    "$1,250,000",
+    "$0.89",
+    "$1,112,500",
+    "$0.90",
+    "$1,125,000",
+    "$1,000,000",
+    "$0.92",
+    "$920,000",
+    "$900,000",
+    "$828,000",
+    "$1,100,000",
+    "$979,000"
+  ],
+  "vars": {},
+  "content": {
+    "subtitle": "Coastal Solar Credit Program — Bellhaven Advisory standard purchaser form",
+    "preamble": [
+      "This Credit Purchase Agreement (this “Agreement”) is entered into as of {{eff_date}} (the “Effective Date”), by and among Cascade Timber Holdings, Inc., an Oregon corporation with offices in Portland, Oregon (“Seller”), acting through Alder Point Partners, with offices in Sacramento, California, as administrator of the Coastal Solar Credit Program (“Administrator”); {{buyer_full}}, with offices in {{buyer_city}} (“Purchaser”); and, solely for purposes of Sections 8 and 9, Bellhaven Advisory, with offices in Denver, Colorado (“Placement Agent”)."
+    ],
+    "recitals": [
+      "Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the “Program”), which Administrator administers on Seller's behalf (the “Credits”).",
+      "Administrator has engaged Placement Agent, on a non-exclusive basis, to market and broker placements of Credits under a Broker Placement Agreement dated as of September 2, 2022.",
+      "Purchaser wishes to purchase, and Seller wishes to sell, Credits in the Face Amount and at the price set forth in Schedule 1, on the terms of this Agreement."
+    ],
+    "recitals_close": "NOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as follows:",
+    "sections": [
+      {
+        "heading": "Definitions",
+        "text": [
+          "“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit Certificate” means the certificate issued under the Program evidencing a Credit. “Program Documentation” means the Program description, investor deck, one-page summary, eligibility checklist and eligibility screening materials prepared and furnished by Administrator, in the versions approved by Administrator and delivered to Purchaser. “Closing” means the date on which Purchaser pays the Aggregate Purchase Price. “Business Day” means a day other than a Saturday, Sunday or bank holiday in Portland, Oregon."
+        ]
+      },
+      {
+        "heading": "Purchase and Sale",
+        "text": [
+          "Subject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits having the aggregate Face Amount set forth in Schedule 1 (the “Purchased Credits”)."
+        ]
+      },
+      {
+        "heading": "Purchase Price",
+        "text": [
+          "The purchase price for the Purchased Credits is {{price}} per $1.00 of Face Amount (the “Unit Price”), for an aggregate purchase price of {{total}} (the “Aggregate Purchase Price”), payable at Closing by wire transfer of immediately available funds to the account designated in writing by Administrator. Placement Agent's compensation is payable by Administrator under the Broker Placement Agreement and is not payable by Purchaser."
+        ]
+      },
+      {
+        "heading": "Delivery of Credit Certificates",
+        "text": [
+          "Within ten (10) Business Days after Closing, Administrator shall deliver to Purchaser, by electronic transmission with originals to follow, Credit Certificates evidencing the Purchased Credits, each identifying the certificate number, Program vintage, source parcel reference and Face Amount. Title to and risk of the Purchased Credits pass to Purchaser upon delivery of the Credit Certificates. If any Credit Certificate is not delivered within thirty (30) Business Days after Closing, Purchaser may, by written notice, require refund of the portion of the Aggregate Purchase Price attributable to the undelivered Face Amount."
+        ]
+      },
+      {
+        "heading": "Seller Representations",
+        "text": [
+          "Seller represents and warrants to Purchaser, as of the Effective Date and as of delivery of the Credit Certificates, that:"
+        ],
+        "items": [
+          "(a) Seller has full authority to enter into and perform this Agreement, and Administrator is authorized to act for Seller in connection with the Program;",
+          "(b) the Purchased Credits are free of liens and have not been previously sold, assigned or pledged; and",
+          "(c) in reliance on the eligibility screening performed by Administrator and on the Program Documentation, including the eligibility checklist furnished with Administrator's approved marketing kit dated May 4, 2022, each Purchased Credit has been screened for eligibility under the Program and is eligible for application in all western states in which the Program is marketed, including Oregon and Washington."
+        ]
+      },
+      {
+        "heading": "Purchaser Representations",
+        "text": [
+          "Purchaser represents that it is acquiring the Purchased Credits for its own account; that it has received and reviewed the Program Documentation and has had the opportunity to ask questions of Administrator; that it is not relying on any statement regarding the Credits other than those set forth in this Agreement and the Program Documentation; and that it has full authority to enter into this Agreement."
+        ]
+      },
+      {
+        "heading": "Remedies; Refund",
+        "text": [
+          "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any taxing authority (a “Disallowance”), Purchaser may deliver a written refund request, with reasonable supporting documentation, to Administrator within {{notice_days}} after Purchaser receives notice of the Disallowance (a “Refund Request”).",
+          "Within thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver replacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price multiplied by the disallowed Face Amount.",
+          "The remedies in this Section 7 and in Section 4 are Purchaser's sole and exclusive remedies for a Disallowance or failure of delivery; in no event shall Seller's aggregate liability under this Agreement exceed the Aggregate Purchase Price actually paid, and no party shall be liable for consequential, incidental or punitive damages. This Section 7 survives Closing for four (4) years."
+        ]
+      },
+      {
+        "heading": "Placement Agent; Offering Jurisdiction",
+        "text": [
+          "The Purchased Credits are offered and placed to Purchaser at its principal office in {{buyer_state}} through Placement Agent, acting solely as placement agent for Administrator. Purchaser acknowledges that Placement Agent does not act as Purchaser's advisor, holds no Credits for its own account, and makes no representation or warranty regarding the Credits, the Program or the Program Documentation. Placement Agent shall have no liability to Purchaser under Section 7."
+        ]
+      },
+      {
+        "heading": "Notices",
+        "text": [
+          "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to Seller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento, California, with a copy to Cascade Timber Holdings, Inc., 1200 Forest Park Way, Suite 900, Portland, Oregon 97209; if to Purchaser, to the address first written above; and if to Placement Agent, to Bellhaven Advisory, Attn: Managing Director, Denver, Colorado."
+        ]
+      },
+      {
+        "heading": "Governing Law",
+        "text": [
+          "This Agreement shall be governed by the laws of the State of Oregon, without regard to its conflict-of-laws rules. Any action arising under this Agreement shall be brought in the state or federal courts located in Multnomah County, Oregon."
+        ]
+      },
+      {
+        "heading": "Miscellaneous",
+        "text": [
+          "This Agreement, together with Schedule 1 and the Program Documentation referenced herein, is the entire agreement of the parties regarding its subject matter and supersedes all prior term sheets and drafts. It may be amended only in a writing signed by Administrator (on behalf of Seller) and Purchaser, and may be executed in counterparts, including by electronic signature."
+        ]
+      }
+    ],
+    "signature_intro": "IN WITNESS WHEREOF, the parties have executed this Credit Purchase Agreement as of the Effective Date.",
+    "exhibits": [
+      {
+        "title": "Schedule 1 — Purchased Credits and Purchase Price",
+        "table": [
+          [
+            "Item",
+            "Term"
+          ],
+          [
+            "Purchaser",
+            "{{buyer_full}}"
+          ],
+          [
+            "Purchaser principal office",
+            "{{buyer_city}}"
+          ],
+          [
+            "Aggregate Face Amount",
+            "{{face}} of Face Amount"
+          ],
+          [
+            "Unit Price",
+            "{{price}} per $1.00 of Face Amount"
+          ],
+          [
+            "Aggregate Purchase Price",
+            "{{total}} payable at Closing (Section 3)"
+          ],
+          [
+            "Closing",
+            "{{closing}}"
+          ],
+          [
+            "Credit Certificates",
+            "Numbers, vintage and source parcel references to be assigned by Administrator at delivery (Section 4)"
+          ],
+          [
+            "Refund Request period",
+            "{{notice_days}} after notice of Disallowance (Section 7)"
+          ]
+        ]
+      }
+    ],
+    "footer": "Bellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential"
+  },
+  "versions": [
+    {
+      "version": "form",
+      "date": "2022-09-26",
+      "status": "draft",
+      "format": "pdf",
+      "watermark": "FORM",
+      "filename": "Bellhaven_Coastal_Solar_Credit_Purchase_Agreement_FORM.pdf",
+      "vars": {
+        "eff_date": "[__________], 2022",
+        "buyer_full": "[PURCHASER NAME, entity type]",
+        "buyer_city": "[__________]",
+        "buyer_state": "[Oregon] [Washington] [__________]",
+        "face": "$[__________]",
+        "price": "$0.[__]",
+        "total": "$[__________]",
+        "closing": "[__________]",
+        "notice_days": "ninety (90) days"
+      },
+      "changes": "Bellhaven standard purchaser form adapted for the Coastal Solar Program after the 9/2/22 engagement; purchaser terms blank",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "[__________]",
+          "title": "[__________]"
+        },
+        {
+          "party": "PURCHASER: [__________]",
+          "name": "[__________]",
+          "title": "[__________]"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "[__________]",
+          "title": "[__________]"
+        }
+      ]
+    },
+    {
+      "version": "CPP-d1",
+      "date": "2022-10-31",
+      "status": "draft",
+      "format": "pdf",
+      "filename": "Bellhaven_CSC_Purchase_Agreement_Cascade_Pension_Partners_DRAFT.pdf",
+      "vars": {
+        "eff_date": "[__________], 2022",
+        "buyer_full": "Cascade Pension Partners, L.P., an Oregon limited partnership",
+        "buyer_city": "Portland, Oregon",
+        "buyer_state": "Oregon",
+        "face": "$1,250,000",
+        "price": "$0.89",
+        "total": "$1,112,500",
+        "closing": "On or before November 10, 2022",
+        "notice_days": "ninety (90) days"
+      },
+      "changes": "form populated for Cascade Pension Partners: $1,250,000 face at $0.89 (proposed)",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development"
+        },
+        {
+          "party": "CASCADE PENSION PARTNERS, L.P.",
+          "name": "J. Orr",
+          "title": "Director of Investments"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "Derek Holt",
+          "title": "Managing Director"
+        }
+      ]
+    },
+    {
+      "version": "CPP-final",
+      "date": "2022-11-09",
+      "status": "executed",
+      "format": "pdf",
+      "scan": true,
+      "sig_style": "wet",
+      "filename": "CPP_Credit_Purchase_Agreement_executed_scan.pdf",
+      "vars": {
+        "buyer_full": "Cascade Pension Partners, L.P., an Oregon limited partnership",
+        "buyer_city": "Portland, Oregon",
+        "buyer_state": "Oregon",
+        "face": "$1,250,000",
+        "notice_days": "ninety (90) days",
+        "eff_date": "November 9, 2022",
+        "price": "$0.90",
+        "total": "$1,125,000",
+        "closing": "November 9, 2022"
+      },
+      "changes": "Unit Price $0.89 -> $0.90 per Purchaser comments; executed; printed, signed and scanned by Purchaser",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development",
+          "signed": true,
+          "date": "November 8, 2022"
+        },
+        {
+          "party": "CASCADE PENSION PARTNERS, L.P.",
+          "name": "J. Orr",
+          "title": "Director of Investments",
+          "signed": true,
+          "date": "November 9, 2022"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "Derek Holt",
+          "title": "Managing Director",
+          "signed": true,
+          "date": "November 8, 2022"
+        }
+      ]
+    },
+    {
+      "version": "NFEF-d1",
+      "date": "2022-11-14",
+      "status": "draft",
+      "format": "pdf",
+      "filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_DRAFT.pdf",
+      "vars": {
+        "eff_date": "[__________], 2022",
+        "buyer_full": "North Fork Energy Fund, L.P., a Washington limited partnership",
+        "buyer_city": "Seattle, Washington",
+        "buyer_state": "Washington",
+        "face": "$1,000,000",
+        "price": "$0.92",
+        "total": "$920,000",
+        "closing": "On or before November 22, 2022",
+        "notice_days": "ninety (90) days"
+      },
+      "changes": "form populated for North Fork Energy Fund: $1,000,000 face at $0.92 (proposed)",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development"
+        },
+        {
+          "party": "NORTH FORK ENERGY FUND, L.P.",
+          "name": "D. Liu",
+          "title": "Portfolio Manager"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "Derek Holt",
+          "title": "Managing Director"
+        }
+      ]
+    },
+    {
+      "version": "NFEF-final",
+      "date": "2022-11-21",
+      "status": "executed",
+      "format": "pdf",
+      "sig_style": "docusign",
+      "filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_EXECUTED.pdf",
+      "vars": {
+        "buyer_full": "North Fork Energy Fund, L.P., a Washington limited partnership",
+        "buyer_city": "Seattle, Washington",
+        "buyer_state": "Washington",
+        "notice_days": "ninety (90) days",
+        "eff_date": "November 21, 2022",
+        "face": "$900,000",
+        "price": "$0.92",
+        "total": "$828,000",
+        "closing": "November 21, 2022"
+      },
+      "changes": "Face Amount reduced $1,000,000 -> $900,000 at Purchaser's request; executed via DocuSign",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development",
+          "signed": true,
+          "date": "November 21, 2022",
+          "envelope": "7C1D3B9E52A04F18"
+        },
+        {
+          "party": "NORTH FORK ENERGY FUND, L.P.",
+          "name": "D. Liu",
+          "title": "Portfolio Manager",
+          "signed": true,
+          "date": "November 21, 2022",
+          "envelope": "7C1D3B9E52A04F18"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "Derek Holt",
+          "title": "Managing Director",
+          "signed": true,
+          "date": "November 21, 2022",
+          "envelope": "7C1D3B9E52A04F18"
+        }
+      ]
+    },
+    {
+      "version": "BRC-d1",
+      "date": "2022-11-28",
+      "status": "draft",
+      "format": "pdf",
+      "filename": "Bellhaven_CSC_Purchase_Agreement_Blue_River_DRAFT.pdf",
+      "vars": {
+        "eff_date": "[__________], 2022",
+        "buyer_full": "Blue River Capital, LLC, an Oregon limited liability company",
+        "buyer_city": "Bend, Oregon",
+        "buyer_state": "Oregon",
+        "face": "$1,100,000",
+        "price": "$0.89",
+        "total": "$979,000",
+        "closing": "On or before December 6, 2022",
+        "notice_days": "ninety (90) days"
+      },
+      "changes": "form populated for Blue River Capital: $1,100,000 face at $0.89",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development"
+        },
+        {
+          "party": "BLUE RIVER CAPITAL, LLC",
+          "name": "A. Patel",
+          "title": "Managing Director"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "Derek Holt",
+          "title": "Managing Director"
+        }
+      ]
+    },
+    {
+      "version": "BRC-final",
+      "date": "2022-12-06",
+      "status": "executed",
+      "format": "pdf",
+      "scan": true,
+      "sig_style": "wet",
+      "filename": "Blue River CPA signed.pdf",
+      "vars": {
+        "buyer_full": "Blue River Capital, LLC, an Oregon limited liability company",
+        "buyer_city": "Bend, Oregon",
+        "buyer_state": "Oregon",
+        "face": "$1,100,000",
+        "price": "$0.89",
+        "total": "$979,000",
+        "eff_date": "December 6, 2022",
+        "closing": "December 6, 2022",
+        "notice_days": "one hundred twenty (120) days"
+      },
+      "changes": "Refund Request period 90 -> 120 days per Blue River counsel; executed; wet-ink scan",
+      "signatures": [
+        {
+          "party": "CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development",
+          "signed": true,
+          "date": "December 5, 2022"
+        },
+        {
+          "party": "BLUE RIVER CAPITAL, LLC",
+          "name": "A. Patel",
+          "title": "Managing Director",
+          "signed": true,
+          "date": "December 6, 2022"
+        },
+        {
+          "party": "BELLHAVEN ADVISORY, as Placement Agent (Sections 8 and 9 only)",
+          "name": "Derek Holt",
+          "title": "Managing Director",
+          "signed": true,
+          "date": "December 5, 2022"
+        }
+      ]
+    }
+  ]
+}

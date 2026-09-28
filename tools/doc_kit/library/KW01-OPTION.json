@@ -1,0 +1,346 @@
+{
+  "doc_id": "KW01-OPTION",
+  "title": "Option Agreement",
+  "type": "contract",
+  "org": "",
+  "parcels": [
+    "KW-01"
+  ],
+  "arc": "J",
+  "doc_control": "APP-OPT form rev. 2022-1",
+  "figures_ok": [
+    "$12,000",
+    "$4,000",
+    "$1,150"
+  ],
+  "vars": {
+    "parcel": "KW-01",
+    "effective_date": "[____________], 2022",
+    "acreage": "[____]",
+    "adjoining_recital": "The Property adjoins other land of Owner to the south, which the Parties expect to make the subject of a separate option agreement. This Agreement is independent of that agreement.",
+    "deferral_cap": "",
+    "initial_due": "ten (10) business days",
+    "price": "[$______]",
+    "grazing_clause": "[Owner to confirm whether the old grazing lease on the Property was ever released of record. If not released, add Owner obligation to obtain and record a release before Closing.]",
+    "owner_use": "",
+    "closing_days": "sixty (60)",
+    "access_clause": "",
+    "notice_copy": "",
+    "legal_description": "[Legal description to be inserted from the Klamath County filings requested March 23, 2022.]",
+    "tax_lot": "[pending — Owner to provide parcel numbers]",
+    "access_note": "Frontage on county road"
+  },
+  "content": {
+    "letterhead": {
+      "name": "Alder Point Partners",
+      "lines": "Land Acquisition  ·  Sacramento, California"
+    },
+    "subtitle": "Clearwater Land LLC (Owner) and Alder Point Partners (Optionee)  ·  Klamath County, Oregon  ·  Alder parcel ref. {{parcel}}",
+    "docx_author": "Tom Reyes",
+    "preamble": [
+      "This Option Agreement (this \"Agreement\") is made effective as of {{effective_date}} (the \"Effective Date\") by and between CLEARWATER LAND LLC, an Oregon limited liability company (\"Owner\"), and ALDER POINT PARTNERS, with offices in Sacramento, California (\"Optionee\"). Owner and Optionee are each a \"Party\"."
+    ],
+    "recitals": [
+      "Owner is the owner of certain real property in Klamath County, Oregon, located east of U.S. Highway 97 (the \"Route 97 corridor\"), containing approximately {{acreage}} acres according to the records of the Klamath County Assessor, and more particularly described in Exhibit A (together with all easements, rights and appurtenances, the \"Property\").",
+      "{{adjoining_recital}}",
+      "Optionee wishes to obtain, and Owner is willing to grant, an exclusive option to purchase the Property on the terms of this Agreement."
+    ],
+    "recitals_close": "NOW, THEREFORE, in consideration of the Option Fee and the mutual covenants below, the Parties agree as follows:",
+    "sections": [
+      {
+        "heading": "Grant of Option",
+        "text": [
+          "1.1 Owner grants to Optionee the exclusive and irrevocable option to purchase the Property on the terms of this Agreement (the \"Option\")."
+        ]
+      },
+      {
+        "heading": "Option Term; Extension",
+        "text": [
+          "2.1 The Option Term begins on the Effective Date and ends at 5:00 p.m. Pacific time on the day that is twelve (12) months after the Effective Date (the \"Option Term\").",
+          "2.2 Optionee may extend the Option Term once, for an additional period of six (6) months (the \"Extension Period\"), by written notice to Owner given before the Option Term expires, provided that each Option Payment then due has been paid or deferred under Section 3.3. References in this Agreement to the Option Term include any Extension Period."
+        ]
+      },
+      {
+        "heading": "Option Fee and Option Payments",
+        "text": [
+          "3.1 In consideration of the Option, Optionee shall pay Owner an option fee of Twelve Thousand Dollars ($12,000) (the \"Option Fee\"), in installments (each, an \"Option Payment\") as set out in Schedule 1 below.",
+          "3.2 Option Payments shall be made by check or by wire transfer to an account designated by Owner in writing.",
+          "3.3 Optionee may, by written notice to Owner given on or before the due date of any Option Payment other than the Initial Option Payment, defer that Option Payment to a later date stated in the notice{{deferral_cap}}.",
+          "3.4 Optionee may prepay all or any part of the Option Fee at any time without premium or penalty.",
+          "3.5 Option Payments, once made, are non-refundable except as provided in Sections 6 and 10, and shall be credited against the Purchase Price at Closing.",
+          "Schedule 1 — Option Payments"
+        ],
+        "table": [
+          [
+            "Option Payment",
+            "Amount",
+            "Due (subject to Sections 3.3 and 3.4)"
+          ],
+          [
+            "Initial Option Payment",
+            "$4,000",
+            "Within {{initial_due}} after the Effective Date"
+          ],
+          [
+            "Second Option Payment",
+            "$4,000",
+            "On or before the 180th day after the Effective Date"
+          ],
+          [
+            "Third Option Payment",
+            "$4,000",
+            "On or before the 270th day after the Effective Date"
+          ],
+          [
+            "Total Option Fee",
+            "$12,000",
+            ""
+          ]
+        ]
+      },
+      {
+        "heading": "Purchase Price",
+        "text": [
+          "4.1 The purchase price for the Property is {{price}} per acre of Net Acreage (the \"Purchase Price\"), payable in cash at Closing, less the Option Payments made.",
+          "4.2 \"Net Acreage\" means the gross acreage of the Property as shown on the Survey, excluding any area within public road rights-of-way. The Assessor acreage stated in the Recitals and in Exhibit A is for identification only and is not a representation by either Party of Net Acreage."
+        ]
+      },
+      {
+        "heading": "Due Diligence; Survey",
+        "text": [
+          "5.1 During the Option Term, Optionee and its consultants may enter the Property on reasonable prior notice to Owner to conduct boundary and topographic surveys, soil, environmental and siting studies and similar investigations, at Optionee's expense. Optionee shall repair any damage caused by its entry and shall indemnify Owner against third-party claims arising from it.",
+          "5.2 Optionee may obtain a boundary survey of the Property by a land surveyor licensed in Oregon (the \"Survey\").",
+          "5.3 Within fifteen (15) days after the Effective Date, Owner shall deliver to Optionee copies of any leases, surveys, title reports and recorded instruments affecting the Property that are in Owner's possession or control."
+        ]
+      },
+      {
+        "heading": "Title",
+        "text": [
+          "6.1 Optionee may obtain a preliminary title report for the Property and shall notify Owner of any objections within thirty (30) days after receiving it. Owner shall notify Optionee within ten (10) days whether Owner will cure each objection. If Owner does not agree to cure an objection, Optionee may waive it or terminate this Agreement, in which case all Option Payments made shall be refunded to Optionee.",
+          "6.2 {{grazing_clause}}"
+        ]
+      },
+      {
+        "heading": "Owner's Covenants",
+        "text": [
+          "7.1 During the Option Term, Owner shall not sell, lease, encumber or grant any interest in the Property, or permit any lien to attach to it, without Optionee's prior written consent{{owner_use}}.",
+          "7.2 Owner shall keep the Property in its present condition, ordinary wear and natural causes excepted."
+        ]
+      },
+      {
+        "heading": "Exercise of Option",
+        "text": [
+          "8.1 Optionee may exercise the Option at any time during the Option Term by written notice to Owner (the \"Exercise Notice\"). If the Option is not exercised before the Option Term expires, the Option shall lapse and Owner shall retain the Option Payments made."
+        ]
+      },
+      {
+        "heading": "Closing",
+        "text": [
+          "9.1 Closing of the purchase shall occur through escrow with a title company in Klamath County, Oregon selected by Optionee, on a date designated by Optionee not later than {{closing_days}} days after the Exercise Notice (\"Closing\").",
+          "9.2 At Closing, Owner shall convey the Property to Optionee or its assignee by statutory warranty deed, subject only to exceptions approved or waived under Section 6. Owner shall pay the premium for a standard owner's policy of title insurance; escrow fees shall be shared equally; real property taxes shall be prorated as of Closing.{{access_clause}}"
+        ]
+      },
+      {
+        "heading": "Termination; Default",
+        "text": [
+          "10.1 Optionee may terminate this Agreement at any time by written notice to Owner. Owner shall retain the Option Payments made through the date of termination, except where termination results from Owner's default or a title failure under Section 6.",
+          "10.2 If Optionee fails to make an Option Payment when due (as it may be deferred under Section 3.3), Owner may give Optionee written notice of the failure. If the payment is not made within ten (10) days after that notice, Owner may terminate this Agreement by further written notice.",
+          "10.3 If Owner fails to perform under this Agreement, Optionee may seek specific performance or terminate this Agreement and recover all Option Payments made."
+        ]
+      },
+      {
+        "heading": "Memorandum of Option",
+        "text": [
+          "11.1 On request of either Party, the Parties shall sign a memorandum of this Agreement in recordable form, which Optionee may record in the Official Records of Klamath County, Oregon."
+        ]
+      },
+      {
+        "heading": "Assignment",
+        "text": [
+          "12.1 Optionee may assign this Agreement, in whole or in part, to any affiliate of Optionee or to any successor to Optionee's land acquisition business, on written notice to Owner. Owner may not assign this Agreement without Optionee's written consent."
+        ]
+      },
+      {
+        "heading": "Notices",
+        "text": [
+          "13.1 Notices under this Agreement shall be in writing and delivered by hand, by nationally recognized overnight courier, or by email with a copy by first-class mail, to the addresses below (or another address a Party designates by notice):"
+        ],
+        "items": [
+          "To Owner: Clearwater Land LLC, Attn: Gordon L. Pruitt, Managing Member, P.O. Box 1187, Klamath Falls, Oregon 97601{{notice_copy}}",
+          "To Optionee: Alder Point Partners, Attn: Tom Reyes, Land Acquisition Manager, Sacramento, California; email: treyes@alderpointpartners.com"
+        ]
+      },
+      {
+        "heading": "Governing Law; Venue",
+        "text": [
+          "14.1 This Agreement is governed by the laws of the State of Oregon. Any action arising under this Agreement shall be brought in the Circuit Court of the State of Oregon for Klamath County."
+        ]
+      },
+      {
+        "heading": "Miscellaneous",
+        "text": [
+          "15.1 This Agreement is the entire agreement of the Parties regarding the Property and may be amended only in a writing signed by both Parties. Time is of the essence. This Agreement may be signed in counterparts, and signatures delivered by scanned copy are effective as originals.",
+          "15.2 BEFORE SIGNING OR ACCEPTING THIS INSTRUMENT, THE PERSON TRANSFERRING FEE TITLE SHOULD INQUIRE ABOUT THE PERSON'S RIGHTS, IF ANY, UNDER ORS 195.300, 195.301 AND 195.305 TO 195.336. THIS INSTRUMENT DOES NOT ALLOW USE OF THE PROPERTY IN VIOLATION OF APPLICABLE LAND USE LAWS AND REGULATIONS (ORS 93.040)."
+        ]
+      }
+    ],
+    "signature_intro": "IN WITNESS WHEREOF, the Parties have signed this Agreement as of the Effective Date.",
+    "exhibits": [
+      {
+        "title": "Exhibit A — Legal Description of the Property",
+        "text": [
+          "{{legal_description}}"
+        ],
+        "table": [
+          [
+            "Item",
+            "Detail"
+          ],
+          [
+            "Assessor map / tax lot",
+            "{{tax_lot}}"
+          ],
+          [
+            "Assessor acreage (identification only)",
+            "{{acreage}} acres"
+          ],
+          [
+            "Access",
+            "{{access_note}}"
+          ]
+        ]
+      }
+    ],
+    "footer": "Clearwater Land LLC / Alder Point Partners — Option Agreement ({{parcel}}) — Confidential"
+  },
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2022-03-29",
+      "status": "draft",
+      "format": "docx",
+      "filename": "KW-01 Option Agreement (Clearwater) v1.docx",
+      "changes": "First Alder draft on APP-OPT form after the 3/22/22 site walk and owner call. Option Fee $12,000 in three $4,000 installments; 12-month term with one 6-month extension; 60-day closing window. Acreage, legal description, tax lot, price and grazing-lease status left blank pending county filings.",
+      "signatures": [
+        {
+          "party": "OWNER: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member"
+        },
+        {
+          "party": "OPTIONEE: ALDER POINT PARTNERS",
+          "name": "Tom Reyes",
+          "title": "Land Acquisition Manager"
+        }
+      ]
+    },
+    {
+      "version": "v2",
+      "date": "2022-07-05",
+      "status": "draft",
+      "format": "docx",
+      "filename": "KW-01 Option Agreement (Clearwater) v2.docx",
+      "vars": {
+        "acreage": "148.62",
+        "adjoining_recital": "The Property adjoins other land of Owner to the south, which is the subject of a separate option agreement being negotiated between the Parties. This Agreement is independent of that agreement.",
+        "price": "$1,150",
+        "grazing_clause": "Owner discloses that the Property, together with Owner's adjoining land, is subject of record to a grazing lease recorded in 1994 in Volume M94, Page 18832, Records of Klamath County, Oregon (the \"Grazing Lease\"). Owner represents that the Grazing Lease has expired by its terms and that no person holds grazing rights on the Property under it. No release of the Grazing Lease has been located of record. Before Closing, Owner shall use commercially reasonable efforts to obtain and record a release or quitclaim of the Grazing Lease from the lessee or its successors. If no release is recorded before Closing, Optionee may (a) waive this requirement, (b) extend Closing by up to sixty (60) days to allow it to be recorded, or (c) terminate this Agreement, in which case all Option Payments made shall be refunded to Optionee.",
+        "legal_description": "Real property in the County of Klamath, State of Oregon, described as follows: That portion of the South one-half (S½) of Section 14, Township 37 South, Range 8 East of the Willamette Meridian, lying East of the easterly right-of-way line of U.S. Highway 97. EXCEPTING THEREFROM any portion lying within public road rights-of-way.",
+        "tax_lot": "Map 3708-01400, Tax Lot 00800"
+      },
+      "changes": "Filled in legal description, tax lot and Assessor acreage (148.62 ac) from the county filings; inserted Purchase Price of $1,150 per Net Acre; added grazing-lease disclosure and release mechanics (Sec. 6.2); adjoining-parcel recital updated.",
+      "signatures": [
+        {
+          "party": "OWNER: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member"
+        },
+        {
+          "party": "OPTIONEE: ALDER POINT PARTNERS",
+          "name": "Tom Reyes",
+          "title": "Land Acquisition Manager"
+        }
+      ]
+    },
+    {
+      "version": "v3",
+      "date": "2022-09-14",
+      "status": "draft",
+      "format": "docx",
+      "filename": "KW-01 Option Agreement (Clearwater) v3 - owner counsel comments.docx",
+      "vars": {
+        "deferral_cap": ", which date shall be no later than the last day of the Option Term. Any Option Payment not paid by the last day of the Option Term is due on that day",
+        "initial_due": "five (5) business days",
+        "owner_use": "; provided that Owner and its members may continue the existing agricultural and grazing use of the Property until Closing, so long as that use does not interfere with Optionee's investigations under Section 5",
+        "notice_copy": "; with a copy to Margaret A. Oyler, Oyler & Beck LLP, 412 Main Street, Klamath Falls, Oregon 97601"
+      },
+      "changes": "Owner's counsel (Oyler & Beck, Klamath Falls) comments accepted: Initial Option Payment due in 5 business days (was 10); deferred Option Payments capped at end of Option Term; Owner may continue existing grazing use until Closing; notice copy to Owner's counsel.",
+      "signatures": [
+        {
+          "party": "OWNER: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member"
+        },
+        {
+          "party": "OPTIONEE: ALDER POINT PARTNERS",
+          "name": "Tom Reyes",
+          "title": "Land Acquisition Manager"
+        }
+      ]
+    },
+    {
+      "version": "v4",
+      "date": "2022-12-19",
+      "status": "draft",
+      "format": "docx",
+      "filename": "KW-01 Option Agreement (Clearwater) v4.docx",
+      "vars": {
+        "closing_days": "ninety (90)",
+        "effective_date": "[____________________]"
+      },
+      "changes": "Closing window 60 -> 90 days after Exercise Notice (Sec. 9.1). No other term changes (Effective Date blank no longer pre-printed 2022).",
+      "signatures": [
+        {
+          "party": "OWNER: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member"
+        },
+        {
+          "party": "OPTIONEE: ALDER POINT PARTNERS",
+          "name": "Tom Reyes",
+          "title": "Land Acquisition Manager"
+        }
+      ]
+    },
+    {
+      "version": "exec",
+      "date": "2023-01-10",
+      "status": "executed",
+      "format": "pdf",
+      "scan": true,
+      "sig_style": "wet",
+      "filename": "KW-01_Option_executed_scan.pdf",
+      "vars": {
+        "effective_date": "January 10, 2023",
+        "adjoining_recital": "The Property adjoins other land of Owner to the south, which is the subject of a separate Option Agreement between the Parties dated September 20, 2022. This Agreement is independent of that agreement."
+      },
+      "changes": "Executed on v4 terms; Effective Date inserted; adjoining-parcel recital conformed to the executed KW-02 option. Owner signed 1/6/23, Optionee 1/10/23; printed, wet-signed and scanned.",
+      "signatures": [
+        {
+          "party": "OWNER: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member",
+          "signed": true,
+          "date": "January 6, 2023"
+        },
+        {
+          "party": "OPTIONEE: ALDER POINT PARTNERS",
+          "name": "Tom Reyes",
+          "title": "Land Acquisition Manager",
+          "signed": true,
+          "date": "January 10, 2023"
+        }
+      ]
+    }
+  ]
+}

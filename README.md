@@ -47,6 +47,11 @@ joins across several documents. All companies, people and events are fictional.
 - **Long threads, not just pairs.** Four expanded threads (THR-001–004) run 12–14 messages
   each, with forks, reply-alls that add or drop people, side forwards and unanswered
   questions. The longest reply chain is 12 deep.
+- **Real contracts, versioned.** KW-01/02 option agreements go from drafts (DOCX) to wet-signed
+  scans (PDF, no text layer). The Bellhaven credit purchase agreements and the pre-broker
+  template also carry their version history. Each email carries the version that existed on
+  its date, and the copies in `data/contracts/` are byte-identical to the attachments, so
+  hash deduplication links them.
 - **Signature logos.** Outlook-style orgs (Cascade Timber, L&L, Moss & Lane, Whitaker) carry
   an inline logo in an HTML part, and quoted signatures keep theirs, so long threads pile up
   `image001.png`, `image002.png` and so on. Inline logos aren't counted as attachments. The
@@ -71,6 +76,9 @@ CONTINUITY_BATCH0N.md                 # per-batch QA reports
 MATTER_AGENT_TASKS.md                 # taxonomy of 18 investigation tasks
 Cascade_Timber_EML_Dataset_Plan.md    # spec for threading, signatures and doctrine chains
 suggestions.md                        # training-value assessment and top fixes
+data/contracts/                       # standalone contract collection (every version) + INDEX.csv → carrying emails
+tools/doc_kit/                        # attachment builder: versioned library docs → PDF/DOCX/XLSX, scans, apply to emails, publish
+  library/  plans/                    # document content + version history; email→version attach plans (ATT-00N)
 tools/thread_kit/                     # thread expander: context, validate, render, rollback, scan, logos
   rules.json                          # knowledge cutoffs, participant windows, logo orgs (AUTHORING ONLY)
   logos/                              # org logos (full size + signature size)

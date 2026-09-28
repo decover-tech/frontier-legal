@@ -1,0 +1,102 @@
+{
+  "plan_id": "ATT-002",
+  "bible_refs": [
+    "§0 Marketing root 177/178",
+    "§0 Dec-2021 root 034/035 (Alder eligibility screening)",
+    "§0 Holt 009 (OR/WA registration pending)",
+    "§1 gross-face rule",
+    "§3 expansion: 6–8 buyers at 88–93¢, proceeds ≈ $6.1M on $6.8M face",
+    "§5 buyers [PROPOSED]",
+    "§6 Q2 (OR/WA clearance — left silent)",
+    "§6 Q6 (represented vs received)",
+    "§7 buyer losses/refunds unknown",
+    "Arc C1"
+  ],
+  "rationale": "Two families. (1) CSC-PLACEMENT-TEMPLATE: Alder Program Administration's pre-broker placement template (DOCX), v1 5/20/22 (brackets), v2 7/18/22 (price range, Oregon law, eligibility rep in reliance on Administrator screening + 5/4/22 checklist, replacement-or-refund remedy), v3 8/12/22 (remedy made exclusive/capped/4-yr survival; Offering Jurisdictions placeholders). No broker named in any version (matches 698/616 and every carrier body). (2) CSC-CPA-BELLHAVEN: Bellhaven-prepared Credit Purchase Agreement (PDF). Parties: Seller = Cascade Timber Holdings (credit holder; CTH recognizes gross face per §1) acting through Alder Point Partners as Administrator (Sacramento, per 009); Bellhaven Advisory (Denver, per 009) joins only as Placement Agent for §§8–9 and recites the 9/2/22 non-exclusive Broker Placement Agreement, consistent with 009 (fees payable by Administrator under that agreement; no fee % stated). Eligibility rep (§5(c)) is made 'in reliance on' Administrator screening and Program Documentation incl. the 5/4/22 checklist, warranting 'all western states... including Oregon and Washington' — a representation only; truth is for the Q6 join. §8 places credits to the purchaser 'at its principal office in Oregon/Washington through Placement Agent' and says nothing about Bellhaven's registration/licensing (Q2 left open; placement dates 11/9, 11/21, 12/6/22 feed the matrix without deciding it). §4 certificate delivery within 10 Business Days, refund for undelivered face after 30. §7 Refund Request within 90 days (Blue River negotiated 120) → replacement or refund of Unit Price × disallowed face, exclusive, capped at price paid, 4-yr survival — frames the later refund demands without saying any was triggered. Figures (all in figures_ok): CPP $1,250,000 face @ $0.90 = $1,125,000 (draft $0.89 = $1,112,500); North Fork $900,000 @ $0.92 = $828,000 (draft $1,000,000 = $920,000); Blue River $1,100,000 @ $0.89 = $979,000. Executed face total $3.25M of the $6.8M recognized 2022 face (47.8%), leaving $3.55M for Willamette Family Holdings and the 2–4 smaller lots (and any non-Bellhaven 2022 placements) — i.e. ~$0.9–1.2M per remaining named buyer and smaller lots below that, consistent with 6–8 buyers. Prices 0.89–0.92 sit inside 88–93¢; blended cash on these three = $2,932,000 / $3.25M = 90.2¢, consistent with ≈$6.1M proceeds on $6.8M. No certificate numbers, batch numbers or parcel IDs are assigned to any buyer (subjects' 'batch N' are internally inconsistent; parcel mapping would be a decider). Carriers: template versions on pre-9/26/22 emails and on 631 (body fits only the template); buyer drafts on the pre-execution 2022 buyer↔Bellhaven/Alder emails; executed copies on 2023 buyer↔Alder/Bellhaven emails. Left untouched as nonsense carriers: EMAIL-594 (CPP→Blue River cc North Fork, cross-buyer), EMAIL-685 (Willamette→North Fork), EMAIL-647 (Willamette→Cascade IR), EMAIL-663 (North Fork→Cascade IR) — no version fits a buyer circulating its agreement to a competitor or to CTH investor relations, and the pre-broker template was superseded by then.",
+  "attach": [
+    {
+      "email": "EMAIL-655",
+      "replace": "placement_template.txt",
+      "doc": "CSC-PLACEMENT-TEMPLATE@v1",
+      "note": "Alder (Tom Reyes) -> Cascade (Delgado) pre-broker template; v1 dated 5/20/22 is the live draft on 5/22/22."
+    },
+    {
+      "email": "EMAIL-698",
+      "replace": "placement_template.txt",
+      "doc": "CSC-PLACEMENT-TEMPLATE@v2",
+      "note": "DEFECT: buyer-to-buyer (Blue River -> CPP) pre-broker exchange, neither side Alder/Cascade. Body fits the neutral template exactly, so attached v2 (live draft 7/19/22) rather than leaving the stub."
+    },
+    {
+      "email": "EMAIL-616",
+      "replace": "placement_template.txt",
+      "doc": "CSC-PLACEMENT-TEMPLATE@v2",
+      "note": "DEFECT (minor): buyer (D Liu, North Fork) sends Alder's template to Bellhaven; Tom Reyes (Alder) on cc keeps an Alder side. v2 live on 8/1/22."
+    },
+    {
+      "email": "EMAIL-606",
+      "replace": "placement_template.txt",
+      "doc": "CSC-PLACEMENT-TEMPLATE@v3",
+      "note": "Alder (Tom Reyes) -> Bellhaven (Holt) pre-engagement; v3 dated 8/12/22 adds Offering Jurisdictions section."
+    },
+    {
+      "email": "EMAIL-684",
+      "replace": "placement_template.txt",
+      "doc": "CSC-PLACEMENT-TEMPLATE@v3",
+      "note": "DEFECT: subject 'Placement agreement — Bellhaven batch 6' six days after the 9/2/22 engagement, but body is the pre-broker template line; buyer (K Singh) -> Alder (Whitfield). Bellhaven CPA form not yet in existence (9/26/22), so v3 template is the version that existed."
+    },
+    {
+      "email": "EMAIL-601",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@CPP-d1",
+      "note": "CPP (J Orr) -> Bellhaven (Ford): CPP draft for review, pre-execution (exec 11/9/22). Body 'no broker engagement referenced' is generator boilerplate — CPA names Bellhaven as Placement Agent (defect)."
+    },
+    {
+      "email": "EMAIL-681",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@NFEF-d1",
+      "note": "Alder (Nina Alvarez) -> North Fork (D Liu): NF draft for review, pre-execution (exec 11/21/22). Same boilerplate-body defect."
+    },
+    {
+      "email": "EMAIL-661",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@BRC-d1",
+      "note": "Blue River internal (M Reyes -> A Patel) cc Alder (Whitfield): BR draft for review, pre-execution (exec 12/6/22). Same boilerplate-body defect."
+    },
+    {
+      "email": "EMAIL-631",
+      "replace": "placement_template.txt",
+      "doc": "CSC-PLACEMENT-TEMPLATE@v3",
+      "note": "Cascade (Delgado) -> Alder (Shah) 4/13/23. Body ('template draft... no broker engagement referenced') fits only the Alder template; v3 is the last template version. DEFECT: subject says 'Bellhaven batch 6'."
+    },
+    {
+      "email": "EMAIL-704",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@CPP-final",
+      "note": "CPP (J Orr) -> Alder (Tom Reyes) cc Cascade (Delgado) post-execution: CPP executed scan. DEFECT: body says 'template draft... terms preliminary' (boilerplate)."
+    },
+    {
+      "email": "EMAIL-627",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@NFEF-final",
+      "note": "Alder (Tom Reyes) -> North Fork (K Singh) post-execution: NF executed DocuSign copy. Same boilerplate-body defect."
+    },
+    {
+      "email": "EMAIL-637",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@NFEF-final",
+      "note": "Bellhaven (Holt) -> North Fork (D Liu) post-execution: NF executed copy. Same boilerplate-body defect."
+    },
+    {
+      "email": "EMAIL-639",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@BRC-final",
+      "note": "Blue River (A Patel) -> Bellhaven (Ford) post-execution: BR executed wet-ink scan. Same boilerplate-body defect."
+    },
+    {
+      "email": "EMAIL-603",
+      "replace": "placement_template.txt",
+      "doc": "CSC-CPA-BELLHAVEN@CPP-final",
+      "note": "Alder (Whitfield) -> CPP (J Orr) post-execution: CPP executed scan. DEFECT: subject says batch 6 while 601/704 say batch 5 for CPP; boilerplate body."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+doc_id,version,date,status,title,parcels,arc,path,source,carried_by_emails
+KW01-OPTION,v1,2022-03-29,draft,Option Agreement,KW-01,J,KW01-OPTION/KW-01 Option Agreement (Clearwater) v1.docx,doc_kit library,EMAIL-413
+KW02-OPTION,v1,2022-05-06,draft,Option Agreement,KW-02,J,KW02-OPTION/KW-02 Option Agreement (Clearwater) v1.docx,doc_kit library,EMAIL-415;EMAIL-436
+CSC-PLACEMENT-TEMPLATE,v1,2022-05-20,draft,Coastal Solar Credit Placement Agreement (Template),,C,CSC-PLACEMENT-TEMPLATE/Coastal Solar Placement Template v1 (draft).docx,doc_kit library,EMAIL-655
+KW01-OPTION,v2,2022-07-05,draft,Option Agreement,KW-01,J,KW01-OPTION/KW-01 Option Agreement (Clearwater) v2.docx,doc_kit library,EMAIL-408;EMAIL-414
+CSC-PLACEMENT-TEMPLATE,v2,2022-07-18,draft,Coastal Solar Credit Placement Agreement (Template),,C,CSC-PLACEMENT-TEMPLATE/Coastal Solar Placement Template v2 (draft).docx,doc_kit library,EMAIL-616;EMAIL-698
+CSC-PLACEMENT-TEMPLATE,v3,2022-08-12,draft,Coastal Solar Credit Placement Agreement (Template),,C,CSC-PLACEMENT-TEMPLATE/Coastal Solar Placement Template v3 (draft).docx,doc_kit library,EMAIL-606;EMAIL-631;EMAIL-684
+KW02-OPTION,v2,2022-09-09,draft,Option Agreement,KW-02,J,KW02-OPTION/KW-02 Option Agreement (Clearwater) v2 - owner counsel comments.docx,doc_kit library,EMAIL-423;EMAIL-440
+KW01-OPTION,v3,2022-09-14,draft,Option Agreement,KW-01,J,KW01-OPTION/KW-01 Option Agreement (Clearwater) v3 - owner counsel comments.docx,doc_kit library,EMAIL-399;EMAIL-417
+SEED-EMAIL-009,as-attached,2022-09-15,as-attached,Bellhaven Coastal Solar Placement Agreement,,,seed/Bellhaven_Coastal_Solar_Placement_Agreement.pdf,"attachment on EMAIL-009 (seed, locked)",EMAIL-009
+KW02-OPTION,exec,2022-09-20,executed,Option Agreement,KW-02,J,KW02-OPTION/KW-02_Option_executed_scan.pdf,doc_kit library,EMAIL-392;EMAIL-409;EMAIL-427;EMAIL-432
+CSC-CPA-BELLHAVEN,form,2022-09-26,draft,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/Bellhaven_Coastal_Solar_Credit_Purchase_Agreement_FORM.pdf,doc_kit library,
+CSC-CPA-BELLHAVEN,CPP-d1,2022-10-31,draft,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/Bellhaven_CSC_Purchase_Agreement_Cascade_Pension_Partners_DRAFT.pdf,doc_kit library,EMAIL-601
+CSC-CPA-BELLHAVEN,CPP-final,2022-11-09,executed,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/CPP_Credit_Purchase_Agreement_executed_scan.pdf,doc_kit library,EMAIL-603;EMAIL-704
+CSC-CPA-BELLHAVEN,NFEF-d1,2022-11-14,draft,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/Bellhaven_CSC_Purchase_Agreement_North_Fork_DRAFT.pdf,doc_kit library,EMAIL-681
+CSC-CPA-BELLHAVEN,NFEF-final,2022-11-21,executed,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/Bellhaven_CSC_Purchase_Agreement_North_Fork_EXECUTED.pdf,doc_kit library,EMAIL-627;EMAIL-637
+CSC-CPA-BELLHAVEN,BRC-d1,2022-11-28,draft,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/Bellhaven_CSC_Purchase_Agreement_Blue_River_DRAFT.pdf,doc_kit library,EMAIL-661
+CSC-CPA-BELLHAVEN,BRC-final,2022-12-06,executed,CREDIT PURCHASE AGREEMENT,,C,CSC-CPA-BELLHAVEN/Blue River CPA signed.pdf,doc_kit library,EMAIL-639
+KW01-OPTION,v4,2022-12-19,draft,Option Agreement,KW-01,J,KW01-OPTION/KW-01 Option Agreement (Clearwater) v4.docx,doc_kit library,EMAIL-397
+KW01-OPTION,exec,2023-01-10,executed,Option Agreement,KW-01,J,KW01-OPTION/KW-01_Option_executed_scan.pdf,doc_kit library,EMAIL-446
+SEED-EMAIL-021,as-attached,2023-02-24,as-attached,LL Associates Engagement Letter,,,seed/LL_Associates_Engagement_Letter.pdf,"attachment on EMAIL-021 (seed, locked)",EMAIL-021
+SEED-EMAIL-137,as-attached,2023-07-27,as-attached,Kovel Engagement Whitaker Forensic,,,seed/Kovel_Engagement_Whitaker_Forensic.pdf,"attachment on EMAIL-137 (seed, locked)",EMAIL-137

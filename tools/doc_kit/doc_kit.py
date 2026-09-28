@@ -112,6 +112,7 @@ def resolve(doc, version):
     meta["signatures"] = subst(ver.get("signatures", []), vars_)
     meta["filename"] = subst(ver.get("filename") or f"{doc['doc_id']}_{version}.{ver.get('format', 'pdf')}", vars_)
     meta["title"] = subst(doc.get("title", ""), vars_)
+    meta["doc_control"] = subst(doc.get("doc_control") or "", vars_)
     meta["vars"] = vars_
     return meta, content
 
@@ -523,8 +524,9 @@ def validate_version(doc, version, issues, where):
     if (meta.get("status") or "").lower() == "executed" and not all(s.get("signed") for s in meta.get("signatures") or [{}]):
         warn("status executed but not every signature block is signed (partially executed?)")
     known = set(tk.RULES["known_figures"]) | set(doc.get("figures_ok", []))
-    for fig in re.findall(r"\$\s?\d[\d,.]*\s?[KMB]?\b", text):
-        if fig.replace(" ", "") not in known:
+    for fig in re.findall(r"\$\s?\d[\d,]*(?:\.\d+)?(?:\s?[KMB]\b)?", text):
+        fig = fig.rstrip(",. ")
+        if fig.replace(" ", "") not in known and fig not in ("$0", "$0."):
             warn(f"figure {fig} not in bible ledger or doc figures_ok")
     for pid in set(re.findall(r"\b[A-Z]{2}-\d{2}\b", text)):
         if pid not in tk.RULES["known_parcels"] and not pid.startswith("RM"):
@@ -671,21 +673,28 @@ SEED_CONTRACT_RE = re.compile(r"agreement|engagement|contract|option|amendment|l
 
 def publish(library, docs, doc_type):
     out_root = os.path.join(tk.ROOT, "data", "contracts")
-    carried = {}
+    carried, first_copy = {}, {}
     for rec_p in sorted(os.listdir(WORK)) if os.path.isdir(WORK) else []:
         if rec_p.endswith(".apply.json"):
             for e in json.load(open(os.path.join(WORK, rec_p)))["emails"]:
                 carried.setdefault(e["doc"], []).append(e["email"])
+                first_copy.setdefault(e["doc"], (e["email"], e["filename"]))
     rows = []
     for doc_id, doc in library.items():
         if doc_id.startswith("_") or (doc_type and doc.get("type") != doc_type):
             continue
         for v in doc["versions"]:
+            key = f"{doc_id}@{v['version']}"
             fn, mime, data, meta = render_version(doc, v["version"])
+            if key in first_copy and first_copy[key][0] in docs:
+                # same bytes as the attached copy, so hash-dedup matches the email family
+                em, efn = first_copy[key]
+                hit = [x for x in docs[em].attachments if x[0] == efn]
+                if hit:
+                    fn, data = efn, hit[0][2]
             d = os.path.join(out_root, doc_id)
             os.makedirs(d, exist_ok=True)
             open(os.path.join(d, fn), "wb").write(data)
-            key = f"{doc_id}@{v['version']}"
             rows.append({"doc_id": doc_id, "version": v["version"], "date": meta["date"], "status": meta.get("status", ""),
                          "title": meta["title"], "parcels": ";".join(meta.get("parcels") or []), "arc": meta.get("arc") or "",
                          "path": os.path.relpath(os.path.join(d, fn), out_root), "source": "doc_kit library",
