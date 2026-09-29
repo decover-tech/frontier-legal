@@ -6,90 +6,59 @@ Message-ID: <email-539.202212191120@mosslane-cpa.com>
 In-Reply-To: <email-502.202208251330@larsentaxadvisory.com>
 References: <email-502.202208251330@larsentaxadvisory.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1175995997280638308=="
+Content-Type: multipart/mixed; boundary="===============3029072965061058051=="
 
---===============1175995997280638308==
+--===============3029072965061058051==
 Content-Type: multipart/alternative;
- boundary="===============3402932364088336413=="
+ boundary="===============1874382818483658713=="
 
---===============3402932364088336413==
+--===============1874382818483658713==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.
+Craig =E2=80=94 attached is your booking note template with our request marke=
+d against it. For year-end testing we'll need, by lot: face value delivered, =
+cash received per the escrow statement, and the fee wires, all tied to the ba=
+nk. The template's columns are still blank, so please send the populated vers=
+ion or the underlying escrow statements, whichever is faster. We'll also need=
+ certificate delivery dates for anything recognized in December.
 
 T Kim
 Associate, Audit | Moss & Lane LLP
 tkim@mosslane-cpa.com
 
-On Mon, Dec 19, 2022, EMAIL-502 wrote:
-
-> Build computation attached for review =E2=80=94 inputs flagged where the sc=
-an was hard to read.
->=20
-> Owen Larsen
-> Principal | Larsen Tax Advisory
-> olarsen@larsentaxadvisory.com
->=20
-> On Thu, Aug 25, 2022, EMAIL-554 wrote:
->=20
-> > Finance note: keeping face value, cash proceeds, and fees on separate lin=
-es so the three can be reconciled later.
-> >=20
-> > Owen Larsen
-> > Principal | Larsen Tax Advisory
-
---===============3402932364088336413==
+--===============1874382818483658713==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============6133174438611907293=="
+ boundary="===============5942291239060320662=="
 
---===============6133174438611907293==
+--===============5942291239060320662==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
 t-size:11pt">
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.<br>
+Craig =E2=80=94 attached is your booking note template with our request marke=
+d against it. For year-end testing we&#x27;ll need, by lot: face value delive=
+red, cash received per the escrow statement, and the fee wires, all tied to t=
+he bank. The template&#x27;s columns are still blank, so please send the popu=
+lated version or the underlying escrow statements, whichever is faster. We&#x=
+27;ll also need certificate delivery dates for anything recognized in Decembe=
+r.<br>
 &nbsp;<br>
 T Kim<br>
 Associate, Audit | Moss &amp; Lane LLP<br>
 tkim@mosslane-cpa.com<br>
-<img src=3D"cid:image001.png@01D152727FD.FE215E23" alt=3D"Moss &amp; Lane LLP=
+<img src=3D"cid:image001.png@01D7531C783.AFE987CE" alt=3D"Moss &amp; Lane LLP=
 " style=3D"margin:4px 0"><br>
-&nbsp;<br>
-On Mon, Dec 19, 2022, EMAIL-502 wrote:<br>
-&nbsp;<br>
-<blockquote style=3D"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-lef=
-t:1ex">
-Build computation attached for review =E2=80=94 inputs flagged where the scan=
- was hard to read.<br>
-&nbsp;<br>
-Owen Larsen<br>
-Principal | Larsen Tax Advisory<br>
-olarsen@larsentaxadvisory.com<br>
-&nbsp;<br>
-On Thu, Aug 25, 2022, EMAIL-554 wrote:<br>
-&nbsp;<br>
-<blockquote style=3D"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-lef=
-t:1ex">
-Finance note: keeping face value, cash proceeds, and fees on separate lines s=
-o the three can be reconciled later.<br>
-&nbsp;<br>
-Owen Larsen<br>
-Principal | Larsen Tax Advisory<br>
-</blockquote>
-</blockquote>
 </div></body></html>
 
---===============6133174438611907293==
+--===============5942291239060320662==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01D152727FD.FE215E23>
+Content-ID: <image001.png@01D7531C783.AFE987CE>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAANwAAAAiCAMAAAADHEfaAAAAwFBMVEX9/v2zx7LL2Mo2ZkIyYj56
@@ -125,11 +94,11 @@ SJbT841YwInm9AE48scmPeoFIogZnOAtieDQRB/A+9K46vORP4SApngiy2JysB06Esg6sjqs1HiP
 gRqcgX8eZtTi1JiAnG5C5JlgVrKdaCDS0iMGf+BQO4f2K3Bm5dCwZ1C06hB2bCjmrOOXp7ShDe+y
 wc/8E9YnTh8/f5D57f74+C/Gbzi3DAh62QAAAABJRU5ErkJggg==
 
---===============6133174438611907293==--
+--===============5942291239060320662==--
 
---===============3402932364088336413==--
+--===============1874382818483658713==--
 
---===============1175995997280638308==
+--===============3029072965061058051==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="booking_note.csv"
@@ -138,4 +107,4 @@ MIME-Version: 1.0
 batch,face_value,cash_received,fees_expensed
 NW-batch,,,
 
---===============1175995997280638308==--
+--===============3029072965061058051==--

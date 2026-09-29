@@ -3,27 +3,31 @@ Date: Fri, 17 Jun 2022 08:00:00 -0700
 Subject: Clearwater file note =?utf-8?b?4oCU?= dates log (no conclusion)
 Message-ID: <email-425.202206170800@alderpointpartners.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8760143740792729454=="
+Content-Type: multipart/mixed; boundary="===============5358112510969503518=="
 To: Tom Reyes <treyes@alderpointpartners.com>
 
---===============8760143740792729454==
+--===============5358112510969503518==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Date log for the Clearwater files: lead call, option draft date, and packet a=
-ssembly date as shown. Recording only =E2=80=94 no characterization.
+Tom =E2=80=94 dates log updated on my side: lead call 3/16, your walk 3/22, K=
+W-01 draft 3/29, KW-02 draft 5/6. I haven't put anything on the packet line y=
+et =E2=80=94 I'll wait until the KW-02 packet is actually together rather tha=
+n guess at a date. Sheet attached.
 
 Nina Alvarez
 Regional Sales Rep (Southwest) | Alder Point Partners
 nalvarez@alderpointpartners.com
 
---===============8760143740792729454==
-Content-Type: text/csv
-Content-Transfer-Encoding: base64
+--===============5358112510969503518==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="clearwater_dates.csv"
 MIME-Version: 1.0
 
-ZXZlbnQsZGF0ZQpsZWFkX2NhbGwsMjAyMi0wMy0xNgpvcHRpb25fZHJhZnQsc2VlIGZpbGUKcGFj
-a2V0LHNlZSBmaWxlCg==
+event,date
+lead_call,2022-03-16
+option_draft,see file
+packet,see file
 
---===============8760143740792729454==--
+--===============5358112510969503518==--

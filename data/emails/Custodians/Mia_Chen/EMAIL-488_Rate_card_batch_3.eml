@@ -4,19 +4,22 @@ Date: Mon, 06 Dec 2021 09:15:00 -0800
 Subject: Rate card =?utf-8?b?4oCU?= batch 3
 Message-ID: <email-488.202112060915@cascadetimber.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4460074167791437555=="
+Content-Type: multipart/mixed; boundary="===============2976307019438757045=="
 
---===============4460074167791437555==
+--===============2976307019438757045==
 Content-Type: multipart/alternative;
- boundary="===============8253355357637506238=="
+ boundary="===============2397748517560685916=="
 
---===============8253355357637506238==
+--===============2397748517560685916==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Draft rate schedule attached for discussion =E2=80=94 per-acre figures by bat=
-ch, preliminary and unsigned. Finance to confirm before anything is quoted ex=
-ternally.
+Rob =E2=80=94 first pass at a rate schedule attached, built off the per-acre =
+figure in Alder's proposal deck. It's preliminary and unsigned. I've only fil=
+led the Northwest batch line, since that's the only batch where we can source=
+ acreage from our own land records. Before this goes into the partnership mod=
+el I'd like Alder to show us how they got to the per-acre number =E2=80=94 it=
+ drives every line downstream. Happy to walk through it Thursday.
 
 Craig Sato
 Controller
@@ -28,28 +31,32 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============8253355357637506238==
+--===============2397748517560685916==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============2025282929672977011=="
+ boundary="===============0100935904297114764=="
 
---===============2025282929672977011==
+--===============0100935904297114764==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
 t-size:11pt">
-Draft rate schedule attached for discussion =E2=80=94 per-acre figures by bat=
-ch, preliminary and unsigned. Finance to confirm before anything is quoted ex=
-ternally.<br>
+Rob =E2=80=94 first pass at a rate schedule attached, built off the per-acre =
+figure in Alder&#x27;s proposal deck. It&#x27;s preliminary and unsigned. I&#=
+x27;ve only filled the Northwest batch line, since that&#x27;s the only batch=
+ where we can source acreage from our own land records. Before this goes into=
+ the partnership model I&#x27;d like Alder to show us how they got to the per=
+-acre number =E2=80=94 it drives every line downstream. Happy to walk through=
+ it Thursday.<br>
 &nbsp;<br>
 Craig Sato<br>
 Controller<br>
 Cascade Timber Holdings, Inc.<br>
 1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
 (503) 555-0107 | csato@cascadetimber.com<br>
-<img src=3D"cid:image001.png@01DFDA07C5D.42AAE8BF" alt=3D"Cascade Timber Hold=
+<img src=3D"cid:image001.png@01D1B240039.47B4BE5C" alt=3D"Cascade Timber Hold=
 ings, Inc." style=3D"margin:4px 0"><br>
 &nbsp;<br>
 This message and any attachments are confidential and may be protected by<br>
@@ -57,11 +64,11 @@ legal privilege. If you are not the intended recipient, please notify the<br>
 sender immediately and delete all copies.<br>
 </div></body></html>
 
---===============2025282929672977011==
+--===============0100935904297114764==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01DFDA07C5D.42AAE8BF>
+Content-ID: <image001.png@01D1B240039.47B4BE5C>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
@@ -77,11 +84,11 @@ LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
 9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
 AABJRU5ErkJggg==
 
---===============2025282929672977011==--
+--===============0100935904297114764==--
 
---===============8253355357637506238==--
+--===============2397748517560685916==--
 
---===============4460074167791437555==
+--===============2976307019438757045==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="rate_card_draft.csv"
@@ -90,4 +97,4 @@ MIME-Version: 1.0
 batch,rate_per_acre,status
 NW-batch,2800,draft-preliminary
 
---===============4460074167791437555==--
+--===============2976307019438757045==--

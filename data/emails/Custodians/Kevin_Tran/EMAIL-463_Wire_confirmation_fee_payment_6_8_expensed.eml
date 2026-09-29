@@ -4,18 +4,22 @@ Date: Wed, 23 Nov 2022 11:35:00 -0800
 Subject: Wire confirmation =?utf-8?b?4oCU?= fee payment (6%/8% expensed)
 Message-ID: <email-463.202211231135@cascadetimber.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3532476274347239669=="
+Content-Type: multipart/mixed; boundary="===============4576415181985804791=="
 
---===============3532476274347239669==
+--===============4576415181985804791==
 Content-Type: multipart/alternative;
- boundary="===============6460795430228891863=="
+ boundary="===============7053945431559598696=="
 
---===============6460795430228891863==
+--===============7053945431559598696==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.
+Following up on your request for fee support. The attached booking note shows=
+ where the fee wires land. Bellhaven's 6% and Alder's 8% are paid out of cash=
+ proceeds and booked as expense =E2=80=94 they are not netted against revenue=
+. I'll have Craig pull the actual wire confirmations for the October and Nove=
+mber settlements and send them to you directly; the note itself won't carry a=
+mounts until the lots close.
 
 Robert Denniston
 Chief Financial Officer
@@ -27,27 +31,31 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============6460795430228891863==
+--===============7053945431559598696==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============6454601543528676569=="
+ boundary="===============7951436938410047653=="
 
---===============6454601543528676569==
+--===============7951436938410047653==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
 t-size:11pt">
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.<br>
+Following up on your request for fee support. The attached booking note shows=
+ where the fee wires land. Bellhaven&#x27;s 6% and Alder&#x27;s 8% are paid o=
+ut of cash proceeds and booked as expense =E2=80=94 they are not netted again=
+st revenue. I&#x27;ll have Craig pull the actual wire confirmations for the O=
+ctober and November settlements and send them to you directly; the note itsel=
+f won&#x27;t carry amounts until the lots close.<br>
 &nbsp;<br>
 Robert Denniston<br>
 Chief Financial Officer<br>
 Cascade Timber Holdings, Inc.<br>
 1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
 (503) 555-0102 | rdenniston@cascadetimber.com<br>
-<img src=3D"cid:image001.png@01DC12932CC.88ADFFF3" alt=3D"Cascade Timber Hold=
+<img src=3D"cid:image001.png@01DC5662585.EFBE35A0" alt=3D"Cascade Timber Hold=
 ings, Inc." style=3D"margin:4px 0"><br>
 &nbsp;<br>
 This message and any attachments are confidential and may be protected by<br>
@@ -55,11 +63,11 @@ legal privilege. If you are not the intended recipient, please notify the<br>
 sender immediately and delete all copies.<br>
 </div></body></html>
 
---===============6454601543528676569==
+--===============7951436938410047653==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01DC12932CC.88ADFFF3>
+Content-ID: <image001.png@01DC5662585.EFBE35A0>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
@@ -75,11 +83,11 @@ LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
 9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
 AABJRU5ErkJggg==
 
---===============6454601543528676569==--
+--===============7951436938410047653==--
 
---===============6460795430228891863==--
+--===============7053945431559598696==--
 
---===============3532476274347239669==
+--===============4576415181985804791==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="booking_note.csv"
@@ -88,4 +96,4 @@ MIME-Version: 1.0
 batch,face_value,cash_received,fees_expensed
 NW-batch,,,
 
---===============3532476274347239669==--
+--===============4576415181985804791==--

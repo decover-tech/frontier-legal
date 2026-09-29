@@ -1,0 +1,161 @@
+{
+ "rewrite_id": "RW-P2-H",
+ "bible_refs": [
+  "§0 subpoena 5/23/23 (023)",
+  "§0 preservation prep 5/26 (206/207) vs hold 6/13 (024/060)",
+  "§0 Bellhaven self-preservation Q (070) — third-party gap",
+  "Arc H 158/160/162 production + privilege log"
+ ],
+ "rationale": "Collection, preservation, privilege-log and examination-status emails rewritten with the good and bad preservation facts side by side: retention running pre-5/26, suspension from 5/26, formal hold 6/13, device gaps and the Bellhaven gap. No specific production deadlines, extension dates or subpoena citations are stated, since another agent owns those. The Tran notes restate only 160/162 content.",
+ "emails": [
+  {
+   "email": "EMAIL-1139",
+   "body": "Mia — Alan's first custodian list went to John on Tuesday. The first targeted pull is attached as a manifest: the parcel-file shares plus a handful of priority mailboxes, with status per source. I'd hold off on anything broader until Dan Osei gives us mailbox sizes. Can you check the manifest against John's list and flag gaps, especially Alder people whose mail may not sit on Cascade's system? Let's discuss on Thursday's call.",
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Collection kickoff 047/048 (2/26-2/28); pre-subpoena internal review; no hold language"
+  },
+  {
+   "email": "EMAIL-1123",
+   "body": "Mia — batch 2 is loaded into the review workspace: the compliance share and the 2022 Coastal Solar folders Sarah identified. The source list and item counts are in the batch log. De-duplication ran against batch 1. I've set up the same coding panel so first-level reviewers can start tomorrow. One open item: a few files are password-protected spreadsheets, so I've parked them in an exceptions folder until Sarah can supply passwords.",
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Internal review collection, pre-subpoena; logistics voice"
+  },
+  {
+   "email": "EMAIL-1054",
+   "body": "Grace — updated manifest from Dan attached. The parcel-file shares and first priority mailboxes show as exported. The finance folders are still in progress. I've asked him to note for each source whether it came from Cascade's systems or from something Alder runs, since that affects what we can actually get. Let me know if L&L wants anything added before he starts the next round.",
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Internal-review collection; Alder-system gap noted; Ellery procedural"
+  },
+  {
+   "email": "EMAIL-1078",
+   "body": "John — updated manifest attached. Everything on the current list is exported except the finance share, which should finish Tuesday. One flag: for mailboxes we haven't exported, the standard retention policy is still running, so older items can roll off on schedule. If you want that paused for the people on your list, tell me and I can do it for those accounts quickly. I don't want to change it company-wide without direction from you.",
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Pre-5/26 retention still running (sets up 206 suspension); ops voice"
+  },
+  {
+   "email": "EMAIL-1063",
+   "body": "Mia — current export manifest attached. Since May 26, automated deletion has been suspended for the exec team and everyone on John's draft custodian list, so nothing on that list is aging out while we work. Exports are complete for most of the list. Nina Alvarez's mailbox is next in line because of her end-of-June departure, and HR is flagging departures to me the same day. Nothing is formally under a hold notice yet, so this is IT preservation only.",
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "206/207 good preservation vs pre-6/13 hold; Nina priority (059)"
+  },
+  {
+   "email": "EMAIL-1073",
+   "body": "Grace — Robert Denniston's mailbox export is complete. The manifest is attached with item count and hash values for the export file. The litigation-hold flag on his account stays on, and the export copy is stored on the review share with access limited to Alan and my team. His mobile device isn't included. If you need texts, that's a separate collection I'd have to set up with him.",
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote"
+   ],
+   "note": "Post-hold (6/13, 060) custodian export; device gap noted"
+  },
+  {
+   "email": "EMAIL-1096",
+   "body": "Dan — closing the loop on Nina Alvarez for the file. Per John's direction, her mailbox was exported before her last day, and the account was disabled on June 30 but not deleted. It stays on hold until Legal says otherwise. Alder has asked twice whether they can reuse the license. I've said no and pointed them to John. Please let me know if anything about her account changes on your side.",
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Nina departure 6/30; CTH IT/HR administer mailbox (059/061/062)"
+  },
+  {
+   "email": "EMAIL-1084",
+   "body": "Dan — Hannah Cole returned her hold acknowledgment. Can you confirm the hold flag is on her mailbox and on the land-records network share she maintains? Separately, she keeps paper parcel files in the records room. Nobody should move, cull or re-file those until Alan has inventoried them next week. A short confirmation back to me is all I need.",
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Hold 6/13 (024/060); Cole holds parcel files; pre-Upjohn (7/18)"
+  },
+  {
+   "email": "EMAIL-1095",
+   "body": "Alan — batch 5 entries need to be ready before we talk to the agent about the log. For each withheld item: date, author, recipients, general subject and basis, without describing the advice itself. Please have Mia QC the descriptions. Anything with Alder, Bellhaven or another outside party on it should go on a separate list for me. My expectation is that most of those can't be withheld, but I'd like to look before we decide.",
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Privilege log after 158 request (7/5); third parties vitiate (§10)"
+  },
+  {
+   "email": "EMAIL-1072",
+   "body": "Grace — first-pass log entries for batch 3 are done and saved in the log workbook. Two groups need your call. About forty emails have Alder staff copied. On the doctrine as I read it, I'd produce those rather than log them, but I've held them pending your review. A smaller set are Larsen tax emails where it isn't clear whether counsel directed the work. I've marked those uncertain rather than guess.",
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Privilege log discipline; Alder non-privileged (§5d); Larsen path-dependent (§10)"
+  },
+  {
+   "email": "EMAIL-1066",
+   "body": "John — on Bellhaven: the only Bellhaven material under our preservation controls is what they sent to or received from Cascade addresses. That is held in the mailboxes already flagged. Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us. If counsel wants their files preserved, that would have to be a request to Bellhaven directly. I can't do it technically from here.",
+   "expect_sha": "29561eb89600",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Third-party hold gap (070) stays a gap; ops voice"
+  },
+  {
+   "email": "EMAIL-1059",
+   "body": "John — quarterly reminder cycle: Robert Denniston's re-acknowledgment of the hold came back signed and is saved with the others. Dan, the finance team is due for laptop refreshes in January. Please make sure his old device is imaged before it's wiped, and that the mailbox hold flag carries over to any new account setup. Grace would like the attestation file current before year-end.",
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Ongoing hold maintenance Q4 2023; good preservation"
+  },
+  {
+   "email": "EMAIL-1052",
+   "body": "Mr. Ellery — the first production volume has arrived and is loading on our side. I'll let you know if any files fail to open or if the load file doesn't match the cover letter. Otherwise nothing is needed from you at this point. Please continue to route production questions to me directly.",
+   "expect_sha": "29561eb89600",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "First production before 8/15 (160); no dates/deadlines stated"
+  },
+  {
+   "email": "EMAIL-1065",
+   "body": "Mr. Ellery — a status note. We are reviewing the second production against the items in my August 15 request: the Bellhaven agreements, the records on who approved acreage figures for the Northwest applications, and the surveys. Where something appears incomplete I will list it in writing rather than raise it piecemeal. The examination remains open, and no interviews are being scheduled at this time.",
+   "expect_sha": "29561eb89600",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Post-162 (9/6); open items = 160 list; no new deadlines"
+  }
+ ]
+}

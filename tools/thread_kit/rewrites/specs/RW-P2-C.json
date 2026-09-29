@@ -1,0 +1,301 @@
+{
+ "rewrite_id": "RW-P2-C",
+ "bible_refs": [
+  "§0 marketing root 177/178",
+  "§0 Holt operative chain 009/045/018/029",
+  "§0 Elena reversal 067->200",
+  "§3 buyer 88–93¢",
+  "§5 buyers [PROPOSED]",
+  "§6 Q6",
+  "§7 buyer losses unknown",
+  "Arc C / C2"
+ ],
+ "rationale": "Prose rewrites for arc C (buyer placement correspondence) and C2 (investor/analyst disclosure). ATT-002 carriers get bodies that match the library version they carry (template v1-v3 vs Bellhaven CPA drafts/executed copies; face, price, dates and change notes from the version vars). Pre-existing subject/attachment defects (684, 631 batch naming; 603 batch 5 vs 6) are named in the body instead of hidden. Buyers ask diligence questions and never state losses or legal conclusions; C2 keeps the 'routine' wording trail (067 on 6/29 -> dropped 7/12 per 200) and separates investor/analyst audiences. Figures come from CSC-CPA-BELLHAVEN figures_ok.",
+ "emails": [
+  {
+   "email": "EMAIL-655",
+   "body": "Frank — first cut of the buyer placement template attached (v1, dated 5/20). Fair warning, it reads rough. The eligibility representation, the remedies section and governing law are all bracketed for John's team — I didn't want to guess on any of those. Price and the delivery period are blank too, since Priya wants to set those per lot. Mostly sending so you know what buyers will eventually see alongside the approved kit. Please don't circulate yet; it'll change once Legal has been through it.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "CSC-PLACEMENT-TEMPLATE@v1 (5/20/22): eligibility/remedies/law bracketed; price blank; kit per 177"
+  },
+  {
+   "email": "EMAIL-616",
+   "body": "Derek — Tom sent over the v2 placement template and our team has been through it. Three questions before we spend legal time on it. First, the eligibility representation is made in reliance on the Administrator's screening and the Program Documentation — how should we read that in terms of who stands behind eligibility? Second, is replacement-or-refund intended to be the only remedy, or is that still open? Third, the ten business days for certificate delivery — does that run from closing or from funding? Copying Tom since it's his draft.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-PLACEMENT-TEMPLATE@v2 (7/18/22): reliance-based eligibility rep, replacement-or-refund remedy, 10 business days, Oregon law; buyer diligence questions only"
+  },
+  {
+   "email": "EMAIL-606",
+   "body": "Derek — v3 of the placement template attached. Changes from v2: the remedy is now sole and exclusive and capped at the purchase price, with the survival period still in brackets, and there's a new Offering Jurisdictions section. I've put Oregon and Washington in as placeholders since that's where most of your buyers are. Can you fill in the states you're actually set up to place in, so that section matches your side? I'd like this locked before we formalize anything with you.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-PLACEMENT-TEMPLATE@v3 (8/12/22): sole/exclusive remedy capped at price, survival [4 years], Offering Jurisdictions OR/WA placeholders; pre-engagement (008 is 9/2)"
+  },
+  {
+   "email": "EMAIL-684",
+   "body": "Jay — the document I have under this subject is still the Alder placement template (v3, dated August 12), not a Bellhaven agreement. Now that Bellhaven is running placements, will batch 6 close on this form or on Bellhaven's own paper? If it's theirs, please send it as soon as it exists. Our counsel needs to see the eligibility and remedy sections in the final form before we can commit to a lot size, and I'd rather not review a template that's about to be replaced.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Carries template v3; subject names a Bellhaven batch 6 days after 9/2/22 engagement — body acknowledges the template-vs-agreement gap (pre-existing defect kept visible)"
+  },
+  {
+   "email": "EMAIL-601",
+   "body": "Renee — thank you for the draft purchase agreement for our lot (October 31 version). The face amount matches our allocation. We have one comment on the unit price line, which Derek and I will sort out directly, and our counsel will send a short markup of the refund-request mechanics by Friday. The November 10 closing is tight for our investment committee but workable if comments turn quickly. One diligence item: please send the eligibility checklist the representations refer to, so we can keep it on file with the agreement.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "quote_style_mismatch",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@CPP-d1 (10/31/22): CPP draft, closing on/before 11/10; price later changed per Purchaser comments (direction not stated)"
+  },
+  {
+   "email": "EMAIL-681",
+   "body": "Hi D — Bellhaven's draft purchase agreement for North Fork's lot is attached (November 14 draft). Terms as proposed: $1,000,000 face at $0.92, closing on or before November 22. Derek's team prepared it on their standard form, so any markup should go to them with me copied. If you want to adjust size before signing, now is the time — it's much easier to change the face amount before this goes out for signature than after. Let me know how your committee wants to proceed.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@NFEF-d1 (11/14/22): $1,000,000 face at $0.92, closing by 11/22; final reduced face at Purchaser request (not pre-empted as decided)"
+  },
+  {
+   "email": "EMAIL-661",
+   "body": "A — Bellhaven's draft for our lot came in yesterday (November 28): $1,100,000 face at $0.89, closing on or before December 6. Two things to flag before you sign off. The refund-request window is 90 days from notice of a disallowance, which seems short given how long state reviews can run — I've asked counsel whether we should push for more. And the eligibility representation leans on the Administrator's screening, so I'd like the checklist in our file. Jay, copying you so you can send it over.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@BRC-d1 (11/28/22): $1,100,000 at $0.89, 90-day refund-request period (final 120 per BR counsel)"
+  },
+  {
+   "email": "EMAIL-631",
+   "body": "Priya — I'm pulling the agreement file for batch 6, and what I have saved under that name is the August 2022 placement template (v3), not an executed Bellhaven purchase agreement. Can you send the signed batch 6 agreements, or tell me which form those buyers actually signed? I'd rather not work from the template if the executed paper differs from it. End of next week is fine.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Carries template v3; subject says Bellhaven batch 6 (pre-existing defect) — body names the mismatch rather than papering over it"
+  },
+  {
+   "email": "EMAIL-704",
+   "body": "Tom — as requested, attached is our executed copy of the purchase agreement for the batch 5 lot, dated November 9, 2022, at the $0.90 unit price we signed. Please confirm it matches the copy in the Administrator's file. Given the pause, our committee has asked for a status on the credits delivered under this agreement and on any certificates still outstanding. Copying Frank so Cascade has the same document in front of it.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@CPP-final (executed 11/9/22, $0.90); post-pause buyer status request, no loss asserted"
+  },
+  {
+   "email": "EMAIL-627",
+   "body": "K — attached is the fully executed North Fork purchase agreement you asked for, DocuSigned November 21, 2022. Note the face amount in the signed version is $900,000 — it came down from the draft at your side's request before signing, so don't be thrown if your working copy shows the higher number. Our tracker files this one under batch 4; if your records say something different, tell me and I'll reconcile. Anything on certificate status should go through Priya.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@NFEF-final (DocuSign 11/21/22): face $1,000,000 -> $900,000 at Purchaser request"
+  },
+  {
+   "email": "EMAIL-637",
+   "body": "Dear D — as requested, attached is Bellhaven's file copy of the executed North Fork purchase agreement (DocuSign, November 21, 2022). I'm glad to confirm the document itself. On your questions about the status of the underlying credits, those are best directed to Alder Point as Program Administrator; Bellhaven's role under the agreement was limited to placement, as set out in Sections 8 and 9. I'm happy to set up a call with Tom or Priya if that would help.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@NFEF-final; Bellhaven signs Sections 8 and 9 only (library sig block); courteous deflection"
+  },
+  {
+   "email": "EMAIL-639",
+   "body": "Renee — attaching our wet-ink copy of the Blue River purchase agreement, signed December 6, 2022. Could you confirm Bellhaven's file copy matches, in particular the refund-request provision? Our signed version provides 120 days, which our counsel negotiated up from the 90 days in the draft. We're reviewing our options under that section and want to be sure everyone is working from the same document. We'd also appreciate copies of any eligibility materials Bellhaven provided with the offering.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@BRC-final (12/6/22 wet-ink): refund-request 90 -> 120 days per BR counsel; no loss or conclusion stated"
+  },
+  {
+   "email": "EMAIL-603",
+   "body": "J — attached is the executed CPP purchase agreement from our side (signed November 8–9, 2022). Heads up that our tracker had your lot under batch 6, while your emails and Bellhaven's list have it as batch 5. The document is the same either way — $1,250,000 face at $0.90 — but I'll get our tracker fixed so we stop confusing people. Let me know if your counsel needs anything else from us.",
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "CSC-CPA-BELLHAVEN@CPP-final; subject batch 6 vs 601/704 batch 5 (pre-existing) acknowledged as tracker inconsistency"
+  },
+  {
+   "email": "EMAIL-646",
+   "body": "J — thanks for the question on timing. Short version: the first batches are being lined up against parcels already in the pipeline, and certificates go out once each batch clears. I don't have firm dates yet and don't want to give you one that slips. On coverage, I'm sticking to what's in the approved deck and one-pager — Priya's team owns any changes to those. I'll come back with a delivery window once the batch schedule is set.",
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "Post-177 approved kit (5/4/22); no dates or coverage claims beyond kit"
+  },
+  {
+   "email": "EMAIL-679",
+   "body": "Hello A — thanks for reaching out on timing and coverage. We're still getting set up with the program team at Alder Point, so I don't want to quote you batch dates ahead of them. On coverage, I'd point you to the program materials Alder has approved; questions on which states the credits can be used in are best confirmed with them directly. I'll make sure Blue River is on our list once placements open.",
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "Pre-9/2/22: Bellhaven places nothing; deflects coverage to Alder kit"
+  },
+  {
+   "email": "EMAIL-691",
+   "body": "J — good to have the purchase agreement signed. On timing: certificates for your lot go out in delivery order, and I'll have Tom send you the schedule this week. On coverage, the program materials you received are the current approved versions. Any registration or state-by-state questions on the placement side, Derek's team is the right place — copying him here. We're aiming to have everything wrapped for you before year-end.",
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "After CPP exec 11/9/22, before 045 (12/20): no registration status asserted; routes to Bellhaven"
+  },
+  {
+   "email": "EMAIL-628",
+   "body": "J — received your letter on the lot 4 credits. I'm not in a position to respond on the substance myself, so I've passed it to Priya and the program team for a proper answer from the Administrator side. I've also asked that your executed agreement and the certificate records for your lot be pulled, so everyone is looking at the same documents. You'll hear back from us rather than silence — I'll check in by the end of next week.",
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Post-pause (6/27/23); acknowledges buyer letter; no loss or position stated (§7)"
+  },
+  {
+   "email": "EMAIL-636",
+   "body": "Tom — following up on the pause announcement. Can you tell us (1) whether any credits under our agreement remain undelivered, (2) whether certificates already delivered are affected, and (3) who at Alder or Cascade we should direct formal correspondence to going forward? Our committee meets later this month and I'd like to give them something factual. We have your note of July 3 but nothing substantive yet.",
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Follows 628 (7/3/23); buyer diligence questions only"
+  },
+  {
+   "email": "EMAIL-665",
+   "body": "Tom — this email is North Fork's written request under the refund provisions of our purchase agreement for the credits in our lot. We're asking the Administrator to make the election the agreement provides between replacement credits and a refund, and to confirm in writing which applies. We aren't in a position to quantify anything yet and reserve all rights. Please confirm receipt and let us know who will be handling this on your side.",
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "Refund demand without stating loss (§7 unknown); references agreement mechanics only"
+  },
+  {
+   "email": "EMAIL-714",
+   "body": "Robert — first pass at analyst Q&A prep. Expect three questions: why the pause, revenue impact, and restart timing. My recommendation is to keep answers high level: new placements are paused while the company reviews the program, and we'll update when that's done. No restart dates, even informally — analysts will hold you to anything that sounds like a range. On revenue, point to the next quarterly pack rather than giving numbers on a call. Happy to run a mock session Thursday.",
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "noncanonical_sig",
+    "prose_rewrite"
+   ],
+   "note": "Northstar enters 6/27/23; 6/28 precedes 'routine review' (6/29) so not used; C2 audience only"
+  },
+  {
+   "email": "EMAIL-720",
+   "body": "Robert — for the board messaging note I'm working from Elena's line: the program is under routine review and new placements are paused while that's ongoing. I'd keep the note to that plus a pointer to the quarterly pack for financials. Rosa's Q&A prep takes the same posture — no restart timing. Before I circulate, can you confirm finance is comfortable with no revenue figure in the note itself?",
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "prose_rewrite"
+   ],
+   "note": "Uses 067 'routine review' wording (allowed from 6/29/23; de-routinized 7/12 per 200) — version trail"
+  },
+  {
+   "email": "EMAIL-729",
+   "body": "Frank — disclosure cites come straight from the Q3 pack, nothing paraphrased. If Robert's numbers aren't final, the note says \"see Q3 pack\" and nothing else. No characterization of the review. Send me the draft before it goes to Rosa, and keep the investor and analyst versions separate.",
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Elena terse; post-200 no characterization; C2 audiences separate"
+  },
+  {
+   "email": "EMAIL-727",
+   "body": "Frank — v2 of the investor FAQ is in the shared folder. Per Elena's edits, \"routine\" is gone from every answer; the pause answer now just says new placements are paused while the review is completed and that we'll update when it is. I also cut the restart-timing answer down to one sentence. Financial questions point to the Q3 pack. One open item: whether to mention the review at all in the headline answer — your call.",
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "noncanonical_sig",
+    "prose_rewrite"
+   ],
+   "note": "Post-200 (7/12/23) de-routinized trail; Rosa learns edits via Frank"
+  },
+  {
+   "email": "EMAIL-740",
+   "body": "Rosa — finance comments on the Q&A prep. Revenue questions get one answer: refer to the Q3 pack when it's published. No deferred-revenue figures, no ranges, no reserve discussion on calls. If someone asks about restart timing, same as before — we'll update when the review is complete. I'll be on the prep call, but I want Frank leading it.",
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "prose_rewrite"
+   ],
+   "note": "CFO; no figures; consistent with 200"
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "rewrite_id": "RW-P2-A",
+ "bible_refs": [
+  "§0 earliest knowledge (037/003/129/039)",
+  "§2 parcel table + per-parcel records [PROPOSED]",
+  "§6 Q1/Q5 (join-required)",
+  "§9 knowledge ledger",
+  "Arc A",
+  "rules.json cutoffs (GreenAcre findings 3/15/22; re-survey 4/1/22; hold 5/26/23)"
+ ],
+ "rationale": "Arc A spine rewrites of templated one-liners. Each body is a cover or records note that fits its attachment (filing/checklist/packet/field sheet/notice) and its date. No per-parcel acreage, no $ figures, no re-survey, no NW-07 mapping for recorder notices, and no new application dates beyond the email's own date (the 2022 'went out today' templates are converted to requests where the date would otherwise conflict). Parcel IDs follow the post-P1 subjects.",
+ "emails": [
+  {
+   "email": "EMAIL-390",
+   "body": "Jay — checklist for NW-03 attached. County filing is pulled; the survey overlay, the option paperwork and the application itself are all still open, so nothing has been filed. Tom wants the Northwest batch moving, but I'd rather not send a packet out with blank boxes on it. Do you know who's holding the overlay? If it's sitting with the survey side, a nudge from you will get it here faster than one from me.",
+   "expect_sha": "ae3813d8fb39",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Pre-submission checklist cover that matches the attachment (filing pulled, overlay/option/application open); no acreage; §2 NW-03, §4 Feb 2022."
+  },
+  {
+   "email": "EMAIL-307",
+   "body": "Tom — sorry for the Saturday note. Before the NW-04 payment line gets booked, can we hold it for a few days? Same thing I mentioned when I sent the batch sheet: the acreage I remember seeing in the county system doesn't obviously line up with what we're carrying, and I haven't pulled the filing to check. I'll grab the county filing and field notes Monday and confirm what's missing by Friday. Could easily be nothing.",
+   "expect_sha": "e40782547a43",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Nina's hedged follow-on to her 2/14/22 'might be off' (037), before Tom's 3/2 flag; no figures, no conclusion. §0 earliest knowledge, §9.",
+   "subject": "Parcel payment ledger line — NW-04"
+  },
+  {
+   "email": "EMAIL-268",
+   "body": "Hi — following up on the Northwest verification work. I'm pulling the recorded easement filing for NW-02 from the county index for our parcel file and want to be sure I get the same instrument your crew worked from. Could you send the recording reference from your NW-02 field notes? Once I have it I'll send you the recorded copy so both files match. Nothing further needed on your side.",
+   "expect_sha": "056701b66223",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Records-admin request for the recording reference; no findings cited; NW-02 is CTH fee land (§2). Parent of 338 (coherent).",
+   "subject": "County easement filing — NW-02"
+  },
+  {
+   "email": "EMAIL-299",
+   "body": "Tom — I went through the Lane and Klamath easement folders while cleaning up the shared drive. Most of it reads like the standard county form. Two pages I've flagged for you: one where the easement area described in the recital is hard to square with the acreage on our sheet, and one exhibit that's missing its map page. Not saying either one is a problem. I'd just like a second set of eyes on them before these files go any further.",
+   "expect_sha": "2e99f3523a5c",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Routine 2022 file review that notices, without concluding, a recital/acreage question; no re-survey, no parcel figures. Arc A competing readings stay open."
+  },
+  {
+   "email": "EMAIL-365",
+   "body": "Tom — NW-07 county filing attached, the recorded copy from the county index. I haven't compared the acreage against our schedule; that's a separate step, and honestly better done by someone who does this more often than I do. The parcel number on the recorded copy is in the county's format, so it still needs matching to our NW-07 folder. Want me to send Hannah a copy for Cascade's file too?",
+   "expect_sha": "8b3fe734ce84",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Cover note that fits NW-07_filing.txt (as-filed, verification pending); keeps county-number-to-NW-07 mapping as a separate step (§6 Q5)."
+  },
+  {
+   "email": "EMAIL-363",
+   "body": "Hi team — we're assembling the NW-07 submission packet on our side. Filing and field notes are in, but as the index shows, the survey overlay is still outstanding and we're holding the application until it arrives. Is the overlay from the March Northwest job something you can send as a standalone PDF, or does it need a separate order? Packet index attached so you can see exactly what we have.",
+   "expect_sha": "3a8ed489d41d",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Fits NW-07_packet_index.txt (overlay missing, application not filed); references the March 2022 GreenAcre engagement (038/039) without findings.",
+   "subject": "Submission packet — NW-07 2022"
+  },
+  {
+   "email": "EMAIL-290",
+   "body": "Hannah, per your request, attached is the county easement filing for NW-08 as recorded, pulled from the county index during the Northwest verification work. The copy is unannotated. The acreage shown is the as-filed figure only and has not been reconciled to Cascade's schedule under this transmittal. If you need a certified copy, the county issues those on request and we can order one for you.",
+   "expect_sha": "4feece3977fa",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "GreenAcre field-ops transmittal of an as-filed record; no findings or figures; NW-08 (§2).",
+   "subject": "County easement filing — NW-08"
+  },
+  {
+   "email": "EMAIL-372",
+   "body": "Tom — I'm updating the parcel file log for the Northwest batch. I have NW-05 marked as submitted but there's no transmittal date in the folder. Could you confirm the date the application went out, and whether the packet went as assembled or with changes? A copy of the cover letter for the file room would help too. End of week is fine.",
+   "expect_sha": "f6edae06693d",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Converts a templated 'went out today' into a records request, so no new application date is asserted; §2 per-parcel records set."
+  },
+  {
+   "email": "EMAIL-386",
+   "body": "Priya — recorded county filing for NW-01 attached for the packet binder. The acreage on it is as-filed. I haven't checked it against our schedule, and I wouldn't know what I was looking at if I did. NW-01 is one of Cascade's own parcels, so Hannah probably has the original in their records room if you want a cleaner copy. Can you slot it in with the rest of the Northwest binder?",
+   "expect_sha": "de6c5973cbc5",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Fits NW-01_filing.txt; NW-01 = CTH fee land, Cole holds files (§2, 031/033)."
+  },
+  {
+   "email": "EMAIL-376",
+   "body": "Hi — I'm sending back the NW-04 field sheet with a question, and sorry for the weekend email. The sheet notes acreage from the GPS trace and says reconciliation to the county filing is pending. When your team does that reconciliation, which figure goes on the final sheet if they don't match, the trace or the filing? I'm trying to understand what I'm looking at before it goes in our file. I'm not asking you to change anything.",
+   "expect_sha": "587d19772426",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Fits NW04 field sheet (trace; reconciliation pending); a process question with no answer. Nina's character (§5).",
+   "subject": "GreenAcre field sheet — NW-04"
+  },
+  {
+   "email": "EMAIL-346",
+   "body": "Jay — GreenAcre has field time the week of July 11 for the added parcels, and Tom wants the Klamath candidates on the route if we can get access sorted. Before they'll book the crew I still need street addresses or pin drops for each one, plus any gate or access issues. Nothing's been surveyed yet, so there are no numbers to share with anyone. Can you check with Nina on the pin drops?",
+   "expect_sha": "66a391cf3ed6",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Ties to the 180 quote (field week of 7/11/22) and Nina's pin drops (176); pre-field, no findings."
+  },
+  {
+   "email": "EMAIL-343",
+   "body": "Hannah — for your parcel log, the NW-06 application went out today with the packet as assembled. The transmittal cover and packet index are going into the file-room binder this afternoon. If the county sends a receipt directly to Cascade rather than to us, could you forward me a copy so we can match dates? We're trying to keep one date per parcel across both offices.",
+   "expect_sha": "7ca54ccc0286",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Keeps the corpus's own date (this email's date) as NW-06's transmittal; no acreage. Receipt request supports the §6 Q2-style date-matching join.",
+   "subject": "Application date confirmation — NW-06"
+  },
+  {
+   "email": "EMAIL-326",
+   "body": "Tom — recorded easement filing for NW-08 attached, as you asked. This is the as-filed copy from the county. I haven't reconciled the acreage against the schedule Alder is carrying, because that isn't something I can sign off on from records. If you need the certified version, the county takes about a week. I've logged your request in the parcel file.",
+   "expect_sha": "4feece3977fa",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Hannah's careful records voice; as-filed only; NW-08 (§2).",
+   "subject": "County easement filing — NW-08"
+  },
+  {
+   "email": "EMAIL-319",
+   "body": "Hi — could you send over your field files for the southern tracts from the spring work? It's a routine request; we're building out folders on our end. Our storage isn't well labeled, so before I circulate anything I want to confirm which batch each folder belongs to. If your files note the program or batch on the cover sheet, that would save me a lot of guesswork.",
+   "expect_sha": "db4154ed296d",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "2022 routine pull; the batch-labeling ambiguity foreshadows 114 ('reforestation or solar?') without the July 2023 context."
+  },
+  {
+   "email": "EMAIL-281",
+   "body": "Hello — I'm attaching a county notice we received that requests a correction. It cites the county's parcel number only; it doesn't use any of our internal parcel labels. Before I file it anywhere, I'm trying to match that number to a recorded filing. Your 2022 field files list county parcel numbers alongside the survey IDs. Could you check whether this number appears in any of them and, if so, on which job? I'm not asking for any view on the correction itself.",
+   "expect_sha": "95393afd3055",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Recorder notice cites a number only, so mapping needs the filing (§6 Q5, Arc A); no NW-07 or Mountain Ridge attribution."
+  },
+  {
+   "email": "EMAIL-338",
+   "body": "Jay — recorded copy of the NW-02 easement filing attached. It's the same instrument I pulled for GreenAcre last spring (my earlier note is below), so it matches what's in the survey file. As-filed acreage only; I haven't annotated it. If this is going into a buyer diligence binder, please use this copy rather than the older scan, which is missing the exhibit page.",
+   "expect_sha": "0a1e09db17fb",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Parent 268 is a coherent link, so 'below' is valid; fits NW-02_filing.txt; buyer diligence per Arc C.",
+   "subject": "County easement filing — NW-02"
+  },
+  {
+   "email": "EMAIL-334",
+   "body": "Nina — county notice attached. It came in this week asking for a correction, but it only cites the county's parcel number, so I can't tell from this which of our files it belongs to and I don't want to guess. You've got the best memory for the county numbering; does it ring a bell? If not, I'll pull the recorded filings and match it the slow way on Monday.",
+   "expect_sha": "95393afd3055",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Spring-2023 notice; mapping left to the filings (§6 Q5); neither MR nor NW-07 named, so the 115-vs-117 conflict stays open."
+  },
+  {
+   "email": "EMAIL-328",
+   "body": "Tom — before I pull anything, which set do you mean? There are two groups of folders labeled southern tracts: the 2022 solar submissions and the older reforestation parcels. Also, everything in that area is under the document hold now, so I can make copies but the originals stay in the records room, and I'll need to log the request with legal first. Let me know which batch and I'll get the copies started.",
+   "expect_sha": "db4154ed296d",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Hold-era logistics (post 6/13/23 hold); echoes the 114 batch ambiguity; no interview or advice content."
+  },
+  {
+   "email": "EMAIL-322",
+   "body": "Hannah — for the file index: our transmittal log shows the NW-04 application going out with the packet as assembled. The county receipt copy should be in your NW-04 folder. I haven't gone back through the packet contents, just the date field, and I'd like it to match the receipt before the index goes over. If the two dates differ, flag it and I'll pull our cover letter.",
+   "expect_sha": "2194afbef5be",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Retrospective date confirmation that asserts no new date; supports the date-matrix join; hold-era index.",
+   "subject": "Application date confirmation — NW-04"
+  },
+  {
+   "email": "EMAIL-300",
+   "body": "Hi Hannah — Tom walked some Klamath candidates last week and wants them on the next survey route. Before anyone books a crew I'm collecting addresses, pin drops and any access constraints. If Cascade's records room has anything on the Route 97 corridor, like old easement filings or neighboring parcels, could you point me to it? Nothing's been surveyed and there are no numbers yet. This is just routing.",
+   "expect_sha": "66a391cf3ed6",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Post-3/16/22 Route 97 lead (175/176); pre-field; no KW option or application dates."
+  }
+ ]
+}

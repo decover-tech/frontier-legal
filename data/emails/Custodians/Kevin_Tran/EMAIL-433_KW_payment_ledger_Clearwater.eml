@@ -3,27 +3,31 @@ Date: Fri, 20 May 2022 09:55:00 -0700
 Subject: KW payment ledger =?utf-8?b?4oCU?= Clearwater
 Message-ID: <email-433.202205200955@alderpointpartners.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3589317424574051217=="
+Content-Type: multipart/mixed; boundary="===============1729241468579367621=="
 To: Tom Reyes <treyes@alderpointpartners.com>
 Cc: Priya Shah <pshah@alderpointpartners.com>
 
---===============3589317424574051217==
+--===============1729241468579367621==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Ledger entries for KW-01 attached =E2=80=94 amounts and dates per the bank fe=
-ed. Two lines need date confirmation; leaving them flagged.
+Tom =E2=80=94 KW-01 ledger tab attached, copying Priya so finance has the sam=
+e sheet. The $12,000 is the option fee as drafted (three $4,000 installments)=
+. Nothing has gone out =E2=80=94 the option isn't signed =E2=80=94 so the dat=
+e column stays 'per bank feed' and will fill in from the bank feed once payme=
+nts start.
 
 Nina Alvarez
 Regional Sales Rep (Southwest) | Alder Point Partners
 nalvarez@alderpointpartners.com
 
---===============3589317424574051217==
-Content-Type: text/csv
-Content-Transfer-Encoding: base64
+--===============1729241468579367621==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="KW-01_ledger.csv"
 MIME-Version: 1.0
 
-cGFyY2VsLGFtb3VudCxkYXRlCktXLTAxLDEyMDAwLHBlciBiYW5rIGZlZWQgKHZlcmlmeSkK
+parcel,amount,date
+KW-01,12000,per bank feed (verify)
 
---===============3589317424574051217==--
+--===============1729241468579367621==--

@@ -1,0 +1,29 @@
+From: Owen Larsen <olarsen@larsentaxadvisory.com>
+Date: Mon, 08 May 2023 14:05:00 -0700
+Subject: Parcel credit build =?utf-8?b?4oCU?= NW-03 (face)
+Message-ID: <email-544.202305081405@larsentaxadvisory.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6246785203602446022=="
+To: Craig Sato <csato@cascadetimber.com>
+
+--===============6246785203602446022==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Build computation attached for review =E2=80=94 inputs flagged where the scan=
+ was hard to read.
+
+Owen Larsen
+Principal | Larsen Tax Advisory
+olarsen@larsentaxadvisory.com
+
+--===============6246785203602446022==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="NW-03_build.csv"
+MIME-Version: 1.0
+
+parcel,input,status
+NW-03,claimed_ac,preliminary
+
+--===============6246785203602446022==--

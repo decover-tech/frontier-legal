@@ -1,0 +1,28 @@
+From: GreenAcre Land Survey Co. <surveys@greenacresurvey.com>
+To: Priya Shah <pshah@alderpointpartners.com>
+Date: Fri, 03 Nov 2023 16:55:00 -0800
+Subject: Parcel payment ledger line =?utf-8?b?4oCU?= NW-08
+Message-ID: <email-269.202311031655@greenacresurvey.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4757299275973146224=="
+
+--===============4757299275973146224==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ledger line for NW-08 attached =E2=80=94 earnest/option amount per the schedu=
+le. Flagging one date I'm unsure of; finance to confirm.
+
+GreenAcre Land Survey Co. =E2=80=94 Field Operations
+surveys@greenacresurvey.com
+
+--===============4757299275973146224==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="NW-08_ledger.csv"
+MIME-Version: 1.0
+
+parcel,amount,date_note
+NW-08,15000,per schedule (verify date)
+
+--===============4757299275973146224==--

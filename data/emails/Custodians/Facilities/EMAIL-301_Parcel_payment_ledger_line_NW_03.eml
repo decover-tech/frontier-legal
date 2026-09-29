@@ -1,0 +1,29 @@
+From: Nina Alvarez <nalvarez@alderpointpartners.com>
+To: Jay Whitfield <jwhitfield@alderpointpartners.com>
+Date: Thu, 27 Oct 2022 08:00:00 -0700
+Subject: Parcel payment ledger line =?utf-8?b?4oCU?= NW-03
+Message-ID: <email-301.202210270800@alderpointpartners.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4909421986248038647=="
+
+--===============4909421986248038647==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ledger line for NW-03 attached =E2=80=94 earnest/option amount per the schedu=
+le. Flagging one date I'm unsure of; finance to confirm.
+
+Nina Alvarez
+Regional Sales Rep (Southwest) | Alder Point Partners
+nalvarez@alderpointpartners.com
+
+--===============4909421986248038647==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="NW-03_ledger.csv"
+MIME-Version: 1.0
+
+parcel,amount,date_note
+NW-03,15000,per schedule (verify date)
+
+--===============4909421986248038647==--

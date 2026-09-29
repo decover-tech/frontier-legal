@@ -1,0 +1,108 @@
+{
+ "rewrite_id": "RW-P2-G",
+ "bible_refs": [
+  "§0 whistleblower 2/20/23 (019/046)",
+  "§0 counsel Mar 9/10 + Brooks channel (163/164)",
+  "§7 whistleblower identity UNKNOWN; retaliation risk",
+  "Arc G pool of 3 (134/135)"
+ ],
+ "rationale": "Replaces templated one-liners on the complainant/intake/access-log/pool emails with in-voice text. Identity stays open (several people remain in view; no names tied to the complaint). Complainant contact stays in the Brooks channel. Substance is pushed to calls and memos to file, so no email settles the pool. Nothing is named before L&L's 2/24/23 engagement.",
+ "emails": [
+  {
+   "email": "EMAIL-1017",
+   "body": "Sarah — for planning only. Once outside counsel is engaged I expect they will want to interview the compliance team first, then land records and the Alder-side contacts who touched the parcel files. Can you put together names, roles and rough availability for the next three weeks? Please keep scheduling in one thread with me for now rather than calendar invites that say what the meetings are about. I'd also like the complaint text kept to the two of us until counsel has seen it.",
+   "expect_sha": "57944efab633",
+   "fixes": [
+    "short_body"
+   ],
+   "note": "Pre-2/24 (no L&L named); complaint 2/20 (019/046); interview planning feeding 165"
+  },
+  {
+   "email": "EMAIL-1045",
+   "body": "John — short note after Friday's call with complainant's counsel. They were cooperative and want future contact to stay with one person on our side, which matches what you set up. Please treat Alan as the only channel: any call or email from them to you or Sarah should be redirected to him without substantive comment. I'd rather not summarize what was said in email. Mia is writing up a memo to file, and I'm happy to walk you through it by phone Monday or Tuesday.",
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Mar-10 call (163/164); Brooks single channel (164); substance kept off email"
+  },
+  {
+   "email": "EMAIL-1012",
+   "body": "Alan — please finalize the intake note from the March 10 call from your and Mia's notes. Stick to what was said, who was on the line and the follow-ups they asked for. No characterization of the caller and no guesses about who they are or how they know what they know. Mark it as prepared at our direction for the internal review, save it to the restricted matter folder only, and don't circulate it. I'll review it before it goes anywhere.",
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Mar-10 intake (163/164); identity stays unknown; WP, restricted"
+  },
+  {
+   "email": "EMAIL-1030",
+   "body": "Sarah — Dan's team pulled the access history on the parcel-file shares for the period Grace asked about; a first cut is attached. It's raw: account name, folder, date and action. Several people across land records, compliance and the Alder side show up, which is what you'd expect for shared working files. Could you mark which accounts belong to your team so we can label them correctly? Please don't forward it or discuss it internally. It stays in the review folder.",
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "File-access log as collection data only; multiple custodians; no narrowing"
+  },
+  {
+   "email": "EMAIL-1042",
+   "body": "John — I've given Alan my handwritten notes from the March 10 call and deleted nothing. The originals are in a sealed envelope in my office, and the scanned copy is only in L&L's review folder, not on the compliance share. I haven't typed anything up separately. If Grace wants my recollection added to their memo I'm happy to do that on a call. Otherwise I'll leave the record to them.",
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote"
+   ],
+   "note": "Mar-10 record handling; Nguyen procedural; channel per 164"
+  },
+  {
+   "email": "EMAIL-1039",
+   "body": "Alan — complainant's counsel called my direct line this morning asking about timing now that the subpoena is public inside the company. I didn't discuss substance and told them you are the contact for anything further. They asked for a call back this week. Can you take it and let Grace know? I'd like any response to be one you and Grace settle between you, not something from me.",
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Post-5/23 subpoena; redirect to Brooks channel (164)"
+  },
+  {
+   "email": "EMAIL-1029",
+   "body": "Grace — the March 10 interview record is final and saved to the restricted matter folder with your edits from last week. Only you and Mia have access, plus me as administrator. Sarah's scanned notes are filed behind it as an exhibit. I've kept the draft versions in the folder history rather than deleting them, per the hold. Let me know if John should get a read-only copy or if you'd rather brief him by phone.",
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Mar-10 record finalized; hold 6/13 in force; access restricted"
+  },
+  {
+   "email": "EMAIL-1016",
+   "body": "Alan — after Sarah's interview on Tuesday, one ground rule: any analysis of who may have made the complaint stays with L&L as work product. It isn't to be shared with HR, managers or anyone at Alder. On the current record more than one person with parcel-file access remains in view, and I don't want anything written that suggests otherwise. Please also flag to Grace that anything touching the people in that group needs a retaliation check before any employment decision about them. Calls rather than email on this, please.",
+   "expect_sha": "66e036984fa8",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Pool narrows (134/135) but stays multi-candidate; retaliation flag (§7)"
+  },
+  {
+   "email": "EMAIL-1026",
+   "body": "Sarah — a quick update, since you asked. The file-access work helps us understand who could have seen the parcel files. It does not tell us who contacted counsel, and we are not trying to reach that conclusion. Several people remain consistent with what the caller described. Please don't share any of this with HR or management, and keep the complainant's anonymity front of mind in any personnel matter touching the land-records or Alder teams. Happy to discuss by phone. I'd rather not put more in writing.",
+   "expect_sha": "66e036984fa8",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_org_sig"
+   ],
+   "note": "Pool of 3 kept open; no sole-ID; retaliation flag; Grace hedges to call"
+  }
+ ]
+}

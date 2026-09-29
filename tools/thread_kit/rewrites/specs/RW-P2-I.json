@@ -1,0 +1,93 @@
+{
+ "rewrite_id": "RW-P2-I",
+ "bible_refs": [
+  "§5d Alder non-privileged third party; no joint-defense (absence shown by gaps)",
+  "§0 CTH IT/HR administer Nina mailbox (059/061)",
+  "198 handoff"
+ ],
+ "rationale": "Alder–Cascade file-access and mailbox-admin notes rewritten as concrete routine coordination (2022–early 2023), then review-era gatekeeping through Ellery. No agreement between the companies is asserted or denied in writing. Alder's own-systems gap is left open.",
+ "emails": [
+  {
+   "email": "EMAIL-1150",
+   "body": "Dan — two of our people need read access to the Coastal Solar parcel folders on your shared drive: Tom Reyes and Jay Whitfield. Nina already has it. Nothing beyond the parcel and packet folders; they don't need finance. Can you set that up this week? Happy to put it through whatever ticket form you use.",
+   "expect_sha": "57ce3b3432dd",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Routine 2022 cross-company file access; no hold context"
+  },
+  {
+   "email": "EMAIL-1160",
+   "body": "Dan — housekeeping for the new year. Please remove Alder access to the Q3 marketing folder, since that deck is superseded. Also confirm that the Southwest parcel folder still shows Nina and Tom as editors. The auditors asked who can change those files, and I'd like to answer from your access list rather than from memory.",
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Routine access list; who-edits-files question; pre-review"
+  },
+  {
+   "email": "EMAIL-1154",
+   "body": "Tom — Nina's last day is June 30. Given Cascade's review, please don't clear out her mailbox or the Southwest folders, even where they look duplicative, and get her handoff notes into the shared drive before she goes. I'll check with Cascade on how they want her account handled before anything is deprovisioned on our side.",
+   "expect_sha": "7950e720c422",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Nina departure 6/30; account handling deferred to Cascade (059/061/062); pre-6/13 hold"
+  },
+  {
+   "email": "EMAIL-1161",
+   "body": "Tom — following the hold notice: the hold flag and the auto-delete suspension cover Cascade's systems, including the Coastal Solar shared drive your team uses. Mail on Alder's own accounts, phones and laptops isn't something we can preserve from here. That sits with Alder's IT. Wendy and I are working with Priya on Nina's account before she leaves.",
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "060 IT actions; Alder non-privileged third party; gap left open (§5d)"
+  },
+  {
+   "email": "EMAIL-1142",
+   "body": "John — I've confirmed with Nina that her handoff notes are in the Southwest / Handoff folder, including the Clearwater files. Wendy asked us not to touch her account after the 30th, and we won't. If you need anything from her before she goes, this week is the time. After that, questions about her files should come through you, not me.",
+   "expect_sha": "7950e720c422",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ],
+   "note": "198 handoff; post-hold; Alder third party (vitiated)"
+  },
+  {
+   "email": "EMAIL-1155",
+   "body": "Dan — for the file, on Nina Alvarez's account: it stays disabled and on hold, and the export copy stays on the review share. Any Alder request for access to her mailbox or folders, including from Tom or Priya, comes to me first. Please don't grant access directly, even for a single file. Let me know if Alder IT contacts you about it.",
+   "expect_sha": "7950e720c422",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "CTH administers Nina mailbox after 6/30; Ellery gatekeeping (ACP)"
+  },
+  {
+   "email": "EMAIL-1173",
+   "body": "Tom — I can't pull the file from Nina's mailbox for you. Her account is on hold, and access requests go through John Ellery. If you send him the date range and what you're looking for, he'll decide how to handle it. Sorry for the extra step.",
+   "expect_sha": "7950e720c422",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Post-6/30 mailbox admin; Legal gatekeeping; no Alder direct access"
+  },
+  {
+   "email": "EMAIL-1175",
+   "body": "Tom — following up on your question from last week. Cascade's counsel acts for Cascade. If Alder has questions about its own position, those are for Alder's own counsel, and I'd encourage Priya to arrange that. Practically, nothing changes: requests for review materials still come to me, and please keep preserving everything on your side.",
+   "expect_sha": "38df1818f446",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "§5d: Alder non-privileged third party; absence shown, no agreement asserted"
+  }
+ ]
+}

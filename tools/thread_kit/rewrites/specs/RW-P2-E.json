@@ -1,0 +1,105 @@
+{
+ "rewrite_id": "RW-P2-E",
+ "bible_refs": [
+  "§1 gross-vs-net revenue decision",
+  "§3 money ledger",
+  "§5 new classes (Moss & Lane)",
+  "§6 Q3/Q7",
+  "§10 privilege edges (Kovel, Larsen)",
+  "Arc E"
+ ],
+ "rationale": "Arc E advice/continuation record: the 034/035 representation reliance question kept open (nobody confirms the executed language), Ellery edits minutes and frames Q4 pacing against his October memo without naming a decider, downside-case work follows 169/170 dates.",
+ "emails": [
+  {
+   "email": "EMAIL-838",
+   "body": "Marcus — you asked where the Alder screening representation landed. I've asked John to pull the signed partnership agreement and his markup into one file so we can confirm what the screening language says as executed. I haven't seen the executed copy myself yet. I'll send it over once John confirms, and we can decide whether it belongs in the next board pack.",
+   "expect_sha": "c57711c8d0da",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "034/035 root; whether representation obtained stays OPEN (bible §0) — CFO has not seen executed copy; no advice content relayed (gold ACP=No)."
+  },
+  {
+   "email": "EMAIL-882",
+   "body": "Rob — on your question about the Alder representation. I'm still confirming the final form of the screening language in the executed agreement; the versions in the file don't all match. Either way it's a representation about Alder's process, not a warranty that any given parcel qualifies. Whether we can lean on it later depends on what we do now, so I'd want Sarah's spot-checks documented as they happen. Let's talk rather than trade drafts.",
+   "expect_sha": "c57711c8d0da",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Ellery legal advice (ACP gold); obtained/relied OPEN (§0, Arc E); spot-check framework 185/186."
+  },
+  {
+   "email": "EMAIL-900",
+   "body": "Rob — draft minutes for the Q1 meeting attached with my edits. I've kept the program section to what was actually presented: launch status, the compliance framework Sarah described, and your figures, which are marked preliminary. I took out the sentence describing Alder's screening as 'verified' — nobody said that in the room, and it isn't something the minutes should assert. Let me know if your notes differ before I send it to Marcus.",
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Board minutes draft (att board_update_draft.txt); framework 185/186; recital-style editing by counsel (ACP)."
+  },
+  {
+   "email": "EMAIL-889",
+   "body": "Marcus — draft board update for the December meeting attached. Program revenue and the compliance framework are on facing pages, as we discussed. Figures are preliminary until Rob closes the year. John will review the minutes language before anything is final, and I'd like your comments by Wednesday.",
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote"
+   ],
+   "note": "CEO terse; pairs growth/control story (194 idea); figures preliminary pre-193."
+  },
+  {
+   "email": "EMAIL-831",
+   "body": "Rob — I've read the Q4 target memo Alder circulated. From a legal standpoint I'm less concerned with the target than with how it's framed: pacing language that treats every pipeline parcel as placeable reads poorly next to my October memo. If finance is going to rely on the Q4 pacing, tie it to parcels that have cleared the eligibility checklist and say so. I'd keep the memo itself out of the board pack. Call me before you respond to Priya.",
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Ellery advice post-012 (10/4/22); Q4 target 183; who decided to continue stays open."
+  },
+  {
+   "email": "EMAIL-839",
+   "body": "Priya — for the Q4 close file I need the final version of your Q4 target memo and the placement list it was measured against. I want the file to show where the quarter landed against the 1,100 target, which lots made it and which slipped into Q1, and the reason for each. A plain list is fine; no need to dress it up.",
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "1,100 target (183); outcome not asserted; close-file record request."
+  },
+  {
+   "email": "EMAIL-861",
+   "body": "Mia — following Elena's note to John on the pause scenarios, finance will build a downside case for each option ahead of Tuesday's session: recognized and deferred revenue under a full pause, a Northwest-only pause, and continuing with enhanced verification. I'll send it to you and Grace rather than circulate it. Tell me if you want it structured differently for your analysis.",
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "169/170 scenarios (4/4/23); downside-case cutoff 4/4/23 respected; counsel-directed (ACP/WP gold)."
+  },
+  {
+   "email": "EMAIL-880",
+   "body": "Marcus — the downside case you asked for is with counsel. I'll bring the summary to the board call rather than send the model around. The headline is what you'd expect: a pause moves placements into deferred and program revenue drops sharply for the quarter. I don't want numbers in email until Craig has tied them out.",
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Downside case post-4/4/23; no figures (201 comes 7/19/23); gold ACP=No kept (no advice content)."
+  },
+  {
+   "email": "EMAIL-869",
+   "body": "Rob — Q3 board pack draft attached. Use Craig's pause numbers on the revenue page once he's tied them out, and keep the review section to what John clears. John reviews the whole pack before it goes to Marcus. I'd like a version I can read on the weekend.",
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Post-pause (6/27 + 6/30); CEO terse; board_update_draft.txt; no figures."
+  }
+ ]
+}

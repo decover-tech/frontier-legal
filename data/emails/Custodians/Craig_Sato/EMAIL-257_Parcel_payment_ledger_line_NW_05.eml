@@ -1,0 +1,31 @@
+From: Tom Reyes <treyes@alderpointpartners.com>
+To: Priya Shah <pshah@alderpointpartners.com>
+Date: Thu, 30 Nov 2023 14:25:00 -0800
+Subject: Parcel payment ledger line =?utf-8?b?4oCU?= NW-05
+Message-ID: <email-257.202311301425@alderpointpartners.com>
+In-Reply-To: <email127.202307201630@llassociates.com>
+References: <email127.202307201630@llassociates.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5025673364638389083=="
+
+--===============5025673364638389083==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ledger line for NW-05 attached =E2=80=94 earnest/option amount per the schedu=
+le. Flagging one date I'm unsure of; finance to confirm.
+
+Tom Reyes
+Land Acquisition Manager | Alder Point Partners
+treyes@alderpointpartners.com
+
+--===============5025673364638389083==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="NW-05_ledger.csv"
+MIME-Version: 1.0
+
+parcel,amount,date_note
+NW-05,15000,per schedule (verify date)
+
+--===============5025673364638389083==--

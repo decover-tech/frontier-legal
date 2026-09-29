@@ -4,13 +4,13 @@ Date: Tue, 11 Apr 2023 11:30:00 -0700
 Subject: File-access log =?utf-8?b?4oCU?= parcel files (multi-candidate)
 Message-ID: <email-1015.202304111130@llassociates.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5051919592439429366=="
+Content-Type: multipart/mixed; boundary="===============4297156249959053187=="
 
---===============5051919592439429366==
+--===============4297156249959053187==
 Content-Type: multipart/alternative;
- boundary="===============4913842167751587819=="
+ boundary="===============6167435832625908010=="
 
---===============4913842167751587819==
+--===============6167435832625908010==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -18,21 +18,23 @@ File-access record attached showing which parcel files were touched and when.=
  Multiple custodians appear; no conclusions drawn.
 
 Grace Lin
-Partner
-Cascade Timber Holdings, Inc.
-1200 Forest Park Way, Suite 900, Portland, OR 97209
-(503) 555-0100 | glin@llassociates.com
+Partner | L&L Associates LLP
+510 California Street, Suite 2400, San Francisco, CA 94104
+Direct: (415) 555-0121 | glin@llassociates.com
 
-This message and any attachments are confidential and may be protected by
-legal privilege. If you are not the intended recipient, please notify the
-sender immediately and delete all copies.
+PRIVILEGED & CONFIDENTIAL =E2=80=94 This communication, including any attachm=
+ents,
+may contain information that is privileged, confidential, and exempt from
+disclosure under applicable law. It is intended solely for the named
+recipient(s). If you received this message in error, please notify the
+sender and destroy all copies.
 
---===============4913842167751587819==
+--===============6167435832625908010==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============4018306600709754722=="
+ boundary="===============4124876661026937756=="
 
---===============4018306600709754722==
+--===============4124876661026937756==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -43,23 +45,25 @@ File-access record attached showing which parcel files were touched and when.=
  Multiple custodians appear; no conclusions drawn.<br>
 &nbsp;<br>
 Grace Lin<br>
-Partner<br>
-Cascade Timber Holdings, Inc.<br>
-1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
-(503) 555-0100 | glin@llassociates.com<br>
-<img src=3D"cid:image001.png@01D664515DD.2F2E51A9" alt=3D"L&amp;L Associates"=
+Partner | L&amp;L Associates LLP<br>
+510 California Street, Suite 2400, San Francisco, CA 94104<br>
+Direct: (415) 555-0121 | glin@llassociates.com<br>
+<img src=3D"cid:image001.png@01D425BC629.9662D066" alt=3D"L&amp;L Associates"=
  style=3D"margin:4px 0"><br>
 &nbsp;<br>
-This message and any attachments are confidential and may be protected by<br>
-legal privilege. If you are not the intended recipient, please notify the<br>
-sender immediately and delete all copies.<br>
+PRIVILEGED &amp; CONFIDENTIAL =E2=80=94 This communication, including any att=
+achments,<br>
+may contain information that is privileged, confidential, and exempt from<br>
+disclosure under applicable law. It is intended solely for the named<br>
+recipient(s). If you received this message in error, please notify the<br>
+sender and destroy all copies.<br>
 </div></body></html>
 
---===============4018306600709754722==
+--===============4124876661026937756==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01D664515DD.2F2E51A9>
+Content-ID: <image001.png@01D425BC629.9662D066>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAANwAAAAhCAMAAACFiDV0AAAAwFBMVEX+/v4hLEfr6ujZx6xxeInH
@@ -88,11 +92,11 @@ TxonVnDiEazgN9JH0qzvQH/7wFkecUoW2xXO0szG4YDvZA+i2EOa+AQHlnDLoigedKO9rN5GRGF5
 5Wi+LGnhEcoiuwNKH3aGm1j9qUwWl5Ym0KIZONkTYpEzEgSQ29CDl44XFOuxbors9t4ro1ueSD0u
 ULG6JXsIjcgjiOlk2ftJuiTd1mLp/XP6G+4N94bb6/oNGGswUJ62UXMAAAAASUVORK5CYII=
 
---===============4018306600709754722==--
+--===============4124876661026937756==--
 
---===============4913842167751587819==--
+--===============6167435832625908010==--
 
---===============5051919592439429366==
+--===============4297156249959053187==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="file_access_log.csv"
@@ -101,4 +105,4 @@ MIME-Version: 1.0
 file,accessor,date
 (parcel files; multiple custodians)
 
---===============5051919592439429366==--
+--===============4297156249959053187==--

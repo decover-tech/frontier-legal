@@ -6,13 +6,13 @@ Message-ID: <email-515.202306151050@mosslane-cpa.com>
 In-Reply-To: <email-491.202306091120@mosslane-cpa.com>
 References: <email-491.202306091120@mosslane-cpa.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2912162890601362806=="
+Content-Type: multipart/mixed; boundary="===============3669345885411956541=="
 
---===============2912162890601362806==
+--===============3669345885411956541==
 Content-Type: multipart/alternative;
- boundary="===============6855372746717052106=="
+ boundary="===============5929795778412890529=="
 
---===============6855372746717052106==
+--===============5929795778412890529==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,17 +23,12 @@ Brenda Moss
 Partner, Audit | Moss & Lane LLP
 bmoss@mosslane-cpa.com
 
-On Thu, Jun 15, 2023, EMAIL-491 wrote:
-
-> Build computation attached for review =E2=80=94 inputs flagged where the sc=
-an was hard to read.
-
---===============6855372746717052106==
+--===============5929795778412890529==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============4706787283180086396=="
+ boundary="===============3248995654643310622=="
 
---===============4706787283180086396==
+--===============3248995654643310622==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -46,23 +41,15 @@ Draft rate schedule attached =E2=80=94 per-acre figures by batch, preliminary=
 Brenda Moss<br>
 Partner, Audit | Moss &amp; Lane LLP<br>
 bmoss@mosslane-cpa.com<br>
-<img src=3D"cid:image001.png@01DAB44FE70.02583847" alt=3D"Moss &amp; Lane LLP=
+<img src=3D"cid:image001.png@01D28889483.152240A7" alt=3D"Moss &amp; Lane LLP=
 " style=3D"margin:4px 0"><br>
-&nbsp;<br>
-On Thu, Jun 15, 2023, EMAIL-491 wrote:<br>
-&nbsp;<br>
-<blockquote style=3D"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-lef=
-t:1ex">
-Build computation attached for review =E2=80=94 inputs flagged where the scan=
- was hard to read.<br>
-</blockquote>
 </div></body></html>
 
---===============4706787283180086396==
+--===============3248995654643310622==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01DAB44FE70.02583847>
+Content-ID: <image001.png@01D28889483.152240A7>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAANwAAAAiCAMAAAADHEfaAAAAwFBMVEX9/v2zx7LL2Mo2ZkIyYj56
@@ -98,11 +85,11 @@ SJbT841YwInm9AE48scmPeoFIogZnOAtieDQRB/A+9K46vORP4SApngiy2JysB06Esg6sjqs1HiP
 gRqcgX8eZtTi1JiAnG5C5JlgVrKdaCDS0iMGf+BQO4f2K3Bm5dCwZ1C06hB2bCjmrOOXp7ShDe+y
 wc/8E9YnTh8/f5D57f74+C/Gbzi3DAh62QAAAABJRU5ErkJggg==
 
---===============4706787283180086396==--
+--===============3248995654643310622==--
 
---===============6855372746717052106==--
+--===============5929795778412890529==--
 
---===============2912162890601362806==
+--===============3669345885411956541==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="rate_card_draft.csv"
@@ -111,4 +98,4 @@ MIME-Version: 1.0
 batch,rate_per_acre,status
 NW-batch,2800,draft
 
---===============2912162890601362806==--
+--===============3669345885411956541==--

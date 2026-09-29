@@ -1,0 +1,29 @@
+From: Owen Larsen <olarsen@larsentaxadvisory.com>
+To: Brenda Moss <bmoss@mosslane-cpa.com>
+Date: Tue, 14 Feb 2023 08:10:00 -0800
+Subject: Parcel credit build =?utf-8?b?4oCU?= NW-07 (face)
+Message-ID: <email-476.202302140810@larsentaxadvisory.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1659046643382801478=="
+
+--===============1659046643382801478==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Build computation attached for review =E2=80=94 inputs flagged where the scan=
+ was hard to read.
+
+Owen Larsen
+Principal | Larsen Tax Advisory
+olarsen@larsentaxadvisory.com
+
+--===============1659046643382801478==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="NW-07_build.csv"
+MIME-Version: 1.0
+
+parcel,input,status
+NW-07,claimed_ac,preliminary
+
+--===============1659046643382801478==--

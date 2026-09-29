@@ -5,35 +5,29 @@ Subject: Wire tracing analysis =?utf-8?b?4oCU?= fee payments
  (counsel-directed)
 Message-ID: <email-458.202309261440@whitakerforensic.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1794600518241257970=="
+Content-Type: multipart/mixed; boundary="===============1946713500530737107=="
 
---===============1794600518241257970==
+--===============1946713500530737107==
 Content-Type: multipart/alternative;
- boundary="===============6623304897597223702=="
+ boundary="===============5508212385535754809=="
 
---===============6623304897597223702==
+--===============5508212385535754809==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 Booking note: face, cash, and fees on separate lines for later reconciliation=
 . Tying to the bank statement this week.
 
-Dana Whitaker
+Dana Whitaker, CPA/CFF
+Principal | Whitaker Forensic Accounting
+dwhitaker@whitakerforensic.com
 
-Cascade Timber Holdings, Inc.
-1200 Forest Park Way, Suite 900, Portland, OR 97209
-(503) 555-0100 | dwhitaker@whitakerforensic.com
-
-This message and any attachments are confidential and may be protected by
-legal privilege. If you are not the intended recipient, please notify the
-sender immediately and delete all copies.
-
---===============6623304897597223702==
+--===============5508212385535754809==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============4041774283508280087=="
+ boundary="===============5962532813047901739=="
 
---===============4041774283508280087==
+--===============5962532813047901739==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -43,24 +37,18 @@ t-size:11pt">
 Booking note: face, cash, and fees on separate lines for later reconciliation=
 . Tying to the bank statement this week.<br>
 &nbsp;<br>
-Dana Whitaker<br>
-&nbsp;<br>
-Cascade Timber Holdings, Inc.<br>
-1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
-(503) 555-0100 | dwhitaker@whitakerforensic.com<br>
-<img src=3D"cid:image001.png@01D36465B77.3B25B50C" alt=3D"Whitaker Forensic A=
+Dana Whitaker, CPA/CFF<br>
+Principal | Whitaker Forensic Accounting<br>
+dwhitaker@whitakerforensic.com<br>
+<img src=3D"cid:image001.png@01D4AA58EB2.A7496FDB" alt=3D"Whitaker Forensic A=
 ccounting" style=3D"margin:4px 0"><br>
-&nbsp;<br>
-This message and any attachments are confidential and may be protected by<br>
-legal privilege. If you are not the intended recipient, please notify the<br>
-sender immediately and delete all copies.<br>
 </div></body></html>
 
---===============4041774283508280087==
+--===============5962532813047901739==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01D36465B77.3B25B50C>
+Content-ID: <image001.png@01D4AA58EB2.A7496FDB>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAANwAAAAsCAMAAAA5FiaqAAAAwFBMVEX+/v4eUWMkVGXI1Nk4ZHRS
@@ -105,11 +93,11 @@ Puoo1p2sdNZLrrUyZAETq8RMqtBZSkUX2VrlnS4xgtXd1+OOO4e7VNg96qpjN4XrJPyjZZZKia+E
 3m/UKCmczwop7RZU0JMebDuEvL6psb2UhV1LZsOcXiH0sjiK9hhnRRxcfGc3/xTeq7btx/+Q7S8z
 4nOvA9fuEgAAAABJRU5ErkJggg==
 
---===============4041774283508280087==--
+--===============5962532813047901739==--
 
---===============6623304897597223702==--
+--===============5508212385535754809==--
 
---===============1794600518241257970==
+--===============1946713500530737107==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="booking_note.csv"
@@ -118,4 +106,4 @@ MIME-Version: 1.0
 batch,face_value,cash_received,fees_expensed
 NW-batch,,,
 
---===============1794600518241257970==--
+--===============1946713500530737107==--

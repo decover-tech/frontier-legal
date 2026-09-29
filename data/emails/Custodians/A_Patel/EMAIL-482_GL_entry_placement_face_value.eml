@@ -4,18 +4,22 @@ Date: Sat, 10 Sep 2022 08:05:00 -0700
 Subject: GL entry =?utf-8?b?4oCU?= placement face value
 Message-ID: <email-482.202209100805@cascadetimber.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7384584164754933594=="
+Content-Type: multipart/mixed; boundary="===============8996338300597090922=="
 
---===============7384584164754933594==
+--===============8996338300597090922==
 Content-Type: multipart/alternative;
- boundary="===============8580495026914675026=="
+ boundary="===============4587574988788561997=="
 
---===============8580495026914675026==
+--===============4587574988788561997==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.
+Booking note layout attached, as requested for your interim walkthrough. It's=
+ the format we'll use at close =E2=80=94 face value, cash received and fees o=
+n separate lines =E2=80=94 so the columns stay blank until the batches settle=
+. Short version of the policy: we book gross face value at certificate delive=
+ry; the buyer discount affects cash, and the Bellhaven and Alder fees run thr=
+ough expense. Craig can walk you through the mapping next week.
 
 Robert Denniston
 Chief Financial Officer
@@ -27,27 +31,31 @@ This message and any attachments are confidential and may be protected by
 legal privilege. If you are not the intended recipient, please notify the
 sender immediately and delete all copies.
 
---===============8580495026914675026==
+--===============4587574988788561997==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============3069535712233445923=="
+ boundary="===============3795002388858335615=="
 
---===============3069535712233445923==
+--===============3795002388858335615==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
 t-size:11pt">
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.<br>
+Booking note layout attached, as requested for your interim walkthrough. It&#=
+x27;s the format we&#x27;ll use at close =E2=80=94 face value, cash received =
+and fees on separate lines =E2=80=94 so the columns stay blank until the batc=
+hes settle. Short version of the policy: we book gross face value at certific=
+ate delivery; the buyer discount affects cash, and the Bellhaven and Alder fe=
+es run through expense. Craig can walk you through the mapping next week.<br>
 &nbsp;<br>
 Robert Denniston<br>
 Chief Financial Officer<br>
 Cascade Timber Holdings, Inc.<br>
 1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
 (503) 555-0102 | rdenniston@cascadetimber.com<br>
-<img src=3D"cid:image001.png@01DF85B380A.244BF133" alt=3D"Cascade Timber Hold=
+<img src=3D"cid:image001.png@01D3449CBE6.F044E77F" alt=3D"Cascade Timber Hold=
 ings, Inc." style=3D"margin:4px 0"><br>
 &nbsp;<br>
 This message and any attachments are confidential and may be protected by<br>
@@ -55,11 +63,11 @@ legal privilege. If you are not the intended recipient, please notify the<br>
 sender immediately and delete all copies.<br>
 </div></body></html>
 
---===============3069535712233445923==
+--===============3795002388858335615==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01DF85B380A.244BF133>
+Content-ID: <image001.png@01D3449CBE6.F044E77F>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAAMgAAAAjCAMAAADmBbXtAAAAwFBMVEX+/v7p5uZoaWqGh4i1trbX
@@ -75,11 +83,11 @@ LMEmIaNItER/78OCkVmobEXH0pZaW1seoi/9llgoz7XOggqP/jecRmpNq+aDgy4Sxnxb3dYbJqb5
 9eWjzRPfBZ8GCIJFFbX0PoyiWjbtBwnC4QAotIN7yudhJ5fGL4QkSZIkSZJ/4htZlwh74gFZ+AAA
 AABJRU5ErkJggg==
 
---===============3069535712233445923==--
+--===============3795002388858335615==--
 
---===============8580495026914675026==--
+--===============4587574988788561997==--
 
---===============7384584164754933594==
+--===============8996338300597090922==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="booking_note.csv"
@@ -88,4 +96,4 @@ MIME-Version: 1.0
 batch,face_value,cash_received,fees_expensed
 NW-batch,,,
 
---===============7384584164754933594==--
+--===============8996338300597090922==--

@@ -1,0 +1,138 @@
+{
+ "rewrite_id": "RW-P2-F",
+ "bible_refs": [
+  "§1 gross-vs-net revenue decision",
+  "§3 money ledger",
+  "§5 new classes (Moss & Lane)",
+  "§6 Q3/Q7",
+  "§10 privilege edges (Kovel, Larsen)",
+  "Arc F"
+ ],
+ "rationale": "Arc F controls: spot-check absence shown only by calendar holds, empty pack lines and unanswered workpaper requests (never a memo); close files follow 188/193; auditor and Larsen requests on reserve support stay open.",
+ "emails": [
+  {
+   "email": "EMAIL-965",
+   "body": "Sarah — saw Elena signed off on the framework. For finance's piece, can you add a line to the action log for each quarterly spot-check with the date, sample size and who performed it? The auditors will ask at year-end and I'd rather the log carry it than reconstruct it later. Same for the broker due-diligence refresh once we have a broker.",
+   "expect_sha": "adb74ee4e78a",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Framework approved 1/24–25/22 (185/186); asks for the record whose later gaps show absence (Arc F rule)."
+  },
+  {
+   "email": "EMAIL-968",
+   "body": "Elena, Rob — the Q1 eligibility spot-check is on the compliance calendar for the week of April 11. The sample will be drawn from Alder Point submissions received through March 31; I'll confirm the sample size once I have their submission list. The workpaper template is in the compliance folder. I'll circulate the scope before fieldwork starts.",
+   "expect_sha": "7b59dacd442a",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Calendar entry only (Q7: absence shown by gaps, no memo); procedural Nguyen voice."
+  },
+  {
+   "email": "EMAIL-970",
+   "body": "Elena — compliance section for the quarterly pack attached in the standard format. The samples-tested line carries whatever is logged in the tracker at the time the pack is pulled. Broker due diligence isn't applicable yet, since no broker has been engaged. Let me know if you want the framework summary repeated for the board.",
+   "expect_sha": "7524a7f226be",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Quarterly pack section (att: 'Samples tested: listed.' with no entries) — gap left visible, not explained; no broker pre-9/2/22."
+  },
+  {
+   "email": "EMAIL-908",
+   "body": "Elena — Q2 close file is done. Program revenue is booked at certificate delivery per Craig's April memo; anything placed but not delivered at June 30 sits in deferred. The auditors have the policy memo. No reserves or refunds this quarter. Board summary figures to you next week once Craig finishes the tie-out.",
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Recognition at delivery (188); refunds/reserves $0 through Jun (§3)."
+  },
+  {
+   "email": "EMAIL-1000",
+   "body": "Craig — start the Q3 close file. Same recognition basis as Q2. Two additions this quarter: Bellhaven placements began in September, so the fee expense lines are new, and I want the escrow statements tied lot by lot before anything is booked to revenue. Target sign-off is the 21st.",
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Bellhaven from 9/2/22 (008); fees expensed; nothing on the Oct pause decision."
+  },
+  {
+   "email": "EMAIL-961",
+   "body": "Brenda — ahead of fieldwork, our year-end position: program revenue is recognized at certificate delivery, with $6.8M recognized for the year and $1.4M deferred into 2023. Gross face value is booked as revenue; buyer discounts affect cash only, and broker and administrator fees are expensed. The policy memo and the lot-level delivery schedule will be in the PBC folder by January 6. No reserve recorded.",
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "§1 gross-face rule; §3 $6.8M/$1.4M (193, 12/5/22)."
+  },
+  {
+   "email": "EMAIL-926",
+   "body": "Sarah — I'm pulling the program's compliance calendar entries into the finance file. I can see the quarterly spot-check holds for each quarter since launch, but I can't locate the matching workpapers in the shared folder. Are they kept somewhere else? Please send me the location rather than moving anything, given the hold notice.",
+   "expect_sha": "7b59dacd442a",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Gap surfaced as a location question, not an absence memo (Q7); hold 6/13/23 (024)."
+  },
+  {
+   "email": "EMAIL-927",
+   "body": "Elena — Craig has Larsen engaged for the Q3 provision on the usual terms, $18,500 fixed, memo due the 18th. Scope is the deferred revenue treatment for the paused placements and the contingency disclosure wording. I've asked Craig to route anything Larsen sends about the examination through John before it goes into the pack.",
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "142/143 retention, $18,500 (§3); Larsen direct-business edge (§10)."
+  },
+  {
+   "email": "EMAIL-932",
+   "body": "Sarah — Rob mentioned compliance is drafting a remediation plan. For our Q3 contingency review we'd like to see the workplan once it exists, with owners and target dates. We'd also like the spot-check workpapers for 2022 and the first half of 2023; calendar entries alone won't support the control as described in the framework. Please send what's available and we'll list anything outstanding.",
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Auditor asks for support (203 remediation 8/8/23); spot-check absence left as an open request."
+  },
+  {
+   "email": "EMAIL-998",
+   "body": "Rob — we've read Larsen's Q3 provision memo. To support the no-reserve position in our file we'll need management's basis in writing: why a reserve isn't probable and estimable at this stage, and what you would need to see to change that. We'd also like the deferred revenue rollforward that ties to the memo. Can we set a call with you and Craig next week?",
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "quote_style_mismatch"
+   ],
+   "note": "144 no-reserve memo (8/22/23); auditor documentation request; reserve defensibility left open (Arc B/F)."
+  },
+  {
+   "email": "EMAIL-994",
+   "body": "Craig — you asked for a scenario view for year-end. I've laid out three cases: no disallowance, a disallowance limited to the parcels under review, and a broader disallowance. My view hasn't changed from August — none of them is estimable enough yet to book — but the disclosure should say more than it did in Q3. I'll send draft language next week.",
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Larsen reserve scenarios; no counsel figures relayed (avoids waiver); reserve reasonableness stays open."
+  },
+  {
+   "email": "EMAIL-942",
+   "body": "Brenda — compliance section from the Q3 pack attached, per your request. It's the section as it went to the board. Sarah's remediation work is described separately in the audit committee materials, and I'll ask her to send those directly. Requests for the underlying spot-check records should go to Sarah.",
+   "expect_sha": "7524a7f226be",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote"
+   ],
+   "note": "Quarterly pack section as-is (gap-shown); 203 remediation reporting to audit committee."
+  }
+ ]
+}

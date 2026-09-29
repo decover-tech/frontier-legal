@@ -6,40 +6,31 @@ Message-ID: <email-502.202208251330@larsentaxadvisory.com>
 In-Reply-To: <email-554.202112031050@larsentaxadvisory.com>
 References: <email-554.202112031050@larsentaxadvisory.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7459310420417066673=="
+Content-Type: multipart/mixed; boundary="===============8571375418422515433=="
 
---===============7459310420417066673==
+--===============8571375418422515433==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Build computation attached for review =E2=80=94 inputs flagged where the scan=
- was hard to read.
+Rob =E2=80=94 NW-01 build attached with my notes. I've run it on the claimed =
+acreage because that's the input column your team sent, and the status column=
+ still says preliminary, so treat the output the same way. Two things before =
+this goes into the provision workpapers: the county filing reference the acre=
+age came from, and confirmation of which certificates have actually been deli=
+vered, since that drives what is recognized versus deferred. Once I have both=
+ I can finalize.
 
 Owen Larsen
 Principal | Larsen Tax Advisory
 olarsen@larsentaxadvisory.com
 
-On Thu, Aug 25, 2022, EMAIL-554 wrote:
-
-> Finance note: keeping face value, cash proceeds, and fees on separate lines=
- so the three can be reconciled later.
->=20
-> Owen Larsen
-> Principal | Larsen Tax Advisory
-> olarsen@larsentaxadvisory.com
->=20
-> On Fri, Dec 03, 2021, EMAIL-532 wrote:
->=20
-> > Pre-launch scoping note: for the new credit program we expect certificate=
--driven closings and will want the parcel-file support (filings, surveys, opt=
-ions) tied to each batch. No findings at this stage =E2=80=94 planning only.
-
---===============7459310420417066673==
-Content-Type: text/csv
-Content-Transfer-Encoding: base64
+--===============8571375418422515433==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="NW-01_build.csv"
 MIME-Version: 1.0
 
-cGFyY2VsLGlucHV0LHN0YXR1cwpOVy0wMSxjbGFpbWVkX2FjLHByZWxpbWluYXJ5Cg==
+parcel,input,status
+NW-01,claimed_ac,preliminary
 
---===============7459310420417066673==--
+--===============8571375418422515433==--

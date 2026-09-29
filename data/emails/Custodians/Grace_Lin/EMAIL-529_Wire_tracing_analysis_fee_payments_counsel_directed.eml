@@ -5,62 +5,60 @@ Subject: Wire tracing analysis =?utf-8?b?4oCU?= fee payments
  (counsel-directed)
 Message-ID: <email-529.202309101010@whitakerforensic.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8279781984815610285=="
+Content-Type: multipart/mixed; boundary="===============2206087877871282721=="
 
---===============8279781984815610285==
+--===============2206087877871282721==
 Content-Type: multipart/alternative;
- boundary="===============7011247041324252489=="
+ boundary="===============8477125092708617055=="
 
---===============7011247041324252489==
+--===============8477125092708617055==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.
+Grace =E2=80=94 as you asked, I've started tracing the fee wires. The attache=
+d is the client's booking template; the columns are blank, which is how it ca=
+me to us, so I'm working from the bank statements rather than the booking not=
+e. So far the Bellhaven and Alder fees appear to have been paid from cash pro=
+ceeds lot by lot, consistent with how finance describes the treatment. I'll h=
+ave a schedule matching each fee wire to a settlement next week. Prepared at =
+your direction.
 
-Dana Whitaker
+Dana Whitaker, CPA/CFF
+Principal | Whitaker Forensic Accounting
+dwhitaker@whitakerforensic.com
 
-Cascade Timber Holdings, Inc.
-1200 Forest Park Way, Suite 900, Portland, OR 97209
-(503) 555-0100 | dwhitaker@whitakerforensic.com
-
-This message and any attachments are confidential and may be protected by
-legal privilege. If you are not the intended recipient, please notify the
-sender immediately and delete all copies.
-
---===============7011247041324252489==
+--===============8477125092708617055==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============2652177429476762865=="
+ boundary="===============3802060853342999247=="
 
---===============2652177429476762865==
+--===============3802060853342999247==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
 t-size:11pt">
-Booking note: face, cash, and fees on separate lines for later reconciliation=
-. Tying to the bank statement this week.<br>
+Grace =E2=80=94 as you asked, I&#x27;ve started tracing the fee wires. The at=
+tached is the client&#x27;s booking template; the columns are blank, which is=
+ how it came to us, so I&#x27;m working from the bank statements rather than =
+the booking note. So far the Bellhaven and Alder fees appear to have been pai=
+d from cash proceeds lot by lot, consistent with how finance describes the tr=
+eatment. I&#x27;ll have a schedule matching each fee wire to a settlement nex=
+t week. Prepared at your direction.<br>
 &nbsp;<br>
-Dana Whitaker<br>
-&nbsp;<br>
-Cascade Timber Holdings, Inc.<br>
-1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
-(503) 555-0100 | dwhitaker@whitakerforensic.com<br>
-<img src=3D"cid:image001.png@01D1D669836.3E2E4FAA" alt=3D"Whitaker Forensic A=
+Dana Whitaker, CPA/CFF<br>
+Principal | Whitaker Forensic Accounting<br>
+dwhitaker@whitakerforensic.com<br>
+<img src=3D"cid:image001.png@01D10ACE7E4.54D6CBD6" alt=3D"Whitaker Forensic A=
 ccounting" style=3D"margin:4px 0"><br>
-&nbsp;<br>
-This message and any attachments are confidential and may be protected by<br>
-legal privilege. If you are not the intended recipient, please notify the<br>
-sender immediately and delete all copies.<br>
 </div></body></html>
 
---===============2652177429476762865==
+--===============3802060853342999247==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01D1D669836.3E2E4FAA>
+Content-ID: <image001.png@01D10ACE7E4.54D6CBD6>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAANwAAAAsCAMAAAA5FiaqAAAAwFBMVEX+/v4eUWMkVGXI1Nk4ZHRS
@@ -105,11 +103,11 @@ Puoo1p2sdNZLrrUyZAETq8RMqtBZSkUX2VrlnS4xgtXd1+OOO4e7VNg96qpjN4XrJPyjZZZKia+E
 3m/UKCmczwop7RZU0JMebDuEvL6psb2UhV1LZsOcXiH0sjiK9hhnRRxcfGc3/xTeq7btx/+Q7S8z
 4nOvA9fuEgAAAABJRU5ErkJggg==
 
---===============2652177429476762865==--
+--===============3802060853342999247==--
 
---===============7011247041324252489==--
+--===============8477125092708617055==--
 
---===============8279781984815610285==
+--===============2206087877871282721==
 Content-Type: text/csv; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="booking_note.csv"
@@ -118,4 +116,4 @@ MIME-Version: 1.0
 batch,face_value,cash_received,fees_expensed
 NW-batch,,,
 
---===============8279781984815610285==--
+--===============2206087877871282721==--

@@ -1,0 +1,149 @@
+{
+ "rewrite_id": "RW-P2-D",
+ "bible_refs": [
+  "§0 Holt operative chain 009/045/018/029",
+  "§0 no-verification 192",
+  "§6 Q2 (filing vs issuance; matrix required)",
+  "Arc D"
+ ],
+ "rationale": "Prose rewrites for arc D (broker registration/authority). Filing and issuance dates are always requested as separate fields; no email states that issuance occurred or when. 'Finalized' appears only in 828 (Aug 2023) as a reference to Holt's 6/25/23 claim. Pre-engagement emails (Jun–Aug 2022) involve no placements. Emails whose subjects place Cascade compliance inside the 9/15/22 pending-renewal notice (775, 794, 817) are skipped because the bible knowledge ledger (§9) has no Cascade awareness of it.",
+ "emails": [
+  {
+   "email": "EMAIL-790",
+   "body": "Nina — adding a line to the broker onboarding checklist: registration status in every state a broker will market in, confirmed before they start rather than after. Bellhaven is the first one through it. Can you pull what we already have on file for them — any licenses, state lists, whatever came with their intro packet — and drop it in the broker folder? I'll ask Derek for anything that's missing.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Pre-engagement (Bellhaven onboarded for marketing 5/4/22 per 177; placements from 9/2)"
+  },
+  {
+   "email": "EMAIL-796",
+   "body": "Mr. Holt — as part of Cascade's program compliance framework, I'm documenting how broker registration is verified before marketing begins in each state. Could you provide (1) the states in which Bellhaven is currently registered to broker these credits, (2) the registration numbers and renewal dates, and (3) the person at Bellhaven responsible for keeping them current? Copies of the current registrations would be ideal. This is a standard file request for every broker in the program.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Nguyen procedural; framework 185/186; no finding"
+  },
+  {
+   "email": "EMAIL-826",
+   "body": "Derek — for Cascade's compliance request, here's our baseline: current registrations on file for the Northwest states we work in, including Oregon and Washington. Both OR and WA come up for renewal this fall, so I'll calendar the filings for late summer. Suggest we send Sarah the state list and registration numbers and mention the renewal cycle so there are no surprises later. Let me know if you'd rather I reply to her directly.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "[PROPOSED] OR/WA renewal cycle due fall 2022 — consistent with 041 (filings stuck by 9/10/22)"
+  },
+  {
+   "email": "EMAIL-764",
+   "body": "Ms. Nguyen — thank you for your note, and apologies for the slow reply. Renee Ford, our Compliance Officer, maintains our state registrations and will send you the list and registration details directly. We're glad to support your file. Please let me know if there's anything else your team needs from us in the meantime.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Holt courteous deflection to Ford; no status asserted"
+  },
+  {
+   "email": "EMAIL-822",
+   "body": "Nina — for the Bellhaven diligence file: I've got their intro deck and Renee's state list, but nothing yet on disciplinary history or insurance. Can you ask your Bellhaven contacts whether they carry E&O coverage and send whatever they give you? Priya wants the file looking complete before anything formal gets signed, and I'd rather not be chasing it in September.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "prose_rewrite"
+   ],
+   "note": "Pre-engagement diligence; no authority conclusion"
+  },
+  {
+   "email": "EMAIL-808",
+   "body": "Priya — broker coverage worksheet started. Columns are state, broker, registration on file (Y/N), renewal date, and who confirmed it. Nothing is placed through Bellhaven yet, so it's all baseline for now. What I've got for them is Renee's state list from July; I haven't independently checked any state site. If we want that level of checking before we sign anything formal, tell me and I'll build in the time.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Pre-engagement worksheet; foreshadows 192 practice without deciding"
+  },
+  {
+   "email": "EMAIL-787",
+   "body": "Renee — Tom asked me to collect paperwork for our broker file. Could you send the state filing receipts for the Oregon and Washington renewals? Just the receipts showing the filing dates is fine for now; I understand issuance is a separate step, and we'll track that date when it comes through. Thanks for the help.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Filing date only (§6 Q2 matrix); Alder knows renewal pending from 009"
+  },
+  {
+   "email": "EMAIL-761",
+   "body": "Tom — year-end file check. The broker coverage worksheet still has the issuance date blank for Bellhaven's Oregon and Washington entries. Please send whatever documents Alder has showing when those registrations were issued. Filing receipts alone won't close that column, and a general statement that registration is current isn't the same as a dated issuance record.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "prose_rewrite"
+   ],
+   "note": "Issuance unverified in-period; keeps 045-vs-018 open without asserting either"
+  },
+  {
+   "email": "EMAIL-797",
+   "body": "Tom — I tried the Oregon and Washington public lookups for Bellhaven like you asked. Both show the firm listed, but neither screen shows an effective or issuance date I can capture for the file — just a status field. I'm not reading anything into that either way. I've saved the screens in the broker folder with today's date. If we need actual issuance dates, they'll have to come from Renee or the states directly.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Process record; database check does not decide issuance (§6 Q2)"
+  },
+  {
+   "email": "EMAIL-807",
+   "body": "Derek — I'm putting together a placement-date matrix for our file: each Bellhaven placement by date and state, next to your registration dates. For Oregon and Washington I need two separate dates — when the renewal was filed and when it was actually issued — not just \"current.\" Can Renee send both? Trying to close this out before Q1 gets busy.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Matrix join record; after 018 (1/10/23); no conclusion"
+  },
+  {
+   "email": "EMAIL-768",
+   "body": "Jay — for the authority matrix I need the issuance certificates for Bellhaven's Oregon and Washington registrations, showing the date each was issued. Filing receipts show only when an application was submitted and won't answer the question on their own. If Bellhaven has provided only a statement that registration is current, please forward that too, but we'll log it as a statement rather than a certificate.",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Issuance date only; statement-vs-certificate distinction keeps 045 as claim"
+  },
+  {
+   "email": "EMAIL-828",
+   "body": "Derek — we're rebuilding the placement-date matrix, and I need Bellhaven's Oregon and Washington dates in two columns: renewal filing date and issuance date. Your June note to Tom says registration was finalized in December 2022, but I need the documents behind both dates, not a summary. Can Renee send copies directly to me this week?",
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "prose_rewrite"
+   ],
+   "note": "Post-029 (6/25/23) restatement treated as claim; asks for underlying documents"
+  }
+ ]
+}

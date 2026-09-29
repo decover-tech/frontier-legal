@@ -13,6 +13,10 @@ what they say). This tool does everything mechanical and checkable:
   scan                      corpus-wide thread statistics (longest chains, broken links)
   logos [--apply]           retrofit signature logos into generated docs (seed stays locked)
   people                    sender directory (org, mail client, signature, active window)
+  audit [--csv PATH]        classify generated emails (251-1400) by defect + priority (rewrite.py)
+  rewrite <spec.json>       rewrite templated emails in place + cascade re-quoting (rewrite.py)
+          [--dry-run] [--show N] [--force]
+  rewrite-rollback <RW-ID>  restore emails/manifest/load-file rows from Logs/rewrite/backup/
 
 Quoting, signatures, headers, Message-IDs, References chains, logos, and file placement are
 produced here so they always match the corpus conventions (see
@@ -882,7 +886,20 @@ def main():
     lg = sub.add_parser("logos", help="retrofit signature logos into generated docs (DocID > 250)")
     lg.add_argument("--apply", action="store_true")
     pp = sub.add_parser("people"); pp.add_argument("address", nargs="?")
+    au = sub.add_parser("audit"); au.add_argument("--csv", default=os.path.join(ROOT, "Logs", "rewrite", "audit.csv"))
+    rw = sub.add_parser("rewrite"); rw.add_argument("spec"); rw.add_argument("--dry-run", action="store_true")
+    rw.add_argument("--show", type=int, default=None, help="dry run: print only the first N rendered emails")
+    rw.add_argument("--force", action="store_true", help="replace text that changed since the spec was written")
+    rw.add_argument("--only", default="", help="dry run: comma-separated DocIDs to print")
+    rw.add_argument("--after", action="append", default=[], help="dry run: overlay an earlier spec first (repeatable, in order)")
+    rr = sub.add_parser("rewrite-rollback"); rr.add_argument("rewrite_id"); rr.add_argument("--force", action="store_true")
     a = ap.parse_args()
+
+    if a.cmd in ("rewrite", "rewrite-rollback"):
+        import rewrite as RW
+        if a.cmd == "rewrite":
+            return RW.run(a.spec, a.dry_run, a.show, a.force, {x.strip().upper() for x in a.only.split(',') if x.strip()}, a.after)
+        return RW.rollback(a.rewrite_id, a.force)
 
     docs = load_corpus()
     manifest, fields = load_manifest()
@@ -893,6 +910,9 @@ def main():
     if a.cmd == "rollback":
         return rollback(a.thread_id, fields)
     people = build_people(docs)
+    if a.cmd == "audit":
+        import rewrite as RW
+        return RW.audit(docs, people, manifest, a.csv)
     if a.cmd == "people":
         sel = [people[a.address.lower()]] if a.address else sorted(people.values(), key=lambda p: -p["sent_count"])
         return print(json.dumps(sel, indent=1))

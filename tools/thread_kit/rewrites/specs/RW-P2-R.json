@@ -1,0 +1,81 @@
+{
+ "rewrite_id": "RW-P2-R",
+ "bible_refs": [
+  "§0 Mountain Ridge separate (095-100)",
+  "Arc I Ridge: distinct RM IDs, never NW/KW",
+  "§6 Q5 115-vs-117 preserved"
+ ],
+ "rationale": "Mountain Ridge decoys rewritten as routine reforestation-program logistics using RM-1..6 only. The one county correction chosen is dated 2022 (clerical, names and dates) so nothing supports or undercuts Tom's spring-2023 claim in 117. Gold stays Not Responsive.",
+ "emails": [
+  {
+   "email": "EMAIL-1218",
+   "body": "Priya — two brokers asked about Mountain Ridge timing after the parcel list went around. I told them the reforestation lots start clearing the county over the next few weeks, and that we'd send lot sizes once RM-1 through RM-3 are stamped. Don't promise anything on RM-6 yet; the county still has that plat in review. Can you get me the one-pager draft by Friday?",
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Follows 095/096 (MR list 4/5/22); RM IDs only."
+  },
+  {
+   "email": "EMAIL-1205",
+   "body": "Jay — the survey crew finished RM-5 yesterday. The boundary matched the county plat, with no changes to lot lines. Paperwork goes to the county this week. If your buyers ask, RM-5 is on track with the rest of the reforestation batch, and I'll send the stamped copy when it's back.",
+   "expect_sha": "f6b787a4c57d",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Clean-program voice consistent with 095/098/100; RM IDs only."
+  },
+  {
+   "email": "EMAIL-1182",
+   "body": "Nina — FYI, the county kicked back two Mountain Ridge filings on RM-6 for clerical fixes: a misspelled owner name and a transposed recording date. No acreage change. Tom's office is resubmitting, and they should be stamped in a couple of weeks. I'm only mentioning it because you had a buyer asking about RM-6 timing.",
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "A 2022 MR clerical correction (names/dates, per the prior template); not spring 2023, so it doesn't bolster 117 over 115."
+  },
+  {
+   "email": "EMAIL-1184",
+   "body": "Tom — the updated Mountain Ridge parcel list goes to brokers Friday: RM-1 through RM-6, with the county parcel numbers next to each so nobody mixes them up with anything else we're selling. RM-5 now shows as surveyed. Can you confirm RM-6 stays marked 'county review' until the corrected filings come back? Priya, copying you so the one-pager matches.",
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Distinct-ID discipline (Arc I Ridge); consistent with 1205/1182."
+  },
+  {
+   "email": "EMAIL-1192",
+   "body": "Jay — for your broker meeting next week: RM-1 is the smallest lot on the Mountain Ridge list, and it's the one buyers keep asking about because it cleared the county first. I've put the current list in the shared folder with the county numbers next to our RM labels. Let me know if you want me to walk anyone through it; happy to jump on the call.",
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Precedes Jay's 8/15/22 'broker interest strong' (097); RM IDs only."
+  },
+  {
+   "email": "EMAIL-1236",
+   "body": "Tom — quick Mountain Ridge question. One of Jay's brokers wants to know whether RM-3 and RM-4 can be sold as a single block. I said I'd ask rather than guess, since the county filed them separately. If it's a paperwork question rather than a program one, I'm happy to tell them no and move on.",
+   "expect_sha": "22995d754bd7",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Routine MR sales logistics; RM IDs only."
+  },
+  {
+   "email": "EMAIL-1219",
+   "body": "Tom — a broker asked for the RM-3 survey date for their file. All I have is 'surveyed spring 2022', nothing more precise. Can you send the survey cover sheet, or just the date? They're renewing their Mountain Ridge allocation this quarter and want their paperwork complete before they sign.",
+   "expect_sha": "9fd2a28bed34",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Precedes Tom's 4/20/23 annual MR re-check (100); RM IDs only."
+  }
+ ]
+}

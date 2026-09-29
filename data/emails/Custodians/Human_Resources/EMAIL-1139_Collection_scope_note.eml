@@ -4,62 +4,75 @@ Date: Wed, 01 Mar 2023 15:05:00 -0700
 Subject: Collection scope note
 Message-ID: <email-1139.202303011505@llassociates.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4642638087586756566=="
+Content-Type: multipart/mixed; boundary="===============5144403436569364077=="
 
---===============4642638087586756566==
+--===============5144403436569364077==
 Content-Type: multipart/alternative;
- boundary="===============2488639031739779194=="
+ boundary="===============8805662589351774912=="
 
---===============2488639031739779194==
+--===============8805662589351774912==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Collection update: mailbox exports underway per the custodian list, with hold=
- status confirmed per mailbox. Export manifest to follow.
+Mia =E2=80=94 Alan's first custodian list went to John on Tuesday. The first =
+targeted pull is attached as a manifest: the parcel-file shares plus a handfu=
+l of priority mailboxes, with status per source. I'd hold off on anything bro=
+ader until Dan Osei gives us mailbox sizes. Can you check the manifest agains=
+t John's list and flag gaps, especially Alder people whose mail may not sit o=
+n Cascade's system? Let's discuss on Thursday's call.
 
 Grace Lin
-Partner
-Cascade Timber Holdings, Inc.
-1200 Forest Park Way, Suite 900, Portland, OR 97209
-(503) 555-0100 | glin@llassociates.com
+Partner | L&L Associates LLP
+510 California Street, Suite 2400, San Francisco, CA 94104
+Direct: (415) 555-0121 | glin@llassociates.com
 
-This message and any attachments are confidential and may be protected by
-legal privilege. If you are not the intended recipient, please notify the
-sender immediately and delete all copies.
+PRIVILEGED & CONFIDENTIAL =E2=80=94 This communication, including any attachm=
+ents,
+may contain information that is privileged, confidential, and exempt from
+disclosure under applicable law. It is intended solely for the named
+recipient(s). If you received this message in error, please notify the
+sender and destroy all copies.
 
---===============2488639031739779194==
+--===============8805662589351774912==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============1529591517008656775=="
+ boundary="===============0833103536090830554=="
 
---===============1529591517008656775==
+--===============0833103536090830554==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3Dutf-8"></head><body><div style=3D"font-family:Calibri,Arial,sans-serif;fon=
 t-size:11pt">
-Collection update: mailbox exports underway per the custodian list, with hold=
- status confirmed per mailbox. Export manifest to follow.<br>
+Mia =E2=80=94 Alan&#x27;s first custodian list went to John on Tuesday. The f=
+irst targeted pull is attached as a manifest: the parcel-file shares plus a h=
+andful of priority mailboxes, with status per source. I&#x27;d hold off on an=
+ything broader until Dan Osei gives us mailbox sizes. Can you check the manif=
+est against John&#x27;s list and flag gaps, especially Alder people whose mai=
+l may not sit on Cascade&#x27;s system? Let&#x27;s discuss on Thursday&#x27;s=
+ call.<br>
 &nbsp;<br>
 Grace Lin<br>
-Partner<br>
-Cascade Timber Holdings, Inc.<br>
-1200 Forest Park Way, Suite 900, Portland, OR 97209<br>
-(503) 555-0100 | glin@llassociates.com<br>
-<img src=3D"cid:image001.png@01D9D8A81FA.DDF3B93D" alt=3D"L&amp;L Associates"=
+Partner | L&amp;L Associates LLP<br>
+510 California Street, Suite 2400, San Francisco, CA 94104<br>
+Direct: (415) 555-0121 | glin@llassociates.com<br>
+<img src=3D"cid:image001.png@01D99CAAF7D.991B3DE1" alt=3D"L&amp;L Associates"=
  style=3D"margin:4px 0"><br>
 &nbsp;<br>
-This message and any attachments are confidential and may be protected by<br>
-legal privilege. If you are not the intended recipient, please notify the<br>
-sender immediately and delete all copies.<br>
+PRIVILEGED &amp; CONFIDENTIAL =E2=80=94 This communication, including any att=
+achments,<br>
+may contain information that is privileged, confidential, and exempt from<br>
+disclosure under applicable law. It is intended solely for the named<br>
+recipient(s). If you received this message in error, please notify the<br>
+sender and destroy all copies.<br>
 </div></body></html>
 
---===============1529591517008656775==
+--===============0833103536090830554==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="image001.png"
-Content-ID: <image001.png@01D9D8A81FA.DDF3B93D>
+Content-ID: <image001.png@01D99CAAF7D.991B3DE1>
 MIME-Version: 1.0
 
 iVBORw0KGgoAAAANSUhEUgAAANwAAAAhCAMAAACFiDV0AAAAwFBMVEX+/v4hLEfr6ujZx6xxeInH
@@ -88,11 +101,11 @@ TxonVnDiEazgN9JH0qzvQH/7wFkecUoW2xXO0szG4YDvZA+i2EOa+AQHlnDLoigedKO9rN5GRGF5
 5Wi+LGnhEcoiuwNKH3aGm1j9qUwWl5Ym0KIZONkTYpEzEgSQ29CDl44XFOuxbors9t4ro1ueSD0u
 ULG6JXsIjcgjiOlk2ftJuiTd1mLp/XP6G+4N94bb6/oNGGswUJ62UXMAAAAASUVORK5CYII=
 
---===============1529591517008656775==--
+--===============0833103536090830554==--
 
---===============2488639031739779194==--
+--===============8805662589351774912==--
 
---===============4642638087586756566==
+--===============5144403436569364077==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="export_manifest.txt"
@@ -101,4 +114,4 @@ MIME-Version: 1.0
 Mailbox, hold_status, export_status
 (per custodian list)
 
---===============4642638087586756566==--
+--===============5144403436569364077==--

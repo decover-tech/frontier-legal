@@ -4,25 +4,29 @@ Date: Fri, 13 Jan 2023 17:45:00 -0800
 Subject: KW payment ledger =?utf-8?b?4oCU?= Clearwater
 Message-ID: <email-394.202301131745@alderpointpartners.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6089237862029269083=="
+Content-Type: multipart/mixed; boundary="===============3997870132578611550=="
 
---===============6089237862029269083==
+--===============3997870132578611550==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Ledger entries for KW-01 attached =E2=80=94 amounts and dates per the bank fe=
-ed. Two lines need date confirmation; leaving them flagged.
+Nina =E2=80=94 KW-01 is signed: the owner on the 6th, me on Tuesday. I've set=
+ up the attached ledger line for the $12,000 fee in three $4,000 installments=
+. The first is due within five business days of signing; dates will come from=
+ the bank feed as they post. Can you let Gordon know the countersigned scan i=
+s on its way to him?
 
 Tom Reyes
 Land Acquisition Manager | Alder Point Partners
 treyes@alderpointpartners.com
 
---===============6089237862029269083==
-Content-Type: text/csv
-Content-Transfer-Encoding: base64
+--===============3997870132578611550==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="KW-01_ledger.csv"
 MIME-Version: 1.0
 
-cGFyY2VsLGFtb3VudCxkYXRlCktXLTAxLDEyMDAwLHBlciBiYW5rIGZlZWQgKHZlcmlmeSkK
+parcel,amount,date
+KW-01,12000,per bank feed (verify)
 
---===============6089237862029269083==--
+--===============3997870132578611550==--

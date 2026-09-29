@@ -1,0 +1,172 @@
+{
+ "rewrite_id": "RW-P2-B",
+ "bible_refs": [
+  "§1 gross-vs-net revenue decision",
+  "§3 money ledger",
+  "§5 new classes (Moss & Lane)",
+  "§6 Q3/Q7",
+  "§10 privilege edges (Kovel, Larsen)",
+  "Arc B"
+ ],
+ "rationale": "Arc B money join: rate cards, builds, booking notes, escrow and fee support rewritten to fit their stub attachments and the gross-face rule; auditors ask for schedules, Larsen asks for inputs, Whitaker traces at counsel direction. No new dollar figures; issuance and reserve questions left open.",
+ "emails": [
+  {
+   "email": "EMAIL-488",
+   "body": "Rob — first pass at a rate schedule attached, built off the per-acre figure in Alder's proposal deck. It's preliminary and unsigned. I've only filled the Northwest batch line, since that's the only batch where we can source acreage from our own land records. Before this goes into the partnership model I'd like Alder to show us how they got to the per-acre number — it drives every line downstream. Happy to walk through it Thursday.",
+   "expect_sha": "98cdd5b48329",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Pre-launch modeling (031/032 Nov-21; 033 proposal 12/1/21); fits NW-batch draft rate CSV; no figure stated."
+  },
+  {
+   "email": "EMAIL-560",
+   "body": "Craig — current rate draft attached. Same per-acre figure as the December version; nothing has been signed off. Keep it inside finance for now. Priya's team has asked for it twice and I'd rather they quote off an approved schedule once we have one. Can you check the batch labels against Alder's submission list before Friday? They've renumbered at least once.",
+   "expect_sha": "98cdd5b48329",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "CFO terse; draft rate card held internally pre-approval; fits CSV status draft-preliminary."
+  },
+  {
+   "email": "EMAIL-494",
+   "body": "Priya — draft schedule attached as promised. It's marked draft for a reason: preliminary per-acre figure, Northwest batch only, not approved on our side. Please don't quote from it to buyers yet. Craig is confirming the batch numbering against your submission list, and once that ties I'll send a signed version. If your team is working from a different per-acre number, tell me now rather than after it's in a deck.",
+   "expect_sha": "2f53a7ce9033",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "CFO to Alder BD; draft rate card, no external quoting; no new figures."
+  },
+  {
+   "email": "EMAIL-502",
+   "body": "Rob — NW-01 build attached with my notes. I've run it on the claimed acreage because that's the input column your team sent, and the status column still says preliminary, so treat the output the same way. Two things before this goes into the provision workpapers: the county filing reference the acreage came from, and confirmation of which certificates have actually been delivered, since that drives what is recognized versus deferred. Once I have both I can finalize.",
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ],
+   "note": "Larsen (outside tax) reviewing NW-01 build (att NW-01_build.csv, claimed_ac, preliminary); delivery-based recognition per 188."
+  },
+  {
+   "email": "EMAIL-482",
+   "body": "Booking note layout attached, as requested for your interim walkthrough. It's the format we'll use at close — face value, cash received and fees on separate lines — so the columns stay blank until the batches settle. Short version of the policy: we book gross face value at certificate delivery; the buyer discount affects cash, and the Bellhaven and Alder fees run through expense. Craig can walk you through the mapping next week.",
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Bible §1 gross-face rule stated as policy; blank booking-note CSV; Bellhaven engaged 9/2/22 so fee line plausible 9/10/22."
+  },
+  {
+   "email": "EMAIL-550",
+   "body": "Priya — attached is the booking layout we'll reconcile escrow against. Your placement summaries show face value; the escrow statements show cash after the buyer discount; the fees come out after that. I need all three per lot, with the same lot numbering, or we can't tie it. Please have whoever handles the Bellhaven settlements send lot-level escrow detail for September and October by the 28th.",
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Face vs cash vs fees join (§1/§3); escrow detail request; blank template fits."
+  },
+  {
+   "email": "EMAIL-463",
+   "body": "Following up on your request for fee support. The attached booking note shows where the fee wires land. Bellhaven's 6% and Alder's 8% are paid out of cash proceeds and booked as expense — they are not netted against revenue. I'll have Craig pull the actual wire confirmations for the October and November settlements and send them to you directly; the note itself won't carry amounts until the lots close.",
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Fees expensed from cash (§1); CFO to auditor associate during 2022 audit planning."
+  },
+  {
+   "email": "EMAIL-539",
+   "body": "Craig — attached is your booking note template with our request marked against it. For year-end testing we'll need, by lot: face value delivered, cash received per the escrow statement, and the fee wires, all tied to the bank. The template's columns are still blank, so please send the populated version or the underlying escrow statements, whichever is faster. We'll also need certificate delivery dates for anything recognized in December.",
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote",
+    "wrong_quote_date",
+    "quote_style_mismatch"
+   ],
+   "note": "Auditor support request (auditors ask for schedules); fits blank CSV; year-end 2022 audit."
+  },
+  {
+   "email": "EMAIL-545",
+   "body": "Craig — for year-end we'd like a listing of credit certificates issued against NW-07: certificate number, face amount, delivery date and the buyer lot it was placed in. We'll select a sample from the listing and ask for the delivery evidence behind each item. If the listing comes out of Alder's system rather than yours, please note that on the schedule, since it affects how much we can rely on it. Early January is fine.",
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Auditor certificate-listing request for NW-07; no issuance asserted; reliance question kept open."
+  },
+  {
+   "email": "EMAIL-506",
+   "body": "Craig — following up on the program revenue line. We need a support schedule that ties the $6.8M recognized in the GL to certificate deliveries, lot by lot, with the $1.4M deferred balance rolled forward separately. We'd also like the April recognition memo in the file, since the gross-face treatment is the judgment area we'll document. Please send what you have by the 27th; partial is fine and we'll mark the rest open.",
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Auditor GL support request; §3 figures $6.8M/$1.4M (193, 12/5/22); recognition memo 188."
+  },
+  {
+   "email": "EMAIL-571",
+   "body": "Craig — I've been through the NW-06 certificate listing for the provision file. It shows delivery dates for most lines, but several are blank, and I can't tell whether those were undelivered at quarter end or simply not keyed. That matters for what sits in deferred. Can you confirm those lines against the delivery records rather than the Alder export? No other comments on NW-06.",
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Larsen provision support; listing review, no issuance asserted; delivery-based deferral (188)."
+  },
+  {
+   "email": "EMAIL-489",
+   "body": "Rob — NW-02 build attached. I rebuilt it from the input sheet; the acreage is still the claimed figure and the status stays preliminary until someone ties it to the county filing. I haven't changed the method from last year. If this is going into the review team's set, I'd rather it go with that caveat on its face than have it read as a verified number.",
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "boilerplate",
+    "short_body"
+   ],
+   "note": "Controller conservative; fits NW-02_build.csv claimed_ac/preliminary; pre-Whitaker (role)."
+  },
+  {
+   "email": "EMAIL-543",
+   "body": "Rob — Brenda called about their Q3 contingency review. They want a short memo from us on how we're assessing the program exposure: what's recognized, what's deferred, and whether we see a basis for a reserve. I told her we'd have Larsen's view before we take a position. My inclination is to describe the facts and hold off on reserve language until we have it. Draft to you by Friday.",
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "placeholder_quote"
+   ],
+   "note": "Moss & Lane Q3-2023 contingency review (§5 auditors); Larsen provision role (142-144); no conclusion."
+  },
+  {
+   "email": "EMAIL-529",
+   "body": "Grace — as you asked, I've started tracing the fee wires. The attached is the client's booking template; the columns are blank, which is how it came to us, so I'm working from the bank statements rather than the booking note. So far the Bellhaven and Alder fees appear to have been paid from cash proceeds lot by lot, consistent with how finance describes the treatment. I'll have a schedule matching each fee wire to a settlement next week. Prepared at your direction.",
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Kovel (post-7/27/23) counsel-directed tracing; fees-from-cash (§1); ACP/WP gold preserved."
+  },
+  {
+   "email": "EMAIL-579",
+   "body": "Grace — escrow tracing update. Face value placed and cash received don't tie one-for-one, as expected: the buyer discount sits between them, and the escrow statements show cash in the range you'd expect for 88–93 cent pricing. I haven't found anything yet that looks like a refund or a reserve release through escrow. Still missing statements for two lots; I've asked Alan to request them through your office. The booking template we were given is attached for reference only.",
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "boilerplate",
+    "short_body",
+    "wrong_org_sig"
+   ],
+   "note": "Kovel escrow tracing; §3 88–93¢ buyer pricing, refunds $0; no conclusion on eligibility."
+  }
+ ]
+}

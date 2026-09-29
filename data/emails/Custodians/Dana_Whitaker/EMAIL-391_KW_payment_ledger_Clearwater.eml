@@ -3,26 +3,30 @@ Date: Thu, 28 Apr 2022 09:25:00 -0700
 Subject: KW payment ledger =?utf-8?b?4oCU?= Clearwater
 Message-ID: <email-391.202204280925@alderpointpartners.com>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6846987186141981274=="
+Content-Type: multipart/mixed; boundary="===============1059909492960040563=="
 To: Priya Shah <pshah@alderpointpartners.com>
 
---===============6846987186141981274==
+--===============1059909492960040563==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Ledger entries for KW-02 attached =E2=80=94 amounts and dates per the bank fe=
-ed. Two lines need date confirmation; leaving them flagged.
+Priya =E2=80=94 I've set up a ledger line for KW-02 now so the Clearwater pai=
+r sits side by side. The $12,000 is the option fee we're proposing (same as K=
+W-01, in three installments). Nothing has been paid; the date column says 'pe=
+r bank feed' until the option is signed and payments actually go out. The dra=
+ft option should be with you next week.
 
 Tom Reyes
 Land Acquisition Manager | Alder Point Partners
 treyes@alderpointpartners.com
 
---===============6846987186141981274==
-Content-Type: text/csv
-Content-Transfer-Encoding: base64
+--===============1059909492960040563==
+Content-Type: text/csv; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="KW-02_ledger.csv"
 MIME-Version: 1.0
 
-cGFyY2VsLGFtb3VudCxkYXRlCktXLTAyLDEyMDAwLHBlciBiYW5rIGZlZWQgKHZlcmlmeSkK
+parcel,amount,date
+KW-02,12000,per bank feed (verify)
 
---===============6846987186141981274==--
+--===============1059909492960040563==--

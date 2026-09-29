@@ -1,0 +1,4368 @@
+{
+ "rewrite_id": "RW-P1",
+ "bible_refs": [
+  "§0 seed locked",
+  "§2 parcel table (NW-01..08, KW-01/02)",
+  "Arc J guard (KW post-3/16/22)"
+ ],
+ "rationale": "Mechanical repairs only — no new prose. (1) Quoted history rebuilt from the real In-Reply-To parent with thread_kit.quote_block in the sender's client style, replacing 'From: EMAIL-NNN / Subject: (prior subject)' and 'On <date>, EMAIL-NNN wrote:' placeholders and their wrong dates at every nesting level. (2) Signature blocks that carry another org (e.g. L&L lawyers with the Cascade block) or a variant block replaced with the sender's canonical corpus signature. (3) Subject parcel ID aligned to the parcel the body and attachment name (subject was the templated field; body/attachment carry the substance). In-Reply-To links themselves are headers and stay as-is, even where incoherent (see audit info flags).",
+ "emails": [
+  {
+   "email": "EMAIL-251",
+   "body": null,
+   "expect_sha": "6961a4df8f0f",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission packet — NW-02 2022",
+   "note": "subject parcel NW-08 -> NW-02 (body ['NW-02'], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-252",
+   "body": null,
+   "expect_sha": "f6edae06693d",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-05",
+   "note": "subject parcel NW-06 -> NW-05 (body ['NW-05'], attachment [])"
+  },
+  {
+   "email": "EMAIL-256",
+   "body": null,
+   "expect_sha": "f6edae06693d",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-05",
+   "note": "subject parcel NW-04 -> NW-05 (body ['NW-05'], attachment [])"
+  },
+  {
+   "email": "EMAIL-257",
+   "body": null,
+   "expect_sha": "bbff2c8b1265",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Parcel payment ledger line — NW-05",
+   "note": "subject parcel NW-07 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-261",
+   "body": null,
+   "expect_sha": "6961a4df8f0f",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission packet — NW-02 2022",
+   "note": "subject parcel NW-05 -> NW-02 (body ['NW-02'], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-264",
+   "body": null,
+   "expect_sha": "95a4b9908e84",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission packet — NW-04 2022",
+   "note": "subject parcel NW-03 -> NW-04 (body ['NW-04'], attachment ['NW-04'])"
+  },
+  {
+   "email": "EMAIL-265",
+   "body": null,
+   "expect_sha": "cd4e5a2bec5f",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission packet — NW-05 2022",
+   "note": "subject parcel NW-03 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-266",
+   "body": null,
+   "expect_sha": "48db5f133ddd",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-268",
+   "body": null,
+   "expect_sha": "056701b66223",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-02",
+   "note": "subject parcel NW-07 -> NW-02 (body ['NW-02'], attachment [])"
+  },
+  {
+   "email": "EMAIL-269",
+   "body": null,
+   "expect_sha": "03ad4ab80dac",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-08",
+   "note": "subject parcel NW-07 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-270",
+   "body": null,
+   "expect_sha": "bbff2c8b1265",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-05",
+   "note": "subject parcel NW-01 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-274",
+   "body": null,
+   "expect_sha": "4b287130760b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-282",
+   "body": null,
+   "expect_sha": "6696f1098577",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-03",
+   "note": "subject parcel NW-05 -> NW-03 (body ['NW-03'], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-283",
+   "body": null,
+   "expect_sha": "d8ff1c4c9acd",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-05",
+   "note": "subject parcel NW-01 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-284",
+   "body": null,
+   "expect_sha": "89c1d2931970",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-06",
+   "note": "subject parcel NW-02 -> NW-06 (body ['NW-06'], attachment ['NW-06'])"
+  },
+  {
+   "email": "EMAIL-287",
+   "body": null,
+   "expect_sha": "8d54a96c76c7",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-03",
+   "note": "subject parcel NW-02 -> NW-03 (body ['NW-03'], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-288",
+   "body": null,
+   "expect_sha": "6701d5e14d5c",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "GreenAcre field sheet — NW-02",
+   "note": "subject parcel NW-06 -> NW-02 (body ['NW-02'], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-290",
+   "body": null,
+   "expect_sha": "4feece3977fa",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-08",
+   "note": "subject parcel NW-05 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-294",
+   "body": null,
+   "expect_sha": "83dd98fc5a0d",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "GreenAcre field sheet — NW-06",
+   "note": "subject parcel NW-03 -> NW-06 (body ['NW-06'], attachment ['NW-06'])"
+  },
+  {
+   "email": "EMAIL-295",
+   "body": null,
+   "expect_sha": "03ad4ab80dac",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-08",
+   "note": "subject parcel NW-06 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-297",
+   "body": null,
+   "expect_sha": "89c1d2931970",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "County easement filing — NW-06",
+   "note": "subject parcel NW-07 -> NW-06 (body ['NW-06'], attachment ['NW-06'])"
+  },
+  {
+   "email": "EMAIL-298",
+   "body": null,
+   "expect_sha": "de6c5973cbc5",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-01",
+   "note": "subject parcel NW-03 -> NW-01 (body ['NW-01'], attachment ['NW-01'])"
+  },
+  {
+   "email": "EMAIL-299",
+   "body": null,
+   "expect_sha": "2e99f3523a5c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-301",
+   "body": null,
+   "expect_sha": "d51748e452c3",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-03",
+   "note": "subject parcel NW-04 -> NW-03 (body ['NW-03'], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-303",
+   "body": null,
+   "expect_sha": "dc3360a8ee70",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-07",
+   "note": "subject parcel NW-04 -> NW-07 (body ['NW-07'], attachment [])"
+  },
+  {
+   "email": "EMAIL-306",
+   "body": null,
+   "expect_sha": "81366ae3b9b8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-08",
+   "note": "subject parcel NW-04 -> NW-08 (body ['NW-08'], attachment [])"
+  },
+  {
+   "email": "EMAIL-307",
+   "body": null,
+   "expect_sha": "e40782547a43",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Parcel payment ledger line — NW-04",
+   "note": "subject parcel NW-03 -> NW-04 (body ['NW-04'], attachment [])"
+  },
+  {
+   "email": "EMAIL-309",
+   "body": null,
+   "expect_sha": "cd4e5a2bec5f",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission packet — NW-05 2022",
+   "note": "subject parcel NW-07 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-310",
+   "body": null,
+   "expect_sha": "8d54a96c76c7",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-03",
+   "note": "subject parcel NW-06 -> NW-03 (body ['NW-03'], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-311",
+   "body": null,
+   "expect_sha": "28f98c442bb9",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-08",
+   "note": "subject parcel NW-07 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-312",
+   "body": null,
+   "expect_sha": "54f41b9d5092",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Submission packet — NW-08 2022",
+   "note": "subject parcel NW-06 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-314",
+   "body": null,
+   "expect_sha": "0a1e09db17fb",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-02",
+   "note": "subject parcel NW-05 -> NW-02 (body ['NW-02'], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-316",
+   "body": null,
+   "expect_sha": "28f98c442bb9",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-08",
+   "note": "subject parcel NW-04 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-317",
+   "body": null,
+   "expect_sha": "6bda99eed7af",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-318",
+   "body": null,
+   "expect_sha": "d8ff1c4c9acd",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-05",
+   "note": "subject parcel NW-07 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-322",
+   "body": null,
+   "expect_sha": "2194afbef5be",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-04",
+   "note": "subject parcel NW-07 -> NW-04 (body ['NW-04'], attachment [])"
+  },
+  {
+   "email": "EMAIL-324",
+   "body": null,
+   "expect_sha": "d92b35b3d9df",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Application date confirmation — NW-03",
+   "note": "subject parcel NW-06 -> NW-03 (body ['NW-03'], attachment [])"
+  },
+  {
+   "email": "EMAIL-325",
+   "body": null,
+   "expect_sha": "95393afd3055",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-326",
+   "body": null,
+   "expect_sha": "4feece3977fa",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-08",
+   "note": "subject parcel NW-01 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-327",
+   "body": null,
+   "expect_sha": "2e99f3523a5c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-330",
+   "body": null,
+   "expect_sha": "b6f2df9334a8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-01",
+   "note": "subject parcel NW-08 -> NW-01 (body ['NW-01'], attachment [])"
+  },
+  {
+   "email": "EMAIL-331",
+   "body": null,
+   "expect_sha": "9df5e281a84f",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Parcel data sheet (internal draft) — NW-05",
+   "note": "subject parcel NW-03 -> NW-05 (body ['NW-05'], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-338",
+   "body": null,
+   "expect_sha": "0a1e09db17fb",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-02",
+   "note": "subject parcel NW-03 -> NW-02 (body ['NW-02'], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-339",
+   "body": null,
+   "expect_sha": "4b287130760b",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Application date confirmation — NW-02",
+   "note": "subject parcel NW-03 -> NW-02 (body ['NW-02'], attachment [])"
+  },
+  {
+   "email": "EMAIL-340",
+   "body": null,
+   "expect_sha": "74928ff9535c",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "County easement filing — NW-04",
+   "note": "subject parcel NW-06 -> NW-04 (body ['NW-04'], attachment ['NW-04'])"
+  },
+  {
+   "email": "EMAIL-341",
+   "body": null,
+   "expect_sha": "be792ad2aa9b",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission checklist (draft) — NW-06 2022",
+   "note": "subject parcel NW-05 -> NW-06 (body ['NW-06'], attachment ['NW-06'])"
+  },
+  {
+   "email": "EMAIL-342",
+   "body": null,
+   "expect_sha": "8b3fe734ce84",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-07",
+   "note": "subject parcel NW-08 -> NW-07 (body ['NW-07'], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-343",
+   "body": null,
+   "expect_sha": "7ca54ccc0286",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-06",
+   "note": "subject parcel NW-02 -> NW-06 (body ['NW-06'], attachment [])"
+  },
+  {
+   "email": "EMAIL-344",
+   "body": null,
+   "expect_sha": "66a391cf3ed6",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-345",
+   "body": null,
+   "expect_sha": "2e99f3523a5c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-347",
+   "body": null,
+   "expect_sha": "3bc62fae021f",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Submission packet — NW-01 2022",
+   "note": "subject parcel NW-06 -> NW-01 (body ['NW-01'], attachment ['NW-01'])"
+  },
+  {
+   "email": "EMAIL-348",
+   "body": null,
+   "expect_sha": "d9339e583c42",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-04",
+   "note": "subject parcel NW-05 -> NW-04 (body ['NW-04'], attachment ['NW-04'])"
+  },
+  {
+   "email": "EMAIL-350",
+   "body": null,
+   "expect_sha": "de6c5973cbc5",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-01",
+   "note": "subject parcel NW-03 -> NW-01 (body ['NW-01'], attachment ['NW-01'])"
+  },
+  {
+   "email": "EMAIL-351",
+   "body": null,
+   "expect_sha": "dc3360a8ee70",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Application date confirmation — NW-07",
+   "note": "subject parcel NW-04 -> NW-07 (body ['NW-07'], attachment [])"
+  },
+  {
+   "email": "EMAIL-352",
+   "body": null,
+   "expect_sha": "89c1d2931970",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-06",
+   "note": "subject parcel NW-02 -> NW-06 (body ['NW-06'], attachment ['NW-06'])"
+  },
+  {
+   "email": "EMAIL-353",
+   "body": null,
+   "expect_sha": "db4154ed296d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-354",
+   "body": null,
+   "expect_sha": "95393afd3055",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-355",
+   "body": null,
+   "expect_sha": "81366ae3b9b8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-08",
+   "note": "subject parcel NW-03 -> NW-08 (body ['NW-08'], attachment [])"
+  },
+  {
+   "email": "EMAIL-357",
+   "body": null,
+   "expect_sha": "de6c5973cbc5",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-01",
+   "note": "subject parcel NW-06 -> NW-01 (body ['NW-01'], attachment ['NW-01'])"
+  },
+  {
+   "email": "EMAIL-358",
+   "body": null,
+   "expect_sha": "f8d30e9ffea8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-07",
+   "note": "subject parcel NW-05 -> NW-07 (body ['NW-07'], attachment [])"
+  },
+  {
+   "email": "EMAIL-360",
+   "body": null,
+   "expect_sha": "db4154ed296d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-362",
+   "body": null,
+   "expect_sha": "db4154ed296d",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-363",
+   "body": null,
+   "expect_sha": "3a8ed489d41d",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Submission packet — NW-07 2022",
+   "note": "subject parcel NW-06 -> NW-07 (body ['NW-07'], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-366",
+   "body": null,
+   "expect_sha": "d096e547185c",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Parcel payment ledger line — NW-01",
+   "note": "subject parcel NW-07 -> NW-01 (body ['NW-01'], attachment ['NW-01'])"
+  },
+  {
+   "email": "EMAIL-367",
+   "body": null,
+   "expect_sha": "f3be22a00179",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-07",
+   "note": "subject parcel NW-05 -> NW-07 (body ['NW-07'], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-368",
+   "body": null,
+   "expect_sha": "529f4c45549b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-369",
+   "body": null,
+   "expect_sha": "4feece3977fa",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "County easement filing — NW-08",
+   "note": "subject parcel NW-03 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-370",
+   "body": null,
+   "expect_sha": "28f98c442bb9",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "GreenAcre field sheet — NW-08",
+   "note": "subject parcel NW-04 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-371",
+   "body": null,
+   "expect_sha": "7ca54ccc0286",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "Application date confirmation — NW-06",
+   "note": "subject parcel NW-08 -> NW-06 (body ['NW-06'], attachment [])"
+  },
+  {
+   "email": "EMAIL-373",
+   "body": null,
+   "expect_sha": "8d54a96c76c7",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-03",
+   "note": "subject parcel NW-07 -> NW-03 (body ['NW-03'], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-374",
+   "body": null,
+   "expect_sha": "66a391cf3ed6",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-375",
+   "body": null,
+   "expect_sha": "28f98c442bb9",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "GreenAcre field sheet — NW-08",
+   "note": "subject parcel NW-04 -> NW-08 (body ['NW-08'], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-376",
+   "body": null,
+   "expect_sha": "587d19772426",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "GreenAcre field sheet — NW-04",
+   "note": "subject parcel NW-03 -> NW-04 (body ['NW-04'], attachment ['NW-04'])"
+  },
+  {
+   "email": "EMAIL-380",
+   "body": null,
+   "expect_sha": "6696f1098577",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "County easement filing — NW-03",
+   "note": "subject parcel NW-02 -> NW-03 (body ['NW-03'], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-382",
+   "body": null,
+   "expect_sha": "95393afd3055",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-393",
+   "body": null,
+   "expect_sha": "d65fd4fb05d0",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-396",
+   "body": null,
+   "expect_sha": "ed3b55a635a8",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "KW credit application — KW-02",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment ['KW-02'])"
+  },
+  {
+   "email": "EMAIL-397",
+   "body": null,
+   "expect_sha": "69069c764b27",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-398",
+   "body": null,
+   "expect_sha": "d65fd4fb05d0",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-399",
+   "body": null,
+   "expect_sha": "576c47b2661d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-400",
+   "body": null,
+   "expect_sha": "a568a30c64f8",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-405",
+   "body": null,
+   "expect_sha": "d65fd4fb05d0",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-407",
+   "body": null,
+   "expect_sha": "4aaa2bc21210",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-409",
+   "body": null,
+   "expect_sha": "6571b4446932",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-411",
+   "body": null,
+   "expect_sha": "d65fd4fb05d0",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-412",
+   "body": null,
+   "expect_sha": "ed3b55a635a8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "KW credit application — KW-02",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment ['KW-02'])"
+  },
+  {
+   "email": "EMAIL-413",
+   "body": null,
+   "expect_sha": "576c47b2661d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-414",
+   "body": null,
+   "expect_sha": "576c47b2661d",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "KW option agreement — KW-01 (dated post-3/16/22)",
+   "note": "subject parcel KW-02 -> KW-01 (body ['KW-01'], attachment ['KW-01'])"
+  },
+  {
+   "email": "EMAIL-415",
+   "body": null,
+   "expect_sha": "6571b4446932",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "KW option agreement — KW-02 (dated post-3/16/22)",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment ['KW-02'])"
+  },
+  {
+   "email": "EMAIL-416",
+   "body": null,
+   "expect_sha": "a568a30c64f8",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-417",
+   "body": null,
+   "expect_sha": "576c47b2661d",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "KW option agreement — KW-01 (dated post-3/16/22)",
+   "note": "subject parcel KW-02 -> KW-01 (body ['KW-01'], attachment ['KW-01'])"
+  },
+  {
+   "email": "EMAIL-418",
+   "body": null,
+   "expect_sha": "4aaa2bc21210",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-420",
+   "body": null,
+   "expect_sha": "d65fd4fb05d0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-421",
+   "body": null,
+   "expect_sha": "b55d800bf46d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-423",
+   "body": null,
+   "expect_sha": "6571b4446932",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "KW option agreement — KW-02 (dated post-3/16/22)",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment ['KW-02'])"
+  },
+  {
+   "email": "EMAIL-424",
+   "body": null,
+   "expect_sha": "b55d800bf46d",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-426",
+   "body": null,
+   "expect_sha": "d65fd4fb05d0",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-430",
+   "body": null,
+   "expect_sha": "d803070170d8",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "KW credit application — KW-01",
+   "note": "subject parcel KW-02 -> KW-01 (body ['KW-01'], attachment ['KW-01'])"
+  },
+  {
+   "email": "EMAIL-431",
+   "body": null,
+   "expect_sha": "d803070170d8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "KW credit application — KW-01",
+   "note": "subject parcel KW-02 -> KW-01 (body ['KW-01'], attachment ['KW-01'])"
+  },
+  {
+   "email": "EMAIL-432",
+   "body": null,
+   "expect_sha": "6571b4446932",
+   "fixes": [
+    "placeholder_quote",
+    "subject_parcel_mismatch",
+    "wrong_org_sig"
+   ],
+   "subject": "KW option agreement — KW-02 (dated post-3/16/22)",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment [])"
+  },
+  {
+   "email": "EMAIL-436",
+   "body": null,
+   "expect_sha": "6571b4446932",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-438",
+   "body": null,
+   "expect_sha": "a568a30c64f8",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-440",
+   "body": null,
+   "expect_sha": "6571b4446932",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "KW option agreement — KW-02 (dated post-3/16/22)",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment ['KW-02'])"
+  },
+  {
+   "email": "EMAIL-441",
+   "body": null,
+   "expect_sha": "ed3b55a635a8",
+   "fixes": [
+    "subject_parcel_mismatch"
+   ],
+   "subject": "KW credit application — KW-02",
+   "note": "subject parcel KW-01 -> KW-02 (body ['KW-02'], attachment ['KW-02'])"
+  },
+  {
+   "email": "EMAIL-443",
+   "body": null,
+   "expect_sha": "b7076f90cdfe",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-445",
+   "body": null,
+   "expect_sha": "b55d800bf46d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-450",
+   "body": null,
+   "expect_sha": "a568a30c64f8",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-454",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-02 (face)",
+   "note": "subject parcel NW-03 -> NW-02 (body [], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-455",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-458",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-462",
+   "body": null,
+   "expect_sha": "f852226879ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-464",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-01 (face)",
+   "note": "subject parcel NW-04 -> NW-01 (body [], attachment ['NW-01'])"
+  },
+  {
+   "email": "EMAIL-470",
+   "body": null,
+   "expect_sha": "2f53a7ce9033",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-472",
+   "body": null,
+   "expect_sha": "bf4434c0fadd",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-476",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-07 (face)",
+   "note": "subject parcel NW-02 -> NW-07 (body [], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-478",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-05 (face)",
+   "note": "subject parcel NW-03 -> NW-05 (body [], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-479",
+   "body": null,
+   "expect_sha": "2f53a7ce9033",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-486",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-02 (face)",
+   "note": "subject parcel NW-08 -> NW-02 (body [], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-491",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-05 (face)",
+   "note": "subject parcel NW-06 -> NW-05 (body [], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-493",
+   "body": null,
+   "expect_sha": "2f53a7ce9033",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-495",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch",
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ],
+   "subject": "Parcel credit build — NW-05 (face)",
+   "note": "subject parcel NW-03 -> NW-05 (body [], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-497",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-499",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ],
+   "subject": "Parcel credit build — NW-02 (face)",
+   "note": "subject parcel NW-07 -> NW-02 (body [], attachment ['NW-02'])"
+  },
+  {
+   "email": "EMAIL-501",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-502",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-505",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-507",
+   "body": null,
+   "expect_sha": "2f53a7ce9033",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-510",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-07 (face)",
+   "note": "subject parcel NW-05 -> NW-07 (body [], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-514",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-515",
+   "body": null,
+   "expect_sha": "2f53a7ce9033",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-517",
+   "body": null,
+   "expect_sha": "090afd43daf2",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Credit build worksheet (draft) — NW-05",
+   "note": "subject parcel NW-08 -> NW-05 (body [], attachment ['NW-05'])"
+  },
+  {
+   "email": "EMAIL-525",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-527",
+   "body": null,
+   "expect_sha": "bf4434c0fadd",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-528",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-529",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-539",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-540",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch",
+    "wrong_org_sig"
+   ],
+   "subject": "Parcel credit build — NW-07 (face)",
+   "note": "subject parcel NW-03 -> NW-07 (body [], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-541",
+   "body": null,
+   "expect_sha": "bf4434c0fadd",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-543",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-544",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-03 (face)",
+   "note": "subject parcel NW-07 -> NW-03 (body [], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-547",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-554",
+   "body": null,
+   "expect_sha": "f852226879ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-556",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-563",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-564",
+   "body": null,
+   "expect_sha": "bf4434c0fadd",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-565",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-566",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch",
+    "wrong_org_sig"
+   ],
+   "subject": "Parcel credit build — NW-03 (face)",
+   "note": "subject parcel NW-05 -> NW-03 (body [], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-569",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch",
+    "wrong_org_sig"
+   ],
+   "subject": "Parcel credit build — NW-03 (face)",
+   "note": "subject parcel NW-06 -> NW-03 (body [], attachment ['NW-03'])"
+  },
+  {
+   "email": "EMAIL-570",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-574",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-575",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch",
+    "placeholder_quote"
+   ],
+   "subject": "Parcel credit build — NW-04 (face)",
+   "note": "subject parcel NW-08 -> NW-04 (body [], attachment ['NW-04'])"
+  },
+  {
+   "email": "EMAIL-576",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-577",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-579",
+   "body": null,
+   "expect_sha": "2690163b1aaf",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-582",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-06 (face)",
+   "note": "subject parcel NW-08 -> NW-06 (body [], attachment ['NW-06'])"
+  },
+  {
+   "email": "EMAIL-583",
+   "body": null,
+   "expect_sha": "db9253044ac9",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Parcel credit build — NW-07 (face)",
+   "note": "subject parcel NW-04 -> NW-07 (body [], attachment ['NW-07'])"
+  },
+  {
+   "email": "EMAIL-585",
+   "body": null,
+   "expect_sha": "090afd43daf2",
+   "fixes": [
+    "attachment_content_parcel_mismatch"
+   ],
+   "subject": "Credit build worksheet (draft) — NW-08",
+   "note": "subject parcel NW-04 -> NW-08 (body [], attachment ['NW-08'])"
+  },
+  {
+   "email": "EMAIL-586",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-587",
+   "body": null,
+   "expect_sha": "1ad14793a46c",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-590",
+   "body": null,
+   "expect_sha": "c93898d74231",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-599",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-600",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-601",
+   "body": null,
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-602",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-608",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-609",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-612",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-615",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-617",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-621",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-625",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-627",
+   "body": null,
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-632",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-633",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-634",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-642",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-643",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-646",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-653",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-655",
+   "body": null,
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-658",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-662",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-663",
+   "body": null,
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-664",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-665",
+   "body": null,
+   "expect_sha": "3780e876bf47",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-667",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-671",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-679",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-681",
+   "body": null,
+   "expect_sha": "7219bb0964c0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-683",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-688",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-691",
+   "body": null,
+   "expect_sha": "ebb069391c4b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-695",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-707",
+   "body": null,
+   "expect_sha": "cb8c2397f58b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-712",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-714",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-715",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-717",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-719",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-720",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-721",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-726",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-727",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-728",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-730",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-732",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-733",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-734",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-735",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-739",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-740",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-741",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-742",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-743",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-744",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-745",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-747",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-748",
+   "body": null,
+   "expect_sha": "77eaed6b996b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-753",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-759",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-760",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-761",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-762",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-767",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-770",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-778",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-780",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-782",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-785",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-793",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-794",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-798",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-806",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-809",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-814",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-817",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-821",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-822",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-826",
+   "body": null,
+   "expect_sha": "632d04069155",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-832",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-837",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-840",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-842",
+   "body": null,
+   "expect_sha": "96a8bf8a7a7f",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-846",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-847",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-848",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-849",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-851",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-852",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-853",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-856",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-857",
+   "body": null,
+   "expect_sha": "96a8bf8a7a7f",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-862",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-865",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-866",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-871",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-874",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-877",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-878",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-879",
+   "body": null,
+   "expect_sha": "96a8bf8a7a7f",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-883",
+   "body": null,
+   "expect_sha": "c57711c8d0da",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-884",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-887",
+   "body": null,
+   "expect_sha": "96a8bf8a7a7f",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-889",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-894",
+   "body": null,
+   "expect_sha": "534d19c7f524",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-895",
+   "body": null,
+   "expect_sha": "c46d14758c76",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-899",
+   "body": null,
+   "expect_sha": "c57711c8d0da",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-905",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-912",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-915",
+   "body": null,
+   "expect_sha": "7524a7f226be",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-916",
+   "body": null,
+   "expect_sha": "7524a7f226be",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-928",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-930",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-933",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-935",
+   "body": null,
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-937",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-942",
+   "body": null,
+   "expect_sha": "7524a7f226be",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-943",
+   "body": null,
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-944",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-950",
+   "body": null,
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-952",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-956",
+   "body": null,
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-958",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-969",
+   "body": null,
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-978",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-979",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-981",
+   "body": null,
+   "expect_sha": "7b59dacd442a",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-983",
+   "body": null,
+   "expect_sha": "7b59dacd442a",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-986",
+   "body": null,
+   "expect_sha": "ef27b29e4225",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-991",
+   "body": null,
+   "expect_sha": "7524a7f226be",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-995",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-996",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-997",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-998",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1004",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1007",
+   "body": null,
+   "expect_sha": "7b59dacd442a",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1009",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote",
+    "quote_style_mismatch",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1010",
+   "body": null,
+   "expect_sha": "392c5f90b9a6",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1011",
+   "body": null,
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1012",
+   "body": null,
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1013",
+   "body": null,
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1014",
+   "body": null,
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1015",
+   "body": null,
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1019",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1020",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1021",
+   "body": null,
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1023",
+   "body": null,
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1024",
+   "body": null,
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1026",
+   "body": null,
+   "expect_sha": "66e036984fa8",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1027",
+   "body": null,
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1028",
+   "body": null,
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1029",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1030",
+   "body": null,
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1031",
+   "body": null,
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1032",
+   "body": null,
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1033",
+   "body": null,
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1035",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1038",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1040",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1041",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1042",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1043",
+   "body": null,
+   "expect_sha": "d1ff28e34d11",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1044",
+   "body": null,
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1045",
+   "body": null,
+   "expect_sha": "f0110285253b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1047",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1049",
+   "body": null,
+   "expect_sha": "76ea0aabce39",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1050",
+   "body": null,
+   "expect_sha": "0a08a4758728",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1051",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1053",
+   "body": null,
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1056",
+   "body": null,
+   "expect_sha": "a19a31beb39b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1058",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1059",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1060",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1061",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1062",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1064",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1067",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1068",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1069",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1070",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1072",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1073",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1074",
+   "body": null,
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1077",
+   "body": null,
+   "expect_sha": "5424490bd75f",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1079",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1082",
+   "body": null,
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1084",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1085",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1087",
+   "body": null,
+   "expect_sha": "00173229658f",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1088",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1090",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1092",
+   "body": null,
+   "expect_sha": "29561eb89600",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1093",
+   "body": null,
+   "expect_sha": "29561eb89600",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1094",
+   "body": null,
+   "expect_sha": "b64694a72bf0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1095",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1097",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1098",
+   "body": null,
+   "expect_sha": "b64694a72bf0",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1099",
+   "body": null,
+   "expect_sha": "29561eb89600",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1101",
+   "body": null,
+   "expect_sha": "a19a31beb39b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1102",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1107",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1108",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1109",
+   "body": null,
+   "expect_sha": "5424490bd75f",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1110",
+   "body": null,
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1112",
+   "body": null,
+   "expect_sha": "b64694a72bf0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1114",
+   "body": null,
+   "expect_sha": "00173229658f",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1116",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1119",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1120",
+   "body": null,
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1122",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1123",
+   "body": null,
+   "expect_sha": "41a55dee272e",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1126",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1127",
+   "body": null,
+   "expect_sha": "ecd3c8778a5c",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1128",
+   "body": null,
+   "expect_sha": "3f605c41ba3b",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1130",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1133",
+   "body": null,
+   "expect_sha": "a19a31beb39b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1137",
+   "body": null,
+   "expect_sha": "5424490bd75f",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1138",
+   "body": null,
+   "expect_sha": "a603f6fe0943",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1139",
+   "body": null,
+   "expect_sha": "237d9059e5ff",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1140",
+   "body": null,
+   "expect_sha": "a19a31beb39b",
+   "fixes": [
+    "wrong_org_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1142",
+   "body": null,
+   "expect_sha": "7950e720c422",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1143",
+   "body": null,
+   "expect_sha": "57ce3b3432dd",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1146",
+   "body": null,
+   "expect_sha": "57ce3b3432dd",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1148",
+   "body": null,
+   "expect_sha": "57ce3b3432dd",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1151",
+   "body": null,
+   "expect_sha": "57ce3b3432dd",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1153",
+   "body": null,
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1159",
+   "body": null,
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1167",
+   "body": null,
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1169",
+   "body": null,
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1172",
+   "body": null,
+   "expect_sha": "57ce3b3432dd",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1174",
+   "body": null,
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1180",
+   "body": null,
+   "expect_sha": "9f792992faf0",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1185",
+   "body": null,
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1193",
+   "body": null,
+   "expect_sha": "05a3348a2881",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1197",
+   "body": null,
+   "expect_sha": "ba5c1ef68b41",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1198",
+   "body": null,
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1201",
+   "body": null,
+   "expect_sha": "857b8001e5b2",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1207",
+   "body": null,
+   "expect_sha": "ba5c1ef68b41",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1209",
+   "body": null,
+   "expect_sha": "ba5c1ef68b41",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1210",
+   "body": null,
+   "expect_sha": "f6b787a4c57d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1211",
+   "body": null,
+   "expect_sha": "ba5c1ef68b41",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1214",
+   "body": null,
+   "expect_sha": "c4c440f8865a",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1215",
+   "body": null,
+   "expect_sha": "9fd2a28bed34",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1216",
+   "body": null,
+   "expect_sha": "22995d754bd7",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1217",
+   "body": null,
+   "expect_sha": "05a3348a2881",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1220",
+   "body": null,
+   "expect_sha": "c4c440f8865a",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1221",
+   "body": null,
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1224",
+   "body": null,
+   "expect_sha": "f6b787a4c57d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1228",
+   "body": null,
+   "expect_sha": "94279d245953",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1229",
+   "body": null,
+   "expect_sha": "9fd2a28bed34",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1231",
+   "body": null,
+   "expect_sha": "f6b787a4c57d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1233",
+   "body": null,
+   "expect_sha": "82ddc876e1a9",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1234",
+   "body": null,
+   "expect_sha": "22995d754bd7",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1238",
+   "body": null,
+   "expect_sha": "ba5c1ef68b41",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1239",
+   "body": null,
+   "expect_sha": "f6b787a4c57d",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1249",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1250",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1251",
+   "body": null,
+   "expect_sha": "6488d163a538",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1252",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1254",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1255",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1258",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1259",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1264",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1266",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1267",
+   "body": null,
+   "expect_sha": "6488d163a538",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1270",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1271",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1272",
+   "body": null,
+   "expect_sha": "6488d163a538",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1274",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1275",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1276",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1281",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1282",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1286",
+   "body": null,
+   "expect_sha": "6cc4712be054",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1289",
+   "body": null,
+   "expect_sha": "6cc4712be054",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1292",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1299",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1302",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1303",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1304",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1305",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1308",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1309",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1311",
+   "body": null,
+   "expect_sha": "693e9b4e4d74",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1313",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1317",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1321",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1323",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1324",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1326",
+   "body": null,
+   "expect_sha": "6cc4712be054",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1329",
+   "body": null,
+   "expect_sha": "6cc4712be054",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1330",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1331",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1332",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1335",
+   "body": null,
+   "expect_sha": "6488d163a538",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1336",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1338",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1340",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1342",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1343",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1347",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1348",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1349",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1350",
+   "body": null,
+   "expect_sha": "693e9b4e4d74",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1352",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1353",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "noncanonical_sig",
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1354",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1356",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1358",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1360",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1361",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1362",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1364",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1365",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1376",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1379",
+   "body": null,
+   "expect_sha": "6488d163a538",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1380",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1381",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1383",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1384",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1386",
+   "body": null,
+   "expect_sha": "6cc4712be054",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1389",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1390",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1391",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1392",
+   "body": null,
+   "expect_sha": "18d37e5467c1",
+   "fixes": [
+    "placeholder_quote"
+   ]
+  },
+  {
+   "email": "EMAIL-1393",
+   "body": null,
+   "expect_sha": "6cc4712be054",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  },
+  {
+   "email": "EMAIL-1394",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "placeholder_quote",
+    "wrong_quote_date"
+   ]
+  },
+  {
+   "email": "EMAIL-1399",
+   "body": null,
+   "expect_sha": "7454edc6c0ce",
+   "fixes": [
+    "noncanonical_sig"
+   ]
+  }
+ ]
+}
