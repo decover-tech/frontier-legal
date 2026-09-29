@@ -53,4 +53,5 @@ These paths are git-ignored and exist only locally:
 Agents under evaluation must never see the authoring material. That covers `CASE_BIBLE.md`,
 `EVIDENCE_ARCS.md`, the manifest's arc and role columns, the ledgers and
 `cascade_agent_benchmark/hidden_gold/`. Agents get the EML corpus, the definitions and subpoena,
-and ordinary load-file metadata. Strip the `X-Decover-*` headers before running an eval.
+and ordinary load-file metadata, minus the `TAG`/`PRIVILEGED` columns. The emails no longer carry
+`X-Decover-*` headers; the seed labels are in `benchmark/hidden_gold/seed_header_labels.csv`.

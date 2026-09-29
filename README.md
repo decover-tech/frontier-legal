@@ -88,13 +88,14 @@ tools/thread_kit/                     # thread expander: context, validate, rend
 
 | Source | Coverage | Form |
 |---|---|---|
-| `X-Decover-Tag` / `X-Decover-Privileged` headers and the load file | Seed EMAIL-001–250 | One mixed tag per document, such as `Not Responsive`, `Routine`, `Privileged Legal Advice`, `Knowledge/Scienter` or `Red Flag`. This isn't multi-label, and privileged documents carry no responsiveness label. |
+| `benchmark/hidden_gold/seed_header_labels.csv` and the load file's `TAG`/`PRIVILEGED` columns | Seed EMAIL-001–250 | One mixed tag per document, such as `Not Responsive`, `Routine`, `Privileged Legal Advice`, `Knowledge/Scienter` or `Red Flag`. This isn't multi-label, and privileged documents carry no responsiveness label. |
 | `DOCUMENT_MANIFEST.csv` | All 1,400 rows | `arc`, `event_id` and `intended_evidentiary_role`. These are authoring intent, not reviewed gold. |
 | `cascade_agent_benchmark/hidden_gold/` | 28 tasks, all answerable from seed documents | Required, counter, distractor and context evidence IDs; gold facts and inferences; `must_include`, `must_not_claim` and `must_qualify` lists; unknowns. The schema is in `schemas/task.schema.json`. |
 | `CASE_BIBLE.md` / `EVIDENCE_ARCS.md` | The whole matter | Prose ground truth with `[ESTABLISHED]`, `[PROPOSED]`, `[DISPUTED]` and `[INFERENCE]` tags. This is the fastest source for writing new (task, evidence, target) examples. |
 
-The 600 generated documents carry only an `X-Decover-DocID` header and have **no document-level
-labels yet**.
+The emails carry no label headers: the `X-Decover-*` headers were stripped from all 1,454 files. DocIDs
+live in the filenames (`EMAIL-NNN_<subject>.eml`) and the load file. Document-level labels for the whole
+corpus are in `GOLD_LABELS.csv` (machine-drafted, expert review pending).
 
 ## Splits and leakage
 
@@ -107,7 +108,8 @@ labels yet**.
 - **All of it is one matter.** A held-out split measures generalization within this matter,
   not transfer to a new one. Building a second, independent matter for evaluation is still
   open.
-- **Keep the model away from:** the `X-Decover-*` headers (strip them from every input),
+- **Keep the model away from:** the load file's `TAG` and `PRIVILEGED` columns (withhold them; the emails themselves no longer
+  carry label headers),
   `CASE_BIBLE.md`, `EVIDENCE_ARCS.md`, the manifest's `arc`/`event_id`/role columns, the
   ledgers and `hidden_gold/`. The model may see the EML bodies, the Definitions files and
   ordinary load-file metadata.
@@ -139,7 +141,8 @@ don't depend on them.
 
 1. Parse the `.eml` files with any MIME library. Use `DATESENT`, or the `Date:` header, for
    chronology. The DocID order follows collection order, not time.
-2. Strip every `X-Decover-*` header before building inputs.
+2. Withhold the load file's `TAG`/`PRIVILEGED` columns and `GOLD_LABELS.csv` from model inputs. The
+   `.eml` files are already clean: there are no `X-Decover-*` headers.
 3. Build examples by evidence package, not by document, and hold out whole packages.
 4. For any label beyond the seed tags, generate targets from `CASE_BIBLE.md` and the
    benchmark gold, and have an expert review them. Treat `[PROPOSED]` facts as unknowns

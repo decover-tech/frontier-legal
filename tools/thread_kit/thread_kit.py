@@ -76,7 +76,9 @@ class Doc:
         with open(path, "rb") as f:
             m = email.message_from_binary_file(f, policy=policy.default)
         self.path = path
-        self.docid = str(m["X-Decover-DocID"])
+        # DocID lives in the filename (EMAIL-NNN_<subject>.eml); X-Decover-* headers are stripped
+        # from delivered files and their labels kept in benchmark/hidden_gold/seed_header_labels.csv
+        self.docid = str(m["X-Decover-DocID"] or os.path.basename(path).split("_")[0])
         self.custodian = os.path.basename(os.path.dirname(path))
         self.msgid = str(m["Message-ID"] or "").strip()
         self.irt = str(m["In-Reply-To"] or "").strip()
@@ -634,7 +636,6 @@ def to_eml(m):
     h += [("Subject", m.subject), ("Message-ID", m.msgid), ("Date", format_datetime(m.date))]
     if m.refs:
         h += [("In-Reply-To", m.refs[-1]), ("References", " ".join(m.refs))]
-    h.append(("X-Decover-DocID", m.docid))
     return build_mime(h, m.body, m.attachments)
 
 
