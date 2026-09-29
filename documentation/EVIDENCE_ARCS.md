@@ -61,9 +61,9 @@
 - Good preservation: pre-hold auto-deletion suspension + same-day departure protocol 5/26 (206/207) offsets 6/13 hold date.
 - Turning points: "three-week"/4M scope (027); hold + IT/HR custodial incl. Nina (024/058–062); Aug-31 schedule (158/159); follow-ups + Sep-1 receipt, exam open (160–162).
 - Third-party gap: Bellhaven self-preservation Q (070) — no hold went to third parties (feeds Arc I).
-- Needed (join-required): interim bridge memos 6/13→8/31 (new, dated; seed math preserved); rolling covers; privilege log (separate demo); attestations (025 pattern). Deadline bridge never a single backdated memo.
+- Needed (join-required): interim bridge memos 6/13→8/31 (new, dated; chain = 057 → 027 → 158 → 1138, none alone decides); rolling covers; privilege log (separate demo); attestations (025 pattern). Deadline bridge never a single backdated memo.
 - WP-note: 020 (2/21/23 "anticipation of potential regulatory inquiry") flagged as possible earlier trigger; default stays 2/24/23 pending decision in dependency step 5.
-- Unresolved: completeness; privilege calls; Tran canonical contact.
+- Unresolved: completeness; privilege calls. (Tran canonical contact resolved: (503) 555-0148 / kevin.tran@irs.gov.)
 
 ### Arc I — Alder divergence + Mountain Ridge (paired, distinct)
 - Divergence: hold ack (025) + cross-mailbox admin (059/061) vs no joint-defense in seed (§5d contestable); inter-company agreements + coordination memos [PROPOSED]; NO retroactive joint-defense memo (absence shown by file gaps, not a memo).
@@ -97,7 +97,7 @@
 
 ## Conflict flags (seed preserved)
 
-009 candid; 045-vs-018 (+029) operative; 115-vs-117 + 117-Not-Responsive preserved; $512K/181ac + $2.4M (136 controls); deadline chain + Tran dual + HR-split preserved with decisions required; 164 (not 165) holds the Brooks-channel rule; 167/168 in G/H; 203 anchors Q4; exam open thru Dec 2023, no 2023 resolution.
+009 candid; 045-vs-018 (+029) operative; 115-vs-117 + 117-Not-Responsive preserved; $512K/181ac + $2.4M (136 controls); deadline chain + Tran identity resolved (bible §0/§5; CONTRADICTIONS_RESOLVED.md); HR-split preserved with decision required; 164 (not 165) holds the Brooks-channel rule; 167/168 in G/H; 203 anchors Q4; exam open thru Dec 2023, no 2023 resolution.
 
 ## Open-by-design vs resolved (manifest must encode)
 

@@ -61,6 +61,6 @@ Per-task 100 pts (see `eval/scoring_rubric.md`): required-evidence recall, seque
 ## Known limits (v0.1)
 
 - Corpus is mid-expansion (750/1,400). Tasks avoid requiring PROPOSED-only records.
-- Known corpus defects (per `suggestions.md`) are preserved as-is; tasks do not ask agents to resolve Tran contact duality, Cascade address duality, or deadline-chain math as primary questions — those are noted as noise.
+- The Tran contact, Cascade address, deadline chain and summons/subpoena contradictions were resolved in the data (see `documentation/CONTRADICTIONS_RESOLVED.md`). CTH-AGENT-008 gold now carries the reconciled deadline chain. What's left is documented noise: Tran's `-0400` Date headers, 7 internal notes addressed to Tran, and 4 extension notes dated before the subpoena.
 - 117 stays `Not Responsive` per seed tag (disputed); tasks test handling it as disputed, not re-labeling it.
 - Work-product default trigger stays 2/24/23 (L&L engagement); 020 (2/21 assessment) is flagged as possible-earlier-trigger edge case.

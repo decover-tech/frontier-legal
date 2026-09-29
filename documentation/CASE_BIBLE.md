@@ -21,7 +21,8 @@
 - D&O notice follows whistleblower (167/168, Apr 2023 — belongs to Arcs G/H, NOT Arc E) **[ESTABLISHED]**.
 - Preservation: Osei suspends auto-deletion pre-hold 5/26/23 (206) + Park same-day departure protocol (207) — good-preservation fact offsetting 6/13 hold date; Bellhaven asks about preserving own files 7/6/23 (070) — third parties got no hold **[ESTABLISHED; Arc H/I]**.
 - Pause chain: privileged scenarios 4/4/23 incl. partial-pause line-drawing warning (169/170) → leadership pause direction 6/27/23 (030) → draft resolution 6/29 for special meeting "tomorrow" + "less factual detail" recital advice (171/172) → **formal board action 6/30/23 [INFERENCE from "tomorrow"]**. Cite pause as **Jun 27 (leadership) + Jun 30 (board)**, not Jun-27-only.
-- Subpoena 5/23/23; hold 6/13; remediation outline 8/8/23 anchors Oct–Dec volume (203) **[ESTABLISHED; Arc F]**.
+- Subpoena 5/23/23; hold 6/13; remediation outline 8/8/23 anchors Oct–Dec volume (203) **[ESTABLISHED; Arc F]**. Instrument is formally an IRS administrative **summons** under 26 U.S.C. § 7602 (definitions/Subpoena_Enhanced.docx); "subpoena" is the corpus's informal shorthand and stays as-is in correspondence.
+- Deadline chain (resolved): 21-day return 6/13 (023) → 1-week ext requested 5/25, granted 5/31 → 6/20 (056/057) → interim three-week ext by phone 6/20 → 7/11 ("three-week deadline" 027, "extended deadline" 065) → final 8/31 set on late-June call, confirmed 7/5 (158/159) → memorialized 7/31 (1138). See documentation/CONTRADICTIONS_RESOLVED.md.
 - Alder affiliate: subpoena names Alder "Affiliate"; Alder staff ack hold (025); CTH IT/HR administer Nina mailbox (059/061). Review position: non-privileged third party, no joint-defense in seed — contestable, no drift without dated memo (§5d).
 - Mountain Ridge separate (095–100 etc.); 117 claim = character assertion **[DISPUTED]**.
 - TAR/budget work is JUNE 2023 (026/027 6/20–21; 064 6/23; ~4M emails; $8K; "three-week deadline"), not April.
@@ -75,7 +76,7 @@ Nov 2021: case/pitch/deal review + representation recommendation/open reliance Q
 
 ## 5. Actors (+ new classes; knowledge; edges; contestable Alder)
 
-24 humans (11 CTH + 4 Alder + 2 Bellhaven + 3 L&L + 1 IRS + 3 consultants); GreenAcre = org; + whistleblower + complainant's counsel (non-email). Elena (reversal), Denniston, Ellery (034 root + 040 advice + 169–172 recital discipline), Nguyen (framework + hold-off + intake + 203 remediation), Reyes (flagger + push-through + secrecy + cover risk + re-read), Shah (proceed + no-verification + 018-vs-045), Nina (earliest + Clearwater spine + departure), Cole (Mar-22 notice + Klamath knowledge + Upjohn), Whitfield/Kane, Holt/Ford (candid-009 + operative chain + 029 restatement), Lin/Chen/Brooks (post-2/24 only; 164 channel rule), Sato (conservative + direct-Larsen), Webb/Delgado (board/IR + disclosure split), Tran (dual identity open), Whitaker/Larsen/Kim (path-dependent privilege), Osei/Park/Sanchez (ops).
+24 humans (11 CTH + 4 Alder + 2 Bellhaven + 3 L&L + 1 IRS + 3 consultants); GreenAcre = org; + whistleblower + complainant's counsel (non-email). Elena (reversal), Denniston, Ellery (034 root + 040 advice + 169–172 recital discipline), Nguyen (framework + hold-off + intake + 203 remediation), Reyes (flagger + push-through + secrecy + cover risk + re-read), Shah (proceed + no-verification + 018-vs-045), Nina (earliest + Clearwater spine + departure), Cole (Mar-22 notice + Klamath knowledge + Upjohn), Whitfield/Kane, Holt/Ford (candid-009 + operative chain + 029 restatement), Lin/Chen/Brooks (post-2/24 only; 164 channel rule), Sato (conservative + direct-Larsen), Webb/Delgado (board/IR + disclosure split), Tran (canonical: Revenue Agent, Examination Division, IRS Portland field office, (503) 555-0148, kevin.tran@irs.gov), Whitaker/Larsen/Kim (path-dependent privilege), Osei/Park/Sanchez (ops).
 
 **New classes [PROPOSED — add before manifest prose]:** External auditors — Moss & Lane LLP ( Brenda Moss, partner <bmoss@mosslane-cpa.com>; associate <tkim@mosslane-cpa.com> ), 2022 audit + Q3-2023 contingency review, no pre-2022 knowledge. Buyers (6–8, Bellhaven-placed 2022): Blue River Capital (<apatel@bluerivercap.com>), Cascade Pension Partners (<jorr@cppension.org>), Willamette Family Holdings (<sgrant@willamettefh.com>), North Fork Energy Fund (<dliu@northforkef.com>), plus 2–4 smaller lots [PROPOSED names/domains/roles; no buyer identity ESTABLISHED].
 
@@ -107,11 +108,11 @@ Ellery in-house; L&L 2/24 outside (021); Whitaker Kovel via L&L (137/138); Larse
 
 ## 11. Open threads (Arc J added)
 
-1. Clearwater/KW intent join (Arc J owns). 2. Klamath re-survey pair + dates. 3. Whistleblower pool (3 live) + counsel + Mar-10 record. 4. Spot-checks (no-entries pattern). 5. Renewal filing/issuance + matrix. 6. Buyer complaints/demands + disclosure split. 7. Deadline bridge memos + Tran canonical.
+1. Clearwater/KW intent join (Arc J owns). 2. Klamath re-survey pair + dates. 3. Whistleblower pool (3 live) + counsel + Mar-10 record. 4. Spot-checks (no-entries pattern). 5. Renewal filing/issuance + matrix. 6. Buyer complaints/demands + disclosure split. 7. Deadline bridge memos + Tran canonical — RESOLVED (see §0 deadline chain; Tran §5).
 
 ## 8. Contradiction report
 
-Seed untouched. 009 candid preserved. 045-vs-018 (+029) preserved. 115-vs-117 + 117-Not-Responsive preserved. $512K-vs-$2.4M: 136 controls. Parcel sums fixed ($4.55M + $2.25M). Owners fixed to CTH fee per 031/033. Clearwater separated from surveyed 8 (timeline). Dates fixed: 120–122 Jul-23; TAR/budget Jun-23; pause 6/27 + 6/30. Tran dual + deadline math + HR-split flagged with decisions required. Log-only names stay out. No other conflicts.
+Seed untouched. 009 candid preserved. 045-vs-018 (+029) preserved. 115-vs-117 + 117-Not-Responsive preserved. $512K-vs-$2.4M: 136 controls. Parcel sums fixed ($4.55M + $2.25M). Owners fixed to CTH fee per 031/033. Clearwater separated from surveyed 8 (timeline). Dates fixed: 120–122 Jul-23; TAR/budget Jun-23; pause 6/27 + 6/30. Tran identity, Cascade address (1200 Forest Park Way, Suite 900, Portland, OR 97209), deadline chain and summons framing resolved (documentation/CONTRADICTIONS_RESOLVED.md); HR-split still flagged with decision required. Log-only names stay out. No other conflicts.
 
 ## 12. Volume / prevalence targets (binding for manifest v2; total 1,400 = 250 seed + 1,150 new)
 
