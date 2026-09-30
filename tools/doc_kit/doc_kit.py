@@ -440,6 +440,29 @@ def render_csv(meta, content):
     return buf.getvalue().encode("utf-8")
 
 
+def render_as_pdf(key):
+    """Render library version 'DOC_ID@ver' as a PDF (DOCX drafts print to PDF with their
+    watermark; scanned versions use the same seed, so pages match the standalone copy)."""
+    doc_id, _, ver = key.partition("@")
+    meta, content = resolve(load_doc(doc_id), ver or None)
+    data = render_pdf(meta, content)
+    if meta.get("scan"):
+        data = scanify(data, seed=f"{meta['doc_id']}{meta['version']}")
+    return data
+
+
+def append_pdfs(data, keys):
+    """Packet assembly: append the rendered library versions in `keys` after `data`."""
+    from pypdf import PdfReader, PdfWriter
+    w = PdfWriter()
+    for blob in [data] + [render_as_pdf(k) for k in keys]:
+        for pg in PdfReader(io.BytesIO(blob)).pages:
+            w.add_page(pg)
+    out = io.BytesIO()
+    w.write(out)
+    return out.getvalue()
+
+
 def render_version(doc, version=None):
     """-> (filename, mime type, bytes, meta)."""
     meta, content = resolve(doc, version)
@@ -448,6 +471,8 @@ def render_version(doc, version=None):
         data = render_pdf(meta, content)
         if meta.get("scan"):
             data = scanify(data, seed=f"{meta['doc_id']}{meta['version']}")
+        if content.get("append_docs"):
+            data = append_pdfs(data, content["append_docs"])
     elif fmt == "docx":
         data = render_docx(meta, content)
     elif fmt == "xlsx":
@@ -508,9 +533,21 @@ def validate_version(doc, version, issues, where):
         if re.search(h["pattern"], text, re.I):
             err(f"banned by design: {h['reason']}")
     kw = any(p.startswith("KW") for p in (meta.get("parcels") or [])) or re.search(r"\bKW-0[12]\b|Clearwater", text)
+    exempt = {e["date"]: e.get("reason", "") for e in doc.get("guard_exempt", [])}
     for s, d in dates_in(text):
         if kw and d <= date(2022, 3, 16):
-            err(f"KW/Clearwater document shows date {s} on or before 3/16/22 (Arc J timeline guard)")
+            if d.isoformat() in exempt:
+                issues.append(("INFO", where, f"guard-exempt date {s}: {exempt[d.isoformat()]}"))
+            else:
+                err(f"KW/Clearwater document shows date {s} on or before 3/16/22 (Arc J timeline guard)")
+    for key in content.get("append_docs", []):
+        try:
+            am, _ = resolve(load_doc(key.partition("@")[0]), key.partition("@")[2] or None)
+        except (KeyError, SystemExit) as e:
+            err(f"append_docs {key}: {e}")
+            continue
+        if am["date"] > meta["date"]:
+            err(f"appended {key} is dated {am['date']} — after this version ({meta['date']})")
     if kw and vdate <= date(2022, 3, 16):
         err("KW/Clearwater document version dated on or before 3/16/22")
     for s in meta.get("signatures") or []:
@@ -600,6 +637,102 @@ def validate_plan(plan, docs, library):
 
 # ---------------------------------------------------------------- apply / rollback
 
+LOADFILES = [(os.path.join(tk.CORPUS, "Loadfile_Cascade_Timber.csv"), b"\r\n", lambda did: did.encode() + b","),
+             (os.path.join(tk.CORPUS, "Loadfile_Cascade_Timber.dat"), b"\n", lambda did: "\u00fe{}\u00fe".format(did).encode())]
+
+
+def _logical_headers(block):
+    """Split a raw header block into logical headers, keeping folded lines with their header."""
+    out = []
+    for ln in block.split(b"\n"):
+        if out and ln[:1] in (b" ", b"\t"):
+            out[-1] += b"\n" + ln
+        else:
+            out.append(ln)
+    return out
+
+
+def splice_attachment(raw, old_fn, new_fn, mime, data):
+    """'Edit method' (documentation/CONTRADICTIONS_RESOLVED.md): replace one top-level attachment
+    part in the raw bytes. Headers, boundaries, body parts, inline images and other attachments
+    stay byte-identical. Returns (new_raw, start, end) of the replaced span in the old raw."""
+    import base64
+    import email as E
+    from email import policy
+    m = E.message_from_bytes(raw, policy=policy.default)
+    b = m.get_boundary()
+    if not b:
+        raise ValueError("message is not multipart")
+    delim = b"\n--" + b.encode()
+    pos = [x.start() for x in re.finditer(re.escape(delim), raw)]
+    fn_rx = re.compile(rb'filename="?' + re.escape(old_fn.encode()) + rb'"?\s*(;|$)', re.M)
+    hits = []
+    for i, p0 in enumerate(pos[:-1]):
+        start = raw.index(b"\n", p0 + 1) + 1
+        end = pos[i + 1]
+        seg = raw[start:end]
+        hdr = seg[:seg.find(b"\n\n")]
+        if fn_rx.search(hdr):
+            hits.append((start, end, hdr))
+    if len(hits) != 1:
+        raise ValueError(f"expected exactly one top-level part named {old_fn!r}, found {len(hits)}")
+    start, end, hdr = hits[0]
+    old_cte = (re.search(rb"(?im)^content-transfer-encoding:\s*(\S+)", hdr) or [None, b"7bit"])[1].decode().lower()
+    is_text = mime.startswith("text/")
+    if is_text and old_cte in ("7bit", "8bit") and all(c < 128 for c in data) and max(len(l) for l in data.split(b"\n")) < 990:
+        cte, payload = "7bit", data if data.endswith(b"\n") else data + b"\n"
+    else:
+        cte, payload = "base64", base64.encodebytes(data)
+    new_h = []
+    for h in _logical_headers(hdr):
+        name = h.split(b":", 1)[0].strip().lower()
+        if name == b"content-type":
+            new_h.append(f'Content-Type: {mime}; charset="utf-8"'.encode() if is_text else f"Content-Type: {mime}".encode())
+        elif name == b"content-transfer-encoding":
+            new_h.append(f"Content-Transfer-Encoding: {cte}".encode())
+        elif name == b"content-disposition":
+            new_h.append(f'Content-Disposition: attachment; filename="{new_fn}"'.encode())
+        else:
+            new_h.append(h)
+    new_raw = raw[:start] + b"\n".join(new_h) + b"\n\n" + payload + raw[end:]
+    # verification: every other part decodes identically, the new part decodes to `data`
+    def parts(x):
+        mm = E.message_from_bytes(x, policy=policy.default)
+        return mm, [(q.get_content_type(), q.get_filename(), q.get_payload(decode=True)) for q in mm.walk() if not q.is_multipart()]
+    m0, p0s = parts(raw)
+    m1, p1s = parts(new_raw)
+    if list(m0.items()) != list(m1.items()):
+        raise ValueError("verification failed: top-level headers changed")
+    keep0 = [x for x in p0s if x[1] != old_fn]
+    keep1 = [x for x in p1s if x[1] != new_fn]
+    got = [x for x in p1s if x[1] == new_fn]
+    if keep0 != keep1 or len(got) != 1 or got[0][2] != data or got[0][0] != mime:
+        raise ValueError("verification failed: other parts changed or new attachment does not round-trip")
+    if raw[:start] != new_raw[:start] or raw[end:] != new_raw[len(new_raw) - (len(raw) - end):]:
+        raise ValueError("verification failed: bytes outside the replaced part changed")
+    return new_raw, start, end
+
+
+def loadfile_rename(docid, old_fn, new_fn):
+    """Keep the ATTACHMENTS column of the CSV/DAT load files in step with a renamed attachment.
+    Only that email's row is touched; returns [(path, old_line, new_line)] for rollback."""
+    changes = []
+    for path, eol, key in LOADFILES:
+        if not os.path.exists(path):
+            continue
+        raw = open(path, "rb").read()
+        lines = raw.split(eol)
+        idx = [i for i, ln in enumerate(lines) if ln.startswith(key(docid))]
+        if len(idx) != 1:
+            raise ValueError(f"{os.path.basename(path)}: expected one row for {docid}, found {len(idx)}")
+        ln = lines[idx[0]]
+        if ln.count(old_fn.encode()) != 1:
+            raise ValueError(f"{os.path.basename(path)}: {docid} row does not name {old_fn!r} exactly once")
+        lines[idx[0]] = ln.replace(old_fn.encode(), new_fn.encode())
+        open(path, "wb").write(eol.join(lines))
+        changes.append((os.path.relpath(path, tk.ROOT), ln.decode("utf-8"), lines[idx[0]].decode("utf-8")))
+    return changes
+
 def apply(plan, docs, library, dry):
     issues = validate_plan(plan, docs, library)
     tk.report_issues(issues)
@@ -609,7 +742,8 @@ def apply(plan, docs, library, dry):
     bdir = os.path.join(WORK, "backup", pid)
     manifest, fields = tk.load_manifest()
     rendered = {}
-    rec = {"plan_id": pid, "emails": [], "applied_at": datetime.now().isoformat(timespec="seconds")}
+    rec = {"plan_id": pid, "emails": [], "applied_at": datetime.now().isoformat(timespec="seconds"),
+           "edit_method": plan.get("edit_method", "rebuild")}
     for a in plan["attach"]:
         d = docs[a["email"]]
         key = a["doc"]
@@ -622,6 +756,21 @@ def apply(plan, docs, library, dry):
         idx = next((i for i, x in enumerate(d.attachments) if x[0] == a.get("replace")), len(atts))
         atts.insert(min(idx, len(atts)), (fn, mime, data))
         print(f"{a['email']}: {a.get('replace') or '(add)'} -> {fn} ({len(data) // 1024} KB, {meta['status']})")
+        if plan.get("edit_method") == "splice":
+            if not a.get("replace"):
+                sys.exit(f"{a['email']}: edit_method 'splice' supports 'replace' entries only")
+            raw = open(d.path, "rb").read()
+            new_raw, s0, s1 = splice_attachment(raw, a["replace"], fn, mime, data)
+            print(f"    splice: bytes {s0}-{s1} replaced; {len(raw) - (s1 - s0)} bytes outside the part unchanged (verified)")
+            if dry:
+                continue
+            os.makedirs(bdir, exist_ok=True)
+            shutil.copy2(d.path, os.path.join(bdir, os.path.basename(d.path)))
+            open(d.path, "wb").write(new_raw)
+            lf = loadfile_rename(a["email"], a["replace"], fn) if fn != a["replace"] else []
+            rec["emails"].append({"email": a["email"], "path": os.path.relpath(d.path, tk.ROOT), "doc": key,
+                                  "filename": fn, "replaced": a["replace"], "loadfile_rows": lf})
+            continue
         if dry:
             continue
         import email as E
@@ -662,6 +811,13 @@ def rollback(pid):
     bdir = os.path.join(WORK, "backup", pid)
     for e in rec["emails"]:
         shutil.copy2(os.path.join(bdir, os.path.basename(e["path"])), os.path.join(tk.ROOT, e["path"]))
+        for path, old_line, new_line in e.get("loadfile_rows", []):
+            p = os.path.join(tk.ROOT, path)
+            raw = open(p, "rb").read()
+            if raw.count(new_line.encode()) == 1:
+                open(p, "wb").write(raw.replace(new_line.encode(), old_line.encode()))
+            else:
+                print(f"WARN {path}: row for {e['email']} changed since apply; restore by hand")
     print(f"restored {len(rec['emails'])} emails (manifest attachment counts unchanged by replace; re-check if you used 'add')")
     os.remove(os.path.join(WORK, f"{pid}.apply.json"))
 

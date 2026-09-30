@@ -108,7 +108,11 @@ Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="KW-02_ledger.csv"
 MIME-Version: 1.0
 
-parcel,amount,date
-KW-02,12000,per bank feed (verify)
+PRIVILEGED & CONFIDENTIAL - ATTORNEY WORK PRODUCT - compiled at the direction of counsel from the Alder production set; sources per team-drive index
+Line,Parcel,Payee,Description,Amount (as recorded),Due per option Sch. 1,Ledger date (as recorded),Ref (as recorded),Bank-feed date (Alder production set),Flag
+1,KW-02,Clearwater Land LLC,Initial Option Payment,4000.00,2022-09-27,2022-09-23,Chk 10417,2022-09-27,
+2,KW-02,Clearwater Land LLC,Second Option Payment,4000.00,2023-03-19,2023-03-15,Chk 10602,,"No matching bank-feed date - flagged, not inferred"
+3,KW-02,Clearwater Land LLC,Third Option Payment,4000.00,2023-06-17,2023-06-14,Chk 10688,,"No matching bank-feed date - flagged, not inferred"
+,KW-02,,Total as recorded,12000.00,,,,,
 
 --===============2182249159908075648==--

@@ -1,0 +1,327 @@
+{
+  "doc_id": "KW02-APP",
+  "title": "Coastal Solar Credit Program — Parcel Credit Application",
+  "type": "application",
+  "org": "",
+  "parcels": [
+    "KW-02"
+  ],
+  "arc": "J",
+  "doc_control": "APP-CSC parcel application form rev. 2022-1",
+  "figures_ok": [],
+  "vars": {
+    "parcel": "KW-02",
+    "acreage": "111.87",
+    "tax_lot": "Map 3708-02300, Tax Lot 00300",
+    "legal_description": "Real property in the County of Klamath, State of Oregon, described as follows: That portion of the North one-half (N½) of Section 23, Township 37 South, Range 8 East of the Willamette Meridian, lying East of the easterly right-of-way line of U.S. Highway 97. EXCEPTING THEREFROM any portion lying within public road rights-of-way.",
+    "location_note": "south parcel of the Clearwater pair",
+    "access_note": "County road, then existing ranch track. Access over the ranch track to be confirmed with Owner (see Tab 4).",
+    "adjoining_note": "To the north (Alder ref. KW-01), subject of a separate option under negotiation",
+    "option_ref": "KW-02 Option Agreement (Clearwater) v1, draft of May 6, 2022, unsigned",
+    "option_doc": "KW02-OPTION@v1",
+    "app_date": "[__________]",
+    "packet_status": "Assembled from draft documents; not filed",
+    "label": "KW-02 application packet (draft, not filed)",
+    "label_short": "draft, not filed"
+  },
+  "content": {
+    "letterhead": {
+      "name": "Alder Point Partners",
+      "lines": "Program Administration  ·  Coastal Solar Credit Program  ·  Sacramento, California"
+    },
+    "pdf_author": "Nina Alvarez",
+    "subtitle": "{{label}}  ·  Alder parcel ref. {{parcel}}  ·  Klamath County, Oregon",
+    "sections": [
+      {
+        "heading": "Packet Index",
+        "number": "",
+        "items": [
+          "Tab 1 — Application form, certification and landowner consent",
+          "Tab 2 — Parcel description",
+          "Tab 3 — Klamath County filings (record extract)",
+          "Tab 4 — Field notes, site walk of March 22, 2022 (T. Reyes)",
+          "Tab 5 — Option agreement: {{option_ref}}"
+        ]
+      },
+      {
+        "heading": "Tab 1 — Application Form",
+        "number": "",
+        "text": [
+          "Parcel Credit Application under the Coastal Solar Credit Program (the \"Program\"). Complete one form for each parcel."
+        ],
+        "table": [
+          [
+            "Item",
+            "Entry"
+          ],
+          [
+            "Program",
+            "Coastal Solar Credit Program"
+          ],
+          [
+            "Program file no.",
+            "(assigned by the Program on receipt)"
+          ],
+          [
+            "Applicant",
+            "Cascade Timber Holdings, Inc., by Alder Point Partners, as Program Administrator"
+          ],
+          [
+            "Administrator contact",
+            "Priya Shah, VP Business Development, Alder Point Partners · pshah@alderpointpartners.com"
+          ],
+          [
+            "Packet prepared by",
+            "Nina Alvarez, Regional Sales Rep (Southwest), Alder Point Partners"
+          ],
+          [
+            "Alder parcel reference",
+            "{{parcel}}"
+          ],
+          [
+            "Landowner of record",
+            "Clearwater Land LLC, an Oregon limited liability company (Gordon L. Pruitt, Managing Member)"
+          ],
+          [
+            "Applicant's interest in the parcel",
+            "Option to purchase held by Alder Point Partners (Tab 5)"
+          ],
+          [
+            "County / State",
+            "Klamath County, Oregon"
+          ],
+          [
+            "Location",
+            "East of U.S. Highway 97 (Route 97 corridor); {{location_note}}"
+          ],
+          [
+            "Assessor map / tax lot",
+            "{{tax_lot}}"
+          ],
+          [
+            "Legal description",
+            "See Tab 2"
+          ],
+          [
+            "Acreage claimed",
+            "{{acreage}} acres (Klamath County Assessor acreage of record; Tab 3)"
+          ],
+          [
+            "Credit requested",
+            "Per the Program rate schedule applied to the acreage claimed"
+          ],
+          [
+            "Supporting documents",
+            "Tabs 2 through 5"
+          ],
+          [
+            "Date of application",
+            "{{app_date}}"
+          ],
+          [
+            "Packet status",
+            "{{packet_status}}"
+          ]
+        ]
+      },
+      {
+        "heading": "Certification and Landowner Consent",
+        "number": "",
+        "text": [
+          "Certification. The Applicant, acting through its Program Administrator, submits this application for the parcel described above and certifies that, to the best of its knowledge after reasonable inquiry, the information in this application and its tabs is accurate and complete as of the date of application.",
+          "Landowner consent. Clearwater Land LLC, as owner of record, consents to the filing of this application for the Property described in Tab 2 and confirms that it has granted the option to purchase described in Tab 5. The landowner makes no other representation in this application."
+        ]
+      }
+    ],
+    "signature_intro": "Signed by the Applicant's authorized representative and by the landowner of record.",
+    "exhibits": [
+      {
+        "title": "Tab 2 — Parcel Description",
+        "text": [
+          "{{legal_description}}"
+        ],
+        "table": [
+          [
+            "Item",
+            "Detail"
+          ],
+          [
+            "Assessor map / tax lot",
+            "{{tax_lot}}"
+          ],
+          [
+            "Assessor acreage of record",
+            "{{acreage}} acres"
+          ],
+          [
+            "Access",
+            "{{access_note}}"
+          ],
+          [
+            "Adjoining land of Owner",
+            "{{adjoining_note}}"
+          ]
+        ]
+      },
+      {
+        "title": "Tab 3 — Klamath County Filings (Record Extract)",
+        "text": [
+          "Extract prepared from the Klamath County filings obtained by Cascade Timber Holdings Land Records at Alder's request of March 23, 2022. Copies of the recorded instruments are kept in the parcel file."
+        ],
+        "table": [
+          [
+            "Record",
+            "Reference",
+            "Entry"
+          ],
+          [
+            "Assessor record",
+            "{{tax_lot}}",
+            "Owner: Clearwater Land LLC. Acreage of record: {{acreage}} acres"
+          ],
+          [
+            "Vesting deed",
+            "Statutory warranty deed, Vol. M05, Page 41206 (recorded 2005), Records of Klamath County",
+            "Grantee: Clearwater Land LLC (conveys this parcel and Owner's adjoining land)"
+          ],
+          [
+            "Grazing lease",
+            "Vol. M94, Page 18832 (recorded 1994), Records of Klamath County",
+            "Covers the parcel and Owner's adjoining land. No release located of record"
+          ]
+        ]
+      },
+      {
+        "title": "Tab 4 — Field Notes: Site Walk, Clearwater Parcels (Route 97)",
+        "text": [
+          "Alder Point Partners, Land Acquisition. Prepared by T. Reyes. Site walk on March 22, 2022, beginning 2:00 p.m. at the north gate, with Owner's managing member (Gordon L. Pruitt). Parcel references were added when the files were opened."
+        ],
+        "table": [
+          [
+            "Topic",
+            "Note"
+          ],
+          [
+            "North parcel (KW-01)",
+            "Mostly open ground with frontage on the county road. Appears to fit the siting criteria."
+          ],
+          [
+            "South parcel (KW-02)",
+            "Access is off the county road, then an existing ranch track that appears to cross Owner's land to the north. Access rights need to be confirmed."
+          ],
+          [
+            "Recorded items",
+            "Owner reports an old grazing lease over both parcels, which he believes has lapsed. He has not found a release and thinks the county would have it."
+          ],
+          [
+            "Acreage",
+            "Owner's figure comes from an old listing sheet and was not used. Acreage to be taken from the county record."
+          ],
+          [
+            "Follow-up",
+            "The recorder's office had closed (4 p.m.). County filings to be requested March 23 through Cascade Land Records (H. Cole); N. Alvarez to get parcel numbers from Owner."
+          ],
+          [
+            "Owner",
+            "Wants an option drafted quickly and asked when the first payment would come. Told him: standard terms, and nothing moves until the filings have been reviewed."
+          ]
+        ]
+      },
+      {
+        "title": "Tab 5 — Option Agreement",
+        "text": [
+          "{{option_ref}}. Copy follows this page."
+        ]
+      }
+    ],
+    "append_docs": [
+      "{{option_doc}}"
+    ],
+    "footer": "Alder Point Partners · Coastal Solar Credit Program · {{parcel}} application packet · {{label_short}}"
+  },
+  "versions": [
+    {
+      "version": "draft-2022-06-21",
+      "date": "2022-06-21",
+      "status": "draft",
+      "watermark": "DRAFT",
+      "format": "pdf",
+      "filename": "KW-02_application.pdf",
+      "changes": "First KW-02 packet (N. Alvarez), assembled from the v1 option draft, the county filings and T. Reyes's field notes from 3/22/22. Unsigned; not filed.",
+      "signatures": [
+        {
+          "party": "APPLICANT: CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Program Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development"
+        },
+        {
+          "party": "LANDOWNER CONSENT: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member"
+        }
+      ]
+    },
+    {
+      "version": "for-signature-2022-09-29",
+      "date": "2022-09-29",
+      "status": "final",
+      "watermark": "",
+      "format": "pdf",
+      "filename": "KW-02_application.pdf",
+      "vars": {
+        "option_ref": "Option Agreement effective September 20, 2022 (executed; Owner signed September 19, 2022, Optionee September 20, 2022)",
+        "option_doc": "KW02-OPTION@exec",
+        "access_note": "County road, then existing ranch track. At Closing, Owner is to grant an access easement over the ranch track across Owner's land to the north (Option Sec. 9.2).",
+        "adjoining_note": "To the north (Alder ref. KW-01), subject of a separate option under negotiation",
+        "packet_status": "Assembled for Administrator sign-off and landowner consent",
+        "label": "KW-02 application packet",
+        "label_short": "for signature"
+      },
+      "changes": "Executed option (9/20/22) replaces the v1 draft at Tab 5; Tab 2 access updated to the ranch-track easement in the executed option. Form otherwise unchanged; unsigned, awaiting Administrator sign-off and landowner consent.",
+      "signatures": [
+        {
+          "party": "APPLICANT: CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Program Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development"
+        },
+        {
+          "party": "LANDOWNER CONSENT: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member"
+        }
+      ]
+    },
+    {
+      "version": "submission-set-2022-10-11",
+      "date": "2022-10-11",
+      "status": "executed",
+      "scan": true,
+      "sig_style": "wet",
+      "format": "pdf",
+      "filename": "KW-02_application.pdf",
+      "vars": {
+        "app_date": "October 11, 2022",
+        "packet_status": "Submission set (signed)",
+        "label": "KW-02 application packet: submission set",
+        "label_short": "submission set"
+      },
+      "changes": "Signed submission set: landowner consent signed by G. Pruitt on 10/7/22; application signed by P. Shah on 10/11/22 (date of application). Printed, signed and scanned. No Program receipt stamp or file number (assembled copy, not the as-filed copy).",
+      "signatures": [
+        {
+          "party": "APPLICANT: CASCADE TIMBER HOLDINGS, INC., by ALDER POINT PARTNERS, as Program Administrator",
+          "name": "Priya Shah",
+          "title": "VP Business Development",
+          "signed": true,
+          "date": "October 11, 2022"
+        },
+        {
+          "party": "LANDOWNER CONSENT: CLEARWATER LAND LLC, an Oregon limited liability company",
+          "name": "Gordon L. Pruitt",
+          "title": "Managing Member",
+          "signed": true,
+          "date": "October 7, 2022"
+        }
+      ]
+    }
+  ]
+}

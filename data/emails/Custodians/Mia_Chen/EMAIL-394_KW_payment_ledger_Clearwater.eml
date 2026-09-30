@@ -26,7 +26,10 @@ Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="KW-01_ledger.csv"
 MIME-Version: 1.0
 
-parcel,amount,date
-KW-01,12000,per bank feed (verify)
+Parcel,Line,Payee,Description,Amount,Due,Ledger date,Ref,Bank-feed date,Status
+KW-01,1,Clearwater Land LLC,Initial Option Payment,4000.00,2023-01-17,,,per bank feed,Scheduled - within 5 business days of Effective Date
+KW-01,2,Clearwater Land LLC,Second Option Payment,4000.00,2023-07-09,,,per bank feed,Scheduled
+KW-01,3,Clearwater Land LLC,Third Option Payment,4000.00,2023-10-07,,,per bank feed,Scheduled
+KW-01,,,Option Fee total,12000.00,,,,,"Per executed option (Effective Date 2023-01-10), Schedule 1"
 
 --===============3997870132578611550==--

@@ -41,6 +41,8 @@ ROOT = os.path.abspath(os.environ.get("THREAD_KIT_ROOT") or os.path.join(os.path
 CORPUS = os.path.join(ROOT, "data", "emails")
 CUSTODIANS = os.path.join(CORPUS, "Custodians")
 MANIFEST = os.path.join(ROOT, "DOCUMENT_MANIFEST.csv")
+if not os.path.exists(MANIFEST):  # manifest moved to documentation/ in d0f208e
+    MANIFEST = os.path.join(ROOT, "documentation", "DOCUMENT_MANIFEST.csv")
 WORKDIR = os.path.join(ROOT, "Logs", "threads")
 RULES = json.load(open(os.path.join(os.path.dirname(__file__), "rules.json")))
 TZ = ZoneInfo("America/Los_Angeles")

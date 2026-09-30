@@ -1,0 +1,502 @@
+{
+  "doc_id": "CW-DATESLOG",
+  "title": "Clearwater dates log (KW-01 / KW-02)",
+  "type": "log",
+  "org": "",
+  "parcels": [
+    "KW-01",
+    "KW-02"
+  ],
+  "arc": "J",
+  "doc_control": "Alder Land Acquisition - Clearwater file dates log",
+  "figures_ok": [],
+  "vars": {},
+  "guard_exempt": [
+    {
+      "date": "2022-03-16",
+      "reason": "seed lead date (EMAIL-176, Nina's Route 97 lead). It is the lead call itself, not an option, survey or application, so the Arc J guard does not apply"
+    }
+  ],
+  "content": {
+    "table": [
+      [
+        "event",
+        "parcel",
+        "date",
+        "document"
+      ],
+      [
+        "Lead call (N. Alvarez)",
+        "KW-01/KW-02",
+        "2022-03-16",
+        "Email RE: Parcel scouting - Klamath County"
+      ],
+      [
+        "Site walk with owner (T. Reyes)",
+        "KW-01/KW-02",
+        "2022-03-22",
+        "Field notes - site walk 3/22/22"
+      ],
+      [
+        "County filings requested (via H. Cole)",
+        "KW-01/KW-02",
+        "2022-03-23",
+        "Email to H. Cole"
+      ],
+      [
+        "Option draft v1",
+        "KW-01",
+        "2022-03-29",
+        "KW-01 Option Agreement (Clearwater) v1.docx"
+      ],
+      [
+        "Option draft",
+        "KW-02",
+        "",
+        ""
+      ],
+      [
+        "Option signed",
+        "KW-01/KW-02",
+        "",
+        ""
+      ],
+      [
+        "Application packet",
+        "KW-01/KW-02",
+        "",
+        ""
+      ]
+    ]
+  },
+  "versions": [
+    {
+      "version": "2022-04-02",
+      "date": "2022-04-02",
+      "status": "working",
+      "format": "csv",
+      "filename": "clearwater_dates.csv",
+      "changes": "Log opened (T. Reyes): lead 3/16, walk 3/22, filings requested 3/23, KW-01 v1 3/29; option and packet lines blank until they happen."
+    },
+    {
+      "version": "2022-06-17-NA",
+      "date": "2022-06-17",
+      "status": "working",
+      "format": "csv",
+      "filename": "clearwater_dates.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "event",
+            "parcel",
+            "date",
+            "document"
+          ],
+          [
+            "Lead call (N. Alvarez)",
+            "KW-01/KW-02",
+            "2022-03-16",
+            "Email RE: Parcel scouting - Klamath County"
+          ],
+          [
+            "Site walk with owner (T. Reyes)",
+            "KW-01/KW-02",
+            "2022-03-22",
+            "Field notes - site walk 3/22/22"
+          ],
+          [
+            "Option draft v1",
+            "KW-01",
+            "2022-03-29",
+            "KW-01 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Option draft v1",
+            "KW-02",
+            "2022-05-06",
+            "KW-02 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Application packet",
+            "KW-02",
+            "",
+            ""
+          ]
+        ]
+      },
+      "changes": "N. Alvarez's copy: lead, walk, KW-01 v1, KW-02 v1 5/6; packet line left blank."
+    },
+    {
+      "version": "2022-07-13",
+      "date": "2022-07-13",
+      "status": "working",
+      "format": "csv",
+      "filename": "clearwater_dates.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "event",
+            "parcel",
+            "date",
+            "document"
+          ],
+          [
+            "Lead call (N. Alvarez)",
+            "KW-01/KW-02",
+            "2022-03-16",
+            "Email RE: Parcel scouting - Klamath County"
+          ],
+          [
+            "Site walk with owner (T. Reyes)",
+            "KW-01/KW-02",
+            "2022-03-22",
+            "Field notes - site walk 3/22/22"
+          ],
+          [
+            "County filings requested (via H. Cole)",
+            "KW-01/KW-02",
+            "2022-03-23",
+            "Email to H. Cole"
+          ],
+          [
+            "Option draft v1",
+            "KW-01",
+            "2022-03-29",
+            "KW-01 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Option draft v1",
+            "KW-02",
+            "2022-05-06",
+            "KW-02 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Option draft v2 (county legal description + Assessor acreage)",
+            "KW-01",
+            "2022-07-05",
+            "KW-01 Option Agreement (Clearwater) v2.docx"
+          ],
+          [
+            "Application packet",
+            "KW-01/KW-02",
+            "",
+            "N. Alvarez keeping packet dates"
+          ],
+          [
+            "Option signed",
+            "KW-01/KW-02",
+            "",
+            ""
+          ]
+        ]
+      },
+      "changes": "T. Reyes refresh: adds KW-02 v1 5/6 and KW-01 v2 7/5; packet dates pending from Nina; nothing signed."
+    },
+    {
+      "version": "2023-01-07",
+      "date": "2023-01-07",
+      "status": "working",
+      "format": "csv",
+      "filename": "clearwater_dates.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "event",
+            "parcel",
+            "date",
+            "document"
+          ],
+          [
+            "Lead call (N. Alvarez)",
+            "KW-01/KW-02",
+            "2022-03-16",
+            "Email RE: Parcel scouting - Klamath County"
+          ],
+          [
+            "Site walk with owner (T. Reyes)",
+            "KW-01/KW-02",
+            "2022-03-22",
+            "Field notes - site walk 3/22/22"
+          ],
+          [
+            "County filings requested (via H. Cole)",
+            "KW-01/KW-02",
+            "2022-03-23",
+            "Email to H. Cole"
+          ],
+          [
+            "Option draft v1",
+            "KW-01",
+            "2022-03-29",
+            "KW-01 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Option draft v1",
+            "KW-02",
+            "2022-05-06",
+            "KW-02 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Application packet assembled (on v1 draft; not filed)",
+            "KW-02",
+            "2022-06-21",
+            "KW-02 application packet (draft)"
+          ],
+          [
+            "Option draft v2 (county legal description + Assessor acreage)",
+            "KW-01",
+            "2022-07-05",
+            "KW-01 Option Agreement (Clearwater) v2.docx"
+          ],
+          [
+            "Option draft v2 (owner counsel comments)",
+            "KW-02",
+            "2022-09-09",
+            "KW-02 Option Agreement (Clearwater) v2 - owner counsel comments.docx"
+          ],
+          [
+            "Option draft v3 (owner counsel comments)",
+            "KW-01",
+            "2022-09-14",
+            "KW-01 Option Agreement (Clearwater) v3 - owner counsel comments.docx"
+          ],
+          [
+            "Option executed (owner 2022-09-19; Alder 2022-09-20)",
+            "KW-02",
+            "2022-09-20",
+            "KW-02_Option_executed_scan.pdf"
+          ],
+          [
+            "Application packet assembled (executed option in place of draft)",
+            "KW-02",
+            "2022-09-29",
+            "KW-02 application packet"
+          ],
+          [
+            "Option draft v4 (closing window 90 days)",
+            "KW-01",
+            "2022-12-19",
+            "KW-01 Option Agreement (Clearwater) v4.docx"
+          ],
+          [
+            "Option signed",
+            "KW-01",
+            "",
+            ""
+          ],
+          [
+            "Application packet",
+            "KW-01",
+            "",
+            ""
+          ]
+        ]
+      },
+      "changes": "Merged log (N. Alvarez): all drafts through KW-01 v4 12/19/22; KW-02 executed 9/20/22; KW-02 packet assembly 6/21/22 (draft) and 9/29/22 (executed option)."
+    },
+    {
+      "version": "2023-01-25",
+      "date": "2023-01-25",
+      "status": "working",
+      "format": "csv",
+      "filename": "clearwater_dates.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "event",
+            "parcel",
+            "date",
+            "document"
+          ],
+          [
+            "Lead call (N. Alvarez)",
+            "KW-01/KW-02",
+            "2022-03-16",
+            "Email RE: Parcel scouting - Klamath County"
+          ],
+          [
+            "Site walk with owner (T. Reyes)",
+            "KW-01/KW-02",
+            "2022-03-22",
+            "Field notes - site walk 3/22/22"
+          ],
+          [
+            "County filings requested (via H. Cole)",
+            "KW-01/KW-02",
+            "2022-03-23",
+            "Email to H. Cole"
+          ],
+          [
+            "Option draft v1",
+            "KW-01",
+            "2022-03-29",
+            "KW-01 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Option draft v1",
+            "KW-02",
+            "2022-05-06",
+            "KW-02 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Application packet assembled (on v1 draft; not filed)",
+            "KW-02",
+            "2022-06-21",
+            "KW-02 application packet (draft)"
+          ],
+          [
+            "Option draft v2 (county legal description + Assessor acreage)",
+            "KW-01",
+            "2022-07-05",
+            "KW-01 Option Agreement (Clearwater) v2.docx"
+          ],
+          [
+            "Option draft v2 (owner counsel comments)",
+            "KW-02",
+            "2022-09-09",
+            "KW-02 Option Agreement (Clearwater) v2 - owner counsel comments.docx"
+          ],
+          [
+            "Option draft v3 (owner counsel comments)",
+            "KW-01",
+            "2022-09-14",
+            "KW-01 Option Agreement (Clearwater) v3 - owner counsel comments.docx"
+          ],
+          [
+            "Option executed (owner 2022-09-19; Alder 2022-09-20)",
+            "KW-02",
+            "2022-09-20",
+            "KW-02_Option_executed_scan.pdf"
+          ],
+          [
+            "Application packet assembled (executed option in place of draft)",
+            "KW-02",
+            "2022-09-29",
+            "KW-02 application packet"
+          ],
+          [
+            "Option draft v4 (closing window 90 days)",
+            "KW-01",
+            "2022-12-19",
+            "KW-01 Option Agreement (Clearwater) v4.docx"
+          ],
+          [
+            "Option executed (owner 2023-01-06; Alder 2023-01-10)",
+            "KW-01",
+            "2023-01-10",
+            "KW-01_Option_executed_scan.pdf"
+          ],
+          [
+            "Application packet",
+            "KW-01",
+            "",
+            ""
+          ]
+        ]
+      },
+      "changes": "Adds KW-01 executed 1/10/23 (owner 1/6/23)."
+    },
+    {
+      "version": "2023-03-20",
+      "date": "2023-03-20",
+      "status": "working",
+      "format": "csv",
+      "filename": "clearwater_dates.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "event",
+            "parcel",
+            "date",
+            "document"
+          ],
+          [
+            "Lead call (N. Alvarez)",
+            "KW-01/KW-02",
+            "2022-03-16",
+            "Email RE: Parcel scouting - Klamath County"
+          ],
+          [
+            "Site walk with owner (T. Reyes)",
+            "KW-01/KW-02",
+            "2022-03-22",
+            "Field notes - site walk 3/22/22"
+          ],
+          [
+            "County filings requested (via H. Cole)",
+            "KW-01/KW-02",
+            "2022-03-23",
+            "Email to H. Cole"
+          ],
+          [
+            "Option draft v1",
+            "KW-01",
+            "2022-03-29",
+            "KW-01 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Option draft v1",
+            "KW-02",
+            "2022-05-06",
+            "KW-02 Option Agreement (Clearwater) v1.docx"
+          ],
+          [
+            "Application packet assembled (on v1 draft; not filed)",
+            "KW-02",
+            "2022-06-21",
+            "KW-02 application packet (draft)"
+          ],
+          [
+            "Option draft v2 (county legal description + Assessor acreage)",
+            "KW-01",
+            "2022-07-05",
+            "KW-01 Option Agreement (Clearwater) v2.docx"
+          ],
+          [
+            "Option draft v2 (owner counsel comments)",
+            "KW-02",
+            "2022-09-09",
+            "KW-02 Option Agreement (Clearwater) v2 - owner counsel comments.docx"
+          ],
+          [
+            "Option draft v3 (owner counsel comments)",
+            "KW-01",
+            "2022-09-14",
+            "KW-01 Option Agreement (Clearwater) v3 - owner counsel comments.docx"
+          ],
+          [
+            "Option executed (owner 2022-09-19; Alder 2022-09-20)",
+            "KW-02",
+            "2022-09-20",
+            "KW-02_Option_executed_scan.pdf"
+          ],
+          [
+            "Application packet assembled (executed option in place of draft)",
+            "KW-02",
+            "2022-09-29",
+            "KW-02 application packet"
+          ],
+          [
+            "Option draft v4 (closing window 90 days)",
+            "KW-01",
+            "2022-12-19",
+            "KW-01 Option Agreement (Clearwater) v4.docx"
+          ],
+          [
+            "Option executed (owner 2023-01-06; Alder 2023-01-10)",
+            "KW-01",
+            "2023-01-10",
+            "KW-01_Option_executed_scan.pdf"
+          ],
+          [
+            "Application packet assembled",
+            "KW-01",
+            "2023-02-28",
+            "KW-01 application packet"
+          ]
+        ]
+      },
+      "changes": "Adds KW-01 packet assembly 2/28/23. Last version; the copy in the Alder files."
+    }
+  ]
+}
