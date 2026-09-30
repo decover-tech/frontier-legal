@@ -25,9 +25,20 @@ Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="clearwater_dates.csv"
 MIME-Version: 1.0
 
-event,date
-lead_call,2022-03-16
-option_draft,see file
-packet,see file
+event,parcel,date,document
+Lead call (N. Alvarez),KW-01/KW-02,2022-03-16,Email RE: Parcel scouting - Klamath County
+Site walk with owner (T. Reyes),KW-01/KW-02,2022-03-22,Field notes - site walk 3/22/22
+County filings requested (via H. Cole),KW-01/KW-02,2022-03-23,Email to H. Cole
+Option draft v1,KW-01,2022-03-29,KW-01 Option Agreement (Clearwater) v1.docx
+Option draft v1,KW-02,2022-05-06,KW-02 Option Agreement (Clearwater) v1.docx
+Application packet assembled (on v1 draft; not filed),KW-02,2022-06-21,KW-02 application packet (draft)
+Option draft v2 (county legal description + Assessor acreage),KW-01,2022-07-05,KW-01 Option Agreement (Clearwater) v2.docx
+Option draft v2 (owner counsel comments),KW-02,2022-09-09,KW-02 Option Agreement (Clearwater) v2 - owner counsel comments.docx
+Option draft v3 (owner counsel comments),KW-01,2022-09-14,KW-01 Option Agreement (Clearwater) v3 - owner counsel comments.docx
+Option executed (owner 2022-09-19; Alder 2022-09-20),KW-02,2022-09-20,KW-02_Option_executed_scan.pdf
+Application packet assembled (executed option in place of draft),KW-02,2022-09-29,KW-02 application packet
+Option draft v4 (closing window 90 days),KW-01,2022-12-19,KW-01 Option Agreement (Clearwater) v4.docx
+Option signed,KW-01,,
+Application packet,KW-01,,
 
 --===============2803493857262405811==--

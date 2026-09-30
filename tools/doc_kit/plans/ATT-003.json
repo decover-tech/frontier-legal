@@ -1,0 +1,166 @@
+{
+  "plan_id": "ATT-003",
+  "edit_method": "splice",
+  "bible_refs": [
+    "§0 Clearwater (176/198/140/141)",
+    "§2 Clearwater pair KW-01/KW-02 (per-parcel records)",
+    "§1 packet contents (154)",
+    "§6 Q4 Clearwater intent (join-only)",
+    "§7 unknowns (bank/escrow/GL; rate card; Klamath docs)",
+    "Arc J timeline guard",
+    "EMAIL-402 nothing signed as of 7/13/22",
+    "EMAIL-407/394 execution dates",
+    "EMAIL-422 KW-02 installments on schedule",
+    "EMAIL-400/411/426 Whitaker uses Alder packet copies",
+    "ATT-001 KW01-OPTION/KW02-OPTION (authoritative executed scans)",
+    "CONTRADICTIONS_RESOLVED.md Edit method"
+  ],
+  "rationale": "Replaces the one-line KW stubs (8 ledgers, 7 applications, 8 dates logs) with the documents the carrier bodies describe. Uses byte-preserving splice: only the attachment part changes, and headers, bodies, boundaries and inline logos are untouched. Money: the Option Fee is $12,000 per parcel, paid as three $4,000 Option Payments per the executed Schedule 1. There is no lump sum. CSV amounts are unformatted (4000.00 / 12000.00), and no new dollar figures are introduced. KW-02 (Eff. 9/20/22): P1 due 9/27/22, Chk 10417 dated 9/23/22, cleared 9/27/22. The application was signed by G. Pruitt (landowner consent) 10/7/22 and by P. Shah (applicant) 10/11/22, which is the date of application. P2 is due 3/19/23 (Chk 10602 recorded 3/15/23); P3 is due 6/17/23 (Chk 10688 recorded 6/14/23). KW-01 (Eff. 1/10/23): P1 due 1/17/23 (Chk 10511 dated 1/17/23, cleared 1/19/23). The application was signed by G. Pruitt 3/2/23 and P. Shah 3/7/23 (date of application). P2 is due 7/9/23 and was deferred under Sec. 3.3 by notice dated 7/6/23 to 1/10/24 (library-only export, no corpus carrier). P3 is due 10/7/23. 140/141 join: exactly two option payments post-date an application as of Whitaker's work, KW-02 P2 (3/15/23) and P3 (6/14/23) against the KW-02 application of 10/11/22. KW-01 P1 precedes its application and P2 was deferred. The join needs the KW-02 ledger (443; 444 for schedule) plus the KW-02 packet (441/442/396), or the dates log (packet assembly 9/29/22) plus the ledger. No attachment shows both payment dates and application dates. The ledgers carry no application references, the packets carry no payment status (Tab 5 shows only the Schedule 1 terms), and the dates log carries no payments. 443's two unmatched lines are the same P2/P3, recorded in the Alder ledger but with no matching bank-feed line in the production set. Tom's 6/1/23 'bank-feed lines' (422) versus Brooks's production set is left unresolved (bank records are unknown, §7). Applications become PDF packets because the bodies describe multi-part packets: Tab 1 form + certification + landowner consent; Tab 2 parcel description; Tab 3 Klamath County record extract; Tab 4 Tom's 3/22/22 field notes (from EMAIL-1409); Tab 5 the option as then current (v1 draft for 412, executed scan otherwise). The filename stem is kept (.txt -> .pdf), and the load-file ATTACHMENTS rows are updated. Acreage claimed = Assessor acreage of record (111.87 / 148.62), consistent with ATT-001. There is no survey (none referenced by the bodies), no easement-of-record row, and no credit amount (rate card unknown, §7). Dates log: the lead date 3/16/22 is the seed lead itself (EMAIL-176) and is guard-exempt. Every option, packet and application date is after 3/16/22.",
+  "attach": [
+    {
+      "email": "EMAIL-445",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2022-04-02",
+      "note": "Log opened: lead 3/16, walk 3/22, filings requested 3/23, KW-01 v1 3/29; option/packet lines blank, per the body."
+    },
+    {
+      "email": "EMAIL-391",
+      "replace": "KW-02_ledger.csv",
+      "doc": "KW02-LEDGER@2022-04-28-proposed",
+      "note": "Proposed $12,000 in three $4,000 lines; nothing paid; date column 'per bank feed' (body). KW-02 v1 draft follows 5/6."
+    },
+    {
+      "email": "EMAIL-433",
+      "replace": "KW-01_ledger.csv",
+      "doc": "KW01-LEDGER@2022-05-20-draft-terms",
+      "note": "KW-01 ledger tab on v1 draft terms; option unsigned; 'per bank feed'."
+    },
+    {
+      "email": "EMAIL-425",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2022-06-17-NA",
+      "note": "Nina's copy: exactly the four dates her body lists (3/16, 3/22, 3/29, 5/6); packet line blank."
+    },
+    {
+      "email": "EMAIL-412",
+      "replace": "KW-02_application.txt",
+      "doc": "KW02-APP@draft-2022-06-21",
+      "note": "Draft packet on the v1 option draft (Tab 5), county filings and field notes; unsigned, not filed. Body asks for review of the parcel description pages (Tab 2).",
+      "filename": "KW-02_application.pdf"
+    },
+    {
+      "email": "EMAIL-434",
+      "replace": "KW-02_ledger.csv",
+      "doc": "KW02-LEDGER@2022-07-11-draft-terms",
+      "note": "DEFECT (body): 'amounts and dates per the bank feed' before any option was signed (402: nothing signed as of 7/13/22). Attachment is the honest pre-signing tab: no bank-feed activity; lines 2-3 flagged for date confirmation = 'two lines need date confirmation'."
+    },
+    {
+      "email": "EMAIL-402",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2022-07-13",
+      "note": "Tom's refresh: adds KW-02 v1 5/6 and KW-01 v2 7/5; packet dates pending from Nina; no signing rows filled (body: nothing signed)."
+    },
+    {
+      "email": "EMAIL-429",
+      "replace": "KW-01_ledger.csv",
+      "doc": "KW01-LEDGER@2022-08-17",
+      "note": "Same pre-signing defect as 434 (KW-01 unsigned until 1/10/23). Two flagged lines."
+    },
+    {
+      "email": "EMAIL-401",
+      "replace": "KW-02_ledger.csv",
+      "doc": "KW02-LEDGER@2022-07-11-draft-terms",
+      "note": "Same pre-signing defect as 434; KW-02 tab unchanged since 7/11/22, so the same version is carried."
+    },
+    {
+      "email": "EMAIL-449",
+      "replace": "KW-02_application.txt",
+      "doc": "KW02-APP@for-signature-2022-09-29",
+      "note": "Packet with the executed option (9/20) at Tab 5 in place of the draft, plus county filing and field notes; unsigned, awaiting Priya's sign-off (body).",
+      "filename": "KW-02_application.pdf"
+    },
+    {
+      "email": "EMAIL-444",
+      "replace": "KW-02_ledger.csv",
+      "doc": "KW02-LEDGER@2022-12-20",
+      "note": "Executed-schedule lines: line 1 tied to bank feed 9/27/22; lines 2-3 (due 3/19/23, 6/17/23) not tied to a bank-feed date, flagged = body's two flagged lines."
+    },
+    {
+      "email": "EMAIL-421",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2023-01-07",
+      "note": "Lead call, option draft dates and packet assembly dates through 12/19/22; KW-01 signing row blank (owner signed 1/6 but Nina learns of it on 1/13, EMAIL-394)."
+    },
+    {
+      "email": "EMAIL-394",
+      "replace": "KW-01_ledger.csv",
+      "doc": "KW01-LEDGER@2023-01-13",
+      "note": "Three $4,000 lines on the executed option (Eff. 1/10/23): due 1/17, 7/9, 10/7/23; bank-feed dates to fill as they post (body)."
+    },
+    {
+      "email": "EMAIL-435",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2023-01-25",
+      "note": "Adds KW-01 executed 1/10/23."
+    },
+    {
+      "email": "EMAIL-430",
+      "replace": "KW-01_application.txt",
+      "doc": "KW01-APP@submission-set-2023-03-07",
+      "note": "Nina's saved copy of the KW-01 packet: executed option (1/10), county filing, field notes; signed submission set (application 3/7/23), no Program receipt stamp. Sent to self (pre-existing).",
+      "filename": "KW-01_application.pdf"
+    },
+    {
+      "email": "EMAIL-403",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2023-03-20",
+      "note": "Adds KW-01 packet assembly 2/28/23. DEFECT (pre-existing): Nina (Alder) sends the log directly to L&L partner Grace Lin."
+    },
+    {
+      "email": "EMAIL-448",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2023-03-20",
+      "note": "Unchanged since 3/20."
+    },
+    {
+      "email": "EMAIL-424",
+      "replace": "clearwater_dates.csv",
+      "doc": "CW-DATESLOG@2023-03-20",
+      "note": "'As it appears in the Alder files': last Alder version; no source column, which is why Grace asks where the option and packet dates are kept."
+    },
+    {
+      "email": "EMAIL-441",
+      "replace": "KW-02_application.txt",
+      "doc": "KW02-APP@submission-set-2022-10-11",
+      "note": "Southwest-folder copy = 'same set Priya's team submitted': signed submission set, application dated 10/11/22.",
+      "filename": "KW-02_application.pdf"
+    },
+    {
+      "email": "EMAIL-431",
+      "replace": "KW-01_application.txt",
+      "doc": "KW01-APP@submission-set-2023-03-07",
+      "note": "Tom's copy from Nina's handoff folder, unedited (body). Sent to self (pre-existing).",
+      "filename": "KW-01_application.pdf"
+    },
+    {
+      "email": "EMAIL-442",
+      "replace": "KW-02_application.txt",
+      "doc": "KW02-APP@submission-set-2022-10-11",
+      "note": "Assembled Southwest-folder copy to Whitaker (not as-filed): same submission set as 441.",
+      "filename": "KW-02_application.pdf"
+    },
+    {
+      "email": "EMAIL-443",
+      "replace": "KW-02_ledger.csv",
+      "doc": "KW02-LEDGER@2023-10-07-LL-compiled",
+      "note": "Brooks's compilation from the Alder production set: amounts as recorded; lines 2-3 (3/15/23, 6/14/23) have no matching bank-feed date = 'two lines ... flagged rather than guess'."
+    },
+    {
+      "email": "EMAIL-396",
+      "replace": "KW-02_application.txt",
+      "doc": "KW02-APP@submission-set-2022-10-11",
+      "note": "'Same copy counsel's team received earlier this month' (= 442).",
+      "filename": "KW-02_application.pdf"
+    }
+  ]
+}

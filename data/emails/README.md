@@ -5,6 +5,13 @@
 email analytics, agentic search, and chronology-builder features. Do not use
 real client data with this file.
 
+> **Current state (2026-09-29).** These are the v3 build notes for the 250-document seed and are kept
+> for history. The collection now holds **1,454** messages (EMAIL-001–EMAIL-1474; IDs 1413–1420,
+> 1435–1440 and 1455–1460 are unused numbers, not missing documents), dated **November 2, 2021 –
+> December 22, 2023**. The load files index all 1,454. The `X-Decover-*` headers described below were
+> stripped from every file; seed labels live in `benchmark/hidden_gold/seed_header_labels.csv`. See the
+> top-level `README.md` for the current layout.
+
 **250 documents total** — the original 30 "hot" documents from the source
 workbook (`EMAIL-001`–`EMAIL-030`, content unchanged), 80 documents added in
 pass 2 (`EMAIL-031`–`EMAIL-110`), and 140 documents added in this pass
@@ -139,8 +146,10 @@ narrative:
   parcel data, and an independent land surveyor (GreenAcre) confirming the
   acreage discrepancy on 4 of 8 parcels.
 - Bellhaven's *internal* knowledge of its own OR/WA registration gap
-  (`EMAIL-041`/`042`, Renee Ford → Derek Holt) — predates and contradicts the
-  soft-pedaled version Derek gives the client in the original `EMAIL-009`.
+  (`EMAIL-041`/`042`, Renee Ford → Derek Holt) — predates `EMAIL-009` and shows
+  Derek choosing to leave out the backlog detail. It is consistent with 009 on
+  the facts (pending renewal, weeks out, hold marketing); the real conflict is
+  that marketing continued anyway (`EMAIL-010`/`011`/`044`).
 - The internal review build-out: paralegal/associate-level document
   collection, interim findings memos, board updates, budget/TAR workflow
   discussion — all privileged, all from L&L Associates (Grace Lin, Mia Chen,
@@ -224,14 +233,16 @@ invites).
 - **`EMAIL-014`** (placeholder SSN) and **`EMAIL-022`/`048`** (placeholder
   MRN, same file appearing twice) are the PII/redaction demo documents.
 - **`EMAIL-041`/`042`** (Bellhaven's internal awareness of its own
-  registration gap) directly contradicts the softened explanation Derek Holt
-  gives the client in `EMAIL-009` — a good "what did they really know"
-  document pair.
+  registration gap) is a selective-omission pair, not a contradiction of
+  `EMAIL-009`: all three say renewal is pending, weeks out, and marketing should
+  hold. 042 shows Derek deciding not to pass on the backlog detail. The
+  operative contradiction is conduct: Alder kept marketing (`EMAIL-010`/`011`,
+  confirmed in `EMAIL-044`).
 - **"Mountain Ridge Reforestation Credit"** (`EMAIL-095`–`100`, plus new
   `EMAIL-232`–`237`) is a decoy program for testing search precision — it
   should never surface on a Coastal Solar query.
-- 43 of 250 documents are tagged **privileged**; all carry an
-  `X-Decover-Privileged: Yes` header and an in-body privilege banner. Two
+- 43 of 250 documents are tagged **privileged**; all carried an
+  `X-Decover-Privileged: Yes` header (since stripped) and an in-body privilege banner. Two
   privilege flavors now exist as tags: `Privileged Legal Advice` (36) and
   `Privileged Work Product` (7, new this pass).
 - 82 of 250 documents are tagged **`Not Responsive`** noise, giving the

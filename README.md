@@ -17,7 +17,7 @@ joins across several documents. All companies, people and events are fictional.
 |---|---|
 | Documents rendered | 1,454 RFC 5322 `.eml` (250 seed, 1,150 generated in batches, 54 in 4 long threads from `thread_kit`) |
 | Documents planned | 1,454 (`DOCUMENT_MANIFEST.csv`; thread rows have `status=thread-expansion`) |
-| Time span | Nov 2021 – Sep 2023 |
+| Time span | Nov 2021 – Dec 2023 |
 | Custodians | 26 mailboxes |
 | Organizations | Cascade Timber (client), Alder Point Partners (administrator), Bellhaven Advisory (broker), L&L Associates (outside counsel), GreenAcre (surveyor), Moss & Lane (auditors), IRS, consultants, buyers |
 | Labels | Seed documents only: 1 review tag each, plus privileged and PII flags |
@@ -62,21 +62,20 @@ joins across several documents. All companies, people and events are fictional.
 ```text
 data/emails/                          # corpus (tracked; new files need `git add -f`, see .gitignore)
   Custodians/<Name>/EMAIL-NNN_<subject>.eml
-  Loadfile_Cascade_Timber.{csv,dat}   # load file: seed 250 only (DOCID, dates, parties, TAG, PRIVILEGED, CONTAINS_PII, …)
+  Loadfile_Cascade_Timber.{csv,dat}   # load file: all 1,454 (DOCID, dates, parties, TAG, PRIVILEGED, CONTAINS_PII, …)
   README.md                           # corpus build notes (v3 realism pass)
-Definitions/                          # labeling protocols: Responsiveness, ACP, Work Product, Subpoena
-Logs/                                 # demo privilege log (see Known issues)
-cascade_agent_benchmark/              # tasks, hidden gold, splits, schema, rubric
-CASE_BIBLE.md                         # ground-truth world model (AUTHORING ONLY)
-EVIDENCE_ARCS.md                      # arcs A–J, planned joins and open questions (AUTHORING ONLY)
-DOCUMENT_MANIFEST.csv                 # 1,400-row plan with arc, event and evidentiary role (AUTHORING ONLY)
-EVENT_LEDGER_BATCH0N.md               # events per batch (AUTHORING ONLY)
-FINANCIAL_LEDGER_BATCH0N.md           # amounts per batch (AUTHORING ONLY)
-CONTINUITY_BATCH0N.md                 # per-batch QA reports
-MATTER_AGENT_TASKS.md                 # taxonomy of 18 investigation tasks
-Cascade_Timber_EML_Dataset_Plan.md    # spec for threading, signatures and doctrine chains
-suggestions.md                        # training-value assessment and top fixes
+data/emails/Exhibits/                 # 38 standalone exhibit PDFs + ../Exhibit_Manifest.csv (not attached to emails)
+definitions/                          # labeling protocols: Responsiveness, ACP, Work Product, Subpoena (summons)
+logs/                                 # batch ledgers, continuity reports, thread logs, demo privilege log (untracked)
+benchmark/                            # tasks, hidden gold, splits, schema, rubric, GOLD_LABELS.csv
+documentation/                        # AUTHORING ONLY:
+  CASE_BIBLE.md  EVIDENCE_ARCS.md     #   ground-truth world model; arcs A–J, planned joins and open questions
+  DOCUMENT_MANIFEST.csv               #   1,454-row plan with arc, event and evidentiary role
+  CONTRADICTIONS_RESOLVED.md          #   decisions and edits for the four known contradictions
+  MATTER_AGENT_TASKS.md  suggestions.md  Cascade_Timber_EML_Dataset_Plan.md
+output/dataset_inconsistency_report.md  # document-consistency review + resolution log
 data/contracts/                       # standalone contract collection (every version) + INDEX.csv → carrying emails
+tools/exhibit_kit/                    # rebuilds the standalone exhibits from one spec
 tools/doc_kit/                        # attachment builder: versioned library docs → PDF/DOCX/XLSX, scans, apply to emails, publish
   library/  plans/                    # document content + version history; email→version attach plans (ATT-00N)
 tools/thread_kit/                     # thread expander: context, validate, render, rollback, scan, logos
@@ -89,22 +88,22 @@ tools/thread_kit/                     # thread expander: context, validate, rend
 | Source | Coverage | Form |
 |---|---|---|
 | `benchmark/hidden_gold/seed_header_labels.csv` and the load file's `TAG`/`PRIVILEGED` columns | Seed EMAIL-001–250 | One mixed tag per document, such as `Not Responsive`, `Routine`, `Privileged Legal Advice`, `Knowledge/Scienter` or `Red Flag`. This isn't multi-label, and privileged documents carry no responsiveness label. |
-| `DOCUMENT_MANIFEST.csv` | All 1,400 rows | `arc`, `event_id` and `intended_evidentiary_role`. These are authoring intent, not reviewed gold. |
-| `cascade_agent_benchmark/hidden_gold/` | 28 tasks, all answerable from seed documents | Required, counter, distractor and context evidence IDs; gold facts and inferences; `must_include`, `must_not_claim` and `must_qualify` lists; unknowns. The schema is in `schemas/task.schema.json`. |
+| `documentation/DOCUMENT_MANIFEST.csv` | All 1,454 rows | `arc`, `event_id` and `intended_evidentiary_role`. These are authoring intent, not reviewed gold. |
+| `benchmark/hidden_gold/` | 28 tasks, all answerable from seed documents | Required, counter, distractor and context evidence IDs; gold facts and inferences; `must_include`, `must_not_claim` and `must_qualify` lists; unknowns. The schema is in `schemas/task.schema.json`. |
 | `CASE_BIBLE.md` / `EVIDENCE_ARCS.md` | The whole matter | Prose ground truth with `[ESTABLISHED]`, `[PROPOSED]`, `[DISPUTED]` and `[INFERENCE]` tags. This is the fastest source for writing new (task, evidence, target) examples. |
 
 The emails carry no label headers: the `X-Decover-*` headers were stripped from all 1,454 files. DocIDs
 live in the filenames (`EMAIL-NNN_<subject>.eml`) and the load file. Document-level labels for the whole
-corpus are in `GOLD_LABELS.csv` (machine-drafted, expert review pending).
+corpus are in `benchmark/GOLD_LABELS.csv` (machine-drafted, expert review pending).
 
 ## Splits and leakage
 
 - **Don't split at random.** Documents in a thread or evidence chain answer each other.
-  `cascade_agent_benchmark/splits/evidence_packages_sample.csv` defines packages by family
+  `benchmark/splits/evidence_packages_sample.csv` defines packages by family
   that must stay together, currently 17 of them.
 - Task splits are `train`, `test_id` (a skill seen in training, on an unseen family) and
   `test_ood` (held-out flagship compositions). The mapping is in the
-  [benchmark README](cascade_agent_benchmark/README.md).
+  [benchmark README](benchmark/README.md).
 - **All of it is one matter.** A held-out split measures generalization within this matter,
   not transfer to a new one. Building a second, independent matter for evaluation is still
   open.
@@ -116,17 +115,24 @@ corpus are in `GOLD_LABELS.csv` (machine-drafted, expert review pending).
 
 ## Known issues
 
-These come from `suggestions.md`. They're kept as they are in the seed, and the benchmark tasks
+These come from `suggestions.md` and from `output/dataset_inconsistency_report.md`. The benchmark tasks
 don't depend on them.
 
-- **The legal framing is wrong.** The subpoena cites 26 U.S.C. § 7602, but that section
-  authorizes an IRS *summons*, not a subpoena duces tecum. Don't train on it as a real-law
-  fact.
-- **Some facts contradict each other.**
-  - The IRS contact, Kevin Tran, has two sets of details: an irs.gov address and (202) number
-    in 12 emails, but irs-example.gov and (503) in the subpoena.
-  - Cascade's address appears as two different locations.
-  - The deadline chain doesn't add up (EMAIL-027, 056, 057 and 158).
+- **Resolved (2026-09-28):** the § 7602 summons/subpoena framing, the two Kevin Tran identities,
+  the two Cascade addresses and the deadline chain. See `documentation/CONTRADICTIONS_RESOLVED.md`.
+- **Resolved (2026-09-29):** the standalone exhibits in `data/emails/Exhibits/` now agree with the
+  executed contracts and seed emails (Clearwater option dates and installments, buyer lot amounts,
+  OR/WA filing-receipt dates, status footers, placeholder numbers). Rebuilt by
+  `tools/exhibit_kit/build_exhibits.py`; the resolution log is at the end of the inconsistency report.
+- **Still open, by design or header-locked:**
+  - The seed parcel CSV and GreenAcre survey (EMAIL-037/039) use NW-1042…NW-1093 and different
+    acreage pairs from the NW-01…NW-08 table in `CASE_BIBLE.md` §2. No crosswalk exists; don't
+    merge them by position.
+  - "Batch N" and "buyer lot N" in generated email subjects are templated labels that don't track
+    the exhibits or the executed agreements. Join buyer records on buyer, date and amount, not on
+    batch or lot number.
+  - EMAIL-793 (9/8/22) has a subject that cites the 9/15 notice; four generated "extension chain"
+    notes predate the summons. Both are Subject-header anachronisms, kept because headers are locked.
 - **The privilege log is out of step with the corpus.** Most of its 1,009 rows name people who
   don't appear in the corpus.
 - **Workbook search queries and chronology are stale.** They cover only EMAIL-001–030.
@@ -141,13 +147,13 @@ don't depend on them.
 
 1. Parse the `.eml` files with any MIME library. Use `DATESENT`, or the `Date:` header, for
    chronology. The DocID order follows collection order, not time.
-2. Withhold the load file's `TAG`/`PRIVILEGED` columns and `GOLD_LABELS.csv` from model inputs. The
+2. Withhold the load file's `TAG`/`PRIVILEGED` columns and `benchmark/GOLD_LABELS.csv` from model inputs. The
    `.eml` files are already clean: there are no `X-Decover-*` headers.
 3. Build examples by evidence package, not by document, and hold out whole packages.
 4. For any label beyond the seed tags, generate targets from `CASE_BIBLE.md` and the
    benchmark gold, and have an expert review them. Treat `[PROPOSED]` facts as unknowns
    until the documents that support them exist.
-5. Score with `cascade_agent_benchmark/eval/scoring_rubric.md`. It covers evidence recall,
+5. Score with `benchmark/eval/scoring_rubric.md`. It covers evidence recall,
    join correctness, counter-evidence, restraint on uncertain points, citation accuracy and
    stopping efficiency.
 

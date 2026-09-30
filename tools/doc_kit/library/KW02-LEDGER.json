@@ -1,0 +1,306 @@
+{
+  "doc_id": "KW02-LEDGER",
+  "title": "KW-02 option payment ledger (Clearwater)",
+  "type": "ledger",
+  "org": "",
+  "parcels": [
+    "KW-02"
+  ],
+  "arc": "J",
+  "doc_control": "Alder Land Acquisition ledger tab - KW-02",
+  "figures_ok": [],
+  "vars": {},
+  "content": {
+    "table": [
+      [
+        "Parcel",
+        "Line",
+        "Payee",
+        "Description",
+        "Amount",
+        "Due",
+        "Ledger date",
+        "Ref",
+        "Bank-feed date",
+        "Status"
+      ],
+      [
+        "KW-02",
+        "1",
+        "Clearwater Land LLC",
+        "Option Payment 1 of 3 (proposed)",
+        "4000.00",
+        "On signing (terms not final)",
+        "",
+        "",
+        "per bank feed",
+        "Proposed - nothing paid"
+      ],
+      [
+        "KW-02",
+        "2",
+        "Clearwater Land LLC",
+        "Option Payment 2 of 3 (proposed)",
+        "4000.00",
+        "TBD",
+        "",
+        "",
+        "per bank feed",
+        "Proposed - nothing paid"
+      ],
+      [
+        "KW-02",
+        "3",
+        "Clearwater Land LLC",
+        "Option Payment 3 of 3 (proposed)",
+        "4000.00",
+        "TBD",
+        "",
+        "",
+        "per bank feed",
+        "Proposed - nothing paid"
+      ],
+      [
+        "KW-02",
+        "",
+        "",
+        "Option Fee total",
+        "12000.00",
+        "",
+        "",
+        "",
+        "",
+        "Proposed; option not yet drafted"
+      ]
+    ]
+  },
+  "versions": [
+    {
+      "version": "2022-04-28-proposed",
+      "date": "2022-04-28",
+      "status": "working",
+      "format": "csv",
+      "filename": "KW-02_ledger.csv",
+      "changes": "Ledger tab opened for KW-02 before any draft: proposed $12,000 option fee in three $4,000 installments (same as KW-01); date column 'per bank feed'; nothing paid."
+    },
+    {
+      "version": "2022-07-11-draft-terms",
+      "date": "2022-07-11",
+      "status": "working",
+      "format": "csv",
+      "filename": "KW-02_ledger.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "Parcel",
+            "Line",
+            "Payee",
+            "Description",
+            "Amount",
+            "Due",
+            "Ledger date",
+            "Ref",
+            "Bank-feed date",
+            "Status"
+          ],
+          [
+            "KW-02",
+            "1",
+            "Clearwater Land LLC",
+            "Initial Option Payment",
+            "4000.00",
+            "10 business days after Effective Date (v1 draft 5/6/22)",
+            "",
+            "",
+            "",
+            "No bank-feed activity - option not signed"
+          ],
+          [
+            "KW-02",
+            "2",
+            "Clearwater Land LLC",
+            "Second Option Payment",
+            "4000.00",
+            "Day 180 after Effective Date",
+            "",
+            "",
+            "",
+            "FLAG - confirm due date (depends on Effective Date; deferrable under draft Sec. 3.3)"
+          ],
+          [
+            "KW-02",
+            "3",
+            "Clearwater Land LLC",
+            "Third Option Payment",
+            "4000.00",
+            "Day 270 after Effective Date",
+            "",
+            "",
+            "",
+            "FLAG - confirm due date (depends on Effective Date; deferrable under draft Sec. 3.3)"
+          ],
+          [
+            "KW-02",
+            "",
+            "",
+            "Option Fee total",
+            "12000.00",
+            "",
+            "",
+            "",
+            "",
+            "Per v1 draft; option not signed"
+          ]
+        ]
+      },
+      "changes": "Due terms taken from the KW-02 v1 draft (5/6/22). No bank-feed activity (option unsigned). Lines 2-3 flagged: due dates cannot be fixed until an Effective Date exists."
+    },
+    {
+      "version": "2022-12-20",
+      "date": "2022-12-20",
+      "status": "working",
+      "format": "csv",
+      "filename": "KW-02_ledger.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "Parcel",
+            "Line",
+            "Payee",
+            "Description",
+            "Amount",
+            "Due",
+            "Ledger date",
+            "Ref",
+            "Bank-feed date",
+            "Status"
+          ],
+          [
+            "KW-02",
+            "1",
+            "Clearwater Land LLC",
+            "Initial Option Payment",
+            "4000.00",
+            "2022-09-27",
+            "2022-09-23",
+            "Chk 10417",
+            "2022-09-27",
+            "Cleared"
+          ],
+          [
+            "KW-02",
+            "2",
+            "Clearwater Land LLC",
+            "Second Option Payment",
+            "4000.00",
+            "2023-03-19",
+            "",
+            "",
+            "",
+            "FLAG - no bank-feed date; confirm"
+          ],
+          [
+            "KW-02",
+            "3",
+            "Clearwater Land LLC",
+            "Third Option Payment",
+            "4000.00",
+            "2023-06-17",
+            "",
+            "",
+            "",
+            "FLAG - no bank-feed date; confirm"
+          ],
+          [
+            "KW-02",
+            "",
+            "",
+            "Option Fee total",
+            "12000.00",
+            "",
+            "",
+            "",
+            "",
+            "Per executed option (Effective Date 2022-09-20), Schedule 1"
+          ]
+        ]
+      },
+      "changes": "Rebuilt on the executed option (Effective 9/20/22). Line 1 tied to bank feed (Chk 10417 dated 9/23/22, cleared 9/27/22). Lines 2-3 (due 3/19/23 and 6/17/23) have no bank-feed date and are flagged."
+    },
+    {
+      "version": "2023-10-07-LL-compiled",
+      "date": "2023-10-07",
+      "status": "compiled",
+      "format": "csv",
+      "filename": "KW-02_ledger.csv",
+      "content_overrides": {
+        "table": [
+          [
+            "PRIVILEGED & CONFIDENTIAL - ATTORNEY WORK PRODUCT - compiled at the direction of counsel from the Alder production set; sources per team-drive index"
+          ],
+          [
+            "Line",
+            "Parcel",
+            "Payee",
+            "Description",
+            "Amount (as recorded)",
+            "Due per option Sch. 1",
+            "Ledger date (as recorded)",
+            "Ref (as recorded)",
+            "Bank-feed date (Alder production set)",
+            "Flag"
+          ],
+          [
+            "1",
+            "KW-02",
+            "Clearwater Land LLC",
+            "Initial Option Payment",
+            "4000.00",
+            "2022-09-27",
+            "2022-09-23",
+            "Chk 10417",
+            "2022-09-27",
+            ""
+          ],
+          [
+            "2",
+            "KW-02",
+            "Clearwater Land LLC",
+            "Second Option Payment",
+            "4000.00",
+            "2023-03-19",
+            "2023-03-15",
+            "Chk 10602",
+            "",
+            "No matching bank-feed date - flagged, not inferred"
+          ],
+          [
+            "3",
+            "KW-02",
+            "Clearwater Land LLC",
+            "Third Option Payment",
+            "4000.00",
+            "2023-06-17",
+            "2023-06-14",
+            "Chk 10688",
+            "",
+            "No matching bank-feed date - flagged, not inferred"
+          ],
+          [
+            "",
+            "KW-02",
+            "",
+            "Total as recorded",
+            "12000.00",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "changes": "L&L paralegal (A. Brooks) compilation of the KW-02 ledger lines from the Alder production set, amounts/dates/refs as recorded. Lines 2 and 3 (recorded 3/15/23 and 6/14/23) have no matching bank-feed date in the production set and are flagged, not inferred."
+    }
+  ]
+}
