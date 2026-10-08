@@ -1,0 +1,13 @@
+{
+  "task_id": "CTH-DATE-001",
+  "family": "sent_date_extraction",
+  "version": "1.0.0",
+  "split": "smoke",
+  "document_id": "EMAIL-003",
+  "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-003_Land parcel eligibility _ need a second look.eml",
+  "source_sha256": "c3c2c32ff72a06ff8c8b37cfdfef7d0b342a48e5fb3edba37fae4160d5b8a558",
+  "dataset_commit": "5830ccccf08e4cadcacf1b0bf40c7c15186cb810",
+  "instruction": "Read the email and return its sent date as YYYY-MM-DD, using the timezone in its Date header. Use the top-level Date header, not dates in the body or quoted messages. Return exactly one JSON object with only the key sent_date and a string value. Do not include Markdown fences or explanation.",
+  "output_schema": "benchmark/rlvr/schemas/sent_date.schema.json",
+  "verifier": "sent-date/1.0.0"
+}

@@ -145,6 +145,11 @@ don't depend on them.
 
 ## Using it
 
+For the single-turn, multi-model RLVR date-extraction pilot, see
+[`benchmark/rlvr/README.md`](benchmark/rlvr/README.md). It includes an offline
+self-test, OpenAI/Anthropic/Gemini adapters, deterministic scoring, and saved
+JSON run records.
+
 1. Parse the `.eml` files with any MIME library. Use `DATESENT`, or the `Date:` header, for
    chronology. The DocID order follows collection order, not time.
 2. Withhold the load file's `TAG`/`PRIVILEGED` columns and `benchmark/GOLD_LABELS.csv` from model inputs. The
