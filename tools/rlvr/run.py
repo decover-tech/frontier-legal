@@ -22,7 +22,7 @@ def positive(value):
 def model_spec(value):
     provider, separator, model = value.partition(":")
     if not separator or provider not in KEYS or not model.strip():
-        raise argparse.ArgumentTypeError("Use openai:MODEL, anthropic:MODEL, or gemini:MODEL")
+        raise argparse.ArgumentTypeError("Use openai:MODEL, anthropic:MODEL, gemini:MODEL, or openrouter:AUTHOR/MODEL")
     return provider, model
 
 
@@ -48,7 +48,7 @@ def summarize(records):
             "mean_latency_seconds": statistics.mean(r["latency_seconds"] for r in scored) if scored else None,
             "input_tokens": sum(r["tokens"]["input"] for r in scored) if scored and all(r["tokens"]["input"] is not None for r in scored) else None,
             "output_tokens": sum(r["tokens"]["output"] for r in scored) if scored and all(r["tokens"]["output"] is not None for r in scored) else None,
-            "cost_usd": None,
+            "cost_usd": sum(r["cost_usd"] for r in scored) if scored and all(r.get("cost_usd") is not None for r in scored) else None,
         })
     return result
 
@@ -56,6 +56,14 @@ def summarize(records):
 def self_test(env):
     observation = env.reset()
     # Evaluator-only deterministic baseline, explicitly not a model score.
+    if hasattr(env, "golden_solution"):
+        checks = {}
+        for name, answer in {"correct": env.golden_solution(), "empty": '{"answers":{}}', "malformed": "not JSON"}.items():
+            env.reset()
+            checks[name] = env.step(answer)
+        assert checks["correct"]["reward"] == 1
+        assert checks["empty"]["reward"] == checks["malformed"]["reward"] == 0
+        return {"kind": "verifier_self_test_not_model_evaluation", "task_id": observation["task_id"], "checks": checks}
     expected = env._expected
     cases = {
         "correct": json.dumps({"sent_date": expected}),
@@ -80,12 +88,17 @@ def main(argv=None):
     parser.add_argument("--output-dir", type=Path, default=ROOT / "output/rlvr")
     parser.add_argument("--self-test", action="store_true", help="Offline control test; no API calls")
     parser.add_argument("--dry-run", action="store_true", help="Validate task and save observation; no API calls")
+    parser.add_argument("--openrouter-key-file", type=Path, help="Explicit credential file; contents never logged")
     args = parser.parse_args(argv)
     if args.self_test and args.dry_run:
         parser.error("Choose --self-test or --dry-run")
     if not args.model and not (args.self_test or args.dry_run):
         parser.error("Supply --model or use --self-test / --dry-run")
-    env = DateEnvironment(args.task)
+    from .audit import AuditEnvironment
+    from .inventory import InventoryEnvironment
+    task_kind = json.loads(args.task.read_text())["verifier"]
+    classes = {"sent-date/1.0.0": DateEnvironment, "evidence-audit/1.0.1": AuditEnvironment, "collection-reconciliation/1.0.0": InventoryEnvironment}
+    env = classes[task_kind](args.task)
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "-" + uuid.uuid4().hex[:8]
     destination = args.output_dir.resolve() / run_id
     destination.mkdir(parents=True, exist_ok=False)
@@ -121,7 +134,7 @@ def main(argv=None):
                               "status": "error", "evaluation": None, "cost_usd": None}
                     start = time.monotonic()
                     try:
-                        record.update(generate(provider, model, public["messages"], args.max_output_tokens, args.timeout))
+                        record.update(generate(provider, model, public["messages"], args.max_output_tokens, args.timeout, **({"openrouter_key_file": args.openrouter_key_file} if args.openrouter_key_file else {})))
                         record["evaluation"] = env.step(record["completion"])
                         record["status"] = "scored"
                     except ProviderError as error:
@@ -135,8 +148,8 @@ def main(argv=None):
         summary = {"kind": "model_evaluation", "run_id": run_id, "task_id": env.task["task_id"],
                    "results": summarize(records),
                    "notes": ["Errors excluded from reward denominators and counted separately.",
-                             "Costs unavailable; null is not zero.",
-                             "One-email smoke test, not a frontier capability ranking."]}
+                             "Costs are provider-reported when available; null is not zero.",
+                             "Single development task; repeated trials are not independent tasks or a capability ranking."]}
         (destination / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
         if any(r["status"] == "error" for r in records):
             print("Results:", destination)

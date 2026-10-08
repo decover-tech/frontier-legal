@@ -1,0 +1,394 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "answers"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "answers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Q01": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q02": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q03": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q04": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q05": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q06": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q07": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q08": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q09": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q10": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q11": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q12": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q13": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q14": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q15": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q16": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q17": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        },
+        "Q18": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {},
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^EMAIL-[0-9]+$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

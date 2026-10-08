@@ -145,9 +145,10 @@ don't depend on them.
 
 ## Using it
 
-For the single-turn, multi-model RLVR date-extraction pilot, see
+For the single-turn, multi-model RLVR tasks (date extraction, evidence audit, and
+collection reconciliation), see
 [`benchmark/rlvr/README.md`](benchmark/rlvr/README.md). It includes an offline
-self-test, OpenAI/Anthropic/Gemini adapters, deterministic scoring, and saved
+self-test, OpenAI/Anthropic/Gemini/OpenRouter adapters, deterministic scoring, and saved
 JSON run records.
 
 1. Parse the `.eml` files with any MIME library. Use `DATESENT`, or the `Date:` header, for

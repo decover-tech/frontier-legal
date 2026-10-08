@@ -1,0 +1,394 @@
+{
+  "task_id": "CTH-AUDIT-001",
+  "verifier": "evidence-audit/1.0.1",
+  "review_status": "source-checked by task author; independent human review pending",
+  "items": [
+    {
+      "id": "Q01",
+      "prompt": "Earliest dated Northwest acreage warning in this packet: return {\"date\":\"YYYY-MM-DD\",\"sender_email\":\"...\",\"employer\":\"...\"}. Use the sender identity, not the mailbox collector or a later recollection.",
+      "value": {
+        "date": "2022-02-14",
+        "sender_email": "nalvarez@alderpointpartners.com",
+        "employer": "Alder Point Partners"
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-037"
+        ]
+      ],
+      "source_anchors": [
+        "A few of the Washington parcels look like the acreage might be off"
+      ],
+      "category": "entity_and_time"
+    },
+    {
+      "id": "Q02",
+      "prompt": "How many elapsed calendar days separate the earliest Northwest acreage warning and GreenAcre reporting its independent findings? Return an integer. Subtract dates, do not count both endpoints.",
+      "value": 29,
+      "evidence_groups": [
+        [
+          "EMAIL-037"
+        ],
+        [
+          "EMAIL-039"
+        ]
+      ],
+      "source_anchors": [
+        "A few of the Washington parcels look like the acreage might be off",
+        "Four of the eight parcels show reported acreage"
+      ],
+      "category": "temporal_join"
+    },
+    {
+      "id": "Q03",
+      "prompt": "How many elapsed calendar days separate Ellery recommending a pause in October and Denniston agreeing to keep going? Return an integer.",
+      "value": 2,
+      "evidence_groups": [
+        [
+          "EMAIL-012",
+          "EMAIL-013",
+          "EMAIL-014"
+        ],
+        [
+          "EMAIL-014"
+        ]
+      ],
+      "source_anchors": [
+        "Recommend pausing new placements until both are cleared",
+        "Agreed, we keep going"
+      ],
+      "category": "temporal_join"
+    },
+    {
+      "id": "Q04",
+      "prompt": "For the board resolution draft exchange, return {\"scheduled_meeting_date\":\"YYYY-MM-DD\",\"date_basis\":\"explicit|inferred\",\"adopted_resolution_proven\":boolean}. The last field asks for evidence of adoption of that formal resolution, not simply an operational pause.",
+      "value": {
+        "scheduled_meeting_date": "2023-06-30",
+        "date_basis": "inferred",
+        "adopted_resolution_proven": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-171",
+          "EMAIL-172"
+        ]
+      ],
+      "source_anchors": [
+        "draft resolution for tomorrow's special meeting"
+      ],
+      "category": "uncertainty",
+      "context_evidence": [
+        "EMAIL-068"
+      ]
+    },
+    {
+      "id": "Q05",
+      "prompt": "Elapsed calendar days from the message reporting receipt of the IRS instrument to issuance of the formal legal hold notice? Return an integer. Do not substitute preparations or acknowledgment for issuance.",
+      "value": 21,
+      "evidence_groups": [
+        [
+          "EMAIL-023"
+        ],
+        [
+          "EMAIL-024"
+        ]
+      ],
+      "source_anchors": [
+        "we received a subpoena from the IRS this morning",
+        "This is a legal hold notice."
+      ],
+      "category": "temporal_join"
+    },
+    {
+      "id": "Q06",
+      "prompt": "Reconcile the operative production deadline, schedule-request deadline, actual second-production receipt date, and receipt-acknowledgment message date. Return {\"production_deadline\":\"YYYY-MM-DD\",\"schedule_due\":\"YYYY-MM-DD\",\"received\":\"YYYY-MM-DD\",\"acknowledged\":\"YYYY-MM-DD\",\"receipt_minus_deadline_days\":integer}. Report chronology only, not a legal conclusion about timeliness.",
+      "value": {
+        "production_deadline": "2023-08-31",
+        "schedule_due": "2023-07-14",
+        "received": "2023-09-01",
+        "acknowledged": "2023-09-06",
+        "receipt_minus_deadline_days": 1
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-158",
+          "EMAIL-159"
+        ],
+        [
+          "EMAIL-162"
+        ]
+      ],
+      "source_anchors": [
+        "production deadline is now August 31, 2023",
+        "confirming receipt of the second production on September 1"
+      ],
+      "category": "temporal_join"
+    },
+    {
+      "id": "Q07",
+      "prompt": "For the OR/WA registration statements, return {\"holt_finalized_message\":\"YYYY-MM-DD\",\"shah_unconfirmed_message\":\"YYYY-MM-DD\",\"days_between\":integer,\"actual_issuance_date_established\":boolean}. Distinguish a participant assertion from an issuance record; no attachments are supplied.",
+      "value": {
+        "holt_finalized_message": "2022-12-20",
+        "shah_unconfirmed_message": "2023-01-10",
+        "days_between": 21,
+        "actual_issuance_date_established": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-045"
+        ],
+        [
+          "EMAIL-018"
+        ]
+      ],
+      "source_anchors": [
+        "renewal finalized this week",
+        "Haven't confirmed. I'll ask Derek again"
+      ],
+      "category": "conflicting_evidence"
+    },
+    {
+      "id": "Q08",
+      "prompt": "Extract both distinct preliminary exposure measures: {\"acreage_overstatement_acres\":integer,\"incremental_credit_value_usd\":integer,\"full_disallowance_credit_exposure_usd\":integer,\"sum_is_supported_total\":boolean}. Do not combine potentially overlapping measures.",
+      "value": {
+        "acreage_overstatement_acres": 181,
+        "incremental_credit_value_usd": 512000,
+        "full_disallowance_credit_exposure_usd": 2400000,
+        "sum_is_supported_total": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-140"
+        ],
+        [
+          "EMAIL-136"
+        ]
+      ],
+      "source_anchors": [
+        "total overstatement across those four is roughly 181 acres",
+        "credit repayment exposure runs roughly $2.4M plus penalties"
+      ],
+      "category": "financial_distinctions"
+    },
+    {
+      "id": "Q09",
+      "prompt": "For Nguyen\u2019s August interview, return {\"interview_date\":\"YYYY-MM-DD\",\"memo_date\":\"YYYY-MM-DD\",\"followup_date\":\"YYYY-MM-DD\"}. Separate the underlying event from the notes and the later response.",
+      "value": {
+        "interview_date": "2023-08-01",
+        "memo_date": "2023-08-02",
+        "followup_date": "2023-08-03"
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-134",
+          "EMAIL-135"
+        ],
+        [
+          "EMAIL-135"
+        ]
+      ],
+      "source_anchors": [
+        "notes from yesterday's interview of Sarah Nguyen",
+        "Fold her timeline into the master chronology"
+      ],
+      "category": "temporal_join"
+    },
+    {
+      "id": "Q10",
+      "prompt": "For complainant-counsel scheduling, return {\"counsel_call_date\":\"YYYY-MM-DD\",\"selected_interview_date\":\"YYYY-MM-DD\",\"interview_completion_proven\":boolean}. A direction to confirm a date is not evidence the interview occurred.",
+      "value": {
+        "counsel_call_date": "2023-03-01",
+        "selected_interview_date": "2023-03-10",
+        "interview_completion_proven": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-163",
+          "EMAIL-164"
+        ],
+        [
+          "EMAIL-164"
+        ]
+      ],
+      "source_anchors": [
+        "the complainant's counsel called yesterday",
+        "Confirm March 10"
+      ],
+      "category": "uncertainty"
+    },
+    {
+      "id": "Q11",
+      "prompt": "For Nina\u2019s mailbox, return {\"planned_departure\":\"YYYY-MM-DD\",\"preserve_export_instruction\":\"YYYY-MM-DD\",\"completed_export_proven\":boolean}. Distinguish reported departure timing and counsel\u2019s instruction from actual completion.",
+      "value": {
+        "planned_departure": "2023-06-30",
+        "preserve_export_instruction": "2023-06-15",
+        "completed_export_proven": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-061",
+          "EMAIL-062"
+        ],
+        [
+          "EMAIL-062"
+        ]
+      ],
+      "source_anchors": [
+        "Nina Alvarez (Alder Point) is departing June 30",
+        "preserve and export her mailbox before deprovisioning"
+      ],
+      "category": "uncertainty"
+    },
+    {
+      "id": "Q12",
+      "prompt": "Latest direct IRS examination status in this packet: return {\"status\":\"open|closed|unknown\",\"status_message_date\":\"YYYY-MM-DD\"}. Do not substitute an unrelated completed investigation.",
+      "value": {
+        "status": "open",
+        "status_message_date": "2023-09-06"
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-162"
+        ]
+      ],
+      "source_anchors": [
+        "The examination remains open"
+      ],
+      "category": "distractor_rejection"
+    },
+    {
+      "id": "Q13",
+      "prompt": "What program does the April all-clear acreage re-check actually concern, and does it establish Coastal Solar eligibility? Return {\"program\":\"...\",\"establishes_coastal_solar_eligibility\":boolean}.",
+      "value": {
+        "program": "Mountain Ridge",
+        "establishes_coastal_solar_eligibility": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-100"
+        ]
+      ],
+      "source_anchors": [
+        "annual eligibility re-check on Mountain Ridge parcels"
+      ],
+      "category": "distractor_rejection"
+    },
+    {
+      "id": "Q14",
+      "prompt": "Compare consultant retention paths as facts, without making a privilege ruling. Return {\"whitaker_retained_by\":\"...\",\"whitaker_purpose\":\"legal_advice|routine_tax\",\"larsen_requested_by_email\":\"...\",\"larsen_purpose\":\"legal_advice|routine_tax\"}. Use organization name L&L Associates for counsel.",
+      "value": {
+        "whitaker_retained_by": "L&L Associates",
+        "whitaker_purpose": "legal_advice",
+        "larsen_requested_by_email": "csato@cascadetimber.com",
+        "larsen_purpose": "routine_tax"
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-137",
+          "EMAIL-138",
+          "EMAIL-139",
+          "EMAIL-140"
+        ],
+        [
+          "EMAIL-142",
+          "EMAIL-143",
+          "EMAIL-144",
+          "EMAIL-145"
+        ]
+      ],
+      "source_anchors": [
+        "would be retained by and report to this firm",
+        "I'd like to retain Larsen for the usual provision support"
+      ],
+      "category": "role_join"
+    },
+    {
+      "id": "Q15",
+      "prompt": "For the change in investor messaging from routine review to removing routine, return {\"routine_instruction_date\":\"YYYY-MM-DD\",\"remove_routine_date\":\"YYYY-MM-DD\",\"elapsed_days\":integer}. Use management instructions, not the dates of the incoming draft questions.",
+      "value": {
+        "routine_instruction_date": "2023-06-29",
+        "remove_routine_date": "2023-07-12",
+        "elapsed_days": 13
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-067"
+        ],
+        [
+          "EMAIL-200"
+        ]
+      ],
+      "source_anchors": [
+        "program is under routine review",
+        "Drop 'routine'"
+      ],
+      "category": "temporal_join"
+    },
+    {
+      "id": "Q16",
+      "prompt": "Do the July Lane/Klamath exchange and the Mountain Ridge explanation establish which program the county-flagged filings actually belong to? Return {\"county_flagged_program\":\"coastal_solar|mountain_ridge|unresolved\",\"crosswalk_needed\":boolean}. A participant\u2019s instruction about what to tell a broker is not independent parcel mapping.",
+      "value": {
+        "county_flagged_program": "unresolved",
+        "crosswalk_needed": true
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-115"
+        ],
+        [
+          "EMAIL-117"
+        ]
+      ],
+      "source_anchors": [
+        "The solar ones \u2014 the 2022 submissions",
+        "Those were Mountain Ridge parcels"
+      ],
+      "category": "conflicting_evidence",
+      "context_evidence": [
+        "EMAIL-100",
+        "EMAIL-116"
+      ]
+    },
+    {
+      "id": "Q17",
+      "prompt": "Who should retain restart authority according to Ellery\u2019s draft-resolution advice, and is actual delegation proven? Return {\"recommended_authority\":\"board|ceo|counsel|joint_ceo_counsel\",\"actual_delegation_proven\":boolean}.",
+      "value": {
+        "recommended_authority": "board",
+        "actual_delegation_proven": false
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-172"
+        ]
+      ],
+      "source_anchors": [
+        "keep restart authority with the board"
+      ],
+      "category": "uncertainty",
+      "context_evidence": [
+        "EMAIL-171"
+      ]
+    },
+    {
+      "id": "Q18",
+      "prompt": "As of the July Bellhaven preservation question, does this packet establish Bellhaven completed its own preservation? Return {\"completion_proven\":boolean,\"question_date\":\"YYYY-MM-DD\"}. Cascade IT action is not automatically Bellhaven IT action.",
+      "value": {
+        "completion_proven": false,
+        "question_date": "2023-07-06"
+      },
+      "evidence_groups": [
+        [
+          "EMAIL-070"
+        ]
+      ],
+      "source_anchors": [
+        "preserve our own files, or just wait"
+      ],
+      "category": "entity_and_time",
+      "context_evidence": [
+        "EMAIL-060"
+      ]
+    }
+  ],
+  "revision_note": "1.0.1: accept relevant corroborating context without letting it replace required evidence anchors. Reviewed after first calibration run; original 1.0.0 scores must not be used to rank models."
+}

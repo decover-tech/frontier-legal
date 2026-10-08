@@ -157,3 +157,16 @@ gpt-6-astra, and gpt-6-sol earned 1.0; Anthropic/Gemini adapters were tested wit
 fixtures only because their credentials were unavailable. No frontier ranking
 or RL training claim follows from this one-email smoke test. See
 `benchmark/rlvr/README.md` for commands and result conventions.
+
+### Difficulty calibration follow-up — 2026-10-08
+
+There are now **four executable development task instances**: the original
+CTH-DATE-001 smoke test, CTH-AUDIT-001 (18 evidence questions over 75 emails),
+CTH-INVENTORY-001 (12 collection reconciliation questions over the same
+pinned packet), and CTH-INVENTORY-002 (the same 12 queries over 300 emails).
+Questions are scored components, not independent held-out tasks.
+The planned 19 skill families remain the broader roadmap, not 19 implemented
+environments. Inventory answers are computed from original email headers and
+scored deterministically with count accuracy, set F1 and ordered-list accuracy.
+This provides a harder e-discovery calibration without fabricated documents
+or subjective legal judgments. See benchmark/rlvr/README.md for execution.

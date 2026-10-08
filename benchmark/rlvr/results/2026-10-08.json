@@ -1,0 +1,2836 @@
+{
+  "kind": "development_calibration_not_held_out_ranking",
+  "date": "2026-10-08",
+  "notes": [
+    "All packets overlap; trials are not independent tasks.",
+    "Provider defaults for reasoning/sampling; no claim of equivalent compute.",
+    "Audit 1.0.0 citation differences were evaluator errors; corrected evaluation is 1.0.1.",
+    "The 8,000-token 300-document run was interrupted after an incomplete response; one in-flight Astra request has no captured result.",
+    "OpenRouter calls failed with HTTP 402; no cross-provider quality scores obtained."
+  ],
+  "runs": [
+    {
+      "run_id": "20261008T232821Z-56774d4d",
+      "task_id": "CTH-AUDIT-001",
+      "task_sha256": "7bea2fae8df694bfa9bf5ca2b999937017baca57f1278db0b8e4c0e8303b49e1",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "6ab24085d0f57440bfc4d6f10d255364c546e663b115705160a93450d386446b",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "1e9c8b48220e613b6309027e7dbfc4021175d53d5c7b69dde32e90ad2c95d978"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openrouter",
+            "openai/gpt-6.1-sol"
+          ],
+          [
+            "openrouter",
+            "anthropic/claude-opus-5.5"
+          ],
+          [
+            "openrouter",
+            "google/gemini-3.1-pro-preview"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 6000,
+        "timeout": 120,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "352240a1e8a3d00cebda8bda829c44006d92c799402936ae742e9d1cfeb1eec4",
+      "finished": true
+    },
+    {
+      "run_id": "20261008T232828Z-4143539e",
+      "task_id": "CTH-AUDIT-001",
+      "task_sha256": "7bea2fae8df694bfa9bf5ca2b999937017baca57f1278db0b8e4c0e8303b49e1",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "6ab24085d0f57440bfc4d6f10d255364c546e663b115705160a93450d386446b",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "1e9c8b48220e613b6309027e7dbfc4021175d53d5c7b69dde32e90ad2c95d978"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openai",
+            "gpt-6.1-sol"
+          ],
+          [
+            "openai",
+            "gpt-6-astra"
+          ],
+          [
+            "openai",
+            "gpt-6-sol"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 6000,
+        "timeout": 120,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "75b59e92ba1e202412da7cd68d2516caa77b00c30f9c322c51e2920028e9867e",
+      "finished": true
+    },
+    {
+      "run_id": "20261008T233049Z-79021ced",
+      "task_id": "CTH-INVENTORY-001",
+      "task_sha256": "40975d702950cbecf2bc48108ed0fd4f682254fbdeb84384f7a89b44e829c86a",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "6ab24085d0f57440bfc4d6f10d255364c546e663b115705160a93450d386446b",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "inventory.py": "31975335ca325a14180398d0cd1297215f336c95cb91e326af22b394ae7475d0",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "917bf1b20b8e9d5a881a7238831685d460decd5923bfacce31a05de689798930"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openai",
+            "gpt-6.1-sol"
+          ],
+          [
+            "openai",
+            "gpt-6-astra"
+          ],
+          [
+            "openai",
+            "gpt-6-sol"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 6000,
+        "timeout": 120,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "38de205484e3a36a77a6762cf12d665180237e39d0b1de48baca378702517b29",
+      "finished": true
+    },
+    {
+      "run_id": "20261008T233229Z-af164866",
+      "task_id": "CTH-INVENTORY-002",
+      "task_sha256": "212adf58eea0693cd2841e622dc4d8f6b144965c36ae4a9951b1d6878fcdcd8b",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "inventory.py": "79fed37798d3141fc8bad26aeee0ea625613b1ab02c69ec0d97e036462ded76d",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "c5359316e926ab768e80508af6d197e82e5355f16bd39757c69fdf470c4bfe8a"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openai",
+            "gpt-6.1-sol"
+          ],
+          [
+            "openai",
+            "gpt-6-astra"
+          ],
+          [
+            "openai",
+            "gpt-6-sol"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 8000,
+        "timeout": 180,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "93a13730db91b17b3f0141a9aada861240cd2549eda6d59773b1f5a5efcefa0a",
+      "finished": false
+    },
+    {
+      "run_id": "20261008T233605Z-59218dd6",
+      "task_id": "CTH-INVENTORY-002",
+      "task_sha256": "212adf58eea0693cd2841e622dc4d8f6b144965c36ae4a9951b1d6878fcdcd8b",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "inventory.py": "79fed37798d3141fc8bad26aeee0ea625613b1ab02c69ec0d97e036462ded76d",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "c5359316e926ab768e80508af6d197e82e5355f16bd39757c69fdf470c4bfe8a"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openai",
+            "gpt-6-sol"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 24000,
+        "timeout": 600,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "6009987726ef655cb92e41ef2749ba370a09a203faff0817621a626183b4a7ff",
+      "finished": true
+    },
+    {
+      "run_id": "20261008T233605Z-8fa3cc91",
+      "task_id": "CTH-INVENTORY-002",
+      "task_sha256": "212adf58eea0693cd2841e622dc4d8f6b144965c36ae4a9951b1d6878fcdcd8b",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "inventory.py": "79fed37798d3141fc8bad26aeee0ea625613b1ab02c69ec0d97e036462ded76d",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "c5359316e926ab768e80508af6d197e82e5355f16bd39757c69fdf470c4bfe8a"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openai",
+            "gpt-6-astra"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 24000,
+        "timeout": 600,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "5ae965b429e6a68c57bd442e5c93f41691ac290926bbeb2a32a1a36a0b0baca5",
+      "finished": true
+    },
+    {
+      "run_id": "20261008T233605Z-bc27d0f8",
+      "task_id": "CTH-INVENTORY-002",
+      "task_sha256": "212adf58eea0693cd2841e622dc4d8f6b144965c36ae4a9951b1d6878fcdcd8b",
+      "harness_hashes": {
+        "__init__.py": "9692628638922d3a03bcbd528b6c7c8d004bfa4b0d7032c308ff2acbb562a605",
+        "audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3",
+        "environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+        "inventory.py": "79fed37798d3141fc8bad26aeee0ea625613b1ab02c69ec0d97e036462ded76d",
+        "providers.py": "bc84036113e1afd909cfbc3e8baec304262982f300041392fc5729b9ee0176f9",
+        "run.py": "c5359316e926ab768e80508af6d197e82e5355f16bd39757c69fdf470c4bfe8a"
+      },
+      "configuration": {
+        "models": [
+          [
+            "openai",
+            "gpt-6.1-sol"
+          ]
+        ],
+        "repetitions": 2,
+        "max_output_tokens": 24000,
+        "timeout": 600,
+        "reasoning_settings": "provider defaults; not equivalent across models",
+        "sampling_settings": "provider defaults; no seed guarantee"
+      },
+      "records_sha256": "bbbe2bfbb7527ce70415f88159303a18b3d8b953d7eb18c3de1b1ee31bce95ca",
+      "finished": true
+    }
+  ],
+  "records": [
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 1,
+      "provider": "openrouter",
+      "requested_model": "openai/gpt-6.1-sol",
+      "status": "error",
+      "evaluation": null,
+      "cost_usd": null,
+      "error_code": "HTTP_402",
+      "latency_seconds": 0.1667,
+      "run_id": "20261008T232821Z-56774d4d",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 1,
+      "provider": "openrouter",
+      "requested_model": "anthropic/claude-opus-5.5",
+      "status": "error",
+      "evaluation": null,
+      "cost_usd": null,
+      "error_code": "HTTP_402",
+      "latency_seconds": 0.0822,
+      "run_id": "20261008T232821Z-56774d4d",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 1,
+      "provider": "openrouter",
+      "requested_model": "google/gemini-3.1-pro-preview",
+      "status": "error",
+      "evaluation": null,
+      "cost_usd": null,
+      "error_code": "HTTP_402",
+      "latency_seconds": 0.0729,
+      "run_id": "20261008T232821Z-56774d4d",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 2,
+      "provider": "openrouter",
+      "requested_model": "openai/gpt-6.1-sol",
+      "status": "error",
+      "evaluation": null,
+      "cost_usd": null,
+      "error_code": "HTTP_402",
+      "latency_seconds": 0.0964,
+      "run_id": "20261008T232821Z-56774d4d",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 2,
+      "provider": "openrouter",
+      "requested_model": "anthropic/claude-opus-5.5",
+      "status": "error",
+      "evaluation": null,
+      "cost_usd": null,
+      "error_code": "HTTP_402",
+      "latency_seconds": 0.0762,
+      "run_id": "20261008T232821Z-56774d4d",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 2,
+      "provider": "openrouter",
+      "requested_model": "google/gemini-3.1-pro-preview",
+      "status": "error",
+      "evaluation": null,
+      "cost_usd": null,
+      "error_code": "HTTP_402",
+      "latency_seconds": 0.0807,
+      "run_id": "20261008T232821Z-56774d4d",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9861111111111112,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_INCORRECT_AUDIT"
+        ],
+        "verifier_version": "evidence-audit/1.0.0",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666,
+            "reward": 0.8999999999999999,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\n  \"answers\": {\n    \"Q01\": {\n      \"value\": {\n        \"date\": \"2022-02-14\",\n        \"sender_email\": \"nalvarez@alderpointpartners.com\",\n        \"employer\": \"Alder Point Partners\"\n      },\n      \"evidence\": [\"EMAIL-037\"]\n    },\n    \"Q02\": {\n      \"value\": 29,\n      \"evidence\": [\"EMAIL-037\", \"EMAIL-039\"]\n    },\n    \"Q03\": {\n      \"value\": 2,\n      \"evidence\": [\"EMAIL-014\"]\n    },\n    \"Q04\": {\n      \"value\": {\n        \"scheduled_meeting_date\": \"2023-06-30\",\n        \"date_basis\": \"inferred\",\n        \"adopted_resolution_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\", \"EMAIL-068\"]\n    },\n    \"Q05\": {\n      \"value\": 21,\n      \"evidence\": [\"EMAIL-023\", \"EMAIL-024\"]\n    },\n    \"Q06\": {\n      \"value\": {\n        \"production_deadline\": \"2023-08-31\",\n        \"schedule_due\": \"2023-07-14\",\n        \"received\": \"2023-09-01\",\n        \"acknowledged\": \"2023-09-06\",\n        \"receipt_minus_deadline_days\": 1\n      },\n      \"evidence\": [\"EMAIL-158\", \"EMAIL-162\"]\n    },\n    \"Q07\": {\n      \"value\": {\n        \"holt_finalized_message\": \"2022-12-20\",\n        \"shah_unconfirmed_message\": \"2023-01-10\",\n        \"days_between\": 21,\n        \"actual_issuance_date_established\": false\n      },\n      \"evidence\": [\"EMAIL-045\", \"EMAIL-018\"]\n    },\n    \"Q08\": {\n      \"value\": {\n        \"acreage_overstatement_acres\": 181,\n        \"incremental_credit_value_usd\": 512000,\n        \"full_disallowance_credit_exposure_usd\": 2400000,\n        \"sum_is_supported_total\": false\n      },\n      \"evidence\": [\"EMAIL-140\", \"EMAIL-136\"]\n    },\n    \"Q09\": {\n      \"value\": {\n        \"interview_date\": \"2023-08-01\",\n        \"memo_date\": \"2023-08-02\",\n        \"followup_date\": \"2023-08-03\"\n      },\n      \"evidence\": [\"EMAIL-135\"]\n    },\n    \"Q10\": {\n      \"value\": {\n        \"counsel_call_date\": \"2023-03-01\",\n        \"selected_interview_date\": \"2023-03-10\",\n        \"interview_completion_proven\": false\n      },\n      \"evidence\": [\"EMAIL-164\"]\n    },\n    \"Q11\": {\n      \"value\": {\n        \"planned_departure\": \"2023-06-30\",\n        \"preserve_export_instruction\": \"2023-06-15\",\n        \"completed_export_proven\": false\n      },\n      \"evidence\": [\"EMAIL-062\"]\n    },\n    \"Q12\": {\n      \"value\": {\n        \"status\": \"open\",\n        \"status_message_date\": \"2023-09-06\"\n      },\n      \"evidence\": [\"EMAIL-162\"]\n    },\n    \"Q13\": {\n      \"value\": {\n        \"program\": \"Mountain Ridge\",\n        \"establishes_coastal_solar_eligibility\": false\n      },\n      \"evidence\": [\"EMAIL-100\"]\n    },\n    \"Q14\": {\n      \"value\": {\n        \"whitaker_retained_by\": \"L&L Associates\",\n        \"whitaker_purpose\": \"legal_advice\",\n        \"larsen_requested_by_email\": \"csato@cascadetimber.com\",\n        \"larsen_purpose\": \"routine_tax\"\n      },\n      \"evidence\": [\"EMAIL-139\", \"EMAIL-142\"]\n    },\n    \"Q15\": {\n      \"value\": {\n        \"routine_instruction_date\": \"2023-06-29\",\n        \"remove_routine_date\": \"2023-07-12\",\n        \"elapsed_days\": 13\n      },\n      \"evidence\": [\"EMAIL-067\", \"EMAIL-200\"]\n    },\n    \"Q16\": {\n      \"value\": {\n        \"county_flagged_program\": \"unresolved\",\n        \"crosswalk_needed\": true\n      },\n      \"evidence\": [\"EMAIL-115\", \"EMAIL-117\", \"EMAIL-100\"]\n    },\n    \"Q17\": {\n      \"value\": {\n        \"recommended_authority\": \"board\",\n        \"actual_delegation_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\"]\n    },\n    \"Q18\": {\n      \"value\": {\n        \"completion_proven\": false,\n        \"question_date\": \"2023-07-06\"\n      },\n      \"evidence\": [\"EMAIL-070\"]\n    }\n  }\n}",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 24090,
+        "input_tokens_details": {
+          "cache_write_tokens": 24087,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1215,
+        "output_tokens_details": {
+          "reasoning_tokens": 141
+        },
+        "total_tokens": 25305
+      },
+      "tokens": {
+        "input": 24090,
+        "output": 1215
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0b7b836619bf30dd016ac8271d50cc87d090414b44bafb7fd4",
+      "routing_provider": null,
+      "latency_seconds": 19.2862,
+      "run_id": "20261008T232828Z-4143539e",
+      "max_output_tokens": 6000,
+      "corrected_evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "evidence-audit/1.0.1",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "corrected_task_sha256": "f782e7da1ce40ffcfe0ce32c0a088b53ed2455750dc8ca42567b81f1a6c3b205"
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6-astra",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9916666666666667,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_INCORRECT_AUDIT"
+        ],
+        "verifier_version": "evidence-audit/1.0.0",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\n  \"answers\": {\n    \"Q01\": {\n      \"value\": {\n        \"date\": \"2022-02-14\",\n        \"sender_email\": \"nalvarez@alderpointpartners.com\",\n        \"employer\": \"Alder Point Partners\"\n      },\n      \"evidence\": [\"EMAIL-037\"]\n    },\n    \"Q02\": {\n      \"value\": 29,\n      \"evidence\": [\"EMAIL-037\", \"EMAIL-039\"]\n    },\n    \"Q03\": {\n      \"value\": 2,\n      \"evidence\": [\"EMAIL-014\"]\n    },\n    \"Q04\": {\n      \"value\": {\n        \"scheduled_meeting_date\": \"2023-06-30\",\n        \"date_basis\": \"inferred\",\n        \"adopted_resolution_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\", \"EMAIL-068\"]\n    },\n    \"Q05\": {\n      \"value\": 21,\n      \"evidence\": [\"EMAIL-023\", \"EMAIL-024\"]\n    },\n    \"Q06\": {\n      \"value\": {\n        \"production_deadline\": \"2023-08-31\",\n        \"schedule_due\": \"2023-07-14\",\n        \"received\": \"2023-09-01\",\n        \"acknowledged\": \"2023-09-06\",\n        \"receipt_minus_deadline_days\": 1\n      },\n      \"evidence\": [\"EMAIL-158\", \"EMAIL-162\"]\n    },\n    \"Q07\": {\n      \"value\": {\n        \"holt_finalized_message\": \"2022-12-20\",\n        \"shah_unconfirmed_message\": \"2023-01-10\",\n        \"days_between\": 21,\n        \"actual_issuance_date_established\": false\n      },\n      \"evidence\": [\"EMAIL-045\", \"EMAIL-018\"]\n    },\n    \"Q08\": {\n      \"value\": {\n        \"acreage_overstatement_acres\": 181,\n        \"incremental_credit_value_usd\": 512000,\n        \"full_disallowance_credit_exposure_usd\": 2400000,\n        \"sum_is_supported_total\": false\n      },\n      \"evidence\": [\"EMAIL-140\", \"EMAIL-136\"]\n    },\n    \"Q09\": {\n      \"value\": {\n        \"interview_date\": \"2023-08-01\",\n        \"memo_date\": \"2023-08-02\",\n        \"followup_date\": \"2023-08-03\"\n      },\n      \"evidence\": [\"EMAIL-135\"]\n    },\n    \"Q10\": {\n      \"value\": {\n        \"counsel_call_date\": \"2023-03-01\",\n        \"selected_interview_date\": \"2023-03-10\",\n        \"interview_completion_proven\": false\n      },\n      \"evidence\": [\"EMAIL-164\"]\n    },\n    \"Q11\": {\n      \"value\": {\n        \"planned_departure\": \"2023-06-30\",\n        \"preserve_export_instruction\": \"2023-06-15\",\n        \"completed_export_proven\": false\n      },\n      \"evidence\": [\"EMAIL-062\"]\n    },\n    \"Q12\": {\n      \"value\": {\n        \"status\": \"open\",\n        \"status_message_date\": \"2023-09-06\"\n      },\n      \"evidence\": [\"EMAIL-162\"]\n    },\n    \"Q13\": {\n      \"value\": {\n        \"program\": \"Mountain Ridge\",\n        \"establishes_coastal_solar_eligibility\": false\n      },\n      \"evidence\": [\"EMAIL-100\"]\n    },\n    \"Q14\": {\n      \"value\": {\n        \"whitaker_retained_by\": \"L&L Associates\",\n        \"whitaker_purpose\": \"legal_advice\",\n        \"larsen_requested_by_email\": \"csato@cascadetimber.com\",\n        \"larsen_purpose\": \"routine_tax\"\n      },\n      \"evidence\": [\"EMAIL-139\", \"EMAIL-143\"]\n    },\n    \"Q15\": {\n      \"value\": {\n        \"routine_instruction_date\": \"2023-06-29\",\n        \"remove_routine_date\": \"2023-07-12\",\n        \"elapsed_days\": 13\n      },\n      \"evidence\": [\"EMAIL-067\", \"EMAIL-200\"]\n    },\n    \"Q16\": {\n      \"value\": {\n        \"county_flagged_program\": \"unresolved\",\n        \"crosswalk_needed\": true\n      },\n      \"evidence\": [\"EMAIL-115\", \"EMAIL-117\"]\n    },\n    \"Q17\": {\n      \"value\": {\n        \"recommended_authority\": \"board\",\n        \"actual_delegation_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\"]\n    },\n    \"Q18\": {\n      \"value\": {\n        \"completion_proven\": false,\n        \"question_date\": \"2023-07-06\"\n      },\n      \"evidence\": [\"EMAIL-070\"]\n    }\n  }\n}",
+      "resolved_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 24090,
+        "input_tokens_details": {
+          "cache_write_tokens": 24087,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1217,
+        "output_tokens_details": {
+          "reasoning_tokens": 148
+        },
+        "total_tokens": 25307
+      },
+      "tokens": {
+        "input": 24090,
+        "output": 1217
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_09510f29c1e7a63f016ac82730755887d093d61fe1a8d5907f",
+      "routing_provider": null,
+      "latency_seconds": 18.6307,
+      "run_id": "20261008T232828Z-4143539e",
+      "max_output_tokens": 6000,
+      "corrected_evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "evidence-audit/1.0.1",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "corrected_task_sha256": "f782e7da1ce40ffcfe0ce32c0a088b53ed2455750dc8ca42567b81f1a6c3b205"
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9861111111111112,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_INCORRECT_AUDIT"
+        ],
+        "verifier_version": "evidence-audit/1.0.0",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666,
+            "reward": 0.8999999999999999,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"value\":{\"date\":\"2022-02-14\",\"sender_email\":\"nalvarez@alderpointpartners.com\",\"employer\":\"Alder Point Partners\"},\"evidence\":[\"EMAIL-037\"]},\"Q02\":{\"value\":29,\"evidence\":[\"EMAIL-037\",\"EMAIL-039\"]},\"Q03\":{\"value\":2,\"evidence\":[\"EMAIL-012\",\"EMAIL-014\"]},\"Q04\":{\"value\":{\"scheduled_meeting_date\":\"2023-06-30\",\"date_basis\":\"inferred\",\"adopted_resolution_proven\":false},\"evidence\":[\"EMAIL-171\",\"EMAIL-172\",\"EMAIL-068\"]},\"Q05\":{\"value\":21,\"evidence\":[\"EMAIL-023\",\"EMAIL-024\"]},\"Q06\":{\"value\":{\"production_deadline\":\"2023-08-31\",\"schedule_due\":\"2023-07-14\",\"received\":\"2023-09-01\",\"acknowledged\":\"2023-09-06\",\"receipt_minus_deadline_days\":1},\"evidence\":[\"EMAIL-158\",\"EMAIL-162\"]},\"Q07\":{\"value\":{\"holt_finalized_message\":\"2022-12-20\",\"shah_unconfirmed_message\":\"2023-01-10\",\"days_between\":21,\"actual_issuance_date_established\":false},\"evidence\":[\"EMAIL-045\",\"EMAIL-018\"]},\"Q08\":{\"value\":{\"acreage_overstatement_acres\":181,\"incremental_credit_value_usd\":512000,\"full_disallowance_credit_exposure_usd\":2400000,\"sum_is_supported_total\":false},\"evidence\":[\"EMAIL-140\",\"EMAIL-136\"]},\"Q09\":{\"value\":{\"interview_date\":\"2023-08-01\",\"memo_date\":\"2023-08-02\",\"followup_date\":\"2023-08-03\"},\"evidence\":[\"EMAIL-134\",\"EMAIL-135\"]},\"Q10\":{\"value\":{\"counsel_call_date\":\"2023-03-01\",\"selected_interview_date\":\"2023-03-10\",\"interview_completion_proven\":false},\"evidence\":[\"EMAIL-163\",\"EMAIL-164\"]},\"Q11\":{\"value\":{\"planned_departure\":\"2023-06-30\",\"preserve_export_instruction\":\"2023-06-15\",\"completed_export_proven\":false},\"evidence\":[\"EMAIL-061\",\"EMAIL-062\"]},\"Q12\":{\"value\":{\"status\":\"open\",\"status_message_date\":\"2023-09-06\"},\"evidence\":[\"EMAIL-162\"]},\"Q13\":{\"value\":{\"program\":\"Mountain Ridge\",\"establishes_coastal_solar_eligibility\":false},\"evidence\":[\"EMAIL-100\"]},\"Q14\":{\"value\":{\"whitaker_retained_by\":\"L&L Associates\",\"whitaker_purpose\":\"legal_advice\",\"larsen_requested_by_email\":\"csato@cascadetimber.com\",\"larsen_purpose\":\"routine_tax\"},\"evidence\":[\"EMAIL-139\",\"EMAIL-142\"]},\"Q15\":{\"value\":{\"routine_instruction_date\":\"2023-06-29\",\"remove_routine_date\":\"2023-07-12\",\"elapsed_days\":13},\"evidence\":[\"EMAIL-067\",\"EMAIL-200\"]},\"Q16\":{\"value\":{\"county_flagged_program\":\"unresolved\",\"crosswalk_needed\":true},\"evidence\":[\"EMAIL-115\",\"EMAIL-117\"]},\"Q17\":{\"value\":{\"recommended_authority\":\"board\",\"actual_delegation_proven\":false},\"evidence\":[\"EMAIL-172\"]},\"Q18\":{\"value\":{\"completion_proven\":false,\"question_date\":\"2023-07-06\"},\"evidence\":[\"EMAIL-070\",\"EMAIL-060\"]}}}",
+      "resolved_model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 24090,
+        "input_tokens_details": {
+          "cache_write_tokens": 24087,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1041,
+        "output_tokens_details": {
+          "reasoning_tokens": 293
+        },
+        "total_tokens": 25131
+      },
+      "tokens": {
+        "input": 24090,
+        "output": 1041
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0226321401fc808f016ac827431bf487d09fba1b9cffc7bd42",
+      "routing_provider": null,
+      "latency_seconds": 10.8824,
+      "run_id": "20261008T232828Z-4143539e",
+      "max_output_tokens": 6000,
+      "corrected_evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "evidence-audit/1.0.1",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "corrected_task_sha256": "f782e7da1ce40ffcfe0ce32c0a088b53ed2455750dc8ca42567b81f1a6c3b205"
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9916666666666667,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_INCORRECT_AUDIT"
+        ],
+        "verifier_version": "evidence-audit/1.0.0",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\n  \"answers\": {\n    \"Q01\": {\n      \"value\": {\n        \"date\": \"2022-02-14\",\n        \"sender_email\": \"nalvarez@alderpointpartners.com\",\n        \"employer\": \"Alder Point Partners\"\n      },\n      \"evidence\": [\"EMAIL-037\"]\n    },\n    \"Q02\": {\n      \"value\": 29,\n      \"evidence\": [\"EMAIL-037\", \"EMAIL-039\"]\n    },\n    \"Q03\": {\n      \"value\": 2,\n      \"evidence\": [\"EMAIL-014\"]\n    },\n    \"Q04\": {\n      \"value\": {\n        \"scheduled_meeting_date\": \"2023-06-30\",\n        \"date_basis\": \"inferred\",\n        \"adopted_resolution_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\", \"EMAIL-068\"]\n    },\n    \"Q05\": {\n      \"value\": 21,\n      \"evidence\": [\"EMAIL-023\", \"EMAIL-024\"]\n    },\n    \"Q06\": {\n      \"value\": {\n        \"production_deadline\": \"2023-08-31\",\n        \"schedule_due\": \"2023-07-14\",\n        \"received\": \"2023-09-01\",\n        \"acknowledged\": \"2023-09-06\",\n        \"receipt_minus_deadline_days\": 1\n      },\n      \"evidence\": [\"EMAIL-158\", \"EMAIL-162\"]\n    },\n    \"Q07\": {\n      \"value\": {\n        \"holt_finalized_message\": \"2022-12-20\",\n        \"shah_unconfirmed_message\": \"2023-01-10\",\n        \"days_between\": 21,\n        \"actual_issuance_date_established\": false\n      },\n      \"evidence\": [\"EMAIL-045\", \"EMAIL-018\"]\n    },\n    \"Q08\": {\n      \"value\": {\n        \"acreage_overstatement_acres\": 181,\n        \"incremental_credit_value_usd\": 512000,\n        \"full_disallowance_credit_exposure_usd\": 2400000,\n        \"sum_is_supported_total\": false\n      },\n      \"evidence\": [\"EMAIL-140\", \"EMAIL-136\"]\n    },\n    \"Q09\": {\n      \"value\": {\n        \"interview_date\": \"2023-08-01\",\n        \"memo_date\": \"2023-08-02\",\n        \"followup_date\": \"2023-08-03\"\n      },\n      \"evidence\": [\"EMAIL-135\"]\n    },\n    \"Q10\": {\n      \"value\": {\n        \"counsel_call_date\": \"2023-03-01\",\n        \"selected_interview_date\": \"2023-03-10\",\n        \"interview_completion_proven\": false\n      },\n      \"evidence\": [\"EMAIL-164\"]\n    },\n    \"Q11\": {\n      \"value\": {\n        \"planned_departure\": \"2023-06-30\",\n        \"preserve_export_instruction\": \"2023-06-15\",\n        \"completed_export_proven\": false\n      },\n      \"evidence\": [\"EMAIL-062\"]\n    },\n    \"Q12\": {\n      \"value\": {\n        \"status\": \"open\",\n        \"status_message_date\": \"2023-09-06\"\n      },\n      \"evidence\": [\"EMAIL-162\"]\n    },\n    \"Q13\": {\n      \"value\": {\n        \"program\": \"Mountain Ridge\",\n        \"establishes_coastal_solar_eligibility\": false\n      },\n      \"evidence\": [\"EMAIL-100\"]\n    },\n    \"Q14\": {\n      \"value\": {\n        \"whitaker_retained_by\": \"L&L Associates\",\n        \"whitaker_purpose\": \"legal_advice\",\n        \"larsen_requested_by_email\": \"csato@cascadetimber.com\",\n        \"larsen_purpose\": \"routine_tax\"\n      },\n      \"evidence\": [\"EMAIL-139\", \"EMAIL-142\"]\n    },\n    \"Q15\": {\n      \"value\": {\n        \"routine_instruction_date\": \"2023-06-29\",\n        \"remove_routine_date\": \"2023-07-12\",\n        \"elapsed_days\": 13\n      },\n      \"evidence\": [\"EMAIL-067\", \"EMAIL-200\"]\n    },\n    \"Q16\": {\n      \"value\": {\n        \"county_flagged_program\": \"unresolved\",\n        \"crosswalk_needed\": true\n      },\n      \"evidence\": [\"EMAIL-115\", \"EMAIL-117\"]\n    },\n    \"Q17\": {\n      \"value\": {\n        \"recommended_authority\": \"board\",\n        \"actual_delegation_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\"]\n    },\n    \"Q18\": {\n      \"value\": {\n        \"completion_proven\": false,\n        \"question_date\": \"2023-07-06\"\n      },\n      \"evidence\": [\"EMAIL-070\"]\n    }\n  }\n}",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 24090,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 24087
+        },
+        "output_tokens": 1182,
+        "output_tokens_details": {
+          "reasoning_tokens": 113
+        },
+        "total_tokens": 25272
+      },
+      "tokens": {
+        "input": 24090,
+        "output": 1182
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0cc4d357f9085527016ac8274dfbdc87d09d723172a1411252",
+      "routing_provider": null,
+      "latency_seconds": 17.1126,
+      "run_id": "20261008T232828Z-4143539e",
+      "max_output_tokens": 6000,
+      "corrected_evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "evidence-audit/1.0.1",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "corrected_task_sha256": "f782e7da1ce40ffcfe0ce32c0a088b53ed2455750dc8ca42567b81f1a6c3b205"
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6-astra",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9916666666666667,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_INCORRECT_AUDIT"
+        ],
+        "verifier_version": "evidence-audit/1.0.0",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\n  \"answers\": {\n    \"Q01\": {\n      \"value\": {\n        \"date\": \"2022-02-14\",\n        \"sender_email\": \"nalvarez@alderpointpartners.com\",\n        \"employer\": \"Alder Point Partners\"\n      },\n      \"evidence\": [\"EMAIL-037\"]\n    },\n    \"Q02\": {\n      \"value\": 29,\n      \"evidence\": [\"EMAIL-037\", \"EMAIL-039\"]\n    },\n    \"Q03\": {\n      \"value\": 2,\n      \"evidence\": [\"EMAIL-014\"]\n    },\n    \"Q04\": {\n      \"value\": {\n        \"scheduled_meeting_date\": \"2023-06-30\",\n        \"date_basis\": \"inferred\",\n        \"adopted_resolution_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\", \"EMAIL-068\"]\n    },\n    \"Q05\": {\n      \"value\": 21,\n      \"evidence\": [\"EMAIL-023\", \"EMAIL-024\"]\n    },\n    \"Q06\": {\n      \"value\": {\n        \"production_deadline\": \"2023-08-31\",\n        \"schedule_due\": \"2023-07-14\",\n        \"received\": \"2023-09-01\",\n        \"acknowledged\": \"2023-09-06\",\n        \"receipt_minus_deadline_days\": 1\n      },\n      \"evidence\": [\"EMAIL-158\", \"EMAIL-162\"]\n    },\n    \"Q07\": {\n      \"value\": {\n        \"holt_finalized_message\": \"2022-12-20\",\n        \"shah_unconfirmed_message\": \"2023-01-10\",\n        \"days_between\": 21,\n        \"actual_issuance_date_established\": false\n      },\n      \"evidence\": [\"EMAIL-045\", \"EMAIL-018\"]\n    },\n    \"Q08\": {\n      \"value\": {\n        \"acreage_overstatement_acres\": 181,\n        \"incremental_credit_value_usd\": 512000,\n        \"full_disallowance_credit_exposure_usd\": 2400000,\n        \"sum_is_supported_total\": false\n      },\n      \"evidence\": [\"EMAIL-140\", \"EMAIL-136\"]\n    },\n    \"Q09\": {\n      \"value\": {\n        \"interview_date\": \"2023-08-01\",\n        \"memo_date\": \"2023-08-02\",\n        \"followup_date\": \"2023-08-03\"\n      },\n      \"evidence\": [\"EMAIL-135\"]\n    },\n    \"Q10\": {\n      \"value\": {\n        \"counsel_call_date\": \"2023-03-01\",\n        \"selected_interview_date\": \"2023-03-10\",\n        \"interview_completion_proven\": false\n      },\n      \"evidence\": [\"EMAIL-164\"]\n    },\n    \"Q11\": {\n      \"value\": {\n        \"planned_departure\": \"2023-06-30\",\n        \"preserve_export_instruction\": \"2023-06-15\",\n        \"completed_export_proven\": false\n      },\n      \"evidence\": [\"EMAIL-062\"]\n    },\n    \"Q12\": {\n      \"value\": {\n        \"status\": \"open\",\n        \"status_message_date\": \"2023-09-06\"\n      },\n      \"evidence\": [\"EMAIL-162\"]\n    },\n    \"Q13\": {\n      \"value\": {\n        \"program\": \"Mountain Ridge\",\n        \"establishes_coastal_solar_eligibility\": false\n      },\n      \"evidence\": [\"EMAIL-100\"]\n    },\n    \"Q14\": {\n      \"value\": {\n        \"whitaker_retained_by\": \"L&L Associates\",\n        \"whitaker_purpose\": \"legal_advice\",\n        \"larsen_requested_by_email\": \"csato@cascadetimber.com\",\n        \"larsen_purpose\": \"routine_tax\"\n      },\n      \"evidence\": [\"EMAIL-139\", \"EMAIL-143\"]\n    },\n    \"Q15\": {\n      \"value\": {\n        \"routine_instruction_date\": \"2023-06-29\",\n        \"remove_routine_date\": \"2023-07-12\",\n        \"elapsed_days\": 13\n      },\n      \"evidence\": [\"EMAIL-067\", \"EMAIL-200\"]\n    },\n    \"Q16\": {\n      \"value\": {\n        \"county_flagged_program\": \"unresolved\",\n        \"crosswalk_needed\": true\n      },\n      \"evidence\": [\"EMAIL-115\", \"EMAIL-117\"]\n    },\n    \"Q17\": {\n      \"value\": {\n        \"recommended_authority\": \"board\",\n        \"actual_delegation_proven\": false\n      },\n      \"evidence\": [\"EMAIL-172\"]\n    },\n    \"Q18\": {\n      \"value\": {\n        \"completion_proven\": false,\n        \"question_date\": \"2023-07-06\"\n      },\n      \"evidence\": [\"EMAIL-070\"]\n    }\n  }\n}",
+      "resolved_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 24090,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 24087
+        },
+        "output_tokens": 1256,
+        "output_tokens_details": {
+          "reasoning_tokens": 187
+        },
+        "total_tokens": 25346
+      },
+      "tokens": {
+        "input": 24090,
+        "output": 1256
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_09430acb94b4c0ea016ac8275f3fa887d08b117612cfa826cd",
+      "routing_provider": null,
+      "latency_seconds": 16.8406,
+      "run_id": "20261008T232828Z-4143539e",
+      "max_output_tokens": 6000,
+      "corrected_evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "evidence-audit/1.0.1",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "corrected_task_sha256": "f782e7da1ce40ffcfe0ce32c0a088b53ed2455750dc8ca42567b81f1a6c3b205"
+    },
+    {
+      "task_id": "CTH-AUDIT-001",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9722222222222224,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_INCORRECT_AUDIT"
+        ],
+        "verifier_version": "evidence-audit/1.0.0",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666,
+            "reward": 0.8999999999999999,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666,
+            "reward": 0.8999999999999999,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 0.5,
+            "reward": 0.85,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"value\":{\"date\":\"2022-02-14\",\"sender_email\":\"nalvarez@alderpointpartners.com\",\"employer\":\"Alder Point Partners\"},\"evidence\":[\"EMAIL-037\"]},\"Q02\":{\"value\":29,\"evidence\":[\"EMAIL-037\",\"EMAIL-039\"]},\"Q03\":{\"value\":2,\"evidence\":[\"EMAIL-012\",\"EMAIL-014\"]},\"Q04\":{\"value\":{\"scheduled_meeting_date\":\"2023-06-30\",\"date_basis\":\"inferred\",\"adopted_resolution_proven\":false},\"evidence\":[\"EMAIL-171\",\"EMAIL-172\",\"EMAIL-068\"]},\"Q05\":{\"value\":21,\"evidence\":[\"EMAIL-023\",\"EMAIL-024\"]},\"Q06\":{\"value\":{\"production_deadline\":\"2023-08-31\",\"schedule_due\":\"2023-07-14\",\"received\":\"2023-09-01\",\"acknowledged\":\"2023-09-06\",\"receipt_minus_deadline_days\":1},\"evidence\":[\"EMAIL-158\",\"EMAIL-162\"]},\"Q07\":{\"value\":{\"holt_finalized_message\":\"2022-12-20\",\"shah_unconfirmed_message\":\"2023-01-10\",\"days_between\":21,\"actual_issuance_date_established\":false},\"evidence\":[\"EMAIL-045\",\"EMAIL-018\"]},\"Q08\":{\"value\":{\"acreage_overstatement_acres\":181,\"incremental_credit_value_usd\":512000,\"full_disallowance_credit_exposure_usd\":2400000,\"sum_is_supported_total\":false},\"evidence\":[\"EMAIL-140\",\"EMAIL-136\"]},\"Q09\":{\"value\":{\"interview_date\":\"2023-08-01\",\"memo_date\":\"2023-08-02\",\"followup_date\":\"2023-08-03\"},\"evidence\":[\"EMAIL-134\",\"EMAIL-135\"]},\"Q10\":{\"value\":{\"counsel_call_date\":\"2023-03-01\",\"selected_interview_date\":\"2023-03-10\",\"interview_completion_proven\":false},\"evidence\":[\"EMAIL-163\",\"EMAIL-164\"]},\"Q11\":{\"value\":{\"planned_departure\":\"2023-06-30\",\"preserve_export_instruction\":\"2023-06-15\",\"completed_export_proven\":false},\"evidence\":[\"EMAIL-061\",\"EMAIL-062\"]},\"Q12\":{\"value\":{\"status\":\"open\",\"status_message_date\":\"2023-09-06\"},\"evidence\":[\"EMAIL-162\"]},\"Q13\":{\"value\":{\"program\":\"Mountain Ridge\",\"establishes_coastal_solar_eligibility\":false},\"evidence\":[\"EMAIL-100\"]},\"Q14\":{\"value\":{\"whitaker_retained_by\":\"L&L Associates\",\"whitaker_purpose\":\"legal_advice\",\"larsen_requested_by_email\":\"csato@cascadetimber.com\",\"larsen_purpose\":\"routine_tax\"},\"evidence\":[\"EMAIL-137\",\"EMAIL-139\",\"EMAIL-142\",\"EMAIL-143\"]},\"Q15\":{\"value\":{\"routine_instruction_date\":\"2023-06-29\",\"remove_routine_date\":\"2023-07-12\",\"elapsed_days\":13},\"evidence\":[\"EMAIL-067\",\"EMAIL-200\"]},\"Q16\":{\"value\":{\"county_flagged_program\":\"unresolved\",\"crosswalk_needed\":true},\"evidence\":[\"EMAIL-115\",\"EMAIL-116\",\"EMAIL-117\"]},\"Q17\":{\"value\":{\"recommended_authority\":\"board\",\"actual_delegation_proven\":false},\"evidence\":[\"EMAIL-171\",\"EMAIL-172\"]},\"Q18\":{\"value\":{\"completion_proven\":false,\"question_date\":\"2023-07-06\"},\"evidence\":[\"EMAIL-070\",\"EMAIL-060\"]}}}",
+      "resolved_model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 24090,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 24087
+        },
+        "output_tokens": 1093,
+        "output_tokens_details": {
+          "reasoning_tokens": 329
+        },
+        "total_tokens": 25183
+      },
+      "tokens": {
+        "input": 24090,
+        "output": 1093
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0f939cb3a1d24079016ac8276fec9887d0887b735e6e0413a2",
+      "routing_provider": null,
+      "latency_seconds": 10.8272,
+      "run_id": "20261008T232828Z-4143539e",
+      "max_output_tokens": 6000,
+      "corrected_evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "evidence-audit/1.0.1",
+        "value_accuracy": 1.0,
+        "items": {
+          "Q01": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          },
+          "Q02": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q03": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q04": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q05": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q06": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q07": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q08": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "financial_distinctions"
+          },
+          "Q09": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q10": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q11": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q12": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q13": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "distractor_rejection"
+          },
+          "Q14": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "role_join"
+          },
+          "Q15": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "temporal_join"
+          },
+          "Q16": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "conflicting_evidence"
+          },
+          "Q17": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "uncertainty"
+          },
+          "Q18": {
+            "value_correct": true,
+            "evidence_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "reward": 1.0,
+            "category": "entity_and_time"
+          }
+        }
+      },
+      "corrected_task_sha256": "f782e7da1ce40ffcfe0ce32c0a088b53ed2455750dc8ca42567b81f1a6c3b205"
+    },
+    {
+      "task_id": "CTH-INVENTORY-001",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2022-02\":2,\"2022-03\":3,\"2022-06\":1,\"2022-07\":1,\"2022-09\":4,\"2022-10\":3,\"2022-11\":3,\"2022-12\":1,\"2023-01\":2,\"2023-02\":4,\"2023-03\":3,\"2023-04\":1,\"2023-05\":1,\"2023-06\":14,\"2023-07\":18,\"2023-08\":13,\"2023-09\":1},\"Q02\":{\"cascadetimber.com\":32,\"alderpointpartners.com\":19,\"bellhavenadvisory.com\":6,\"llassociates.com\":10,\"irs.gov\":3,\"larsentaxadvisory.com\":2,\"whitakerforensic.com\":2,\"greenacresurvey.com\":1},\"Q03\":[\"EMAIL-021\",\"EMAIL-142\",\"EMAIL-159\",\"EMAIL-161\"],\"Q04\":[\"EMAIL-137\",\"EMAIL-139\"],\"Q05\":[\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-029\"],\"Q06\":[\"jellery@cascadetimber.com\",\"treyes@alderpointpartners.com\",\"glin@llassociates.com\",\"pshah@alderpointpartners.com\",\"snguyen@cascadetimber.com\"],\"Q07\":[\"EMAIL-038\",\"EMAIL-041\",\"EMAIL-029\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-129\"],\"Q09\":{\"alderpointpartners.com -> greenacresurvey.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":3,\"greenacresurvey.com -> alderpointpartners.com\":1,\"irs.gov -> cascadetimber.com\":3,\"larsentaxadvisory.com -> cascadetimber.com\":2,\"whitakerforensic.com -> llassociates.com\":2,\"llassociates.com -> whitakerforensic.com\":2,\"llassociates.com -> cascadetimber.com\":2,\"cascadetimber.com -> llassociates.com\":1,\"cascadetimber.com -> irs.gov\":2,\"cascadetimber.com -> larsentaxadvisory.com\":1},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-060\",\"EMAIL-061\",\"EMAIL-062\",\"EMAIL-066\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-171\",\"EMAIL-172\"],\"Q11\":[],\"Q12\":[\"EMAIL-162\",\"EMAIL-145\",\"EMAIL-144\",\"EMAIL-161\",\"EMAIL-141\",\"EMAIL-160\",\"EMAIL-140\",\"EMAIL-203\",\"EMAIL-139\",\"EMAIL-136\"]}}",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 23510,
+        "input_tokens_details": {
+          "cache_write_tokens": 23507,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1908,
+        "output_tokens_details": {
+          "reasoning_tokens": 1324
+        },
+        "total_tokens": 25418
+      },
+      "tokens": {
+        "input": 23510,
+        "output": 1908
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_00e024ad98064177016ac827a98e0c87d0a1ea797b27bf71d0",
+      "routing_provider": null,
+      "latency_seconds": 32.2165,
+      "run_id": "20261008T233049Z-79021ced",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-INVENTORY-001",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6-astra",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2022-02\":2,\"2022-03\":3,\"2022-06\":1,\"2022-07\":1,\"2022-09\":4,\"2022-10\":3,\"2022-11\":3,\"2022-12\":1,\"2023-01\":2,\"2023-02\":4,\"2023-03\":3,\"2023-04\":1,\"2023-05\":1,\"2023-06\":14,\"2023-07\":18,\"2023-08\":13,\"2023-09\":1},\"Q02\":{\"alderpointpartners.com\":19,\"cascadetimber.com\":32,\"llassociates.com\":10,\"bellhavenadvisory.com\":6,\"greenacresurvey.com\":1,\"whitakerforensic.com\":2,\"larsentaxadvisory.com\":2,\"irs.gov\":3},\"Q03\":[\"EMAIL-021\",\"EMAIL-142\",\"EMAIL-159\",\"EMAIL-161\"],\"Q04\":[\"EMAIL-137\",\"EMAIL-139\"],\"Q05\":[\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-029\"],\"Q06\":[\"jellery@cascadetimber.com\",\"treyes@alderpointpartners.com\",\"glin@llassociates.com\",\"pshah@alderpointpartners.com\",\"snguyen@cascadetimber.com\"],\"Q07\":[\"EMAIL-029\",\"EMAIL-038\",\"EMAIL-041\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-129\"],\"Q09\":{\"alderpointpartners.com -> greenacresurvey.com\":1,\"greenacresurvey.com -> alderpointpartners.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":3,\"cascadetimber.com -> llassociates.com\":1,\"llassociates.com -> cascadetimber.com\":2,\"llassociates.com -> whitakerforensic.com\":2,\"whitakerforensic.com -> llassociates.com\":2,\"cascadetimber.com -> larsentaxadvisory.com\":1,\"larsentaxadvisory.com -> cascadetimber.com\":2,\"irs.gov -> cascadetimber.com\":3,\"cascadetimber.com -> irs.gov\":2},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-060\",\"EMAIL-061\",\"EMAIL-062\",\"EMAIL-066\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-171\",\"EMAIL-172\"],\"Q11\":[],\"Q12\":[\"EMAIL-162\",\"EMAIL-145\",\"EMAIL-144\",\"EMAIL-161\",\"EMAIL-141\",\"EMAIL-160\",\"EMAIL-140\",\"EMAIL-203\",\"EMAIL-139\",\"EMAIL-136\"]}}",
+      "resolved_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 23510,
+        "input_tokens_details": {
+          "cache_write_tokens": 23507,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2010,
+        "output_tokens_details": {
+          "reasoning_tokens": 1426
+        },
+        "total_tokens": 25520
+      },
+      "tokens": {
+        "input": 23510,
+        "output": 2010
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_069873056b5e9abc016ac827c95fa087d0ab1a6dd3bbf1c668",
+      "routing_provider": null,
+      "latency_seconds": 30.841,
+      "run_id": "20261008T233049Z-79021ced",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-INVENTORY-001",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9583333333333334,
+        "success": false,
+        "failure_codes": [
+          "RECONCILIATION_ERRORS"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 0.5,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2022-02\":2,\"2022-03\":3,\"2022-06\":1,\"2022-07\":1,\"2022-09\":4,\"2022-10\":3,\"2022-11\":3,\"2022-12\":1,\"2023-01\":2,\"2023-02\":4,\"2023-03\":3,\"2023-04\":1,\"2023-05\":1,\"2023-06\":14,\"2023-07\":18,\"2023-08\":13,\"2023-09\":1},\"Q02\":{\"alderpointpartners.com\":19,\"bellhavenadvisory.com\":6,\"cascadetimber.com\":32,\"greenacresurvey.com\":1,\"irs.gov\":3,\"larsentaxadvisory.com\":2,\"llassociates.com\":10,\"whitakerforensic.com\":2},\"Q03\":[\"EMAIL-021\",\"EMAIL-142\",\"EMAIL-159\",\"EMAIL-161\"],\"Q04\":[\"EMAIL-137\",\"EMAIL-139\"],\"Q05\":[\"EMAIL-029\"],\"Q06\":[\"jellery@cascadetimber.com\",\"treyes@alderpointpartners.com\",\"glin@llassociates.com\",\"pshah@alderpointpartners.com\",\"snguyen@cascadetimber.com\"],\"Q07\":[\"EMAIL-029\",\"EMAIL-038\",\"EMAIL-041\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-129\"],\"Q09\":{\"alderpointpartners.com -> greenacresurvey.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":3,\"cascadetimber.com -> irs.gov\":2,\"cascadetimber.com -> larsentaxadvisory.com\":1,\"cascadetimber.com -> llassociates.com\":1,\"greenacresurvey.com -> alderpointpartners.com\":1,\"irs.gov -> cascadetimber.com\":3,\"larsentaxadvisory.com -> cascadetimber.com\":2,\"llassociates.com -> cascadetimber.com\":2,\"llassociates.com -> whitakerforensic.com\":2,\"whitakerforensic.com -> llassociates.com\":2},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-060\",\"EMAIL-061\",\"EMAIL-062\",\"EMAIL-066\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-171\",\"EMAIL-172\"],\"Q11\":[],\"Q12\":[\"EMAIL-162\",\"EMAIL-145\",\"EMAIL-144\",\"EMAIL-161\",\"EMAIL-141\",\"EMAIL-160\",\"EMAIL-140\",\"EMAIL-203\",\"EMAIL-139\",\"EMAIL-136\"]}}",
+      "resolved_model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 23510,
+        "input_tokens_details": {
+          "cache_write_tokens": 23507,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2646,
+        "output_tokens_details": {
+          "reasoning_tokens": 2070
+        },
+        "total_tokens": 26156
+      },
+      "tokens": {
+        "input": 23510,
+        "output": 2646
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_01070840255bf44c016ac827e8662487d0aafac45834dbd041",
+      "routing_provider": null,
+      "latency_seconds": 30.7123,
+      "run_id": "20261008T233049Z-79021ced",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-INVENTORY-001",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\n  \"answers\": {\n    \"Q01\": {\n      \"2022-02\": 2,\n      \"2022-03\": 3,\n      \"2022-06\": 1,\n      \"2022-07\": 1,\n      \"2022-09\": 4,\n      \"2022-10\": 3,\n      \"2022-11\": 3,\n      \"2022-12\": 1,\n      \"2023-01\": 2,\n      \"2023-02\": 4,\n      \"2023-03\": 3,\n      \"2023-04\": 1,\n      \"2023-05\": 1,\n      \"2023-06\": 14,\n      \"2023-07\": 18,\n      \"2023-08\": 13,\n      \"2023-09\": 1\n    },\n    \"Q02\": {\n      \"alderpointpartners.com\": 19,\n      \"cascadetimber.com\": 32,\n      \"llassociates.com\": 10,\n      \"bellhavenadvisory.com\": 6,\n      \"irs.gov\": 3,\n      \"larsentaxadvisory.com\": 2,\n      \"greenacresurvey.com\": 1,\n      \"whitakerforensic.com\": 2\n    },\n    \"Q03\": [\n      \"EMAIL-021\",\n      \"EMAIL-142\",\n      \"EMAIL-159\",\n      \"EMAIL-161\"\n    ],\n    \"Q04\": [\n      \"EMAIL-137\",\n      \"EMAIL-139\"\n    ],\n    \"Q05\": [\n      \"EMAIL-025\",\n      \"EMAIL-028\",\n      \"EMAIL-029\"\n    ],\n    \"Q06\": [\n      \"jellery@cascadetimber.com\",\n      \"treyes@alderpointpartners.com\",\n      \"glin@llassociates.com\",\n      \"pshah@alderpointpartners.com\",\n      \"snguyen@cascadetimber.com\"\n    ],\n    \"Q07\": [\n      \"EMAIL-038\",\n      \"EMAIL-041\",\n      \"EMAIL-029\"\n    ],\n    \"Q08\": [\n      \"EMAIL-024\",\n      \"EMAIL-046\",\n      \"EMAIL-060\",\n      \"EMAIL-129\"\n    ],\n    \"Q09\": {\n      \"alderpointpartners.com -> greenacresurvey.com\": 1,\n      \"greenacresurvey.com -> alderpointpartners.com\": 1,\n      \"bellhavenadvisory.com -> alderpointpartners.com\": 3,\n      \"irs.gov -> cascadetimber.com\": 3,\n      \"larsentaxadvisory.com -> cascadetimber.com\": 2,\n      \"cascadetimber.com -> irs.gov\": 2,\n      \"cascadetimber.com -> llassociates.com\": 1,\n      \"cascadetimber.com -> larsentaxadvisory.com\": 1,\n      \"llassociates.com -> cascadetimber.com\": 2,\n      \"llassociates.com -> whitakerforensic.com\": 2,\n      \"whitakerforensic.com -> llassociates.com\": 2\n    },\n    \"Q10\": [\n      \"EMAIL-024\",\n      \"EMAIL-026\",\n      \"EMAIL-060\",\n      \"EMAIL-061\",\n      \"EMAIL-062\",\n      \"EMAIL-066\",\n      \"EMAIL-067\",\n      \"EMAIL-068\",\n      \"EMAIL-171\",\n      \"EMAIL-172\"\n    ],\n    \"Q11\": [],\n    \"Q12\": [\n      \"EMAIL-162\",\n      \"EMAIL-145\",\n      \"EMAIL-144\",\n      \"EMAIL-161\",\n      \"EMAIL-141\",\n      \"EMAIL-160\",\n      \"EMAIL-140\",\n      \"EMAIL-203\",\n      \"EMAIL-139\",\n      \"EMAIL-136\"\n    ]\n  }\n}",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 23510,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 23507
+        },
+        "output_tokens": 2340,
+        "output_tokens_details": {
+          "reasoning_tokens": 1511
+        },
+        "total_tokens": 25850
+      },
+      "tokens": {
+        "input": 23510,
+        "output": 2340
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0e1c9d774c027470016ac82806f76887d0945ae24c0ebf2ce1",
+      "routing_provider": null,
+      "latency_seconds": 38.5717,
+      "run_id": "20261008T233049Z-79021ced",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-INVENTORY-001",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6-astra",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2022-02\":2,\"2022-03\":3,\"2022-06\":1,\"2022-07\":1,\"2022-09\":4,\"2022-10\":3,\"2022-11\":3,\"2022-12\":1,\"2023-01\":2,\"2023-02\":4,\"2023-03\":3,\"2023-04\":1,\"2023-05\":1,\"2023-06\":14,\"2023-07\":18,\"2023-08\":13,\"2023-09\":1},\"Q02\":{\"cascadetimber.com\":32,\"llassociates.com\":10,\"bellhavenadvisory.com\":6,\"alderpointpartners.com\":19,\"irs.gov\":3,\"larsentaxadvisory.com\":2,\"greenacresurvey.com\":1,\"whitakerforensic.com\":2},\"Q03\":[\"EMAIL-021\",\"EMAIL-142\",\"EMAIL-159\",\"EMAIL-161\"],\"Q04\":[\"EMAIL-137\",\"EMAIL-139\"],\"Q05\":[\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-029\"],\"Q06\":[\"jellery@cascadetimber.com\",\"treyes@alderpointpartners.com\",\"glin@llassociates.com\",\"pshah@alderpointpartners.com\",\"snguyen@cascadetimber.com\"],\"Q07\":[\"EMAIL-029\",\"EMAIL-038\",\"EMAIL-041\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-129\"],\"Q09\":{\"cascadetimber.com -> llassociates.com\":1,\"cascadetimber.com -> larsentaxadvisory.com\":1,\"cascadetimber.com -> irs.gov\":2,\"llassociates.com -> cascadetimber.com\":2,\"llassociates.com -> whitakerforensic.com\":2,\"whitakerforensic.com -> llassociates.com\":2,\"larsentaxadvisory.com -> cascadetimber.com\":2,\"irs.gov -> cascadetimber.com\":3,\"bellhavenadvisory.com -> alderpointpartners.com\":3,\"alderpointpartners.com -> greenacresurvey.com\":1,\"greenacresurvey.com -> alderpointpartners.com\":1},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-060\",\"EMAIL-061\",\"EMAIL-062\",\"EMAIL-066\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-171\",\"EMAIL-172\"],\"Q11\":[],\"Q12\":[\"EMAIL-162\",\"EMAIL-145\",\"EMAIL-144\",\"EMAIL-161\",\"EMAIL-141\",\"EMAIL-160\",\"EMAIL-140\",\"EMAIL-203\",\"EMAIL-139\",\"EMAIL-136\"]}}",
+      "resolved_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 23510,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 23507
+        },
+        "output_tokens": 2453,
+        "output_tokens_details": {
+          "reasoning_tokens": 1869
+        },
+        "total_tokens": 25963
+      },
+      "tokens": {
+        "input": 23510,
+        "output": 2453
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0e673107ffed73b8016ac8282da35887d0a507765dffa96660",
+      "routing_provider": null,
+      "latency_seconds": 37.6765,
+      "run_id": "20261008T233049Z-79021ced",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-INVENTORY-001",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2022-02\":2,\"2022-03\":3,\"2022-06\":1,\"2022-07\":1,\"2022-09\":4,\"2022-10\":3,\"2022-11\":3,\"2022-12\":1,\"2023-01\":2,\"2023-02\":4,\"2023-03\":3,\"2023-04\":1,\"2023-05\":1,\"2023-06\":14,\"2023-07\":18,\"2023-08\":13,\"2023-09\":1},\"Q02\":{\"cascadetimber.com\":32,\"alderpointpartners.com\":19,\"llassociates.com\":10,\"bellhavenadvisory.com\":6,\"greenacresurvey.com\":1,\"whitakerforensic.com\":2,\"irs.gov\":3,\"larsentaxadvisory.com\":2},\"Q03\":[\"EMAIL-021\",\"EMAIL-142\",\"EMAIL-159\",\"EMAIL-161\"],\"Q04\":[\"EMAIL-137\",\"EMAIL-139\"],\"Q05\":[\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-029\"],\"Q06\":[\"jellery@cascadetimber.com\",\"treyes@alderpointpartners.com\",\"glin@llassociates.com\",\"pshah@alderpointpartners.com\",\"snguyen@cascadetimber.com\"],\"Q07\":[\"EMAIL-029\",\"EMAIL-038\",\"EMAIL-041\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-129\"],\"Q09\":{\"cascadetimber.com -> llassociates.com\":1,\"cascadetimber.com -> larsentaxadvisory.com\":1,\"cascadetimber.com -> irs.gov\":2,\"llassociates.com -> cascadetimber.com\":2,\"llassociates.com -> whitakerforensic.com\":2,\"alderpointpartners.com -> greenacresurvey.com\":1,\"greenacresurvey.com -> alderpointpartners.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":3,\"whitakerforensic.com -> llassociates.com\":2,\"irs.gov -> cascadetimber.com\":3,\"larsentaxadvisory.com -> cascadetimber.com\":2},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-060\",\"EMAIL-061\",\"EMAIL-062\",\"EMAIL-066\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-171\",\"EMAIL-172\"],\"Q11\":[],\"Q12\":[\"EMAIL-162\",\"EMAIL-145\",\"EMAIL-144\",\"EMAIL-161\",\"EMAIL-141\",\"EMAIL-160\",\"EMAIL-140\",\"EMAIL-203\",\"EMAIL-139\",\"EMAIL-136\"]}}",
+      "resolved_model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 23510,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 23507
+        },
+        "output_tokens": 2654,
+        "output_tokens_details": {
+          "reasoning_tokens": 2070
+        },
+        "total_tokens": 26164
+      },
+      "tokens": {
+        "input": 23510,
+        "output": 2654
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0433b10e9caaa595016ac82853394c87d096c5c1bdb2be964a",
+      "routing_provider": null,
+      "latency_seconds": 30.1123,
+      "run_id": "20261008T233049Z-79021ced",
+      "max_output_tokens": 6000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.0,
+        "success": false,
+        "failure_codes": [
+          "INVALID_OUTPUT"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0"
+      },
+      "cost_usd": null,
+      "completion": "",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 82228,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8000,
+        "output_tokens_details": {
+          "reasoning_tokens": 8000
+        },
+        "total_tokens": 90231
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 8000
+      },
+      "stop_reason": "incomplete",
+      "response_id": "resp_06b163a9537425d1016ac8280deb6087d0aca64545e17ffcf0",
+      "routing_provider": null,
+      "latency_seconds": 165.8757,
+      "run_id": "20261008T233229Z-af164866",
+      "max_output_tokens": 8000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.8771260919579505,
+        "success": false,
+        "failure_codes": [
+          "RECONCILIATION_ERRORS"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 0.5,
+          "Q02": 0.8571428571428571,
+          "Q03": 0.9734513274336283,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 0.4,
+          "Q07": 0.976,
+          "Q08": 0.918918918918919,
+          "Q09": 0.9,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2021-11\":3,\"2021-12\":5,\"2022-01\":4,\"2022-02\":6,\"2022-03\":7,\"2022-04\":5,\"2022-05\":5,\"2022-06\":11,\"2022-07\":9,\"2022-08\":10,\"2022-09\":8,\"2022-10\":15,\"2022-11\":9,\"2022-12\":10,\"2023-01\":11,\"2023-02\":10,\"2023-03\":16,\"2023-04\":12,\"2023-05\":16,\"2023-06\":24,\"2023-07\":29,\"2023-08\":27,\"2023-09\":9,\"2023-10\":11,\"2023-11\":9,\"2023-12\":9},\"Q02\":{\"alderpointpartners.com\":76,\"bellhavenadvisory.com\":20,\"bluerivercap.com\":2,\"cascadetimber.com\":107,\"cppension.org\":3,\"greenacresurvey.com\":4,\"irs.gov\":3,\"larsentaxadvisory.com\":13,\"llassociates.com\":18,\"mosslane-cpa.com\":9,\"northforkef.com\":1,\"northstar-comms.com\":4,\"whitakerforensic.com\":3,\"willamettefh.com\":1},\"Q03\":[\"EMAIL-021\",\"EMAIL-056\",\"EMAIL-142\",\"EMAIL-148\",\"EMAIL-159\",\"EMAIL-161\",\"EMAIL-191\",\"EMAIL-321\",\"EMAIL-338\",\"EMAIL-350\",\"EMAIL-355\",\"EMAIL-385\",\"EMAIL-463\",\"EMAIL-481\",\"EMAIL-492\",\"EMAIL-507\",\"EMAIL-517\",\"EMAIL-558\",\"EMAIL-563\",\"EMAIL-567\",\"EMAIL-708\",\"EMAIL-725\",\"EMAIL-731\",\"EMAIL-752\",\"EMAIL-775\",\"EMAIL-855\",\"EMAIL-867\",\"EMAIL-875\",\"EMAIL-918\",\"EMAIL-925\",\"EMAIL-939\",\"EMAIL-969\",\"EMAIL-981\",\"EMAIL-993\",\"EMAIL-1018\",\"EMAIL-1022\",\"EMAIL-1034\",\"EMAIL-1070\",\"EMAIL-1083\",\"EMAIL-1105\",\"EMAIL-1111\",\"EMAIL-1117\",\"EMAIL-1121\",\"EMAIL-1126\",\"EMAIL-1153\",\"EMAIL-1167\",\"EMAIL-1170\",\"EMAIL-1174\",\"EMAIL-1272\",\"EMAIL-1327\",\"EMAIL-1374\",\"EMAIL-1377\",\"EMAIL-1386\",\"EMAIL-1446\",\"EMAIL-1469\",\"EMAIL-1473\"],\"Q04\":[\"EMAIL-137\",\"EMAIL-139\",\"EMAIL-398\"],\"Q05\":[\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-029\",\"EMAIL-398\",\"EMAIL-770\",\"EMAIL-1217\"],\"Q06\":[\"treyes@alderpointpartners.com\",\"jellery@cascadetimber.com\",\"rdenniston@cascadetimber.com\",\"jwhitfield@alderpointpartners.com\",\"snguyen@cascadetimber.com\"],\"Q07\":[\"EMAIL-016\",\"EMAIL-029\",\"EMAIL-038\",\"EMAIL-041\",\"EMAIL-273\",\"EMAIL-288\",\"EMAIL-291\",\"EMAIL-292\",\"EMAIL-307\",\"EMAIL-321\",\"EMAIL-334\",\"EMAIL-344\",\"EMAIL-353\",\"EMAIL-355\",\"EMAIL-360\",\"EMAIL-443\",\"EMAIL-477\",\"EMAIL-481\",\"EMAIL-487\",\"EMAIL-492\",\"EMAIL-517\",\"EMAIL-529\",\"EMAIL-553\",\"EMAIL-558\",\"EMAIL-563\",\"EMAIL-567\",\"EMAIL-667\",\"EMAIL-675\",\"EMAIL-708\",\"EMAIL-727\",\"EMAIL-728\",\"EMAIL-756\",\"EMAIL-770\",\"EMAIL-795\",\"EMAIL-868\",\"EMAIL-918\",\"EMAIL-939\",\"EMAIL-944\",\"EMAIL-950\",\"EMAIL-957\",\"EMAIL-965\",\"EMAIL-968\",\"EMAIL-1022\",\"EMAIL-1070\",\"EMAIL-1078\",\"EMAIL-1121\",\"EMAIL-1165\",\"EMAIL-1167\",\"EMAIL-1169\",\"EMAIL-1170\",\"EMAIL-1178\",\"EMAIL-1206\",\"EMAIL-1309\",\"EMAIL-1327\",\"EMAIL-1329\",\"EMAIL-1338\",\"EMAIL-1357\",\"EMAIL-1377\",\"EMAIL-1382\",\"EMAIL-1384\",\"EMAIL-1391\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-060\",\"EMAIL-129\",\"EMAIL-193\",\"EMAIL-467\",\"EMAIL-487\",\"EMAIL-493\",\"EMAIL-517\",\"EMAIL-563\",\"EMAIL-634\",\"EMAIL-639\",\"EMAIL-752\",\"EMAIL-819\",\"EMAIL-1070\",\"EMAIL-1083\",\"EMAIL-1174\",\"EMAIL-1329\"],\"Q09\":{\"alderpointpartners.com -> bellhavenadvisory.com\":6,\"alderpointpartners.com -> cascadetimber.com\":16,\"alderpointpartners.com -> cppension.org\":1,\"alderpointpartners.com -> greenacresurvey.com\":4,\"alderpointpartners.com -> llassociates.com\":1,\"alderpointpartners.com -> northforkef.com\":2,\"alderpointpartners.com -> whitakerforensic.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":11,\"bellhavenadvisory.com -> bluerivercap.com\":3,\"bellhavenadvisory.com -> cascadetimber.com\":2,\"bellhavenadvisory.com -> willamettefh.com\":1,\"bluerivercap.com -> bellhavenadvisory.com\":1,\"bluerivercap.com -> northforkef.com\":1,\"cascadetimber.com -> alderpointpartners.com\":23,\"cascadetimber.com -> greenacresurvey.com\":1,\"cascadetimber.com -> irs.gov\":6,\"cascadetimber.com -> larsentaxadvisory.com\":2,\"cascadetimber.com -> llassociates.com\":11,\"cascadetimber.com -> mosslane-cpa.com\":14,\"cascadetimber.com -> northstar-comms.com\":3,\"cascadetimber.com -> whitakerforensic.com\":1,\"cppension.org -> alderpointpartners.com\":2,\"cppension.org -> bellhavenadvisory.com\":1,\"cppension.org -> northforkef.com\":1,\"greenacresurvey.com -> alderpointpartners.com\":4,\"irs.gov -> cascadetimber.com\":3,\"larsentaxadvisory.com -> alderpointpartners.com\":1,\"larsentaxadvisory.com -> cascadetimber.com\":8,\"larsentaxadvisory.com -> mosslane-cpa.com\":6,\"llassociates.com -> alderpointpartners.com\":1,\"llassociates.com -> cascadetimber.com\":7,\"llassociates.com -> whitakerforensic.com\":2,\"mosslane-cpa.com -> cascadetimber.com\":6,\"mosslane-cpa.com -> larsentaxadvisory.com\":1,\"mosslane-cpa.com -> whitakerforensic.com\":1,\"northforkef.com -> bellhavenadvisory.com\":1,\"northforkef.com -> cppension.org\":1,\"northstar-comms.com -> cascadetimber.com\":4,\"whitakerforensic.com -> llassociates.com\":3,\"willamettefh.com -> bluerivercap.com\":1},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-060\",\"EMAIL-061\",\"EMAIL-062\",\"EMAIL-066\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-171\",\"EMAIL-172\",\"EMAIL-227\",\"EMAIL-1071\",\"EMAIL-1470\",\"EMAIL-1471\",\"EMAIL-1472\"],\"Q11\":[],\"Q12\":[\"EMAIL-1271\",\"EMAIL-746\",\"EMAIL-1365\",\"EMAIL-1316\",\"EMAIL-342\",\"EMAIL-731\",\"EMAIL-924\",\"EMAIL-567\",\"EMAIL-950\",\"EMAIL-353\"]}}",
+      "resolved_model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 82228,
+          "cached_tokens": 0
+        },
+        "output_tokens": 9984,
+        "output_tokens_details": {
+          "reasoning_tokens": 8300
+        },
+        "total_tokens": 92215
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 9984
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_08f2f6434cee7d80016ac828e60dac87d09c2e97d6b0954caf",
+      "routing_provider": null,
+      "latency_seconds": 87.7785,
+      "run_id": "20261008T233605Z-59218dd6",
+      "max_output_tokens": 24000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.0,
+        "success": false,
+        "failure_codes": [
+          "INVALID_OUTPUT"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0"
+      },
+      "cost_usd": null,
+      "completion": "",
+      "resolved_model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 82228
+        },
+        "output_tokens": 24000,
+        "output_tokens_details": {
+          "reasoning_tokens": 24000
+        },
+        "total_tokens": 106231
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 24000
+      },
+      "stop_reason": "incomplete",
+      "response_id": "resp_0ca8aa34217b8db6016ac8293de1c087d08ef14638f22ba742",
+      "routing_provider": null,
+      "latency_seconds": 153.1963,
+      "run_id": "20261008T233605Z-59218dd6",
+      "max_output_tokens": 24000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6-astra",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9993438320209974,
+        "success": false,
+        "failure_codes": [
+          "RECONCILIATION_ERRORS"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 0.9921259842519685,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2021-11\":3,\"2021-12\":5,\"2022-01\":4,\"2022-02\":6,\"2022-03\":7,\"2022-04\":5,\"2022-05\":5,\"2022-06\":11,\"2022-07\":9,\"2022-08\":9,\"2022-09\":8,\"2022-10\":16,\"2022-11\":10,\"2022-12\":8,\"2023-01\":12,\"2023-02\":9,\"2023-03\":16,\"2023-04\":11,\"2023-05\":14,\"2023-06\":29,\"2023-07\":36,\"2023-08\":32,\"2023-09\":8,\"2023-10\":9,\"2023-11\":9,\"2023-12\":9},\"Q02\":{\"cascadetimber.com\":126,\"alderpointpartners.com\":93,\"bellhavenadvisory.com\":20,\"llassociates.com\":18,\"larsentaxadvisory.com\":13,\"mosslane-cpa.com\":9,\"northstar-comms.com\":4,\"greenacresurvey.com\":4,\"whitakerforensic.com\":3,\"irs.gov\":3,\"bluerivercap.com\":2,\"willamettefh.com\":1,\"cppension.org\":3,\"northforkef.com\":1},\"Q03\":[\"EMAIL-021\",\"EMAIL-1111\",\"EMAIL-1473\",\"EMAIL-1018\",\"EMAIL-1153\",\"EMAIL-1174\",\"EMAIL-159\",\"EMAIL-161\",\"EMAIL-1170\",\"EMAIL-1167\",\"EMAIL-1105\",\"EMAIL-1022\",\"EMAIL-056\",\"EMAIL-867\",\"EMAIL-517\",\"EMAIL-558\",\"EMAIL-481\",\"EMAIL-567\",\"EMAIL-563\",\"EMAIL-492\",\"EMAIL-463\",\"EMAIL-507\",\"EMAIL-924\",\"EMAIL-1446\",\"EMAIL-918\",\"EMAIL-191\",\"EMAIL-969\",\"EMAIL-775\",\"EMAIL-1034\",\"EMAIL-925\",\"EMAIL-981\",\"EMAIL-752\",\"EMAIL-993\",\"EMAIL-875\",\"EMAIL-1469\",\"EMAIL-939\",\"EMAIL-1377\",\"EMAIL-142\",\"EMAIL-1468\",\"EMAIL-1327\",\"EMAIL-1126\",\"EMAIL-1083\",\"EMAIL-1121\",\"EMAIL-1117\",\"EMAIL-1374\",\"EMAIL-1070\",\"EMAIL-731\",\"EMAIL-725\",\"EMAIL-148\",\"EMAIL-708\",\"EMAIL-855\",\"EMAIL-338\",\"EMAIL-385\",\"EMAIL-355\",\"EMAIL-350\",\"EMAIL-1386\",\"EMAIL-1272\"],\"Q04\":[\"EMAIL-398\",\"EMAIL-139\",\"EMAIL-137\"],\"Q05\":[\"EMAIL-770\",\"EMAIL-029\",\"EMAIL-398\",\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-1217\"],\"Q06\":[\"treyes@alderpointpartners.com\",\"jellery@cascadetimber.com\",\"jwhitfield@alderpointpartners.com\",\"rdenniston@cascadetimber.com\",\"pshah@alderpointpartners.com\"],\"Q07\":[\"EMAIL-770\",\"EMAIL-1327\",\"EMAIL-756\",\"EMAIL-029\",\"EMAIL-344\",\"EMAIL-918\",\"EMAIL-1338\",\"EMAIL-360\",\"EMAIL-038\",\"EMAIL-939\",\"EMAIL-1111\",\"EMAIL-727\",\"EMAIL-1391\",\"EMAIL-517\",\"EMAIL-1329\",\"EMAIL-443\",\"EMAIL-307\",\"EMAIL-041\",\"EMAIL-558\",\"EMAIL-288\",\"EMAIL-675\",\"EMAIL-481\",\"EMAIL-957\",\"EMAIL-355\",\"EMAIL-775\",\"EMAIL-567\",\"EMAIL-1206\",\"EMAIL-563\",\"EMAIL-1377\",\"EMAIL-292\",\"EMAIL-1384\",\"EMAIL-728\",\"EMAIL-273\",\"EMAIL-321\",\"EMAIL-1178\",\"EMAIL-944\",\"EMAIL-1121\",\"EMAIL-291\",\"EMAIL-1170\",\"EMAIL-334\",\"EMAIL-1167\",\"EMAIL-1022\",\"EMAIL-950\",\"EMAIL-1169\",\"EMAIL-492\",\"EMAIL-708\",\"EMAIL-353\",\"EMAIL-868\",\"EMAIL-965\",\"EMAIL-1357\",\"EMAIL-667\",\"EMAIL-477\",\"EMAIL-1382\",\"EMAIL-1078\",\"EMAIL-795\",\"EMAIL-487\",\"EMAIL-553\",\"EMAIL-968\",\"EMAIL-1309\",\"EMAIL-529\",\"EMAIL-1070\",\"EMAIL-016\",\"EMAIL-1165\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-193\",\"EMAIL-129\",\"EMAIL-517\",\"EMAIL-1329\",\"EMAIL-307\",\"EMAIL-639\",\"EMAIL-1083\",\"EMAIL-563\",\"EMAIL-1174\",\"EMAIL-1121\",\"EMAIL-634\",\"EMAIL-819\",\"EMAIL-752\",\"EMAIL-467\",\"EMAIL-487\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-493\",\"EMAIL-1070\"],\"Q09\":{\"cascadetimber.com -> alderpointpartners.com\":20,\"cascadetimber.com -> llassociates.com\":12,\"cascadetimber.com -> irs.gov\":6,\"cascadetimber.com -> mosslane-cpa.com\":13,\"cascadetimber.com -> whitakerforensic.com\":1,\"cascadetimber.com -> larsentaxadvisory.com\":2,\"cascadetimber.com -> northstar-comms.com\":3,\"cascadetimber.com -> greenacresurvey.com\":1,\"alderpointpartners.com -> greenacresurvey.com\":4,\"alderpointpartners.com -> llassociates.com\":1,\"alderpointpartners.com -> bellhavenadvisory.com\":6,\"alderpointpartners.com -> cascadetimber.com\":17,\"alderpointpartners.com -> whitakerforensic.com\":1,\"alderpointpartners.com -> cppension.org\":1,\"alderpointpartners.com -> northforkef.com\":2,\"bellhavenadvisory.com -> bluerivercap.com\":3,\"bellhavenadvisory.com -> willamettefh.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":11,\"bellhavenadvisory.com -> cascadetimber.com\":2,\"llassociates.com -> alderpointpartners.com\":1,\"llassociates.com -> whitakerforensic.com\":2,\"llassociates.com -> cascadetimber.com\":7,\"larsentaxadvisory.com -> cascadetimber.com\":8,\"larsentaxadvisory.com -> mosslane-cpa.com\":6,\"larsentaxadvisory.com -> alderpointpartners.com\":1,\"mosslane-cpa.com -> cascadetimber.com\":6,\"mosslane-cpa.com -> larsentaxadvisory.com\":1,\"mosslane-cpa.com -> whitakerforensic.com\":1,\"northstar-comms.com -> cascadetimber.com\":4,\"greenacresurvey.com -> alderpointpartners.com\":4,\"whitakerforensic.com -> llassociates.com\":3,\"irs.gov -> cascadetimber.com\":3,\"bluerivercap.com -> bellhavenadvisory.com\":1,\"bluerivercap.com -> northforkef.com\":1,\"willamettefh.com -> bluerivercap.com\":1,\"cppension.org -> bellhavenadvisory.com\":1,\"cppension.org -> alderpointpartners.com\":2,\"cppension.org -> northforkef.com\":1,\"northforkef.com -> cppension.org\":1,\"northforkef.com -> bellhavenadvisory.com\":1},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-227\",\"EMAIL-062\",\"EMAIL-1470\",\"EMAIL-061\",\"EMAIL-066\",\"EMAIL-1471\",\"EMAIL-171\",\"EMAIL-067\",\"EMAIL-1071\",\"EMAIL-172\",\"EMAIL-068\",\"EMAIL-060\",\"EMAIL-1472\"],\"Q11\":[],\"Q12\":[\"EMAIL-1271\",\"EMAIL-746\",\"EMAIL-1365\",\"EMAIL-1316\",\"EMAIL-342\",\"EMAIL-731\",\"EMAIL-924\",\"EMAIL-567\",\"EMAIL-950\",\"EMAIL-353\"]}}",
+      "resolved_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 82228
+        },
+        "output_tokens": 9478,
+        "output_tokens_details": {
+          "reasoning_tokens": 7768
+        },
+        "total_tokens": 91709
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 9478
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0ec855cd83ba085c016ac828e66b9887d0ae033b182ef097c2",
+      "routing_provider": null,
+      "latency_seconds": 155.5124,
+      "run_id": "20261008T233605Z-8fa3cc91",
+      "max_output_tokens": 24000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6-astra",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 1.0,
+        "success": true,
+        "failure_codes": [],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 1.0,
+          "Q08": 1.0,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\n  \"answers\": {\n    \"Q01\": {\n      \"2021-11\": 3,\n      \"2021-12\": 5,\n      \"2022-01\": 4,\n      \"2022-02\": 6,\n      \"2022-03\": 7,\n      \"2022-04\": 5,\n      \"2022-05\": 5,\n      \"2022-06\": 11,\n      \"2022-07\": 9,\n      \"2022-08\": 9,\n      \"2022-09\": 8,\n      \"2022-10\": 16,\n      \"2022-11\": 10,\n      \"2022-12\": 8,\n      \"2023-01\": 12,\n      \"2023-02\": 9,\n      \"2023-03\": 16,\n      \"2023-04\": 11,\n      \"2023-05\": 14,\n      \"2023-06\": 29,\n      \"2023-07\": 36,\n      \"2023-08\": 32,\n      \"2023-09\": 8,\n      \"2023-10\": 9,\n      \"2023-11\": 9,\n      \"2023-12\": 9\n    },\n    \"Q02\": {\n      \"cascadetimber.com\": 126,\n      \"alderpointpartners.com\": 93,\n      \"bellhavenadvisory.com\": 20,\n      \"llassociates.com\": 18,\n      \"larsentaxadvisory.com\": 13,\n      \"mosslane-cpa.com\": 9,\n      \"greenacresurvey.com\": 4,\n      \"northstar-comms.com\": 4,\n      \"irs.gov\": 3,\n      \"whitakerforensic.com\": 3,\n      \"bluerivercap.com\": 2,\n      \"willamettefh.com\": 1,\n      \"cppension.org\": 3,\n      \"northforkef.com\": 1\n    },\n    \"Q03\": [\n      \"EMAIL-1327\",\n      \"EMAIL-1386\",\n      \"EMAIL-338\",\n      \"EMAIL-385\",\n      \"EMAIL-191\",\n      \"EMAIL-1153\",\n      \"EMAIL-355\",\n      \"EMAIL-1272\",\n      \"EMAIL-775\",\n      \"EMAIL-855\",\n      \"EMAIL-1377\",\n      \"EMAIL-1174\",\n      \"EMAIL-1170\",\n      \"EMAIL-1167\",\n      \"EMAIL-708\",\n      \"EMAIL-507\",\n      \"EMAIL-752\",\n      \"EMAIL-1446\",\n      \"EMAIL-867\",\n      \"EMAIL-1374\",\n      \"EMAIL-918\",\n      \"EMAIL-939\",\n      \"EMAIL-517\",\n      \"EMAIL-558\",\n      \"EMAIL-969\",\n      \"EMAIL-481\",\n      \"EMAIL-567\",\n      \"EMAIL-993\",\n      \"EMAIL-925\",\n      \"EMAIL-463\",\n      \"EMAIL-981\",\n      \"EMAIL-924\",\n      \"EMAIL-021\",\n      \"EMAIL-1469\",\n      \"EMAIL-1473\",\n      \"EMAIL-1018\",\n      \"EMAIL-1083\",\n      \"EMAIL-1034\",\n      \"EMAIL-1121\",\n      \"EMAIL-1105\",\n      \"EMAIL-1022\",\n      \"EMAIL-875\",\n      \"EMAIL-1468\",\n      \"EMAIL-1117\",\n      \"EMAIL-1111\",\n      \"EMAIL-1126\",\n      \"EMAIL-159\",\n      \"EMAIL-161\",\n      \"EMAIL-056\",\n      \"EMAIL-1070\",\n      \"EMAIL-731\",\n      \"EMAIL-725\",\n      \"EMAIL-148\",\n      \"EMAIL-142\",\n      \"EMAIL-492\",\n      \"EMAIL-350\",\n      \"EMAIL-563\"\n    ],\n    \"Q04\": [\n      \"EMAIL-398\",\n      \"EMAIL-139\",\n      \"EMAIL-137\"\n    ],\n    \"Q05\": [\n      \"EMAIL-770\",\n      \"EMAIL-029\",\n      \"EMAIL-398\",\n      \"EMAIL-025\",\n      \"EMAIL-028\",\n      \"EMAIL-1217\"\n    ],\n    \"Q06\": [\n      \"treyes@alderpointpartners.com\",\n      \"jellery@cascadetimber.com\",\n      \"jwhitfield@alderpointpartners.com\",\n      \"rdenniston@cascadetimber.com\",\n      \"pshah@alderpointpartners.com\"\n    ],\n    \"Q07\": [\n      \"EMAIL-770\",\n      \"EMAIL-1327\",\n      \"EMAIL-756\",\n      \"EMAIL-029\",\n      \"EMAIL-344\",\n      \"EMAIL-918\",\n      \"EMAIL-1338\",\n      \"EMAIL-360\",\n      \"EMAIL-038\",\n      \"EMAIL-939\",\n      \"EMAIL-1111\",\n      \"EMAIL-727\",\n      \"EMAIL-1391\",\n      \"EMAIL-517\",\n      \"EMAIL-1329\",\n      \"EMAIL-443\",\n      \"EMAIL-307\",\n      \"EMAIL-041\",\n      \"EMAIL-558\",\n      \"EMAIL-288\",\n      \"EMAIL-675\",\n      \"EMAIL-481\",\n      \"EMAIL-957\",\n      \"EMAIL-355\",\n      \"EMAIL-775\",\n      \"EMAIL-567\",\n      \"EMAIL-1206\",\n      \"EMAIL-563\",\n      \"EMAIL-1377\",\n      \"EMAIL-292\",\n      \"EMAIL-1384\",\n      \"EMAIL-728\",\n      \"EMAIL-273\",\n      \"EMAIL-321\",\n      \"EMAIL-1178\",\n      \"EMAIL-944\",\n      \"EMAIL-1121\",\n      \"EMAIL-291\",\n      \"EMAIL-1170\",\n      \"EMAIL-334\",\n      \"EMAIL-1167\",\n      \"EMAIL-1022\",\n      \"EMAIL-950\",\n      \"EMAIL-1169\",\n      \"EMAIL-492\",\n      \"EMAIL-708\",\n      \"EMAIL-353\",\n      \"EMAIL-868\",\n      \"EMAIL-794\",\n      \"EMAIL-965\",\n      \"EMAIL-1357\",\n      \"EMAIL-667\",\n      \"EMAIL-477\",\n      \"EMAIL-1382\",\n      \"EMAIL-1078\",\n      \"EMAIL-795\",\n      \"EMAIL-487\",\n      \"EMAIL-553\",\n      \"EMAIL-968\",\n      \"EMAIL-1309\",\n      \"EMAIL-529\",\n      \"EMAIL-1070\",\n      \"EMAIL-016\",\n      \"EMAIL-1165\"\n    ],\n    \"Q08\": [\n      \"EMAIL-024\",\n      \"EMAIL-193\",\n      \"EMAIL-129\",\n      \"EMAIL-517\",\n      \"EMAIL-1329\",\n      \"EMAIL-307\",\n      \"EMAIL-639\",\n      \"EMAIL-1083\",\n      \"EMAIL-563\",\n      \"EMAIL-1174\",\n      \"EMAIL-1121\",\n      \"EMAIL-634\",\n      \"EMAIL-819\",\n      \"EMAIL-752\",\n      \"EMAIL-467\",\n      \"EMAIL-487\",\n      \"EMAIL-046\",\n      \"EMAIL-060\",\n      \"EMAIL-493\",\n      \"EMAIL-1070\"\n    ],\n    \"Q09\": {\n      \"cascadetimber.com -> alderpointpartners.com\": 20,\n      \"cascadetimber.com -> mosslane-cpa.com\": 13,\n      \"cascadetimber.com -> llassociates.com\": 12,\n      \"cascadetimber.com -> irs.gov\": 6,\n      \"cascadetimber.com -> northstar-comms.com\": 3,\n      \"cascadetimber.com -> larsentaxadvisory.com\": 2,\n      \"cascadetimber.com -> greenacresurvey.com\": 1,\n      \"cascadetimber.com -> whitakerforensic.com\": 1,\n      \"alderpointpartners.com -> bellhavenadvisory.com\": 6,\n      \"alderpointpartners.com -> greenacresurvey.com\": 4,\n      \"alderpointpartners.com -> llassociates.com\": 1,\n      \"alderpointpartners.com -> cascadetimber.com\": 17,\n      \"alderpointpartners.com -> whitakerforensic.com\": 1,\n      \"alderpointpartners.com -> northforkef.com\": 2,\n      \"alderpointpartners.com -> cppension.org\": 1,\n      \"bellhavenadvisory.com -> bluerivercap.com\": 3,\n      \"bellhavenadvisory.com -> willamettefh.com\": 1,\n      \"bellhavenadvisory.com -> alderpointpartners.com\": 11,\n      \"bellhavenadvisory.com -> cascadetimber.com\": 2,\n      \"llassociates.com -> cascadetimber.com\": 7,\n      \"llassociates.com -> alderpointpartners.com\": 1,\n      \"llassociates.com -> whitakerforensic.com\": 2,\n      \"larsentaxadvisory.com -> cascadetimber.com\": 8,\n      \"larsentaxadvisory.com -> mosslane-cpa.com\": 6,\n      \"larsentaxadvisory.com -> alderpointpartners.com\": 1,\n      \"mosslane-cpa.com -> cascadetimber.com\": 6,\n      \"mosslane-cpa.com -> larsentaxadvisory.com\": 1,\n      \"mosslane-cpa.com -> whitakerforensic.com\": 1,\n      \"greenacresurvey.com -> alderpointpartners.com\": 4,\n      \"northstar-comms.com -> cascadetimber.com\": 4,\n      \"irs.gov -> cascadetimber.com\": 3,\n      \"whitakerforensic.com -> llassociates.com\": 3,\n      \"bluerivercap.com -> bellhavenadvisory.com\": 1,\n      \"bluerivercap.com -> northforkef.com\": 1,\n      \"willamettefh.com -> bluerivercap.com\": 1,\n      \"cppension.org -> bellhavenadvisory.com\": 1,\n      \"cppension.org -> alderpointpartners.com\": 2,\n      \"cppension.org -> northforkef.com\": 1,\n      \"northforkef.com -> cppension.org\": 1,\n      \"northforkef.com -> bellhavenadvisory.com\": 1\n    },\n    \"Q10\": [\n      \"EMAIL-024\",\n      \"EMAIL-026\",\n      \"EMAIL-227\",\n      \"EMAIL-062\",\n      \"EMAIL-1470\",\n      \"EMAIL-061\",\n      \"EMAIL-066\",\n      \"EMAIL-1471\",\n      \"EMAIL-171\",\n      \"EMAIL-067\",\n      \"EMAIL-1071\",\n      \"EMAIL-172\",\n      \"EMAIL-068\",\n      \"EMAIL-060\",\n      \"EMAIL-1472\"\n    ],\n    \"Q11\": [],\n    \"Q12\": [\n      \"EMAIL-1271\",\n      \"EMAIL-746\",\n      \"EMAIL-1365\",\n      \"EMAIL-1316\",\n      \"EMAIL-342\",\n      \"EMAIL-731\",\n      \"EMAIL-924\",\n      \"EMAIL-567\",\n      \"EMAIL-950\",\n      \"EMAIL-353\"\n    ]\n  }\n}",
+      "resolved_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 82228
+        },
+        "output_tokens": 10031,
+        "output_tokens_details": {
+          "reasoning_tokens": 7662
+        },
+        "total_tokens": 92262
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 10031
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0332e127ccf069cf016ac82981a16087d094afe234984e2841",
+      "routing_provider": null,
+      "latency_seconds": 156.3709,
+      "run_id": "20261008T233605Z-8fa3cc91",
+      "max_output_tokens": 24000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 1,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.9959166666666667,
+        "success": false,
+        "failure_codes": [
+          "RECONCILIATION_ERRORS"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 0.976,
+          "Q08": 1.0,
+          "Q09": 0.975,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2021-11\":3,\"2021-12\":5,\"2022-01\":4,\"2022-02\":6,\"2022-03\":7,\"2022-04\":5,\"2022-05\":5,\"2022-06\":11,\"2022-07\":9,\"2022-08\":9,\"2022-09\":8,\"2022-10\":16,\"2022-11\":10,\"2022-12\":8,\"2023-01\":12,\"2023-02\":9,\"2023-03\":16,\"2023-04\":11,\"2023-05\":14,\"2023-06\":29,\"2023-07\":36,\"2023-08\":32,\"2023-09\":8,\"2023-10\":9,\"2023-11\":9,\"2023-12\":9},\"Q02\":{\"cascadetimber.com\":126,\"alderpointpartners.com\":93,\"bellhavenadvisory.com\":20,\"llassociates.com\":18,\"larsentaxadvisory.com\":13,\"mosslane-cpa.com\":9,\"greenacresurvey.com\":4,\"northstar-comms.com\":4,\"whitakerforensic.com\":3,\"irs.gov\":3,\"bluerivercap.com\":2,\"willamettefh.com\":1,\"cppension.org\":3,\"northforkef.com\":1},\"Q03\":[\"EMAIL-1327\",\"EMAIL-1386\",\"EMAIL-338\",\"EMAIL-385\",\"EMAIL-191\",\"EMAIL-1153\",\"EMAIL-355\",\"EMAIL-1272\",\"EMAIL-775\",\"EMAIL-855\",\"EMAIL-1377\",\"EMAIL-1174\",\"EMAIL-1170\",\"EMAIL-1167\",\"EMAIL-708\",\"EMAIL-507\",\"EMAIL-752\",\"EMAIL-1446\",\"EMAIL-867\",\"EMAIL-1374\",\"EMAIL-918\",\"EMAIL-939\",\"EMAIL-517\",\"EMAIL-558\",\"EMAIL-969\",\"EMAIL-481\",\"EMAIL-567\",\"EMAIL-993\",\"EMAIL-925\",\"EMAIL-463\",\"EMAIL-981\",\"EMAIL-924\",\"EMAIL-021\",\"EMAIL-1469\",\"EMAIL-1473\",\"EMAIL-1018\",\"EMAIL-1083\",\"EMAIL-1034\",\"EMAIL-1121\",\"EMAIL-1105\",\"EMAIL-1022\",\"EMAIL-875\",\"EMAIL-1468\",\"EMAIL-1117\",\"EMAIL-1111\",\"EMAIL-1126\",\"EMAIL-159\",\"EMAIL-161\",\"EMAIL-056\",\"EMAIL-1070\",\"EMAIL-731\",\"EMAIL-725\",\"EMAIL-148\",\"EMAIL-563\",\"EMAIL-350\",\"EMAIL-142\",\"EMAIL-492\"],\"Q04\":[\"EMAIL-398\",\"EMAIL-139\",\"EMAIL-137\"],\"Q05\":[\"EMAIL-770\",\"EMAIL-029\",\"EMAIL-398\",\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-1217\"],\"Q06\":[\"treyes@alderpointpartners.com\",\"jellery@cascadetimber.com\",\"jwhitfield@alderpointpartners.com\",\"rdenniston@cascadetimber.com\",\"pshah@alderpointpartners.com\"],\"Q07\":[\"EMAIL-770\",\"EMAIL-1327\",\"EMAIL-756\",\"EMAIL-029\",\"EMAIL-344\",\"EMAIL-918\",\"EMAIL-1338\",\"EMAIL-360\",\"EMAIL-038\",\"EMAIL-939\",\"EMAIL-1111\",\"EMAIL-727\",\"EMAIL-1391\",\"EMAIL-517\",\"EMAIL-1329\",\"EMAIL-443\",\"EMAIL-307\",\"EMAIL-558\",\"EMAIL-288\",\"EMAIL-675\",\"EMAIL-481\",\"EMAIL-957\",\"EMAIL-355\",\"EMAIL-567\",\"EMAIL-1206\",\"EMAIL-563\",\"EMAIL-1377\",\"EMAIL-292\",\"EMAIL-1384\",\"EMAIL-728\",\"EMAIL-273\",\"EMAIL-321\",\"EMAIL-1178\",\"EMAIL-944\",\"EMAIL-1121\",\"EMAIL-291\",\"EMAIL-1170\",\"EMAIL-334\",\"EMAIL-1167\",\"EMAIL-1022\",\"EMAIL-950\",\"EMAIL-1169\",\"EMAIL-492\",\"EMAIL-708\",\"EMAIL-353\",\"EMAIL-868\",\"EMAIL-965\",\"EMAIL-1357\",\"EMAIL-667\",\"EMAIL-477\",\"EMAIL-1382\",\"EMAIL-1078\",\"EMAIL-795\",\"EMAIL-487\",\"EMAIL-553\",\"EMAIL-968\",\"EMAIL-1309\",\"EMAIL-529\",\"EMAIL-1070\",\"EMAIL-016\",\"EMAIL-1165\"],\"Q08\":[\"EMAIL-024\",\"EMAIL-193\",\"EMAIL-129\",\"EMAIL-517\",\"EMAIL-1329\",\"EMAIL-307\",\"EMAIL-639\",\"EMAIL-1083\",\"EMAIL-563\",\"EMAIL-1174\",\"EMAIL-1121\",\"EMAIL-634\",\"EMAIL-819\",\"EMAIL-752\",\"EMAIL-467\",\"EMAIL-487\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-493\",\"EMAIL-1070\"],\"Q09\":{\"cascadetimber.com -> alderpointpartners.com\":20,\"cascadetimber.com -> mosslane-cpa.com\":13,\"cascadetimber.com -> llassociates.com\":12,\"cascadetimber.com -> irs.gov\":6,\"cascadetimber.com -> northstar-comms.com\":3,\"cascadetimber.com -> whitakerforensic.com\":1,\"cascadetimber.com -> greenacresurvey.com\":1,\"cascadetimber.com -> larsentaxadvisory.com\":2,\"alderpointpartners.com -> bellhavenadvisory.com\":6,\"alderpointpartners.com -> cascadetimber.com\":16,\"alderpointpartners.com -> greenacresurvey.com\":4,\"alderpointpartners.com -> llassociates.com\":1,\"alderpointpartners.com -> whitakerforensic.com\":1,\"alderpointpartners.com -> northforkef.com\":2,\"alderpointpartners.com -> cppension.org\":1,\"bellhavenadvisory.com -> bluerivercap.com\":3,\"bellhavenadvisory.com -> willamettefh.com\":1,\"bellhavenadvisory.com -> alderpointpartners.com\":11,\"bellhavenadvisory.com -> cascadetimber.com\":2,\"llassociates.com -> alderpointpartners.com\":1,\"llassociates.com -> cascadetimber.com\":7,\"llassociates.com -> whitakerforensic.com\":2,\"larsentaxadvisory.com -> cascadetimber.com\":8,\"larsentaxadvisory.com -> mosslane-cpa.com\":6,\"larsentaxadvisory.com -> alderpointpartners.com\":1,\"mosslane-cpa.com -> cascadetimber.com\":6,\"mosslane-cpa.com -> larsentaxadvisory.com\":1,\"mosslane-cpa.com -> whitakerforensic.com\":1,\"greenacresurvey.com -> alderpointpartners.com\":4,\"northstar-comms.com -> cascadetimber.com\":4,\"whitakerforensic.com -> llassociates.com\":3,\"irs.gov -> cascadetimber.com\":3,\"bluerivercap.com -> bellhavenadvisory.com\":1,\"bluerivercap.com -> northforkef.com\":1,\"willamettefh.com -> bluerivercap.com\":1,\"cppension.org -> bellhavenadvisory.com\":1,\"cppension.org -> alderpointpartners.com\":2,\"cppension.org -> northforkef.com\":1,\"northforkef.com -> cppension.org\":1,\"northforkef.com -> bellhavenadvisory.com\":1},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-227\",\"EMAIL-062\",\"EMAIL-061\",\"EMAIL-066\",\"EMAIL-1471\",\"EMAIL-171\",\"EMAIL-067\",\"EMAIL-1071\",\"EMAIL-172\",\"EMAIL-068\",\"EMAIL-060\",\"EMAIL-1472\",\"EMAIL-1470\"],\"Q11\":[],\"Q12\":[\"EMAIL-1271\",\"EMAIL-746\",\"EMAIL-1365\",\"EMAIL-1316\",\"EMAIL-342\",\"EMAIL-731\",\"EMAIL-924\",\"EMAIL-567\",\"EMAIL-950\",\"EMAIL-353\"]}}",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 82228
+        },
+        "output_tokens": 8944,
+        "output_tokens_details": {
+          "reasoning_tokens": 7242
+        },
+        "total_tokens": 91175
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 8944
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0e79d21fb31672bd016ac828e601c887d098023c853b05baec",
+      "routing_provider": null,
+      "latency_seconds": 132.2617,
+      "run_id": "20261008T233605Z-bc27d0f8",
+      "max_output_tokens": 24000
+    },
+    {
+      "task_id": "CTH-INVENTORY-002",
+      "trial": 2,
+      "provider": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "status": "scored",
+      "evaluation": {
+        "done": true,
+        "reward": 0.994291283764968,
+        "success": false,
+        "failure_codes": [
+          "RECONCILIATION_ERRORS"
+        ],
+        "verifier_version": "collection-reconciliation/1.0.0",
+        "question_scores": {
+          "Q01": 1.0,
+          "Q02": 1.0,
+          "Q03": 1.0,
+          "Q04": 1.0,
+          "Q05": 1.0,
+          "Q06": 1.0,
+          "Q07": 0.9841269841269841,
+          "Q08": 0.9473684210526315,
+          "Q09": 1.0,
+          "Q10": 1.0,
+          "Q11": 1.0,
+          "Q12": 1.0
+        }
+      },
+      "cost_usd": null,
+      "completion": "{\"answers\":{\"Q01\":{\"2021-11\":3,\"2021-12\":5,\"2022-01\":4,\"2022-02\":6,\"2022-03\":7,\"2022-04\":5,\"2022-05\":5,\"2022-06\":11,\"2022-07\":9,\"2022-08\":9,\"2022-09\":8,\"2022-10\":16,\"2022-11\":10,\"2022-12\":8,\"2023-01\":12,\"2023-02\":9,\"2023-03\":16,\"2023-04\":11,\"2023-05\":14,\"2023-06\":29,\"2023-07\":36,\"2023-08\":32,\"2023-09\":8,\"2023-10\":9,\"2023-11\":9,\"2023-12\":9},\"Q02\":{\"cascadetimber.com\":126,\"alderpointpartners.com\":93,\"bellhavenadvisory.com\":20,\"llassociates.com\":18,\"larsentaxadvisory.com\":13,\"mosslane-cpa.com\":9,\"northstar-comms.com\":4,\"whitakerforensic.com\":3,\"greenacresurvey.com\":4,\"irs.gov\":3,\"willamettefh.com\":1,\"bluerivercap.com\":2,\"cppension.org\":3,\"northforkef.com\":1},\"Q03\":[\"EMAIL-021\",\"EMAIL-1111\",\"EMAIL-1473\",\"EMAIL-1018\",\"EMAIL-1153\",\"EMAIL-1174\",\"EMAIL-867\",\"EMAIL-1170\",\"EMAIL-1167\",\"EMAIL-1105\",\"EMAIL-1022\",\"EMAIL-159\",\"EMAIL-161\",\"EMAIL-056\",\"EMAIL-517\",\"EMAIL-558\",\"EMAIL-481\",\"EMAIL-567\",\"EMAIL-563\",\"EMAIL-507\",\"EMAIL-463\",\"EMAIL-1446\",\"EMAIL-492\",\"EMAIL-924\",\"EMAIL-918\",\"EMAIL-191\",\"EMAIL-969\",\"EMAIL-775\",\"EMAIL-1034\",\"EMAIL-925\",\"EMAIL-981\",\"EMAIL-752\",\"EMAIL-1083\",\"EMAIL-1121\",\"EMAIL-1117\",\"EMAIL-1070\",\"EMAIL-1374\",\"EMAIL-1327\",\"EMAIL-1126\",\"EMAIL-1469\",\"EMAIL-939\",\"EMAIL-1377\",\"EMAIL-142\",\"EMAIL-1468\",\"EMAIL-875\",\"EMAIL-993\",\"EMAIL-731\",\"EMAIL-725\",\"EMAIL-148\",\"EMAIL-708\",\"EMAIL-338\",\"EMAIL-385\",\"EMAIL-355\",\"EMAIL-350\",\"EMAIL-1386\",\"EMAIL-1272\",\"EMAIL-855\"],\"Q04\":[\"EMAIL-398\",\"EMAIL-137\",\"EMAIL-139\"],\"Q05\":[\"EMAIL-770\",\"EMAIL-029\",\"EMAIL-398\",\"EMAIL-025\",\"EMAIL-028\",\"EMAIL-1217\"],\"Q06\":[\"treyes@alderpointpartners.com\",\"jellery@cascadetimber.com\",\"jwhitfield@alderpointpartners.com\",\"rdenniston@cascadetimber.com\",\"pshah@alderpointpartners.com\"],\"Q07\":[\"EMAIL-1111\",\"EMAIL-1170\",\"EMAIL-1167\",\"EMAIL-1022\",\"EMAIL-1165\",\"EMAIL-517\",\"EMAIL-558\",\"EMAIL-481\",\"EMAIL-957\",\"EMAIL-567\",\"EMAIL-563\",\"EMAIL-868\",\"EMAIL-950\",\"EMAIL-477\",\"EMAIL-965\",\"EMAIL-492\",\"EMAIL-918\",\"EMAIL-775\",\"EMAIL-968\",\"EMAIL-1329\",\"EMAIL-1121\",\"EMAIL-1070\",\"EMAIL-1327\",\"EMAIL-1178\",\"EMAIL-1078\",\"EMAIL-939\",\"EMAIL-1377\",\"EMAIL-355\",\"EMAIL-1357\",\"EMAIL-1338\",\"EMAIL-344\",\"EMAIL-038\",\"EMAIL-1391\",\"EMAIL-321\",\"EMAIL-291\",\"EMAIL-1169\",\"EMAIL-1384\",\"EMAIL-353\",\"EMAIL-360\",\"EMAIL-288\",\"EMAIL-1206\",\"EMAIL-292\",\"EMAIL-795\",\"EMAIL-1382\",\"EMAIL-667\",\"EMAIL-770\",\"EMAIL-307\",\"EMAIL-273\",\"EMAIL-334\",\"EMAIL-016\",\"EMAIL-1309\",\"EMAIL-041\",\"EMAIL-675\",\"EMAIL-756\",\"EMAIL-029\",\"EMAIL-794\",\"EMAIL-553\",\"EMAIL-944\",\"EMAIL-487\",\"EMAIL-727\",\"EMAIL-728\",\"EMAIL-529\"],\"Q08\":[\"EMAIL-193\",\"EMAIL-024\",\"EMAIL-129\",\"EMAIL-1329\",\"EMAIL-1083\",\"EMAIL-563\",\"EMAIL-1174\",\"EMAIL-1121\",\"EMAIL-634\",\"EMAIL-752\",\"EMAIL-046\",\"EMAIL-060\",\"EMAIL-493\",\"EMAIL-487\",\"EMAIL-467\",\"EMAIL-819\",\"EMAIL-517\",\"EMAIL-1070\"],\"Q09\":{\"cascadetimber.com -> llassociates.com\":12,\"cascadetimber.com -> irs.gov\":6,\"cascadetimber.com -> alderpointpartners.com\":20,\"cascadetimber.com -> mosslane-cpa.com\":13,\"cascadetimber.com -> larsentaxadvisory.com\":2,\"cascadetimber.com -> northstar-comms.com\":3,\"cascadetimber.com -> whitakerforensic.com\":1,\"cascadetimber.com -> greenacresurvey.com\":1,\"alderpointpartners.com -> greenacresurvey.com\":4,\"alderpointpartners.com -> llassociates.com\":1,\"alderpointpartners.com -> cascadetimber.com\":17,\"alderpointpartners.com -> bellhavenadvisory.com\":6,\"alderpointpartners.com -> whitakerforensic.com\":1,\"alderpointpartners.com -> cppension.org\":1,\"alderpointpartners.com -> northforkef.com\":2,\"bellhavenadvisory.com -> alderpointpartners.com\":11,\"bellhavenadvisory.com -> bluerivercap.com\":3,\"bellhavenadvisory.com -> willamettefh.com\":1,\"bellhavenadvisory.com -> cascadetimber.com\":2,\"llassociates.com -> alderpointpartners.com\":1,\"llassociates.com -> whitakerforensic.com\":2,\"llassociates.com -> cascadetimber.com\":7,\"larsentaxadvisory.com -> cascadetimber.com\":8,\"larsentaxadvisory.com -> mosslane-cpa.com\":6,\"larsentaxadvisory.com -> alderpointpartners.com\":1,\"mosslane-cpa.com -> cascadetimber.com\":6,\"mosslane-cpa.com -> larsentaxadvisory.com\":1,\"mosslane-cpa.com -> whitakerforensic.com\":1,\"northstar-comms.com -> cascadetimber.com\":4,\"whitakerforensic.com -> llassociates.com\":3,\"greenacresurvey.com -> alderpointpartners.com\":4,\"irs.gov -> cascadetimber.com\":3,\"willamettefh.com -> bluerivercap.com\":1,\"bluerivercap.com -> bellhavenadvisory.com\":1,\"bluerivercap.com -> northforkef.com\":1,\"cppension.org -> bellhavenadvisory.com\":1,\"cppension.org -> alderpointpartners.com\":2,\"cppension.org -> northforkef.com\":1,\"northforkef.com -> cppension.org\":1,\"northforkef.com -> bellhavenadvisory.com\":1},\"Q10\":[\"EMAIL-024\",\"EMAIL-026\",\"EMAIL-062\",\"EMAIL-227\",\"EMAIL-061\",\"EMAIL-066\",\"EMAIL-171\",\"EMAIL-1470\",\"EMAIL-1471\",\"EMAIL-1472\",\"EMAIL-1071\",\"EMAIL-067\",\"EMAIL-068\",\"EMAIL-172\",\"EMAIL-060\"],\"Q11\":[],\"Q12\":[\"EMAIL-1271\",\"EMAIL-746\",\"EMAIL-1365\",\"EMAIL-1316\",\"EMAIL-342\",\"EMAIL-731\",\"EMAIL-924\",\"EMAIL-567\",\"EMAIL-950\",\"EMAIL-353\"]}}",
+      "resolved_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 82231,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 82228
+        },
+        "output_tokens": 8631,
+        "output_tokens_details": {
+          "reasoning_tokens": 6933
+        },
+        "total_tokens": 90862
+      },
+      "tokens": {
+        "input": 82231,
+        "output": 8631
+      },
+      "stop_reason": "completed",
+      "response_id": "resp_0081b0ebef5ca032016ac8296a3dfc87d0b89501c356e91aff",
+      "routing_provider": null,
+      "latency_seconds": 151.7714,
+      "run_id": "20261008T233605Z-bc27d0f8",
+      "max_output_tokens": 24000
+    }
+  ]
+}

@@ -1,0 +1,1513 @@
+{
+  "version": "1.0.0",
+  "split": "development",
+  "dataset_commit": "35133a3e1103dcf283e835511795463fd840241a",
+  "sources": [
+    {
+      "document_id": "EMAIL-659",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-659_Marketing_deck_v2_checklist_version_controlled.eml",
+      "source_sha256": "a51020b33225a458473249edae0b473ea6632b8a100748b18617219b34bcce6e"
+    },
+    {
+      "document_id": "EMAIL-1274",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-1274_Lunch_plans.eml",
+      "source_sha256": "e296d1257288ec1e67b0a8500f6de76831a3871442b38d6ecae2d55d58ed01d2"
+    },
+    {
+      "document_id": "EMAIL-688",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-688_Buyer_inquiry_batch_timing.eml",
+      "source_sha256": "92dcada61c93c14f82ed94e32179a3f77ae7e485b637883938ea1f51e9b7349c"
+    },
+    {
+      "document_id": "EMAIL-1316",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-1316_Parking_facilities.eml",
+      "source_sha256": "33d7f39a63638fd6f120a348a20194c980e3ddaab285bd00e0ccc856814d783b"
+    },
+    {
+      "document_id": "EMAIL-149",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-149_RE_ Investor messaging _ Coastal Solar pause.eml",
+      "source_sha256": "baf2f74a9729ee2c168b86216ae22dd44a8127ce7a52523b76756eddc232e78f"
+    },
+    {
+      "document_id": "EMAIL-535",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-535_Escrow_reconciliation_support_cash_proceeds_audit_inquiry.eml",
+      "source_sha256": "414cd0731bf337423b640404536cf9700c5210fc04958678e32bc90d97e6f6ed"
+    },
+    {
+      "document_id": "EMAIL-040",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-040_RE_ Compliance question re_ Coastal Solar eligibility.eml",
+      "source_sha256": "866deb3cfafdf187d2c51813e50a9d151a207f211a4353979193e314d3f33fe4"
+    },
+    {
+      "document_id": "EMAIL-1208",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-1208_Mountain_Ridge_county_correction_RM_parcel_only.eml",
+      "source_sha256": "61a30468c03e9b4fb30a7732652624b6d2ea0a5d195c8a24cc71256fc11462ef"
+    },
+    {
+      "document_id": "EMAIL-770",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-770_Placement_date_vs_authority_matrix_join_record.eml",
+      "source_sha256": "d4ef10bf7499af5e10526298abb8997ff68a14ee622389e2734055a301ae74b2"
+    },
+    {
+      "document_id": "EMAIL-434",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-434_KW_payment_ledger_Clearwater.eml",
+      "source_sha256": "3908a36f16fde8cb0dbdb04433c8c71776f1673f3c55a112509ca28d856d6f6c"
+    },
+    {
+      "document_id": "EMAIL-1327",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-1327_Duplicate_v3.eml",
+      "source_sha256": "510bf9582f8aafcdfd0db89e99c0dcc5f0393a291c518458d547741b9f695f19"
+    },
+    {
+      "document_id": "EMAIL-1386",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-1386_Duplicate_v2.eml",
+      "source_sha256": "15577cbc378f766d29a4de1be6b240f2924f2ecfdaacd98769462c61bf53c83f"
+    },
+    {
+      "document_id": "EMAIL-024",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-024_Legal hold notice _ Coastal Solar Credit Program.eml",
+      "source_sha256": "5a2ae2d91bfb313f774fb1b4c56634359bf4b90276c0b041f4b00081d83435ef"
+    },
+    {
+      "document_id": "EMAIL-271",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-271_Southern_tracts_file_pull_disambiguation.eml",
+      "source_sha256": "e3efa7778452341c3b90342fb978223a3815368997640d6b6ef4d197cedfe518"
+    },
+    {
+      "document_id": "EMAIL-380",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-380_County_easement_filing_NW_03.eml",
+      "source_sha256": "fdd19c8113987931483250086708c8cb5be0fae746fe61b9c8f106d219b2531d"
+    },
+    {
+      "document_id": "EMAIL-756",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-756_State_database_check_Bellhaven_process_record.eml",
+      "source_sha256": "38b95a0798fd254d392b28389589ac3eae64daec674ce9eef8f35163f29176ab"
+    },
+    {
+      "document_id": "EMAIL-193",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-193_Year-end program revenue.eml",
+      "source_sha256": "fa32dcbd9ac75947c2067f5f07371178a3a94b9f09039197ef9a345fcd72b1a1"
+    },
+    {
+      "document_id": "EMAIL-144",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-144_Q3 provision memo _ final.eml",
+      "source_sha256": "a43f08fb69bbf4a016bdec3eb63a546bbbecc80392c2bcdae26fc1509cde03f1"
+    },
+    {
+      "document_id": "EMAIL-1277",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-1277_Out_of_office.eml",
+      "source_sha256": "3043ee095fc9bfaaf56fb2d2441ae419e9c8290139b451f0b4e97cbe0ae40d07"
+    },
+    {
+      "document_id": "EMAIL-014",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-014_RE_ Coastal Solar program risk assessment.eml",
+      "source_sha256": "73da96b5bbabda8f0b73648e09a4819007b3ffc54409d4e46e559b4d8e25b586"
+    },
+    {
+      "document_id": "EMAIL-537",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-537_GL_support_schedule_placement_face_value_provision_support.eml",
+      "source_sha256": "d1db378e6afce7f3a4fda9b93891066b8b1547062f447358777ab7ca142bbd5b"
+    },
+    {
+      "document_id": "EMAIL-1360",
+      "source_path": "data/emails/Custodians/Nina_Alvarez/EMAIL-1360_Conference_chatter.eml",
+      "source_sha256": "5f065d7962d136ef90850b1342f49be3f0ac39a5028424dca9fae485ca74e539"
+    },
+    {
+      "document_id": "EMAIL-011",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-011_RE_ Bellhaven registration.eml",
+      "source_sha256": "f352dbaf3e9149bcc298d5eb0608f55353ca8f7a172f3b1fc051344839f35564"
+    },
+    {
+      "document_id": "EMAIL-029",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-029_Registration status.eml",
+      "source_sha256": "03534d1289b59c140f8ea1ad13112e13ff93c2dc4c422426052a518f6c4798a8"
+    },
+    {
+      "document_id": "EMAIL-410",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-410_Nina_Clearwater_correspondence_Route_97.eml",
+      "source_sha256": "1e3ec2750b04e49acf14e80d7721d29fbe36c0972f4f2c347394cec7bf8bdb72"
+    },
+    {
+      "document_id": "EMAIL-344",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-344_Survey_status_note_Klamath_candidates_pre_field.eml",
+      "source_sha256": "987e34652a1c1cd54821801dde2e090625e8406aebf7cdab4c243ebe1fb29832"
+    },
+    {
+      "document_id": "EMAIL-182",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-182_RE_ Co-marketing webinar _ August.eml",
+      "source_sha256": "2a448b71e57541a720b173a494e40f59c68ea0db681d38308d0f084fa636e0a3"
+    },
+    {
+      "document_id": "EMAIL-918",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-918_Tax_position_note_Larsen_early_planning.eml",
+      "source_sha256": "209b549dd06db1f6f99b9ad420fd1ba547a6bc16b6eb89e6b4d8cc03cdf5607b"
+    },
+    {
+      "document_id": "EMAIL-021",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-021_Engagement _ Coastal Solar internal review.eml",
+      "source_sha256": "d4172485ef40d3acf7420e20467ac92a1fc1fb92fdd18e7d742494fcf04bdc2d"
+    },
+    {
+      "document_id": "EMAIL-045",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-045_Registration finalized.eml",
+      "source_sha256": "aad55f09aeb658eb8f23c4e5738ca9b7bd38afba5180796469417a11b8c7a3f4"
+    },
+    {
+      "document_id": "EMAIL-1338",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-1338_Conference_chatter.eml",
+      "source_sha256": "d04e7203e9140508e266932335defdc7cd0c3b46f66713ecfe7c924076eaa93a"
+    },
+    {
+      "document_id": "EMAIL-130",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-130_RE_ Witness interview memo _ H. Cole (7_21).eml",
+      "source_sha256": "08c599cbf6f6c9259390d8965de2f7982001f9179b5edeb4d6e0faf23bd1d4b3"
+    },
+    {
+      "document_id": "EMAIL-338",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-338_County_easement_filing_NW_02.eml",
+      "source_sha256": "8d61d53f5f1a556cf7738626466e866386c03c5b4ab0d254307905d6179cc374"
+    },
+    {
+      "document_id": "EMAIL-360",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-360_Parcel_file_pull_southern_tracts_routine_pull.eml",
+      "source_sha256": "d413c0fc236b230866da7d6da845b7c2d6be509f0183625cb2bd1e1ddda17e80"
+    },
+    {
+      "document_id": "EMAIL-428",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-428_Clearwater_file_status_note_late_activity.eml",
+      "source_sha256": "1e7793f25296a493518d23fb6d624e020cc4af2a2f770012513f613c123620c5"
+    },
+    {
+      "document_id": "EMAIL-143",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-143_RE_ Q3 tax provision support.eml",
+      "source_sha256": "ed2542bc50a22c3368e087d0374815543549cb695a61d66905130a2d50b69c4f"
+    },
+    {
+      "document_id": "EMAIL-398",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-398_Clearwater_file_receipt_note_review_internal.eml",
+      "source_sha256": "2c53581a543528626e04a657b88cf0f3b116aa26c4f841bf1daf3700f6b2f9a1"
+    },
+    {
+      "document_id": "EMAIL-025",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-025_Legal hold _ please confirm.eml",
+      "source_sha256": "37917be212bee2353ce009727e686784f4ecc25d16a885ee6f2cd717226fd9ed"
+    },
+    {
+      "document_id": "EMAIL-679",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-679_Buyer_inquiry_batch_timing_and_coverage.eml",
+      "source_sha256": "caaddc54d09e461ef85435f2325678692170c69818a72836db4d91f8e2ed84c8"
+    },
+    {
+      "document_id": "EMAIL-019",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-019_Whistleblower complaint received.eml",
+      "source_sha256": "12ab6a2c05f4907c30dbb0f6d173d8defaf6d084b9e60b99b4a2cf31144c53b5"
+    },
+    {
+      "document_id": "EMAIL-1469",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1469_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "source_sha256": "b7a515aeb9e9d55e80a58bb4bb5aaa87048bb4150670e4913bc220cddee540d5"
+    },
+    {
+      "document_id": "EMAIL-038",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-038_Survey request _ Coastal Solar parcels.eml",
+      "source_sha256": "b091f34aa4c03f2fdf8298073a60b7994d33f4859de0dee4fde8a70889f3feae"
+    },
+    {
+      "document_id": "EMAIL-827",
+      "source_path": "data/emails/Custodians/HR/EMAIL-827_Broker_coverage_worksheet_pre_engagement_no_placements.eml",
+      "source_sha256": "e79d1a312bc6ec047d7dc4f65072efc9b578c97c038888aada5e5229df8a3506"
+    },
+    {
+      "document_id": "EMAIL-939",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-939_Close_file_Q2_2023.eml",
+      "source_sha256": "16f8e64635677aaa214c4632b4ff256eec68a4ea69c8881dccc5fe3847fe613e"
+    },
+    {
+      "document_id": "EMAIL-385",
+      "source_path": "data/emails/Custodians/HR/EMAIL-385_Survey_status_note_Klamath_candidates_pre_field.eml",
+      "source_sha256": "db7cdaab3a8c2533fa9cdc42cd936502056e7795c0d1368c4389978ee8023a8b"
+    },
+    {
+      "document_id": "EMAIL-1082",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-1082_Review_collection_cover_internal_batch_1.eml",
+      "source_sha256": "4eaf945e86e89978c133e89fbf25d57b8d6ae7b54151da483ff9bac2b972c1bd"
+    },
+    {
+      "document_id": "EMAIL-1111",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-1111_Rolling_production_cover_batch_4.eml",
+      "source_sha256": "3076c47f008a8d9c55dbce5151084d75df86734fae49b1e5c06028ba8878beec"
+    },
+    {
+      "document_id": "EMAIL-026",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-026_Budget for internal review.eml",
+      "source_sha256": "aa83e954ec11c79bc28a23a68cf8ee1d6d02568bf676396e88d99b4b9588354b"
+    },
+    {
+      "document_id": "EMAIL-727",
+      "source_path": "data/emails/Custodians/HR/EMAIL-727_Investor_FAQ_draft_v2_routine_language_trail.eml",
+      "source_sha256": "fd296193173212eff719eb2c1c4fed9adfad0bc184a1746912b4182d94b0badc"
+    },
+    {
+      "document_id": "EMAIL-129",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-129_Witness interview memo _ H. Cole (7_21).eml",
+      "source_sha256": "f4498f7a82874106cd5c8134fbd0cad492a7651475b3519d8c130593f473f81f"
+    },
+    {
+      "document_id": "EMAIL-022",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-022_RE_ Engagement _ Coastal Solar internal review.eml",
+      "source_sha256": "6e2c7303f2acf74977a4796d54bf0f399ecee71041130cb1c8d15d8864cbd798"
+    },
+    {
+      "document_id": "EMAIL-1129",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-1129_Collection_acknowledgment_review_internal_IT_Notifications.eml",
+      "source_sha256": "e049ee68437246ce2860911bce05476f924936db516f236b3be72c547f88452e"
+    },
+    {
+      "document_id": "EMAIL-1216",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-1216_Mountain_Ridge_broker_note.eml",
+      "source_sha256": "49d03d5a7201c2484f38e625edb222164c064d3926cc7d6ca68f19467c962119"
+    },
+    {
+      "document_id": "EMAIL-013",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-013_RE_ Coastal Solar program risk assessment.eml",
+      "source_sha256": "15266e0bda49986271216a53a2bce6b49ded2547b521d3067b375bc1c1bc217b"
+    },
+    {
+      "document_id": "EMAIL-1152",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-1152_Inter_company_file_coordination_Alder_routine.eml",
+      "source_sha256": "7291bd8eb51bce52ccfcd1d540a72d7cb708c7a201270d2bcd45c0ab9643950c"
+    },
+    {
+      "document_id": "EMAIL-1176",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-1176_Inter_company_file_coordination_Alder_routine.eml",
+      "source_sha256": "e06b335e4ef9485930cd9a5b0863515c2c5aa9228c4962e56c0ebacbabbc8c9e"
+    },
+    {
+      "document_id": "EMAIL-1224",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-1224_Mountain_Ridge_broker_note.eml",
+      "source_sha256": "eddfe329a615c614724c2dfebedb01b0c8a5ba1229266082e352da6548c2e889"
+    },
+    {
+      "document_id": "EMAIL-227",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-227_Reminder_ Q2 Timesheets Due Today.eml",
+      "source_sha256": "276de372ba8e2786dce762ee5a3920ace1e88a5687622f5c46af24b3a9cbb220"
+    },
+    {
+      "document_id": "EMAIL-719",
+      "source_path": "data/emails/Custodians/Dana_Whitaker/EMAIL-719_Board_messaging_note_disclosure.eml",
+      "source_sha256": "4cbac47f82296165c0f2ed8e85c1cbeaae457e67a5af62c64bce400475f48db6"
+    },
+    {
+      "document_id": "EMAIL-693",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-693_Broker_pipeline_update.eml",
+      "source_sha256": "9a33cf5d349a5de6744f8e6d5a88ee7ab536f25cd2d8e05cf8a99a0462a1c2e8"
+    },
+    {
+      "document_id": "EMAIL-069",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-069_Coastal Solar _ placements paused.eml",
+      "source_sha256": "bdcdd567d342a325c59d3c96a4d83bbf0a008e6c3cc4df3c084499d086bd2218"
+    },
+    {
+      "document_id": "EMAIL-062",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-062_RE_ Legal hold _ departing employee mailbox.eml",
+      "source_sha256": "79b398cf387e9a084ec6b0e1d87af23d73f299a807d3c2ce38df97d9d83b5359"
+    },
+    {
+      "document_id": "EMAIL-199",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-199_Investor FAQ _ pause (draft).eml",
+      "source_sha256": "cb860f7926ff582a267035776f009895191cf1419ee60b879e0da7a5ae7fb79f"
+    },
+    {
+      "document_id": "EMAIL-808",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-808_Broker_coverage_worksheet_pre_engagement_no_placements.eml",
+      "source_sha256": "4b060b781e8f752ecccabdda1220ed8358e37d04aef96fba8226ca14eae815c2"
+    },
+    {
+      "document_id": "EMAIL-1473",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1473_RE_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "source_sha256": "51630adabb406d3a906dbd8014140c8831751c02791b0146c16ed303099065ac"
+    },
+    {
+      "document_id": "EMAIL-1391",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1391_Calendar_invite.eml",
+      "source_sha256": "c02c56cb30e24348d0392c3ee3be66bfe6e5aa093f2bcafc62b069568097762b"
+    },
+    {
+      "document_id": "EMAIL-914",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-914_Tax_position_note_Larsen_early_planning.eml",
+      "source_sha256": "0679437a82f06bd339bc4c37863337e823fe9ccaddd70de70fd53ce08677b7b4"
+    },
+    {
+      "document_id": "EMAIL-465",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-465_Audit_planning_Coastal_Solar_scoping_pre_launch.eml",
+      "source_sha256": "169341e98d83ea59d95bbcadce33ee4b7559a5df8e53809a6104af9e8bc43c55"
+    },
+    {
+      "document_id": "EMAIL-133",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-133_RE_ HR investigation report _ Salem office complaint.eml",
+      "source_sha256": "9cfaac054385612628ba22a78f6339d1840eac82a3e6b553da570d1bddac96ce"
+    },
+    {
+      "document_id": "EMAIL-145",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-145_FW_ Q3 provision memo _ final.eml",
+      "source_sha256": "ed7518fb08d5a53416aba1be4a7cd74d1592111c538df58e74b621d4ca202fae"
+    },
+    {
+      "document_id": "EMAIL-1470",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1470_FW_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "source_sha256": "13632708f645877006b928891bb2a3c6b9ed9501b921e326fdc1d98ba6c4db5b"
+    },
+    {
+      "document_id": "EMAIL-184",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-184_RE_ Q4 placement targets.eml",
+      "source_sha256": "552e52cebcdee36c448e07004c16b879c3a4208d86a7c6ed9deb874edc003a28"
+    },
+    {
+      "document_id": "EMAIL-1126",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-1126_Hold_attestation_Craig_Sato.eml",
+      "source_sha256": "96600c52eeb5ef858682ab1e4d73aa8bdb2fa4d936cb3dc7f0c1f0c777ed81b4"
+    },
+    {
+      "document_id": "EMAIL-731",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-731_Investor_FAQ_draft_v5_routine_language_trail.eml",
+      "source_sha256": "f87e7f06a4c8f5c6136dc02751bf2af4e46dd6b50493d0c2cebe1e9082ecf793"
+    },
+    {
+      "document_id": "EMAIL-517",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-517_Credit_build_worksheet_draft_NW_05.eml",
+      "source_sha256": "a08f5c0607868f46b5676b67befcc909a84e0191863593e31efc6ff6b523a4fa"
+    },
+    {
+      "document_id": "EMAIL-1081",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-1081_Privilege_screen_note_review_batch_internal_batch_1.eml",
+      "source_sha256": "246e4ab1cf5df12677bed69de0792486b20c3573f8910d878c34d6e1ae2f1890"
+    },
+    {
+      "document_id": "EMAIL-1329",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-1329_Duplicate_v3.eml",
+      "source_sha256": "1ff967fd3d3b9608bb41206fc8207fae84c44c9ee1f6e2352367aa3742b3cfee"
+    },
+    {
+      "document_id": "EMAIL-160",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-160_Coastal Solar examination _ follow-up requests.eml",
+      "source_sha256": "7d03b682719759792522fd734ad1485e7259db17abbaa7d67a9dfa3aa7ef8852"
+    },
+    {
+      "document_id": "EMAIL-214",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-214_Invite_ Annual Compliance Training.eml",
+      "source_sha256": "49d9b06a1eaa1857ff9829585d0fab8aeba22b7970564f7b581af705a4bda5c9"
+    },
+    {
+      "document_id": "EMAIL-191",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-191_Broker oversight _ verification process.eml",
+      "source_sha256": "c0e8fbb7d18f5bbe47b339c742a78777c55adc6a1b5771f2fb27bc03b1fed941"
+    },
+    {
+      "document_id": "EMAIL-443",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-443_KW_payment_ledger_Clearwater.eml",
+      "source_sha256": "cce2d6ae39157996c22d3c4debaed0b64fc1b6afd247263da1892f3951b0d69d"
+    },
+    {
+      "document_id": "EMAIL-307",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-307_Parcel_payment_ledger_line_NW_04.eml",
+      "source_sha256": "a02243384544ab5de37944d98a080698d3baeb10bd7ee510f3c09b0091605b38"
+    },
+    {
+      "document_id": "EMAIL-044",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-044_FW_ Following up _ registration and marketing status.eml",
+      "source_sha256": "ea68343e7f9c8d1678dbc7292a68871998d04e666653cece80a16140d8387b67"
+    },
+    {
+      "document_id": "EMAIL-639",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-639_Placement_agreement_Bellhaven_batch_6.eml",
+      "source_sha256": "b456ffaae481a95b07a3c8530231fd6df1f8c34847774329e4aff1717f8cc488"
+    },
+    {
+      "document_id": "EMAIL-041",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-041_OR_WA broker registration renewal _ status.eml",
+      "source_sha256": "f019a706807827c708960c8a24f249baaea8879302b780c207e7d7c33a362fad"
+    },
+    {
+      "document_id": "EMAIL-1018",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-1018_Complainant_counsel_correspondence_minimal.eml",
+      "source_sha256": "a594eb6de9d29ad41c80769428521bf99cd0b09a6000ebb17177d59d66c63a7d"
+    },
+    {
+      "document_id": "EMAIL-061",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-061_RE_ Legal hold _ departing employee mailbox.eml",
+      "source_sha256": "b4e0a8f55b9a3e7bb49e7ee8f1e00259f0121b0982944732e439e00a7efa4a20"
+    },
+    {
+      "document_id": "EMAIL-558",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-558_Escrow_statement_cash_proceeds_discounted.eml",
+      "source_sha256": "1d89ac65d30dac953bc98b246e1b5243b27e362397c9911c23cccb49f04a75a6"
+    },
+    {
+      "document_id": "EMAIL-969",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-969_Close_file_Q3_2022.eml",
+      "source_sha256": "9797ad58603d6c1adf966686906a355e4bd84bb63006979ea161e6d3a4daa751"
+    },
+    {
+      "document_id": "EMAIL-1083",
+      "source_path": "data/emails/Custodians/Kevin_Tran/EMAIL-1083_Hold_attestation_Kevin_Tran.eml",
+      "source_sha256": "fe3847b15328051c3e9a816eefc903ef09e83b68fe1747d4daee5e5b2173a27c"
+    },
+    {
+      "document_id": "EMAIL-288",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-288_GreenAcre_field_sheet_NW_02.eml",
+      "source_sha256": "eff31784ab020ee45d18699bd9d6f77a417c2ba0dc3a021a74af45d96b680e58"
+    },
+    {
+      "document_id": "EMAIL-138",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-138_RE_ Engagement _ forensic accounting support for counsel.eml",
+      "source_sha256": "64eac9508a919668ddff29947eb27cefba79b3363ec9b3a445d2dfd61fd172fe"
+    },
+    {
+      "document_id": "EMAIL-158",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-158_Coastal Solar examination _ production schedule.eml",
+      "source_sha256": "9d83cb15f38e0885d9bc82ff45fbd31c57f8f50fcb74b166f2070f6b1beadf4f"
+    },
+    {
+      "document_id": "EMAIL-1229",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1229_Mountain_Ridge_parcel_list_RM_4_distinct_IDs.eml",
+      "source_sha256": "a4e7bafc3dd80b65458dc359b083fe2b7a533d7de0b0bd74026f528ead120cb5"
+    },
+    {
+      "document_id": "EMAIL-1400",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-1400_Parking_facilities.eml",
+      "source_sha256": "cae52da2c501e44c856419e026c0d0f63ef6c2443527854cb01946ab8aa760a5"
+    },
+    {
+      "document_id": "EMAIL-675",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-675_Broker_pipeline_update.eml",
+      "source_sha256": "a176e9cd54885fa88501fea1e99ee71e63a82c7b7511b1cd287ad866320e0e52"
+    },
+    {
+      "document_id": "EMAIL-324",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-324_Application_date_confirmation_NW_03.eml",
+      "source_sha256": "c7049733fe3a7cb93f8714e076a814b04ecc008922cf1beee9a9650498ab6f10"
+    },
+    {
+      "document_id": "EMAIL-316",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-316_GreenAcre_field_sheet_NW_08.eml",
+      "source_sha256": "1baee9932b62f788b6c921146f47be79a750a98383783aefe03a20562088ae15"
+    },
+    {
+      "document_id": "EMAIL-481",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-481_GL_entry_placement_face_value.eml",
+      "source_sha256": "9d34d6b48af9ac76c2749000aa3dc6baf80eaecc41739369d355c0975dc713b9"
+    },
+    {
+      "document_id": "EMAIL-957",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-957_Compliance_action_log_framework_follow_up.eml",
+      "source_sha256": "d21f45d662f5c697e1efe8315e81531f21327cdae160f396833daedea6329cd7"
+    },
+    {
+      "document_id": "EMAIL-1153",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-1153_Inter_company_hold_coordination_Alder.eml",
+      "source_sha256": "229672982de687fa5ae530643c28c5086f629a7c13ce545cebe56c2d6c22e0c8"
+    },
+    {
+      "document_id": "EMAIL-777",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-777_Renewal_FILING_receipt_OR_WA_filing_date_only.eml",
+      "source_sha256": "4531b66ff6589912fd174ac7e16294e683f6b2ea5ebe53b32a8d0a69a5496dd5"
+    },
+    {
+      "document_id": "EMAIL-425",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-425_Clearwater_file_note_dates_log_no_conclusion.eml",
+      "source_sha256": "83f19a78d122bcad1548bea858ce091d712b002d8c69ca885146c5a0a231867b"
+    },
+    {
+      "document_id": "EMAIL-803",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-803_Placement_date_vs_authority_matrix_join_record.eml",
+      "source_sha256": "58c11ffbf5879b6d9c04df606c60623c4d33feb1cf09a6952fc78844eb6526f0"
+    },
+    {
+      "document_id": "EMAIL-115",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-115_RE_ Southern tracts file _ need it before Friday.eml",
+      "source_sha256": "64e71402edc98b63d452a3831729c23dc305c5ab6db3f989e852f40526016ab8"
+    },
+    {
+      "document_id": "EMAIL-355",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-355_Application_date_confirmation_NW_08.eml",
+      "source_sha256": "d65a4522facd0f425d9e67862da78a89e01f032a55a1f952e135cf6b5b14e7a1"
+    },
+    {
+      "document_id": "EMAIL-441",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-441_KW_credit_application_KW_02.eml",
+      "source_sha256": "ab01d3b249a5ff88f151524f20953895c6ce6dc79bc795d5d755e21a994c3b4f"
+    },
+    {
+      "document_id": "EMAIL-134",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-134_Interview notes _ S. Nguyen (8_1).eml",
+      "source_sha256": "d0c646ec87eae3cafeb5c822af2998f54b41055e6111b1f79fa0a6a3e6082f7f"
+    },
+    {
+      "document_id": "EMAIL-342",
+      "source_path": "data/emails/Custodians/Dana_Whitaker/EMAIL-342_County_easement_filing_NW_07.eml",
+      "source_sha256": "0cb48dbfb3572e2d8f5c64496d48ca484b743b2a560849795ad57a0f490e7e2c"
+    },
+    {
+      "document_id": "EMAIL-350",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-350_County_easement_filing_NW_01.eml",
+      "source_sha256": "1fd9d498528a209d959c1eccf0bb0c06eb1a05283e614c75ab382d7812ff37fc"
+    },
+    {
+      "document_id": "EMAIL-1272",
+      "source_path": "data/emails/Custodians/Nina_Alvarez/EMAIL-1272_Out_of_office.eml",
+      "source_sha256": "8785dd619d075a0e76f2e1aa6e3a377e0e0775cf5d1d9a744534e5c92b3521a5"
+    },
+    {
+      "document_id": "EMAIL-114",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-114_RE_ Southern tracts file _ need it before Friday.eml",
+      "source_sha256": "e17b41066d9df80e1cda1ee1cd0e8dac13ccebfdc5e259885542c7b6f19f595b"
+    },
+    {
+      "document_id": "EMAIL-132",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-132_RE_ HR investigation report _ Salem office complaint.eml",
+      "source_sha256": "87cf61bf0fc2bac2b2f4c83da37e5b9446e8d466152d060e70dccec5aabb53f9"
+    },
+    {
+      "document_id": "EMAIL-1150",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-1150_Inter_company_file_coordination_Alder_routine.eml",
+      "source_sha256": "7a6c938d98e134c6aaae4c9d4a7f26fdfdffcc69cfb81e2be5b4689c1c5d46c9"
+    },
+    {
+      "document_id": "EMAIL-725",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-725_Analyst_Q_A_prep_restart_timing.eml",
+      "source_sha256": "ed63b48ea0735c2aeb883a500dc5c1f02435c583db8d1177de7e60f7c80420d8"
+    },
+    {
+      "document_id": "EMAIL-003",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-003_Land parcel eligibility _ need a second look.eml",
+      "source_sha256": "c3c2c32ff72a06ff8c8b37cfdfef7d0b342a48e5fb3edba37fae4160d5b8a558"
+    },
+    {
+      "document_id": "EMAIL-539",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-539_Escrow_reconciliation_inquiry_cash_proceeds_audit.eml",
+      "source_sha256": "4869e52188eebf3a42c2e4269220b5991bb268130a7a980874d2e1ffca85ecac"
+    },
+    {
+      "document_id": "EMAIL-775",
+      "source_path": "data/emails/Custodians/Dana_Whitaker/EMAIL-775_Broker_renewal_status_OR_WA_pending_per_9_15_notice.eml",
+      "source_sha256": "951e8455792ef1291654318e38439b4471cd5669ae9281d27c398ca633df93c5"
+    },
+    {
+      "document_id": "EMAIL-729",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-729_Q3_pack_financial_cite_disclosure.eml",
+      "source_sha256": "678ffc06707b0966853ab035c5bf7f7986f7317275d02c16bf65ca2c1945b18b"
+    },
+    {
+      "document_id": "EMAIL-828",
+      "source_path": "data/emails/Custodians/HR/EMAIL-828_Placement_date_vs_authority_matrix_join_record.eml",
+      "source_sha256": "20c15b7a0267e74483edacfb9486f87ce84fce646d07528692b6b4f2f689e1e3"
+    },
+    {
+      "document_id": "EMAIL-031",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-031_Coastal Solar Credit Program _ business case.eml",
+      "source_sha256": "7434d0b414b2b838598339031d3c04418e8147b51dc6d906d7c95b11e24f4c22"
+    },
+    {
+      "document_id": "EMAIL-1235",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-1235_Mountain_Ridge_parcel_list_RM_2_distinct_IDs.eml",
+      "source_sha256": "37b9f1a2fc334ea3e844cbd860d11f1fbcd2b0a3d8686ab451e593c7b38f5824"
+    },
+    {
+      "document_id": "EMAIL-490",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-490_Rate_card_batch_1.eml",
+      "source_sha256": "b1f14a99a483c28cb681fe0b16fa069a08222eb389e503d9894fc4f4defbb729"
+    },
+    {
+      "document_id": "EMAIL-1004",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-1004_Compliance_action_log_framework_follow_up.eml",
+      "source_sha256": "575da0afec82c33f13e3ded347155dbf78769e76d5cf3c11cb7c0469be253bbf"
+    },
+    {
+      "document_id": "EMAIL-567",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-567_Escrow_statement_cash_proceeds_discounted.eml",
+      "source_sha256": "de1c87e4598d4cc3432571ca50dc1be39bd60105c81d58c9d3fbfb567f2b39ac"
+    },
+    {
+      "document_id": "EMAIL-1206",
+      "source_path": "data/emails/Custodians/Kevin_Tran/EMAIL-1206_Mountain_Ridge_broker_note.eml",
+      "source_sha256": "01e275ce11127d964c6f30922afc1795080e377be12ace9478998106d07865a1"
+    },
+    {
+      "document_id": "EMAIL-066",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-066_Investor question _ Coastal Solar pause.eml",
+      "source_sha256": "8776c4a677a837c90cab94f502163d12aca316b2fc79cdca73287ea74197c789"
+    },
+    {
+      "document_id": "EMAIL-784",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-784_Broker_coverage_worksheet_issuance_unverified.eml",
+      "source_sha256": "0d8102a8cc43bdbf9d81f0278de38f0d95acd4fe0c2c12d2743b4229ee2b0064"
+    },
+    {
+      "document_id": "EMAIL-278",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-278_Recorder_notice_parcel_number_cited_map_required.eml",
+      "source_sha256": "c2e6e174ec28efcad8a1a9d4820a032174808db9a9d27efd06482193fac5037c"
+    },
+    {
+      "document_id": "EMAIL-855",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-855_Scenario_model_pipeline_options_early_ops.eml",
+      "source_sha256": "de5358609a4dd7290dae0a80a797954ff248c2dbaaff6710b24d9a0f43b41d69"
+    },
+    {
+      "document_id": "EMAIL-1234",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-1234_Mountain_Ridge_broker_note.eml",
+      "source_sha256": "aaefd6011e1d0115c223875b5a3420ba138405ca28e48823a0b77af7b269bbf1"
+    },
+    {
+      "document_id": "EMAIL-563",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-563_Parcel_credit_build_NW_04_face.eml",
+      "source_sha256": "0260616ea321a66b72b953e2458d60646705ff2efb4d0bba6309263f47ca5991"
+    },
+    {
+      "document_id": "EMAIL-1471",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-1471_RE_FW_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "source_sha256": "7d23770e267445b4a72da9a92ccb7fa0e9f88e80ec0e7ba55138fee2fb063e0d"
+    },
+    {
+      "document_id": "EMAIL-1377",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-1377_Out_of_office.eml",
+      "source_sha256": "49140a3fb8a4f9148acc267fd8078c72e8b0f7810650f96a9c7d6222cb03e336"
+    },
+    {
+      "document_id": "EMAIL-409",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-409_KW_option_agreement_KW_02_dated_post_3_16_22.eml",
+      "source_sha256": "3aedf763b41b0668f6ba8bb0394c870cbab1fb7f6e862dbda24688a581a2e67e"
+    },
+    {
+      "document_id": "EMAIL-709",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-709_Buyer_inquiry_batch_timing.eml",
+      "source_sha256": "062c8a096cbbd4b9584eb584887f9c468b8ebde53b2a42addcd0cac73cdc5d07"
+    },
+    {
+      "document_id": "EMAIL-1237",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-1237_Mountain_Ridge_county_correction_RM_parcel_only.eml",
+      "source_sha256": "8ecb5d5b6b536cf76cc4c104de0a0a23ab0d535f75a6d0dbb0a67d029b184115"
+    },
+    {
+      "document_id": "EMAIL-292",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-292_Easement_file_review_Lane_Klamath_routine_diligence.eml",
+      "source_sha256": "44f05a86589edb36c4f5425d75543d5097fdfc0caa3892c7f367e0f66686be53"
+    },
+    {
+      "document_id": "EMAIL-1174",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-1174_File_access_note_Alder_coordination_routine.eml",
+      "source_sha256": "d1afbaf30d6828c4a70985e9be15d5ed947c77c7b8c3d13755c8d377d0370f0b"
+    },
+    {
+      "document_id": "EMAIL-495",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-495_Parcel_credit_build_NW_05_face.eml",
+      "source_sha256": "16439039239e3b0e074fc3410b0ebbe1c9a99a8b05424b46a86bfe0939a4f5cf"
+    },
+    {
+      "document_id": "EMAIL-148",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-148_Investor messaging _ Coastal Solar pause.eml",
+      "source_sha256": "2dec480a72166038ab9a83adab2c2430d0ecce02840eb99ece6c29eecdf2fff5"
+    },
+    {
+      "document_id": "EMAIL-064",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-064_Search term _ TAR workflow options.eml",
+      "source_sha256": "33e83cc56fb197c17ccb9c98dc499d04324c3d7305eb57e637bd5058b0ff7e7e"
+    },
+    {
+      "document_id": "EMAIL-1034",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1034_File_access_log_parcel_files_multi_candidate.eml",
+      "source_sha256": "8ea4a05d7898f778d0936e1ad7daf450bf8a51a445a58a98be1d7febbc0eebb4"
+    },
+    {
+      "document_id": "EMAIL-135",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-135_RE_ Interview notes _ S. Nguyen (8_1).eml",
+      "source_sha256": "8ae59d3bcbe2ee88f5a3201b0f1ef5b38868b6daa957fc121862e84f24e2ec74"
+    },
+    {
+      "document_id": "EMAIL-1384",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-1384_Expense_travel.eml",
+      "source_sha256": "25c7f6e307b5715ded2c25e950762529bbb1181cef3b4c9f8f5118c687815492"
+    },
+    {
+      "document_id": "EMAIL-092",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-092_Travel Itinerary Confirmation _ NYC Investor Trip.eml",
+      "source_sha256": "ae80ece5f90546b3618032d8ad9aaa737049738a3a2f69a867568a1e4656679d"
+    },
+    {
+      "document_id": "EMAIL-104",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-104_Good seeing you at the conference.eml",
+      "source_sha256": "6233803fe0b1351099c34ecb74b7beaf1d368805fa2575ee6bab9109dc60d051"
+    },
+    {
+      "document_id": "EMAIL-361",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-361_Application_date_confirmation_NW_07.eml",
+      "source_sha256": "0d9bf5b94c7c7307955d215d68733e034ed86f741b30f8882a84766c82b4de46"
+    },
+    {
+      "document_id": "EMAIL-007",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-007_RE_ Broker network _ Bellhaven.eml",
+      "source_sha256": "676ed9f97329e7520aa07f3290b91aa6ee6c42d6cb1e1f7f4b5c7cb1e34033e4"
+    },
+    {
+      "document_id": "EMAIL-139",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-139_Data transmittal _ parcel payment records.eml",
+      "source_sha256": "22dab111f565555075fce35b7d394c36953b516fe4cbc6cd1367c089bc8c5d10"
+    },
+    {
+      "document_id": "EMAIL-776",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-776_Placement_date_vs_authority_matrix_join_record.eml",
+      "source_sha256": "efad1abfb5a2b5ff8d94da9057d25e4d8ae148b0aa8bb31bc1abead243d81657"
+    },
+    {
+      "document_id": "EMAIL-171",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-171_Board resolution _ placement pause (draft).eml",
+      "source_sha256": "1e201515cddccb924ff484c9fa66d03d5eb0da7799e6d67c1e88dfed04a58b75"
+    },
+    {
+      "document_id": "EMAIL-419",
+      "source_path": "data/emails/Custodians/HR/EMAIL-419_Clearwater_file_status_note_interim.eml",
+      "source_sha256": "92398a23fbd654b8c2d69b5e3abd685e4701b68fbe1f3fb1e832782773330f51"
+    },
+    {
+      "document_id": "EMAIL-728",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-728_Analyst_Q_A_prep_restart_timing.eml",
+      "source_sha256": "50f20fb74f46f719933fec362d0a246a42df5ed262b2f2db12954b638902bd26"
+    },
+    {
+      "document_id": "EMAIL-386",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-386_County_easement_filing_NW_01.eml",
+      "source_sha256": "a19e0d641c3e97b75218b29869e838a48c5a0e00bebff37011407a63984fcffc"
+    },
+    {
+      "document_id": "EMAIL-1270",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-1270_HR_broadcast.eml",
+      "source_sha256": "8d2c9d93a6fb257015c1fda8999b12b5a0fa4f2b730d76c538fe940d1aeddd0c"
+    },
+    {
+      "document_id": "EMAIL-1395",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-1395_Out_of_office.eml",
+      "source_sha256": "e478617154e6f27df326726127b9010794fd313eb3cb6f7cca6ad1bb9929e1b3"
+    },
+    {
+      "document_id": "EMAIL-345",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-345_Easement_file_review_Lane_Klamath_routine_diligence.eml",
+      "source_sha256": "0343bff24110b9f640cb97d487ff935e538fae6fafc56eb81022a137df373552"
+    },
+    {
+      "document_id": "EMAIL-136",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-136_Exposure analysis _ attorney assessment.eml",
+      "source_sha256": "72adfa09a383ba8ca338c730fcdf152e8a6c6820de77cf6cf68b490d0d9d82b4"
+    },
+    {
+      "document_id": "EMAIL-1343",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-1343_Fantasy_pool.eml",
+      "source_sha256": "b243b2a049dcc9c8bac61326fffdc162505e11c506e6e5a8a057649b890d216a"
+    },
+    {
+      "document_id": "EMAIL-028",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-028_Re-reading old threads.eml",
+      "source_sha256": "5ca64bfff66737447f585e9947aebb3e92224949232cc4158a0bbf8f3313b211"
+    },
+    {
+      "document_id": "EMAIL-1110",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-1110_Review_collection_cover_internal_batch_1.eml",
+      "source_sha256": "286527e715535bfa1c15023f50ed551b1479b66e7688d8fe4988489b188edef1"
+    },
+    {
+      "document_id": "EMAIL-584",
+      "source_path": "data/emails/Custodians/HR/EMAIL-584_Rate_card_batch_5.eml",
+      "source_sha256": "64d3365d251146c0ef9b1c23f151289de3791e26ade43a97e6d896d049457e98"
+    },
+    {
+      "document_id": "EMAIL-993",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-993_Tax_position_note_Larsen_exam_planning.eml",
+      "source_sha256": "2e7f9418aa8230b07b7fa33bb886856f33b563bf2053f6a9ccdfdef73fff29c5"
+    },
+    {
+      "document_id": "EMAIL-164",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-164_RE_ Interview scheduling _ whistleblower counsel.eml",
+      "source_sha256": "dcc702dff97daf098467447b76a5cf963cef888d59b9d08f7b8e753b9d15b02f"
+    },
+    {
+      "document_id": "EMAIL-1217",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-1217_Mountain_Ridge_parcel_list_RM_6_distinct_IDs.eml",
+      "source_sha256": "d01dca5d74bc5f7cc3462564c11e76b7415182c6572dceb8b610b5d246099ded"
+    },
+    {
+      "document_id": "EMAIL-273",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-273_Survey_status_note_Klamath_candidates_pre_field.eml",
+      "source_sha256": "120999ed2f3e6e157ca1683ef08daf8db9f90d383928773335d6db10769a2faa"
+    },
+    {
+      "document_id": "EMAIL-1196",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-1196_Mountain_Ridge_parcel_list_RM_2_distinct_IDs.eml",
+      "source_sha256": "ef0c35c5104629d89ac0fe682fbf0162fc97ab3ab9b5a15c48052c947bc38e40"
+    },
+    {
+      "document_id": "EMAIL-321",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-321_Easement_file_review_Lane_Klamath_routine_diligence.eml",
+      "source_sha256": "a8ec2a383c7bc82c7a2a4be7bd6e1e1f548acef0fe1c6086cc99c87efd8628d8"
+    },
+    {
+      "document_id": "EMAIL-067",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-067_RE_ Investor question _ Coastal Solar pause.eml",
+      "source_sha256": "bb5f31778e5eea417961ebc74ee19933d4cc6f1ab7b12b5ef6613942804ada44"
+    },
+    {
+      "document_id": "EMAIL-468",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-468_Provision_disclosure_draft_Larsen.eml",
+      "source_sha256": "8ce85921acf5064844428b80a50d0c30a1cf8f95604cad2c743699bfd8e2cb4f"
+    },
+    {
+      "document_id": "EMAIL-1178",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-1178_File_access_note_Alder_coordination_routine.eml",
+      "source_sha256": "8ba95a7216abcd5fc7177b8fcb4d3fdf27a075ffc8c3999bc8dd53a7791c0d73"
+    },
+    {
+      "document_id": "EMAIL-213",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-213_Invite_ Broker Webinar _ Credit Basics.eml",
+      "source_sha256": "cb0b85c1b918b3e3dc792d4e8c7872d7db758e20679f452f85d793a6c7d01100"
+    },
+    {
+      "document_id": "EMAIL-131",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-131_HR investigation report _ Salem office complaint.eml",
+      "source_sha256": "05526bfa6ffb0329448ae6feae7fb21563aa89faff142bff12f2881e4a27cb23"
+    },
+    {
+      "document_id": "EMAIL-1211",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-1211_Mountain_Ridge_parcel_list_RM_6_distinct_IDs.eml",
+      "source_sha256": "67f1c86c1cb69452b1a2119be253b78a229e3b645985d43d9782140aff210280"
+    },
+    {
+      "document_id": "EMAIL-960",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-960_Spot_check_calendar_entry_no_workpaper.eml",
+      "source_sha256": "f65b49c1921649af8b29a4113d7ce883e76f8c206a853aab4f73f3a6bbab7aef"
+    },
+    {
+      "document_id": "EMAIL-141",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-141_Forensic accountant findings _ privileged summary.eml",
+      "source_sha256": "4437f0cb692280df2f6065eee6c88550a29f336ed42d847dd0a161a7b67f6a0e"
+    },
+    {
+      "document_id": "EMAIL-322",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-322_Application_date_confirmation_NW_04.eml",
+      "source_sha256": "6957c71243f4397a9fae61515796b26f0e791b3194884870518293b0098a8c48"
+    },
+    {
+      "document_id": "EMAIL-944",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-944_Tax_position_note_Larsen_early_planning.eml",
+      "source_sha256": "d6acae53b233920669668575b81184b7798bff438fc9be8288516c70eb5a5ec5"
+    },
+    {
+      "document_id": "EMAIL-1121",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-1121_Hold_attestation_Nina_Alvarez.eml",
+      "source_sha256": "b1cabae4c54b17d689fa766c174d347032c163b5ef6b548eaf52d98469ed949a"
+    },
+    {
+      "document_id": "EMAIL-1269",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-1269_Out_of_office.eml",
+      "source_sha256": "0e68fb36b0302bdd764f5b0ab8fae5f774b990963ce22303d66c0938fd17e620"
+    },
+    {
+      "document_id": "EMAIL-626",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-626_Broker_pipeline_update.eml",
+      "source_sha256": "403bffd708ce52062bc61d0484808db4be3cdc1407ed4ceec2ce2eca47c27817"
+    },
+    {
+      "document_id": "EMAIL-336",
+      "source_path": "data/emails/Custodians/Alan_Brooks/EMAIL-336_Easement_file_review_Lane_Klamath_routine_diligence.eml",
+      "source_sha256": "cdcc5bb2c736f5513f2b29514c871948ace505b03438e848c651a0ca2cebf2b6"
+    },
+    {
+      "document_id": "EMAIL-291",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-291_Parcel_payment_ledger_line_NW_06.eml",
+      "source_sha256": "e4663d574932c9513a4476f14ddb392241481297b03ca6a30582ae4ed9ab09ff"
+    },
+    {
+      "document_id": "EMAIL-159",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-159_RE_ Coastal Solar examination _ production schedule.eml",
+      "source_sha256": "71f9347adc43d30d7c2eab98001021f4b9f043f344d643878dbdc0eb931d5802"
+    },
+    {
+      "document_id": "EMAIL-161",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-161_RE_ Coastal Solar examination _ follow-up requests.eml",
+      "source_sha256": "b11d219450d3df046f985d3167e14516e42693290cf0fac13f047b853f374e96"
+    },
+    {
+      "document_id": "EMAIL-1381",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-1381_Expense_travel.eml",
+      "source_sha256": "570fb8d854056efa4aac62e5cfd8328acb82379b30aa487fd5750d6395050f9c"
+    },
+    {
+      "document_id": "EMAIL-765",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-765_Diligence_refresh_file_note.eml",
+      "source_sha256": "3c24d1f1711654550feb39e64ae4fa256230b871d5787941294d9a449efd7dea"
+    },
+    {
+      "document_id": "EMAIL-1170",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-1170_File_access_note_Alder_coordination_routine.eml",
+      "source_sha256": "9ea7b6d33f79f588a097e0a5644582339c79249eaa7bda94c2ea4d9d21b40b71"
+    },
+    {
+      "document_id": "EMAIL-208",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-208_Staffing _ review team.eml",
+      "source_sha256": "d641b09b5a74663f28f885c105993227023c9c3276d0e3f7e2235b6bd9732421"
+    },
+    {
+      "document_id": "EMAIL-037",
+      "source_path": "data/emails/Custodians/Nina_Alvarez/EMAIL-037_RE_ Parcel data request _ Northwest batch.eml",
+      "source_sha256": "a5065d67e883e3071d9e598506e9e5fb6a302f2e4d884d0d1bab735f8dfae1eb"
+    },
+    {
+      "document_id": "EMAIL-383",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-383_Recorder_notice_parcel_number_cited_map_required.eml",
+      "source_sha256": "78a06365c8396cb89ebc6d5b2b4841b6ad6f0a8b5784b6e8d527ca457e9cb1e3"
+    },
+    {
+      "document_id": "EMAIL-334",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-334_Recorder_notice_parcel_number_cited_map_required.eml",
+      "source_sha256": "ff114d7af9c4053c479e5c38b856dfa238cd5fbdae24ab961db19b0e7e4509d8"
+    },
+    {
+      "document_id": "EMAIL-117",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-117_RE_ County recorder flagged a couple filings.eml",
+      "source_sha256": "e3fadc68992c11c32161cd4e90ec27feb3e21564ac2ff95ad0dca3146ea48371"
+    },
+    {
+      "document_id": "EMAIL-1167",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-1167_File_access_note_Alder_coordination_routine.eml",
+      "source_sha256": "207f2bfb4b4a5f36cd5e0b95243a3c45b8890ab9c55c493bcc7993ac22c0e3d9"
+    },
+    {
+      "document_id": "EMAIL-142",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-142_Q3 tax provision support.eml",
+      "source_sha256": "2c02c19c995ddef845f0c8494591d8fa08810fde5a9fd4d650bb617114914fca"
+    },
+    {
+      "document_id": "EMAIL-1105",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-1105_Hold_attestation_Robert_Denniston.eml",
+      "source_sha256": "b3cc64a5ea97b90bcb6c33df538a6e8bd75e5945f0f903386d79485c9ba4a82e"
+    },
+    {
+      "document_id": "EMAIL-230",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-230_Hotel Confirmation _ Portland Leadership Offsite.eml",
+      "source_sha256": "c69c245e383e6ff16e63d9ee55699b54d8ca3db0fd558dc6beb43c7622ebd6f3"
+    },
+    {
+      "document_id": "EMAIL-634",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-634_Buyer_inquiry_batch_timing_and_coverage.eml",
+      "source_sha256": "64cec6d7d9b9176ef11f65ebeae9344dd95a75aaf1e96f429374cedbdf0aa6e4"
+    },
+    {
+      "document_id": "EMAIL-1218",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-1218_Mountain_Ridge_broker_note.eml",
+      "source_sha256": "97e91bc125d3db8348b640e6fbe135e2171b706a001aef93acfafb764cfc66dc"
+    },
+    {
+      "document_id": "EMAIL-925",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-925_Quarterly_pack_compliance_section_no_entries.eml",
+      "source_sha256": "e88d04e360cb3120bd5297698ebe9368d50c7e73dd43011ed40da61d2808f064"
+    },
+    {
+      "document_id": "EMAIL-1022",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-1022_Pool_analysis_work_product_3_live_retaliation_flag.eml",
+      "source_sha256": "6f8c322b7560fac5a861638aefd094f5b8d73b79eca4fdec11df8058d1e08860"
+    },
+    {
+      "document_id": "EMAIL-950",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-950_Close_file_Q4_2023_prep.eml",
+      "source_sha256": "234be644b8af7a359e5f0af4562cea730cc04633216709480fbf474ad7fde891"
+    },
+    {
+      "document_id": "EMAIL-1071",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-1071_Third_party_hold_gap_note_Bellhaven_070_link.eml",
+      "source_sha256": "ca3b394d9f7ea25004a7f21cd9a010a5f303e82edf31fae00aebb99f9997aed1"
+    },
+    {
+      "document_id": "EMAIL-683",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-683_Broker_pipeline_update.eml",
+      "source_sha256": "16c486aa7506302b903067e956c3a01d7da939ba22d1988368cca4d654e7a44f"
+    },
+    {
+      "document_id": "EMAIL-757",
+      "source_path": "data/emails/Custodians/HR/EMAIL-757_Renewal_ISSUANCE_certificate_OR_WA_issuance_date_only.eml",
+      "source_sha256": "27fb703bdc8e8e540838147c17856c722f46dc9e8d9bce4f41d000a2ccbccf10"
+    },
+    {
+      "document_id": "EMAIL-878",
+      "source_path": "data/emails/Custodians/Kevin_Tran/EMAIL-878_Board_pack_Q3_2022.eml",
+      "source_sha256": "57c88291bd2f879c2ff4402bfc68a8be2e87dc64a421bd1d0c5680bf7e9163db"
+    },
+    {
+      "document_id": "EMAIL-042",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-042_RE_ OR_WA broker registration renewal _ status.eml",
+      "source_sha256": "ecc23d962c8a308f0bf1bf3dabf0610a320eb1bc0694cefe635b2dc102ae0373"
+    },
+    {
+      "document_id": "EMAIL-1169",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-1169_Inter_company_file_coordination_Alder_routine.eml",
+      "source_sha256": "e57e70bcf2e6fef5b7b8e95b567a27186e9921bde954f5243eff4e43219e3be1"
+    },
+    {
+      "document_id": "EMAIL-492",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-492_Tax_position_draft_Larsen_exam_planning.eml",
+      "source_sha256": "b07a3161a0be9e4ae549ed97070c9578909d0c30e8d5710e856a4922881445ad"
+    },
+    {
+      "document_id": "EMAIL-628",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-628_Refund_demand_buyer_lot_4.eml",
+      "source_sha256": "4eeee650d6e8b5c5c9b01b9660db37f7f7e7b522c6d7fb07a40538197b53fe0f"
+    },
+    {
+      "document_id": "EMAIL-708",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-708_Broker_pipeline_update.eml",
+      "source_sha256": "06e6ec39740a2c5695bdd94f26c228ab6a5b8f114a1b6fadda07e21dc5328a10"
+    },
+    {
+      "document_id": "EMAIL-1379",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-1379_Out_of_office.eml",
+      "source_sha256": "2fed510d4a0e2e88527f95073c12f06fe951bbe95e1b89f5ffc12ecff4bbedf2"
+    },
+    {
+      "document_id": "EMAIL-463",
+      "source_path": "data/emails/Custodians/Kevin_Tran/EMAIL-463_Wire_confirmation_fee_payment_6_8_expensed.eml",
+      "source_sha256": "805d6682976182acb107667f7be950a51187967dc2db7626afbf6cf4aa373033"
+    },
+    {
+      "document_id": "EMAIL-510",
+      "source_path": "data/emails/Custodians/Nina_Alvarez/EMAIL-510_Parcel_credit_build_NW_07_face.eml",
+      "source_sha256": "6a81f72345e5d4a9d8a116cdb54648c7e602d73ff033433c1cee73c4a448479f"
+    },
+    {
+      "document_id": "EMAIL-137",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-137_Engagement _ forensic accounting support for counsel.eml",
+      "source_sha256": "fefa62a0f3a573508a98520320c50e51a8dde07165393787cfdf252960a68ad6"
+    },
+    {
+      "document_id": "EMAIL-848",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-848_Board_pack_Q2_2023.eml",
+      "source_sha256": "ccf031cc68a49e59809570f602ceda67f202b0a32cb373dd047c7647528f0d84"
+    },
+    {
+      "document_id": "EMAIL-353",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-353_Southern_tracts_file_pull_disambiguation.eml",
+      "source_sha256": "a647e012f0efda8205c3861e594fabc98588afe798fe8707d733fcfbfcd098be"
+    },
+    {
+      "document_id": "EMAIL-868",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-868_Pipeline_outlook_placement_pacing_early.eml",
+      "source_sha256": "d5ae090b77e8673a38c453814e0e4d8241a0ad36c9e3de9f9a4970e204bd73c1"
+    },
+    {
+      "document_id": "EMAIL-875",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-875_Board_pack_Q2_2023.eml",
+      "source_sha256": "349978c63315176dd98182d810885b18e4e1e20286527e5983df04f0dd1e5966"
+    },
+    {
+      "document_id": "EMAIL-507",
+      "source_path": "data/emails/Custodians/Facilities/EMAIL-507_Rate_card_batch_4.eml",
+      "source_sha256": "77cebd0c3a5ac781fafb9a92dd510e332661741a42dedf188b25808a62395e04"
+    },
+    {
+      "document_id": "EMAIL-1412",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-1412_RE_Fwd_RE_Parcel_scouting_Klamath_County.eml",
+      "source_sha256": "86eee361c25ab94e30a778828ac9b01bd4156463cb91167b4c6a39dc0bfcb5c5"
+    },
+    {
+      "document_id": "EMAIL-794",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-794_Broker_renewal_status_OR_WA_pending_per_9_15_notice.eml",
+      "source_sha256": "a062be3718da592975985c4a4e89958fe99c7cddc2a423419409b1f4de6a4783"
+    },
+    {
+      "document_id": "EMAIL-1314",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-1314_Parking_facilities.eml",
+      "source_sha256": "a39701dfedbaae354fa98167979ae8900d754aa88a6f044c5801009663f06e1a"
+    },
+    {
+      "document_id": "EMAIL-1303",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-1303_Conference_chatter.eml",
+      "source_sha256": "a16af531afc6a281545b2f13efd9ed9e95f8d6e4aa20bcd8f5b1dc38a394d9f1"
+    },
+    {
+      "document_id": "EMAIL-036",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-036_Parcel data request _ Northwest batch.eml",
+      "source_sha256": "51695ad7df6196e05dda34aceb3fc095b7b838851f93a1bf74eb30a97faa53da"
+    },
+    {
+      "document_id": "EMAIL-313",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-313_Recorder_notice_parcel_number_cited_map_required.eml",
+      "source_sha256": "7370fe2273a6e027973aad4a1db65a8e54722112c2a22414cff85cad15236c60"
+    },
+    {
+      "document_id": "EMAIL-923",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-923_Close_file_Q2_2022.eml",
+      "source_sha256": "77a5e3405d02150be77e1a4a21808cb673f2dca535b961048db8a9cad6e86a88"
+    },
+    {
+      "document_id": "EMAIL-965",
+      "source_path": "data/emails/Custodians/HR/EMAIL-965_Compliance_action_log_framework_follow_up.eml",
+      "source_sha256": "23ceb9e9b32e003c69aa84aee8aa175591dad5edcd65d15500be5e2b2c96e321"
+    },
+    {
+      "document_id": "EMAIL-981",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-981_Spot_check_calendar_entry_no_workpaper.eml",
+      "source_sha256": "da0c86c4eef1c06ddb8cb9d32f348a34bf6f6eb44db98a092b200ff9531ab859"
+    },
+    {
+      "document_id": "EMAIL-023",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-023_IRS subpoena received.eml",
+      "source_sha256": "fea90259e76af2992e5afc7e0222290b63fe590d4ff5c37427353bcb8b720b06"
+    },
+    {
+      "document_id": "EMAIL-819",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-819_State_database_check_Bellhaven_process_record.eml",
+      "source_sha256": "9ba41d1e0de625e440e087f8bfe67f3b05e5dc464dc9fb11c6afde29a4d28d99"
+    },
+    {
+      "document_id": "EMAIL-172",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-172_RE_ Board resolution _ placement pause (draft).eml",
+      "source_sha256": "8b9cd350601561f034a98103309c98c97a8966389824a97375fd0ac067c66e88"
+    },
+    {
+      "document_id": "EMAIL-1434",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-1434_RE_Bellhaven_registration.eml",
+      "source_sha256": "3db1ed476ff6f1b27f966e710133e2e621e78b44332f77d642e038c43556e104"
+    },
+    {
+      "document_id": "EMAIL-752",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-752_Renewal_FILING_receipt_OR_WA_filing_date_only.eml",
+      "source_sha256": "eb8d5134946604855f8ca713806a2a8d15617f5414b8add91699d280028e4aa6"
+    },
+    {
+      "document_id": "EMAIL-140",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-140_Preliminary findings _ parcel payment tracing.eml",
+      "source_sha256": "2b6d75c8acc4a62c506acf45e242f434002df7784be2cb380e063c280a199dcc"
+    },
+    {
+      "document_id": "EMAIL-116",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-116_County recorder flagged a couple filings.eml",
+      "source_sha256": "4e55c4f8bb29e094ce0fd6a430331e17eb67bc295910141e439a70b0dba1b0a5"
+    },
+    {
+      "document_id": "EMAIL-940",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-940_Exposure_scoping_note_preliminary_no_reserve.eml",
+      "source_sha256": "eae722453251bdb07d11eae10c11b0501d49b5fd72a7d0c38756cec1922934ac"
+    },
+    {
+      "document_id": "EMAIL-056",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-056_Coastal Solar Credit Program subpoena _ extension request.eml",
+      "source_sha256": "7d90e728e269d8b823b7d3059fe237635d6486eac55a5b2cd172e00388b208c2"
+    },
+    {
+      "document_id": "EMAIL-1357",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1357_Parking_facilities.eml",
+      "source_sha256": "b7bbcb337c89e1156ba2751f07c721f37deb8431f3289e8992d2849a5c08165c"
+    },
+    {
+      "document_id": "EMAIL-352",
+      "source_path": "data/emails/Custodians/Brenda_Moss/EMAIL-352_County_easement_filing_NW_06.eml",
+      "source_sha256": "a5d7eb59ad5dc0013f60916178615b9fa0b004b0f884abcc34e23f12bdee7e8b"
+    },
+    {
+      "document_id": "EMAIL-667",
+      "source_path": "data/emails/Custodians/A_Patel/EMAIL-667_Buyer_inquiry_batch_timing_and_coverage.eml",
+      "source_sha256": "ab85290658b5b991a1ba38c911c3a2f9f265a2dea9f72aecc0c52c1552ffbae5"
+    },
+    {
+      "document_id": "EMAIL-163",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-163_Interview scheduling _ whistleblower counsel.eml",
+      "source_sha256": "6ee6434dce252957c31b25f85e43fc4d9c32647da755f115a34d70cf484bb20b"
+    },
+    {
+      "document_id": "EMAIL-068",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-068_RE_ Coastal Solar _ path forward.eml",
+      "source_sha256": "2b51a20949c79345dba6ecd168b4a3745dad57c94ce877d1449733f454c5dede"
+    },
+    {
+      "document_id": "EMAIL-586",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-586_Provision_disclosure_draft_Larsen.eml",
+      "source_sha256": "7a6065d241c411158972cb79a08087fa8f2974405e3efb6f1aaafbf757cb5b1d"
+    },
+    {
+      "document_id": "EMAIL-233",
+      "source_path": "data/emails/Custodians/Nina_Alvarez/EMAIL-233_RE_ Mountain Ridge _ spring broker push.eml",
+      "source_sha256": "6c76dfdf2a8f1adaf4a53ea975a178092fe7948a03e96ffc457c830834ab57b7"
+    },
+    {
+      "document_id": "EMAIL-200",
+      "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-200_RE_ Investor FAQ _ pause (draft).eml",
+      "source_sha256": "0b8cc014a562fb71fbfa6e11d581fd238cc10fb636dbfc2ade85ba3b70ff1ff0"
+    },
+    {
+      "document_id": "EMAIL-924",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-924_Quarterly_pack_compliance_section_no_entries.eml",
+      "source_sha256": "567a6eb08d98d72496328e8374eada6265b592d37e87d988048692085dc8864f"
+    },
+    {
+      "document_id": "EMAIL-477",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-477_Provision_disclosure_draft_Larsen.eml",
+      "source_sha256": "2d0b8e549d637a0c67dd3ce2726c3f14b7aedc90381a92a1587f4bfb93bef345"
+    },
+    {
+      "document_id": "EMAIL-1468",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1468_RE_FW_RE_FW_NW_exposure_schedule_for_board_call.eml",
+      "source_sha256": "23d2ce8fb78a2deba6383a419516ac359075d219b3bf5f6ec91ceb4faabb196e"
+    },
+    {
+      "document_id": "EMAIL-043",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-043_Following up _ registration and marketing status.eml",
+      "source_sha256": "bdb31ee6cae95bc3563cab454faaf2994830c9361b713d814d32789b5f6c1bf3"
+    },
+    {
+      "document_id": "EMAIL-017",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-017_Broker licensing check-in.eml",
+      "source_sha256": "2bcf902f270127dae85710f36e1d36f225023f6002f7513ff490c91ce790f166"
+    },
+    {
+      "document_id": "EMAIL-162",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-162_Coastal Solar examination _ production received.eml",
+      "source_sha256": "a1431e58a7b88ec988715d07cc86dd1755865751564c2c2b049b845ef3b3f38f"
+    },
+    {
+      "document_id": "EMAIL-664",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-664_Credit_certificate_delivery_buyer_lot_4.eml",
+      "source_sha256": "a4c574751780298a520854c0adfc1db5bb9650ac017e646dfb35919f3358f95d"
+    },
+    {
+      "document_id": "EMAIL-1302",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-1302_Expense_travel.eml",
+      "source_sha256": "72e4c98323c8042ce938db47c3c14024ff870084a3ba4998d45a8dfd267c70a9"
+    },
+    {
+      "document_id": "EMAIL-123",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-123_Review team war room _ logistics.eml",
+      "source_sha256": "028f6bc27455fdf8e3a9d326d8e138d3f123536cecf9f0c7086504b87e6dd725"
+    },
+    {
+      "document_id": "EMAIL-100",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-100_Mountain Ridge parcel eligibility _ all clear.eml",
+      "source_sha256": "eb656106df27567f837d57965935dafb72d6ad93c45de611c86a9e1abe8ede3a"
+    },
+    {
+      "document_id": "EMAIL-1446",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-1446_RE_Q4_placement_targets.eml",
+      "source_sha256": "bce428000965ea12099671a2af16e9d0a2879ed5ca289d60ada8fa843456da94"
+    },
+    {
+      "document_id": "EMAIL-018",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-018_RE_ Broker licensing check-in.eml",
+      "source_sha256": "57e5b0a71b678c9285251d3a5fe451ed42cfb9d9c24e0e3fe846ef1621b8c479"
+    },
+    {
+      "document_id": "EMAIL-012",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-012_Privileged _ Coastal Solar program risk assessment.eml",
+      "source_sha256": "9c33f803cbeaa6e93b96bf63c764d48bd308a5f4831f4101d2861a6e5607a7be"
+    },
+    {
+      "document_id": "EMAIL-1109",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-1109_Collection_acknowledgment_review_internal_IT_Notifications.eml",
+      "source_sha256": "b8eef86e761235a80f34549ffafb15a59697f971d43b413c39a33ae030b250ea"
+    },
+    {
+      "document_id": "EMAIL-1382",
+      "source_path": "data/emails/Custodians/Wendy_Park/EMAIL-1382_Fantasy_pool.eml",
+      "source_sha256": "3665d00e14398b8a6a264d1f214b50f934263fdef403ced68d1fb072df83024e"
+    },
+    {
+      "document_id": "EMAIL-1078",
+      "source_path": "data/emails/Custodians/Frank_Delgado/EMAIL-1078_Collection_scope_note.eml",
+      "source_sha256": "6d52ad3da7b218962b89e1c33f4567e89985f9d896eb2d0b292479a9bb8be313"
+    },
+    {
+      "document_id": "EMAIL-113",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-113_Southern tracts file _ need it before Friday.eml",
+      "source_sha256": "3cf4ea22bbfc64ac6af5e76f5740f9f1030ba5e22abee1d47ff98f9d33ec7f78"
+    },
+    {
+      "document_id": "EMAIL-746",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-746_Analyst_Q_A_prep_restart_timing.eml",
+      "source_sha256": "266435ddc0011520b396fea80991dea40b595673b1aaccb78c803756f218648a"
+    },
+    {
+      "document_id": "EMAIL-203",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-203_Compliance remediation plan _ outline.eml",
+      "source_sha256": "da46352a105a8adba8c56e2f4b3eadb05b9d0336975683f87fb675293847a0cf"
+    },
+    {
+      "document_id": "EMAIL-966",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-966_Tax_position_note_Larsen_early_planning.eml",
+      "source_sha256": "2dd6ee43cbca4a20d2c74b8d0c699e7837625b0b2c4c350be2f9056391c5e6a5"
+    },
+    {
+      "document_id": "EMAIL-1117",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-1117_Third_party_hold_gap_note_Bellhaven_070_link.eml",
+      "source_sha256": "039edded6681ba3198ae230c11e101ef8157761fb9b421486093d5fd8406da85"
+    },
+    {
+      "document_id": "EMAIL-795",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-795_Renewal_ISSUANCE_certificate_OR_WA_issuance_date_only.eml",
+      "source_sha256": "e1797925d7c5193c29605f130c8e8bccda7e5990813496593280d0b8c5b8175b"
+    },
+    {
+      "document_id": "EMAIL-039",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-039_RE_ Survey request _ Coastal Solar parcels.eml",
+      "source_sha256": "03c13cdbc4d983d930e8e8fb86d7f519b2438de4255cfbb8f8b3f07f54c22f04"
+    },
+    {
+      "document_id": "EMAIL-554",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-554_Parcel_credit_build_NW_07_face.eml",
+      "source_sha256": "58a32ccb08f7209bbe2a9ac67645e00029fc9077fcfaae79a7fd921a931cfbf1"
+    },
+    {
+      "document_id": "EMAIL-1043",
+      "source_path": "data/emails/Custodians/Mia_Chen/EMAIL-1043_File_access_log_parcel_files_multi_candidate.eml",
+      "source_sha256": "fffad4bcfdcd2f119d55c19ed139e039c0bf6264435cb717a11e97b4ee9a041e"
+    },
+    {
+      "document_id": "EMAIL-656",
+      "source_path": "data/emails/Custodians/Kevin_Tran/EMAIL-656_Marketing_deck_v4_checklist_version_controlled.eml",
+      "source_sha256": "04b58c4a0c101138f80f2d9669d751c954780aae0493f36a20afaa3fba112c77"
+    },
+    {
+      "document_id": "EMAIL-367",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-367_GreenAcre_field_sheet_NW_07.eml",
+      "source_sha256": "a0a3a681e1a231bce75652a31a7e1f63b2fa816dd2a02666b4ca7606889e26a9"
+    },
+    {
+      "document_id": "EMAIL-010",
+      "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-010_RE_ Bellhaven registration.eml",
+      "source_sha256": "c9e33d2e186ba891a61412861a55e6486ea830c4b473994bc7a85f01a9da1aed"
+    },
+    {
+      "document_id": "EMAIL-467",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-467_GL_support_schedule_placement_face_value.eml",
+      "source_sha256": "4be83724e8638f638a18d8361d1aa818869de9278f18ccb3a9ce48cd993b423f"
+    },
+    {
+      "document_id": "EMAIL-867",
+      "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-867_Board_minutes_draft_Q1_2023_recital_discipline.eml",
+      "source_sha256": "deaa5757e93071166f6fdfb2df65eeccd8bd41b98496d76757a2a186e0d1eb12"
+    },
+    {
+      "document_id": "EMAIL-1374",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-1374_Fantasy_pool.eml",
+      "source_sha256": "d3f11743f426d07d8eca88fde2cf149fd937ba0c56fb502470b7a65f189b8ee2"
+    },
+    {
+      "document_id": "EMAIL-487",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-487_Escrow_reconciliation_inquiry_cash_proceeds_audit.eml",
+      "source_sha256": "9342e7d530b520cbf0b8e9c719c651dccd12e77ae2bf53c94ea7307b17a14625"
+    },
+    {
+      "document_id": "EMAIL-070",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-070_RE_ Coastal Solar _ placements paused.eml",
+      "source_sha256": "eaf7a4404196c9de81e34b8662a6ecc2a5446ff0c4957b83082ecc59454f819f"
+    },
+    {
+      "document_id": "EMAIL-553",
+      "source_path": "data/emails/Custodians/Dana_Whitaker/EMAIL-553_Parcel_credit_build_NW_06_face.eml",
+      "source_sha256": "2a97a9ddc2fea2af94483fad323a4d59163c803b4ed9a8dbb731b3d5633d6af0"
+    },
+    {
+      "document_id": "EMAIL-968",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-968_Spot_check_calendar_entry_no_workpaper.eml",
+      "source_sha256": "328c1120253ad8a09975a56c4e1e898bf1ca0069ff8dd0fea78ab8991f18a49a"
+    },
+    {
+      "document_id": "EMAIL-1309",
+      "source_path": "data/emails/Custodians/Kevin_Tran/EMAIL-1309_Fantasy_pool.eml",
+      "source_sha256": "2a09354e8982bc93639193d836174b44b1217d263121a099400f3849159cae51"
+    },
+    {
+      "document_id": "EMAIL-741",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-741_Board_messaging_note_disclosure.eml",
+      "source_sha256": "0a7e367d0bd005da1b83722b2f1bb3b9d1b2c8b521a919e787d1dbc89ef5526d"
+    },
+    {
+      "document_id": "EMAIL-226",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-226_New Parental Leave Benefit.eml",
+      "source_sha256": "b5b512180adc2544e024b9796a588a09d4eaf8101a3b3ffb759f6cb45dfbcd84"
+    },
+    {
+      "document_id": "EMAIL-125",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-125_Summer barbecue.eml",
+      "source_sha256": "4984d1c8d95471bb79d8685d553477f059d55d5a8d642f130844ff3de876a7da"
+    },
+    {
+      "document_id": "EMAIL-1271",
+      "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1271_Fantasy_pool.eml",
+      "source_sha256": "a562ebd496e663b607ac2a38f13fd2b923204e5bb12ed3a07002150962cf3997"
+    },
+    {
+      "document_id": "EMAIL-046",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-046_Complaint details.eml",
+      "source_sha256": "c54d0adaebc0a35763421c4d71174904477ce7da28069b0669aa0d5559037b34"
+    },
+    {
+      "document_id": "EMAIL-1263",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1263_Parking_facilities.eml",
+      "source_sha256": "b2e9ecb07b7fa8d100dc98d136a4f603222a6c934c8f93c95b848bb35aca103f"
+    },
+    {
+      "document_id": "EMAIL-060",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-060_IT actions for legal hold _ Coastal Solar.eml",
+      "source_sha256": "8b5ae3b4b089bf8e26ab561c50315776216f87d406873c091d673b280f6f1864"
+    },
+    {
+      "document_id": "EMAIL-493",
+      "source_path": "data/emails/Custodians/HR/EMAIL-493_Rate_card_batch_6.eml",
+      "source_sha256": "50330251075d4326e4db848c838e823750cc88453858020a342f977594ce2812"
+    },
+    {
+      "document_id": "EMAIL-1365",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-1365_HR_broadcast.eml",
+      "source_sha256": "eee40a8833d15eb30771973eaa488894536890b13b48f9ea9be3379a7e1c18c5"
+    },
+    {
+      "document_id": "EMAIL-529",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-529_Wire_tracing_analysis_fee_payments_counsel_directed.eml",
+      "source_sha256": "38b0ebf68edacc2246bb444bd0dd514d1671ff87f9493a0672f8f3cbc7782609"
+    },
+    {
+      "document_id": "EMAIL-1472",
+      "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-1472_RE_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "source_sha256": "25dd2f14aa2e22065a318866041a0ad84e1316caf3fc659cedb873628bb50169"
+    },
+    {
+      "document_id": "EMAIL-678",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-678_Buyer_diligence_request_buyer_lot_6.eml",
+      "source_sha256": "06324e43d5ffce8d26cdceaee849db126de9fff801a1536a16c8eb7a02d715b8"
+    },
+    {
+      "document_id": "EMAIL-1070",
+      "source_path": "data/emails/Custodians/Human_Resources/EMAIL-1070_Collection_scope_note.eml",
+      "source_sha256": "b6ce46df149667dbcc7c5db68dcb271bc9083f788c78cde99d46241321dc077f"
+    },
+    {
+      "document_id": "EMAIL-020",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-020_RE_ Whistleblower complaint received _ privileged.eml",
+      "source_sha256": "f76a0327fba8a66973bf3fb1c313b2973546f58fa4523964bf2204dea1b2dd7f"
+    },
+    {
+      "document_id": "EMAIL-016",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-016_RE_ Parcel eligibility follow-up.eml",
+      "source_sha256": "6472f9d424c229b05b78dbb4596324cbbdd4a7db56bc190dc47c0eb21f26c80e"
+    },
+    {
+      "document_id": "EMAIL-1165",
+      "source_path": "data/emails/Custodians/Hannah_Cole/EMAIL-1165_Inter_company_file_coordination_Alder_routine.eml",
+      "source_sha256": "d748e90dce841032f0c4653b40dfe0e6187246db919ae778afab3278f85b928f"
+    },
+    {
+      "document_id": "EMAIL-363",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-363_Submission_packet_NW_07_2022.eml",
+      "source_sha256": "f8faaa372e4d447789723809c8ca17a527d44ec929238381c5b27196d8bca758"
+    }
+  ],
+  "task_id": "CTH-INVENTORY-002",
+  "family": "collection_reconciliation",
+  "verifier": "collection-reconciliation/1.0.0",
+  "output_schema": "benchmark/rlvr/schemas/collection_reconciliation.schema.json",
+  "instruction": "Reconcile this Cascade Timber litigation email collection. Use only the supplied packet. Each document is one original message; count it once. Quoted/forwarded headers and body statements are NOT additional original messages or recipients. Use only the top-level Date, From, To and Cc headers. Ignore Bcc and attachments. Normalize email addresses and domains to lowercase. Cascade = cascadetimber.com; L&L Associates = llassociates.com; Bellhaven Advisory = bellhavenadvisory.com; Alder Point Partners = alderpointpartners.com. Distinct domains are distinct organizations for this inventory, without making privilege or liability judgments.\nReturn JSON only: {\"answers\":{\"Q01\":<answer>,...,\"Q12\":<answer>}}. Counts must be positive integers. For ID sets use arrays with no duplicates (any order); empty sets are []. For ranked answers array order matters. Mapping keys must use the exact formats requested. Answer every question.\nThe reward is the mean of 12 question scores. For count mappings, score = correctly counted keys / union of submitted and expected keys. For ID sets, score = set F1 (both empty earns 1). For ordered arrays, score = correctly positioned entries / longer array length. Missing or malformed answers score 0. Extra top-level fields, unknown question IDs and duplicate JSON keys invalidate the whole submission. No tools are provided in this single-turn evaluation.",
+  "packet_selection": "Original 75-document packet plus 225 sampled without replacement from lexicographically sorted remaining source paths using Python random.Random(20261008); then shuffled with the same generator. Development calibration, not held-out."
+}

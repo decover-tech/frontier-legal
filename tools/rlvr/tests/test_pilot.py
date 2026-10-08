@@ -125,13 +125,14 @@ class AdapterTests(unittest.TestCase):
         fixtures = {
             'openai': {'error': None, 'output': [{'type': 'message', 'content': [{'type': 'output_text', 'text': '{"sent_date":"2022-03-02"}'}]}]},
             'anthropic': {'content': [{'type': 'text', 'text': '{"sent_date":"2022-03-02"}'}]},
+            'openrouter': {'choices': [{'message': {'content': '{"sent_date":"2022-03-02"}'}, 'finish_reason': 'stop'}]},
             'gemini': {'candidates': [{'content': {'parts': [{'text': '{"sent_date":"2022-03-02"}'}]}}]},
         }
         for provider, response in fixtures.items():
             with self.subTest(provider=provider):
                 opener = MagicMock()
                 opener.open.return_value.__enter__.return_value.read.return_value = json.dumps(response)
-                keys = {'OPENAI_API_KEY': 'test', 'ANTHROPIC_API_KEY': 'test', 'GEMINI_API_KEY': 'test'}
+                keys = {'OPENAI_API_KEY': 'test', 'ANTHROPIC_API_KEY': 'test', 'GEMINI_API_KEY': 'test', 'OPENROUTER_API_KEY': 'test'}
                 with patch.dict(os.environ, keys), patch('urllib.request.build_opener', return_value=opener):
                     result = generate(provider, 'model', [{'role': 'user', 'content': 'prompt'}])
                 self.assertEqual(verify(result['completion'], '2022-03-02')['reward'], 1)
