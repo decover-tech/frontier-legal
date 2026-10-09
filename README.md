@@ -123,45 +123,48 @@ and chronology pilots still need separate independent oracle review.
 
 ## Model leaderboard
 
-The [final ten-task dashboard](https://cascade-timber-final-benchmark.decoverhq-in-8411.chatgpt.site) (private Sites access)
-contains the October 9, 2026 benchmark across **10 tasks, 10 runs per task per model,
-five models, and 500 completed episodes**. Its composite equally weights the ten
-task means and requires ten scored runs for every task. All episodes passed replay
-verification; 498 were scored. Grok and GLM each have one unscored episode, so their
-final composites are unavailable. Scored zeros are retained. This run uses corrected
-model-neutral instructions and is separate from the earlier chronology pilot below.
+Completed October 9, 2026: **10 tasks, 10 runs per task per model, five models,
+500 completed episodes**, using Cascade Timber. The
+[final ten-task dashboard](https://cascade-timber-final-benchmark.decoverhq-in-8411.chatgpt.site)
+(private Sites access) includes task-level means, scored counts, variability, and CSV export.
+Scores are deterministic verifier rewards, expressed as percentages.
 
-### Earlier chronology pilot
+| Model | Completed / scored | Final composite | Observed task mean | Mean task SD (pp) | Worst–best episode score | Total cost (USD) |
+|---|---:|---:|---:|---:|---:|---:|
+| GPT-6 Astra | 100 / 100 | **44.01%** | 44.01% | 5.60 | 5.00–86.40% | $86.02 |
+| Grok 4.7 | 100 / 99 | **N/A** | 26.76% | 8.49 | 0.00–82.55% | $137.25 |
+| Claude Opus 5.5 | 100 / 100 | **24.40%** | 24.40% | 6.45 | 0.00–73.59% | $350.52 |
+| GLM 5.3 Prime | 100 / 99 | **N/A** | 18.63% | 9.43 | 0.00–70.35% | $106.64 |
+| Gemini 3.1 Pro Preview | 100 / 100 | **3.98%** | 3.98% | 5.52 | 0.00–40.79% | $45.85 |
 
-Completed October 9, 2026: **10 chronology episodes per model, 50 episodes total**, using
-only Cascade Timber. Scores are mean deterministic verifier rewards, expressed as
-percentages. Each episode starts with fresh context and allows up to 300 actions;
-requested reasoning effort is low, with 16,384 output tokens per request and 131,072
-output tokens per episode.
+The final composite equally weights the ten task means, each over ten scored runs.
+The observed task mean uses available scored runs and equally weights tasks; it is
+**incomplete for Grok and GLM**, rather than a final composite. Grok chronology has
+9/10 scored runs after an invalid provider response; GLM triage has 9/10 after
+exhausting its episode output-token budget. These two episodes remain unscored;
+all scored zeros are retained. Mean task SD averages the ten within-task sample
+standard deviations in percentage points; it is not a composite confidence interval.
+Worst–best ranges span scored episodes across all ten tasks.
 
-| Rank | Model | Episodes | Mean score | Sample SD (percentage points) | Worst–best score | Total cost (USD) |
-|---|---|---|---|---|---|---|
-| 1 | GPT-6 Astra | 10 | **83.99%** | 1.30 | 81.46–85.80% | $6.51 |
-| 2 | Grok 4.7 | 10 | **64.21%** | 9.56 | 49.51–77.40% | $21.52 |
-| 3 | Claude Opus 5.5 | 10 | **56.03%** | 29.92 | 0.00–79.69% | $128.91 |
-| 4 | GLM 5.3 Prime | 10 | **38.60%** | 26.74 | 0.00–58.55% | $11.18 |
-| 5 | Gemini 3.1 Pro Preview | 10 | **0.00%** | 0.00 | 0.00–0.00% | $0.60 |
+All **500 episodes passed saved replay verification**, covering **21,331 transitions**.
+There were **498 scored episodes and 0 full passes**. Total recorded provider cost was
+**$726.28**, including all recorded attempts, with no unknown-cost calls.
+Each episode starts with fresh context and allows up to 300 actions; requested
+reasoning effort is low, with 16,384 output tokens per request and 131,072 output
+tokens per episode. Every model received corrected model-neutral search/read/submit
+instructions; provider fallbacks were disabled.
 
-All **50 episodes were scored**, with **0 full passes** and **3,014 transitions verified
-by replay**. Total recorded provider cost was **$168.72**, including work performed
-before four interrupted episodes were resumed from their saved conversations with
-the original cumulative budgets. The other 46 completed episodes were preserved.
-The pinned source and action-limit change are recorded in the
-[result summary](benchmark/rlvr/chronology/results/chronology-10x5-2026-10-09.json);
+These development results cover ten tasks in one synthetic matter. Preservation and
+chronology still need independent equivalent-evidence oracle review. Strict artifact
+formatting and accepted-evidence matching affect scores; these graders do not measure
+free-form prose quality. Equal requested reasoning effort does not imply equal compute
+across providers.
+
+The earlier 50-episode chronology pilot is separate from this leaderboard; its
+[result summary](benchmark/rlvr/chronology/results/chronology-10x5-2026-10-09.json) and
 [individual episode scores](benchmark/rlvr/chronology/results/chronology-10x5-2026-10-09-episodes.csv)
-are also available.
-
-These development results measure performance on one task in one synthetic matter.
-The chronology oracle still needs independent equivalent-evidence review, and strict
-action formatting and accepted-evidence matching affect scores. Two Claude episodes
-reached the action limit with zero scores; Gemini read no source documents in its ten
-episodes. Sample SD describes variation across episodes and is not a confidence
-interval. Equal requested reasoning effort does not imply equal compute across providers.
+remain available. Neither those pilot scores nor Gemini’s separate single validation
+are included in the final ten-task results.
 
 ## Why the corpus is interesting
 
