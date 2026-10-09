@@ -1,0 +1,193 @@
+{
+  "task_id": "CTH-LIT-01",
+  "reviewer": "independent-privilege-builder-agent",
+  "author": "summons-builder-agent",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "d2cccbbb5b33fd703c8948882880c952d6129ef33465f852a6ab4fe0026947f8",
+  "task_semantics_sha256": "d145f41c5c114073f2873920193f489cc911d0ef366aac88e2e4f2d68b429618",
+  "policy_sha256": "ad5d9ecded3448b89f784deb520693336b50238c317e8ef93269fec94a0965f2",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "reviewed_proof_alternatives": 18,
+  "reviewed_obligations": 10,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "complaint",
+      "document_id": "EMAIL-019",
+      "locator": "line:7",
+      "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "complaint",
+      "document_id": "EMAIL-020",
+      "locator": "line:28",
+      "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "formal_engagement",
+      "document_id": "EMAIL-021",
+      "locator": "line:9",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "formal_engagement",
+      "document_id": "EMAIL-022",
+      "locator": "line:30",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "formal_engagement",
+      "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+      "locator": "page:1",
+      "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "lead_email",
+      "document_id": "EMAIL-022",
+      "locator": "line:13",
+      "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "lead_email",
+      "document_id": "EMAIL-021",
+      "locator": "line:3",
+      "quote": "To: Grace Lin <glin@llassociates.com>"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "lead_email",
+      "document_id": "EMAIL-050",
+      "locator": "line:13",
+      "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "counter_groups",
+      "proof_group": "recommendation_earlier",
+      "document_id": "EMAIL-020",
+      "locator": "line:9",
+      "quote": "Recommend engaging outside counsel now rather than waiting."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "template_warning",
+      "document_id": "EMAIL-022",
+      "locator": "line:8",
+      "quote": "the spreadsheet includes an unredacted patient ID field (MRN 88213-A) in row 14 that appears to be leftover from an unrelated matter template \u2014 worth scrubbing before this circulates further."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "alias_roster",
+      "document_id": "ATT-EMAIL-022-02-8e678ea9b66e",
+      "locator": "sheet:1:row:8",
+      "quote": "A8=Jay Whitfield | B8=Regional Sales Director | C8=Alder Point Partners | D8=jwhitfield@alderpointpartners.com | E8=6.3 | F8=Also signs as 'Kane' on some threads"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "alias_roster",
+      "document_id": "ATT-EMAIL-048-02-8e678ea9b66e",
+      "locator": "sheet:1:row:8",
+      "quote": "A8=Jay Whitfield | B8=Regional Sales Director | C8=Alder Point Partners | D8=jwhitfield@alderpointpartners.com | E8=6.3 | F8=Also signs as 'Kane' on some threads"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "counter_groups",
+      "proof_group": "draft_not_approved",
+      "document_id": "EMAIL-048",
+      "locator": "line:8",
+      "quote": "draft custodian list attached for your review \u2014 pulled from our standard collection template and filled in with the names you gave me."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "interim_substance",
+      "document_id": "EMAIL-050",
+      "locator": "line:8",
+      "quote": "the complaint tracks with what custodian communications show so far, both on land eligibility and on Bellhaven's broker registration gap."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "interim_substance",
+      "document_id": "EMAIL-051",
+      "locator": "line:29",
+      "quote": "the complaint tracks with what custodian communications show so far, both on land eligibility and on Bellhaven's broker registration gap."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "counter_groups",
+      "proof_group": "not_final",
+      "document_id": "EMAIL-052",
+      "locator": "line:6",
+      "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "counter_groups",
+      "proof_group": "not_final",
+      "document_id": "EMAIL-053",
+      "locator": "line:24",
+      "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "matter_cadence",
+      "document_id": "EMAIL-053",
+      "locator": "line:6",
+      "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+    }
+  ],
+  "substantive_checks": [
+    "EMAIL019 reports an anonymous complaint on February20; EMAIL020 quotes it and recommends external counsel. Neither adjudicates the land allegations. EMAIL021 February24 and the actual L&L retention letter establish formal engagement after that recommendation.",
+    "Counsel contact is supported by the actual signature and addressed recipient, not inferred from a custodian folder. The identity of the current operator is not supplied by correspondence.",
+    "Inspected the actual XLSX custodian roster: row8 identifies Jay Whitfield/Kane as one person, and row14 contains the unrelated patient-template field flagged in EMAIL022. EMAIL048 expressly calls the roster a draft, so it is not a completed or scrubbed profile.",
+    "EMAIL050/051 identify land eligibility and broker-registration issues as an interim review. EMAIL052/053 explicitly say nothing final; risk bands and settlement authority cannot be inferred.",
+    "EMAIL053 is a matter-specific monthly-minimum request until resolution. The user biography, practice side, house style and risk choices remain unknown. No source inquiry about those choices was answered."
+  ],
+  "issues_resolved": [
+    "Replaced hidden exact-match categorical free strings with public meaningful vocabulary choices.",
+    "Accepted the source-attested Cascade Timber Holdings, Inc. and L&L Associates LLP institutional variants.",
+    "Added actual EMAIL021 recipient and EMAIL050 signature as equivalent counsel-contact proofs."
+  ],
+  "counterevidence_search": [
+    "Read original and quoted complaint/engagement threads, actual retention PDF and custodian XLSX, and interim board-status chain.",
+    "Searched all pre-May31 EML text for conflict-clearance/check/waiver claims and reporting-cadence changes; no qualifying completion evidence found. This bounded search does not prove absence outside the supplied corpus."
+  ],
+  "checks": {
+    "actual_source_entailment": "passed",
+    "alternate_source_proofs": "passed_with_corrections",
+    "hidden_answer_leakage": "passed",
+    "temporal_eligibility": "passed_with_explicit_undated_reference_limit",
+    "unsupported_conclusions": "passed",
+    "public_task_policy_fixture_binding": "passed",
+    "artifact_state_preservation": "passed",
+    "runtime_controls": "author_reported_positive_1_and_all_negative_controls_reduce_reward"
+  },
+  "undated_supplied_reference_documents": [],
+  "limitations": [
+    "This review applies supplied benchmark references and policy only, not independently researched law or legal enforceability.",
+    "Standalone references without machine dates are task-supplied assets; the review checked cited propositions for temporal fit, and does not claim universal metadata cutoff filtering. Email and attachment eligibility was checked against the cutoff.",
+    "Quoted-thread and actual native attachment alternatives were inspected substantively; this is a finite reviewed proof set, not a general semantic entailment model.",
+    "No paid-model performance, broad professional capability or held-out generalization claim follows from these controls."
+  ]
+}

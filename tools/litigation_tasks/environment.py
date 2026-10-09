@@ -17,19 +17,28 @@ GOLD=Path('benchmark/hidden_gold/litigation_skills')
 def digest(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def norm(text): return ' '.join(unicodedata.normalize('NFKC',text).split())
 def strict_json(value):
-    if not isinstance(value,str):
-        # Reject NaN and other non-JSON objects even for direct Python clients.
-        return json.loads(json.dumps(value,allow_nan=False))
-    text=value.strip()
-    if text.startswith('```json\n') and text.endswith('\n```'): text=text[8:-4]
-    elif text.startswith('```\n') and text.endswith('\n```'): text=text[4:-4]
     def pairs(items):
-        d={}
-        for k,v in items:
-            if k in d: raise ValueError('Duplicate JSON key')
-            d[k]=v
-        return d
-    return json.loads(text,object_pairs_hook=pairs,parse_constant=lambda _: (_ for _ in ()).throw(ValueError('Non-finite JSON number')))
+        result={}
+        for key,item in items:
+            if key in result:raise ValueError('Duplicate JSON key')
+            result[key]=item
+        return result
+    try:
+        if isinstance(value,str):
+            text=value.strip()
+            if text.startswith('```json\n') and text.endswith('\n```'):text=text[8:-4]
+            elif text.startswith('```\n') and text.endswith('\n```'):text=text[4:-4]
+            result=json.loads(text,object_pairs_hook=pairs,parse_constant=lambda _: (_ for _ in ()).throw(ValueError('Non-finite JSON number')))
+        else:result=json.loads(json.dumps(value,allow_nan=False))
+        stack=[(result,0)]
+        while stack:
+            item,depth=stack.pop()
+            if depth>64:raise ValueError('Invalid or excessively nested JSON')
+            if isinstance(item,dict):stack.extend((v,depth+1) for v in item.values())
+            elif isinstance(item,list):stack.extend((v,depth+1) for v in item)
+        return result
+    except RecursionError as error:
+        raise ValueError('Invalid or excessively nested JSON') from error
 
 def pointer(obj,path):
     if path=='': return obj
@@ -116,39 +125,56 @@ class LitigationEnvironment:
         self.steps=0; self.observation_chars=0; self.done=False; self.seen={}; self.trace=[]
         self.artifacts=deepcopy(self.fixtures.get('artifacts',{}))
         self.result=None
-        visible={k:deepcopy(self.task[k]) for k in ('task_id','skill','title','version','split','cutoff','instruction','availability','dependencies','findings','limits','state_invariants') if k in self.task}
+        visible={k:deepcopy(self.task[k]) for k in ('task_id','skill','title','version','split','cutoff','instruction','dependencies','findings','limits','state_invariants') if k in self.task}
         public={'task':visible,'policy':self.policy,'output_schema':deepcopy(self.schema),
-          'artifact_schemas':deepcopy(self.schemas),'fixture_provenance':deepcopy(self.fixtures.get('provenance',[])),
+          'artifact_schemas':deepcopy(self.schemas),'fixture_provenance':[{k:deepcopy(item[k]) for k in ('artifact_path','description') if k in item} for item in self.fixtures.get('provenance',[])],
           'evidence':{'eligible_document_count':len(self.documents),
           'extraction_notice':'OCR is unverified unless explicitly reviewed. Missing text is not evidence of absence. Undated standalone documents are supplied references; their presence does not prove historical availability. Attachments use parent email date for cutoff eligibility.'},
+          'output_conventions':{'calendar_dates':'Use YYYY-MM-DD for calendar-date answer fields.','categorical_values':'Use the named alternatives in the public schema.','citations':'Copy source text verbatim; whitespace differences are normalized.'},
           'dependency_artifacts':{k:list(v) for k,v in self.dependency_artifacts.items()},
           'tools':['search','read','list_artifacts','read_artifact','write_artifact','read_dependency','submit']}
         self.observation_chars=len(json.dumps(public,ensure_ascii=False))
         return public
 
     def step(self,action):
-        if self.done: raise RuntimeError('Episode has ended')
+        if self.done:raise RuntimeError('Episode has ended')
         self.steps+=1
-        try:
-            action=strict_json(action)
-            if len(json.dumps(action,ensure_ascii=False))>150000: raise ValueError('Action exceeds 150000 characters')
-            if not isinstance(action,dict): raise ValueError('Action must be an object')
-            tool=action.get('tool')
-            if self.steps>self.task['limits']['max_steps']:
-                self.done=True; self.result={'reward':0.0,'passed':False,'error':'step_budget_exceeded'}; obs=self.result
-            elif tool=='submit':
-                self.done=True; self.result=self.grade(action.get('answer')); obs=self.result
-            else:
-                obs=self.dispatch(tool,action)
+        original=action
+        def finish(code):
+            self.done=True
+            self.result={'reward':0.0,'passed':False,'error':code,'steps':self.steps}
+            return self.result
+        if self.steps>self.task['limits']['max_steps']:
+            obs=finish('step_budget_exceeded')
+        elif self.observation_chars>self.task['limits']['max_observation_chars']:
+            obs=finish('observation_budget_exceeded')
+        else:
+            try:
+                if isinstance(action,str) and len(action)>150000:raise ValueError('Action exceeds 150000 characters')
+                action=strict_json(action)
+                if len(json.dumps(action,ensure_ascii=False))>150000:raise ValueError('Action exceeds 150000 characters')
+                if not isinstance(action,dict):raise ValueError('Action must be an object')
+                tool=action.get('tool')
+                if tool=='submit':
+                    self.done=True;self.result=self.grade(action.get('answer'));obs=self.result
+                else:obs=self.dispatch(tool,action)
+            except (ValueError,KeyError,IndexError,TypeError,RecursionError,jsonschema.ValidationError) as error:
+                obs={'error':str(error).split('\n')[0][:350]}
+                if isinstance(action,dict) and action.get('tool')=='submit':
+                    self.done=True;self.result={'reward':0.0,'passed':False,'error':'format_failure','detail':obs['error']};obs=self.result
+            if not self.done:
                 size=len(json.dumps(obs,ensure_ascii=False))
-                if self.observation_chars+size>self.task['limits']['max_observation_chars']:
-                    self.done=True; self.result={'reward':0.0,'passed':False,'error':'observation_budget_exceeded'}; obs=self.result
-                else: self.observation_chars+=size
-        except (ValueError,KeyError,IndexError,TypeError,jsonschema.ValidationError) as e:
-            obs={'error':str(e).split('\n')[0][:350]}
-            if isinstance(action,dict) and action.get('tool')=='submit':
-                self.done=True; self.result={'reward':0.0,'passed':False,'error':'format_failure','detail':obs['error']}; obs=self.result
-        self.trace.append({'action':deepcopy(action),'observation':deepcopy(obs),'done':self.done})
+                if self.observation_chars+size>self.task['limits']['max_observation_chars']:obs=finish('observation_budget_exceeded')
+                else:self.observation_chars+=size
+                if not self.done and self.steps>=self.task['limits']['max_steps']:obs=finish('step_budget_exceeded')
+        # Raw transport text preserves malformed actions for deterministic replay.
+        # Non-JSON Python objects are outside the wire contract and explicitly flagged.
+        replayable=True
+        if isinstance(original,str):recorded=original[:150001]
+        else:
+            try:recorded=json.loads(json.dumps(original,allow_nan=False))
+            except (TypeError,ValueError,RecursionError):recorded=None;replayable=False
+        self.trace.append({'action':recorded,'observation':deepcopy(obs),'done':self.done,'replayable':replayable})
         return {'observation':obs,'done':self.done,'reward':self.result['reward'] if self.done and self.result else 0.0}
 
     def dispatch(self,tool,a):

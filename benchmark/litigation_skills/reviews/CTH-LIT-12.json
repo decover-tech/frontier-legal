@@ -1,0 +1,204 @@
+{
+  "task_id": "CTH-LIT-12",
+  "reviewer": "/root/summons_builder",
+  "author": "/root/privilege_builder",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "02f86c0d4e2a7ac331756b6a6cba9b9b1dd0327f5e30d8d9870fd9a4dfca7209",
+  "task_semantics_sha256": "94c9a97220a7b6bf8b21eedd24f2b0e3ca2500999dc2340536f941a2f54c3ef7",
+  "policy_sha256": "502587b5cbc39e72e4d67f441b466cfab1d023e3d989a0b03b9dd8d066b923d5",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "source_checks": [
+    "EMAIL003 authorship/signature and EMAIL015/016 warning follow-up: Tom role and documentary statements are established; scheduled deposition, corporate designation and expected answers are not.",
+    "EMAIL041/042/044/1427 broker warning, continued marketing and mixed intake context: questions must permit explanation and require actual state authorization proof.",
+    "Actual ATT-EMAIL-1492-06-0c0c680ffe4f dated register and EMAIL1490/1492/1493/1494: CPP missing slice NW-01/110000 supersedes reservation copy; delivery dates differ from issuance/export; reference check is not acreage eligibility.",
+    "Public question_order uses uniqueItems and shared grader treats it as a set; author confirmed behavioral permutation test returns full reward."
+  ],
+  "review_fixes_verified": [
+    "Quoted EMAIL042 renewal, EMAIL1493/1494 register and minimal complete warning/unresolved alternatives accepted.",
+    "Arbitrary topic order does not alter reward."
+  ],
+  "reviewed_proof_alternatives": 21,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_group": "authorship",
+      "role": "support_groups",
+      "document_id": "EMAIL-003",
+      "locator": "line:2",
+      "quote": "From: Tom Reyes <treyes@alderpointpartners.com>"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "role",
+      "role": "support_groups",
+      "document_id": "EMAIL-003",
+      "locator": "line:9",
+      "quote": "Land Acquisition Manager | Alder Point Partners"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "early_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-003",
+      "locator": "line:6",
+      "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "early_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-003",
+      "locator": "line:6",
+      "quote": "The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-015",
+      "locator": "line:6",
+      "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-016",
+      "locator": "line:14",
+      "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-015",
+      "locator": "line:6",
+      "quote": "we never got the re-verification done on that batch of parcels"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-016",
+      "locator": "line:14",
+      "quote": "we never got the re-verification done on that batch of parcels"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "counter_instruction",
+      "role": "counter_groups",
+      "document_id": "EMAIL-016",
+      "locator": "line:6",
+      "quote": "Proceed as-is for now, we're too close to year-end to slow down. Flag it for the annual review."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "continue",
+      "role": "support_groups",
+      "document_id": "EMAIL-044",
+      "locator": "line:6",
+      "quote": "Priya, Renee at Bellhaven is asking directly whether we paused marketing in OR/WA. We haven't. What do you want me to tell her?"
+    },
+    {
+      "finding": "F03",
+      "proof_group": "renewal_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-041",
+      "locator": "line:6",
+      "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "renewal_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-042",
+      "locator": "line:14",
+      "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "mixed_message",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1427",
+      "locator": "line:20",
+      "quote": "Nothing new on timing. It's with the states, and these usually sort themselves out. Renee is keeping an eye on the filings. In the meantime feel free to send over whatever interest you have and we'll get intake started on our end. We'll sequence the closings."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "final_register",
+      "role": "support_groups",
+      "document_id": "EMAIL-1492",
+      "locator": "line:6",
+      "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "final_register",
+      "role": "support_groups",
+      "document_id": "EMAIL-1493",
+      "locator": "line:26",
+      "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "final_register",
+      "role": "support_groups",
+      "document_id": "EMAIL-1494",
+      "locator": "line:26",
+      "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "inspect_register",
+      "role": "support_groups",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:6",
+      "quote": "Cascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-01-2022-0001 | NW-01 | 110000"
+    },
+    {
+      "finding": "F04",
+      "proof_group": "issuance_date",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1493",
+      "locator": "line:8",
+      "quote": "The dates on the source certificates are issuance dates. The receipt and transmission entries in your register are later and shouldn't replace them on the source copies."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "allocation_review",
+      "role": "support_groups",
+      "document_id": "EMAIL-1493",
+      "locator": "line:6",
+      "quote": "The references match the source copies in records. NW-07 is 560,000 total; the 260,000 and 300,000 slices exhaust it. NW-01 and NW-05 have remaining face outside these three purchases, so don't treat those buyer slices as the full parcel amounts."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "reference_not_eligibility",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1493",
+      "locator": "line:8",
+      "quote": "This is a reference check; I haven't re-examined the acreage or the program screening."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "reference_not_eligibility",
+      "role": "counter_groups",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:12",
+      "quote": "Purchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded."
+    }
+  ],
+  "public_contract_checks": [
+    "Read current task questions, public categorical vocabulary, policy, artifact schemas and checks at the bound revision.",
+    "Read current fixtures: task07 has explicit draft-only prerequisites with consequential unknowns; other reviewed tasks have empty fixtures.",
+    "Checked temporal availability and event/report distinctions; current shared proof validator verifies cutoff as well as normalized exact quote provenance."
+  ],
+  "unresolved_blockers": [],
+  "limits": [
+    "Development task approval is an independent agent source/oracle review, not model-performance calibration or external legal sign-off.",
+    "Bounded factual components do not evaluate unrestricted prose quality.",
+    "Source reports do not authenticate signatures, establish sworn testimony or prove universal absence on external systems. No live legal authority or consequential action inferred."
+  ]
+}

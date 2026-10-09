@@ -1,13 +1,20 @@
 {
   "task_id": "CTH-LIT-04",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
         {
           "matter_id": "cascade-timber-coastal-solar",
           "client": "Cascade Timber Holdings",
+          "program": "Coastal Solar Credit Program",
+          "proceeding": "irs_examination",
+          "classification": "regulatory_investigation"
+        },
+        {
+          "matter_id": "cascade-timber-coastal-solar",
+          "client": "Cascade Timber Holdings, Inc.",
           "program": "Coastal Solar Credit Program",
           "proceeding": "irs_examination",
           "classification": "regulatory_investigation"
@@ -37,7 +44,7 @@
             {
               "document_id": "DOC-568de2fba6d1c11aff9a",
               "locator": "document:paragraph:39",
-              "quote": "Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
+              "quote": "Legal note: 26 U.S.C. § 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. §§ 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
             }
           ]
         }
@@ -53,6 +60,13 @@
           "outside_lead": "Grace Lin",
           "single_matter_only": true,
           "other_correspondent_entities_are_separate_clients": false
+        },
+        {
+          "counsel_firm": "L&L Associates LLP",
+          "internal_legal_contact": "John Ellery",
+          "outside_lead": "Grace Lin",
+          "single_matter_only": true,
+          "other_correspondent_entities_are_separate_clients": false
         }
       ],
       "support_groups": [
@@ -63,7 +77,7 @@
             {
               "document_id": "ATT-EMAIL-021-04-235de50fbc43",
               "locator": "page:1",
-              "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+              "quote": "This letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber\nHoldings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
             }
           ]
         },
@@ -173,7 +187,7 @@
             {
               "document_id": "EMAIL-095",
               "locator": "line:6",
-              "quote": "Mountain Ridge Reforestation Credit batch \u2014 unrelated program, separate from Coastal Solar."
+              "quote": "Mountain Ridge Reforestation Credit batch — unrelated program, separate from Coastal Solar."
             }
           ]
         }

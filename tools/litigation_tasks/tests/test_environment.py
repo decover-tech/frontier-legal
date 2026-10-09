@@ -60,7 +60,6 @@ class RuntimeTests(unittest.TestCase):
 
     def test_step_and_observation_caps(self):
         env=self.env();env.task['limits']['max_steps']=1
-        env.step({'tool':'list_artifacts'})
         result=env.step({'tool':'list_artifacts'})
         self.assertEqual(result['observation']['error'],'step_budget_exceeded')
         env=self.env();env.task['limits']['max_observation_chars']=1
@@ -103,6 +102,28 @@ class RuntimeTests(unittest.TestCase):
                         read_citations(env,{'findings':{'F':{'support':[cite],'counter':[]}}})
                         coverage,precision,_=env.proof_score([cite],[group]);self.assertEqual((coverage,precision),(1,1));count+=1
         self.assertGreater(count,20)
+
+    def test_malformed_actions_exhaust_step_budget(self):
+        env=self.env();env.task['limits']['max_steps']=2
+        first=env.step('{invalid');self.assertFalse(first['done'])
+        second=env.step('{invalid');self.assertTrue(second['done'])
+        self.assertEqual(second['observation']['error'],'step_budget_exceeded')
+        self.assertEqual(env.steps,2)
+        with self.assertRaises(RuntimeError):env.step('{invalid')
+
+    def test_deep_and_oversized_actions_fail_safely_and_replay(self):
+        env=self.env();before=env.observation_chars
+        for text in ['['*2000+'0'+']'*2000,'x'*200000]:
+            result=env.step(text);self.assertFalse(result['done']);self.assertIn('error',result['observation'])
+        self.assertGreater(env.observation_chars,before)
+        clone=self.env()
+        for transition in env.trace:
+            self.assertEqual(clone.step(transition['action'])['observation'],transition['observation'])
+
+    def test_readiness_labels_and_fixture_proofs_are_not_leaked(self):
+        public=self.env().reset()
+        self.assertNotIn('availability',public['task'])
+        self.assertTrue(all(set(item)<={'artifact_path','description'} for item in public['fixture_provenance']))
 
     def test_modified_policy_fails_pinned_loading(self):
         import shutil
@@ -148,7 +169,8 @@ class RuntimeTests(unittest.TestCase):
 
 class IntegrationTests(unittest.TestCase):
     def test_chained_artifacts_and_standalone_fallback(self):
-        from tools.litigation_tasks.registry import ChainSession
+        from tools.litigation_tasks.registry import ChainSession,dependency_errors
+        self.assertEqual(dependency_errors(ROOT),[])
         session=ChainSession(ROOT)
         empty=session.start('CTH-LIT-07');self.assertFalse(empty.dependency_artifacts)
         source=session.start('CTH-LIT-06');answer=control_answer(source);read_citations(source,answer)
@@ -166,6 +188,34 @@ class IntegrationTests(unittest.TestCase):
         with self.assertRaises(ValueError):session.publish(session.start('CTH-LIT-06'))
         session.completed['CTH-LIT-06']={'cutoff':datetime(2030,1,1,tzinfo=timezone.utc),'artifacts':{}}
         with self.assertRaisesRegex(ValueError,'future'):session.start('CTH-LIT-07')
+
+    def test_chain_archive_replays_dependency_context(self):
+        from tools.litigation_tasks.run import archive,replay
+        env=LitigationEnvironment('CTH-LIT-07',ROOT,dependency_artifacts={'CTH-LIT-06':{'reviewed.json':{'status':'draft'}}})
+        initial=env.reset()
+        env.step({'tool':'read_dependency','task_id':'CTH-LIT-06','path':'reviewed.json'})
+        answer=control_answer(env);read_citations(env,answer)
+        for path,data in env.oracle['control_artifacts'].items():env.step({'tool':'write_artifact','path':path,'content':data})
+        env.step({'tool':'submit','answer':answer})
+        result=replay(archive(env,initial,'oracle_control_not_model_evaluation'))
+        self.assertEqual(result['result']['reward'],1)
+
+    def test_review_binding_detects_public_semantic_changes(self):
+        import shutil
+        from tools.litigation_tasks.review import review_binding
+        task='CTH-LIT-08'
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);relative='benchmark/litigation_skills/tasks/'+task
+            shutil.copytree(ROOT/relative,root/relative)
+            for asset in ['benchmark/hidden_gold/litigation_skills/'+task+'.json','benchmark/litigation_skills/evidence/manifest.json']:
+                (root/asset).parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ROOT/asset,root/asset)
+            before=review_binding(task,root)
+            path=root/relative/'task.json';data=json.loads(path.read_text());data['cutoff']='2023-12-31T23:59:59-08:00';path.write_text(json.dumps(data))
+            after=review_binding(task,root);self.assertNotEqual(before['task_semantics_sha256'],after['task_semantics_sha256']);self.assertEqual(before['oracle_semantics_sha256'],after['oracle_semantics_sha256'])
+            path=root/relative/'policy.md';path.write_text(path.read_text()+'Changed policy')
+            self.assertNotEqual(after['policy_sha256'],review_binding(task,root)['policy_sha256'])
+            path=root/relative/'fixtures.json';data=json.loads(path.read_text());data['artifacts']={};path.write_text(json.dumps(data))
+            self.assertNotEqual(after['fixtures_sha256'],review_binding(task,root)['fixtures_sha256'])
 
     def test_model_export_excludes_trusted_manifest_and_gold(self):
         from tools.litigation_tasks.export import export

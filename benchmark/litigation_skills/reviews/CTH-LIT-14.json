@@ -1,0 +1,695 @@
+{
+  "task_id": "CTH-LIT-14",
+  "reviewer": "/root/summons_builder",
+  "author": "/root/privilege_builder",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "857417c070a609cc14c876930965a9ba02ca9c6cd01f74157c58d7c4a0fee40b",
+  "task_semantics_sha256": "3c8b43c07c67a7a9920c9bf20bd2b1af93c027bc5ede37348636f63f08788f8b",
+  "policy_sha256": "ef90e9f1f0357d80f21f5838df9a8006355e94c67fd167e94bc1cad41c8fda5d",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "source_checks": [
+    "EMAIL003/015/016 and EMAIL012/013/014: distinguish Alder warning/continuation from actual Cascade counsel and management response. Requested defense perspective preserves adverse facts.",
+    "EMAIL030 original June pause and EMAIL068 quoted copy: later pause does not cure prior deferral.",
+    "EMAIL041/042/044/1427: pending renewal/continued marketing cannot be omitted; mixed intake context does not issue state authorization.",
+    "EMAIL1462 and exact clauses quoted in1463–1474: face ceiling, cash discounts/fees, excluded penalties and unresolved acreage remain separate; no invented liability/reserve.",
+    "Actual dated register attachment ATT-EMAIL-1492-06-0c0c680ffe4f and EMAIL1492–1494: favorable NW-01 correction limited to source-reference reconciliation.",
+    "Full EMAIL1503–1506 pilot sequence: performed work and two open acreage exceptions both retained; no restart or programwide effectiveness."
+  ],
+  "review_fixes_verified": [
+    "EMAIL1505 performed-pilot/scope, original EMAIL030 pause accepted.",
+    "EMAIL042 renewal, EMAIL1493/1494 register and financial1463–1474 alternatives accepted.",
+    "Minimal complete early-warning/unresolved clauses accepted."
+  ],
+  "reviewed_proof_alternatives": 82,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_group": "early_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-003",
+      "locator": "line:6",
+      "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "early_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-003",
+      "locator": "line:6",
+      "quote": "The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-015",
+      "locator": "line:6",
+      "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-016",
+      "locator": "line:14",
+      "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-015",
+      "locator": "line:6",
+      "quote": "we never got the re-verification done on that batch of parcels"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "unresolved_later",
+      "role": "support_groups",
+      "document_id": "EMAIL-016",
+      "locator": "line:14",
+      "quote": "we never got the re-verification done on that batch of parcels"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "counter_instruction",
+      "role": "counter_groups",
+      "document_id": "EMAIL-016",
+      "locator": "line:6",
+      "quote": "Proceed as-is for now, we're too close to year-end to slow down. Flag it for the annual review."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "renewal_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-041",
+      "locator": "line:6",
+      "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "renewal_warning",
+      "role": "support_groups",
+      "document_id": "EMAIL-042",
+      "locator": "line:14",
+      "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "continue",
+      "role": "support_groups",
+      "document_id": "EMAIL-044",
+      "locator": "line:6",
+      "quote": "Priya, Renee at Bellhaven is asking directly whether we paused marketing in OR/WA. We haven't. What do you want me to tell her?"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "mixed_message",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1427",
+      "locator": "line:20",
+      "quote": "Nothing new on timing. It's with the states, and these usually sort themselves out. Renee is keeping an eye on the filings. In the meantime feel free to send over whatever interest you have and we'll get intake started on our end. We'll sequence the closings."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1462",
+      "locator": "line:6",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1463",
+      "locator": "line:25",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1464",
+      "locator": "line:50",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1465",
+      "locator": "line:73",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1466",
+      "locator": "line:103",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1467",
+      "locator": "line:127",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1468",
+      "locator": "line:148",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1469",
+      "locator": "line:175",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1470",
+      "locator": "line:197",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1471",
+      "locator": "line:224",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1472",
+      "locator": "line:194",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1473",
+      "locator": "line:219",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_ceiling",
+      "role": "support_groups",
+      "document_id": "EMAIL-1474",
+      "locator": "line:198",
+      "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1462",
+      "locator": "line:9",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1463",
+      "locator": "line:28",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1464",
+      "locator": "line:53",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1465",
+      "locator": "line:76",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1466",
+      "locator": "line:106",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1467",
+      "locator": "line:130",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1468",
+      "locator": "line:151",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1469",
+      "locator": "line:178",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1470",
+      "locator": "line:200",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1471",
+      "locator": "line:227",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1472",
+      "locator": "line:197",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1473",
+      "locator": "line:222",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "cash_and_fees",
+      "role": "support_groups",
+      "document_id": "EMAIL-1474",
+      "locator": "line:201",
+      "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1462",
+      "locator": "line:10",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1463",
+      "locator": "line:29",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1464",
+      "locator": "line:54",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1465",
+      "locator": "line:77",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1466",
+      "locator": "line:107",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1467",
+      "locator": "line:131",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1468",
+      "locator": "line:152",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1469",
+      "locator": "line:179",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1470",
+      "locator": "line:201",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1471",
+      "locator": "line:228",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1472",
+      "locator": "line:198",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1473",
+      "locator": "line:223",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "exclusion",
+      "role": "support_groups",
+      "document_id": "EMAIL-1474",
+      "locator": "line:202",
+      "quote": "- No penalties or interest."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1462",
+      "locator": "line:11",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1463",
+      "locator": "line:30",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1464",
+      "locator": "line:55",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1465",
+      "locator": "line:78",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1466",
+      "locator": "line:108",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1467",
+      "locator": "line:132",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1468",
+      "locator": "line:153",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1469",
+      "locator": "line:180",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1470",
+      "locator": "line:202",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1471",
+      "locator": "line:229",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1472",
+      "locator": "line:199",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1473",
+      "locator": "line:224",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "financial_limits",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1474",
+      "locator": "line:203",
+      "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "final_register",
+      "role": "support_groups",
+      "document_id": "EMAIL-1492",
+      "locator": "line:6",
+      "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "final_register",
+      "role": "support_groups",
+      "document_id": "EMAIL-1493",
+      "locator": "line:26",
+      "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "final_register",
+      "role": "support_groups",
+      "document_id": "EMAIL-1494",
+      "locator": "line:26",
+      "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "inspect_register",
+      "role": "support_groups",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:6",
+      "quote": "Cascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-01-2022-0001 | NW-01 | 110000"
+    },
+    {
+      "finding": "F04",
+      "proof_group": "reference_not_eligibility",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1493",
+      "locator": "line:8",
+      "quote": "This is a reference check; I haven't re-examined the acreage or the program screening."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "reference_not_eligibility",
+      "role": "counter_groups",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:12",
+      "quote": "Purchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "pilot_work",
+      "role": "support_groups",
+      "document_id": "EMAIL-1503",
+      "locator": "line:6",
+      "quote": "The pilot first pass is done. NW-07's paper binder supplied the missing exhibit pages; the working-copy index now points to that copy, and the old link is retained in the change log. The recorded figure is still 231 against 275 on the application copy. Repairing the link did not reconcile the acreage."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "pilot_work",
+      "role": "support_groups",
+      "document_id": "EMAIL-1505",
+      "locator": "line:6",
+      "quote": "Brenda — the archived-packet pilot ran September 5 with Craig's second review on September 6. Attached are the dated first-pass extract and the source inventory. The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open. I've kept the initial findings intact."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "no_restart",
+      "role": "support_groups",
+      "document_id": "EMAIL-1503",
+      "locator": "line:8",
+      "quote": "This is a test of records we already held, not permission to restart placements or confirmation that an earlier sample was performed."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "pilot_limit",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1506",
+      "locator": "line:6",
+      "quote": "Please include Craig's dated confirmation in the same PBC item. We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "pilot_limit",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1504",
+      "locator": "line:8",
+      "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "pilot_limit",
+      "role": "counter_groups",
+      "document_id": "EMAIL-1505",
+      "locator": "line:8",
+      "quote": "This is the new remediation procedure operating on a purposive sample. We are not presenting it as the missing workpapers for the 2022 quarters or as a test of every packet."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "gc_advice",
+      "role": "support_groups",
+      "document_id": "EMAIL-012",
+      "locator": "line:8",
+      "quote": "Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "gc_advice",
+      "role": "support_groups",
+      "document_id": "EMAIL-013",
+      "locator": "line:27",
+      "quote": "Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "gc_advice",
+      "role": "support_groups",
+      "document_id": "EMAIL-014",
+      "locator": "line:45",
+      "quote": "Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "management_choice",
+      "role": "support_groups",
+      "document_id": "EMAIL-013",
+      "locator": "line:7",
+      "quote": "Rob, John's flagged some real issues here (see below, privileged). Given where we are on the year, I don't think we can afford to pause placements right now. Let's revisit in Q1."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "management_choice",
+      "role": "support_groups",
+      "document_id": "EMAIL-014",
+      "locator": "line:25",
+      "quote": "Rob, John's flagged some real issues here (see below, privileged). Given where we are on the year, I don't think we can afford to pause placements right now. Let's revisit in Q1."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "later_pause",
+      "role": "counter_groups",
+      "document_id": "EMAIL-068",
+      "locator": "line:26",
+      "quote": "Given everything that's come up, let's plan to pause new Coastal Solar placements until the review with L&L is complete. Rob, John — let's align on messaging to the board this week."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "later_pause",
+      "role": "counter_groups",
+      "document_id": "EMAIL-030",
+      "locator": "line:7",
+      "quote": "Given everything that's come up, let's plan to pause new Coastal Solar placements until the review with L&L is complete. Rob, John — let's align on messaging to the board this week."
+    }
+  ],
+  "public_contract_checks": [
+    "Read current task questions, public categorical vocabulary, policy, artifact schemas and checks at the bound revision.",
+    "Read current fixtures: task07 has explicit draft-only prerequisites with consequential unknowns; other reviewed tasks have empty fixtures.",
+    "Checked temporal availability and event/report distinctions; current shared proof validator verifies cutoff as well as normalized exact quote provenance."
+  ],
+  "unresolved_blockers": [],
+  "limits": [
+    "Development task approval is an independent agent source/oracle review, not model-performance calibration or external legal sign-off.",
+    "Bounded factual components do not evaluate unrestricted prose quality.",
+    "Source reports do not authenticate signatures, establish sworn testimony or prove universal absence on external systems. No live legal authority or consequential action inferred."
+  ]
+}

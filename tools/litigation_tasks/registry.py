@@ -75,3 +75,21 @@ class LegacyAdapter:
 
 def make_environment(task_id,root=ROOT):
     return LegacyAdapter(task_id,root) if task_id in ALIASES else LitigationEnvironment(task_id,root)
+
+
+def dependency_errors(root=ROOT):
+    """Validate the executable new-episode DAG, including temporal direction."""
+    from datetime import datetime
+    tasks={p.parent.name:json.loads(p.read_text()) for p in (Path(root)/TASKS).glob('*/task.json')}
+    known={f'CTH-LIT-{i:02d}' for i in range(1,20)};errors=[]
+    for key,task in tasks.items():
+        for parent in task.get('dependencies',[]):
+            if parent not in known:errors.append((key,'Unknown dependency '+parent))
+            elif parent in tasks and datetime.fromisoformat(tasks[parent]['cutoff'])>datetime.fromisoformat(task['cutoff']):errors.append((key,'Future-cutoff dependency '+parent))
+    def visit(key,path):
+        if key in path:
+            errors.append((key,'Cyclic dependency'));return
+        for parent in tasks[key].get('dependencies',[]):
+            if parent in tasks:visit(parent,path|{key})
+    for key in tasks:visit(key,set())
+    return sorted(set(errors))

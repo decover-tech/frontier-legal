@@ -1,0 +1,161 @@
+{
+  "task_id": "CTH-LIT-04",
+  "reviewer": "independent-privilege-builder-agent",
+  "author": "summons-builder-agent",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "58b4db751776e62a4785394e48f1ca86c39ff7691793eb569f3759966a784bab",
+  "task_semantics_sha256": "134c09039a79fa04845c6e47aa1461f6a6da5ed59e7890da383696010b88cc0f",
+  "policy_sha256": "58ceac756a1634311a1eeeecee993e4871b53c8d649b4f22c24c06cba7fa6541",
+  "fixtures_sha256": "a4f6acdbb6c9d9376a4e422436cf1d9c3ebfdcc5005789870cc65da8db322f02",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "reviewed_proof_alternatives": 14,
+  "reviewed_obligations": 9,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "regulatory_matter",
+      "document_id": "EMAIL-023",
+      "locator": "line:7",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "regulatory_matter",
+      "document_id": "EMAIL-054",
+      "locator": "line:27",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "classification",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:39",
+      "quote": "Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "counsel_relationship",
+      "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+      "locator": "page:1",
+      "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "internal_external",
+      "document_id": "EMAIL-021",
+      "locator": "line:9",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "internal_external",
+      "document_id": "EMAIL-022",
+      "locator": "line:30",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "origin",
+      "document_id": "EMAIL-019",
+      "locator": "line:7",
+      "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "origin",
+      "document_id": "EMAIL-020",
+      "locator": "line:28",
+      "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "engagement_event",
+      "document_id": "EMAIL-021",
+      "locator": "line:9",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "engagement_event",
+      "document_id": "EMAIL-022",
+      "locator": "line:30",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "irs_event",
+      "document_id": "EMAIL-023",
+      "locator": "line:7",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "irs_event",
+      "document_id": "EMAIL-054",
+      "locator": "line:27",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "separate_program",
+      "document_id": "EMAIL-095",
+      "locator": "line:6",
+      "quote": "Mountain Ridge Reforestation Credit batch \u2014 unrelated program, separate from Coastal Solar."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "counter_groups",
+      "proof_group": "shared_sender_not_scope",
+      "document_id": "EMAIL-098",
+      "locator": "line:6",
+      "quote": "Mountain Ridge is tracking well for Q2, no concerns there. Different story from Coastal Solar but good to have one clean program."
+    }
+  ],
+  "substantive_checks": [
+    "EMAIL023/054 and the enhanced supplied instrument identify one Coastal Solar IRS examination. The task supplies the canonical slug and isolated workspace permission; correspondence does not independently certify an operational workspace.",
+    "Actual L&L retention and EMAIL021/022 establish Cascade representation with John Ellery and Grace Lin. Alder Point, Bellhaven and other correspondents do not thereby become additional clients in this one-matter sandbox.",
+    "The fixture history contains complaint, engagement and receipt source events only. Exact preserve checks protect all prior history, matter draft and one ledger row; the only state change is the sandbox active pointer.",
+    "Read actual EMAIL095 and EMAIL098: Mountain Ridge is expressly a separate program despite overlapping people. It must not create a second task matter, import claims, or trigger archiving.",
+    "Unknown conflicts clearance and draft status remain unknown; manifest declarations do not bypass the live reference skill gates."
+  ],
+  "issues_resolved": [
+    "Published categorical vocabulary and accepted source-attested institutional suffixes."
+  ],
+  "counterevidence_search": [
+    "Read complete program-identity, engagement, complaint/receipt and negative Mountain Ridge source threads; inspected the entire task fixture and preservation checks.",
+    "Verified the manifest cannot add archival paths or substitute another program merely because participants overlap."
+  ],
+  "checks": {
+    "actual_source_entailment": "passed",
+    "alternate_source_proofs": "passed_with_corrections",
+    "hidden_answer_leakage": "passed",
+    "temporal_eligibility": "passed_with_explicit_undated_reference_limit",
+    "unsupported_conclusions": "passed",
+    "public_task_policy_fixture_binding": "passed",
+    "artifact_state_preservation": "passed",
+    "runtime_controls": "author_reported_positive_1_and_all_negative_controls_reduce_reward"
+  },
+  "undated_supplied_reference_documents": [
+    "DOC-568de2fba6d1c11aff9a"
+  ],
+  "limitations": [
+    "This review applies supplied benchmark references and policy only, not independently researched law or legal enforceability.",
+    "Standalone references without machine dates are task-supplied assets; the review checked cited propositions for temporal fit, and does not claim universal metadata cutoff filtering. Email and attachment eligibility was checked against the cutoff.",
+    "Quoted-thread and actual native attachment alternatives were inspected substantively; this is a finite reviewed proof set, not a general semantic entailment model.",
+    "No paid-model performance, broad professional capability or held-out generalization claim follows from these controls."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "task_id": "CTH-LIT-07",
+  "reviewer": "/root/summons_builder",
+  "author": "/root/privilege_builder",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "5a615b6cb2ea26685b3f92a4cd09ce252ca9a212ca97428c8ae21a9e6b49d97f",
+  "task_semantics_sha256": "c0efb14a8c3fbe9b7573a18f95acc716bfb20c93015231fb69bc4bcd5051d1de",
+  "policy_sha256": "9385c7d71230ebb79667c8580eb44c27dde8c7ca73c79203574f2c2f8d770a9e",
+  "fixtures_sha256": "c91eea0182c79d942d568c19b6edd99862b29c0096ed784affbf985475a98c61",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "source_checks": [
+    "EMAIL070/1066 actual inquiry and technical scope support the candidate third-party need. Fixture is a task-provided draft with signer, tone, response window, legal basis and approval unknown; not historical authorization.",
+    "Actual hold PDF ATT-EMAIL-024-04-ad066076d527, EMAIL024/060/062/1096/1155: candidate preservation language must not allege coverage on Bellhaven systems or unsupported deletion on departure.",
+    "DOC-568de2fba6d1c11aff9a actual instrument and EMAIL1473 counsel restriction: historical government deadline cannot become new private demand deadline; legal analysis is kept in the internal handoff under supplied policy."
+  ],
+  "review_fixes_verified": [
+    "Hold attachment accepted as equivalent scope proof.",
+    "Minimal complete Bellhaven scope clause accepted."
+  ],
+  "reviewed_proof_alternatives": 16,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_group": "external_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1066",
+      "locator": "line:7",
+      "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "external_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1066",
+      "locator": "line:7",
+      "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "external_inquiry",
+      "role": "support_groups",
+      "document_id": "EMAIL-070",
+      "locator": "line:6",
+      "quote": "Derek, saw the pause notice from Alder Point. Given the subpoena, should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "external_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1066",
+      "locator": "line:7",
+      "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "external_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1066",
+      "locator": "line:7",
+      "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "preserve_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-024",
+      "locator": "line:6",
+      "quote": "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "preserve_scope",
+      "role": "support_groups",
+      "document_id": "ATT-EMAIL-024-04-ad066076d527",
+      "locator": "page:1",
+      "quote": "You are required to preserve all documents, communications, and records — in any format, including email, drafts, calendar invites, text messages, and hard-copy documents — relating to: (1) the Coastal Solar Credit Program; (2) Alder Point Partners; and (3) Bellhaven Advisory."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "internal_controls",
+      "role": "counter_groups",
+      "document_id": "EMAIL-060",
+      "locator": "line:6",
+      "quote": "Following today's legal hold notice: auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "later_report",
+      "role": "support_groups",
+      "document_id": "EMAIL-1096",
+      "locator": "line:6",
+      "quote": "Per John's direction, her mailbox was exported before her last day, and the account was disabled on June 30 but not deleted."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "continued_restriction",
+      "role": "support_groups",
+      "document_id": "EMAIL-1155",
+      "locator": "line:6",
+      "quote": "Dan — for the file, on Nina Alvarez's account: it stays disabled and on hold, and the export copy stays on the review share."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "prior_gap",
+      "role": "counter_groups",
+      "document_id": "EMAIL-062",
+      "locator": "line:6",
+      "quote": "Thanks Wendy — yes, please coordinate with Alder Point to preserve and export her mailbox before deprovisioning."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "instrument_context",
+      "role": "support_groups",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:18",
+      "quote": "in connection with the Internal Revenue Service's civil examination of the business venture known as the \"Coastal Solar Credit Program,\" developed, marketed, financed, and administered in whole or in part by Cascade Timber Holdings, Inc. and its affiliates."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "external_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1066",
+      "locator": "line:7",
+      "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "external_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1066",
+      "locator": "line:7",
+      "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done"
+    },
+    {
+      "finding": "F05",
+      "proof_group": "internal_strategy",
+      "role": "support_groups",
+      "document_id": "EMAIL-1473",
+      "locator": "line:9",
+      "quote": "Don't send Moss & Lane the workbook or anything from this chain. Sharing counsel's analysis with the auditors creates a waiver problem we don't need."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "ordinary_scope",
+      "role": "support_groups",
+      "document_id": "EMAIL-1473",
+      "locator": "line:11",
+      "quote": "The Q2 support should be the ordinary close support and nothing else."
+    }
+  ],
+  "public_contract_checks": [
+    "Read current task questions, public categorical vocabulary, policy, artifact schemas and checks at the bound revision.",
+    "Read current fixtures: task07 has explicit draft-only prerequisites with consequential unknowns; other reviewed tasks have empty fixtures.",
+    "Checked temporal availability and event/report distinctions; current shared proof validator verifies cutoff as well as normalized exact quote provenance."
+  ],
+  "unresolved_blockers": [],
+  "limits": [
+    "Development task approval is an independent agent source/oracle review, not model-performance calibration or external legal sign-off.",
+    "Bounded factual components do not evaluate unrestricted prose quality.",
+    "Source reports do not authenticate signatures, establish sworn testimony or prove universal absence on external systems. No live legal authority or consequential action inferred."
+  ]
+}

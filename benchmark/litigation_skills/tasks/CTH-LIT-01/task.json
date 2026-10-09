@@ -29,11 +29,24 @@
           },
           "origin": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "anonymous_complaint",
+              "regulator_inquiry",
+              "private_demand",
+              "internal_audit",
+              "not_established"
+            ]
           },
           "allegation_status": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "allegation_not_adjudication",
+              "adjudicated_violation",
+              "withdrawn_allegation",
+              "not_established"
+            ]
           }
         },
         "required": [
@@ -105,11 +118,23 @@
         "properties": {
           "collection_roster_status": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "draft_requires_scrubbing",
+              "approved_clean_roster",
+              "final_production_log",
+              "not_established"
+            ]
           },
           "unrelated_template_data": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "patient_identifier",
+              "source_certificate",
+              "taxpayer_signature",
+              "not_established"
+            ]
           },
           "copy_unrelated_identifier_to_profile": {
             "type": "boolean"
@@ -124,7 +149,13 @@
           },
           "alias_effect": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "search_both_names_not_new_person",
+              "create_two_people",
+              "ignore_alias",
+              "not_established"
+            ]
           }
         },
         "required": [
@@ -147,13 +178,26 @@
         "properties": {
           "review_status": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "interim_ongoing",
+              "final_completed",
+              "not_started",
+              "not_established"
+            ]
           },
           "reported_issues": {
             "type": "array",
             "items": {
               "type": "string",
-              "maxLength": 2048
+              "maxLength": 2048,
+              "enum": [
+                "land_eligibility",
+                "broker_registration_gap",
+                "unrelated_template_data",
+                "court_judgment",
+                "not_established"
+              ]
             },
             "uniqueItems": true,
             "maxItems": 24
@@ -207,11 +251,24 @@
           },
           "minimum_cadence": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "monthly",
+              "weekly",
+              "quarterly",
+              "on_request",
+              "not_established"
+            ]
           },
           "cadence_scope": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "Coastal_Solar_board_item_until_resolved",
+              "all_company_matters_forever",
+              "personal_user_practice",
+              "not_established"
+            ]
           },
           "operator_identity": {
             "anyOf": [
@@ -259,7 +316,12 @@
           },
           "setup_completion": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "awaiting_operator_answers",
+              "complete",
+              "abandoned"
+            ]
           }
         },
         "required": [
@@ -283,7 +345,12 @@
       "properties": {
         "scope": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "matter_only",
+            "practice_wide",
+            "all_clients"
+          ]
         },
         "global_config_written": {
           "type": "boolean"
@@ -308,11 +375,24 @@
                 },
                 "origin": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "anonymous_complaint",
+                    "regulator_inquiry",
+                    "private_demand",
+                    "internal_audit",
+                    "not_established"
+                  ]
                 },
                 "allegation_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "allegation_not_adjudication",
+                    "adjudicated_violation",
+                    "withdrawn_allegation",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -374,11 +454,23 @@
               "properties": {
                 "collection_roster_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "draft_requires_scrubbing",
+                    "approved_clean_roster",
+                    "final_production_log",
+                    "not_established"
+                  ]
                 },
                 "unrelated_template_data": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "patient_identifier",
+                    "source_certificate",
+                    "taxpayer_signature",
+                    "not_established"
+                  ]
                 },
                 "copy_unrelated_identifier_to_profile": {
                   "type": "boolean"
@@ -393,7 +485,13 @@
                 },
                 "alias_effect": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "search_both_names_not_new_person",
+                    "create_two_people",
+                    "ignore_alias",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -411,13 +509,26 @@
               "properties": {
                 "review_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "interim_ongoing",
+                    "final_completed",
+                    "not_started",
+                    "not_established"
+                  ]
                 },
                 "reported_issues": {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "land_eligibility",
+                      "broker_registration_gap",
+                      "unrelated_template_data",
+                      "court_judgment",
+                      "not_established"
+                    ]
                   },
                   "uniqueItems": true,
                   "maxItems": 24
@@ -466,11 +577,24 @@
                 },
                 "minimum_cadence": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "monthly",
+                    "weekly",
+                    "quarterly",
+                    "on_request",
+                    "not_established"
+                  ]
                 },
                 "cadence_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "Coastal_Solar_board_item_until_resolved",
+                    "all_company_matters_forever",
+                    "personal_user_practice",
+                    "not_established"
+                  ]
                 },
                 "operator_identity": {
                   "anyOf": [
@@ -518,7 +642,12 @@
                 },
                 "setup_completion": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "awaiting_operator_answers",
+                    "complete",
+                    "abandoned"
+                  ]
                 }
               },
               "required": [
@@ -556,13 +685,31 @@
       "properties": {
         "status": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "awaiting_operator_answers",
+            "draft_change",
+            "draft_pending_conflicts_information",
+            "approved_active",
+            "complete",
+            "closed"
+          ]
         },
         "questions": {
           "type": "array",
           "items": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "operator_identity",
+              "operator_profession_and_practice_role",
+              "practice_side_default",
+              "risk_and_materiality_bands",
+              "settlement_authority",
+              "house_style_and_output_conventions",
+              "desired_reserve_amount",
+              "court_filing_date"
+            ]
           },
           "uniqueItems": true,
           "maxItems": 24
@@ -587,11 +734,12 @@
   },
   "state_invariants": [
     "Only declared isolated artifacts may change; no global configuration, sending, calendar, or external operations.",
-    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history."
+    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history.",
+    "Categorical answer fields use the explicit public vocabulary; source names may use the attested full institutional suffixes. Dates use ISO YYYY-MM-DD."
   ],
   "policy_sha256": "ad5d9ecded3448b89f784deb520693336b50238c317e8ef93269fec94a0965f2",
-  "schema_sha256": "700979d0b06e4cc00bd1cbb41a1e4ff8d74772db95334f4af49f9c8f3a2bb5e7",
+  "schema_sha256": "a5ab9e4643c3f0078cd2f2b56e0588d3470454bf31a1bb4a8fb8ca3a7e170ca8",
   "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
-  "oracle_sha256": "46e44d490550d4bc72507cbad376e49d87477b39caac118910f8f4cd6dcc9f10",
+  "oracle_sha256": "aef005ee0f88f45039c3f7f790bcbe9e391c795fc1cd90b53cbc491587473b6d",
   "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
 }

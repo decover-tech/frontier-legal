@@ -317,7 +317,9 @@
     "hidden_answer_leakage": "passed",
     "temporal_eligibility": "passed",
     "unsupported_conclusions": "passed",
-    "runtime_controls": "root_runs_separately"
+    "runtime_controls": "root_runs_separately",
+    "public_task_policy_fixture_binding": "passed",
+    "model_observation_provenance_filter": "passed"
   },
   "issues_resolved": [
     "Removed memo-content alternative that established only a privilege self-label; substantive recommendation now required.",
@@ -329,5 +331,8 @@
     "No held-out model performance or generalization claim; this is a development episode.",
     "Original protocol examples remain excluded from public projections; substantive source banners are evidence to test, not hidden labels.",
     "All citation alternatives verified against exact frozen locator spans. Standalone documents without machine dates are task-authorized supplied assets; attachment eligibility derives from parent emails."
-  ]
+  ],
+  "task_semantics_sha256": "e811904fccccac6b3f374ebddd6cc027e6641cece966eaefedc25da47ce3c7e3",
+  "policy_sha256": "b84816b852694a968f1872ac5236f395f249ef06e2cc5af4a491d43d0108b35b",
+  "fixtures_sha256": "a0d94ca7cf7c1969982fd511196bd96cf932ffe1a10cca40a83c9fc54b6d2791"
 }

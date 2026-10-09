@@ -1,0 +1,569 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "object",
+      "properties": {
+        "F01": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "closure_readiness": {
+                  "type": "string",
+                  "enum": [
+                    "blocked_missing_resolution",
+                    "ready_to_archive",
+                    "already_closed"
+                  ],
+                  "maxLength": 2048
+                },
+                "agency_status": {
+                  "type": "string",
+                  "enum": [
+                    "open",
+                    "closed",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "resolution_type": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "resolution_date": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "required_action": {
+                  "type": "string",
+                  "enum": [
+                    "obtain_resolution_and_attorney_authorization",
+                    "archive_now",
+                    "infer_settlement_from_receipt"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "closure_readiness",
+                "agency_status",
+                "resolution_type",
+                "resolution_date",
+                "required_action"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F02": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "reference_repair": {
+                  "type": "string",
+                  "enum": [
+                    "complete",
+                    "pending",
+                    "not_started"
+                  ],
+                  "maxLength": 2048
+                },
+                "substantive_exceptions_open": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "clean_program_conclusion": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "all_controls_failed"
+                  ],
+                  "maxLength": 2048
+                },
+                "buyer_eligibility_question": {
+                  "type": "string",
+                  "enum": [
+                    "still_open",
+                    "resolved",
+                    "withdrawn"
+                  ],
+                  "maxLength": 2048
+                },
+                "closure_from_remediation": {
+                  "type": "string",
+                  "enum": [
+                    "unsupported",
+                    "supported",
+                    "mandatory"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "reference_repair",
+                "substantive_exceptions_open",
+                "clean_program_conclusion",
+                "buyer_eligibility_question",
+                "closure_from_remediation"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F03": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "final_company_cost_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "settlement_amount_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "reserve_accuracy": {
+                  "type": "string",
+                  "enum": [
+                    "not_assessable",
+                    "accurate",
+                    "underreserved",
+                    "overreserved"
+                  ],
+                  "maxLength": 2048
+                },
+                "face_ceiling_is_final_cost": {
+                  "type": "boolean"
+                },
+                "actual_tax_loss": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "proved_zero"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "final_company_cost_usd",
+                "settlement_amount_usd",
+                "reserve_accuracy",
+                "face_ceiling_is_final_cost",
+                "actual_tax_loss"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F04": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "active_tracking": {
+                  "type": "string",
+                  "enum": [
+                    "retain",
+                    "stop",
+                    "delete"
+                  ],
+                  "maxLength": 2048
+                },
+                "hold_release": {
+                  "type": "string",
+                  "enum": [
+                    "not_authorized",
+                    "authorized",
+                    "automatic_on_production"
+                  ],
+                  "maxLength": 2048
+                },
+                "source_history": {
+                  "type": "string",
+                  "enum": [
+                    "preserve",
+                    "replace_with_close_summary",
+                    "delete"
+                  ],
+                  "maxLength": 2048
+                },
+                "archive_action": {
+                  "type": "string",
+                  "enum": [
+                    "do_not_archive",
+                    "archive_now",
+                    "remove_record"
+                  ],
+                  "maxLength": 2048
+                },
+                "lessons": {
+                  "type": "string",
+                  "enum": [
+                    "not_supplied",
+                    "infer_negligence",
+                    "declare_success"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "active_tracking",
+                "hold_release",
+                "source_history",
+                "archive_action",
+                "lessons"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "findings"
+  ],
+  "additionalProperties": false
+}

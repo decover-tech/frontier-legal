@@ -1,0 +1,565 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "object",
+      "properties": {
+        "F01": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "registry_last_updated": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "registry_age_days": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "stale_over_30_days": {
+                  "type": "boolean"
+                },
+                "agency_report_on": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "posture": {
+                  "type": "string",
+                  "enum": [
+                    "open_examination",
+                    "closed_matter",
+                    "civil_trial",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "next_confirmed_future_deadline": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "registry_last_updated",
+                "registry_age_days",
+                "stale_over_30_days",
+                "agency_report_on",
+                "posture",
+                "next_confirmed_future_deadline"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F02": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "reported_face_ceiling_usd": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "parcels": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 150
+                  },
+                  "maxItems": 30,
+                  "uniqueItems": true
+                },
+                "alternative_scenario": {
+                  "type": "string",
+                  "enum": [
+                    "excess_acreage_uncomputed",
+                    "fully_quantified",
+                    "same_as_full_face"
+                  ],
+                  "maxLength": 2048
+                },
+                "penalties_and_interest": {
+                  "type": "string",
+                  "enum": [
+                    "excluded",
+                    "included",
+                    "zero"
+                  ],
+                  "maxLength": 2048
+                },
+                "adopted_estimate_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "reported_face_ceiling_usd",
+                "parcels",
+                "alternative_scenario",
+                "penalties_and_interest",
+                "adopted_estimate_usd"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F03": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "latest_report_on": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "scope": {
+                  "type": "string",
+                  "enum": [
+                    "three_packet_purposive_pilot",
+                    "program_wide_audit",
+                    "2022_quarterly_test"
+                  ],
+                  "maxLength": 2048
+                },
+                "reference_correction": {
+                  "type": "string",
+                  "enum": [
+                    "complete",
+                    "pending",
+                    "not_started"
+                  ],
+                  "maxLength": 2048
+                },
+                "acreage_reconciliations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 150
+                  },
+                  "maxItems": 30,
+                  "uniqueItems": true
+                },
+                "program_effectiveness": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "failed_conclusively"
+                  ],
+                  "maxLength": 2048
+                },
+                "historical_2022_testing": {
+                  "type": "string",
+                  "enum": [
+                    "not_replaced",
+                    "proved_performed",
+                    "replaced_by_pilot"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "latest_report_on",
+                "scope",
+                "reference_correction",
+                "acreage_reconciliations",
+                "program_effectiveness",
+                "historical_2022_testing"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F04": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "followup_owner": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "required_next_step": {
+                  "type": "string",
+                  "enum": [
+                    "agree_population_and_assign_owner_dates",
+                    "restart_placements",
+                    "close_all_exceptions"
+                  ],
+                  "maxLength": 2048
+                },
+                "risk_rating": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "materiality_classification": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "contingency_conclusion": {
+                  "type": "string",
+                  "enum": [
+                    "requires_broader_assessment",
+                    "no_reserve_required",
+                    "reserve_full_face"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "followup_owner",
+                "required_next_step",
+                "risk_rating",
+                "materiality_classification",
+                "contingency_conclusion"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "findings"
+  ],
+  "additionalProperties": false
+}

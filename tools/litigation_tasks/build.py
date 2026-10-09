@@ -6,6 +6,8 @@ from .environment import ROOT,TASKS,GOLD,digest,norm,LitigationEnvironment
 from .schema import output_schema,bounded
 from .evidence import load_bundle
 from .controls import control_answer,read_citations,exercise_controls
+from .review import review_binding,semantic_digest
+from .registry import dependency_errors
 
 
 def seal(root=ROOT,task_ids=None):
@@ -26,7 +28,9 @@ def seal(root=ROOT,task_ids=None):
         if review_path.exists():
             review=json.loads(review_path.read_text())
             semantics=hashlib.sha256(json.dumps({'findings':oracle['findings'],'artifact_checks':oracle['artifact_checks']},sort_keys=True).encode()).hexdigest()
-            if review.get('status')=='approved' and review.get('oracle_semantics_sha256')==semantics and review.get('bundle_manifest_sha256')==bundle['bundle_sha256'] and review.get('reviewer') and review.get('reviewer')!=review.get('author'):status='approved'
+            binding=review_binding(task['task_id'],root)
+            binding['task_semantics_sha256']=semantic_digest({k:v for k,v in task.items() if not k.endswith('_sha256')})
+            if review.get('status')=='approved' and all(review.get(k)==v for k,v in binding.items()) and review.get('reviewer') and review.get('reviewer')!=review.get('author'):status='approved'
         if oracle.get('independent_review_status')!=status:
             oracle['independent_review_status']=status
             oracle_path.write_text(json.dumps(oracle,indent=2,ensure_ascii=False)+'\n')
@@ -37,7 +41,7 @@ def seal(root=ROOT,task_ids=None):
 
 def validate(task_id,root=ROOT,controls=True):
     env=LitigationEnvironment(task_id,root)
-    errors=[]
+    errors=[message for key,message in dependency_errors(root) if key==task_id]
     public_findings={f['id']:f for f in env.task['findings']}
     if set(public_findings)!=set(env.oracle['findings']):errors.append('Public and oracle finding IDs differ')
     for fid,f in env.oracle['findings'].items():
@@ -56,7 +60,8 @@ def validate(task_id,root=ROOT,controls=True):
     if review_path.exists():
         review=json.loads(review_path.read_text())
         semantics=hashlib.sha256(json.dumps({'findings':env.oracle['findings'],'artifact_checks':env.oracle['artifact_checks']},sort_keys=True).encode()).hexdigest()
-        if review.get('oracle_semantics_sha256')!=semantics:errors.append('Independent review does not match current oracle semantics')
+        for key,value in review_binding(task_id,root).items():
+            if review.get(key)!=value:errors.append('Independent review binding mismatch: '+key)
         if review.get('reviewer')==review.get('author') or not review.get('reviewer'):errors.append('Review is not independent')
         if review.get('bundle_manifest_sha256')!=env.task['bundle_manifest_sha256']:errors.append('Review evidence bundle mismatch')
         review_status=review.get('status','pending')

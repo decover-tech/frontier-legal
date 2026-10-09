@@ -25,11 +25,24 @@
                 },
                 "proceeding": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "irs_examination",
+                    "civil_court_action",
+                    "grand_jury_investigation",
+                    "private_arbitration",
+                    "not_established"
+                  ]
                 },
                 "classification": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "regulatory_investigation",
+                    "contract_litigation",
+                    "employment_dispute",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -234,15 +247,33 @@
                 },
                 "history_semantics": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "source_events_not_approved_intake",
+                    "approved_operational_intake",
+                    "model_assumptions",
+                    "not_established"
+                  ]
                 },
                 "clearance_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "not_established",
+                    "cleared",
+                    "waived",
+                    "not_run_confirmed"
+                  ]
                 },
                 "operational_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "draft_pending_conflicts_information",
+                    "approved_active",
+                    "closed",
+                    "not_established"
+                  ]
                 },
                 "rewrite_earlier_history": {
                   "type": "boolean"
@@ -343,7 +374,13 @@
                 },
                 "active_pointer_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "sandbox_only",
+                    "global_configuration",
+                    "all_matters",
+                    "not_established"
+                  ]
                 },
                 "cross_matter_context": {
                   "type": "boolean"

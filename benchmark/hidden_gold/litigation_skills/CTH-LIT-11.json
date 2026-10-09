@@ -1,7 +1,7 @@
 {
   "task_id": "CTH-LIT-11",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
@@ -45,6 +45,11 @@
               "document_id": "EMAIL-003",
               "locator": "line:6",
               "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+            },
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:6",
+              "quote": "The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
             }
           ]
         },
@@ -61,6 +66,16 @@
               "document_id": "EMAIL-016",
               "locator": "line:14",
               "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            },
+            {
+              "document_id": "EMAIL-015",
+              "locator": "line:6",
+              "quote": "we never got the re-verification done on that batch of parcels"
+            },
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:14",
+              "quote": "we never got the re-verification done on that batch of parcels"
             }
           ]
         }
@@ -108,6 +123,11 @@
             {
               "document_id": "EMAIL-041",
               "locator": "line:6",
+              "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+            },
+            {
+              "document_id": "EMAIL-042",
+              "locator": "line:14",
               "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
             }
           ]
@@ -158,6 +178,66 @@
               "document_id": "EMAIL-1462",
               "locator": "line:6",
               "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1463",
+              "locator": "line:25",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1464",
+              "locator": "line:50",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1465",
+              "locator": "line:73",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:103",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:127",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:148",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:175",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:197",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1471",
+              "locator": "line:224",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1472",
+              "locator": "line:194",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:219",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:198",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
             }
           ]
         },
@@ -169,6 +249,66 @@
               "document_id": "EMAIL-1462",
               "locator": "line:9",
               "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1463",
+              "locator": "line:28",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1464",
+              "locator": "line:53",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1465",
+              "locator": "line:76",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:106",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:130",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:151",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:178",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:200",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1471",
+              "locator": "line:227",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1472",
+              "locator": "line:197",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:222",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:201",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
             }
           ]
         },
@@ -179,6 +319,66 @@
             {
               "document_id": "EMAIL-1462",
               "locator": "line:10",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1463",
+              "locator": "line:29",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1464",
+              "locator": "line:54",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1465",
+              "locator": "line:77",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:107",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:131",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:152",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:179",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:201",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1471",
+              "locator": "line:228",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1472",
+              "locator": "line:198",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:223",
+              "quote": "- No penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:202",
               "quote": "- No penalties or interest."
             }
           ]
@@ -192,6 +392,66 @@
             {
               "document_id": "EMAIL-1462",
               "locator": "line:11",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1463",
+              "locator": "line:30",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1464",
+              "locator": "line:55",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1465",
+              "locator": "line:78",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:108",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:132",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:153",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:180",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:202",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1471",
+              "locator": "line:229",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1472",
+              "locator": "line:199",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:224",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:203",
               "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
             }
           ]
@@ -218,6 +478,11 @@
               "document_id": "EMAIL-1503",
               "locator": "line:6",
               "quote": "The pilot first pass is done. NW-07's paper binder supplied the missing exhibit pages; the working-copy index now points to that copy, and the old link is retained in the change log. The recorded figure is still 231 against 275 on the application copy. Repairing the link did not reconcile the acreage."
+            },
+            {
+              "document_id": "EMAIL-1505",
+              "locator": "line:6",
+              "quote": "Brenda — the archived-packet pilot ran September 5 with Craig's second review on September 6. Attached are the dated first-pass extract and the source inventory. The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open. I've kept the initial findings intact."
             }
           ]
         },
@@ -229,6 +494,11 @@
               "document_id": "EMAIL-1504",
               "locator": "line:6",
               "quote": "Second review completed this morning. I reproduced the three comparisons from the cited copies and checked the NW-07 index repair against the paper-binder copy. The arithmetic ties; the two substantive exceptions are still open."
+            },
+            {
+              "document_id": "EMAIL-1505",
+              "locator": "line:6",
+              "quote": "Brenda — the archived-packet pilot ran September 5 with Craig's second review on September 6. Attached are the dated first-pass extract and the source inventory. The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open. I've kept the initial findings intact."
             }
           ]
         }
@@ -309,6 +579,11 @@
             {
               "document_id": "EMAIL-068",
               "locator": "line:26",
+              "quote": "Given everything that's come up, let's plan to pause new Coastal Solar placements until the review with L&L is complete. Rob, John — let's align on messaging to the board this week."
+            },
+            {
+              "document_id": "EMAIL-030",
+              "locator": "line:7",
               "quote": "Given everything that's come up, let's plan to pause new Coastal Solar placements until the review with L&L is complete. Rob, John — let's align on messaging to the board this week."
             }
           ]
@@ -475,5 +750,6 @@
       "pointer": "/management_response",
       "value": "immediate_pause"
     }
-  ]
+  ],
+  "review_notes": "Independent reviewer summons_builder identified and checked alternate original/quoted-thread/actual-attachment proof; added only relevant identical propositions or full contextual equivalents. Financial quote alternatives are restricted to the same exposure discussion chain."
 }

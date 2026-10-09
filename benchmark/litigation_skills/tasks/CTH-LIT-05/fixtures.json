@@ -1,0 +1,23 @@
+{
+  "artifacts": {
+    "inbound/matter-context.json": {
+      "matter_id": "cascade-timber-coastal-solar",
+      "status": "task_provided_draft",
+      "conflicts_clearance": null,
+      "settlement_authority": null
+    }
+  },
+  "provenance": [
+    {
+      "artifact_path": "inbound/matter-context.json",
+      "description": "Task-provided incomplete one-matter context, not a historical ledger or authorization.",
+      "sources": [
+        {
+          "document_id": "EMAIL-023",
+          "locator": "line:7",
+          "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+        }
+      ]
+    }
+  ]
+}

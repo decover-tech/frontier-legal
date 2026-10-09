@@ -1,0 +1,505 @@
+{
+  "task_id": "CTH-LIT-18",
+  "author_review_status": "author_checked",
+  "independent_review_status": "approved",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "firm": "L&L Associates",
+          "lead": "Grace Lin",
+          "to_email": "glin@llassociates.com",
+          "signer": null,
+          "house_style": "not_supplied",
+          "send_authorized": false
+        },
+        {
+          "firm": "L&L Associates LLP",
+          "lead": "Grace Lin",
+          "to_email": "glin@llassociates.com",
+          "signer": null,
+          "house_style": "not_supplied",
+          "send_authorized": false
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "engagement",
+          "description": "Legal-services retainer establishes counsel engagement; it does not establish conflicts clearance.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-021",
+              "locator": "line:9",
+              "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+            },
+            {
+              "document_id": "EMAIL-022",
+              "locator": "line:30",
+              "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+            }
+          ]
+        },
+        {
+          "id": "verified_recipient",
+          "description": "Identity/address from actual legal-advice correspondence, not inferred domain.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:2",
+              "quote": "From: Grace Lin <glin@llassociates.com>"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "confidential_circle",
+          "description": "Counsel limits forwarding of financial review material.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:11",
+              "quote": "Please keep this group as is and don't forward it further."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "last_registry_update": "2023-09-06",
+          "days_since_update": 14,
+          "include_in_run": true,
+          "inclusion_reason": "more_than_10_days_since_update",
+          "recorded_production_due": "2023-08-31",
+          "confirmed_future_deadline": null
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "agency_receipt",
+          "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open."
+            }
+          ]
+        },
+        {
+          "id": "historical_due",
+          "description": "Final stated production deadline is distinct from rolling schedule.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "the production deadline is now August 31, 2023."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "earlier_plan",
+          "description": "An August plan is not proof of receipt or complete approval-record scope.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-161",
+              "locator": "line:6",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:24",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "requested_review_target_usd": 8000,
+          "financial_model_review_cost_usd": 65000,
+          "amounts_comparable_as_actual_spend": false,
+          "approved_current_budget_usd": null,
+          "actual_billed_total_usd": null,
+          "budget_request": "confirm_authorization_actuals_and_variance"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "requested_target",
+          "description": "CFO requests constrained review cost, not an approved invoice or total matter budget.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-026",
+              "locator": "line:6",
+              "quote": "L&L's initial estimate for the document review is well beyond what we budgeted. We need this done inside of $8,000 given where the year's numbers are."
+            },
+            {
+              "document_id": "EMAIL-027",
+              "locator": "line:25",
+              "quote": "L&L's initial estimate for the document review is well beyond what we budgeted. We need this done inside of $8,000 given where the year's numbers are."
+            }
+          ]
+        },
+        {
+          "id": "forecast_cost",
+          "description": "Actual attached financial model contains review-cost forecast, not invoice certification.",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+              "locator": "sheet:1:row:4",
+              "quote": "A4=L&L Associates — review costs | B4=$0 | C4=$65,000 | D4=+$65,000"
+            }
+          ]
+        },
+        {
+          "id": "model_context",
+          "description": "Transmittal labels financial-impact model and incremental review costs.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-071",
+              "locator": "line:6",
+              "quote": "Rob, attached is the Q3 impact model reflecting the Coastal Solar pause, plus the incremental L&L review cost."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "proposed_method",
+          "description": "Counsel describes discussion and expected fit, not final spend approval.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-027",
+              "locator": "line:7",
+              "quote": "Grace and I are discussing a faster review approach that should get us within budget and the three-week deadline."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "ask_to_confirm": [
+            "approval_record_production_scope",
+            "current_agency_schedule",
+            "open_acreage_reconciliations",
+            "budget_authorization_and_actuals"
+          ],
+          "draft_posture": "request_updates_not_concede",
+          "case_closed": false,
+          "final_contingency_decision": null
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "earlier_plan",
+          "description": "An August plan is not proof of receipt or complete approval-record scope.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-161",
+              "locator": "line:6",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:24",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            }
+          ]
+        },
+        {
+          "id": "auditor_scope",
+          "description": "Auditor limits the result to three packets and two open substantive exceptions.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:6",
+              "quote": "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+            }
+          ]
+        },
+        {
+          "id": "agency_receipt",
+          "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "no_accounting_conclusion",
+          "description": "Auditor separates pilot outcome from management contingency assessment.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:8",
+              "quote": "We also haven't reached a conclusion on the accounting contingency from these comparisons; that requires the broader management assessment and the ordinary audit inquiry process."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "inputs/matter-draft.json",
+      "pointer": "",
+      "kind": "preserve"
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/matter_id",
+      "kind": "equals",
+      "value": "cascade-timber"
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/as_of",
+      "kind": "equals",
+      "value": "2023-09-20"
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_for_attorney_review"
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/approved",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/external_actions_performed",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/sections/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/sections/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/sections/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/sections/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    },
+    {
+      "path": "oc-status/request.json",
+      "pointer": "/run_summary",
+      "kind": "equals",
+      "value": {
+        "matters_processed": 1,
+        "local_drafts": 1,
+        "gmail_drafts": 0,
+        "sent": 0,
+        "mode": "local_only",
+        "blocking_defaults": [
+          "signer",
+          "house_style",
+          "send_authorization"
+        ]
+      }
+    }
+  ],
+  "control_artifacts": {
+    "inputs/matter-draft.json": {
+      "fixture_kind": "provisional_source_grounded_draft",
+      "matter_id": "cascade-timber",
+      "matter_name": "Cascade Timber Holdings — Coastal Solar IRS examination",
+      "status": "open_regulatory_examination",
+      "last_updated": "2023-09-06",
+      "recorded_production_due": "2023-08-31",
+      "outside_counsel": {
+        "firm": "L&L Associates",
+        "lead": "Grace Lin",
+        "email": "glin@llassociates.com"
+      },
+      "risk": null,
+      "materiality": null,
+      "exposure_range": null,
+      "conflicts_status": "not_established",
+      "settlement_authority": null,
+      "closure_authority": null,
+      "signer": null,
+      "house_style": null,
+      "history": [
+        {
+          "recorded_on": "2023-09-06",
+          "event_date": "2023-09-01",
+          "type": "agency_receipt",
+          "status": "examination_open"
+        }
+      ]
+    },
+    "oc-status/request.json": {
+      "matter_id": "cascade-timber",
+      "as_of": "2023-09-20",
+      "status": "draft_for_attorney_review",
+      "approved": false,
+      "external_actions_performed": false,
+      "sections": {
+        "F01": {
+          "firm": "L&L Associates",
+          "lead": "Grace Lin",
+          "to_email": "glin@llassociates.com",
+          "signer": null,
+          "house_style": "not_supplied",
+          "send_authorized": false
+        },
+        "F02": {
+          "last_registry_update": "2023-09-06",
+          "days_since_update": 14,
+          "include_in_run": true,
+          "inclusion_reason": "more_than_10_days_since_update",
+          "recorded_production_due": "2023-08-31",
+          "confirmed_future_deadline": null
+        },
+        "F03": {
+          "requested_review_target_usd": 8000,
+          "financial_model_review_cost_usd": 65000,
+          "amounts_comparable_as_actual_spend": false,
+          "approved_current_budget_usd": null,
+          "actual_billed_total_usd": null,
+          "budget_request": "confirm_authorization_actuals_and_variance"
+        },
+        "F04": {
+          "ask_to_confirm": [
+            "approval_record_production_scope",
+            "current_agency_schedule",
+            "open_acreage_reconciliations",
+            "budget_authorization_and_actuals"
+          ],
+          "draft_posture": "request_updates_not_concede",
+          "case_closed": false,
+          "final_contingency_decision": null
+        }
+      },
+      "run_summary": {
+        "matters_processed": 1,
+        "local_drafts": 1,
+        "gmail_drafts": 0,
+        "sent": 0,
+        "mode": "local_only",
+        "blocking_defaults": [
+          "signer",
+          "house_style",
+          "send_authorization"
+        ]
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_source_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "missing_contrary_evidence",
+      "kind": "drop_counter",
+      "finding": "F02"
+    },
+    {
+      "name": "unread_citations",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "source_history_corrupted",
+      "kind": "artifact_field",
+      "path": "inputs/matter-draft.json",
+      "pointer": "/status",
+      "value": "closed"
+    },
+    {
+      "name": "assumed_signer",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/signer",
+      "value": "John Ellery"
+    },
+    {
+      "name": "skip_stale_matter",
+      "kind": "answer_field",
+      "finding": "F02",
+      "pointer": "/include_in_run",
+      "value": false
+    },
+    {
+      "name": "forecast_is_paid_invoice",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/actual_billed_total_usd",
+      "value": 65000
+    },
+    {
+      "name": "draft_announces_closure",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/case_closed",
+      "value": true
+    }
+  ]
+}

@@ -1,12 +1,19 @@
 {
   "task_id": "CTH-LIT-01",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
         {
           "matter_entity": "Cascade Timber Holdings",
+          "program": "Coastal Solar Credit Program",
+          "initiating_report_on": "2023-02-20",
+          "origin": "anonymous_complaint",
+          "allegation_status": "allegation_not_adjudication"
+        },
+        {
+          "matter_entity": "Cascade Timber Holdings, Inc.",
           "program": "Coastal Solar Credit Program",
           "initiating_report_on": "2023-02-20",
           "origin": "anonymous_complaint",
@@ -43,6 +50,30 @@
           "engagement_on": "2023-02-24",
           "client": "Cascade Timber Holdings",
           "operator_profession": null
+        },
+        {
+          "outside_firm": "L&L Associates LLP",
+          "lead": "Grace Lin",
+          "lead_email": "glin@llassociates.com",
+          "engagement_on": "2023-02-24",
+          "client": "Cascade Timber Holdings",
+          "operator_profession": null
+        },
+        {
+          "outside_firm": "L&L Associates",
+          "lead": "Grace Lin",
+          "lead_email": "glin@llassociates.com",
+          "engagement_on": "2023-02-24",
+          "client": "Cascade Timber Holdings, Inc.",
+          "operator_profession": null
+        },
+        {
+          "outside_firm": "L&L Associates LLP",
+          "lead": "Grace Lin",
+          "lead_email": "glin@llassociates.com",
+          "engagement_on": "2023-02-24",
+          "client": "Cascade Timber Holdings, Inc.",
+          "operator_profession": null
         }
       ],
       "support_groups": [
@@ -63,7 +94,7 @@
             {
               "document_id": "ATT-EMAIL-021-04-235de50fbc43",
               "locator": "page:1",
-              "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+              "quote": "This letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber\nHoldings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
             }
           ]
         },
@@ -73,6 +104,16 @@
           "alternatives": [
             {
               "document_id": "EMAIL-022",
+              "locator": "line:13",
+              "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+            },
+            {
+              "document_id": "EMAIL-021",
+              "locator": "line:3",
+              "quote": "To: Grace Lin <glin@llassociates.com>"
+            },
+            {
+              "document_id": "EMAIL-050",
               "locator": "line:13",
               "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
             }
@@ -113,7 +154,7 @@
             {
               "document_id": "EMAIL-022",
               "locator": "line:8",
-              "quote": "the spreadsheet includes an unredacted patient ID field (MRN 88213-A) in row 14 that appears to be leftover from an unrelated matter template \u2014 worth scrubbing before this circulates further."
+              "quote": "the spreadsheet includes an unredacted patient ID field (MRN 88213-A) in row 14 that appears to be leftover from an unrelated matter template — worth scrubbing before this circulates further."
             }
           ]
         },
@@ -142,7 +183,7 @@
             {
               "document_id": "EMAIL-048",
               "locator": "line:8",
-              "quote": "draft custodian list attached for your review \u2014 pulled from our standard collection template and filled in with the names you gave me."
+              "quote": "draft custodian list attached for your review — pulled from our standard collection template and filled in with the names you gave me."
             }
           ]
         }
@@ -221,7 +262,7 @@
             {
               "document_id": "EMAIL-053",
               "locator": "line:6",
-              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+              "quote": "Let's put a standing item on the board agenda until this is resolved — I'd like a monthly update at minimum."
             }
           ]
         }

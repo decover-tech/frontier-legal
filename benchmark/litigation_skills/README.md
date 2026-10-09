@@ -1,8 +1,8 @@
 # Cascade litigation skill episodes
 
-This suite is being built to add 17 bounded executable episodes to the existing preservation and chronology pilots, covering the 19 skill families in `documentation/LITIGATION_SKILL_TASK_PLAN.md`. It uses only the Cascade Timber matter. These are development episodes with deterministic, evidence-based rewards, not 19 fully automated legal workflows.
+This suite adds 17 bounded executable episodes to the existing preservation and chronology pilots, covering the 19 skill families in `documentation/LITIGATION_SKILL_TASK_PLAN.md`. It uses only the Cascade Timber matter. These are development episodes with deterministic, evidence-based rewards, not 19 fully automated legal workflows.
 
-See `COVERAGE.md` and `validation.json` for the current checkpoint: implemented packages, completed independent reviews and pending work. Do not treat unimplemented or unreviewed families as complete.
+All 17 new episodes are implemented and independently reviewed. See `COVERAGE.md` and `validation.json` for exact control counts. The two legacy pilots still need separate independent oracle review. Model calibration remains pending.
 
 Each implemented new episode contains a task instruction and cutoff, supplied policy, answer and artifact schemas, standalone draft fixtures, hidden accepted answers and proof obligations, positive and adversarial controls, and an independent source/oracle review. The source snapshot includes 1,486 emails, 331 attachments, 884 inline images, 21 contracts, 38 exhibits and four supplied protocols. Three protocols expose rules only; worked determinations are excluded from the learner evidence.
 
@@ -18,7 +18,7 @@ python3 -m tools.litigation_tasks.build
 python3 -m unittest discover -s tools/litigation_tasks/tests
 ```
 
-`--stdio` sends the initial public observation on stdout and accepts one JSON action per stdin line. Each response includes an observation, reward and termination flag. Search is an AND of literal words or quoted phrases. Read results include the original locators and pagination. Artifact writes affect only the episode's declared in-memory paths. Tool errors consume a step. Gold feedback appears only at submission.
+`--stdio` sends the initial public observation on stdout and accepts one JSON action per stdin line. Each response includes an observation, reward and termination flag. Search is an AND of literal words or quoted phrases. Read results include the original locators and pagination. Artifact writes affect only the episode's declared in-memory paths. Tool errors consume a step. Gold feedback appears only at submission. Readiness labels and citation-bearing fixture provenance remain evaluator metadata, so they do not supply answer labels or proof locations to the learner.
 
 ```json
 {"tool":"search","query":"production received","offset":0}
@@ -28,7 +28,7 @@ python3 -m unittest discover -s tools/litigation_tasks/tests
 
 The actual required answer and artifact shapes appear in the initial observation. A single outer JSON Markdown fence is accepted; duplicate keys and non-finite JSON values are rejected. Output shape is part of the contract, but arbitrary prose style and rule labels are not graded.
 
-`--control` exercises evaluator-authored answers. A 100% control score confirms expected verifier behavior; it is not a model score. Saved trajectories can be replayed with `--replay /absolute/path/to/trajectory.json`. Replay checks task and harness hashes, every observation, and the terminal result without API calls.
+`--control` exercises evaluator-authored answers. A 100% control score confirms expected verifier behavior; it is not a model score. Saved trajectories can be replayed with `--replay /absolute/path/to/trajectory.json`. Replay checks task and harness hashes (including provider/deadline dependencies), carried dependency snapshots, every observation, and the terminal result without API calls.
 
 ## Trainer interface
 
@@ -40,7 +40,7 @@ observation, info = env.reset(seed=0)
 observation, reward, terminated, truncated, info = env.step(action)
 ```
 
-The adapter uses Gymnasium's five-value step convention without requiring the Gym package. It accepts implemented family IDs; `CTH-LIT-09` delegates to `CTH-PRESERVATION-001`, and `CTH-LIT-10` delegates to `CTH-CHRONOLOGY-001`. Those two pilots retain their existing schemas and graders. Their historical scores are not recalculated under the new grader.
+The adapter uses Gymnasium's five-value step convention without requiring the Gym package. It accepts all 19 family IDs; `CTH-LIT-09` delegates to `CTH-PRESERVATION-001`, and `CTH-LIT-10` delegates to `CTH-CHRONOLOGY-001`. Those two pilots retain their existing schemas and graders. Their historical scores are not recalculated under the new grader.
 
 For new episodes, reward combines answer-field accuracy, required evidence coverage, citation precision and contrary-evidence handling. Evidence must have been read and quoted from an eligible exact source location. Multiple reviewed equivalent passages are accepted. Unordered answer sets are order-independent. Findings contribute 80% and artifact checks 20%; artifact credit is gated by the overall evidence-backed finding score, so copying an unsupported answer or artifact earns zero. Required conflicts lower credit when omitted. Incorrect substantive fields receive partial credit, while an invalid final schema receives zero.
 

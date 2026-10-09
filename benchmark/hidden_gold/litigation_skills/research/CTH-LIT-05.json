@@ -1,0 +1,1814 @@
+{
+  "task_id": "CTH-LIT-05",
+  "authoring_only": true,
+  "reference_skill": "demand-received",
+  "reference_skill_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "sources": [
+    {
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "provenance": {
+        "mime_part_index": 6,
+        "original_filename": "Three_purchase_delivery_register_export_2023-08-16.txt",
+        "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-1492_RE_Fwd_Re_Placement_agreement_Bellhaven_batch_5.eml",
+        "source_sha256": "0c0c680ffe4f8790085f1836d79957aeb89df3d7df26eda717f308bc237d7441",
+        "text_sha256": "7643ae45750d76b12a42314d260bb38b114ef9fb7d97fac9254491d92d468a0c"
+      },
+      "source_date": null,
+      "text": "ALDER ADMINISTRATION ARCHIVE — three-purchase delivery register extract\n\nExported 16 August 2023. Source: dated November/December 2022 delivery register.\n\nBuyer | Agreement effective | Delivered PT | Source certificate | Parcel | Allocated face\n\nCascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-03-2022-0003 | NW-03 | 620000\n\nCascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-02-2022-0002 | NW-02 | 520000\n\nCascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-01-2022-0001 | NW-01 | 110000\n\nNorth Fork Energy Fund | 2022-11-21 | 2022-11-29 11:18 | CSC-NW-06-2022-0006 | NW-06 | 640000\n\nNorth Fork Energy Fund | 2022-11-21 | 2022-11-29 11:18 | CSC-NW-07-2022-0007 | NW-07 | 260000\n\nBlue River Capital | 2022-12-06 | 2022-12-14 09:42 | CSC-NW-04-2022-0004 | NW-04 | 580000\n\nBlue River Capital | 2022-12-06 | 2022-12-14 09:42 | CSC-NW-07-2022-0007 | NW-07 | 300000\n\nBlue River Capital | 2022-12-06 | 2022-12-14 09:42 | CSC-NW-05-2022-0005 | NW-05 | 220000\n\nPurchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded.",
+      "locators": [
+        {
+          "end": 71,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 153,
+          "line": 2,
+          "locator": "line:2",
+          "start": 73
+        },
+        {
+          "end": 244,
+          "line": 3,
+          "locator": "line:3",
+          "start": 155
+        },
+        {
+          "end": 341,
+          "line": 4,
+          "locator": "line:4",
+          "start": 246
+        },
+        {
+          "end": 438,
+          "line": 5,
+          "locator": "line:5",
+          "start": 343
+        },
+        {
+          "end": 535,
+          "line": 6,
+          "locator": "line:6",
+          "start": 440
+        },
+        {
+          "end": 630,
+          "line": 7,
+          "locator": "line:7",
+          "start": 537
+        },
+        {
+          "end": 725,
+          "line": 8,
+          "locator": "line:8",
+          "start": 632
+        },
+        {
+          "end": 816,
+          "line": 9,
+          "locator": "line:9",
+          "start": 727
+        },
+        {
+          "end": 907,
+          "line": 10,
+          "locator": "line:10",
+          "start": 818
+        },
+        {
+          "end": 998,
+          "line": 11,
+          "locator": "line:11",
+          "start": 909
+        },
+        {
+          "end": 1146,
+          "line": 12,
+          "locator": "line:12",
+          "start": 1000
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "ATT-EMAIL-1494-07-006d3cdf118e",
+      "provenance": {
+        "mime_part_index": 7,
+        "original_filename": "Three_purchase_settlement_bridge_2023-08-18.txt",
+        "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1494_RE_Fwd_Re_Placement_agreement_Bellhaven_batch_5.eml",
+        "source_sha256": "006d3cdf118eca180e465d159c35694ede4d5962cf9801821a24d67ea1cebb8b",
+        "text_sha256": "6a79f9d8f929f9adb327dcd94ead6b3ea5f6eb0a40c081cfda75cf85d86e9911"
+      },
+      "source_date": null,
+      "text": "CRAIG SATO — TRANSACTION SUPPORT — 18 August 2023\n\nAmounts in dollars. Three purchases only, not annual revenue reconciliation.\n\nBuyer | Face | Unit price | Cash funded | Bellhaven fee 6% of cash | Alder fee 8% of cash | Cash after both fees\n\nCPP | 1250000 | 0.90 | 1125000 | 67500 | 90000 | 967500\n\nNorth Fork | 900000 | 0.92 | 828000 | 49680 | 66240 | 712080\n\nBlue River | 1100000 | 0.89 | 979000 | 58740 | 78320 | 841940\n\nTOTAL | 3250000 | mixed | 2932000 | 175920 | 234560 | 2521520\n\nGross face recognized at certificate delivery under current policy; discounts affect cash; fees expensed.\n\nNo refund liability, disallowance finding, penalty, interest or reserve is calculated here.",
+      "locators": [
+        {
+          "end": 49,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 127,
+          "line": 2,
+          "locator": "line:2",
+          "start": 51
+        },
+        {
+          "end": 241,
+          "line": 3,
+          "locator": "line:3",
+          "start": 129
+        },
+        {
+          "end": 298,
+          "line": 4,
+          "locator": "line:4",
+          "start": 243
+        },
+        {
+          "end": 360,
+          "line": 5,
+          "locator": "line:5",
+          "start": 300
+        },
+        {
+          "end": 423,
+          "line": 6,
+          "locator": "line:6",
+          "start": 362
+        },
+        {
+          "end": 486,
+          "line": 7,
+          "locator": "line:7",
+          "start": 425
+        },
+        {
+          "end": 593,
+          "line": 8,
+          "locator": "line:8",
+          "start": 488
+        },
+        {
+          "end": 686,
+          "line": 9,
+          "locator": "line:9",
+          "start": 595
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "provenance": {
+        "mime_part_index": 2,
+        "original_filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_EXECUTED.pdf",
+        "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-627_Placement_agreement_Bellhaven_batch_4.eml",
+        "source_sha256": "8b74dc6133b7f45882635e348250083d8b4ebd640fce90ff8882b14348f41b49",
+        "text_sha256": "1af73a0f0c8797d5bab196567b06970eb8a008d59b92bdcf0a851792bb2666dd"
+      },
+      "source_date": null,
+      "text": "BHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 1\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\n CREDIT PURCHASE AGREEMENT\n Coastal Solar Credit Program — Bellhaven Advisory standard purchaser form\nThis Credit Purchase Agreement (this “Agreement”) is entered into as of November 21, 2022 (the\n“Effective Date”), by and among Cascade Timber Holdings, Inc., an Oregon corporation with offices in\nPortland, Oregon (“Seller”), acting through Alder Point Partners, with offices in Sacramento,\nCalifornia, as administrator of the Coastal Solar Credit Program (“Administrator”); North Fork Energy\nFund, L.P., a Washington limited partnership, with offices in Seattle, Washington (“Purchaser”); and,\nsolely for purposes of Sections 8 and 9, Bellhaven Advisory, with offices in Denver, Colorado\n(“Placement Agent”).\nRECITALS\nA. Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the\n“Program”), which Administrator administers on Seller's behalf (the “Credits”).\nB. Administrator has engaged Placement Agent, on a non-exclusive basis, to market and broker\nplacements of Credits under a Broker Placement Agreement dated as of September 2, 2022.\nC. Purchaser wishes to purchase, and Seller wishes to sell, Credits in the Face Amount and at the price\nset forth in Schedule 1, on the terms of this Agreement.\nNOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as\nfollows:\n1. Definitions\n“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit\nCertificate” means the certificate issued under the Program evidencing a Credit. “Program\nDocumentation” means the Program description, investor deck, one-page summary, eligibility\nchecklist and eligibility screening materials prepared and furnished by Administrator, in the versions\napproved by Administrator and delivered to Purchaser. “Closing” means the date on which Purchaser\npays the Aggregate Purchase Price. “Business Day” means a day other than a Saturday, Sunday or bank\nholiday in Portland, Oregon.\n2. Purchase and Sale\nSubject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits\nhaving the aggregate Face Amount set forth in Schedule 1 (the “Purchased Credits”).\n3. Purchase Price\nThe purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the “Unit Price”), for\nan aggregate purchase price of $828,000 (the “Aggregate Purchase Price”), payable at Closing by wire\ntransfer of immediately available funds to the account designated in writing by Administrator.\nPlacement Agent's compensation is payable by Administrator under the Broker Placement Agreement\nand is not payable by Purchaser.\n4. Delivery of Credit Certificates\nWithin ten (10) Business Days after Closing, Administrator shall deliver to Purchaser, by electronic\ntransmission with originals to follow, Credit Certificates evidencing the Purchased Credits, each\nidentifying the certificate number, Program vintage, source parcel reference and Face Amount. Title to\nand risk of the Purchased Credits pass to Purchaser upon delivery of the Credit Certificates. If any\nCredit Certificate is not delivered within thirty (30) Business Days after Closing, Purchaser may, by\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 2\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nwritten notice, require refund of the portion of the Aggregate Purchase Price attributable to the\nundelivered Face Amount.\n5. Seller Representations\nSeller represents and warrants to Purchaser, as of the Effective Date and as of delivery of the Credit\nCertificates, that:\n(a) Seller has full authority to enter into and perform this Agreement, and Administrator is\nauthorized to act for Seller in connection with the Program;\n(b) the Purchased Credits are free of liens and have not been previously sold, assigned or pledged;\nand\n(c) in reliance on the eligibility screening performed by Administrator and on the Program\nDocumentation, including the eligibility checklist furnished with Administrator's approved\nmarketing kit dated May 4, 2022, each Purchased Credit has been screened for eligibility under the\nProgram and is eligible for application in all western states in which the Program is marketed,\nincluding Oregon and Washington.\n6. Purchaser Representations\nPurchaser represents that it is acquiring the Purchased Credits for its own account; that it has received\nand reviewed the Program Documentation and has had the opportunity to ask questions of\nAdministrator; that it is not relying on any statement regarding the Credits other than those set forth in\nthis Agreement and the Program Documentation; and that it has full authority to enter into this\nAgreement.\n7. Remedies; Refund\nIf any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a “Disallowance”), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a “Refund Request”).\nWithin thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount.\nThe remedies in this Section 7 and in Section 4 are Purchaser's sole and exclusive remedies for a\nDisallowance or failure of delivery; in no event shall Seller's aggregate liability under this Agreement\nexceed the Aggregate Purchase Price actually paid, and no party shall be liable for consequential,\nincidental or punitive damages. This Section 7 survives Closing for four (4) years.\n8. Placement Agent; Offering Jurisdiction\nThe Purchased Credits are offered and placed to Purchaser at its principal office in Washington\nthrough Placement Agent, acting solely as placement agent for Administrator. Purchaser acknowledges\nthat Placement Agent does not act as Purchaser's advisor, holds no Credits for its own account, and\nmakes no representation or warranty regarding the Credits, the Program or the Program\nDocumentation. Placement Agent shall have no liability to Purchaser under Section 7.\n9. Notices\nNotices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 3\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nCalifornia, with a copy to Cascade Timber Holdings, Inc., 1200 Forest Park Way, Suite 900, Portland,\nOregon 97209; if to Purchaser, to the address first written above; and if to Placement Agent, to\nBellhaven Advisory, Attn: Managing Director, Denver, Colorado.\n10. Governing Law\nThis Agreement shall be governed by the laws of the State of Oregon, without regard to its\nconflict-of-laws rules. Any action arising under this Agreement shall be brought in the state or federal\ncourts located in Multnomah County, Oregon.\n11. Miscellaneous\nThis Agreement, together with Schedule 1 and the Program Documentation referenced herein, is the\nentire agreement of the parties regarding its subject matter and supersedes all prior term sheets and\ndrafts. It may be amended only in a writing signed by Administrator (on behalf of Seller) and\nPurchaser, and may be executed in counterparts, including by electronic signature.\nIN WITNESS WHEREOF, the parties have executed this Credit Purchase Agreement as of the Effective\nDate.\nCASCADE TIMBER HOLDINGS, INC., by\nALDER POINT PARTNERS, as Administrator\nDocuSigned by:\nPriya Shah\n7C1D3B9E52A04F18\nBy: ______________________________\nName: Priya Shah\nTitle: VP Business Development\nDate: November 21, 2022\nNORTH FORK ENERGY FUND, L.P.\nDocuSigned by:\nD. Liu\n7C1D3B9E52A04F18\nBy: ______________________________\nName: D. Liu\nTitle: Portfolio Manager\nDate: November 21, 2022\nBELLHAVEN ADVISORY, as Placement Agent\n(Sections 8 and 9 only)\nDocuSigned by:\nDerek Holt\n7C1D3B9E52A04F18\nBy: ______________________________\nName: Derek Holt\nTitle: Managing Director\nDate: November 21, 2022\nSchedule 1 — Purchased Credits and Purchase Price\nItem\nTerm\nPurchaser\nNorth Fork Energy Fund, L.P., a Washington limited\npartnership\nPurchaser principal office\nSeattle, Washington\nAggregate Face Amount\n$900,000 of Face Amount\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 4\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nItem\nTerm\nUnit Price\n$0.92 per $1.00 of Face Amount\nAggregate Purchase Price\n$828,000 payable at Closing (Section 3)\nClosing\nNovember 21, 2022\nCredit Certificates\nNumbers, vintage and source parcel references to be\nassigned by Administrator at delivery (Section 4)\nRefund Request period\nninety (90) days after notice of Disallowance (Section 7)",
+      "locators": [
+        {
+          "end": 3286,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        },
+        {
+          "end": 6501,
+          "locator": "page:2",
+          "method": "native_text",
+          "page": 2,
+          "start": 3288
+        },
+        {
+          "end": 8463,
+          "locator": "page:3",
+          "method": "native_text",
+          "page": 3,
+          "start": 6503
+        },
+        {
+          "end": 8933,
+          "locator": "page:4",
+          "method": "native_text",
+          "page": 4,
+          "start": 8465
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 4,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 4,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      }
+    },
+    {
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "provenance": {
+        "mime_part_index": 2,
+        "original_filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_EXECUTED.pdf",
+        "source_path": "data/emails/Custodians/HR/EMAIL-637_Placement_agreement_Bellhaven_batch_6.eml",
+        "source_sha256": "8b74dc6133b7f45882635e348250083d8b4ebd640fce90ff8882b14348f41b49",
+        "text_sha256": "1af73a0f0c8797d5bab196567b06970eb8a008d59b92bdcf0a851792bb2666dd"
+      },
+      "source_date": null,
+      "text": "BHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 1\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\n CREDIT PURCHASE AGREEMENT\n Coastal Solar Credit Program — Bellhaven Advisory standard purchaser form\nThis Credit Purchase Agreement (this “Agreement”) is entered into as of November 21, 2022 (the\n“Effective Date”), by and among Cascade Timber Holdings, Inc., an Oregon corporation with offices in\nPortland, Oregon (“Seller”), acting through Alder Point Partners, with offices in Sacramento,\nCalifornia, as administrator of the Coastal Solar Credit Program (“Administrator”); North Fork Energy\nFund, L.P., a Washington limited partnership, with offices in Seattle, Washington (“Purchaser”); and,\nsolely for purposes of Sections 8 and 9, Bellhaven Advisory, with offices in Denver, Colorado\n(“Placement Agent”).\nRECITALS\nA. Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the\n“Program”), which Administrator administers on Seller's behalf (the “Credits”).\nB. Administrator has engaged Placement Agent, on a non-exclusive basis, to market and broker\nplacements of Credits under a Broker Placement Agreement dated as of September 2, 2022.\nC. Purchaser wishes to purchase, and Seller wishes to sell, Credits in the Face Amount and at the price\nset forth in Schedule 1, on the terms of this Agreement.\nNOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as\nfollows:\n1. Definitions\n“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit\nCertificate” means the certificate issued under the Program evidencing a Credit. “Program\nDocumentation” means the Program description, investor deck, one-page summary, eligibility\nchecklist and eligibility screening materials prepared and furnished by Administrator, in the versions\napproved by Administrator and delivered to Purchaser. “Closing” means the date on which Purchaser\npays the Aggregate Purchase Price. “Business Day” means a day other than a Saturday, Sunday or bank\nholiday in Portland, Oregon.\n2. Purchase and Sale\nSubject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits\nhaving the aggregate Face Amount set forth in Schedule 1 (the “Purchased Credits”).\n3. Purchase Price\nThe purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the “Unit Price”), for\nan aggregate purchase price of $828,000 (the “Aggregate Purchase Price”), payable at Closing by wire\ntransfer of immediately available funds to the account designated in writing by Administrator.\nPlacement Agent's compensation is payable by Administrator under the Broker Placement Agreement\nand is not payable by Purchaser.\n4. Delivery of Credit Certificates\nWithin ten (10) Business Days after Closing, Administrator shall deliver to Purchaser, by electronic\ntransmission with originals to follow, Credit Certificates evidencing the Purchased Credits, each\nidentifying the certificate number, Program vintage, source parcel reference and Face Amount. Title to\nand risk of the Purchased Credits pass to Purchaser upon delivery of the Credit Certificates. If any\nCredit Certificate is not delivered within thirty (30) Business Days after Closing, Purchaser may, by\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 2\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nwritten notice, require refund of the portion of the Aggregate Purchase Price attributable to the\nundelivered Face Amount.\n5. Seller Representations\nSeller represents and warrants to Purchaser, as of the Effective Date and as of delivery of the Credit\nCertificates, that:\n(a) Seller has full authority to enter into and perform this Agreement, and Administrator is\nauthorized to act for Seller in connection with the Program;\n(b) the Purchased Credits are free of liens and have not been previously sold, assigned or pledged;\nand\n(c) in reliance on the eligibility screening performed by Administrator and on the Program\nDocumentation, including the eligibility checklist furnished with Administrator's approved\nmarketing kit dated May 4, 2022, each Purchased Credit has been screened for eligibility under the\nProgram and is eligible for application in all western states in which the Program is marketed,\nincluding Oregon and Washington.\n6. Purchaser Representations\nPurchaser represents that it is acquiring the Purchased Credits for its own account; that it has received\nand reviewed the Program Documentation and has had the opportunity to ask questions of\nAdministrator; that it is not relying on any statement regarding the Credits other than those set forth in\nthis Agreement and the Program Documentation; and that it has full authority to enter into this\nAgreement.\n7. Remedies; Refund\nIf any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a “Disallowance”), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a “Refund Request”).\nWithin thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount.\nThe remedies in this Section 7 and in Section 4 are Purchaser's sole and exclusive remedies for a\nDisallowance or failure of delivery; in no event shall Seller's aggregate liability under this Agreement\nexceed the Aggregate Purchase Price actually paid, and no party shall be liable for consequential,\nincidental or punitive damages. This Section 7 survives Closing for four (4) years.\n8. Placement Agent; Offering Jurisdiction\nThe Purchased Credits are offered and placed to Purchaser at its principal office in Washington\nthrough Placement Agent, acting solely as placement agent for Administrator. Purchaser acknowledges\nthat Placement Agent does not act as Purchaser's advisor, holds no Credits for its own account, and\nmakes no representation or warranty regarding the Credits, the Program or the Program\nDocumentation. Placement Agent shall have no liability to Purchaser under Section 7.\n9. Notices\nNotices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 3\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nCalifornia, with a copy to Cascade Timber Holdings, Inc., 1200 Forest Park Way, Suite 900, Portland,\nOregon 97209; if to Purchaser, to the address first written above; and if to Placement Agent, to\nBellhaven Advisory, Attn: Managing Director, Denver, Colorado.\n10. Governing Law\nThis Agreement shall be governed by the laws of the State of Oregon, without regard to its\nconflict-of-laws rules. Any action arising under this Agreement shall be brought in the state or federal\ncourts located in Multnomah County, Oregon.\n11. Miscellaneous\nThis Agreement, together with Schedule 1 and the Program Documentation referenced herein, is the\nentire agreement of the parties regarding its subject matter and supersedes all prior term sheets and\ndrafts. It may be amended only in a writing signed by Administrator (on behalf of Seller) and\nPurchaser, and may be executed in counterparts, including by electronic signature.\nIN WITNESS WHEREOF, the parties have executed this Credit Purchase Agreement as of the Effective\nDate.\nCASCADE TIMBER HOLDINGS, INC., by\nALDER POINT PARTNERS, as Administrator\nDocuSigned by:\nPriya Shah\n7C1D3B9E52A04F18\nBy: ______________________________\nName: Priya Shah\nTitle: VP Business Development\nDate: November 21, 2022\nNORTH FORK ENERGY FUND, L.P.\nDocuSigned by:\nD. Liu\n7C1D3B9E52A04F18\nBy: ______________________________\nName: D. Liu\nTitle: Portfolio Manager\nDate: November 21, 2022\nBELLHAVEN ADVISORY, as Placement Agent\n(Sections 8 and 9 only)\nDocuSigned by:\nDerek Holt\n7C1D3B9E52A04F18\nBy: ______________________________\nName: Derek Holt\nTitle: Managing Director\nDate: November 21, 2022\nSchedule 1 — Purchased Credits and Purchase Price\nItem\nTerm\nPurchaser\nNorth Fork Energy Fund, L.P., a Washington limited\npartnership\nPurchaser principal office\nSeattle, Washington\nAggregate Face Amount\n$900,000 of Face Amount\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 4\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nItem\nTerm\nUnit Price\n$0.92 per $1.00 of Face Amount\nAggregate Purchase Price\n$828,000 payable at Closing (Section 3)\nClosing\nNovember 21, 2022\nCredit Certificates\nNumbers, vintage and source parcel references to be\nassigned by Administrator at delivery (Section 4)\nRefund Request period\nninety (90) days after notice of Disallowance (Section 7)",
+      "locators": [
+        {
+          "end": 3286,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        },
+        {
+          "end": 6501,
+          "locator": "page:2",
+          "method": "native_text",
+          "page": 2,
+          "start": 3288
+        },
+        {
+          "end": 8463,
+          "locator": "page:3",
+          "method": "native_text",
+          "page": 3,
+          "start": 6503
+        },
+        {
+          "end": 8933,
+          "locator": "page:4",
+          "method": "native_text",
+          "page": 4,
+          "start": 8465
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 4,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 4,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      }
+    },
+    {
+      "document_id": "ATT-EMAIL-681-02-c3db0946f61e",
+      "provenance": {
+        "mime_part_index": 2,
+        "original_filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_DRAFT.pdf",
+        "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-681_Placement_agreement_Bellhaven_batch_6.eml",
+        "source_sha256": "c3db0946f61e4cc57f56320f6700a9ca2bb1c426ab02576b4476bfcca2f07894",
+        "text_sha256": "bc618466ac9be211c28e87fd2dfc975a419077eeebf9e760f7fc90b92f85d490"
+      },
+      "source_date": null,
+      "text": "BHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 1\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\n CREDIT PURCHASE AGREEMENT\n Coastal Solar Credit Program — Bellhaven Advisory standard purchaser form\nThis Credit Purchase Agreement (this “Agreement”) is entered into as of [__________], 2022 (the\n“Effective Date”), by and among Cascade Timber Holdings, Inc., an Oregon corporation with offices in\nPortland, Oregon (“Seller”), acting through Alder Point Partners, with offices in Sacramento,\nCalifornia, as administrator of the Coastal Solar Credit Program (“Administrator”); North Fork Energy\nFund, L.P., a Washington limited partnership, with offices in Seattle, Washington (“Purchaser”); and,\nsolely for purposes of Sections 8 and 9, Bellhaven Advisory, with offices in Denver, Colorado\n(“Placement Agent”).\nRECITALS\nA. Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the\n“Program”), which Administrator administers on Seller's behalf (the “Credits”).\nB. Administrator has engaged Placement Agent, on a non-exclusive basis, to market and broker\nplacements of Credits under a Broker Placement Agreement dated as of September 2, 2022.\nC. Purchaser wishes to purchase, and Seller wishes to sell, Credits in the Face Amount and at the price\nset forth in Schedule 1, on the terms of this Agreement.\nNOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as\nfollows:\n1. Definitions\n“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit\nCertificate” means the certificate issued under the Program evidencing a Credit. “Program\nDocumentation” means the Program description, investor deck, one-page summary, eligibility\nchecklist and eligibility screening materials prepared and furnished by Administrator, in the versions\napproved by Administrator and delivered to Purchaser. “Closing” means the date on which Purchaser\npays the Aggregate Purchase Price. “Business Day” means a day other than a Saturday, Sunday or bank\nholiday in Portland, Oregon.\n2. Purchase and Sale\nSubject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits\nhaving the aggregate Face Amount set forth in Schedule 1 (the “Purchased Credits”).\n3. Purchase Price\nThe purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the “Unit Price”), for\nan aggregate purchase price of $920,000 (the “Aggregate Purchase Price”), payable at Closing by wire\ntransfer of immediately available funds to the account designated in writing by Administrator.\nPlacement Agent's compensation is payable by Administrator under the Broker Placement Agreement\nand is not payable by Purchaser.\n4. Delivery of Credit Certificates\nWithin ten (10) Business Days after Closing, Administrator shall deliver to Purchaser, by electronic\ntransmission with originals to follow, Credit Certificates evidencing the Purchased Credits, each\nidentifying the certificate number, Program vintage, source parcel reference and Face Amount. Title to\nand risk of the Purchased Credits pass to Purchaser upon delivery of the Credit Certificates. If any\nCredit Certificate is not delivered within thirty (30) Business Days after Closing, Purchaser may, by\n\nBHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 2\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\nwritten notice, require refund of the portion of the Aggregate Purchase Price attributable to the\nundelivered Face Amount.\n5. Seller Representations\nSeller represents and warrants to Purchaser, as of the Effective Date and as of delivery of the Credit\nCertificates, that:\n(a) Seller has full authority to enter into and perform this Agreement, and Administrator is\nauthorized to act for Seller in connection with the Program;\n(b) the Purchased Credits are free of liens and have not been previously sold, assigned or pledged;\nand\n(c) in reliance on the eligibility screening performed by Administrator and on the Program\nDocumentation, including the eligibility checklist furnished with Administrator's approved\nmarketing kit dated May 4, 2022, each Purchased Credit has been screened for eligibility under the\nProgram and is eligible for application in all western states in which the Program is marketed,\nincluding Oregon and Washington.\n6. Purchaser Representations\nPurchaser represents that it is acquiring the Purchased Credits for its own account; that it has received\nand reviewed the Program Documentation and has had the opportunity to ask questions of\nAdministrator; that it is not relying on any statement regarding the Credits other than those set forth in\nthis Agreement and the Program Documentation; and that it has full authority to enter into this\nAgreement.\n7. Remedies; Refund\nIf any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a “Disallowance”), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a “Refund Request”).\nWithin thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount.\nThe remedies in this Section 7 and in Section 4 are Purchaser's sole and exclusive remedies for a\nDisallowance or failure of delivery; in no event shall Seller's aggregate liability under this Agreement\nexceed the Aggregate Purchase Price actually paid, and no party shall be liable for consequential,\nincidental or punitive damages. This Section 7 survives Closing for four (4) years.\n8. Placement Agent; Offering Jurisdiction\nThe Purchased Credits are offered and placed to Purchaser at its principal office in Washington\nthrough Placement Agent, acting solely as placement agent for Administrator. Purchaser acknowledges\nthat Placement Agent does not act as Purchaser's advisor, holds no Credits for its own account, and\nmakes no representation or warranty regarding the Credits, the Program or the Program\nDocumentation. Placement Agent shall have no liability to Purchaser under Section 7.\n9. Notices\nNotices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,\n\nBHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 3\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\nCalifornia, with a copy to Cascade Timber Holdings, Inc., 1200 Forest Park Way, Suite 900, Portland,\nOregon 97209; if to Purchaser, to the address first written above; and if to Placement Agent, to\nBellhaven Advisory, Attn: Managing Director, Denver, Colorado.\n10. Governing Law\nThis Agreement shall be governed by the laws of the State of Oregon, without regard to its\nconflict-of-laws rules. Any action arising under this Agreement shall be brought in the state or federal\ncourts located in Multnomah County, Oregon.\n11. Miscellaneous\nThis Agreement, together with Schedule 1 and the Program Documentation referenced herein, is the\nentire agreement of the parties regarding its subject matter and supersedes all prior term sheets and\ndrafts. It may be amended only in a writing signed by Administrator (on behalf of Seller) and\nPurchaser, and may be executed in counterparts, including by electronic signature.\nIN WITNESS WHEREOF, the parties have executed this Credit Purchase Agreement as of the Effective\nDate.\nCASCADE TIMBER HOLDINGS, INC., by\nALDER POINT PARTNERS, as Administrator\nBy: ______________________________\nName: Priya Shah\nTitle: VP Business Development\nDate: ________________\nNORTH FORK ENERGY FUND, L.P.\nBy: ______________________________\nName: D. Liu\nTitle: Portfolio Manager\nDate: ________________\nBELLHAVEN ADVISORY, as Placement Agent\n(Sections 8 and 9 only)\nBy: ______________________________\nName: Derek Holt\nTitle: Managing Director\nDate: ________________\nSchedule 1 — Purchased Credits and Purchase Price\nItem\nTerm\nPurchaser\nNorth Fork Energy Fund, L.P., a Washington limited\npartnership\nPurchaser principal office\nSeattle, Washington\nAggregate Face Amount\n$1,000,000 of Face Amount\nUnit Price\n$0.92 per $1.00 of Face Amount\nAggregate Purchase Price\n$920,000 payable at Closing (Section 3)\nClosing\nOn or before November 22, 2022\nCredit Certificates\nNumbers, vintage and source parcel references to be\nassigned by Administrator at delivery (Section 4)\n\nBHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 4\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\nItem\nTerm\nRefund Request period\nninety (90) days after notice of Disallowance (Section 7)",
+      "locators": [
+        {
+          "end": 3290,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        },
+        {
+          "end": 6508,
+          "locator": "page:2",
+          "method": "native_text",
+          "page": 2,
+          "start": 3292
+        },
+        {
+          "end": 8615,
+          "locator": "page:3",
+          "method": "native_text",
+          "page": 3,
+          "start": 6510
+        },
+        {
+          "end": 8833,
+          "locator": "page:4",
+          "method": "native_text",
+          "page": 4,
+          "start": 8617
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 4,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 4,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      }
+    },
+    {
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_EXECUTED.pdf",
+        "source_path": "data/contracts/CSC-CPA-BELLHAVEN/Bellhaven_CSC_Purchase_Agreement_North_Fork_EXECUTED.pdf",
+        "source_sha256": "8b74dc6133b7f45882635e348250083d8b4ebd640fce90ff8882b14348f41b49",
+        "text_sha256": "1af73a0f0c8797d5bab196567b06970eb8a008d59b92bdcf0a851792bb2666dd"
+      },
+      "source_date": null,
+      "text": "BHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 1\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\n CREDIT PURCHASE AGREEMENT\n Coastal Solar Credit Program — Bellhaven Advisory standard purchaser form\nThis Credit Purchase Agreement (this “Agreement”) is entered into as of November 21, 2022 (the\n“Effective Date”), by and among Cascade Timber Holdings, Inc., an Oregon corporation with offices in\nPortland, Oregon (“Seller”), acting through Alder Point Partners, with offices in Sacramento,\nCalifornia, as administrator of the Coastal Solar Credit Program (“Administrator”); North Fork Energy\nFund, L.P., a Washington limited partnership, with offices in Seattle, Washington (“Purchaser”); and,\nsolely for purposes of Sections 8 and 9, Bellhaven Advisory, with offices in Denver, Colorado\n(“Placement Agent”).\nRECITALS\nA. Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the\n“Program”), which Administrator administers on Seller's behalf (the “Credits”).\nB. Administrator has engaged Placement Agent, on a non-exclusive basis, to market and broker\nplacements of Credits under a Broker Placement Agreement dated as of September 2, 2022.\nC. Purchaser wishes to purchase, and Seller wishes to sell, Credits in the Face Amount and at the price\nset forth in Schedule 1, on the terms of this Agreement.\nNOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as\nfollows:\n1. Definitions\n“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit\nCertificate” means the certificate issued under the Program evidencing a Credit. “Program\nDocumentation” means the Program description, investor deck, one-page summary, eligibility\nchecklist and eligibility screening materials prepared and furnished by Administrator, in the versions\napproved by Administrator and delivered to Purchaser. “Closing” means the date on which Purchaser\npays the Aggregate Purchase Price. “Business Day” means a day other than a Saturday, Sunday or bank\nholiday in Portland, Oregon.\n2. Purchase and Sale\nSubject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits\nhaving the aggregate Face Amount set forth in Schedule 1 (the “Purchased Credits”).\n3. Purchase Price\nThe purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the “Unit Price”), for\nan aggregate purchase price of $828,000 (the “Aggregate Purchase Price”), payable at Closing by wire\ntransfer of immediately available funds to the account designated in writing by Administrator.\nPlacement Agent's compensation is payable by Administrator under the Broker Placement Agreement\nand is not payable by Purchaser.\n4. Delivery of Credit Certificates\nWithin ten (10) Business Days after Closing, Administrator shall deliver to Purchaser, by electronic\ntransmission with originals to follow, Credit Certificates evidencing the Purchased Credits, each\nidentifying the certificate number, Program vintage, source parcel reference and Face Amount. Title to\nand risk of the Purchased Credits pass to Purchaser upon delivery of the Credit Certificates. If any\nCredit Certificate is not delivered within thirty (30) Business Days after Closing, Purchaser may, by\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 2\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nwritten notice, require refund of the portion of the Aggregate Purchase Price attributable to the\nundelivered Face Amount.\n5. Seller Representations\nSeller represents and warrants to Purchaser, as of the Effective Date and as of delivery of the Credit\nCertificates, that:\n(a) Seller has full authority to enter into and perform this Agreement, and Administrator is\nauthorized to act for Seller in connection with the Program;\n(b) the Purchased Credits are free of liens and have not been previously sold, assigned or pledged;\nand\n(c) in reliance on the eligibility screening performed by Administrator and on the Program\nDocumentation, including the eligibility checklist furnished with Administrator's approved\nmarketing kit dated May 4, 2022, each Purchased Credit has been screened for eligibility under the\nProgram and is eligible for application in all western states in which the Program is marketed,\nincluding Oregon and Washington.\n6. Purchaser Representations\nPurchaser represents that it is acquiring the Purchased Credits for its own account; that it has received\nand reviewed the Program Documentation and has had the opportunity to ask questions of\nAdministrator; that it is not relying on any statement regarding the Credits other than those set forth in\nthis Agreement and the Program Documentation; and that it has full authority to enter into this\nAgreement.\n7. Remedies; Refund\nIf any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a “Disallowance”), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a “Refund Request”).\nWithin thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount.\nThe remedies in this Section 7 and in Section 4 are Purchaser's sole and exclusive remedies for a\nDisallowance or failure of delivery; in no event shall Seller's aggregate liability under this Agreement\nexceed the Aggregate Purchase Price actually paid, and no party shall be liable for consequential,\nincidental or punitive damages. This Section 7 survives Closing for four (4) years.\n8. Placement Agent; Offering Jurisdiction\nThe Purchased Credits are offered and placed to Purchaser at its principal office in Washington\nthrough Placement Agent, acting solely as placement agent for Administrator. Purchaser acknowledges\nthat Placement Agent does not act as Purchaser's advisor, holds no Credits for its own account, and\nmakes no representation or warranty regarding the Credits, the Program or the Program\nDocumentation. Placement Agent shall have no liability to Purchaser under Section 7.\n9. Notices\nNotices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 3\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nCalifornia, with a copy to Cascade Timber Holdings, Inc., 1200 Forest Park Way, Suite 900, Portland,\nOregon 97209; if to Purchaser, to the address first written above; and if to Placement Agent, to\nBellhaven Advisory, Attn: Managing Director, Denver, Colorado.\n10. Governing Law\nThis Agreement shall be governed by the laws of the State of Oregon, without regard to its\nconflict-of-laws rules. Any action arising under this Agreement shall be brought in the state or federal\ncourts located in Multnomah County, Oregon.\n11. Miscellaneous\nThis Agreement, together with Schedule 1 and the Program Documentation referenced herein, is the\nentire agreement of the parties regarding its subject matter and supersedes all prior term sheets and\ndrafts. It may be amended only in a writing signed by Administrator (on behalf of Seller) and\nPurchaser, and may be executed in counterparts, including by electronic signature.\nIN WITNESS WHEREOF, the parties have executed this Credit Purchase Agreement as of the Effective\nDate.\nCASCADE TIMBER HOLDINGS, INC., by\nALDER POINT PARTNERS, as Administrator\nDocuSigned by:\nPriya Shah\n7C1D3B9E52A04F18\nBy: ______________________________\nName: Priya Shah\nTitle: VP Business Development\nDate: November 21, 2022\nNORTH FORK ENERGY FUND, L.P.\nDocuSigned by:\nD. Liu\n7C1D3B9E52A04F18\nBy: ______________________________\nName: D. Liu\nTitle: Portfolio Manager\nDate: November 21, 2022\nBELLHAVEN ADVISORY, as Placement Agent\n(Sections 8 and 9 only)\nDocuSigned by:\nDerek Holt\n7C1D3B9E52A04F18\nBy: ______________________________\nName: Derek Holt\nTitle: Managing Director\nDate: November 21, 2022\nSchedule 1 — Purchased Credits and Purchase Price\nItem\nTerm\nPurchaser\nNorth Fork Energy Fund, L.P., a Washington limited\npartnership\nPurchaser principal office\nSeattle, Washington\nAggregate Face Amount\n$900,000 of Face Amount\n\nBHA-CPA form rev. 2022-09  ·  NFEF-final\nPage 4\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nItem\nTerm\nUnit Price\n$0.92 per $1.00 of Face Amount\nAggregate Purchase Price\n$828,000 payable at Closing (Section 3)\nClosing\nNovember 21, 2022\nCredit Certificates\nNumbers, vintage and source parcel references to be\nassigned by Administrator at delivery (Section 4)\nRefund Request period\nninety (90) days after notice of Disallowance (Section 7)",
+      "locators": [
+        {
+          "end": 3286,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        },
+        {
+          "end": 6501,
+          "locator": "page:2",
+          "method": "native_text",
+          "page": 2,
+          "start": 3288
+        },
+        {
+          "end": 8463,
+          "locator": "page:3",
+          "method": "native_text",
+          "page": 3,
+          "start": 6503
+        },
+        {
+          "end": 8933,
+          "locator": "page:4",
+          "method": "native_text",
+          "page": 4,
+          "start": 8465
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 4,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 4,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      }
+    },
+    {
+      "document_id": "DOC-cedc8868c9f277415c42",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": "Bellhaven_CSC_Purchase_Agreement_North_Fork_DRAFT.pdf",
+        "source_path": "data/contracts/CSC-CPA-BELLHAVEN/Bellhaven_CSC_Purchase_Agreement_North_Fork_DRAFT.pdf",
+        "source_sha256": "c3db0946f61e4cc57f56320f6700a9ca2bb1c426ab02576b4476bfcca2f07894",
+        "text_sha256": "bc618466ac9be211c28e87fd2dfc975a419077eeebf9e760f7fc90b92f85d490"
+      },
+      "source_date": null,
+      "text": "BHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 1\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\n CREDIT PURCHASE AGREEMENT\n Coastal Solar Credit Program — Bellhaven Advisory standard purchaser form\nThis Credit Purchase Agreement (this “Agreement”) is entered into as of [__________], 2022 (the\n“Effective Date”), by and among Cascade Timber Holdings, Inc., an Oregon corporation with offices in\nPortland, Oregon (“Seller”), acting through Alder Point Partners, with offices in Sacramento,\nCalifornia, as administrator of the Coastal Solar Credit Program (“Administrator”); North Fork Energy\nFund, L.P., a Washington limited partnership, with offices in Seattle, Washington (“Purchaser”); and,\nsolely for purposes of Sections 8 and 9, Bellhaven Advisory, with offices in Denver, Colorado\n(“Placement Agent”).\nRECITALS\nA. Seller holds renewable energy tax credits issued under the Coastal Solar Credit Program (the\n“Program”), which Administrator administers on Seller's behalf (the “Credits”).\nB. Administrator has engaged Placement Agent, on a non-exclusive basis, to market and broker\nplacements of Credits under a Broker Placement Agreement dated as of September 2, 2022.\nC. Purchaser wishes to purchase, and Seller wishes to sell, Credits in the Face Amount and at the price\nset forth in Schedule 1, on the terms of this Agreement.\nNOW, THEREFORE, in consideration of the mutual covenants set forth herein, the parties agree as\nfollows:\n1. Definitions\n“Face Amount” means the stated dollar value of a Credit as shown on its Credit Certificate. “Credit\nCertificate” means the certificate issued under the Program evidencing a Credit. “Program\nDocumentation” means the Program description, investor deck, one-page summary, eligibility\nchecklist and eligibility screening materials prepared and furnished by Administrator, in the versions\napproved by Administrator and delivered to Purchaser. “Closing” means the date on which Purchaser\npays the Aggregate Purchase Price. “Business Day” means a day other than a Saturday, Sunday or bank\nholiday in Portland, Oregon.\n2. Purchase and Sale\nSubject to the terms of this Agreement, Seller agrees to sell and Purchaser agrees to purchase Credits\nhaving the aggregate Face Amount set forth in Schedule 1 (the “Purchased Credits”).\n3. Purchase Price\nThe purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the “Unit Price”), for\nan aggregate purchase price of $920,000 (the “Aggregate Purchase Price”), payable at Closing by wire\ntransfer of immediately available funds to the account designated in writing by Administrator.\nPlacement Agent's compensation is payable by Administrator under the Broker Placement Agreement\nand is not payable by Purchaser.\n4. Delivery of Credit Certificates\nWithin ten (10) Business Days after Closing, Administrator shall deliver to Purchaser, by electronic\ntransmission with originals to follow, Credit Certificates evidencing the Purchased Credits, each\nidentifying the certificate number, Program vintage, source parcel reference and Face Amount. Title to\nand risk of the Purchased Credits pass to Purchaser upon delivery of the Credit Certificates. If any\nCredit Certificate is not delivered within thirty (30) Business Days after Closing, Purchaser may, by\n\nBHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 2\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\nwritten notice, require refund of the portion of the Aggregate Purchase Price attributable to the\nundelivered Face Amount.\n5. Seller Representations\nSeller represents and warrants to Purchaser, as of the Effective Date and as of delivery of the Credit\nCertificates, that:\n(a) Seller has full authority to enter into and perform this Agreement, and Administrator is\nauthorized to act for Seller in connection with the Program;\n(b) the Purchased Credits are free of liens and have not been previously sold, assigned or pledged;\nand\n(c) in reliance on the eligibility screening performed by Administrator and on the Program\nDocumentation, including the eligibility checklist furnished with Administrator's approved\nmarketing kit dated May 4, 2022, each Purchased Credit has been screened for eligibility under the\nProgram and is eligible for application in all western states in which the Program is marketed,\nincluding Oregon and Washington.\n6. Purchaser Representations\nPurchaser represents that it is acquiring the Purchased Credits for its own account; that it has received\nand reviewed the Program Documentation and has had the opportunity to ask questions of\nAdministrator; that it is not relying on any statement regarding the Credits other than those set forth in\nthis Agreement and the Program Documentation; and that it has full authority to enter into this\nAgreement.\n7. Remedies; Refund\nIf any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a “Disallowance”), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a “Refund Request”).\nWithin thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount.\nThe remedies in this Section 7 and in Section 4 are Purchaser's sole and exclusive remedies for a\nDisallowance or failure of delivery; in no event shall Seller's aggregate liability under this Agreement\nexceed the Aggregate Purchase Price actually paid, and no party shall be liable for consequential,\nincidental or punitive damages. This Section 7 survives Closing for four (4) years.\n8. Placement Agent; Offering Jurisdiction\nThe Purchased Credits are offered and placed to Purchaser at its principal office in Washington\nthrough Placement Agent, acting solely as placement agent for Administrator. Purchaser acknowledges\nthat Placement Agent does not act as Purchaser's advisor, holds no Credits for its own account, and\nmakes no representation or warranty regarding the Credits, the Program or the Program\nDocumentation. Placement Agent shall have no liability to Purchaser under Section 7.\n9. Notices\nNotices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,\n\nBHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 3\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\nCalifornia, with a copy to Cascade Timber Holdings, Inc., 1200 Forest Park Way, Suite 900, Portland,\nOregon 97209; if to Purchaser, to the address first written above; and if to Placement Agent, to\nBellhaven Advisory, Attn: Managing Director, Denver, Colorado.\n10. Governing Law\nThis Agreement shall be governed by the laws of the State of Oregon, without regard to its\nconflict-of-laws rules. Any action arising under this Agreement shall be brought in the state or federal\ncourts located in Multnomah County, Oregon.\n11. Miscellaneous\nThis Agreement, together with Schedule 1 and the Program Documentation referenced herein, is the\nentire agreement of the parties regarding its subject matter and supersedes all prior term sheets and\ndrafts. It may be amended only in a writing signed by Administrator (on behalf of Seller) and\nPurchaser, and may be executed in counterparts, including by electronic signature.\nIN WITNESS WHEREOF, the parties have executed this Credit Purchase Agreement as of the Effective\nDate.\nCASCADE TIMBER HOLDINGS, INC., by\nALDER POINT PARTNERS, as Administrator\nBy: ______________________________\nName: Priya Shah\nTitle: VP Business Development\nDate: ________________\nNORTH FORK ENERGY FUND, L.P.\nBy: ______________________________\nName: D. Liu\nTitle: Portfolio Manager\nDate: ________________\nBELLHAVEN ADVISORY, as Placement Agent\n(Sections 8 and 9 only)\nBy: ______________________________\nName: Derek Holt\nTitle: Managing Director\nDate: ________________\nSchedule 1 — Purchased Credits and Purchase Price\nItem\nTerm\nPurchaser\nNorth Fork Energy Fund, L.P., a Washington limited\npartnership\nPurchaser principal office\nSeattle, Washington\nAggregate Face Amount\n$1,000,000 of Face Amount\nUnit Price\n$0.92 per $1.00 of Face Amount\nAggregate Purchase Price\n$920,000 payable at Closing (Section 3)\nClosing\nOn or before November 22, 2022\nCredit Certificates\nNumbers, vintage and source parcel references to be\nassigned by Administrator at delivery (Section 4)\n\nBHA-CPA form rev. 2022-09  ·  NFEF-d1\nPage 4\nBellhaven Advisory — Coastal Solar Credit Purchase Agreement — Confidential\nDRAFT\nItem\nTerm\nRefund Request period\nninety (90) days after notice of Disallowance (Section 7)",
+      "locators": [
+        {
+          "end": 3290,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        },
+        {
+          "end": 6508,
+          "locator": "page:2",
+          "method": "native_text",
+          "page": 2,
+          "start": 3292
+        },
+        {
+          "end": 8615,
+          "locator": "page:3",
+          "method": "native_text",
+          "page": 3,
+          "start": 6510
+        },
+        {
+          "end": 8833,
+          "locator": "page:4",
+          "method": "native_text",
+          "page": 4,
+          "start": 8617
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 4,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 4,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      }
+    },
+    {
+      "document_id": "EMAIL-023",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-023_IRS subpoena received.eml",
+        "source_sha256": "fea90259e76af2992e5afc7e0222290b63fe590d4ff5c37427353bcb8b720b06",
+        "text_sha256": "c9bada07b0c693f9fb607fb9fb10120c5d9e4d2dc742a5522ea2ef849cd1a22f"
+      },
+      "source_date": "2023-05-23T08:05:00-07:00",
+      "text": "Date: Tue, 23 May 2023 08:05:00 -0700\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nCc: Robert Denniston <rdenniston@cascadetimber.com>\n\nSubject: IRS subpoena received\n\nElena, Rob — we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners. We have three weeks to respond.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 132,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 185,
+          "line": 4,
+          "locator": "line:4",
+          "start": 134
+        },
+        {
+          "end": 217,
+          "line": 5,
+          "locator": "line:5",
+          "start": 187
+        },
+        {
+          "end": 474,
+          "line": 7,
+          "locator": "line:7",
+          "start": 219
+        },
+        {
+          "end": 487,
+          "line": 9,
+          "locator": "line:9",
+          "start": 476
+        },
+        {
+          "end": 502,
+          "line": 10,
+          "locator": "line:10",
+          "start": 489
+        },
+        {
+          "end": 533,
+          "line": 11,
+          "locator": "line:11",
+          "start": 504
+        },
+        {
+          "end": 586,
+          "line": 12,
+          "locator": "line:12",
+          "start": 535
+        },
+        {
+          "end": 630,
+          "line": 13,
+          "locator": "line:13",
+          "start": 588
+        },
+        {
+          "end": 705,
+          "line": 15,
+          "locator": "line:15",
+          "start": 632
+        },
+        {
+          "end": 780,
+          "line": 16,
+          "locator": "line:16",
+          "start": 707
+        },
+        {
+          "end": 823,
+          "line": 17,
+          "locator": "line:17",
+          "start": 782
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-1490",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-1490_Fwd_Re_Placement_agreement_Bellhaven_batch_5.eml",
+        "source_sha256": "d8be07c9b538d66034ec33b59d3aad1bc3a28049964b7a564b193de233052102",
+        "text_sha256": "899d11bf3a3994da0e3e18e60aabc8e13bff50451584c268b4333b52c44f67e5"
+      },
+      "source_date": "2023-08-15T14:20:00-07:00",
+      "text": "Date: Tue, 15 Aug 2023 14:20:00 -0700\n\nFrom: Tom Reyes <treyes@alderpointpartners.com>\n\nTo: Craig Sato <csato@cascadetimber.com>\n\nCc: Hannah Cole <hcole@cascadetimber.com>\n\nSubject: Fwd: Re: Placement agreement — Bellhaven batch 5\n\nCraig — CPP's receipt extract is below. We need the missing 110,000 source page and a clean link between the source certificates and the buyer schedule. Can you reconcile that without using my batch numbers?\n\nFor the other two signed purchases, I've pulled North Fork at 900,000 face on November 21 and Blue River at 1.1 million on December 6. My working allocation puts some NW-07 into CPP, but I don't trust that line; the sheet was copied from an earlier reservation list. Please don't use it as the delivery register. I'm asking for ordinary transaction support, not counsel's exposure workbook.\n\nTom Reyes\n\nLand Acquisition Manager | Alder Point Partners\n\ntreyes@alderpointpartners.com\n\n---------- Forwarded message ----------\n\nFrom: J Orr <jorr@cppension.org>\n\nDate: Mon, Aug 14, 2023 at 1:15 PM\n\nSubject: Re: Placement agreement — Bellhaven batch 5\n\nTo: Tom Reyes <treyes@alderpointpartners.com>\n\nCc: Derek Holt <dholt@bellhavenadvisory.com>\n\nTom — our custodian's receipt log shows one secure delivery on November 16 for 1.25 million face. The source list has NW-03 at 620,000 and NW-02 at 520,000. The remaining 110,000 has a certificate reference but no source parcel on the page in our saved set.\n\nWe had the May eligibility checklist in the committee packet and understood the signed representation to cover all of the purchased credits. This request isn't a statement that we have a disallowance notice; we don't. We want a complete source list and a factual status before the committee meets. Please identify which page is missing rather than sending the whole approved kit again.\n\nJ Orr\n\njorr@cppension.org\n\n-----Original Message-----\n\nFrom: Tom Reyes <treyes@alderpointpartners.com>\n\nSent: Monday, August 14, 2023 9:30 AM\n\nTo: J Orr <jorr@cppension.org>\n\nCc: Derek Holt <dholt@bellhavenadvisory.com>\n\nSubject: Re: Placement agreement — Bellhaven batch 5\n\nJ — the signed copy matches our agreement file: November 9, face 1.25 million, unit price 0.90. The batch number in my tracker is unreliable; I'm joining on your purchaser name and agreement date instead.\n\nI'm pulling the delivery emails and the source allocation pages now. Your status question is fair, and the July pause note didn't answer it. We need to distinguish a certificate we issued from one we actually transmitted to you. Could you send the list your custodian has, including any missing source pages? I'll reconcile your copy with ours rather than tell you everything was delivered from a 'closed' box on our tracker.\n\nTom Reyes\n\nLand Acquisition Manager | Alder Point Partners\n\ntreyes@alderpointpartners.com\n\nOn Sun, Aug 13, 2023 at 9:50 AM J Orr <jorr@cppension.org> wrote:\n\n> Tom — as requested, attached is our executed copy of the purchase agreement for the batch 5 lot, dated November 9, 2022, at the $0.90 unit price we signed. Please confirm it matches the copy in the Administrator's file. Given the pause, our committee has asked for a status on the credits delivered under this agreement and on any certificates still outstanding. Copying Frank so Cascade has the same document in front of it.\n\n>\n\n> J Orr\n\n> jorr@cppension.org",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 86,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 128,
+          "line": 3,
+          "locator": "line:3",
+          "start": 88
+        },
+        {
+          "end": 171,
+          "line": 4,
+          "locator": "line:4",
+          "start": 130
+        },
+        {
+          "end": 230,
+          "line": 5,
+          "locator": "line:5",
+          "start": 173
+        },
+        {
+          "end": 439,
+          "line": 7,
+          "locator": "line:7",
+          "start": 232
+        },
+        {
+          "end": 831,
+          "line": 9,
+          "locator": "line:9",
+          "start": 441
+        },
+        {
+          "end": 842,
+          "line": 11,
+          "locator": "line:11",
+          "start": 833
+        },
+        {
+          "end": 891,
+          "line": 12,
+          "locator": "line:12",
+          "start": 844
+        },
+        {
+          "end": 922,
+          "line": 13,
+          "locator": "line:13",
+          "start": 893
+        },
+        {
+          "end": 963,
+          "line": 15,
+          "locator": "line:15",
+          "start": 924
+        },
+        {
+          "end": 997,
+          "line": 16,
+          "locator": "line:16",
+          "start": 965
+        },
+        {
+          "end": 1033,
+          "line": 17,
+          "locator": "line:17",
+          "start": 999
+        },
+        {
+          "end": 1087,
+          "line": 18,
+          "locator": "line:18",
+          "start": 1035
+        },
+        {
+          "end": 1134,
+          "line": 19,
+          "locator": "line:19",
+          "start": 1089
+        },
+        {
+          "end": 1180,
+          "line": 20,
+          "locator": "line:20",
+          "start": 1136
+        },
+        {
+          "end": 1439,
+          "line": 22,
+          "locator": "line:22",
+          "start": 1182
+        },
+        {
+          "end": 1826,
+          "line": 24,
+          "locator": "line:24",
+          "start": 1441
+        },
+        {
+          "end": 1833,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1828
+        },
+        {
+          "end": 1853,
+          "line": 27,
+          "locator": "line:27",
+          "start": 1835
+        },
+        {
+          "end": 1881,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1855
+        },
+        {
+          "end": 1930,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1883
+        },
+        {
+          "end": 1969,
+          "line": 31,
+          "locator": "line:31",
+          "start": 1932
+        },
+        {
+          "end": 2001,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1971
+        },
+        {
+          "end": 2047,
+          "line": 33,
+          "locator": "line:33",
+          "start": 2003
+        },
+        {
+          "end": 2101,
+          "line": 34,
+          "locator": "line:34",
+          "start": 2049
+        },
+        {
+          "end": 2307,
+          "line": 36,
+          "locator": "line:36",
+          "start": 2103
+        },
+        {
+          "end": 2734,
+          "line": 38,
+          "locator": "line:38",
+          "start": 2309
+        },
+        {
+          "end": 2745,
+          "line": 40,
+          "locator": "line:40",
+          "start": 2736
+        },
+        {
+          "end": 2794,
+          "line": 41,
+          "locator": "line:41",
+          "start": 2747
+        },
+        {
+          "end": 2825,
+          "line": 42,
+          "locator": "line:42",
+          "start": 2796
+        },
+        {
+          "end": 2892,
+          "line": 44,
+          "locator": "line:44",
+          "start": 2827
+        },
+        {
+          "end": 3321,
+          "line": 46,
+          "locator": "line:46",
+          "start": 2894
+        },
+        {
+          "end": 3324,
+          "line": 47,
+          "locator": "line:47",
+          "start": 3323
+        },
+        {
+          "end": 3333,
+          "line": 48,
+          "locator": "line:48",
+          "start": 3326
+        },
+        {
+          "end": 3355,
+          "line": 49,
+          "locator": "line:49",
+          "start": 3335
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-1502",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Craig_Sato/EMAIL-1502_RE_FW_RE_Remediation_workplan_203_follow_up.eml",
+        "source_sha256": "739584356e56ff1bf15de49fe79190e2db8a22b099b42c279784c8a37eafca2e",
+        "text_sha256": "cb30f43fa18d09ac8a3c28c197cbc7b75f2717fefd76beb133822eebf6602acc"
+      },
+      "source_date": "2023-08-21T08:55:00-07:00",
+      "text": "Date: Mon, 21 Aug 2023 08:55:00 -0700\n\nFrom: Craig Sato <csato@cascadetimber.com>\n\nTo: Sarah Nguyen <snguyen@cascadetimber.com>, Hannah Cole <hcole@cascadetimber.com>\n\nSubject: RE: FW: RE: Remediation workplan — 203 follow-up\n\nI can do the second review on September 6. Please leave the first-pass findings visible rather than giving me only a cleaned-up packet. I'll check the source reference and recompute the differences, then sign the entries I actually reviewed.\n\nThe face builds in finance use claimed acreage. A records comparison is useful evidence for the review, but a 52-acre or 44-acre difference isn't a refund amount. We would need the applicable calculation and a decision about the scope of any disallowance before using it that way. The archived NW-04/NW-07 amounts should also stay out of the new Q4 held-file queue; those are different files.\n\nCraig Sato\n\nController\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0107 | csato@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSent: Friday, August 18, 2023 10:35 AM\n\nTo: Hannah Cole <hcole@cascadetimber.com>\n\nCc: Craig Sato <csato@cascadetimber.com>\n\nSubject: RE: FW: RE: Remediation workplan — 203 follow-up\n\nThat's the distinction I need. Leave the mismatch entries open. For NW-07, save the incorrect index link and its current target before repairing the working-copy index. Record what the paper binder supplies, including the page count, so a reviewer can reproduce the change.\n\nI'll schedule the pilot for September 5 after the initial production work. Craig will be the second reviewer for the reference and arithmetic checks only. Neither of us will sign off eligibility from those checks. For the historical quarterly records, continue giving Alan source locations; the inventory you're preparing now should carry its current date even where the underlying documents are older.\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Hannah Cole <hcole@cascadetimber.com>\n\nSent: Thursday, August 17, 2023 2:15 PM\n\nTo: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSubject: RE: FW: RE: Remediation workplan — 203 follow-up\n\nI've inventoried the copies. NW-02 has an application copy and recorded filing, both at 185 acres. NW-04 carries 340 on the application and 288 on the recorded filing. The NW-07 index points to a scan called Exhibit B, but the file behind that link is from a different folder; I'm checking the paper binder before assigning it a parcel.\n\nTwo application copies lack a filing stamp in the scan set. We have transmittal entries elsewhere, but I won't label these copies 'as filed' from that alone. I attached the source inventory with those qualifications. Please keep the pilot result separate from the county notice mapping question; the wrong link doesn't tell us which parcel the recorder's correction notice refers to.\n\nHannah Cole\n\nLand Records Administrator\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0111 | hcole@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSent: Wednesday, August 16, 2023 11:30 AM\n\nTo: Hannah Cole <hcole@cascadetimber.com>\n\nSubject: FW: RE: Remediation workplan — 203 follow-up\n\nHannah — Brenda's suggested fields are below. I'd like to use NW-02, NW-04 and NW-07 for a records pilot, selected deliberately to cover a clean comparison, a known mismatch and an exhibit-reference question. This isn't a random sample or a basis for estimating a failure rate.\n\nPlease inventory those three packet folders as they stand. If an application copy lacks a transmittal stamp, record that rather than substituting the current tracker date. The original files stay where they are under the hold; working copies can go in the pilot folder with source paths. Tom can supply Alder records through the collection channel if needed, but please don't ask anyone to rewrite the historical packet.\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Brenda Moss <bmoss@mosslane-cpa.com>\n\nSent: Tuesday, August 15, 2023 9:25 AM\n\nTo: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSubject: RE: Remediation workplan — 203 follow-up\n\nFor each selected packet, please record the population you selected from, selection method, application version/date, county recording reference, both acreage figures, reviewer and review date, plus the evidence for closing any exception. Preserve the first result when a document is corrected.\n\nA pilot on archived packets can show the new procedure operating in September. It cannot establish that the quarterly control operated in 2022 or earlier this year. We'll evaluate historical performance from dated workpapers and follow-up evidence for those periods. Also, please keep a missing document distinct from an acreage mismatch; a blank cell should not be treated as a match or an automatic eligibility failure.\n\nBrenda Moss\n\nPartner, Audit | Moss & Lane LLP\n\nbmoss@mosslane-cpa.com\n\n-----Original Message-----\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSent: Monday, August 14, 2023 8:40 AM\n\nTo: Brenda Moss <bmoss@mosslane-cpa.com>\n\nSubject: RE: Remediation workplan — 203 follow-up\n\nBrenda — I'll send the remediation workplan separately from the historical record request. The calendars, quarterly packs and packet folders live in different locations; I'm preserving those locations rather than moving documents into a new 'testing' folder.\n\nFor the workplan, the first deliverable is a records test on a small archived sample: confirm the application version, recorded filing and acreage comparison can be traced from the packet index. That is narrower than deciding whether a credit qualifies. The broker-registration check will be a separate workstream. Could you tell me which fields you need in the sample record so the pilot produces something your team can inspect rather than another calendar entry?\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Brenda Moss <bmoss@mosslane-cpa.com>\n\nSent: Friday, August 11, 2023 10:55 AM\n\nTo: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSubject: Remediation workplan — 203 follow-up\n\nSarah — Rob mentioned compliance is drafting a remediation plan. For our Q3 contingency review we'd like to see the workplan once it exists, with owners and target dates. We'd also like the spot-check workpapers for 2022 and the first half of 2023; calendar entries alone won't support the control as described in the framework. Please send what's available and we'll list anything outstanding.\n\nBrenda Moss\n\nPartner, Audit | Moss & Lane LLP\n\nbmoss@mosslane-cpa.com",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 81,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 166,
+          "line": 3,
+          "locator": "line:3",
+          "start": 83
+        },
+        {
+          "end": 225,
+          "line": 4,
+          "locator": "line:4",
+          "start": 168
+        },
+        {
+          "end": 468,
+          "line": 6,
+          "locator": "line:6",
+          "start": 227
+        },
+        {
+          "end": 862,
+          "line": 8,
+          "locator": "line:8",
+          "start": 470
+        },
+        {
+          "end": 874,
+          "line": 10,
+          "locator": "line:10",
+          "start": 864
+        },
+        {
+          "end": 886,
+          "line": 11,
+          "locator": "line:11",
+          "start": 876
+        },
+        {
+          "end": 917,
+          "line": 12,
+          "locator": "line:12",
+          "start": 888
+        },
+        {
+          "end": 970,
+          "line": 13,
+          "locator": "line:13",
+          "start": 919
+        },
+        {
+          "end": 1012,
+          "line": 14,
+          "locator": "line:14",
+          "start": 972
+        },
+        {
+          "end": 1087,
+          "line": 16,
+          "locator": "line:16",
+          "start": 1014
+        },
+        {
+          "end": 1162,
+          "line": 17,
+          "locator": "line:17",
+          "start": 1089
+        },
+        {
+          "end": 1205,
+          "line": 18,
+          "locator": "line:18",
+          "start": 1164
+        },
+        {
+          "end": 1233,
+          "line": 20,
+          "locator": "line:20",
+          "start": 1207
+        },
+        {
+          "end": 1281,
+          "line": 21,
+          "locator": "line:21",
+          "start": 1235
+        },
+        {
+          "end": 1321,
+          "line": 22,
+          "locator": "line:22",
+          "start": 1283
+        },
+        {
+          "end": 1364,
+          "line": 23,
+          "locator": "line:23",
+          "start": 1323
+        },
+        {
+          "end": 1406,
+          "line": 24,
+          "locator": "line:24",
+          "start": 1366
+        },
+        {
+          "end": 1465,
+          "line": 25,
+          "locator": "line:25",
+          "start": 1408
+        },
+        {
+          "end": 1740,
+          "line": 27,
+          "locator": "line:27",
+          "start": 1467
+        },
+        {
+          "end": 2144,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1742
+        },
+        {
+          "end": 2158,
+          "line": 31,
+          "locator": "line:31",
+          "start": 2146
+        },
+        {
+          "end": 2184,
+          "line": 32,
+          "locator": "line:32",
+          "start": 2160
+        },
+        {
+          "end": 2215,
+          "line": 33,
+          "locator": "line:33",
+          "start": 2186
+        },
+        {
+          "end": 2268,
+          "line": 34,
+          "locator": "line:34",
+          "start": 2217
+        },
+        {
+          "end": 2312,
+          "line": 35,
+          "locator": "line:35",
+          "start": 2270
+        },
+        {
+          "end": 2387,
+          "line": 37,
+          "locator": "line:37",
+          "start": 2314
+        },
+        {
+          "end": 2462,
+          "line": 38,
+          "locator": "line:38",
+          "start": 2389
+        },
+        {
+          "end": 2505,
+          "line": 39,
+          "locator": "line:39",
+          "start": 2464
+        },
+        {
+          "end": 2533,
+          "line": 41,
+          "locator": "line:41",
+          "start": 2507
+        },
+        {
+          "end": 2578,
+          "line": 42,
+          "locator": "line:42",
+          "start": 2535
+        },
+        {
+          "end": 2619,
+          "line": 43,
+          "locator": "line:43",
+          "start": 2580
+        },
+        {
+          "end": 2665,
+          "line": 44,
+          "locator": "line:44",
+          "start": 2621
+        },
+        {
+          "end": 2724,
+          "line": 45,
+          "locator": "line:45",
+          "start": 2667
+        },
+        {
+          "end": 3062,
+          "line": 47,
+          "locator": "line:47",
+          "start": 2726
+        },
+        {
+          "end": 3447,
+          "line": 49,
+          "locator": "line:49",
+          "start": 3064
+        },
+        {
+          "end": 3460,
+          "line": 51,
+          "locator": "line:51",
+          "start": 3449
+        },
+        {
+          "end": 3488,
+          "line": 52,
+          "locator": "line:52",
+          "start": 3462
+        },
+        {
+          "end": 3519,
+          "line": 53,
+          "locator": "line:53",
+          "start": 3490
+        },
+        {
+          "end": 3572,
+          "line": 54,
+          "locator": "line:54",
+          "start": 3521
+        },
+        {
+          "end": 3614,
+          "line": 55,
+          "locator": "line:55",
+          "start": 3574
+        },
+        {
+          "end": 3689,
+          "line": 57,
+          "locator": "line:57",
+          "start": 3616
+        },
+        {
+          "end": 3764,
+          "line": 58,
+          "locator": "line:58",
+          "start": 3691
+        },
+        {
+          "end": 3807,
+          "line": 59,
+          "locator": "line:59",
+          "start": 3766
+        },
+        {
+          "end": 3835,
+          "line": 61,
+          "locator": "line:61",
+          "start": 3809
+        },
+        {
+          "end": 3883,
+          "line": 62,
+          "locator": "line:62",
+          "start": 3837
+        },
+        {
+          "end": 3926,
+          "line": 63,
+          "locator": "line:63",
+          "start": 3885
+        },
+        {
+          "end": 3969,
+          "line": 64,
+          "locator": "line:64",
+          "start": 3928
+        },
+        {
+          "end": 4024,
+          "line": 65,
+          "locator": "line:65",
+          "start": 3971
+        },
+        {
+          "end": 4303,
+          "line": 67,
+          "locator": "line:67",
+          "start": 4026
+        },
+        {
+          "end": 4725,
+          "line": 69,
+          "locator": "line:69",
+          "start": 4305
+        },
+        {
+          "end": 4739,
+          "line": 71,
+          "locator": "line:71",
+          "start": 4727
+        },
+        {
+          "end": 4765,
+          "line": 72,
+          "locator": "line:72",
+          "start": 4741
+        },
+        {
+          "end": 4796,
+          "line": 73,
+          "locator": "line:73",
+          "start": 4767
+        },
+        {
+          "end": 4849,
+          "line": 74,
+          "locator": "line:74",
+          "start": 4798
+        },
+        {
+          "end": 4893,
+          "line": 75,
+          "locator": "line:75",
+          "start": 4851
+        },
+        {
+          "end": 4968,
+          "line": 77,
+          "locator": "line:77",
+          "start": 4895
+        },
+        {
+          "end": 5043,
+          "line": 78,
+          "locator": "line:78",
+          "start": 4970
+        },
+        {
+          "end": 5086,
+          "line": 79,
+          "locator": "line:79",
+          "start": 5045
+        },
+        {
+          "end": 5114,
+          "line": 81,
+          "locator": "line:81",
+          "start": 5088
+        },
+        {
+          "end": 5158,
+          "line": 82,
+          "locator": "line:82",
+          "start": 5116
+        },
+        {
+          "end": 5198,
+          "line": 83,
+          "locator": "line:83",
+          "start": 5160
+        },
+        {
+          "end": 5244,
+          "line": 84,
+          "locator": "line:84",
+          "start": 5200
+        },
+        {
+          "end": 5295,
+          "line": 85,
+          "locator": "line:85",
+          "start": 5246
+        },
+        {
+          "end": 5591,
+          "line": 87,
+          "locator": "line:87",
+          "start": 5297
+        },
+        {
+          "end": 6014,
+          "line": 89,
+          "locator": "line:89",
+          "start": 5593
+        },
+        {
+          "end": 6027,
+          "line": 91,
+          "locator": "line:91",
+          "start": 6016
+        },
+        {
+          "end": 6061,
+          "line": 92,
+          "locator": "line:92",
+          "start": 6029
+        },
+        {
+          "end": 6085,
+          "line": 93,
+          "locator": "line:93",
+          "start": 6063
+        },
+        {
+          "end": 6113,
+          "line": 95,
+          "locator": "line:95",
+          "start": 6087
+        },
+        {
+          "end": 6161,
+          "line": 96,
+          "locator": "line:96",
+          "start": 6115
+        },
+        {
+          "end": 6200,
+          "line": 97,
+          "locator": "line:97",
+          "start": 6163
+        },
+        {
+          "end": 6242,
+          "line": 98,
+          "locator": "line:98",
+          "start": 6202
+        },
+        {
+          "end": 6293,
+          "line": 99,
+          "locator": "line:99",
+          "start": 6244
+        },
+        {
+          "end": 6553,
+          "line": 101,
+          "locator": "line:101",
+          "start": 6295
+        },
+        {
+          "end": 7020,
+          "line": 103,
+          "locator": "line:103",
+          "start": 6555
+        },
+        {
+          "end": 7034,
+          "line": 105,
+          "locator": "line:105",
+          "start": 7022
+        },
+        {
+          "end": 7060,
+          "line": 106,
+          "locator": "line:106",
+          "start": 7036
+        },
+        {
+          "end": 7091,
+          "line": 107,
+          "locator": "line:107",
+          "start": 7062
+        },
+        {
+          "end": 7144,
+          "line": 108,
+          "locator": "line:108",
+          "start": 7093
+        },
+        {
+          "end": 7188,
+          "line": 109,
+          "locator": "line:109",
+          "start": 7146
+        },
+        {
+          "end": 7263,
+          "line": 111,
+          "locator": "line:111",
+          "start": 7190
+        },
+        {
+          "end": 7338,
+          "line": 112,
+          "locator": "line:112",
+          "start": 7265
+        },
+        {
+          "end": 7381,
+          "line": 113,
+          "locator": "line:113",
+          "start": 7340
+        },
+        {
+          "end": 7409,
+          "line": 115,
+          "locator": "line:115",
+          "start": 7383
+        },
+        {
+          "end": 7453,
+          "line": 116,
+          "locator": "line:116",
+          "start": 7411
+        },
+        {
+          "end": 7493,
+          "line": 117,
+          "locator": "line:117",
+          "start": 7455
+        },
+        {
+          "end": 7539,
+          "line": 118,
+          "locator": "line:118",
+          "start": 7495
+        },
+        {
+          "end": 7586,
+          "line": 119,
+          "locator": "line:119",
+          "start": 7541
+        },
+        {
+          "end": 7982,
+          "line": 121,
+          "locator": "line:121",
+          "start": 7588
+        },
+        {
+          "end": 7995,
+          "line": 123,
+          "locator": "line:123",
+          "start": 7984
+        },
+        {
+          "end": 8029,
+          "line": 124,
+          "locator": "line:124",
+          "start": 7997
+        },
+        {
+          "end": 8053,
+          "line": 125,
+          "locator": "line:125",
+          "start": 8031
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-627",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-627_Placement_agreement_Bellhaven_batch_4.eml",
+        "source_sha256": "f20da7bc744fd859e0bcab1fe9bcab47915c4ba06291d5f6a95c451789fc2e91",
+        "text_sha256": "115141d8bbb4f4484a8f8236e7c1ae010038dd12522e418f8755338016e4bbe1"
+      },
+      "source_date": "2023-08-15T13:45:00-07:00",
+      "text": "Date: Tue, 15 Aug 2023 13:45:00 -0700\n\nFrom: Tom Reyes <treyes@alderpointpartners.com>\n\nTo: K Singh <ksingh@northforkef.com>\n\nSubject: Placement agreement — Bellhaven batch 4\n\nK — attached is the fully executed North Fork purchase agreement you asked for, DocuSigned November 21, 2022. Note the face amount in the signed version is $900,000 — it came down from the draft at your side's request before signing, so don't be thrown if your working copy shows the higher number. Our tracker files this one under batch 4; if your records say something different, tell me and I'll reconcile. Anything on certificate status should go through Priya.\n\nTom Reyes\n\nLand Acquisition Manager | Alder Point Partners\n\ntreyes@alderpointpartners.com",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 86,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 124,
+          "line": 3,
+          "locator": "line:3",
+          "start": 88
+        },
+        {
+          "end": 174,
+          "line": 4,
+          "locator": "line:4",
+          "start": 126
+        },
+        {
+          "end": 641,
+          "line": 6,
+          "locator": "line:6",
+          "start": 176
+        },
+        {
+          "end": 652,
+          "line": 8,
+          "locator": "line:8",
+          "start": 643
+        },
+        {
+          "end": 701,
+          "line": 9,
+          "locator": "line:9",
+          "start": 654
+        },
+        {
+          "end": 732,
+          "line": 10,
+          "locator": "line:10",
+          "start": 703
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-637",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/HR/EMAIL-637_Placement_agreement_Bellhaven_batch_6.eml",
+        "source_sha256": "82670ce6c08832d664ef845243e20707f6d76270d3454ad3edd5a60c8c561dc1",
+        "text_sha256": "89b9c20f69380306a1e315cf51af534d844715321d056f393d8fe1c2bc83f5eb"
+      },
+      "source_date": "2023-10-18T11:50:00-07:00",
+      "text": "Date: Wed, 18 Oct 2023 11:50:00 -0700\n\nFrom: Derek Holt <dholt@bellhavenadvisory.com>\n\nTo: D Liu <dliu@northforkef.com>\n\nSubject: Placement agreement — Bellhaven batch 6\n\nDear D — as requested, attached is Bellhaven's file copy of the executed North Fork purchase agreement (DocuSign, November 21, 2022). I'm glad to confirm the document itself. On your questions about the status of the underlying credits, those are best directed to Alder Point as Program Administrator; Bellhaven's role under the agreement was limited to placement, as set out in Sections 8 and 9. I'm happy to set up a call with Tom or Priya if that would help.\n\nDerek Holt\n\nManaging Director | Bellhaven Advisory\n\ndholt@bellhavenadvisory.com",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 85,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 119,
+          "line": 3,
+          "locator": "line:3",
+          "start": 87
+        },
+        {
+          "end": 169,
+          "line": 4,
+          "locator": "line:4",
+          "start": 121
+        },
+        {
+          "end": 632,
+          "line": 6,
+          "locator": "line:6",
+          "start": 171
+        },
+        {
+          "end": 644,
+          "line": 8,
+          "locator": "line:8",
+          "start": 634
+        },
+        {
+          "end": 684,
+          "line": 9,
+          "locator": "line:9",
+          "start": 646
+        },
+        {
+          "end": 713,
+          "line": 10,
+          "locator": "line:10",
+          "start": 686
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-665",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Marcus_Webb/EMAIL-665_Refund_demand_buyer_lot_2.eml",
+        "source_sha256": "3c258a9deb19ccd243e00b8a40ecadc4e092dce174c210b72b8de7698e1a819a",
+        "text_sha256": "e658323d6db266fac6574e2589dabb1cf1d280231135f5c423381f908051b777"
+      },
+      "source_date": "2023-11-02T10:20:00-08:00",
+      "text": "Date: Thu, 02 Nov 2023 10:20:00 -0800\n\nFrom: D Liu <dliu@northforkef.com>\n\nTo: Tom Reyes <treyes@alderpointpartners.com>\n\nSubject: Refund demand — buyer lot 2\n\nTom — this email is North Fork's written request under the refund provisions of our purchase agreement for the credits in our lot. We're asking the Administrator to make the election the agreement provides between replacement credits and a refund, and to confirm in writing which applies. We aren't in a position to quantify anything yet and reserve all rights. Please confirm receipt and let us know who will be handling this on your side.\n\nD Liu\n\ndliu@northforkef.com",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 73,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 120,
+          "line": 3,
+          "locator": "line:3",
+          "start": 75
+        },
+        {
+          "end": 158,
+          "line": 4,
+          "locator": "line:4",
+          "start": 122
+        },
+        {
+          "end": 600,
+          "line": 6,
+          "locator": "line:6",
+          "start": 160
+        },
+        {
+          "end": 607,
+          "line": 8,
+          "locator": "line:8",
+          "start": 602
+        },
+        {
+          "end": 629,
+          "line": 9,
+          "locator": "line:9",
+          "start": 609
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-681",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Robert_Denniston/EMAIL-681_Placement_agreement_Bellhaven_batch_6.eml",
+        "source_sha256": "715644c65a30632a66355d5e85aaa93bfd5646b16e96bfafb30cf0292e3bb321",
+        "text_sha256": "26a7dfa37d0847a38f29f078b56f31e4a864b8c6ca1e471b688956baf64b1c33"
+      },
+      "source_date": "2022-11-15T10:55:00-08:00",
+      "text": "Date: Tue, 15 Nov 2022 10:55:00 -0800\n\nFrom: Nina Alvarez <nalvarez@alderpointpartners.com>\n\nTo: D Liu <dliu@northforkef.com>\n\nSubject: Placement agreement — Bellhaven batch 6\n\nHi D — Bellhaven's draft purchase agreement for North Fork's lot is attached (November 14 draft). Terms as proposed: $1,000,000 face at $0.92, closing on or before November 22. Derek's team prepared it on their standard form, so any markup should go to them with me copied. If you want to adjust size before signing, now is the time — it's much easier to change the face amount before this goes out for signature than after. Let me know how your committee wants to proceed.\n\nNina Alvarez\n\nRegional Sales Rep (Southwest) | Alder Point Partners\n\nnalvarez@alderpointpartners.com",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 91,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 125,
+          "line": 3,
+          "locator": "line:3",
+          "start": 93
+        },
+        {
+          "end": 175,
+          "line": 4,
+          "locator": "line:4",
+          "start": 127
+        },
+        {
+          "end": 650,
+          "line": 6,
+          "locator": "line:6",
+          "start": 177
+        },
+        {
+          "end": 664,
+          "line": 8,
+          "locator": "line:8",
+          "start": 652
+        },
+        {
+          "end": 719,
+          "line": 9,
+          "locator": "line:9",
+          "start": 666
+        },
+        {
+          "end": 752,
+          "line": 10,
+          "locator": "line:10",
+          "start": 721
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    },
+    {
+      "document_id": "EMAIL-694",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/A_Patel/EMAIL-694_Refund_demand_buyer_lot_2.eml",
+        "source_sha256": "17728f480f374fbf1295e2691ff044f3fe481474087d1ad2816dfa7dd11d1287",
+        "text_sha256": "3e3a40cca547f7393cea42a01ad1a74ea83191f76e4510d135646d9270a49c42"
+      },
+      "source_date": "2023-09-14T09:25:00-07:00",
+      "text": "Date: Thu, 14 Sep 2023 09:25:00 -0700\n\nFrom: Jay Whitfield <jwhitfield@alderpointpartners.com>\n\nTo: Frank Delgado <fdelgado@cascadetimber.com>\n\nSubject: Refund demand — buyer lot 2\n\nLot schedule update: reserved lots against the current batch with delivery sequencing to follow. Holding to approved kit versions.\n\nJay Whitfield\n\nRegional Sales Director | Alder Point Partners\n\njwhitfield@alderpointpartners.com",
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 94,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 142,
+          "line": 3,
+          "locator": "line:3",
+          "start": 96
+        },
+        {
+          "end": 180,
+          "line": 4,
+          "locator": "line:4",
+          "start": 144
+        },
+        {
+          "end": 312,
+          "line": 6,
+          "locator": "line:6",
+          "start": 182
+        },
+        {
+          "end": 327,
+          "line": 8,
+          "locator": "line:8",
+          "start": 314
+        },
+        {
+          "end": 375,
+          "line": 9,
+          "locator": "line:9",
+          "start": 329
+        },
+        {
+          "end": 410,
+          "line": 10,
+          "locator": "line:10",
+          "start": 377
+        }
+      ],
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      }
+    }
+  ],
+  "candidate_findings": [
+    "Actual NorthFork written request November2; earlier CPP letter acknowledged July3, originalnotreviewed; subjectrefund694 onlylotupdate.",
+    "ExecutedNorthForkNov21 $900kface/$828kcash vsdraftmillion/$920k. Native PDFs fullyextracted; no OCR used. Batch4/6/lot2 cannotjoinkey.",
+    "Section7 conditional90days/30days; demandalone no disallowance/noticeproof; electionSeller vsrequestedAdministrator.",
+    "November29 delivery640kNW06+260kNW07; August16report/export.",
+    "Settlementbridgecash is not refund liability; senderunquantified."
+  ],
+  "limitations": [
+    "No legal enforceability judgment or independent signature authentication.",
+    "Corpus search covered all EML text for NorthFork/refund/disallowance; no missingdocument assertion inferred from OCR failure.",
+    "No paidmodel calls or external actions."
+  ],
+  "visual_review": {
+    "reviewer": "/root/summons_builder",
+    "tool": "pdftoppm native PDF rendering plus image inspection",
+    "sources": [
+      {
+        "document_id": "DOC-7e2272d7758b26a0c86c",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "observed": "November21 2022 effective and displayed signature dates; $0.92 unit price, $828000 aggregate purchase price, $900000 face schedule; section7 90/30-day conditional language and Seller election; section9 email plus overnight-copy notice; Bellhaven participation limited to sections8/9."
+      },
+      {
+        "document_id": "DOC-cedc8868c9f277415c42",
+        "pages": [
+          3
+        ],
+        "observed": "Visible DRAFT watermark, blank signature dates, $1000000 face/$920000 price and proposed November22 closing."
+      }
+    ],
+    "limits": "Visual confirmation is confined to these pages and values. It does not authenticate signatures, verify OCR globally, or alter bundle extraction coverage flags."
+  },
+  "notice_clause_continuation": "Section9 spans executed pages2–3: email with overnight courier confirmation to Alder Point Partners, Attn Program Administration, Sacramento California, with a copy to Cascade Timber Holdings, Inc.,1200 Forest Park Way,Suite900,Portland Oregon97209. EMAIL665 header/send does not establish all required notice mechanics, qualifying trigger or contractual receipt.",
+  "independent_review_changes": [
+    "Renamed message_dated_on to avoid equating email-header date with contractual receipt.",
+    "Public enum specifies canonical section number formatting.",
+    "Recorded actual page3 notice continuation and visual source checks.",
+    "Public scope expressly designates North Fork purchaser to avoid treating the single oracle as a universal answer for any purchaser request. Other-purchaser correspondence remains contrary/context evidence."
+  ]
+}

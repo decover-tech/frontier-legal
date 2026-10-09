@@ -52,8 +52,15 @@
   {
     "task_id": "CTH-LIT-05",
     "skill": "demand-received",
-    "implementation": "pending",
-    "episode_id": "CTH-LIT-05"
+    "implementation": "litigation_tasks_v1",
+    "episode_id": "CTH-LIT-05",
+    "package": "benchmark/litigation_skills/tasks/CTH-LIT-05/task.json",
+    "availability": "partial",
+    "cutoff": "2023-11-02T23:59:59-07:00",
+    "dependencies": [
+      "CTH-LIT-03"
+    ],
+    "findings": 6
   },
   {
     "task_id": "CTH-LIT-06",
@@ -171,31 +178,73 @@
   {
     "task_id": "CTH-LIT-15",
     "skill": "matter-update",
-    "implementation": "pending",
-    "episode_id": "CTH-LIT-15"
+    "implementation": "litigation_tasks_v1",
+    "episode_id": "CTH-LIT-15",
+    "package": "benchmark/litigation_skills/tasks/CTH-LIT-15/task.json",
+    "availability": "partial",
+    "cutoff": "2023-09-08T23:59:59-07:00",
+    "dependencies": [
+      "CTH-LIT-03",
+      "CTH-LIT-04"
+    ],
+    "findings": 4
   },
   {
     "task_id": "CTH-LIT-16",
     "skill": "matter-briefing",
-    "implementation": "pending",
-    "episode_id": "CTH-LIT-16"
+    "implementation": "litigation_tasks_v1",
+    "episode_id": "CTH-LIT-16",
+    "package": "benchmark/litigation_skills/tasks/CTH-LIT-16/task.json",
+    "availability": "partial",
+    "cutoff": "2023-10-10T23:59:59-07:00",
+    "dependencies": [
+      "CTH-LIT-03",
+      "CTH-LIT-10",
+      "CTH-LIT-15"
+    ],
+    "findings": 4
   },
   {
     "task_id": "CTH-LIT-17",
     "skill": "portfolio-status",
-    "implementation": "pending",
-    "episode_id": "CTH-LIT-17"
+    "implementation": "litigation_tasks_v1",
+    "episode_id": "CTH-LIT-17",
+    "package": "benchmark/litigation_skills/tasks/CTH-LIT-17/task.json",
+    "availability": "partial",
+    "cutoff": "2023-10-10T23:59:59-07:00",
+    "dependencies": [
+      "CTH-LIT-03",
+      "CTH-LIT-15"
+    ],
+    "findings": 4
   },
   {
     "task_id": "CTH-LIT-18",
     "skill": "oc-status",
-    "implementation": "pending",
-    "episode_id": "CTH-LIT-18"
+    "implementation": "litigation_tasks_v1",
+    "episode_id": "CTH-LIT-18",
+    "package": "benchmark/litigation_skills/tasks/CTH-LIT-18/task.json",
+    "availability": "partial",
+    "cutoff": "2023-09-20T23:59:59-07:00",
+    "dependencies": [
+      "CTH-LIT-03",
+      "CTH-LIT-15"
+    ],
+    "findings": 4
   },
   {
     "task_id": "CTH-LIT-19",
     "skill": "matter-close",
-    "implementation": "pending",
-    "episode_id": "CTH-LIT-19"
+    "implementation": "litigation_tasks_v1",
+    "episode_id": "CTH-LIT-19",
+    "package": "benchmark/litigation_skills/tasks/CTH-LIT-19/task.json",
+    "availability": "missing-trigger",
+    "cutoff": "2023-09-08T23:59:59-07:00",
+    "dependencies": [
+      "CTH-LIT-03",
+      "CTH-LIT-09",
+      "CTH-LIT-15"
+    ],
+    "findings": 4
   }
 ]
