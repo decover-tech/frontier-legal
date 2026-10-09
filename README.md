@@ -123,6 +123,16 @@ and chronology pilots still need separate independent oracle review.
 
 ## Model leaderboard
 
+The [final ten-task dashboard](https://cascade-timber-final-benchmark.decoverhq-in-8411.chatgpt.site) (private Sites access)
+contains the October 9, 2026 benchmark across **10 tasks, 10 runs per task per model,
+five models, and 500 completed episodes**. Its composite equally weights the ten
+task means and requires ten scored runs for every task. All episodes passed replay
+verification; 498 were scored. Grok and GLM each have one unscored episode, so their
+final composites are unavailable. Scored zeros are retained. This run uses corrected
+model-neutral instructions and is separate from the earlier chronology pilot below.
+
+### Earlier chronology pilot
+
 Completed October 9, 2026: **10 chronology episodes per model, 50 episodes total**, using
 only Cascade Timber. Scores are mean deterministic verifier rewards, expressed as
 percentages. Each episode starts with fresh context and allows up to 300 actions;
