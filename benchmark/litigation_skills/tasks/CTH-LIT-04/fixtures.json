@@ -1,0 +1,84 @@
+{
+  "artifacts": {
+    "workspace/state.json": {
+      "active_matter": null,
+      "cross_matter_context": false,
+      "global_configuration_changed": false,
+      "ledger": [
+        {
+          "id": "cascade-timber-coastal-solar",
+          "path": "workspace/cascade-timber-coastal-solar/",
+          "status": "draft_pending_conflicts_information"
+        }
+      ]
+    },
+    "workspace/cascade-timber-coastal-solar/matter.json": {
+      "id": "cascade-timber-coastal-solar",
+      "client": "Cascade Timber Holdings",
+      "program": "Coastal Solar Credit Program",
+      "status": "draft_pending_conflicts_information",
+      "conflicts_clearance": "not_established"
+    },
+    "workspace/cascade-timber-coastal-solar/history.json": {
+      "entries": [
+        {
+          "date": "2023-02-20",
+          "event": "anonymous_complaint_reported"
+        },
+        {
+          "date": "2023-02-24",
+          "event": "counsel_engaged"
+        },
+        {
+          "date": "2023-05-23",
+          "event": "irs_instrument_received"
+        }
+      ]
+    }
+  },
+  "provenance": [
+    {
+      "artifact_path": "workspace/cascade-timber-coastal-solar/matter.json",
+      "description": "Task-provided incomplete intake identity, no conflictclearance asserted.",
+      "sources": [
+        {
+          "document_id": "EMAIL-023",
+          "locator": "line:7",
+          "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+        }
+      ]
+    },
+    {
+      "artifact_path": "workspace/cascade-timber-coastal-solar/history.json",
+      "description": "Task-provided source-event history, not a record of approvedintake.",
+      "sources": [
+        {
+          "document_id": "EMAIL-019",
+          "locator": "line:7",
+          "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+        },
+        {
+          "document_id": "EMAIL-021",
+          "locator": "line:9",
+          "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+        },
+        {
+          "document_id": "EMAIL-023",
+          "locator": "line:7",
+          "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+        }
+      ]
+    },
+    {
+      "artifact_path": "workspace/state.json",
+      "description": "Task-provided sandbox state/ledger only; userpractice settings not inferred.",
+      "sources": [
+        {
+          "document_id": "EMAIL-023",
+          "locator": "line:7",
+          "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+        }
+      ]
+    }
+  ]
+}

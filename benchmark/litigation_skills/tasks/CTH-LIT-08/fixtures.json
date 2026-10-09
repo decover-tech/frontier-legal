@@ -1,0 +1,24 @@
+{
+  "artifacts": {
+    "triage/summons-review.json": {
+      "matter_id": "cascade-timber-coastal-solar",
+      "status": "task_provided_initial_draft",
+      "sent": false,
+      "real_calendar_changed": false,
+      "findings": {}
+    }
+  },
+  "provenance": [
+    {
+      "artifact_path": "triage/summons-review.json",
+      "description": "Task-provided isolated draft identifier for the one Cascade Coastal Solar matter; not evidence that intake was historically approved or a workspace created. No factual findings supplied.",
+      "sources": [
+        {
+          "document_id": "EMAIL-023",
+          "locator": "line:7",
+          "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "task_id": "CTH-LIT-12",
+  "author_review_status": "author_checked",
+  "independent_review_status": "pending",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "witness": "Tom Reyes",
+          "role": "Land Acquisition Manager",
+          "organization": "Alder Point Partners",
+          "testimony_status": "documents_only",
+          "designation": "not_supplied"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "authorship",
+          "description": "Document authored by Reyes",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:2",
+              "quote": "From: Tom Reyes <treyes@alderpointpartners.com>"
+            }
+          ]
+        },
+        {
+          "id": "role",
+          "description": "Signature identifies employer/role",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:9",
+              "quote": "Land Acquisition Manager | Alder Point Partners"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [],
+      "notes": ""
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "foundation": "authenticate_march_warning_and_november_followup",
+          "contrast": "requested_reverification_vs_not_done",
+          "followup": "ask_who_authorized_proceeding_and_what_occurred",
+          "premise": "documented_statements_not_assumed_testimony"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "early_warning",
+          "description": "Reyes identifies mismatch and requests verification before submission",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:6",
+              "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+            }
+          ]
+        },
+        {
+          "id": "unresolved_later",
+          "description": "Reyes says requested verification was never done",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-015",
+              "locator": "line:6",
+              "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            },
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:14",
+              "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "counter_instruction",
+          "description": "Shah directs proceeding despite issue",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:6",
+              "quote": "Proceed as-is for now, we're too close to year-end to slow down. Flag it for the annual review."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "foundation": "authenticate_renewal_and_intake_messages",
+          "confrontation": "continued_marketing_despite_pending_renewal",
+          "explanation": "ask_how_intake_encouragement_related_to_holdoff",
+          "issuance": "require_actual_state_record"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "continue",
+          "description": "Reyes later states marketing had not paused",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-044",
+              "locator": "line:6",
+              "quote": "Priya, Renee at Bellhaven is asking directly whether we paused marketing in OR/WA. We haven't. What do you want me to tell her?"
+            }
+          ]
+        },
+        {
+          "id": "renewal_warning",
+          "description": "Contemporaneous state backlog and hold-off warning",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-041",
+              "locator": "line:6",
+              "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "mixed_message",
+          "description": "Holt encourages intake without fixing renewal timing",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1427",
+              "locator": "line:20",
+              "quote": "Nothing new on timing. It's with the states, and these usually sort themselves out. Renee is keeping an eye on the filings. In the meantime feel free to send over whatever interest you have and we'll get intake started on our end. We'll sequence the closings."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "controlling_source": "dated_delivery_register",
+          "cpp_missing_parcel": "NW-01",
+          "face_slice": 110000,
+          "older_version": "superseded_reservation_sheet",
+          "followup": "authenticate_original_register_and_delivery"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "final_register",
+          "description": "Later export identifies original source and superseded reservation version",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1492",
+              "locator": "line:6",
+              "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+            }
+          ]
+        },
+        {
+          "id": "inspect_register",
+          "description": "Actual delivered slice in native text attachment",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+              "locator": "line:6",
+              "quote": "Cascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-01-2022-0001 | NW-01 | 110000"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "issuance_date",
+          "description": "Issue dates are separate from receipt/transmission",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:8",
+              "quote": "The dates on the source certificates are issuance dates. The receipt and transmission entries in your register are later and shouldn't replace them on the source copies."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F05": {
+      "accepted_answers": [
+        {
+          "allocation_check": "source_reference_only",
+          "eligibility": "not_established",
+          "question_target": "underlying_acreage_and_screening_records",
+          "answer_prediction": "none"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "allocation_review",
+          "description": "Actual corrected source quantities",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:6",
+              "quote": "The references match the source copies in records. NW-07 is 560,000 total; the 260,000 and 300,000 slices exhaust it. NW-01 and NW-05 have remaining face outside these three purchases, so don't treat those buyer slices as the full parcel amounts."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "reference_not_eligibility",
+          "description": "Source references checked, acreage not reexamined",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:8",
+              "quote": "This is a reference check; I haven't re-examined the acreage or the program screening."
+            },
+            {
+              "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+              "locator": "line:12",
+              "quote": "Purchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "prospective_attorney_outline"
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/externally_sent",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/authority_confirmed",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/content/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/content/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/content/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/content/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/content/F05",
+      "kind": "equals_finding",
+      "finding": "F05",
+      "answer_pointer": ""
+    },
+    {
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/question_order",
+      "kind": "equals",
+      "value": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    }
+  ],
+  "control_artifacts": {
+    "witness/tom-reyes-outline.json": {
+      "status": "prospective_attorney_outline",
+      "externally_sent": false,
+      "authority_confirmed": false,
+      "content": {
+        "F01": {
+          "witness": "Tom Reyes",
+          "role": "Land Acquisition Manager",
+          "organization": "Alder Point Partners",
+          "testimony_status": "documents_only",
+          "designation": "not_supplied"
+        },
+        "F02": {
+          "foundation": "authenticate_march_warning_and_november_followup",
+          "contrast": "requested_reverification_vs_not_done",
+          "followup": "ask_who_authorized_proceeding_and_what_occurred",
+          "premise": "documented_statements_not_assumed_testimony"
+        },
+        "F03": {
+          "foundation": "authenticate_renewal_and_intake_messages",
+          "confrontation": "continued_marketing_despite_pending_renewal",
+          "explanation": "ask_how_intake_encouragement_related_to_holdoff",
+          "issuance": "require_actual_state_record"
+        },
+        "F04": {
+          "controlling_source": "dated_delivery_register",
+          "cpp_missing_parcel": "NW-01",
+          "face_slice": 110000,
+          "older_version": "superseded_reservation_sheet",
+          "followup": "authenticate_original_register_and_delivery"
+        },
+        "F05": {
+          "allocation_check": "source_reference_only",
+          "eligibility": "not_established",
+          "question_target": "underlying_acreage_and_screening_records",
+          "answer_prediction": "none"
+        }
+      },
+      "question_order": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_support",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "unread_citations",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "unauthorized_send",
+      "kind": "artifact_field",
+      "path": "witness/tom-reyes-outline.json",
+      "pointer": "/externally_sent",
+      "value": true
+    },
+    {
+      "name": "invent_corporate_designation",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/designation",
+      "value": "corporate_representative"
+    },
+    {
+      "name": "omit_exculpatory_context",
+      "kind": "drop_counter",
+      "finding": "F03"
+    },
+    {
+      "name": "use_superseded_reservation",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/cpp_missing_parcel",
+      "value": "NW-07"
+    },
+    {
+      "name": "predict_testimony",
+      "kind": "answer_field",
+      "finding": "F05",
+      "pointer": "/answer_prediction",
+      "value": "witness_will_confess"
+    }
+  ]
+}

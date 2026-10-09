@@ -1,0 +1,326 @@
+{
+  "task_id": "CTH-LIT-08",
+  "reviewer": "independent-evidence-bundle-agent",
+  "author": "summons-builder-agent",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "oracle_semantics_sha256": "ca9b4f64598171a61ed8f5f35c0fd6abc482b7960574a18827b60fc27a56e83d",
+  "reviewed_proof_alternatives": 42,
+  "reviewed_obligations": 31,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_group": "protocol_classification",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:39",
+      "quote": "Legal note: 26 U.S.C. § 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. §§ 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "receipt_report",
+      "document_id": "EMAIL-023",
+      "locator": "line:7",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "receipt_report",
+      "document_id": "EMAIL-054",
+      "locator": "line:27",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "receipt_report",
+      "document_id": "EMAIL-055",
+      "locator": "line:48",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "issue_date",
+      "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+      "locator": "page:1",
+      "quote": "DATE ISSUED:  May 23, 2023"
+    },
+    {
+      "finding": "F01",
+      "proof_group": "original_title_conflict",
+      "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+      "locator": "page:1",
+      "quote": "SUBPOENA DUCES TECUM\nUNITED STATES OF AMERICA — DEPARTMENT OF THE TREASURY\nINTERNAL REVENUE SERVICE"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "original_due",
+      "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+      "locator": "page:1",
+      "quote": "RESPONSE DUE:  On or before June 13, 2023 (21 days)"
+    },
+    {
+      "finding": "F02",
+      "proof_group": "extension_request",
+      "document_id": "EMAIL-056",
+      "locator": "line:6",
+      "quote": "Given the volume of records involved, we respectfully request a one-week extension on the production deadline."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "extension_request",
+      "document_id": "EMAIL-057",
+      "locator": "line:24",
+      "quote": "Given the volume of records involved, we respectfully request a one-week extension on the production deadline."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "extension_grant",
+      "document_id": "EMAIL-057",
+      "locator": "line:6",
+      "quote": "Mr. Ellery, the Service grants a one-week extension. Revised production deadline is noted on our end."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "later_extension_report",
+      "document_id": "EMAIL-158",
+      "locator": "line:6",
+      "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "later_extension_report",
+      "document_id": "EMAIL-159",
+      "locator": "line:24",
+      "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "schedule_separate",
+      "document_id": "EMAIL-158",
+      "locator": "line:6",
+      "quote": "Please provide a rolling production schedule by July 14, and advise if any categories will be withheld under a claim of privilege so we can discuss a privilege log."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "schedule_separate",
+      "document_id": "EMAIL-159",
+      "locator": "line:24",
+      "quote": "Please provide a rolling production schedule by July 14, and advise if any categories will be withheld under a claim of privilege so we can discuss a privilege log."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "three_followups",
+      "document_id": "EMAIL-160",
+      "locator": "line:6",
+      "quote": "Follow-up items: (1) all broker agreements with Bellhaven Advisory, including amendments; (2) records identifying who approved acreage figures on the Northwest parcel applications; (3) any surveys commissioned for those parcels. Please include these in the second production."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "three_followups",
+      "document_id": "EMAIL-161",
+      "locator": "line:24",
+      "quote": "Follow-up items: (1) all broker agreements with Bellhaven Advisory, including amendments; (2) records identifying who approved acreage figures on the Northwest parcel applications; (3) any surveys commissioned for those parcels. Please include these in the second production."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "three_followups",
+      "document_id": "EMAIL-162",
+      "locator": "line:42",
+      "quote": "Follow-up items: (1) all broker agreements with Bellhaven Advisory, including amendments; (2) records identifying who approved acreage figures on the Northwest parcel applications; (3) any surveys commissioned for those parcels. Please include these in the second production."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "plan_not_complete",
+      "document_id": "EMAIL-161",
+      "locator": "line:6",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "plan_not_complete",
+      "document_id": "EMAIL-162",
+      "locator": "line:24",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "receipt_open",
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "Mr. Ellery — confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "deadline_receipt_tension",
+      "document_id": "EMAIL-158",
+      "locator": "line:6",
+      "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "deadline_receipt_tension",
+      "document_id": "EMAIL-159",
+      "locator": "line:24",
+      "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_1",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:24",
+      "quote": "1.  Records regarding tax-credit transactions involving renewable energy and land conservation programs, including credit origination, eligibility determinations, appraisal reports, and transaction structuring documents for calendar years 2021 through 2023."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_2",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:25",
+      "quote": "2.  Marketing and sales materials for the Coastal Solar Credit Program, including broker network materials, investor-facing decks, private placement memoranda, subscription agreements, and sales communications distributed in 2022 and 2023."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_3",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:26",
+      "quote": "3.  Records reflecting relationships with investors, buyers, sellers, land trusts, and advisors in connection with the Program, including engagement letters, correspondence, fee agreements, and due-diligence files."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_4",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:27",
+      "quote": "4.  Records concerning corporate entities affiliated with Alder Point Partners, including organizational documents, capitalization tables, ownership records, and inter-company agreements, together with any records concerning brokers engaged in connection with the Program, including Bellhaven Advisory."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_5",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:28",
+      "quote": "5.  Tax, accounting, banking, and loan records connected to the Program, including general ledger entries, bank statements, loan agreements, wire transfer confirmations, and tax filings (including Forms 8283 and 3468) referencing Coastal Solar credit transactions."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_6",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:29",
+      "quote": "6.  Board minutes, internal memoranda, and compliance files discussing the tax treatment, valuation methodology, or regulatory risk of the Program, including any communications with outside counsel or tax opinion providers not subject to a valid claim of privilege."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "enhanced_request_7",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:30",
+      "quote": "7.  A privilege log identifying, by document, any responsive record withheld on grounds of attorney-client privilege or work-product protection, in a form sufficient to permit the Service to evaluate the claim."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "original_four",
+      "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+      "locator": "page:1",
+      "quote": "1. All marketing materials related to the Coastal Solar Credit Program, including but not limited to\nbroker network materials distributed in 2022 and 2023.\n2. All investor communications regarding the Coastal Solar Credit Program.\n3. All records, communications, and agreements between Cascade Timber Holdings, Alder Point\nPartners, and any brokers engaged in connection with the Coastal Solar Credit Program, including\nBellhaven Advisory.\n4. All records concerning land parcel conservation eligibility determinations made in connection with\nCoastal Solar credit applications."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "pending_custodian_attachment",
+      "document_id": "ATT-EMAIL-059-02-83c5da53efa0",
+      "locator": "sheet:1:row:8",
+      "quote": "A8=Nina Alvarez | B8=nalvarez@alderpointpartners.com | C8=5.9 | D8=Pending — departing employee | E8=Not started"
+    },
+    {
+      "finding": "F05",
+      "proof_group": "bounded_it_controls",
+      "document_id": "EMAIL-060",
+      "locator": "line:6",
+      "quote": "Following today's legal hold notice: auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "outside_gap",
+      "document_id": "EMAIL-070",
+      "locator": "line:6",
+      "quote": "Given the subpoena, should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?"
+    },
+    {
+      "finding": "F05",
+      "proof_group": "actual_system_boundary",
+      "document_id": "EMAIL-1161",
+      "locator": "line:6",
+      "quote": "the hold flag and the auto-delete suspension cover Cascade's systems, including the Coastal Solar shared drive your team uses. Mail on Alder's own accounts, phones and laptops isn't something we can preserve from here."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "reported_nina_cure",
+      "document_id": "EMAIL-1096",
+      "locator": "line:6",
+      "quote": "Per John's direction, her mailbox was exported before her last day, and the account was disabled on June 30 but not deleted. It stays on hold until Legal says otherwise."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "reported_nina_cure",
+      "document_id": "EMAIL-1155",
+      "locator": "line:6",
+      "quote": "on Nina Alvarez's account: it stays disabled and on hold, and the export copy stays on the review share."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "formal_notice_exists",
+      "document_id": "EMAIL-024",
+      "locator": "line:6",
+      "quote": "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory."
+    },
+    {
+      "finding": "F05",
+      "proof_group": "formal_notice_exists",
+      "document_id": "ATT-EMAIL-024-04-ad066076d527",
+      "locator": "page:1",
+      "quote": "DATE:  June 13, 2023\nRE:  Litigation Hold — Coastal Solar Credit Program\nThis is a formal legal hold notice."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "format_transmission",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:32",
+      "quote": "Records may be produced in native electronic format with accompanying metadata, or as legible photocopies organized and labeled to correspond with the categories set forth above. Electronic production should be provided on encrypted media or via the Service's secure file-transfer portal, with a cover letter identifying the custodian(s) and date range for each category produced."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "log_scope",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:30",
+      "quote": "7.  A privilege log identifying, by document, any responsive record withheld on grounds of attorney-client privilege or work-product protection, in a form sufficient to permit the Service to evaluate the claim."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "counsel_review_plan",
+      "document_id": "EMAIL-055",
+      "locator": "line:8",
+      "quote": "Recommend we (1) segregate privileged materials from the production set, (2) coordinate with Alder Point on jointly-held documents, and (3) request a short extension given the review already underway."
+    },
+    {
+      "finding": "F06",
+      "proof_group": "excluded_review_track",
+      "document_id": "ATT-EMAIL-059-02-83c5da53efa0",
+      "locator": "sheet:1:row:4",
+      "quote": "A4=John Ellery | B4=jellery@cascadetimber.com | C4=18.2 | D4=Yes | E4=Excluded — privileged review track"
+    }
+  ],
+  "checks": {
+    "actual_source_entailment": "passed",
+    "alternate_source_proofs": "passed_with_corrections",
+    "hidden_answer_leakage": "passed",
+    "temporal_eligibility": "passed",
+    "unsupported_conclusions": "passed_with_corrections",
+    "runtime_controls": "root_runs_separately"
+  },
+  "issues_resolved": [
+    "F05 incorrectly retained June2 pending as uncured through September6. Independent corpus search found July11 EMAIL1096 reporting export before departure, disabledJune30/notdeleted/onhold; July25 EMAIL1155 confirms exportcopy/onhold. Author corrected answer and added both narrow equivalent proofs.",
+    "Added EMAIL1161 system-ownership boundary: Cascade mail/shared-drive controls do not establish preservation of Alder-owned accounts/phones/laptops.",
+    "Added adversary for stale pending status despite later cure; retained exact export date as unknown and Bellhaven preservation as unestablished."
+  ],
+  "limitations": [
+    "Review applies supplied benchmark policies only; not independent legal advice or forum-authority verification.",
+    "No held-out model performance or generalization claim; this is a development episode.",
+    "Original protocol examples remain excluded from public projections; substantive source banners are evidence to test, not hidden labels.",
+    "All citation alternatives verified against exact frozen locator spans. Standalone documents without machine dates are task-authorized supplied assets; attachment eligibility derives from parent emails."
+  ]
+}

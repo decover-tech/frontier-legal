@@ -1,0 +1,1504 @@
+{
+  "task_id": "CTH-LIT-04",
+  "authoring_only": true,
+  "reference_skill_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "reference_skill": "matter-workspace",
+  "cutoff": "2023-05-31T23:59:59-07:00",
+  "sources": [
+    {
+      "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+      "provenance": {
+        "mime_part_index": 4,
+        "original_filename": "LL_Associates_Engagement_Letter.pdf",
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-021_Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "235de50fbc43c2d2d26574ff747126c18e9f1c59b359aea341a91be6f474d41e",
+        "text_sha256": "33d8dc96744263606b47a42fc6fef279571743c67788492b86fcf89f0e4ea729"
+      },
+      "source_date": null,
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 1,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 1,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      },
+      "locators": [
+        {
+          "end": 980,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        }
+      ],
+      "text": "PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK\n PRODUCT\nL&L ASSOCIATES\nOutside Counsel \u2014 Attorneys at Law\nFebruary 24, 2023\nVIA EMAIL\nJohn Ellery, Head of Legal, Cascade Timber Holdings\nRe: Engagement \u2014 Internal Review of Coastal Solar Credit Program\nDear John:\nThis letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023.\nAll communications, work product, and materials generated in connection with this engagement are\nintended to be, and should be treated as, protected by the attorney-client privilege and/or attorney work\nproduct doctrine. Please direct all custodian and document collection questions to my attention.\nWe look forward to assisting CTH with this matter.\nSincerely,\nGrace Lin, Partner \u2014 L&L Associates"
+    },
+    {
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": "Subpoena_Enhanced.docx",
+        "source_path": "definitions/Subpoena_Enhanced.docx",
+        "source_sha256": "5efceea70adfe2de16944e974da6d4672f97e8969359558648d003ead9454c75",
+        "text_sha256": "a1a391d297fdb7a9f5330f9c2d5a91c8d6e499544b608ca8c14be6814d5072ef"
+      },
+      "source_date": null,
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "DOCX paragraph order includes table paragraphs; layout, signatures and pagination require original inspection."
+        ]
+      },
+      "locators": [
+        {
+          "end": 24,
+          "locator": "document:paragraph:1",
+          "paragraph": 1,
+          "part": "document",
+          "start": 0
+        },
+        {
+          "end": 79,
+          "locator": "document:paragraph:2",
+          "paragraph": 2,
+          "part": "document",
+          "start": 26
+        },
+        {
+          "end": 134,
+          "locator": "document:paragraph:3",
+          "paragraph": 3,
+          "part": "document",
+          "start": 81
+        },
+        {
+          "end": 219,
+          "locator": "document:paragraph:4",
+          "paragraph": 4,
+          "part": "document",
+          "start": 136
+        },
+        {
+          "end": 238,
+          "locator": "document:paragraph:5",
+          "paragraph": 5,
+          "part": "document",
+          "start": 221
+        },
+        {
+          "end": 269,
+          "locator": "document:paragraph:6",
+          "paragraph": 6,
+          "part": "document",
+          "start": 240
+        },
+        {
+          "end": 301,
+          "locator": "document:paragraph:7",
+          "paragraph": 7,
+          "part": "document",
+          "start": 271
+        },
+        {
+          "end": 388,
+          "locator": "document:paragraph:8",
+          "paragraph": 8,
+          "part": "document",
+          "start": 303
+        },
+        {
+          "end": 397,
+          "locator": "document:paragraph:9",
+          "paragraph": 9,
+          "part": "document",
+          "start": 390
+        },
+        {
+          "end": 457,
+          "locator": "document:paragraph:10",
+          "paragraph": 10,
+          "part": "document",
+          "start": 399
+        },
+        {
+          "end": 510,
+          "locator": "document:paragraph:11",
+          "paragraph": 11,
+          "part": "document",
+          "start": 459
+        },
+        {
+          "end": 523,
+          "locator": "document:paragraph:12",
+          "paragraph": 12,
+          "part": "document",
+          "start": 512
+        },
+        {
+          "end": 537,
+          "locator": "document:paragraph:13",
+          "paragraph": 13,
+          "part": "document",
+          "start": 525
+        },
+        {
+          "end": 551,
+          "locator": "document:paragraph:14",
+          "paragraph": 14,
+          "part": "document",
+          "start": 539
+        },
+        {
+          "end": 576,
+          "locator": "document:paragraph:15",
+          "paragraph": 15,
+          "part": "document",
+          "start": 553
+        },
+        {
+          "end": 597,
+          "locator": "document:paragraph:16",
+          "paragraph": 16,
+          "part": "document",
+          "start": 578
+        },
+        {
+          "end": 662,
+          "locator": "document:paragraph:17",
+          "paragraph": 17,
+          "part": "document",
+          "start": 599
+        },
+        {
+          "end": 1188,
+          "locator": "document:paragraph:18",
+          "paragraph": 18,
+          "part": "document",
+          "start": 664
+        },
+        {
+          "end": 1201,
+          "locator": "document:paragraph:19",
+          "paragraph": 19,
+          "part": "document",
+          "start": 1190
+        },
+        {
+          "end": 1345,
+          "locator": "document:paragraph:20",
+          "paragraph": 20,
+          "part": "document",
+          "start": 1203
+        },
+        {
+          "end": 1516,
+          "locator": "document:paragraph:21",
+          "paragraph": 21,
+          "part": "document",
+          "start": 1347
+        },
+        {
+          "end": 1676,
+          "locator": "document:paragraph:22",
+          "paragraph": 22,
+          "part": "document",
+          "start": 1518
+        },
+        {
+          "end": 1695,
+          "locator": "document:paragraph:23",
+          "paragraph": 23,
+          "part": "document",
+          "start": 1678
+        },
+        {
+          "end": 1954,
+          "locator": "document:paragraph:24",
+          "paragraph": 24,
+          "part": "document",
+          "start": 1697
+        },
+        {
+          "end": 2195,
+          "locator": "document:paragraph:25",
+          "paragraph": 25,
+          "part": "document",
+          "start": 1956
+        },
+        {
+          "end": 2411,
+          "locator": "document:paragraph:26",
+          "paragraph": 26,
+          "part": "document",
+          "start": 2197
+        },
+        {
+          "end": 2715,
+          "locator": "document:paragraph:27",
+          "paragraph": 27,
+          "part": "document",
+          "start": 2413
+        },
+        {
+          "end": 2981,
+          "locator": "document:paragraph:28",
+          "paragraph": 28,
+          "part": "document",
+          "start": 2717
+        },
+        {
+          "end": 3248,
+          "locator": "document:paragraph:29",
+          "paragraph": 29,
+          "part": "document",
+          "start": 2983
+        },
+        {
+          "end": 3460,
+          "locator": "document:paragraph:30",
+          "paragraph": 30,
+          "part": "document",
+          "start": 3250
+        },
+        {
+          "end": 3482,
+          "locator": "document:paragraph:31",
+          "paragraph": 31,
+          "part": "document",
+          "start": 3462
+        },
+        {
+          "end": 3864,
+          "locator": "document:paragraph:32",
+          "paragraph": 32,
+          "part": "document",
+          "start": 3484
+        },
+        {
+          "end": 3879,
+          "locator": "document:paragraph:33",
+          "paragraph": 33,
+          "part": "document",
+          "start": 3866
+        },
+        {
+          "end": 4151,
+          "locator": "document:paragraph:34",
+          "paragraph": 34,
+          "part": "document",
+          "start": 3881
+        },
+        {
+          "end": 4163,
+          "locator": "document:paragraph:35",
+          "paragraph": 35,
+          "part": "document",
+          "start": 4153
+        },
+        {
+          "end": 4190,
+          "locator": "document:paragraph:36",
+          "paragraph": 36,
+          "part": "document",
+          "start": 4165
+        },
+        {
+          "end": 4238,
+          "locator": "document:paragraph:37",
+          "paragraph": 37,
+          "part": "document",
+          "start": 4192
+        },
+        {
+          "end": 4303,
+          "locator": "document:paragraph:38",
+          "paragraph": 38,
+          "part": "document",
+          "start": 4240
+        },
+        {
+          "end": 4856,
+          "locator": "document:paragraph:39",
+          "paragraph": 39,
+          "part": "document",
+          "start": 4305
+        },
+        {
+          "end": 4946,
+          "locator": "footer1:paragraph:1",
+          "paragraph": 1,
+          "part": "footer1",
+          "start": 4858
+        },
+        {
+          "end": 4959,
+          "locator": "footer1:paragraph:2",
+          "paragraph": 2,
+          "part": "footer1",
+          "start": 4948
+        },
+        {
+          "end": 5019,
+          "locator": "header1:paragraph:1",
+          "paragraph": 1,
+          "part": "header1",
+          "start": 4961
+        }
+      ],
+      "text": "UNITED STATES OF AMERICA\n\nDEPARTMENT OF THE TREASURY \u2014 INTERNAL REVENUE SERVICE\n\nSMALL BUSINESS / SELF-EMPLOYED DIVISION \u2014 EXAMINATION\n\nOFFICE OF FIELD EXAMINATION, PACIFIC NORTHWEST AREA \u2014 PORTLAND, OREGON POST OF DUTY\n\nIn the matter of:\n\nCASCADE TIMBER HOLDINGS, INC.\n\n(Coastal Solar Credit Program)\n\nIRS Case No. EX-2023-04471   \u00b7   TIN on File: XX-XXX4471   \u00b7   Examination Group 1476\n\nSUMMONS\n\nTO:  Cascade Timber Holdings, Inc., Attn: Legal Department\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\nDATE ISSUED\n\nMay 23, 2023\n\nRESPONSE DUE\n\nJune 13, 2023 (21 days)\n\nPLACE OF PRODUCTION\n\nIRS Field Office, 1220 SW 3rd Ave, Portland, OR 97204, Room 408\n\nYOU ARE HEREBY SUMMONED AND REQUIRED, pursuant to 26 U.S.C. \u00a7 7602 and applicable Treasury Regulations, to appear before Revenue Agent Kevin Tran, or his designee, and to produce for examination and copying the books, papers, records, and other data described below, in connection with the Internal Revenue Service's civil examination of the business venture known as the \"Coastal Solar Credit Program,\" developed, marketed, financed, and administered in whole or in part by Cascade Timber Holdings, Inc. and its affiliates.\n\nDefinitions\n\n\u201cProgram\u201d means the Coastal Solar Credit Program, including any predecessor or successor offerings marketed under substantially similar terms.\n\n\u201cAffiliate\u201d means any entity under common control with, controlled by, or controlling Cascade Timber Holdings, Inc., including Alder Point Partners and its subsidiaries.\n\n\u201cRecords\u201d means documents in any form, including electronically stored information, whether created, received, or maintained by or on behalf of the recipient.\n\nDocument Requests\n\n1.  Records regarding tax-credit transactions involving renewable energy and land conservation programs, including credit origination, eligibility determinations, appraisal reports, and transaction structuring documents for calendar years 2021 through 2023.\n\n2.  Marketing and sales materials for the Coastal Solar Credit Program, including broker network materials, investor-facing decks, private placement memoranda, subscription agreements, and sales communications distributed in 2022 and 2023.\n\n3.  Records reflecting relationships with investors, buyers, sellers, land trusts, and advisors in connection with the Program, including engagement letters, correspondence, fee agreements, and due-diligence files.\n\n4.  Records concerning corporate entities affiliated with Alder Point Partners, including organizational documents, capitalization tables, ownership records, and inter-company agreements, together with any records concerning brokers engaged in connection with the Program, including Bellhaven Advisory.\n\n5.  Tax, accounting, banking, and loan records connected to the Program, including general ledger entries, bank statements, loan agreements, wire transfer confirmations, and tax filings (including Forms 8283 and 3468) referencing Coastal Solar credit transactions.\n\n6.  Board minutes, internal memoranda, and compliance files discussing the tax treatment, valuation methodology, or regulatory risk of the Program, including any communications with outside counsel or tax opinion providers not subject to a valid claim of privilege.\n\n7.  A privilege log identifying, by document, any responsive record withheld on grounds of attorney-client privilege or work-product protection, in a form sufficient to permit the Service to evaluate the claim.\n\nManner of Production\n\nRecords may be produced in native electronic format with accompanying metadata, or as legible photocopies organized and labeled to correspond with the categories set forth above. Electronic production should be provided on encrypted media or via the Service's secure file-transfer portal, with a cover letter identifying the custodian(s) and date range for each category produced.\n\nCertification\n\nFailure to comply with this summons may result in enforcement proceedings in the United States District Court for the District of Oregon pursuant to 26 U.S.C. \u00a7\u00a7 7402(b) and 7604(a), and may further result in referral for consideration of penalties under applicable law.\n\nKevin Tran\n\nKevin Tran, Revenue Agent\n\nInternal Revenue Service, Examination Division\n\nBadge No. 74-1129   \u00b7   (503) 555-0148   \u00b7   kevin.tran@irs.gov\n\nThis is a synthetic demonstration document generated for the DecoverAI Cascade Timber Holdings dummy dataset. All names, entities, case numbers, and events depicted are fictional and do not reference any real person, company, or government proceeding. Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination. Correspondence in this dataset refers to this summons informally as \u201cthe subpoena.\u201d\n\nConfidential \u2014 Not for ReproductionDecoverAI Synthetic Dataset \u00b7 Cascade Timber Holdings\n\nPage 1 of 2\n\nSYNTHETIC DEMONSTRATION DOCUMENT \u2014 NOT A GOVERNMENT RECORD"
+    },
+    {
+      "document_id": "EMAIL-019",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-019_Whistleblower complaint received.eml",
+        "source_sha256": "12ab6a2c05f4907c30dbb0f6d173d8defaf6d084b9e60b99b4a2cf31144c53b5",
+        "text_sha256": "f7fbacc6f9244603040be2ac474fc1016bdce1e5dbdc14364939db3b53f472c6"
+      },
+      "source_date": "2023-02-20T07:58:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 85,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 130,
+          "line": 3,
+          "locator": "line:3",
+          "start": 87
+        },
+        {
+          "end": 178,
+          "line": 4,
+          "locator": "line:4",
+          "start": 132
+        },
+        {
+          "end": 221,
+          "line": 5,
+          "locator": "line:5",
+          "start": 180
+        },
+        {
+          "end": 452,
+          "line": 7,
+          "locator": "line:7",
+          "start": 223
+        },
+        {
+          "end": 466,
+          "line": 9,
+          "locator": "line:9",
+          "start": 454
+        },
+        {
+          "end": 492,
+          "line": 10,
+          "locator": "line:10",
+          "start": 468
+        },
+        {
+          "end": 523,
+          "line": 11,
+          "locator": "line:11",
+          "start": 494
+        },
+        {
+          "end": 576,
+          "line": 12,
+          "locator": "line:12",
+          "start": 525
+        },
+        {
+          "end": 620,
+          "line": 13,
+          "locator": "line:13",
+          "start": 578
+        },
+        {
+          "end": 695,
+          "line": 15,
+          "locator": "line:15",
+          "start": 622
+        },
+        {
+          "end": 770,
+          "line": 16,
+          "locator": "line:16",
+          "start": 697
+        },
+        {
+          "end": 813,
+          "line": 17,
+          "locator": "line:17",
+          "start": 772
+        }
+      ],
+      "text": "Date: Mon, 20 Feb 2023 07:58:00 -0800\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Whistleblower complaint received\n\nJohn, Elena \u2014 we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately.\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-020",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-020_RE_ Whistleblower complaint received _ privileged.eml",
+        "source_sha256": "f76a0327fba8a66973bf3fb1c313b2973546f58fa4523964bf2204dea1b2dd7f",
+        "text_sha256": "09133b7532263ba23b7754804e7374171e54b37dd390b62663e50c085320fa9e"
+      },
+      "source_date": "2023-02-21T09:12:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 132,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 178,
+          "line": 4,
+          "locator": "line:4",
+          "start": 134
+        },
+        {
+          "end": 238,
+          "line": 5,
+          "locator": "line:5",
+          "start": 180
+        },
+        {
+          "end": 307,
+          "line": 7,
+          "locator": "line:7",
+          "start": 240
+        },
+        {
+          "end": 519,
+          "line": 9,
+          "locator": "line:9",
+          "start": 309
+        },
+        {
+          "end": 532,
+          "line": 11,
+          "locator": "line:11",
+          "start": 521
+        },
+        {
+          "end": 547,
+          "line": 12,
+          "locator": "line:12",
+          "start": 534
+        },
+        {
+          "end": 578,
+          "line": 13,
+          "locator": "line:13",
+          "start": 549
+        },
+        {
+          "end": 631,
+          "line": 14,
+          "locator": "line:14",
+          "start": 580
+        },
+        {
+          "end": 675,
+          "line": 15,
+          "locator": "line:15",
+          "start": 633
+        },
+        {
+          "end": 750,
+          "line": 17,
+          "locator": "line:17",
+          "start": 677
+        },
+        {
+          "end": 825,
+          "line": 18,
+          "locator": "line:18",
+          "start": 752
+        },
+        {
+          "end": 868,
+          "line": 19,
+          "locator": "line:19",
+          "start": 827
+        },
+        {
+          "end": 896,
+          "line": 21,
+          "locator": "line:21",
+          "start": 870
+        },
+        {
+          "end": 944,
+          "line": 22,
+          "locator": "line:22",
+          "start": 898
+        },
+        {
+          "end": 985,
+          "line": 23,
+          "locator": "line:23",
+          "start": 946
+        },
+        {
+          "end": 1030,
+          "line": 24,
+          "locator": "line:24",
+          "start": 987
+        },
+        {
+          "end": 1078,
+          "line": 25,
+          "locator": "line:25",
+          "start": 1032
+        },
+        {
+          "end": 1121,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1080
+        },
+        {
+          "end": 1352,
+          "line": 28,
+          "locator": "line:28",
+          "start": 1123
+        },
+        {
+          "end": 1366,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1354
+        },
+        {
+          "end": 1392,
+          "line": 31,
+          "locator": "line:31",
+          "start": 1368
+        },
+        {
+          "end": 1423,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1394
+        },
+        {
+          "end": 1476,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1425
+        },
+        {
+          "end": 1520,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1478
+        },
+        {
+          "end": 1595,
+          "line": 36,
+          "locator": "line:36",
+          "start": 1522
+        },
+        {
+          "end": 1670,
+          "line": 37,
+          "locator": "line:37",
+          "start": 1597
+        },
+        {
+          "end": 1713,
+          "line": 38,
+          "locator": "line:38",
+          "start": 1672
+        }
+      ],
+      "text": "Date: Tue, 21 Feb 2023 09:12:00 -0800\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nCc: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSubject: RE: Whistleblower complaint received \u2014 privileged\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nThis response and the attached preliminary assessment are provided as legal advice in anticipation of potential regulatory inquiry and are privileged. Recommend engaging outside counsel now rather than waiting.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSent: Monday, February 20, 2023 7:58 AM\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Whistleblower complaint received\n\nJohn, Elena \u2014 we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately.\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-021",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-021_Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "d4172485ef40d3acf7420e20467ac92a1fc1fb92fdd18e7d742494fcf04bdc2d",
+        "text_sha256": "ae1ea689ae024583419d42cb5f1285f5e76e2ab273960aa2b0c65831e059035c"
+      },
+      "source_date": "2023-02-24T15:40:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 123,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 171,
+          "line": 4,
+          "locator": "line:4",
+          "start": 125
+        },
+        {
+          "end": 224,
+          "line": 5,
+          "locator": "line:5",
+          "start": 173
+        },
+        {
+          "end": 293,
+          "line": 7,
+          "locator": "line:7",
+          "start": 226
+        },
+        {
+          "end": 517,
+          "line": 9,
+          "locator": "line:9",
+          "start": 295
+        },
+        {
+          "end": 530,
+          "line": 11,
+          "locator": "line:11",
+          "start": 519
+        },
+        {
+          "end": 545,
+          "line": 12,
+          "locator": "line:12",
+          "start": 532
+        },
+        {
+          "end": 576,
+          "line": 13,
+          "locator": "line:13",
+          "start": 547
+        },
+        {
+          "end": 629,
+          "line": 14,
+          "locator": "line:14",
+          "start": 578
+        },
+        {
+          "end": 673,
+          "line": 15,
+          "locator": "line:15",
+          "start": 631
+        },
+        {
+          "end": 748,
+          "line": 17,
+          "locator": "line:17",
+          "start": 675
+        },
+        {
+          "end": 823,
+          "line": 18,
+          "locator": "line:18",
+          "start": 750
+        },
+        {
+          "end": 866,
+          "line": 19,
+          "locator": "line:19",
+          "start": 825
+        }
+      ],
+      "text": "Date: Fri, 24 Feb 2023 15:40:00 -0800\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Grace Lin <glin@llassociates.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Engagement \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, following up on our call. Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week. Please treat all related communications as privileged.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-022",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-022_RE_ Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "6e2c7303f2acf74977a4796d54bf0f399ecee71041130cb1c8d15d8864cbd798",
+        "text_sha256": "ca364011ada6c25305578b135d7db4ad11b9a5d6190ce974029496a2fbbecabc"
+      },
+      "source_date": "2023-03-01T10:26:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 78,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 123,
+          "line": 3,
+          "locator": "line:3",
+          "start": 80
+        },
+        {
+          "end": 180,
+          "line": 4,
+          "locator": "line:4",
+          "start": 125
+        },
+        {
+          "end": 249,
+          "line": 6,
+          "locator": "line:6",
+          "start": 182
+        },
+        {
+          "end": 482,
+          "line": 8,
+          "locator": "line:8",
+          "start": 251
+        },
+        {
+          "end": 493,
+          "line": 10,
+          "locator": "line:10",
+          "start": 484
+        },
+        {
+          "end": 523,
+          "line": 11,
+          "locator": "line:11",
+          "start": 495
+        },
+        {
+          "end": 583,
+          "line": 12,
+          "locator": "line:12",
+          "start": 525
+        },
+        {
+          "end": 631,
+          "line": 13,
+          "locator": "line:13",
+          "start": 585
+        },
+        {
+          "end": 707,
+          "line": 15,
+          "locator": "line:15",
+          "start": 633
+        },
+        {
+          "end": 782,
+          "line": 16,
+          "locator": "line:16",
+          "start": 709
+        },
+        {
+          "end": 852,
+          "line": 17,
+          "locator": "line:17",
+          "start": 784
+        },
+        {
+          "end": 924,
+          "line": 18,
+          "locator": "line:18",
+          "start": 854
+        },
+        {
+          "end": 956,
+          "line": 19,
+          "locator": "line:19",
+          "start": 926
+        },
+        {
+          "end": 984,
+          "line": 21,
+          "locator": "line:21",
+          "start": 958
+        },
+        {
+          "end": 1031,
+          "line": 22,
+          "locator": "line:22",
+          "start": 986
+        },
+        {
+          "end": 1072,
+          "line": 23,
+          "locator": "line:23",
+          "start": 1033
+        },
+        {
+          "end": 1111,
+          "line": 24,
+          "locator": "line:24",
+          "start": 1074
+        },
+        {
+          "end": 1159,
+          "line": 25,
+          "locator": "line:25",
+          "start": 1113
+        },
+        {
+          "end": 1212,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1161
+        },
+        {
+          "end": 1281,
+          "line": 28,
+          "locator": "line:28",
+          "start": 1214
+        },
+        {
+          "end": 1505,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1283
+        },
+        {
+          "end": 1518,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1507
+        },
+        {
+          "end": 1533,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1520
+        },
+        {
+          "end": 1564,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1535
+        },
+        {
+          "end": 1617,
+          "line": 35,
+          "locator": "line:35",
+          "start": 1566
+        },
+        {
+          "end": 1661,
+          "line": 36,
+          "locator": "line:36",
+          "start": 1619
+        },
+        {
+          "end": 1736,
+          "line": 38,
+          "locator": "line:38",
+          "start": 1663
+        },
+        {
+          "end": 1811,
+          "line": 39,
+          "locator": "line:39",
+          "start": 1738
+        },
+        {
+          "end": 1854,
+          "line": 40,
+          "locator": "line:40",
+          "start": 1813
+        }
+      ],
+      "text": "Date: Wed, 01 Mar 2023 10:26:00 -0800\n\nFrom: Grace Lin <glin@llassociates.com>\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nSubject: RE: Engagement \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nJohn, received the custodian list. Note the spreadsheet includes an unredacted patient ID field (MRN 88213-A) in row 14 that appears to be leftover from an unrelated matter template \u2014 worth scrubbing before this circulates further.\n\nGrace Lin\n\nPartner | L&L Associates LLP\n\n510 California Street, Suite 2400, San Francisco, CA 94104\n\nDirect: (415) 555-0121 | glin@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\n\nmay contain information that is privileged, confidential, and exempt from\n\ndisclosure under applicable law. It is intended solely for the named\n\nrecipient(s). If you received this message in error, please notify the\n\nsender and destroy all copies.\n\n-----Original Message-----\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nSent: Friday, February 24, 2023 3:40 PM\n\nTo: Grace Lin <glin@llassociates.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Engagement \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, following up on our call. Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week. Please treat all related communications as privileged.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-023",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-023_IRS subpoena received.eml",
+        "source_sha256": "fea90259e76af2992e5afc7e0222290b63fe590d4ff5c37427353bcb8b720b06",
+        "text_sha256": "c9bada07b0c693f9fb607fb9fb10120c5d9e4d2dc742a5522ea2ef849cd1a22f"
+      },
+      "source_date": "2023-05-23T08:05:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 132,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 185,
+          "line": 4,
+          "locator": "line:4",
+          "start": 134
+        },
+        {
+          "end": 217,
+          "line": 5,
+          "locator": "line:5",
+          "start": 187
+        },
+        {
+          "end": 474,
+          "line": 7,
+          "locator": "line:7",
+          "start": 219
+        },
+        {
+          "end": 487,
+          "line": 9,
+          "locator": "line:9",
+          "start": 476
+        },
+        {
+          "end": 502,
+          "line": 10,
+          "locator": "line:10",
+          "start": 489
+        },
+        {
+          "end": 533,
+          "line": 11,
+          "locator": "line:11",
+          "start": 504
+        },
+        {
+          "end": 586,
+          "line": 12,
+          "locator": "line:12",
+          "start": 535
+        },
+        {
+          "end": 630,
+          "line": 13,
+          "locator": "line:13",
+          "start": 588
+        },
+        {
+          "end": 705,
+          "line": 15,
+          "locator": "line:15",
+          "start": 632
+        },
+        {
+          "end": 780,
+          "line": 16,
+          "locator": "line:16",
+          "start": 707
+        },
+        {
+          "end": 823,
+          "line": 17,
+          "locator": "line:17",
+          "start": 782
+        }
+      ],
+      "text": "Date: Tue, 23 May 2023 08:05:00 -0700\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nCc: Robert Denniston <rdenniston@cascadetimber.com>\n\nSubject: IRS subpoena received\n\nElena, Rob \u2014 we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners. We have three weeks to respond.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-054",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-054_FW_ IRS subpoena received.eml",
+        "source_sha256": "465e5e856c871ca85896ef5281c9a5e68f5ebb3d912244c5fc09979e09eb6ca0",
+        "text_sha256": "a039f474188e7e345535940944ca3f17f64ef53188baa293fbee29ad741839c3"
+      },
+      "source_date": "2023-05-23T09:15:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 123,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 159,
+          "line": 4,
+          "locator": "line:4",
+          "start": 125
+        },
+        {
+          "end": 228,
+          "line": 6,
+          "locator": "line:6",
+          "start": 161
+        },
+        {
+          "end": 389,
+          "line": 8,
+          "locator": "line:8",
+          "start": 230
+        },
+        {
+          "end": 402,
+          "line": 10,
+          "locator": "line:10",
+          "start": 391
+        },
+        {
+          "end": 417,
+          "line": 11,
+          "locator": "line:11",
+          "start": 404
+        },
+        {
+          "end": 448,
+          "line": 12,
+          "locator": "line:12",
+          "start": 419
+        },
+        {
+          "end": 501,
+          "line": 13,
+          "locator": "line:13",
+          "start": 450
+        },
+        {
+          "end": 545,
+          "line": 14,
+          "locator": "line:14",
+          "start": 503
+        },
+        {
+          "end": 620,
+          "line": 16,
+          "locator": "line:16",
+          "start": 547
+        },
+        {
+          "end": 695,
+          "line": 17,
+          "locator": "line:17",
+          "start": 622
+        },
+        {
+          "end": 738,
+          "line": 18,
+          "locator": "line:18",
+          "start": 697
+        },
+        {
+          "end": 766,
+          "line": 20,
+          "locator": "line:20",
+          "start": 740
+        },
+        {
+          "end": 813,
+          "line": 21,
+          "locator": "line:21",
+          "start": 768
+        },
+        {
+          "end": 850,
+          "line": 22,
+          "locator": "line:22",
+          "start": 815
+        },
+        {
+          "end": 898,
+          "line": 23,
+          "locator": "line:23",
+          "start": 852
+        },
+        {
+          "end": 951,
+          "line": 24,
+          "locator": "line:24",
+          "start": 900
+        },
+        {
+          "end": 983,
+          "line": 25,
+          "locator": "line:25",
+          "start": 953
+        },
+        {
+          "end": 1240,
+          "line": 27,
+          "locator": "line:27",
+          "start": 985
+        },
+        {
+          "end": 1253,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1242
+        },
+        {
+          "end": 1268,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1255
+        },
+        {
+          "end": 1299,
+          "line": 31,
+          "locator": "line:31",
+          "start": 1270
+        },
+        {
+          "end": 1352,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1301
+        },
+        {
+          "end": 1396,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1354
+        },
+        {
+          "end": 1471,
+          "line": 35,
+          "locator": "line:35",
+          "start": 1398
+        },
+        {
+          "end": 1546,
+          "line": 36,
+          "locator": "line:36",
+          "start": 1473
+        },
+        {
+          "end": 1589,
+          "line": 37,
+          "locator": "line:37",
+          "start": 1548
+        }
+      ],
+      "text": "Date: Tue, 23 May 2023 09:15:00 -0700\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Grace Lin <glin@llassociates.com>\n\nSubject: FW: IRS subpoena received\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, forwarding the subpoena we received this morning. Can we talk today on response strategy, including how this interacts with the ongoing internal review?\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nSent: Tuesday, May 23, 2023 8:05 AM\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nCc: Robert Denniston <rdenniston@cascadetimber.com>\n\nSubject: IRS subpoena received\n\nElena, Rob \u2014 we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners. We have three weeks to respond.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-095",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Tom_Reyes/EMAIL-095_Mountain Ridge Reforestation Credit _ parcel list.eml",
+        "source_sha256": "026662f5ecc1119105c422a90c184e2c92079383318cba813a17895d257e4fef",
+        "text_sha256": "9a493c2baf08f639dd4e063fec59505c3efc0dcfe97fcd79348cad6f84485ebb"
+      },
+      "source_date": "2022-04-05T09:30:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 86,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 133,
+          "line": 3,
+          "locator": "line:3",
+          "start": 88
+        },
+        {
+          "end": 193,
+          "line": 4,
+          "locator": "line:4",
+          "start": 135
+        },
+        {
+          "end": 382,
+          "line": 6,
+          "locator": "line:6",
+          "start": 195
+        },
+        {
+          "end": 393,
+          "line": 8,
+          "locator": "line:8",
+          "start": 384
+        },
+        {
+          "end": 442,
+          "line": 9,
+          "locator": "line:9",
+          "start": 395
+        },
+        {
+          "end": 473,
+          "line": 10,
+          "locator": "line:10",
+          "start": 444
+        }
+      ],
+      "text": "Date: Tue, 05 Apr 2022 09:30:00 -0700\n\nFrom: Tom Reyes <treyes@alderpointpartners.com>\n\nTo: Priya Shah <pshah@alderpointpartners.com>\n\nSubject: Mountain Ridge Reforestation Credit \u2014 parcel list\n\nPriya, here's the parcel list for the Mountain Ridge Reforestation Credit batch \u2014 unrelated program, separate from Coastal Solar. Everything here checked out clean against county records.\n\nTom Reyes\n\nLand Acquisition Manager | Alder Point Partners\n\ntreyes@alderpointpartners.com"
+    },
+    {
+      "document_id": "EMAIL-098",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-098_Mountain Ridge Reforestation Credit _ Q2 update.eml",
+        "source_sha256": "243424741bfa764755db77f22fa81514671eebb95a592343e66fbe4204d970f0",
+        "text_sha256": "12e0b5f40d8517ab32ccf44f83b991423c7ffbe8390ebff96dd2993073e079bc"
+      },
+      "source_date": "2022-05-01T08:30:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 87,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 140,
+          "line": 3,
+          "locator": "line:3",
+          "start": 89
+        },
+        {
+          "end": 198,
+          "line": 4,
+          "locator": "line:4",
+          "start": 142
+        },
+        {
+          "end": 334,
+          "line": 6,
+          "locator": "line:6",
+          "start": 200
+        },
+        {
+          "end": 349,
+          "line": 8,
+          "locator": "line:8",
+          "start": 336
+        },
+        {
+          "end": 374,
+          "line": 9,
+          "locator": "line:9",
+          "start": 351
+        },
+        {
+          "end": 405,
+          "line": 10,
+          "locator": "line:10",
+          "start": 376
+        },
+        {
+          "end": 458,
+          "line": 11,
+          "locator": "line:11",
+          "start": 407
+        },
+        {
+          "end": 503,
+          "line": 12,
+          "locator": "line:12",
+          "start": 460
+        },
+        {
+          "end": 578,
+          "line": 14,
+          "locator": "line:14",
+          "start": 505
+        },
+        {
+          "end": 653,
+          "line": 15,
+          "locator": "line:15",
+          "start": 580
+        },
+        {
+          "end": 696,
+          "line": 16,
+          "locator": "line:16",
+          "start": 655
+        }
+      ],
+      "text": "Date: Sun, 01 May 2022 08:30:00 -0700\n\nFrom: Elena Marlowe <emarlowe@cascadetimber.com>\n\nTo: Robert Denniston <rdenniston@cascadetimber.com>\n\nSubject: Mountain Ridge Reforestation Credit \u2014 Q2 update\n\nRob, Mountain Ridge is tracking well for Q2, no concerns there. Different story from Coastal Solar but good to have one clean program.\n\nElena Marlowe\n\nChief Executive Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0101 | emarlowe@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    }
+  ],
+  "limitations": [
+    "This dossier includes evaluator proofs and is excluded from observations.",
+    "No live legal research, global writes, real sending or model runs performed.",
+    "No absence inferred from failed/unverified OCR; unsupported choices remain unknown.",
+    "Source-dependent knowledge states use report availability at the episode cutoff."
+  ]
+}

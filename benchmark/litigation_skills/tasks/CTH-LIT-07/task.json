@@ -1,0 +1,509 @@
+{
+  "task_id": "CTH-LIT-07",
+  "skill": "demand-draft",
+  "title": "Preservation drafting gate and safe handoff",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-12-31T23:59:59-08:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-06"
+  ],
+  "instruction": "Consume the supplied unapproved preservation intake and prepare a precise drafting handoff plus supported candidate letter components. Missing posture and authority must remain unresolved; a complete outgoing letter and Word rendering are out of scope until the blockers are supplied. Preserve the prerequisite artifact. Write the declared local artifact and submit the evidence-backed findings. Every required support/counter proposition must be cited from read source text. No sending, filing, live research, global profile or real calendar actions. Task parameters select this simulated exercise; they are not new historical events.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "What is the proper drafting disposition given the prerequisite and direct-request evidence?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "disposition": {
+            "type": "string",
+            "enum": [
+              "hold_for_missing_instructions",
+              "send_ready",
+              "historically_sent"
+            ],
+            "maxLength": 2048
+          },
+          "complete_letter": {
+            "type": "boolean"
+          },
+          "send_status": {
+            "type": "string",
+            "enum": [
+              "not_sent",
+              "sent"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "disposition",
+          "complete_letter",
+          "send_status"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F02",
+      "question": "Select a factual preservation scope clause for internal review without claiming technical completion.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "recipient": {
+            "type": "string",
+            "enum": [
+              "Bellhaven Advisory",
+              "Cascade IT"
+            ],
+            "maxLength": 2048
+          },
+          "request_component": {
+            "type": "string",
+            "enum": [
+              "preserve_native_program_files_and_confirm_scope",
+              "confirm_all_systems_already_held",
+              "delete_duplicate_program_files"
+            ],
+            "maxLength": 2048
+          },
+          "claim_existing_coverage": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "recipient",
+          "request_component",
+          "claim_existing_coverage"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "May the candidate letter allege that Nina’s departure destroyed the mailbox?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "allegation": {
+            "type": "string",
+            "enum": [
+              "exclude_unsupported_deletion",
+              "assert_spoliation"
+            ],
+            "maxLength": 2048
+          },
+          "source_state": {
+            "type": "string",
+            "enum": [
+              "disabled_not_deleted",
+              "deleted"
+            ],
+            "maxLength": 2048
+          },
+          "preserve_confirmation": {
+            "type": "string",
+            "enum": [
+              "retain_export_and_hold",
+              "authorize_release"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "allegation",
+          "source_state",
+          "preserve_confirmation"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Can the IRS instrument’s deadline supply a deadline or sanctions clause for this new private request?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "response_deadline": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sanctions_authority": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "deadline_source": {
+            "type": "string",
+            "enum": [
+              "requires_new_instruction",
+              "copy_irs_due_date"
+            ],
+            "maxLength": 2048
+          },
+          "instrument_scope": {
+            "type": "string",
+            "enum": [
+              "different_government_request",
+              "same_private_demand"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "response_deadline",
+          "sanctions_authority",
+          "deadline_source",
+          "instrument_scope"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F05",
+      "question": "What should the internal drafting checklist preserve about legal strategy and consequential action?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "internal_analysis": {
+            "type": "string",
+            "enum": [
+              "exclude_from_external_candidate_text",
+              "quote_internal_exposure_workbook"
+            ],
+            "maxLength": 2048
+          },
+          "approval": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "confirmed"
+            ],
+            "maxLength": 2048
+          },
+          "execution": {
+            "type": "string",
+            "enum": [
+              "no_send_or_calendar",
+              "send_and_calendar"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "internal_analysis",
+          "approval",
+          "execution"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    }
+  ],
+  "artifact_schemas": {
+    "demand/draft-handoff.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "blocked_draft_handoff",
+            "approved_final",
+            "sent"
+          ],
+          "maxLength": 2048
+        },
+        "externally_sent": {
+          "type": "boolean"
+        },
+        "authority_confirmed": {
+          "type": "boolean"
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "disposition": {
+                  "type": "string",
+                  "enum": [
+                    "hold_for_missing_instructions",
+                    "send_ready",
+                    "historically_sent"
+                  ],
+                  "maxLength": 2048
+                },
+                "complete_letter": {
+                  "type": "boolean"
+                },
+                "send_status": {
+                  "type": "string",
+                  "enum": [
+                    "not_sent",
+                    "sent"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "disposition",
+                "complete_letter",
+                "send_status"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "recipient": {
+                  "type": "string",
+                  "enum": [
+                    "Bellhaven Advisory",
+                    "Cascade IT"
+                  ],
+                  "maxLength": 2048
+                },
+                "request_component": {
+                  "type": "string",
+                  "enum": [
+                    "preserve_native_program_files_and_confirm_scope",
+                    "confirm_all_systems_already_held",
+                    "delete_duplicate_program_files"
+                  ],
+                  "maxLength": 2048
+                },
+                "claim_existing_coverage": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "recipient",
+                "request_component",
+                "claim_existing_coverage"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "allegation": {
+                  "type": "string",
+                  "enum": [
+                    "exclude_unsupported_deletion",
+                    "assert_spoliation"
+                  ],
+                  "maxLength": 2048
+                },
+                "source_state": {
+                  "type": "string",
+                  "enum": [
+                    "disabled_not_deleted",
+                    "deleted"
+                  ],
+                  "maxLength": 2048
+                },
+                "preserve_confirmation": {
+                  "type": "string",
+                  "enum": [
+                    "retain_export_and_hold",
+                    "authorize_release"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "allegation",
+                "source_state",
+                "preserve_confirmation"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "response_deadline": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "sanctions_authority": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "deadline_source": {
+                  "type": "string",
+                  "enum": [
+                    "requires_new_instruction",
+                    "copy_irs_due_date"
+                  ],
+                  "maxLength": 2048
+                },
+                "instrument_scope": {
+                  "type": "string",
+                  "enum": [
+                    "different_government_request",
+                    "same_private_demand"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "response_deadline",
+                "sanctions_authority",
+                "deadline_source",
+                "instrument_scope"
+              ],
+              "additionalProperties": false
+            },
+            "F05": {
+              "type": "object",
+              "properties": {
+                "internal_analysis": {
+                  "type": "string",
+                  "enum": [
+                    "exclude_from_external_candidate_text",
+                    "quote_internal_exposure_workbook"
+                  ],
+                  "maxLength": 2048
+                },
+                "approval": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "confirmed"
+                  ],
+                  "maxLength": 2048
+                },
+                "execution": {
+                  "type": "string",
+                  "enum": [
+                    "no_send_or_calendar",
+                    "send_and_calendar"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "internal_analysis",
+                "approval",
+                "execution"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "status",
+        "externally_sent",
+        "authority_confirmed",
+        "content"
+      ],
+      "additionalProperties": false
+    },
+    "demand/intake.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft_prerequisite",
+            "approved"
+          ],
+          "maxLength": 2048
+        },
+        "request_type": {
+          "type": "string",
+          "enum": [
+            "preservation",
+            "payment"
+          ],
+          "maxLength": 2048
+        },
+        "candidate_recipient": {
+          "type": "string",
+          "enum": [
+            "Bellhaven Advisory",
+            "Alder Point Partners"
+          ],
+          "maxLength": 2048
+        },
+        "signer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "response_window": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "legal_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approved": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "request_type",
+        "candidate_recipient",
+        "signer",
+        "tone",
+        "response_window",
+        "legal_basis",
+        "approved"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Drafts remain local and unapproved.",
+    "Unknown authority, missing facts and differing evidence scopes stay explicit.",
+    "Evidence dates are distinct from dates of later reports; never infer completion from a plan."
+  ],
+  "policy_sha256": "9385c7d71230ebb79667c8580eb44c27dde8c7ca73c79203574f2c2f8d770a9e",
+  "schema_sha256": "b0873e3a99a11f1c10647de2a5f78d49cd5f43c98286a8f8df523ad5fc3a91b3",
+  "fixtures_sha256": "c91eea0182c79d942d568c19b6edd99862b29c0096ed784affbf985475a98c61",
+  "oracle_sha256": "39d4443022ed2f7c98186ccaad55102254c87be1ab79e7b6dee00efc5d861d72",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

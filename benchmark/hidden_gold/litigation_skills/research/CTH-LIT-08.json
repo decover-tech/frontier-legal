@@ -1,0 +1,789 @@
+{
+  "task_id": "CTH-LIT-08",
+  "authoring_only": true,
+  "not_runner_input": "This file contains research and candidate answers; runner must not expose it.",
+  "cutoff": "2023-09-06T23:59:59-07:00",
+  "reference_skill_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "sources": [
+    {
+      "source_id": "EMAIL-023",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-023_IRS subpoena received.eml",
+      "sha256": "fea90259e76af2992e5afc7e0222290b63fe590d4ff5c37427353bcb8b720b06",
+      "date": "Tue, 23 May 2023 08:05:00 -0700",
+      "from": "John Ellery <jellery@cascadetimber.com>",
+      "to": "Elena Marlowe <emarlowe@cascadetimber.com>",
+      "subject": "IRS subpoena received",
+      "text": "Elena, Rob \u2014 we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners. We have three weeks to respond.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "9ef80d9e6d74cfa9bb1df754504bf44e0a85b48c0a5d5d4bd6c3e74986853775",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        },
+        {
+          "filename": "IRS_Subpoena_Coastal_Solar_Credit_Program.pdf",
+          "sha256": "ca39ab3e1770d15afc9a91080819801bcafc6662d4f16d9969add067dc5cba16",
+          "mime_type": "application/pdf",
+          "extraction_status": "text_layer_extracted",
+          "ocr": "not_performed",
+          "pages": [
+            {
+              "page": 1,
+              "text": "SUBPOENA DUCES TECUM\nUNITED STATES OF AMERICA \u2014 DEPARTMENT OF THE TREASURY\nINTERNAL REVENUE SERVICE\nTO:  Cascade Timber Holdings, Attn: Legal Department, Portland, OR\nDATE ISSUED:  May 23, 2023\nRESPONSE DUE:  On or before June 13, 2023 (21 days)\nYOU ARE HEREBY COMMANDED to produce the books, papers, records, and other data described\nbelow relating to the Coastal Solar Credit Program:\nDocument Requests\n1. All marketing materials related to the Coastal Solar Credit Program, including but not limited to\nbroker network materials distributed in 2022 and 2023.\n2. All investor communications regarding the Coastal Solar Credit Program.\n3. All records, communications, and agreements between Cascade Timber Holdings, Alder Point\nPartners, and any brokers engaged in connection with the Coastal Solar Credit Program, including\nBellhaven Advisory.\n4. All records concerning land parcel conservation eligibility determinations made in connection with\nCoastal Solar credit applications.\nCertification\nFailure to comply with this subpoena may result in enforcement proceedings in the United States\nDistrict Court.\n/s/ Revenue Agent \u2014 Internal Revenue Service, Examination Division\n"
+            }
+          ],
+          "visual_review": "All pages rendered at 1400px with pdftoppm and visually inspected; text and page headings verified."
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-024",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-024_Legal hold notice _ Coastal Solar Credit Program.eml",
+      "sha256": "5a2ae2d91bfb313f774fb1b4c56634359bf4b90276c0b041f4b00081d83435ef",
+      "date": "Tue, 13 Jun 2023 17:00:00 -0700",
+      "from": "John Ellery <jellery@cascadetimber.com>",
+      "to": "All Staff <allstaff@cascadetimber.com>",
+      "subject": "Legal hold notice \u2014 Coastal Solar Credit Program",
+      "text": "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "9ef80d9e6d74cfa9bb1df754504bf44e0a85b48c0a5d5d4bd6c3e74986853775",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        },
+        {
+          "filename": "Legal_Hold_Notice_Coastal_Solar.pdf",
+          "sha256": "ad066076d527fb17a16c889da5773933ab172e85f333180450d9f9dcc7d4651a",
+          "mime_type": "application/pdf",
+          "extraction_status": "text_layer_extracted",
+          "ocr": "not_performed",
+          "pages": [
+            {
+              "page": 1,
+              "text": "LITIGATION HOLD NOTICE\nCASCADE TIMBER HOLDINGS \u2014 LEGAL DEPARTMENT\nTO:  All Cascade Timber Holdings Staff\nFROM:  John Ellery, Head of Legal\nDATE:  June 13, 2023\nRE:  Litigation Hold \u2014 Coastal Solar Credit Program\nThis is a formal legal hold notice. Cascade Timber Holdings has received a subpoena from the Internal\nRevenue Service concerning the Coastal Solar Credit Program.\nYou are required to preserve all documents, communications, and records \u2014 in any format, including\nemail, drafts, calendar invites, text messages, and hard-copy documents \u2014 relating to: (1) the Coastal\nSolar Credit Program; (2) Alder Point Partners; and (3) Bellhaven Advisory.\nDo not delete, modify, or otherwise dispose of any potentially relevant materials pending further notice\nfrom Legal. This obligation applies even to materials you might otherwise delete or overwrite in the\nordinary course of business.\nDirect any questions to Legal before taking any action that could affect potentially relevant materials.\n"
+            }
+          ],
+          "visual_review": "All pages rendered at 1400px with pdftoppm and visually inspected; text and page headings verified."
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-025",
+      "source_path": "data/emails/Custodians/Priya_Shah/EMAIL-025_Legal hold _ please confirm.eml",
+      "sha256": "37917be212bee2353ce009727e686784f4ecc25d16a885ee6f2cd717226fd9ed",
+      "date": "Wed, 14 Jun 2023 09:15:00 -0700",
+      "from": "Priya Shah <pshah@alderpointpartners.com>",
+      "to": "Tom Reyes <treyes@alderpointpartners.com>",
+      "subject": "Legal hold \u2014 please confirm",
+      "text": "Confirming receipt of the legal hold notice. Please make sure nothing related to Coastal Solar gets deleted, including old drafts and calendar invites.\n\nPriya Shah\nVP Business Development | Alder Point Partners\npshah@alderpointpartners.com\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-054",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-054_FW_ IRS subpoena received.eml",
+      "sha256": "465e5e856c871ca85896ef5281c9a5e68f5ebb3d912244c5fc09979e09eb6ca0",
+      "date": "Tue, 23 May 2023 09:15:00 -0700",
+      "from": "John Ellery <jellery@cascadetimber.com>",
+      "to": "Grace Lin <glin@llassociates.com>",
+      "subject": "FW: IRS subpoena received",
+      "text": "*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, forwarding the subpoena we received this morning. Can we talk today on response strategy, including how this interacts with the ongoing internal review?\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n\n-----Original Message-----\nFrom: John Ellery <jellery@cascadetimber.com>\nSent: Tuesday, May 23, 2023 8:05 AM\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\nCc: Robert Denniston <rdenniston@cascadetimber.com>\nSubject: IRS subpoena received\n\nElena, Rob \u2014 we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners. We have three weeks to respond.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "9ef80d9e6d74cfa9bb1df754504bf44e0a85b48c0a5d5d4bd6c3e74986853775",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-055",
+      "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-055_RE_ FW_ IRS subpoena received.eml",
+      "sha256": "0dbe85426645f45e2280a8d710a9feb1796c08d8e94752a7f22ec920a659d0f4",
+      "date": "Wed, 24 May 2023 10:00:00 -0700",
+      "from": "Grace Lin <glin@llassociates.com>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "RE: FW: IRS subpoena received",
+      "text": "*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nJohn, this response is privileged. Recommend we (1) segregate privileged materials from the production set, (2) coordinate with Alder Point on jointly-held documents, and (3) request a short extension given the review already underway. I can draft the extension request today.\n\nGrace Lin\nPartner | L&L Associates LLP\n510 California Street, Suite 2400, San Francisco, CA 94104\nDirect: (415) 555-0121 | glin@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\nmay contain information that is privileged, confidential, and exempt from\ndisclosure under applicable law. It is intended solely for the named\nrecipient(s). If you received this message in error, please notify the\nsender and destroy all copies.\n\n-----Original Message-----\nFrom: John Ellery <jellery@cascadetimber.com>\nSent: Tuesday, May 23, 2023 9:15 AM\nTo: Grace Lin <glin@llassociates.com>\nSubject: FW: IRS subpoena received\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, forwarding the subpoena we received this morning. Can we talk today on response strategy, including how this interacts with the ongoing internal review?\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n\n-----Original Message-----\nFrom: John Ellery <jellery@cascadetimber.com>\nSent: Tuesday, May 23, 2023 8:05 AM\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\nCc: Robert Denniston <rdenniston@cascadetimber.com>\nSubject: IRS subpoena received\n\nElena, Rob \u2014 we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners. We have three weeks to respond.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-056",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-056_Coastal Solar Credit Program subpoena _ extension request.eml",
+      "sha256": "7d90e728e269d8b823b7d3059fe237635d6486eac55a5b2cd172e00388b208c2",
+      "date": "Thu, 25 May 2023 13:30:00 -0700",
+      "from": "John Ellery <jellery@cascadetimber.com>",
+      "to": "Kevin Tran <kevin.tran@irs.gov>",
+      "subject": "Coastal Solar Credit Program subpoena \u2014 extension request",
+      "text": "Agent Tran, thank you for the May 23 subpoena. Given the volume of records involved, we respectfully request a one-week extension on the production deadline. Happy to discuss scope in the meantime.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "9ef80d9e6d74cfa9bb1df754504bf44e0a85b48c0a5d5d4bd6c3e74986853775",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-057",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-057_RE_ Coastal Solar Credit Program subpoena _ extension reques.eml",
+      "sha256": "7eba35f95bbf229e9b9d6e2eda4d1d0e2dac6ebd3c81178a6cb134e1aedc59cb",
+      "date": "Wed, 31 May 2023 09:45:00 -0400",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "RE: Coastal Solar Credit Program subpoena \u2014 extension request",
+      "text": "Mr. Ellery, the Service grants a one-week extension. Revised production deadline is noted on our end. Please reach out with any scope questions.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n\n-----Original Message-----\nFrom: John Ellery <jellery@cascadetimber.com>\nSent: Thursday, May 25, 2023 1:30 PM\nTo: Kevin Tran <kevin.tran@irs.gov>\nSubject: Coastal Solar Credit Program subpoena \u2014 extension request\n\nAgent Tran, thank you for the May 23 subpoena. Given the volume of records involved, we respectfully request a one-week extension on the production deadline. Happy to discuss scope in the meantime.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-058",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-058_Document collection _ technical scope.eml",
+      "sha256": "64d5bc3f946fb10c333b61482c6a6bc32adbf7a665eca048dc8735352f2f97dc",
+      "date": "Tue, 30 May 2023 15:00:00 -0700",
+      "from": "Alan Brooks <abrooks@llassociates.com>",
+      "to": "Dan Osei <dosei@cascadetimber.com>",
+      "subject": "Document collection \u2014 technical scope",
+      "text": "Dan, per John Ellery, we need to scope mailbox exports for the custodian list for the Coastal Solar internal review and subpoena response. Can you send mailbox sizes and confirm hold status for each custodian?\n\nAlan Brooks\nParalegal | L&L Associates LLP\n510 California Street, Suite 2400, San Francisco, CA 94104\nDirect: (415) 555-0123 | abrooks@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\nmay contain information that is privileged, confidential, and exempt from\ndisclosure under applicable law. It is intended solely for the named\nrecipient(s). If you received this message in error, please notify the\nsender and destroy all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-059",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-059_RE_ Document collection _ technical scope.eml",
+      "sha256": "e97cbc05bc53a494ac6e00dadf91f31610833344384b4e4fbf5dea794cf31fa2",
+      "date": "Fri, 02 Jun 2023 11:20:00 -0700",
+      "from": "Dan Osei <dosei@cascadetimber.com>",
+      "to": "Alan Brooks <abrooks@llassociates.com>",
+      "subject": "RE: Document collection \u2014 technical scope",
+      "text": "Alan, mailbox export scope attached. Note Nina Alvarez's mailbox is flagged pending \u2014 HR mentioned she's departing at the end of June, so we should get her hold applied and export prioritized before then.\n\nDan Osei\nIT Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0108 | dosei@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n\n-----Original Message-----\nFrom: Alan Brooks <abrooks@llassociates.com>\nSent: Tuesday, May 30, 2023 3:00 PM\nTo: Dan Osei <dosei@cascadetimber.com>\nSubject: Document collection \u2014 technical scope\n\nDan, per John Ellery, we need to scope mailbox exports for the custodian list for the Coastal Solar internal review and subpoena response. Can you send mailbox sizes and confirm hold status for each custodian?\n\nAlan Brooks\nParalegal | L&L Associates LLP\n510 California Street, Suite 2400, San Francisco, CA 94104\nDirect: (415) 555-0123 | abrooks@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\nmay contain information that is privileged, confidential, and exempt from\ndisclosure under applicable law. It is intended solely for the named\nrecipient(s). If you received this message in error, please notify the\nsender and destroy all copies.\n",
+      "attachments": [
+        {
+          "filename": "Custodian_Mailbox_Export_List.xlsx",
+          "sha256": "83c5da53efa08fac1a60296f672092ed5e3d164a6f10a82bdf4822251fd5bba8",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "extraction_status": "all_sheet_cells_extracted",
+          "ocr": "not_performed",
+          "cells": [
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A1",
+              "value": "Custodian"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B1",
+              "value": "Mailbox"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C1",
+              "value": "Est. Size (GB)"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D1",
+              "value": "Hold Applied"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E1",
+              "value": "Export Status"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A2",
+              "value": "Elena Marlowe"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B2",
+              "value": "emarlowe@cascadetimber.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C2",
+              "value": "12.4"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D2",
+              "value": "Yes"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E2",
+              "value": "Queued"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A3",
+              "value": "Robert Denniston"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B3",
+              "value": "rdenniston@cascadetimber.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C3",
+              "value": "9.800000000000001"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D3",
+              "value": "Yes"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E3",
+              "value": "Queued"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A4",
+              "value": "John Ellery"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B4",
+              "value": "jellery@cascadetimber.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C4",
+              "value": "18.2"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D4",
+              "value": "Yes"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E4",
+              "value": "Excluded \u2014 privileged review track"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A5",
+              "value": "Sarah Nguyen"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B5",
+              "value": "snguyen@cascadetimber.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C5",
+              "value": "7.1"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D5",
+              "value": "Yes"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E5",
+              "value": "Queued"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A6",
+              "value": "Dan Osei"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B6",
+              "value": "dosei@cascadetimber.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C6",
+              "value": "4"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D6",
+              "value": "Yes"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E6",
+              "value": "Queued"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A7",
+              "value": "Wendy Park"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B7",
+              "value": "wpark@cascadetimber.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C7",
+              "value": "3.6"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D7",
+              "value": "Yes"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E7",
+              "value": "Queued"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "A8",
+              "value": "Nina Alvarez"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "B8",
+              "value": "nalvarez@alderpointpartners.com"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "C8",
+              "value": "5.9"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "D8",
+              "value": "Pending \u2014 departing employee"
+            },
+            {
+              "sheet": "xl/worksheets/sheet1.xml",
+              "cell": "E8",
+              "value": "Not started"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-060",
+      "source_path": "data/emails/Custodians/Dan_Osei/EMAIL-060_IT actions for legal hold _ Coastal Solar.eml",
+      "sha256": "8b5ae3b4b089bf8e26ab561c50315776216f87d406873c091d673b280f6f1864",
+      "date": "Tue, 13 Jun 2023 18:10:00 -0700",
+      "from": "Dan Osei <dosei@cascadetimber.com>",
+      "to": "All Staff <allstaff@cascadetimber.com>",
+      "subject": "IT actions for legal hold \u2014 Coastal Solar",
+      "text": "Following today's legal hold notice: auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system. No action needed from you beyond preserving materials as instructed by Legal.\n\nDan Osei\nIT Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0108 | dosei@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-070",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-070_RE_ Coastal Solar _ placements paused.eml",
+      "sha256": "eaf7a4404196c9de81e34b8662a6ecc2a5446ff0c4957b83082ecc59454f819f",
+      "date": "Thu, 06 Jul 2023 10:40:00 -0600",
+      "from": "Renee Ford <rford@bellhavenadvisory.com>",
+      "to": "Derek Holt <dholt@bellhavenadvisory.com>",
+      "subject": "RE: Coastal Solar \u2014 placements paused",
+      "text": "Derek, saw the pause notice from Alder Point. Given the subpoena, should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?\n\nRenee Ford\nCompliance Officer | Bellhaven Advisory\nrford@bellhavenadvisory.com\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-158",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-158_Coastal Solar examination _ production schedule.eml",
+      "sha256": "9d83cb15f38e0885d9bc82ff45fbd31c57f8f50fcb74b166f2070f6b1beadf4f",
+      "date": "Wed, 05 Jul 2023 10:30:00 -0400",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Coastal Solar examination \u2014 production schedule",
+      "text": "Mr. Ellery \u2014 confirming our call last week. Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023. Please provide a rolling production schedule by July 14, and advise if any categories will be withheld under a claim of privilege so we can discuss a privilege log.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-159",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-159_RE_ Coastal Solar examination _ production schedule.eml",
+      "sha256": "71f9347adc43d30d7c2eab98001021f4b9f043f344d643878dbdc0eb931d5802",
+      "date": "Thu, 06 Jul 2023 09:00:00 -0700",
+      "from": "John Ellery <jellery@cascadetimber.com>",
+      "to": "Kevin Tran <kevin.tran@irs.gov>",
+      "subject": "RE: Coastal Solar examination \u2014 production schedule",
+      "text": "Agent Tran \u2014 thank you. We'll circulate the rolling production schedule by the 14th, with the first batch (marketing and program administration records) to follow the week of July 24. A privilege log will accompany any withheld materials.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n\n-----Original Message-----\nFrom: Kevin Tran <kevin.tran@irs.gov>\nSent: Wednesday, July 5, 2023 10:30 AM\nTo: John Ellery <jellery@cascadetimber.com>\nSubject: Coastal Solar examination \u2014 production schedule\n\nMr. Ellery \u2014 confirming our call last week. Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023. Please provide a rolling production schedule by July 14, and advise if any categories will be withheld under a claim of privilege so we can discuss a privilege log.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "9ef80d9e6d74cfa9bb1df754504bf44e0a85b48c0a5d5d4bd6c3e74986853775",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-160",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-160_Coastal Solar examination _ follow-up requests.eml",
+      "sha256": "7d03b682719759792522fd734ad1485e7259db17abbaa7d67a9dfa3aa7ef8852",
+      "date": "Tue, 15 Aug 2023 11:00:00 -0400",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Coastal Solar examination \u2014 follow-up requests",
+      "text": "Mr. Ellery \u2014 thank you for the first production batch. Follow-up items: (1) all broker agreements with Bellhaven Advisory, including amendments; (2) records identifying who approved acreage figures on the Northwest parcel applications; (3) any surveys commissioned for those parcels. Please include these in the second production.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-161",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-161_RE_ Coastal Solar examination _ follow-up requests.eml",
+      "sha256": "b11d219450d3df046f985d3167e14516e42693290cf0fac13f047b853f374e96",
+      "date": "Thu, 17 Aug 2023 14:20:00 -0700",
+      "from": "John Ellery <jellery@cascadetimber.com>",
+      "to": "Kevin Tran <kevin.tran@irs.gov>",
+      "subject": "RE: Coastal Solar examination \u2014 follow-up requests",
+      "text": "Agent Tran \u2014 acknowledged. Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n\n-----Original Message-----\nFrom: Kevin Tran <kevin.tran@irs.gov>\nSent: Tuesday, August 15, 2023 11:00 AM\nTo: John Ellery <jellery@cascadetimber.com>\nSubject: Coastal Solar examination \u2014 follow-up requests\n\nMr. Ellery \u2014 thank you for the first production batch. Follow-up items: (1) all broker agreements with Bellhaven Advisory, including amendments; (2) records identifying who approved acreage figures on the Northwest parcel applications; (3) any surveys commissioned for those parcels. Please include these in the second production.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "9ef80d9e6d74cfa9bb1df754504bf44e0a85b48c0a5d5d4bd6c3e74986853775",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-162",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-162_Coastal Solar examination _ production received.eml",
+      "sha256": "a1431e58a7b88ec988715d07cc86dd1755865751564c2c2b049b845ef3b3f38f",
+      "date": "Wed, 06 Sep 2023 10:15:00 -0400",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Coastal Solar examination \u2014 production received",
+      "text": "Mr. Ellery \u2014 confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n\n-----Original Message-----\nFrom: John Ellery <jellery@cascadetimber.com>\nSent: Thursday, August 17, 2023 2:20 PM\nTo: Kevin Tran <kevin.tran@irs.gov>\nSubject: RE: Coastal Solar examination \u2014 follow-up requests\n\nAgent Tran \u2014 acknowledged. Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter.\n\nJohn Ellery\nHead of Legal\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n\n-----Original Message-----\nFrom: Kevin Tran <kevin.tran@irs.gov>\nSent: Tuesday, August 15, 2023 11:00 AM\nTo: John Ellery <jellery@cascadetimber.com>\nSubject: Coastal Solar examination \u2014 follow-up requests\n\nMr. Ellery \u2014 thank you for the first production batch. Follow-up items: (1) all broker agreements with Bellhaven Advisory, including amendments; (2) records identifying who approved acreage figures on the Northwest parcel applications; (3) any surveys commissioned for those parcels. Please include these in the second production.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-1052",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1052_Production_receipt_batch_1_examination.eml",
+      "sha256": "a3898894d6f4d3f3c85e3acec5295c1e6d8c4503f43dc66babbfd6b2276b7abf",
+      "date": "Tue, 08 Aug 2023 11:45:00 -0700",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Production receipt \u2014 batch 1 (examination)",
+      "text": "Mr. Ellery \u2014 the first production volume has arrived and is loading on our side. I'll let you know if any files fail to open or if the load file doesn't match the cover letter. Otherwise nothing is needed from you at this point. Please continue to route production questions to me directly.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-1065",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1065_Examination_status_note_open_items.eml",
+      "sha256": "dfe94ce678521c3b5ac5c1124798bbfaa9b25c1b8679eed385c2f8811b35b624",
+      "date": "Sat, 23 Sep 2023 15:50:00 -0700",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Examination status note \u2014 open items",
+      "text": "Mr. Ellery \u2014 a status note. We are reviewing the second production against the items in my August 15 request: the Bellhaven agreements, the records on who approved acreage figures for the Northwest applications, and the surveys. Where something appears incomplete I will list it in writing rather than raise it piecemeal. The examination remains open, and no interviews are being scheduled at this time.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-1066",
+      "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-1066_Third_party_hold_gap_note_Bellhaven_070_link.eml",
+      "sha256": "4e82935c7b1a81f5420cb91d10ac357aae19b6082c817ca4a4df709d7f449b05",
+      "date": "Thu, 09 Nov 2023 15:50:00 -0800",
+      "from": "Dan Osei <dosei@cascadetimber.com>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Third-party hold gap note \u2014 Bellhaven (070 link)",
+      "text": "John \u2014 on Bellhaven: the only Bellhaven material under our preservation controls is what they sent to or received from Cascade addresses. That is held in the mailboxes already flagged. Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us. If counsel wants their files preserved, that would have to be a request to Bellhaven directly. I can't do it technically from here.\n\nDan Osei\nIT Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0108 | dosei@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "c41d9fefd7c9ecfe68db581ac5f1dbd3ea9ba351d54c1399819a24a61f566451",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-1075",
+      "source_path": "data/emails/Custodians/Derek_Holt/EMAIL-1075_Review_timeline_note_internal_extension_chain_dated.eml",
+      "sha256": "5d629fba59c1be98a7c19f315cb8f8ca1054d1cd88ab50f081646c841f8951ae",
+      "date": "Mon, 22 May 2023 15:40:00 -0700",
+      "from": "Dan Osei <dosei@cascadetimber.com>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Review timeline note (internal) \u2014 extension chain (dated)",
+      "text": "Timeline note: sequencing collection, review, and response work against the current deadline. Dates as shown.\n\nDan Osei\nIT Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0108 | dosei@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "c41d9fefd7c9ecfe68db581ac5f1dbd3ea9ba351d54c1399819a24a61f566451",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-1087",
+      "source_path": "data/emails/Custodians/IT_Notifications/EMAIL-1087_Review_timeline_note_internal_extension_chain_dated.eml",
+      "sha256": "6d6461ad09a3a2970dfa2931daf88c2608fee56b6bb153d93d0685ec6db2678c",
+      "date": "Fri, 24 Feb 2023 09:15:00 -0800",
+      "from": "Wendy Park <wpark@cascadetimber.com>",
+      "to": "Dan Osei <dosei@cascadetimber.com>",
+      "subject": "Review timeline note (internal) \u2014 extension chain (dated)",
+      "text": "Timeline note: sequencing collection, review, and response work against the current deadline. Dates as shown.\n\nWendy Park\nHR Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0109 | wpark@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "c41d9fefd7c9ecfe68db581ac5f1dbd3ea9ba351d54c1399819a24a61f566451",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-1091",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1091_Review_timeline_note_internal_extension_chain_dated.eml",
+      "sha256": "165e1b35d4df5897189a4b30873e40d7662e2aee403076ccd92d6639f57c1847",
+      "date": "Mon, 24 Apr 2023 15:00:00 -0700",
+      "from": "Wendy Park <wpark@cascadetimber.com>",
+      "to": "Dan Osei <dosei@cascadetimber.com>",
+      "subject": "Review timeline note (internal) \u2014 extension chain (dated)",
+      "text": "Timeline note: sequencing collection, review, and response work against the current deadline. Dates as shown.\n\nWendy Park\nHR Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0109 | wpark@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "c41d9fefd7c9ecfe68db581ac5f1dbd3ea9ba351d54c1399819a24a61f566451",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-1114",
+      "source_path": "data/emails/Custodians/Jay_Whitfield/EMAIL-1114_Review_timeline_note_internal_extension_chain_dated.eml",
+      "sha256": "f6299ce18c362907fb347a2a9813dec0fb6729aca3f04a31c9a66bf801ccf546",
+      "date": "Mon, 15 May 2023 09:35:00 -0700",
+      "from": "Wendy Park <wpark@cascadetimber.com>",
+      "to": "Dan Osei <dosei@cascadetimber.com>",
+      "subject": "Review timeline note (internal) \u2014 extension chain (dated)",
+      "text": "Timeline note: sequencing collection, review, and response work against the current deadline. Dates as shown.\n\nWendy Park\nHR Director\nCascade Timber Holdings, Inc.\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n(503) 555-0109 | wpark@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\nlegal privilege. If you are not the intended recipient, please notify the\nsender immediately and delete all copies.\n",
+      "attachments": [
+        {
+          "filename": "image001.png",
+          "sha256": "c41d9fefd7c9ecfe68db581ac5f1dbd3ea9ba351d54c1399819a24a61f566451",
+          "mime_type": "image/png",
+          "extraction_status": "not_needed_signature_image",
+          "ocr": "not_performed"
+        }
+      ]
+    },
+    {
+      "source_id": "EMAIL-1125",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1125_Examination_follow_up_requests_records_first_set.eml",
+      "sha256": "f7e9d84bab5c35f80cf02999d12855b515158d1c78a10e53efa4465c4c3cf57c",
+      "date": "Mon, 19 Jun 2023 11:40:00 -0700",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Examination follow-up requests \u2014 records (first set)",
+      "text": "Follow-up records request: items listed inside, with a proposed return date. Advising which categories will be produced and which are held for a privilege discussion.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    },
+    {
+      "source_id": "EMAIL-1135",
+      "source_path": "data/emails/Custodians/John_Ellery/EMAIL-1135_Production_receipt_batch_3_examination.eml",
+      "sha256": "843ab70aff1a5abbf47e44d1daecc1f535db33592f07700ddd281d62da4f0cd4",
+      "date": "Fri, 01 Dec 2023 14:15:00 -0800",
+      "from": "Kevin Tran <kevin.tran@irs.gov>",
+      "to": "John Ellery <jellery@cascadetimber.com>",
+      "subject": "Production receipt \u2014 batch 3 (examination)",
+      "text": "Review administration note \u2014 filing accordingly.\n\nKevin Tran\nRevenue Agent, Examination Division\nInternal Revenue Service\n(503) 555-0148 | kevin.tran@irs.gov\n\nThis message is intended for the named recipient(s) only and may contain\ninformation protected from disclosure by the Privacy Act of 1974 and\n26 U.S.C. \u00a7 6103. If you received this message in error, please notify\nthe sender and delete all copies.\n",
+      "attachments": []
+    }
+  ],
+  "protocol": {
+    "source_path": "definitions/Subpoena_Enhanced.docx",
+    "sha256": "5efceea70adfe2de16944e974da6d4672f97e8969359558648d003ead9454c75",
+    "extraction_status": "all_document_xml_paragraphs",
+    "paragraphs": [
+      {
+        "paragraph": 1,
+        "text": "UNITED STATES OF AMERICA"
+      },
+      {
+        "paragraph": 2,
+        "text": "DEPARTMENT OF THE TREASURY \u2014 INTERNAL REVENUE SERVICE"
+      },
+      {
+        "paragraph": 3,
+        "text": "SMALL BUSINESS / SELF-EMPLOYED DIVISION \u2014 EXAMINATION"
+      },
+      {
+        "paragraph": 4,
+        "text": "OFFICE OF FIELD EXAMINATION, PACIFIC NORTHWEST AREA \u2014 PORTLAND, OREGON POST OF DUTY"
+      },
+      {
+        "paragraph": 5,
+        "text": "In the matter of:"
+      },
+      {
+        "paragraph": 6,
+        "text": "CASCADE TIMBER HOLDINGS, INC."
+      },
+      {
+        "paragraph": 7,
+        "text": "(Coastal Solar Credit Program)"
+      },
+      {
+        "paragraph": 8,
+        "text": "IRS Case No. EX-2023-04471   \u00b7   TIN on File: XX-XXX4471   \u00b7   Examination Group 1476"
+      },
+      {
+        "paragraph": 9,
+        "text": "SUMMONS"
+      },
+      {
+        "paragraph": 10,
+        "text": "TO:  Cascade Timber Holdings, Inc., Attn: Legal Department"
+      },
+      {
+        "paragraph": 11,
+        "text": "        1200 Forest Park Way, Suite 900, Portland, OR 97209"
+      },
+      {
+        "paragraph": 12,
+        "text": "DATE ISSUED"
+      },
+      {
+        "paragraph": 13,
+        "text": "May 23, 2023"
+      },
+      {
+        "paragraph": 14,
+        "text": "RESPONSE DUE"
+      },
+      {
+        "paragraph": 15,
+        "text": "June 13, 2023 (21 days)"
+      },
+      {
+        "paragraph": 16,
+        "text": "PLACE OF PRODUCTION"
+      },
+      {
+        "paragraph": 17,
+        "text": "IRS Field Office, 1220 SW 3rd Ave, Portland, OR 97204, Room 408"
+      },
+      {
+        "paragraph": 18,
+        "text": "YOU ARE HEREBY SUMMONED AND REQUIRED, pursuant to 26 U.S.C. \u00a7 7602 and applicable Treasury Regulations, to appear before Revenue Agent Kevin Tran, or his designee, and to produce for examination and copying the books, papers, records, and other data described below, in connection with the Internal Revenue Service's civil examination of the business venture known as the \"Coastal Solar Credit Program,\" developed, marketed, financed, and administered in whole or in part by Cascade Timber Holdings, Inc. and its affiliates."
+      },
+      {
+        "paragraph": 19,
+        "text": "Definitions"
+      },
+      {
+        "paragraph": 20,
+        "text": "\u201cProgram\u201d means the Coastal Solar Credit Program, including any predecessor or successor offerings marketed under substantially similar terms."
+      },
+      {
+        "paragraph": 21,
+        "text": "\u201cAffiliate\u201d means any entity under common control with, controlled by, or controlling Cascade Timber Holdings, Inc., including Alder Point Partners and its subsidiaries."
+      },
+      {
+        "paragraph": 22,
+        "text": "\u201cRecords\u201d means documents in any form, including electronically stored information, whether created, received, or maintained by or on behalf of the recipient."
+      },
+      {
+        "paragraph": 23,
+        "text": "Document Requests"
+      },
+      {
+        "paragraph": 24,
+        "text": "1.  Records regarding tax-credit transactions involving renewable energy and land conservation programs, including credit origination, eligibility determinations, appraisal reports, and transaction structuring documents for calendar years 2021 through 2023."
+      },
+      {
+        "paragraph": 25,
+        "text": "2.  Marketing and sales materials for the Coastal Solar Credit Program, including broker network materials, investor-facing decks, private placement memoranda, subscription agreements, and sales communications distributed in 2022 and 2023."
+      },
+      {
+        "paragraph": 26,
+        "text": "3.  Records reflecting relationships with investors, buyers, sellers, land trusts, and advisors in connection with the Program, including engagement letters, correspondence, fee agreements, and due-diligence files."
+      },
+      {
+        "paragraph": 27,
+        "text": "4.  Records concerning corporate entities affiliated with Alder Point Partners, including organizational documents, capitalization tables, ownership records, and inter-company agreements, together with any records concerning brokers engaged in connection with the Program, including Bellhaven Advisory."
+      },
+      {
+        "paragraph": 28,
+        "text": "5.  Tax, accounting, banking, and loan records connected to the Program, including general ledger entries, bank statements, loan agreements, wire transfer confirmations, and tax filings (including Forms 8283 and 3468) referencing Coastal Solar credit transactions."
+      },
+      {
+        "paragraph": 29,
+        "text": "6.  Board minutes, internal memoranda, and compliance files discussing the tax treatment, valuation methodology, or regulatory risk of the Program, including any communications with outside counsel or tax opinion providers not subject to a valid claim of privilege."
+      },
+      {
+        "paragraph": 30,
+        "text": "7.  A privilege log identifying, by document, any responsive record withheld on grounds of attorney-client privilege or work-product protection, in a form sufficient to permit the Service to evaluate the claim."
+      },
+      {
+        "paragraph": 31,
+        "text": "Manner of Production"
+      },
+      {
+        "paragraph": 32,
+        "text": "Records may be produced in native electronic format with accompanying metadata, or as legible photocopies organized and labeled to correspond with the categories set forth above. Electronic production should be provided on encrypted media or via the Service's secure file-transfer portal, with a cover letter identifying the custodian(s) and date range for each category produced."
+      },
+      {
+        "paragraph": 33,
+        "text": "Certification"
+      },
+      {
+        "paragraph": 34,
+        "text": "Failure to comply with this summons may result in enforcement proceedings in the United States District Court for the District of Oregon pursuant to 26 U.S.C. \u00a7\u00a7 7402(b) and 7604(a), and may further result in referral for consideration of penalties under applicable law."
+      },
+      {
+        "paragraph": 35,
+        "text": "Kevin Tran"
+      },
+      {
+        "paragraph": 36,
+        "text": "Kevin Tran, Revenue Agent"
+      },
+      {
+        "paragraph": 37,
+        "text": "Internal Revenue Service, Examination Division"
+      },
+      {
+        "paragraph": 38,
+        "text": "Badge No. 74-1129   \u00b7   (503) 555-0148   \u00b7   kevin.tran@irs.gov"
+      },
+      {
+        "paragraph": 39,
+        "text": "This is a synthetic demonstration document generated for the DecoverAI Cascade Timber Holdings dummy dataset. All names, entities, case numbers, and events depicted are fictional and do not reference any real person, company, or government proceeding. Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination. Correspondence in this dataset refers to this summons informally as \u201cthe subpoena.\u201d"
+      }
+    ]
+  },
+  "findings": [
+    "Original EMAIL-023 PDF says SUBPOENA DUCES TECUM/four requests. Enhanced supplied DOCX says SUMMONS/seven broader requests. No revision/issuance history established. Apply supplied classification/scoping rule but preserve provenance and scope difference.",
+    "Receipt reported May23; method and legally valid service not established.",
+    "June13 original due; May25 oneweek request; May31 oneweek grant; June20 threeweek extension reported later July5; July5 current Aug31 production deadline plus separate July14 rolling schedule. Infer Jun20 and Jul11 only as arithmetic intermediate dates, not express dates in contemporaneous grant.",
+    "EMAIL159 plans firstbatch weekJuly24; EMAIL1052 Aug8 reports arrived, EMAIL160 Aug15 confirms firstbatch and requests three followup categories; EMAIL161 Aug17 plans weekAug28 and approvalrecords scope pending; EMAIL162 Sep6 reports secondproduction receivedSep1, stillopen/no interviews. Receipt after nominal Aug31 does not by itself prove default/completeness/waiver.",
+    "Seven enhanced requests and four original requests are distinct versions. Enhanced protocol supports privilege log and production formats, not historic agreed formats. EMAIL055 recommends segregation and jointlyheld coordination.",
+    "EMAIL059 actual XLSX has Nina Pending/Not started and Ellery Excluded privilegedreviewtrack. EMAIL024 formal hold Jun13 and EMAIL060 applies controls only mailboxes underhold do not prove all custodians complete. EMAIL070 July6 Bellhaven preservation question unresolved at cutoff; November EMAIL1066 unavailable hindsight."
+  ],
+  "coverage_limitations": [
+    "Signature images not OCRed; no inference of missing evidence from image nonextraction.",
+    "All relevant PDF pages have a text layer; no OCR required for their text extraction.",
+    "Search included all 1486 EML text bodies for summons/subpoena/extension/service and topical dates; unrelated records were not promoted from subject labels to substantive evidence.",
+    "EMAIL1075/1087/1091/1114 extension-chain subjects have only generic text and cannot establish actual extensiondates.",
+    "Objection/motion deadline, service proof, exact production completeness and final resolution not established by reviewed sources."
+  ],
+  "independent_review_correction": "Reviewer found EMAIL1096/1155 proving later reported Nina export/hold and EMAIL1161 actual IT boundary. UpdatedF05 before integration; previous candidate finding claiming Nina cure unestablished is superseded."
+}

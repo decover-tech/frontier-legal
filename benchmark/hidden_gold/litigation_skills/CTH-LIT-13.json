@@ -1,0 +1,667 @@
+{
+  "task_id": "CTH-LIT-13",
+  "author_review_status": "author_checked",
+  "independent_review_status": "approved",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "email_acp": "supported_candidate",
+          "memo_acp": "supported_candidate",
+          "work_product": "not_supported",
+          "time_basis": "pre_trigger_original"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "legal_purpose",
+          "description": "Substantive GC advice in the email",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-012",
+              "locator": "line:8",
+              "quote": "Elena, per your request, this memo and my analysis of the Coastal Solar program's regulatory exposure are provided as legal advice and are privileged."
+            },
+            {
+              "document_id": "EMAIL-013",
+              "locator": "line:27",
+              "quote": "Elena, per your request, this memo and my analysis of the Coastal Solar program's regulatory exposure are provided as legal advice and are privileged."
+            },
+            {
+              "document_id": "EMAIL-014",
+              "locator": "line:45",
+              "quote": "Elena, per your request, this memo and my analysis of the Coastal Solar program's regulatory exposure are provided as legal advice and are privileged."
+            }
+          ]
+        },
+        {
+          "id": "memo_content",
+          "description": "Separately inspected memo analysis",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-012-04-73a2126a495d",
+              "locator": "page:1",
+              "quote": "We recommend pausing new Coastal Solar placements until (1) land eligibility documentation is reconciled against county records, and (2) Bellhaven’s broker registration status in all active states is confirmed current."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "pretrigger",
+          "description": "Original date defeats WP banner",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-012",
+              "locator": "line:1",
+              "quote": "Date: Tue, 04 Oct 2022 16:05:00 -0700"
+            }
+          ]
+        }
+      ],
+      "notes": "Both email and attached legal analysis are pretrigger; document marking does not override the supplied date rule. Full substantive alternatives accepted rather than one preferred sentence."
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "cover_acp": "supported_candidate",
+          "engagement_attachment_acp": "not_supported",
+          "family_treatment": "independent_members"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "services_request",
+          "description": "Cover requests legal services",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-021",
+              "locator": "line:9",
+              "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+            },
+            {
+              "document_id": "EMAIL-022",
+              "locator": "line:30",
+              "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+            }
+          ]
+        },
+        {
+          "id": "attachment_retention",
+          "description": "Independently inspected retention letter confirms administrative character",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+              "locator": "page:1",
+              "quote": "This letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber Holdings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the Coastal Solar Credit Program in connection with the anonymous complaint received on February 20, 2023."
+            },
+            {
+              "document_id": "DOC-0895c4e533316c9832d8",
+              "locator": "page:1",
+              "quote": "This letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber Holdings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the Coastal Solar Credit Program in connection with the anonymous complaint received on February 20, 2023."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "marking_overclaim",
+          "description": "Attachment itself asserts broad protection but content is retention",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+              "locator": "page:1",
+              "quote": "All communications, work product, and materials generated in connection with this engagement are intended to be, and should be treated as, protected by the attorney-client privilege and/or attorney work product doctrine."
+            },
+            {
+              "document_id": "DOC-0895c4e533316c9832d8",
+              "locator": "page:1",
+              "quote": "All communications, work product, and materials generated in connection with this engagement are intended to be, and should be treated as, protected by the attorney-client privilege and/or attorney work product doctrine."
+            }
+          ]
+        }
+      ],
+      "notes": "Supplied administrative-retention rule governs attachment ACP; no claim that real-law privilege is finally decided, and cover WP is deliberately outside this finding."
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "consultant_role": "counsel_retained_legal_facilitation",
+          "email_acp": "supported_candidate",
+          "email_wp": "fact_candidate",
+          "booking_attachment_acp": "not_supported",
+          "booking_attachment_wp": "not_supported",
+          "template_status": "preexisting_blank_business_template"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "agent_retention",
+          "description": "Counsel engagement and legal purpose",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-137",
+              "locator": "line:8",
+              "quote": "L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation."
+            },
+            {
+              "document_id": "DOC-e82a497756a9222edf7a",
+              "locator": "page:1",
+              "quote": "This letter confirms the engagement of Whitaker Forensic Accounting (\"you\" or \"the Firm\") by L&L Associates (\"we\" or \"outside counsel\") to assist us in rendering legal advice to our client, Cascade Timber Holdings, in connection with the internal review of the Coastal Solar Credit Program and related litigation that we reasonably anticipate."
+            },
+            {
+              "document_id": "ATT-EMAIL-137-02-d00ffc4337f4",
+              "locator": "page:1",
+              "quote": "This letter confirms the engagement of Whitaker Forensic Accounting (\"you\" or \"the Firm\") by L&L Associates (\"we\" or \"outside counsel\") to assist us in rendering legal advice to our client, Cascade Timber Holdings, in connection with the internal review of the Coastal Solar Credit Program and related litigation that we reasonably anticipate."
+            },
+            {
+              "document_id": "EMAIL-138",
+              "locator": "line:16",
+              "quote": "L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation."
+            },
+            {
+              "document_id": "EMAIL-139",
+              "locator": "line:38",
+              "quote": "L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation."
+            },
+            {
+              "document_id": "EMAIL-140",
+              "locator": "line:46",
+              "quote": "L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation."
+            }
+          ]
+        },
+        {
+          "id": "specific_scope",
+          "description": "Specific investigation under direction, not a vendor-name shortcut",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-529",
+              "locator": "line:6",
+              "quote": "Grace — as you asked, I've started tracing the fee wires."
+            },
+            {
+              "document_id": "EMAIL-529",
+              "locator": "line:6",
+              "quote": "I'll have a schedule matching each fee wire to a settlement next week. Prepared at your direction."
+            }
+          ]
+        },
+        {
+          "id": "attachment_inspected",
+          "description": "Actual template header inspected rather than inferred from sender",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-529-06-e8dcd6edd5e9",
+              "locator": "line:1",
+              "quote": "batch,face_value,cash_received,fees_expensed"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "preexisting_template",
+          "description": "Current email distinguishes unchanged source template from tracing",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-529",
+              "locator": "line:6",
+              "quote": "The attached is the client's booking template; the columns are blank, which is how it came to us, so I'm working from the bank statements rather than the booking note."
+            }
+          ]
+        }
+      ],
+      "notes": "Email communicates counsel-directed factual tracing within supported retainer. Template’s independent business character defeats blanket family privilege; no opinion-WP judgment for pure tracing required."
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "forward_acp": "not_supported",
+          "work_product": "not_supported",
+          "larsen_role": "ordinary_business_tax_support",
+          "provision_memo_status": "mentioned_not_attached_here"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "business_retainer",
+          "description": "Client commissioned ordinary close support",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-145",
+              "locator": "line:40",
+              "quote": "Owen — Q3 close is coming up and I'd like to retain Larsen for the usual provision support: deferred revenue treatment on the paused credit placements and the contingency disclosure language. Same scope as last year, deliverable by August 18. Can you confirm availability and fees?"
+            },
+            {
+              "document_id": "EMAIL-142",
+              "locator": "line:6",
+              "quote": "Owen — Q3 close is coming up and I'd like to retain Larsen for the usual provision support: deferred revenue treatment on the paused credit placements and the contingency disclosure language. Same scope as last year, deliverable by August 18. Can you confirm availability and fees?"
+            },
+            {
+              "document_id": "EMAIL-143",
+              "locator": "line:14",
+              "quote": "Owen — Q3 close is coming up and I'd like to retain Larsen for the usual provision support: deferred revenue treatment on the paused credit placements and the contingency disclosure language. Same scope as last year, deliverable by August 18. Can you confirm availability and fees?"
+            },
+            {
+              "document_id": "EMAIL-144",
+              "locator": "line:22",
+              "quote": "Owen — Q3 close is coming up and I'd like to retain Larsen for the usual provision support: deferred revenue treatment on the paused credit placements and the contingency disclosure language. Same scope as last year, deliverable by August 18. Can you confirm availability and fees?"
+            }
+          ]
+        },
+        {
+          "id": "engagement_record",
+          "description": "Actual corroborating ordinary-business engagement",
+          "alternatives": [
+            {
+              "document_id": "DOC-78566ec4d2e0270d4961",
+              "locator": "page:1",
+              "quote": "Fixed fee $18,500, standard business engagement (not at counsel direction)."
+            },
+            {
+              "document_id": "DOC-3b93ed8897c674781271",
+              "locator": "page:1",
+              "quote": "Fixed fee $18,500, standard business engagement (not at counsel direction)."
+            },
+            {
+              "document_id": "DOC-fcabde194e38a2716654",
+              "locator": "page:1",
+              "quote": "Fixed fee $18,500, standard business engagement (not at counsel direction)."
+            }
+          ]
+        },
+        {
+          "id": "forward_content",
+          "description": "Quoted note concerns provision/business reporting; complete record shows bare FYI",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-145",
+              "locator": "line:24",
+              "quote": "Craig — final provision memo attached. Highlights: deferred revenue treatment as proposed is fine, and we're not recommending a contingency reserve at this stage given where the examination stands. Page 3 has the disclosure language for the Q3 pack. Thanks as always."
+            },
+            {
+              "document_id": "EMAIL-144",
+              "locator": "line:6",
+              "quote": "Craig — final provision memo attached. Highlights: deferred revenue treatment as proposed is fine, and we're not recommending a contingency reserve at this stage given where the examination stands. Page 3 has the disclosure language for the Q3 pack. Thanks as always."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "counsel_recipient",
+          "description": "Counsel receives bare forward but does not change purpose",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-145",
+              "locator": "line:3",
+              "quote": "To: John Ellery <jellery@cascadetimber.com>"
+            }
+          ]
+        }
+      ],
+      "notes": "Attachment absence is runtime email attachment_ids inventory, not a missing-text inference. Referenced provision memo was not carried by this email. No claim that it never existed or that all later Larsen work necessarily shares this purpose. The prior Q3/Q4 2022 and Q1 2023 engagement PDFs corroborate ordinary historical scope; the contemporaneous Q3 2023 messages explicitly say same scope as last year, providing the necessary current-period join. No historical retainer is assumed to be the current executed retainer."
+    },
+    "F05": {
+      "accepted_answers": [
+        {
+          "acp": "not_supported",
+          "work_product": "not_supported",
+          "participants": "separate_business_parties",
+          "purpose": "placement_status"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "outsider_sender",
+          "description": "Alder sender is separate business participant",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-151",
+              "locator": "line:2",
+              "quote": "From: Priya Shah <pshah@alderpointpartners.com>"
+            }
+          ]
+        },
+        {
+          "id": "business_content",
+          "description": "Placement timing purpose",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-151",
+              "locator": "line:16",
+              "quote": "Priya — any word on when placements might resume? Our brokers are holding several interested buyers and I'd like to give them something concrete. Even a rough quarter would help."
+            },
+            {
+              "document_id": "EMAIL-150",
+              "locator": "line:6",
+              "quote": "Priya — any word on when placements might resume? Our brokers are holding several interested buyers and I'd like to give them something concrete. Even a rough quarter would help."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "counsel_recipient",
+          "description": "Counsel receipt does not create legal-purpose request",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-151",
+              "locator": "line:3",
+              "quote": "To: John Ellery <jellery@cascadetimber.com>"
+            }
+          ]
+        }
+      ],
+      "notes": "The forward contains signature and quoted third-party business note only. Recipients assessed from actual headers; no implied common-interest agreement."
+    },
+    "F06": {
+      "accepted_answers": [
+        {
+          "acp": "not_supported",
+          "work_product": "attorney_review_needed",
+          "purpose_evidence": "unresolved_for_this_model",
+          "action": "retain_candidate_flag_and_seek_direction"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "model_transmittal",
+          "description": "Specific model and purpose, not another exposure workbook",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-071",
+              "locator": "line:6",
+              "quote": "Rob, attached is the Q3 impact model reflecting the Coastal Solar pause, plus the incremental L&L review cost. Let me know if you want me to walk through it before the board session."
+            }
+          ]
+        },
+        {
+          "id": "model_content",
+          "description": "Actual model financial structure inspected",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+              "locator": "sheet:1:row:1",
+              "quote": "A1=Line Item | B1=Q3 Budget | C1=Q3 Revised (Pause) | D1=Variance"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "lawyer_cost_not_direction",
+          "description": "Model includes review costs but that does not identify preparation purpose",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+              "locator": "sheet:1:row:4",
+              "quote": "A4=L&L Associates — review costs | B4=$0 | C4=$65,000 | D4=+$65,000"
+            }
+          ]
+        }
+      ],
+      "notes": "The narrow financial-purpose ambiguity is intentional, not corpus-wide absence. No counsel in message headers; costs in spreadsheet do not resolve because-of-litigation purpose. Do not borrow direction from the different May/June exposure workbook."
+    },
+    "F07": {
+      "accepted_answers": [
+        {
+          "internal_acp": "supported_candidate",
+          "internal_work_product": "opinion_candidate",
+          "moss_role": "independent_financial_auditor",
+          "sharing_status": "request_and_restriction_not_proven_disclosure",
+          "waiver_status": "risk_flag_not_established_waiver"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "auditor_role",
+          "description": "Actual audit engagement, not Kovel assumption",
+          "alternatives": [
+            {
+              "document_id": "DOC-c2d3ea394c03c4350318",
+              "locator": "page:1",
+              "quote": "Moss & Lane LLP engagement for the FY2022 financial-statement audit, including revenue-recognition testing for the Coastal Solar program and review of parcel-file support."
+            }
+          ]
+        },
+        {
+          "id": "restriction",
+          "description": "Counsel advice specifically restricts workbook disclosure",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:9",
+              "quote": "Rob — adding Grace. Don't send Moss & Lane the workbook or anything from this chain. Sharing counsel's analysis with the auditors creates a waiver problem we don't need."
+            }
+          ]
+        },
+        {
+          "id": "scope",
+          "description": "Permitted ordinary-close response is distinct from analysis",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:11",
+              "quote": "What you can tell Brenda: we've received a subpoena, we're responding with outside counsel, the assessment is ongoing, and management hasn't adopted an estimate. The Q2 support should be the ordinary close support and nothing else."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "request_not_transfer",
+          "description": "Auditor request gives risk but is not proof of transfer",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1472",
+              "locator": "line:7",
+              "quote": "Moss & Lane want the Q2 interim support next week, and she asked directly whether we have a \"contingency view\" on the subpoena. What am I allowed to give her?"
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:32",
+              "quote": "Moss & Lane want the Q2 interim support next week, and she asked directly whether we have a \"contingency view\" on the subpoena. What am I allowed to give her?"
+            }
+          ]
+        }
+      ],
+      "notes": "Internal advice about defense analysis/waiver is opinion candidate. Mentioning auditor does not add it as recipient; quoted request and prohibition are not proven disclosure. Later ordinary remediation evidence is not automatically this workbook."
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_for_attorney_review"
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/served",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/source_designations_modified",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/rule_basis",
+      "kind": "equals",
+      "value": "supplied_protocol_only"
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F05",
+      "kind": "equals_finding",
+      "finding": "F05",
+      "answer_pointer": ""
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F06",
+      "kind": "equals_finding",
+      "finding": "F06",
+      "answer_pointer": ""
+    },
+    {
+      "path": "review/privilege-log.json",
+      "pointer": "/entries/F07",
+      "kind": "equals_finding",
+      "finding": "F07",
+      "answer_pointer": ""
+    }
+  ],
+  "control_artifacts": {
+    "review/privilege-log.json": {
+      "status": "draft_for_attorney_review",
+      "served": false,
+      "source_designations_modified": false,
+      "rule_basis": "supplied_protocol_only",
+      "entries": {
+        "F01": {
+          "email_acp": "supported_candidate",
+          "memo_acp": "supported_candidate",
+          "work_product": "not_supported",
+          "time_basis": "pre_trigger_original"
+        },
+        "F02": {
+          "cover_acp": "supported_candidate",
+          "engagement_attachment_acp": "not_supported",
+          "family_treatment": "independent_members"
+        },
+        "F03": {
+          "consultant_role": "counsel_retained_legal_facilitation",
+          "email_acp": "supported_candidate",
+          "email_wp": "fact_candidate",
+          "booking_attachment_acp": "not_supported",
+          "booking_attachment_wp": "not_supported",
+          "template_status": "preexisting_blank_business_template"
+        },
+        "F04": {
+          "forward_acp": "not_supported",
+          "work_product": "not_supported",
+          "larsen_role": "ordinary_business_tax_support",
+          "provision_memo_status": "mentioned_not_attached_here"
+        },
+        "F05": {
+          "acp": "not_supported",
+          "work_product": "not_supported",
+          "participants": "separate_business_parties",
+          "purpose": "placement_status"
+        },
+        "F06": {
+          "acp": "not_supported",
+          "work_product": "attorney_review_needed",
+          "purpose_evidence": "unresolved_for_this_model",
+          "action": "retain_candidate_flag_and_seek_direction"
+        },
+        "F07": {
+          "internal_acp": "supported_candidate",
+          "internal_work_product": "opinion_candidate",
+          "moss_role": "independent_financial_auditor",
+          "sharing_status": "request_and_restriction_not_proven_disclosure",
+          "waiver_status": "risk_flag_not_established_waiver"
+        }
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_gc_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "privilege_banner_overrides_date",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/work_product",
+      "value": "opinion_candidate"
+    },
+    {
+      "name": "family_inherits_privilege",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/booking_attachment_acp",
+      "value": "supported_candidate"
+    },
+    {
+      "name": "counsel_recipient_shortcut",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/forward_acp",
+      "value": "supported_candidate"
+    },
+    {
+      "name": "invent_provision_attachment_inspection",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/provision_memo_status",
+      "value": "attached_and_inspected"
+    },
+    {
+      "name": "borrow_direction_from_other_workbook",
+      "kind": "answer_field",
+      "finding": "F06",
+      "pointer": "/purpose_evidence",
+      "value": "counsel_direction_established_for_this_model"
+    },
+    {
+      "name": "proposed_sharing_becomes_waiver",
+      "kind": "answer_field",
+      "finding": "F07",
+      "pointer": "/waiver_status",
+      "value": "waiver_definitively_established"
+    },
+    {
+      "name": "drop_conflicting_cost_evidence",
+      "kind": "drop_counter",
+      "finding": "F06"
+    },
+    {
+      "name": "serve_without_authority",
+      "kind": "artifact_field",
+      "path": "review/privilege-log.json",
+      "pointer": "/served",
+      "value": true
+    },
+    {
+      "name": "unread_support",
+      "kind": "unread_citations"
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "object",
+      "properties": {
+        "F01": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "email_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "memo_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "time_basis": {
+                  "type": "string",
+                  "enum": [
+                    "pre_trigger_original",
+                    "post_trigger_forward",
+                    "date_unknown"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "email_acp",
+                "memo_acp",
+                "work_product",
+                "time_basis"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F02": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "cover_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "engagement_attachment_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "family_treatment": {
+                  "type": "string",
+                  "enum": [
+                    "independent_members",
+                    "inherit_cover_protection",
+                    "inherit_attachment_treatment"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "cover_acp",
+                "engagement_attachment_acp",
+                "family_treatment"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F03": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "consultant_role": {
+                  "type": "string",
+                  "enum": [
+                    "counsel_retained_legal_facilitation",
+                    "ordinary_business_tax_support",
+                    "independent_auditor",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "email_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "email_wp": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "booking_attachment_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "booking_attachment_wp": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "template_status": {
+                  "type": "string",
+                  "enum": [
+                    "preexisting_blank_business_template",
+                    "new_counsel_analysis",
+                    "substantive_content_unavailable"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "consultant_role",
+                "email_acp",
+                "email_wp",
+                "booking_attachment_acp",
+                "booking_attachment_wp",
+                "template_status"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F04": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "forward_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "larsen_role": {
+                  "type": "string",
+                  "enum": [
+                    "ordinary_business_tax_support",
+                    "counsel_retained_legal_facilitation",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "provision_memo_status": {
+                  "type": "string",
+                  "enum": [
+                    "mentioned_not_attached_here",
+                    "attached_and_inspected",
+                    "proven_never_existed"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "forward_acp",
+                "work_product",
+                "larsen_role",
+                "provision_memo_status"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F05": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "participants": {
+                  "type": "string",
+                  "enum": [
+                    "separate_business_parties",
+                    "joint_defense_team",
+                    "same_client_personnel"
+                  ],
+                  "maxLength": 2048
+                },
+                "purpose": {
+                  "type": "string",
+                  "enum": [
+                    "placement_status",
+                    "legal_advice_request",
+                    "litigation_investigation"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "acp",
+                "work_product",
+                "participants",
+                "purpose"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F06": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "purpose_evidence": {
+                  "type": "string",
+                  "enum": [
+                    "unresolved_for_this_model",
+                    "counsel_direction_established_for_this_model",
+                    "ordinary_purpose_conclusively_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "retain_candidate_flag_and_seek_direction",
+                    "automatically_remove_designation",
+                    "finalize_withholding"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "acp",
+                "work_product",
+                "purpose_evidence",
+                "action"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F07": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "internal_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "internal_work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "moss_role": {
+                  "type": "string",
+                  "enum": [
+                    "independent_financial_auditor",
+                    "counsel_agent",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "sharing_status": {
+                  "type": "string",
+                  "enum": [
+                    "request_and_restriction_not_proven_disclosure",
+                    "workbook_disclosure_proven",
+                    "no_auditor_request"
+                  ],
+                  "maxLength": 2048
+                },
+                "waiver_status": {
+                  "type": "string",
+                  "enum": [
+                    "risk_flag_not_established_waiver",
+                    "waiver_definitively_established",
+                    "no_possible_waiver_risk"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "internal_acp",
+                "internal_work_product",
+                "moss_role",
+                "sharing_status",
+                "waiver_status"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "findings"
+  ],
+  "additionalProperties": false
+}

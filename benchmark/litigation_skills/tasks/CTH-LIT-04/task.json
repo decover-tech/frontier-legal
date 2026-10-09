@@ -1,0 +1,490 @@
+{
+  "task_id": "CTH-LIT-04",
+  "skill": "matter-workspace",
+  "title": "Single-matter sandbox organization preserving intake history",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-05-31T23:59:59-07:00",
+  "instruction": "Organize the provided incomplete intake into a single isolated Cascade workspace. Validate identity and source-event history, set only the sandbox active pointer, and produce the manifest. Preserve the one ledger row, matter draft and all history exactly. Do not invent clearance, create another client, or read/write any global profile.",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-03"
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Validate a canonical single matter identity against the actual agency correspondence and supplied instrument.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "matter_id": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "client": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "program": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "proceeding": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "classification": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "matter_id",
+          "client",
+          "program",
+          "proceeding",
+          "classification"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F02",
+      "question": "Resolve counsel, internal owners and related commercial entities without converting every correspondent into a separate client/matter.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "counsel_firm": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "internal_legal_contact": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "outside_lead": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "single_matter_only": {
+            "type": "boolean"
+          },
+          "other_correspondent_entities_are_separate_clients": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "counsel_firm",
+          "internal_legal_contact",
+          "outside_lead",
+          "single_matter_only",
+          "other_correspondent_entities_are_separate_clients"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F03",
+      "question": "Validate the prerequisite draft and preserve its source-event history and unresolved operational/conflicts state.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "history_dates": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "uniqueItems": true,
+            "maxItems": 24
+          },
+          "history_semantics": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "clearance_status": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "operational_status": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "rewrite_earlier_history": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "history_dates",
+          "history_semantics",
+          "clearance_status",
+          "operational_status",
+          "rewrite_earlier_history"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F04",
+      "question": "Separate similarly staffed programs, then organize the one permitted sandbox workspace without crossing matter boundaries or archiving history.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "excluded_program": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "shared_people_prove_same_matter": {
+            "type": "boolean"
+          },
+          "active_pointer_scope": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "cross_matter_context": {
+            "type": "boolean"
+          },
+          "create_another_matter": {
+            "type": "boolean"
+          },
+          "archive_or_delete_existing_history": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "excluded_program",
+          "shared_people_prove_same_matter",
+          "active_pointer_scope",
+          "cross_matter_context",
+          "create_another_matter",
+          "archive_or_delete_existing_history"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "workspace/state.json": {
+      "type": "object",
+      "properties": {
+        "active_matter": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 2048
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "cross_matter_context": {
+          "type": "boolean"
+        },
+        "global_configuration_changed": {
+          "type": "boolean"
+        },
+        "ledger": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "path": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "status": {
+                "type": "string",
+                "maxLength": 2048
+              }
+            },
+            "required": [
+              "id",
+              "path",
+              "status"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true,
+          "maxItems": 24
+        }
+      },
+      "required": [
+        "active_matter",
+        "cross_matter_context",
+        "global_configuration_changed",
+        "ledger"
+      ],
+      "additionalProperties": false
+    },
+    "workspace/cascade-timber-coastal-solar/matter.json": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "client": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "program": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "conflicts_clearance": {
+          "type": "string",
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "id",
+        "client",
+        "program",
+        "status",
+        "conflicts_clearance"
+      ],
+      "additionalProperties": false
+    },
+    "workspace/cascade-timber-coastal-solar/history.json": {
+      "type": "object",
+      "properties": {
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "event": {
+                "type": "string",
+                "maxLength": 2048
+              }
+            },
+            "required": [
+              "date",
+              "event"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true,
+          "maxItems": 24
+        }
+      },
+      "required": [
+        "entries"
+      ],
+      "additionalProperties": false
+    },
+    "workspace/manifest.json": {
+      "type": "object",
+      "properties": {
+        "paths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "uniqueItems": true,
+          "maxItems": 8
+        },
+        "archive_paths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "uniqueItems": true,
+          "maxItems": 8
+        },
+        "findings": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "matter_id": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "client": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "program": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "proceeding": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "classification": {
+                  "type": "string",
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "matter_id",
+                "client",
+                "program",
+                "proceeding",
+                "classification"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "counsel_firm": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "internal_legal_contact": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "outside_lead": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "single_matter_only": {
+                  "type": "boolean"
+                },
+                "other_correspondent_entities_are_separate_clients": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "counsel_firm",
+                "internal_legal_contact",
+                "outside_lead",
+                "single_matter_only",
+                "other_correspondent_entities_are_separate_clients"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "history_dates": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "maxItems": 24
+                },
+                "history_semantics": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "clearance_status": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "operational_status": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "rewrite_earlier_history": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "history_dates",
+                "history_semantics",
+                "clearance_status",
+                "operational_status",
+                "rewrite_earlier_history"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "excluded_program": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "shared_people_prove_same_matter": {
+                  "type": "boolean"
+                },
+                "active_pointer_scope": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "cross_matter_context": {
+                  "type": "boolean"
+                },
+                "create_another_matter": {
+                  "type": "boolean"
+                },
+                "archive_or_delete_existing_history": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "excluded_program",
+                "shared_people_prove_same_matter",
+                "active_pointer_scope",
+                "cross_matter_context",
+                "create_another_matter",
+                "archive_or_delete_existing_history"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04"
+          ],
+          "additionalProperties": false
+        },
+        "mode": {
+          "type": "string",
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "paths",
+        "archive_paths",
+        "findings",
+        "mode"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Only declared isolated artifacts may change; no global configuration, sending, calendar, or external operations.",
+    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history."
+  ],
+  "policy_sha256": "58ceac756a1634311a1eeeecee993e4871b53c8d649b4f22c24c06cba7fa6541",
+  "schema_sha256": "2b6303e57d1714ed3f74dad8e23e0bd359cdc322cfa6100199199ce9742af60e",
+  "fixtures_sha256": "a4f6acdbb6c9d9376a4e422436cf1d9c3ebfdcc5005789870cc65da8db322f02",
+  "oracle_sha256": "5dda96158ee254a0a040a3e3cee157317ecd7dfdf967f4c88858c07f2f7f6a74",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}
