@@ -24,6 +24,38 @@ joins across several documents. All companies, people and events are fictional.
 | Benchmark | 28 tasks, 10 flagship and 18 atomic, with separate hidden gold |
 | Matters | 1 |
 
+## Model leaderboard
+
+Completed October 9, 2026: **10 chronology episodes per model, 50 episodes total**, using
+only Cascade Timber. Scores are mean deterministic verifier rewards, expressed as
+percentages. Each episode starts with fresh context and allows up to 300 actions;
+requested reasoning effort is low, with 16,384 output tokens per request and 131,072
+output tokens per episode.
+
+| Rank | Model | Episodes | Mean score | Sample SD (percentage points) | Worst–best score | Total cost (USD) |
+|---|---|---|---|---|---|---|
+| 1 | GPT-6 Astra | 10 | **83.99%** | 1.30 | 81.46–85.80% | $6.51 |
+| 2 | Grok 4.7 | 10 | **64.21%** | 9.56 | 49.51–77.40% | $21.52 |
+| 3 | Claude Opus 5.5 | 10 | **56.03%** | 29.92 | 0.00–79.69% | $128.91 |
+| 4 | GLM 5.3 Prime | 10 | **38.60%** | 26.74 | 0.00–58.55% | $11.18 |
+| 5 | Gemini 3.1 Pro Preview | 10 | **0.00%** | 0.00 | 0.00–0.00% | $0.60 |
+
+All **50 episodes were scored**, with **0 full passes** and **3,014 transitions verified
+by replay**. Total recorded provider cost was **$168.72**, including work performed
+before four interrupted episodes were resumed from their saved conversations with
+the original cumulative budgets. The other 46 completed episodes were preserved.
+The pinned source and action-limit change are recorded in the
+[result summary](benchmark/rlvr/chronology/results/chronology-10x5-2026-10-09.json);
+[individual episode scores](benchmark/rlvr/chronology/results/chronology-10x5-2026-10-09-episodes.csv)
+are also available.
+
+These development results measure performance on one task in one synthetic matter.
+The chronology oracle still needs independent equivalent-evidence review, and strict
+action formatting and accepted-evidence matching affect scores. Two Claude episodes
+reached the action limit with zero scores; Gemini read no source documents in its ten
+episodes. Sample SD describes variation across episodes and is not a confidence
+interval. Equal requested reasoning effort does not imply equal compute across providers.
+
 ## Why the corpus is interesting
 
 - **You have to join documents.** The corpus is built so that no single document settles an
