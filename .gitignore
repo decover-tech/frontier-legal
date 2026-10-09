@@ -12,3 +12,6 @@ FINANCIAL_LEDGER_BATCH06.md
 
 __pycache__/
 *.pyc
+
+# Local RLVR traces and API evaluation artifacts
+output/rlvr/
