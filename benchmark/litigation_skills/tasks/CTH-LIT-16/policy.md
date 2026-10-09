@@ -1,0 +1,7 @@
+# Supplied benchmark policy: Read-only counsel briefing with stale snapshot and current evidence
+
+These are simulated local benchmark artifacts, not historical business records. Work only on the declared draft paths. No email, calendar, global profile, matter-management, authorization or production action occurs. Supplied fixture entries are provisional source-grounded snapshots, never evidence of conflicts clearance or a user decision. Keep conflicts, practice preferences, risk/materiality/reserve decisions, signer and settlement/closure authority unknown where not supplied. Read predecessor artifacts through read_dependency when available; they are read-only context, not permission to replace current fixture history or supersede original evidence. Missing text or OCR cannot establish absence. Newer statements must be limited to their actual subjects and known-by dates. Read before citing; give exact passages. Quoted-thread equivalents may prove the same narrow event while preserving original event/report time. Do not equate a completed clerical repair, report receipt, meeting, counsel engagement or signature with legal approval, settlement, substantive eligibility or final resolution.
+
+Stale means more than 30 calendar days between fixture last_updated and the as-of date. Registry age is not source-evidence age. The briefing surfaces questions; it cannot adopt an exposure estimate, set risk or direct a restart.
+
+As-of date: 2023-10-10. Calendar-day arithmetic uses that date, not the machine clock.

@@ -17,7 +17,12 @@
                 },
                 "previous_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "internal_review_nothing_final",
+                    "final_review_completed",
+                    "not_established"
+                  ]
                 },
                 "previous_cadence": {
                   "anyOf": [
@@ -126,11 +131,24 @@
                 },
                 "minimum_cadence": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "monthly",
+                    "weekly",
+                    "quarterly",
+                    "on_request",
+                    "not_established"
+                  ]
                 },
                 "until": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "Coastal_Solar_issue_resolved",
+                    "permanent_all_matters",
+                    "next_board_meeting",
+                    "not_established"
+                  ]
                 },
                 "approval_to_finalize_global_setup": {
                   "type": "boolean"
@@ -223,7 +241,13 @@
               "properties": {
                 "permitted_change": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "matter_board_reporting_frequency",
+                    "global_risk_framework",
+                    "all_profile_sections",
+                    "not_established"
+                  ]
                 },
                 "global_risk_framework": {
                   "anyOf": [
@@ -260,7 +284,12 @@
                 },
                 "unrelated_sections": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "preserve",
+                    "overwrite",
+                    "delete"
+                  ]
                 }
               },
               "required": [
@@ -351,17 +380,36 @@
               "properties": {
                 "apply_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "sandbox_draft_only",
+                    "global_practice_profile",
+                    "historical_board_report",
+                    "not_established"
+                  ]
                 },
                 "history_action": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "append_source_backed_change",
+                    "rewrite_all_history",
+                    "delete_previous_snapshot",
+                    "not_established"
+                  ]
                 },
                 "downstream_uses": {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "matter_briefing",
+                      "outside_counsel_status_preparation",
+                      "court_filing",
+                      "reserve_booking",
+                      "new_matter_creation"
+                    ]
                   },
                   "uniqueItems": true,
                   "maxItems": 24
@@ -371,7 +419,13 @@
                 },
                 "substantive_review_conclusion": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "still_interim",
+                    "finally_cleared",
+                    "liability_established",
+                    "not_established"
+                  ]
                 }
               },
               "required": [

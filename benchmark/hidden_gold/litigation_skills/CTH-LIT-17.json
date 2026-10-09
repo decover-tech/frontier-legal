@@ -1,0 +1,557 @@
+{
+  "task_id": "CTH-LIT-17",
+  "author_review_status": "author_checked",
+  "independent_review_status": "approved",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "portfolio_scope": "cascade_only_fixture",
+          "active_matters": 1,
+          "closed_matters_in_fixture": 0,
+          "enterprise_wide_total": null,
+          "stage": "open_regulatory_examination"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "agency_receipt",
+          "description": "Agency confirms continuing examination; either eligible report establishes open posture without inferring enterprise-wide counts.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-1065",
+              "locator": "line:6",
+              "quote": "We are reviewing the second production against the items in my August 15 request: the Bellhaven agreements, the records on who approved acreage figures for the Northwest applications, and the surveys. Where something appears incomplete I will list it in writing rather than raise it piecemeal. The examination remains open, and no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "earlier_plan",
+          "description": "An August plan is not proof of receipt or complete approval-record scope.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-161",
+              "locator": "line:6",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:24",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "stale_matters": 1,
+          "registry_age_days": 34,
+          "overdue_recorded_production_dates": 1,
+          "future_0_14_day_deadlines": 0,
+          "future_15_30_day_deadlines": 0,
+          "future_31_60_day_deadlines": 0,
+          "deadline_qualification": "recorded_date_requires_reconciliation_not_default_finding"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "historical_due",
+          "description": "Final stated production deadline is distinct from rolling schedule.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "the production deadline is now August 31, 2023."
+            }
+          ]
+        },
+        {
+          "id": "agency_receipt",
+          "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "rolling_schedule",
+          "description": "July14 deliverable is the schedule, not the production date.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "Please provide a rolling production schedule by July 14, and advise if any categories will be withheld under a claim of privilege so we can discuss a privilege log."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "Please provide a rolling production schedule by July 14, and advise if any categories will be withheld under a claim of privilege so we can discuss a privilege log."
+            },
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "Please provide a rolling production schedule by July 14"
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "Please provide a rolling production schedule by July 14"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "unknown_risk_count": 1,
+          "unknown_materiality_count": 1,
+          "reserved_count_from_fixture": 0,
+          "disclosed_count_from_fixture": 0,
+          "known_exposure_midpoint_total_usd": null,
+          "missing_exposure_estimate_count": 1,
+          "face_value_is_aggregable_exposure": false
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "face_not_liability",
+          "description": "Counsel distinguishes face ceiling, exposure and omitted penalties/interest.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:35",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:56",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:105",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:127",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:106",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:35",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:56",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:105",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:127",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:106",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            }
+          ]
+        },
+        {
+          "id": "no_accounting_conclusion",
+          "description": "Auditor separates pilot outcome from management contingency assessment.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:8",
+              "quote": "We also haven't reached a conclusion on the accounting contingency from these comparisons; that requires the broader management assessment and the ordinary audit inquiry process."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "two_scenarios",
+          "description": "Full-face case identifies amount and four parcels, not a recognized loss.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:11",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:33",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:55",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:34",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:11",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:33",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:55",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:34",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            }
+          ]
+        }
+      ],
+      "notes": "Zero reserved/disclosed means no such label in this supplied draft; it is not an assertion no real reserve/disclosure exists. Null totals deliberately differ from a zero-dollar estimate."
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "outside_counsel_assigned_count": 1,
+          "conflicts_unresolved_count": 1,
+          "risk_calibration_available": false,
+          "hold_notice_issued": true,
+          "all_systems_preserved": "not_established",
+          "required_action": "obtain_missing_decisions_and_verify_open_gaps"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "engagement",
+          "description": "Legal-services retainer establishes counsel engagement; it does not establish conflicts clearance.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-021",
+              "locator": "line:9",
+              "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+            },
+            {
+              "document_id": "EMAIL-022",
+              "locator": "line:30",
+              "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+            }
+          ]
+        },
+        {
+          "id": "hold_remains",
+          "description": "Formal notice requires preservation pending further Legal direction.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-024",
+              "locator": "line:6",
+              "quote": "Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+            }
+          ]
+        },
+        {
+          "id": "system_boundary",
+          "description": "IT can control Cascade systems, not all third-party accounts.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1161",
+              "locator": "line:6",
+              "quote": "the hold flag and the auto-delete suspension cover Cascade's systems, including the Coastal Solar shared drive your team uses. Mail on Alder's own accounts, phones and laptops isn't something we can preserve from here."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "third_party_gap",
+          "description": "Bellhaven asks what to preserve rather than attesting completion.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-070",
+              "locator": "line:6",
+              "quote": "Given the subpoena, should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "inputs/portfolio-draft.json",
+      "pointer": "",
+      "kind": "preserve"
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/matter_id",
+      "kind": "equals",
+      "value": "cascade-timber"
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/as_of",
+      "kind": "equals",
+      "value": "2023-10-10"
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_for_attorney_review"
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/approved",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/external_actions_performed",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/sections/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/sections/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/sections/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "portfolio/status.json",
+      "pointer": "/sections/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    }
+  ],
+  "control_artifacts": {
+    "inputs/portfolio-draft.json": {
+      "roster": [
+        {
+          "fixture_kind": "provisional_source_grounded_draft",
+          "matter_id": "cascade-timber",
+          "matter_name": "Cascade Timber Holdings — Coastal Solar IRS examination",
+          "status": "open_regulatory_examination",
+          "last_updated": "2023-09-06",
+          "recorded_production_due": "2023-08-31",
+          "outside_counsel": {
+            "firm": "L&L Associates",
+            "lead": "Grace Lin",
+            "email": "glin@llassociates.com"
+          },
+          "risk": null,
+          "materiality": null,
+          "exposure_range": null,
+          "conflicts_status": "not_established",
+          "settlement_authority": null,
+          "closure_authority": null,
+          "signer": null,
+          "house_style": null,
+          "history": [
+            {
+              "recorded_on": "2023-09-06",
+              "event_date": "2023-09-01",
+              "type": "agency_receipt",
+              "status": "examination_open"
+            }
+          ]
+        }
+      ],
+      "coverage": "Cascade Timber only; not an enterprise portfolio"
+    },
+    "portfolio/status.json": {
+      "matter_id": "cascade-timber",
+      "as_of": "2023-10-10",
+      "status": "draft_for_attorney_review",
+      "approved": false,
+      "external_actions_performed": false,
+      "sections": {
+        "F01": {
+          "portfolio_scope": "cascade_only_fixture",
+          "active_matters": 1,
+          "closed_matters_in_fixture": 0,
+          "enterprise_wide_total": null,
+          "stage": "open_regulatory_examination"
+        },
+        "F02": {
+          "stale_matters": 1,
+          "registry_age_days": 34,
+          "overdue_recorded_production_dates": 1,
+          "future_0_14_day_deadlines": 0,
+          "future_15_30_day_deadlines": 0,
+          "future_31_60_day_deadlines": 0,
+          "deadline_qualification": "recorded_date_requires_reconciliation_not_default_finding"
+        },
+        "F03": {
+          "unknown_risk_count": 1,
+          "unknown_materiality_count": 1,
+          "reserved_count_from_fixture": 0,
+          "disclosed_count_from_fixture": 0,
+          "known_exposure_midpoint_total_usd": null,
+          "missing_exposure_estimate_count": 1,
+          "face_value_is_aggregable_exposure": false
+        },
+        "F04": {
+          "outside_counsel_assigned_count": 1,
+          "conflicts_unresolved_count": 1,
+          "risk_calibration_available": false,
+          "hold_notice_issued": true,
+          "all_systems_preserved": "not_established",
+          "required_action": "obtain_missing_decisions_and_verify_open_gaps"
+        }
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_source_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "missing_contrary_evidence",
+      "kind": "drop_counter",
+      "finding": "F02"
+    },
+    {
+      "name": "unread_citations",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "source_history_corrupted",
+      "kind": "artifact_field",
+      "path": "inputs/portfolio-draft.json",
+      "pointer": "/roster/0/status",
+      "value": "closed"
+    },
+    {
+      "name": "invent_second_matter",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/active_matters",
+      "value": 2
+    },
+    {
+      "name": "unknown_exposure_becomes_zero",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/known_exposure_midpoint_total_usd",
+      "value": 0
+    },
+    {
+      "name": "retainer_clears_conflicts",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/conflicts_unresolved_count",
+      "value": 0
+    },
+    {
+      "name": "deadline_rolls_into_future",
+      "kind": "answer_field",
+      "finding": "F02",
+      "pointer": "/future_0_14_day_deadlines",
+      "value": 1
+    }
+  ]
+}

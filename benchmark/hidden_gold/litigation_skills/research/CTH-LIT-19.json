@@ -1,0 +1,210 @@
+{
+  "task_id": "CTH-LIT-19",
+  "reference_skill": "matter-close",
+  "reference_skill_sha256": "545801921f2ccf4f53929166d6228e197d7d2db28797132c86060f97c6a5a356",
+  "scope_adaptation": "Global config and external operations replaced by isolated declared draft artifacts. Missing approvals remain unknown.",
+  "fixture_grounding": {
+    "snapshot_sources": [
+      {
+        "id": "agency_receipt",
+        "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-162",
+            "locator": "line:6",
+            "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+          }
+        ]
+      },
+      {
+        "id": "historical_due",
+        "description": "Final stated production deadline is distinct from rolling schedule.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-158",
+            "locator": "line:6",
+            "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+          },
+          {
+            "document_id": "EMAIL-159",
+            "locator": "line:24",
+            "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+          }
+        ]
+      },
+      {
+        "id": "engagement",
+        "description": "Legal-services retainer establishes counsel engagement; it does not establish conflicts clearance.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-021",
+            "locator": "line:9",
+            "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+          },
+          {
+            "document_id": "EMAIL-022",
+            "locator": "line:30",
+            "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+          }
+        ]
+      },
+      {
+        "id": "verified_recipient",
+        "description": "Identity/address from actual legal-advice correspondence, not inferred domain.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-1466",
+            "locator": "line:2",
+            "quote": "From: Grace Lin <glin@llassociates.com>"
+          }
+        ]
+      }
+    ],
+    "initial_snapshot_is_historical_fact": false
+  },
+  "evidence_notes": [
+    "Each supplied quote verified as a contiguous normalized passage in the pinned locator.",
+    "Source dates are event/report-specific, including receiptSep1/reportSep6 and pilotSep5/reviewSep6/reportSep8.",
+    "Email1506 expressly qualifies pilot and contingency; do not infer monetary reserve or clean control.",
+    "Whole-corpus search for examination closed, hold release and finalinvoice did not identify an affirmative record; absence conclusions remain limited to source support and extraction coverage."
+  ],
+  "proof_spans": [
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open."
+    },
+    {
+      "document_id": "EMAIL-161",
+      "locator": "line:6",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:24",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "document_id": "EMAIL-1506",
+      "locator": "line:6",
+      "quote": "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+    },
+    {
+      "document_id": "EMAIL-1496",
+      "locator": "line:7",
+      "quote": "That resolves the source-page question, not the eligibility question. We are still asking what screening was done for NW-03 before delivery and whether there is any later survey or county correspondence that changes the position."
+    },
+    {
+      "document_id": "EMAIL-1504",
+      "locator": "line:8",
+      "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there."
+    },
+    {
+      "document_id": "EMAIL-1466",
+      "locator": "line:11",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1467",
+      "locator": "line:35",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1468",
+      "locator": "line:56",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1469",
+      "locator": "line:83",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1470",
+      "locator": "line:105",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1473",
+      "locator": "line:127",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1474",
+      "locator": "line:106",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "document_id": "EMAIL-1466",
+      "locator": "line:11",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1467",
+      "locator": "line:35",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1468",
+      "locator": "line:56",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1469",
+      "locator": "line:83",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1470",
+      "locator": "line:105",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1473",
+      "locator": "line:127",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1474",
+      "locator": "line:106",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "document_id": "EMAIL-1496",
+      "locator": "line:9",
+      "quote": "We aren't quantifying a tax loss or representing that the contractual disallowance trigger has occurred."
+    },
+    {
+      "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+      "locator": "sheet:1:row:4",
+      "quote": "A4=L&L Associates — review costs | B4=$0 | C4=$65,000 | D4=+$65,000"
+    },
+    {
+      "document_id": "EMAIL-024",
+      "locator": "line:6",
+      "quote": "Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+    },
+    {
+      "document_id": "EMAIL-1474",
+      "locator": "line:9",
+      "quote": "Confirming what's preserved in the restricted legal folder: the 5/24 schedule, the 5/31 two-tab workbook, the face builds for the four parcels, and my emails with Rob on this. I've stopped overwriting the workbook, so any revision will be saved as a new dated file."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open."
+    }
+  ],
+  "reference_repository_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "review_refinements": "Applied master reviewer approved proof alternatives, explicit public vocabulary and scope-limited passages; independent review remains a separate record."
+}

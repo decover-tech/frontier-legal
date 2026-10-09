@@ -1,0 +1,838 @@
+{
+  "task_id": "CTH-LIT-18",
+  "skill": "oc-status",
+  "title": "Review-only outside-counsel status request and run summary",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-09-20T23:59:59-07:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-03",
+    "CTH-LIT-15"
+  ],
+  "instruction": "Prepare a local structured status-request draft and run summary for the sole Cascade matter under the default recency filter. Retrieve the retained lead address and scope, qualify stale deadlines and conflicting cost figures, and leave unavailable signer/style/authorization unknown. Do not create Gmail drafts or send anything.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Identify the appropriate retained outside-counsel recipient and determine which sender/house defaults remain unavailable for a local draft.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "firm": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "lead": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "to_email": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "signer": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "house_style": {
+            "type": "string",
+            "enum": [
+              "not_supplied",
+              "formal_corporate_approved",
+              "first_name_approved"
+            ],
+            "maxLength": 2048
+          },
+          "send_authorized": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "firm",
+          "lead",
+          "to_email",
+          "signer",
+          "house_style",
+          "send_authorized"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F02",
+      "question": "Apply the default status-request filter on September20 using the fixture last update, then qualify the obsolete production date instead of asserting a new deadline.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "last_registry_update": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "days_since_update": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "include_in_run": {
+            "type": "boolean"
+          },
+          "inclusion_reason": {
+            "type": "string",
+            "enum": [
+              "more_than_10_days_since_update",
+              "deadline_within_21_days",
+              "closed_matter",
+              "recent_update_skip"
+            ],
+            "maxLength": 2048
+          },
+          "recorded_production_due": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "confirmed_future_deadline": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          }
+        },
+        "required": [
+          "last_registry_update",
+          "days_since_update",
+          "include_in_run",
+          "inclusion_reason",
+          "recorded_production_due",
+          "confirmed_future_deadline"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Formulate the budget inquiry from the CFO target, counsel response and actual forecast attachment. Which costs or approvals are established?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "requested_review_target_usd": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "financial_model_review_cost_usd": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "amounts_comparable_as_actual_spend": {
+            "type": "boolean"
+          },
+          "approved_current_budget_usd": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "actual_billed_total_usd": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "budget_request": {
+            "type": "string",
+            "enum": [
+              "confirm_authorization_actuals_and_variance",
+              "approve_65000_budget",
+              "assert_57000_overrun_paid"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "requested_review_target_usd",
+          "financial_model_review_cost_usd",
+          "amounts_comparable_as_actual_spend",
+          "approved_current_budget_usd",
+          "actual_billed_total_usd",
+          "budget_request"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Select concrete status questions supported by unresolved production and remediation issues without instructing a restart or stating that the case ended.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "ask_to_confirm": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 150
+            },
+            "maxItems": 30,
+            "uniqueItems": true
+          },
+          "draft_posture": {
+            "type": "string",
+            "enum": [
+              "request_updates_not_concede",
+              "confirm_settlement",
+              "announce_clean_control"
+            ],
+            "maxLength": 2048
+          },
+          "case_closed": {
+            "type": "boolean"
+          },
+          "final_contingency_decision": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          }
+        },
+        "required": [
+          "ask_to_confirm",
+          "draft_posture",
+          "case_closed",
+          "final_contingency_decision"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "inputs/matter-draft.json": {
+      "type": "object",
+      "properties": {
+        "fixture_kind": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "matter_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "matter_name": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "last_updated": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "recorded_production_due": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "outside_counsel": {
+          "type": "object",
+          "properties": {
+            "firm": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "lead": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "email": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          "required": [
+            "firm",
+            "lead",
+            "email"
+          ],
+          "additionalProperties": false
+        },
+        "risk": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "materiality": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "exposure_range": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "conflicts_status": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "settlement_authority": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "closure_authority": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "signer": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "house_style": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "recorded_on": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "event_date": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "type": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "status": {
+                "type": "string",
+                "maxLength": 200
+              }
+            },
+            "required": [
+              "recorded_on",
+              "event_date",
+              "type",
+              "status"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 20
+        }
+      },
+      "required": [
+        "fixture_kind",
+        "matter_id",
+        "matter_name",
+        "status",
+        "last_updated",
+        "recorded_production_due",
+        "outside_counsel",
+        "risk",
+        "materiality",
+        "exposure_range",
+        "conflicts_status",
+        "settlement_authority",
+        "closure_authority",
+        "signer",
+        "house_style",
+        "history"
+      ],
+      "additionalProperties": false
+    },
+    "oc-status/request.json": {
+      "type": "object",
+      "properties": {
+        "matter_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "as_of": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft_for_attorney_review",
+            "approved",
+            "sent",
+            "closed"
+          ],
+          "maxLength": 2048
+        },
+        "approved": {
+          "type": "boolean"
+        },
+        "external_actions_performed": {
+          "type": "boolean"
+        },
+        "sections": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "firm": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "lead": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "to_email": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "signer": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "house_style": {
+                  "type": "string",
+                  "enum": [
+                    "not_supplied",
+                    "formal_corporate_approved",
+                    "first_name_approved"
+                  ],
+                  "maxLength": 2048
+                },
+                "send_authorized": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "firm",
+                "lead",
+                "to_email",
+                "signer",
+                "house_style",
+                "send_authorized"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "last_registry_update": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "days_since_update": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "include_in_run": {
+                  "type": "boolean"
+                },
+                "inclusion_reason": {
+                  "type": "string",
+                  "enum": [
+                    "more_than_10_days_since_update",
+                    "deadline_within_21_days",
+                    "closed_matter",
+                    "recent_update_skip"
+                  ],
+                  "maxLength": 2048
+                },
+                "recorded_production_due": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "confirmed_future_deadline": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "last_registry_update",
+                "days_since_update",
+                "include_in_run",
+                "inclusion_reason",
+                "recorded_production_due",
+                "confirmed_future_deadline"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "requested_review_target_usd": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "financial_model_review_cost_usd": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "amounts_comparable_as_actual_spend": {
+                  "type": "boolean"
+                },
+                "approved_current_budget_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "actual_billed_total_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "budget_request": {
+                  "type": "string",
+                  "enum": [
+                    "confirm_authorization_actuals_and_variance",
+                    "approve_65000_budget",
+                    "assert_57000_overrun_paid"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "requested_review_target_usd",
+                "financial_model_review_cost_usd",
+                "amounts_comparable_as_actual_spend",
+                "approved_current_budget_usd",
+                "actual_billed_total_usd",
+                "budget_request"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "ask_to_confirm": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 150
+                  },
+                  "maxItems": 30,
+                  "uniqueItems": true
+                },
+                "draft_posture": {
+                  "type": "string",
+                  "enum": [
+                    "request_updates_not_concede",
+                    "confirm_settlement",
+                    "announce_clean_control"
+                  ],
+                  "maxLength": 2048
+                },
+                "case_closed": {
+                  "type": "boolean"
+                },
+                "final_contingency_decision": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "ask_to_confirm",
+                "draft_posture",
+                "case_closed",
+                "final_contingency_decision"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04"
+          ],
+          "additionalProperties": false
+        },
+        "run_summary": {
+          "type": "object",
+          "properties": {
+            "matters_processed": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            },
+            "local_drafts": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            },
+            "gmail_drafts": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            },
+            "sent": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            },
+            "mode": {
+              "type": "string",
+              "enum": [
+                "local_only",
+                "gmail_drafts_created",
+                "sent"
+              ],
+              "maxLength": 2048
+            },
+            "blocking_defaults": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "signer",
+                  "house_style",
+                  "send_authorization",
+                  "recipient",
+                  "no_missing_defaults"
+                ],
+                "maxLength": 2048
+              },
+              "maxItems": 30,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "matters_processed",
+            "local_drafts",
+            "gmail_drafts",
+            "sent",
+            "mode",
+            "blocking_defaults"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "matter_id",
+        "as_of",
+        "status",
+        "approved",
+        "external_actions_performed",
+        "sections",
+        "run_summary"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Input draft artifacts and their existing history must remain byte-equivalent JSON values.",
+    "All proposed outputs remain unapproved local drafts.",
+    "No real sending, calendars, source-designation changes, archive or global profile writes.",
+    "Read-only predecessor artifacts cannot override current source evidence or clear unknown approvals."
+  ],
+  "policy_sha256": "88b3db9dc301b770d2de80481ec7bf2be74272e2e1eb74ae923dc77d334f8c00",
+  "schema_sha256": "3886cd6c28efd845ae7d2916705976a9a0757cce7253136fc56081f614a89eaf",
+  "fixtures_sha256": "4be8e36a198c6cb5df94c0ec024c050b56faa1ba32230bc4858abf9eae09cfe4",
+  "oracle_sha256": "bacb2b857c3fd3079f508fdfce4594d0dfd40e66d7d4aa54aa68fa73b9c0907a",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

@@ -1,7 +1,7 @@
 {
   "task_id": "CTH-LIT-02",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
@@ -36,7 +36,7 @@
             {
               "document_id": "EMAIL-053",
               "locator": "line:6",
-              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+              "quote": "Let's put a standing item on the board agenda until this is resolved — I'd like a monthly update at minimum."
             }
           ]
         }
@@ -61,7 +61,7 @@
             {
               "document_id": "EMAIL-053",
               "locator": "line:6",
-              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+              "quote": "Let's put a standing item on the board agenda until this is resolved — I'd like a monthly update at minimum."
             }
           ]
         },
@@ -111,7 +111,7 @@
             {
               "document_id": "EMAIL-053",
               "locator": "line:6",
-              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+              "quote": "Let's put a standing item on the board agenda until this is resolved — I'd like a monthly update at minimum."
             }
           ]
         }
@@ -139,7 +139,7 @@
             {
               "document_id": "EMAIL-053",
               "locator": "line:6",
-              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+              "quote": "Let's put a standing item on the board agenda until this is resolved — I'd like a monthly update at minimum."
             }
           ]
         }

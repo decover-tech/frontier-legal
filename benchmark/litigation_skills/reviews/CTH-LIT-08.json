@@ -310,17 +310,23 @@
     "hidden_answer_leakage": "passed",
     "temporal_eligibility": "passed",
     "unsupported_conclusions": "passed_with_corrections",
-    "runtime_controls": "root_runs_separately"
+    "runtime_controls": "root_runs_separately",
+    "public_task_policy_fixture_binding": "passed",
+    "model_observation_provenance_filter": "passed"
   },
   "issues_resolved": [
     "F05 incorrectly retained June2 pending as uncured through September6. Independent corpus search found July11 EMAIL1096 reporting export before departure, disabledJune30/notdeleted/onhold; July25 EMAIL1155 confirms exportcopy/onhold. Author corrected answer and added both narrow equivalent proofs.",
     "Added EMAIL1161 system-ownership boundary: Cascade mail/shared-drive controls do not establish preservation of Alder-owned accounts/phones/laptops.",
-    "Added adversary for stale pending status despite later cure; retained exact export date as unknown and Bellhaven preservation as unestablished."
+    "Added adversary for stale pending status despite later cure; retained exact export date as unknown and Bellhaven preservation as unestablished.",
+    "Common runtime no longer exposes citation-bearing fixture provenance or the availability readiness label in initial learner observation; original provenance remains trusted audit metadata."
   ],
   "limitations": [
     "Review applies supplied benchmark policies only; not independent legal advice or forum-authority verification.",
     "No held-out model performance or generalization claim; this is a development episode.",
     "Original protocol examples remain excluded from public projections; substantive source banners are evidence to test, not hidden labels.",
     "All citation alternatives verified against exact frozen locator spans. Standalone documents without machine dates are task-authorized supplied assets; attachment eligibility derives from parent emails."
-  ]
+  ],
+  "task_semantics_sha256": "3cdef87899ad53a00216cf9dfc647d6ec16816f091addd6ed73aed0f7d447622",
+  "policy_sha256": "4182a356d149d027064681fc62cb4f394fd944dc2e771e24f5b641e25acd3f6d",
+  "fixtures_sha256": "309ac6bd009475512da63263a22456e54d1f92e06ecab3f30857d94e27b293e6"
 }

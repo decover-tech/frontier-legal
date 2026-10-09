@@ -31,11 +31,24 @@
           },
           "proceeding": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "irs_examination",
+              "civil_court_action",
+              "grand_jury_investigation",
+              "private_arbitration",
+              "not_established"
+            ]
           },
           "classification": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "regulatory_investigation",
+              "contract_litigation",
+              "employment_dispute",
+              "not_established"
+            ]
           }
         },
         "required": [
@@ -102,15 +115,33 @@
           },
           "history_semantics": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "source_events_not_approved_intake",
+              "approved_operational_intake",
+              "model_assumptions",
+              "not_established"
+            ]
           },
           "clearance_status": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "not_established",
+              "cleared",
+              "waived",
+              "not_run_confirmed"
+            ]
           },
           "operational_status": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "draft_pending_conflicts_information",
+              "approved_active",
+              "closed",
+              "not_established"
+            ]
           },
           "rewrite_earlier_history": {
             "type": "boolean"
@@ -142,7 +173,13 @@
           },
           "active_pointer_scope": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "sandbox_only",
+              "global_configuration",
+              "all_matters",
+              "not_established"
+            ]
           },
           "cross_matter_context": {
             "type": "boolean"
@@ -203,7 +240,15 @@
               },
               "status": {
                 "type": "string",
-                "maxLength": 2048
+                "maxLength": 2048,
+                "enum": [
+                  "awaiting_operator_answers",
+                  "draft_change",
+                  "draft_pending_conflicts_information",
+                  "approved_active",
+                  "complete",
+                  "closed"
+                ]
               }
             },
             "required": [
@@ -242,11 +287,25 @@
         },
         "status": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "awaiting_operator_answers",
+            "draft_change",
+            "draft_pending_conflicts_information",
+            "approved_active",
+            "complete",
+            "closed"
+          ]
         },
         "conflicts_clearance": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "not_established",
+            "cleared",
+            "waived",
+            "not_run_confirmed"
+          ]
         }
       },
       "required": [
@@ -272,7 +331,14 @@
               },
               "event": {
                 "type": "string",
-                "maxLength": 2048
+                "maxLength": 2048,
+                "enum": [
+                  "anonymous_complaint_reported",
+                  "counsel_engaged",
+                  "irs_instrument_received",
+                  "case_closed",
+                  "conflicts_cleared"
+                ]
               }
             },
             "required": [
@@ -331,11 +397,24 @@
                 },
                 "proceeding": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "irs_examination",
+                    "civil_court_action",
+                    "grand_jury_investigation",
+                    "private_arbitration",
+                    "not_established"
+                  ]
                 },
                 "classification": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "regulatory_investigation",
+                    "contract_litigation",
+                    "employment_dispute",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -392,15 +471,33 @@
                 },
                 "history_semantics": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "source_events_not_approved_intake",
+                    "approved_operational_intake",
+                    "model_assumptions",
+                    "not_established"
+                  ]
                 },
                 "clearance_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "not_established",
+                    "cleared",
+                    "waived",
+                    "not_run_confirmed"
+                  ]
                 },
                 "operational_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "draft_pending_conflicts_information",
+                    "approved_active",
+                    "closed",
+                    "not_established"
+                  ]
                 },
                 "rewrite_earlier_history": {
                   "type": "boolean"
@@ -427,7 +524,13 @@
                 },
                 "active_pointer_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "sandbox_only",
+                    "global_configuration",
+                    "all_matters",
+                    "not_established"
+                  ]
                 },
                 "cross_matter_context": {
                   "type": "boolean"
@@ -460,7 +563,12 @@
         },
         "mode": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "sandbox_organized_draft",
+            "operational_workspace",
+            "archived_matter"
+          ]
         }
       },
       "required": [
@@ -480,11 +588,12 @@
   },
   "state_invariants": [
     "Only declared isolated artifacts may change; no global configuration, sending, calendar, or external operations.",
-    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history."
+    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history.",
+    "Categorical answer fields use the explicit public vocabulary; source names may use the attested full institutional suffixes. Dates use ISO YYYY-MM-DD."
   ],
   "policy_sha256": "58ceac756a1634311a1eeeecee993e4871b53c8d649b4f22c24c06cba7fa6541",
-  "schema_sha256": "2b6303e57d1714ed3f74dad8e23e0bd359cdc322cfa6100199199ce9742af60e",
+  "schema_sha256": "22559c19863b29af21868ae09cc942cb8d2b782cf8cd386837847105f3cca5ad",
   "fixtures_sha256": "a4f6acdbb6c9d9376a4e422436cf1d9c3ebfdcc5005789870cc65da8db322f02",
-  "oracle_sha256": "5dda96158ee254a0a040a3e3cee157317ecd7dfdf967f4c88858c07f2f7f6a74",
+  "oracle_sha256": "907587c96a9aadd778063c5247a2ebe692a5ff4ad32b1ca4cf66151366d94395",
   "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
 }

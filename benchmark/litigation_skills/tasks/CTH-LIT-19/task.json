@@ -1,0 +1,895 @@
+{
+  "task_id": "CTH-LIT-19",
+  "skill": "matter-close",
+  "title": "Closure-readiness handoff without unsupported archive or hold release",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-09-08T23:59:59-07:00",
+  "availability": "missing-trigger",
+  "dependencies": [
+    "CTH-LIT-03",
+    "CTH-LIT-09",
+    "CTH-LIT-15"
+  ],
+  "instruction": "Assess the proposed closure of Cascade using actual agency status, remediation and financial evidence. If resolution or authority is missing, create a supported readiness handoff while preserving active tracking and history. Do not invent settlement, final cost, lessons, closure date or hold release.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Does the agency production receipt establish a closeable outcome at this cutoff, and which resolution fields can be populated?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "closure_readiness": {
+            "type": "string",
+            "enum": [
+              "blocked_missing_resolution",
+              "ready_to_archive",
+              "already_closed"
+            ],
+            "maxLength": 2048
+          },
+          "agency_status": {
+            "type": "string",
+            "enum": [
+              "open",
+              "closed",
+              "unknown"
+            ],
+            "maxLength": 2048
+          },
+          "resolution_type": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "resolution_date": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "required_action": {
+            "type": "string",
+            "enum": [
+              "obtain_resolution_and_attorney_authorization",
+              "archive_now",
+              "infer_settlement_from_receipt"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "closure_readiness",
+          "agency_status",
+          "resolution_type",
+          "resolution_date",
+          "required_action"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F02",
+      "question": "Do a repaired source reference and limited review signature establish that substantive eligibility/control issues are resolved?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "reference_repair": {
+            "type": "string",
+            "enum": [
+              "complete",
+              "pending",
+              "not_started"
+            ],
+            "maxLength": 2048
+          },
+          "substantive_exceptions_open": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "clean_program_conclusion": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "established",
+              "all_controls_failed"
+            ],
+            "maxLength": 2048
+          },
+          "buyer_eligibility_question": {
+            "type": "string",
+            "enum": [
+              "still_open",
+              "resolved",
+              "withdrawn"
+            ],
+            "maxLength": 2048
+          },
+          "closure_from_remediation": {
+            "type": "string",
+            "enum": [
+              "unsupported",
+              "supported",
+              "mandatory"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "reference_repair",
+          "substantive_exceptions_open",
+          "clean_program_conclusion",
+          "buyer_eligibility_question",
+          "closure_from_remediation"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Determine what can be entered for final cost, reserve accuracy and realized loss without converting analytical scenarios or costs into a settlement.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "final_company_cost_usd": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "settlement_amount_usd": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "reserve_accuracy": {
+            "type": "string",
+            "enum": [
+              "not_assessable",
+              "accurate",
+              "underreserved",
+              "overreserved"
+            ],
+            "maxLength": 2048
+          },
+          "face_ceiling_is_final_cost": {
+            "type": "boolean"
+          },
+          "actual_tax_loss": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "established",
+              "proved_zero"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "final_company_cost_usd",
+          "settlement_amount_usd",
+          "reserve_accuracy",
+          "face_ceiling_is_final_cost",
+          "actual_tax_loss"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "What must happen to active tracking, preservation and historical records when no closure/release authority is established?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "active_tracking": {
+            "type": "string",
+            "enum": [
+              "retain",
+              "stop",
+              "delete"
+            ],
+            "maxLength": 2048
+          },
+          "hold_release": {
+            "type": "string",
+            "enum": [
+              "not_authorized",
+              "authorized",
+              "automatic_on_production"
+            ],
+            "maxLength": 2048
+          },
+          "source_history": {
+            "type": "string",
+            "enum": [
+              "preserve",
+              "replace_with_close_summary",
+              "delete"
+            ],
+            "maxLength": 2048
+          },
+          "archive_action": {
+            "type": "string",
+            "enum": [
+              "do_not_archive",
+              "archive_now",
+              "remove_record"
+            ],
+            "maxLength": 2048
+          },
+          "lessons": {
+            "type": "string",
+            "enum": [
+              "not_supplied",
+              "infer_negligence",
+              "declare_success"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "active_tracking",
+          "hold_release",
+          "source_history",
+          "archive_action",
+          "lessons"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "inputs/matter-draft.json": {
+      "type": "object",
+      "properties": {
+        "fixture_kind": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "matter_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "matter_name": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "last_updated": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "recorded_production_due": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "outside_counsel": {
+          "type": "object",
+          "properties": {
+            "firm": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "lead": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "email": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          "required": [
+            "firm",
+            "lead",
+            "email"
+          ],
+          "additionalProperties": false
+        },
+        "risk": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "materiality": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "exposure_range": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "conflicts_status": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "settlement_authority": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "closure_authority": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "signer": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "house_style": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "recorded_on": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "event_date": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "type": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "status": {
+                "type": "string",
+                "maxLength": 200
+              }
+            },
+            "required": [
+              "recorded_on",
+              "event_date",
+              "type",
+              "status"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 20
+        }
+      },
+      "required": [
+        "fixture_kind",
+        "matter_id",
+        "matter_name",
+        "status",
+        "last_updated",
+        "recorded_production_due",
+        "outside_counsel",
+        "risk",
+        "materiality",
+        "exposure_range",
+        "conflicts_status",
+        "settlement_authority",
+        "closure_authority",
+        "signer",
+        "house_style",
+        "history"
+      ],
+      "additionalProperties": false
+    },
+    "close/readiness.json": {
+      "type": "object",
+      "properties": {
+        "matter_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "as_of": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft_for_attorney_review",
+            "approved",
+            "sent",
+            "closed"
+          ],
+          "maxLength": 2048
+        },
+        "approved": {
+          "type": "boolean"
+        },
+        "external_actions_performed": {
+          "type": "boolean"
+        },
+        "sections": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "closure_readiness": {
+                  "type": "string",
+                  "enum": [
+                    "blocked_missing_resolution",
+                    "ready_to_archive",
+                    "already_closed"
+                  ],
+                  "maxLength": 2048
+                },
+                "agency_status": {
+                  "type": "string",
+                  "enum": [
+                    "open",
+                    "closed",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "resolution_type": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "resolution_date": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "required_action": {
+                  "type": "string",
+                  "enum": [
+                    "obtain_resolution_and_attorney_authorization",
+                    "archive_now",
+                    "infer_settlement_from_receipt"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "closure_readiness",
+                "agency_status",
+                "resolution_type",
+                "resolution_date",
+                "required_action"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "reference_repair": {
+                  "type": "string",
+                  "enum": [
+                    "complete",
+                    "pending",
+                    "not_started"
+                  ],
+                  "maxLength": 2048
+                },
+                "substantive_exceptions_open": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "clean_program_conclusion": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "all_controls_failed"
+                  ],
+                  "maxLength": 2048
+                },
+                "buyer_eligibility_question": {
+                  "type": "string",
+                  "enum": [
+                    "still_open",
+                    "resolved",
+                    "withdrawn"
+                  ],
+                  "maxLength": 2048
+                },
+                "closure_from_remediation": {
+                  "type": "string",
+                  "enum": [
+                    "unsupported",
+                    "supported",
+                    "mandatory"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "reference_repair",
+                "substantive_exceptions_open",
+                "clean_program_conclusion",
+                "buyer_eligibility_question",
+                "closure_from_remediation"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "final_company_cost_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "settlement_amount_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "reserve_accuracy": {
+                  "type": "string",
+                  "enum": [
+                    "not_assessable",
+                    "accurate",
+                    "underreserved",
+                    "overreserved"
+                  ],
+                  "maxLength": 2048
+                },
+                "face_ceiling_is_final_cost": {
+                  "type": "boolean"
+                },
+                "actual_tax_loss": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "proved_zero"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "final_company_cost_usd",
+                "settlement_amount_usd",
+                "reserve_accuracy",
+                "face_ceiling_is_final_cost",
+                "actual_tax_loss"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "active_tracking": {
+                  "type": "string",
+                  "enum": [
+                    "retain",
+                    "stop",
+                    "delete"
+                  ],
+                  "maxLength": 2048
+                },
+                "hold_release": {
+                  "type": "string",
+                  "enum": [
+                    "not_authorized",
+                    "authorized",
+                    "automatic_on_production"
+                  ],
+                  "maxLength": 2048
+                },
+                "source_history": {
+                  "type": "string",
+                  "enum": [
+                    "preserve",
+                    "replace_with_close_summary",
+                    "delete"
+                  ],
+                  "maxLength": 2048
+                },
+                "archive_action": {
+                  "type": "string",
+                  "enum": [
+                    "do_not_archive",
+                    "archive_now",
+                    "remove_record"
+                  ],
+                  "maxLength": 2048
+                },
+                "lessons": {
+                  "type": "string",
+                  "enum": [
+                    "not_supplied",
+                    "infer_negligence",
+                    "declare_success"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "active_tracking",
+                "hold_release",
+                "source_history",
+                "archive_action",
+                "lessons"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04"
+          ],
+          "additionalProperties": false
+        },
+        "registry_action": {
+          "type": "object",
+          "properties": {
+            "closed_date": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                }
+              ]
+            },
+            "outcome": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                }
+              ]
+            },
+            "archived": {
+              "type": "boolean"
+            },
+            "hold_released": {
+              "type": "boolean"
+            },
+            "lessons": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                }
+              ]
+            }
+          },
+          "required": [
+            "closed_date",
+            "outcome",
+            "archived",
+            "hold_released",
+            "lessons"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "matter_id",
+        "as_of",
+        "status",
+        "approved",
+        "external_actions_performed",
+        "sections",
+        "registry_action"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Input draft artifacts and their existing history must remain byte-equivalent JSON values.",
+    "All proposed outputs remain unapproved local drafts.",
+    "No real sending, calendars, source-designation changes, archive or global profile writes.",
+    "Read-only predecessor artifacts cannot override current source evidence or clear unknown approvals."
+  ],
+  "policy_sha256": "a3885083ff48c9072dcc089e08c066ffcd1f75935eacadad41362d63a257eb05",
+  "schema_sha256": "5e13fc7763c2a9f3fad18dfe80860e3f8f4485cbd0d0dd9b77fd887fb9424ac2",
+  "fixtures_sha256": "4be8e36a198c6cb5df94c0ec024c050b56faa1ba32230bc4858abf9eae09cfe4",
+  "oracle_sha256": "59657103b9236e17449b320804d423c595f524d5636b3cddbb2cace2edc62197",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

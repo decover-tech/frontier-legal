@@ -1,0 +1,612 @@
+{
+  "task_id": "CTH-LIT-16",
+  "author_review_status": "author_checked",
+  "independent_review_status": "approved",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "registry_last_updated": "2023-09-06",
+          "registry_age_days": 34,
+          "stale_over_30_days": true,
+          "agency_report_on": "2023-09-23",
+          "posture": "open_examination",
+          "next_confirmed_future_deadline": null
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "latest_agency_status",
+          "description": "September23 direct agency status supersedes the September6 report for latest-report dating; registry last_updated remains separate.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1065",
+              "locator": "line:6",
+              "quote": "We are reviewing the second production against the items in my August 15 request: the Bellhaven agreements, the records on who approved acreage figures for the Northwest applications, and the surveys. Where something appears incomplete I will list it in writing rather than raise it piecemeal. The examination remains open, and no interviews are being scheduled at this time."
+            }
+          ]
+        },
+        {
+          "id": "historical_due",
+          "description": "Final stated production deadline is distinct from rolling schedule.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-158",
+              "locator": "line:6",
+              "quote": "the production deadline is now August 31, 2023."
+            },
+            {
+              "document_id": "EMAIL-159",
+              "locator": "line:24",
+              "quote": "the production deadline is now August 31, 2023."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "earlier_plan",
+          "description": "An August plan is not proof of receipt or complete approval-record scope.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-161",
+              "locator": "line:6",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:24",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            }
+          ]
+        }
+      ],
+      "notes": "Fixture registry last_updated remains September6 (34days old atOctober10). The agency issued a later September23 open-items status report beforecutoff. It confirms ongoing review without setting a new dated deadline."
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "reported_face_ceiling_usd": 2400000,
+          "parcels": [
+            "NW-03",
+            "NW-04",
+            "NW-06",
+            "NW-07"
+          ],
+          "alternative_scenario": "excess_acreage_uncomputed",
+          "penalties_and_interest": "excluded",
+          "adopted_estimate_usd": null
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "two_scenarios",
+          "description": "Full-face case identifies amount and four parcels, not a recognized loss.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:11",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:33",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:55",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:34",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:11",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:33",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:55",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:34",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            }
+          ]
+        },
+        {
+          "id": "uncomputed_alternative",
+          "description": "Alternative scenario lacks supported-acreage inputs.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:13",
+              "quote": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs. Per Grace, I haven't populated it and I haven't pulled acreage from the 2022 survey material."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:35",
+              "quote": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs. Per Grace, I haven't populated it and I haven't pulled acreage from the 2022 survey material."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:57",
+              "quote": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs. Per Grace, I haven't populated it and I haven't pulled acreage from the 2022 survey material."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:36",
+              "quote": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs. Per Grace, I haven't populated it and I haven't pulled acreage from the 2022 survey material."
+            }
+          ]
+        },
+        {
+          "id": "face_not_liability",
+          "description": "Counsel distinguishes face ceiling, exposure and omitted penalties/interest.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:35",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:56",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:105",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:127",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:106",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:35",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:56",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:105",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:127",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:106",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            }
+          ]
+        },
+        {
+          "id": "omitted_components",
+          "description": "Expressly omitted components, independently of the face-value and scenario statements.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:15",
+              "quote": "Neither tab includes penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:37",
+              "quote": "Neither tab includes penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:59",
+              "quote": "Neither tab includes penalties or interest."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:38",
+              "quote": "Neither tab includes penalties or interest."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "no_management_estimate",
+          "description": "Counsel expressly reports non-adoption of an estimate.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:11",
+              "quote": "we've received a subpoena, we're responding with outside counsel, the assessment is ongoing, and management hasn't adopted an estimate."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "latest_report_on": "2023-09-08",
+          "scope": "three_packet_purposive_pilot",
+          "reference_correction": "complete",
+          "acreage_reconciliations": [
+            "NW-04",
+            "NW-07"
+          ],
+          "program_effectiveness": "not_established",
+          "historical_2022_testing": "not_replaced"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "auditor_scope",
+          "description": "Auditor limits the result to three packets and two open substantive exceptions.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:6",
+              "quote": "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+            }
+          ]
+        },
+        {
+          "id": "named_open_exceptions",
+          "description": "Compliance names unresolved parcels after repair.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1505",
+              "locator": "line:6",
+              "quote": "The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open."
+            },
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:20",
+              "quote": "The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open."
+            }
+          ]
+        },
+        {
+          "id": "sample_and_historical_limit",
+          "description": "Express purposive-sample scope and no replacement of historical quarterly workpapers.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1505",
+              "locator": "line:8",
+              "quote": "This is the new remediation procedure operating on a purposive sample. We are not presenting it as the missing workpapers for the 2022 quarters or as a test of every packet."
+            },
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:22",
+              "quote": "This is the new remediation procedure operating on a purposive sample. We are not presenting it as the missing workpapers for the 2022 quarters or as a test of every packet."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "limited_signature",
+          "description": "Second reviewer expressly limits signature and preserves original findings.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1504",
+              "locator": "line:8",
+              "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "followup_owner": "Sarah Nguyen",
+          "required_next_step": "agree_population_and_assign_owner_dates",
+          "risk_rating": null,
+          "materiality_classification": null,
+          "contingency_conclusion": "requires_broader_assessment"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "named_followup_owner",
+          "description": "Explicit owner of follow-up, separate from limited review signature.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1504",
+              "locator": "line:8",
+              "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there. Sarah owns the follow-up; if Alder sends a reconciliation, it should have its own received date and source, with these first-pass results retained."
+            },
+            {
+              "document_id": "EMAIL-1504",
+              "locator": "line:8",
+              "quote": "Sarah owns the follow-up; if Alder sends a reconciliation, it should have its own received date and source"
+            }
+          ]
+        },
+        {
+          "id": "next_round",
+          "description": "Auditor asks for bounded next-round work.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:8",
+              "quote": "For the next round, agree the sampling population before selection and name an owner and target date for each open exception."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "no_accounting_conclusion",
+          "description": "Auditor separates pilot outcome from management contingency assessment.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:8",
+              "quote": "We also haven't reached a conclusion on the accounting contingency from these comparisons; that requires the broader management assessment and the ordinary audit inquiry process."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "inputs/matter-draft.json",
+      "pointer": "",
+      "kind": "preserve"
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/matter_id",
+      "kind": "equals",
+      "value": "cascade-timber"
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/as_of",
+      "kind": "equals",
+      "value": "2023-10-10"
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_for_attorney_review"
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/approved",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/external_actions_performed",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/sections/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/sections/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/sections/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "briefing/counsel-call.json",
+      "pointer": "/sections/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    }
+  ],
+  "control_artifacts": {
+    "inputs/matter-draft.json": {
+      "fixture_kind": "provisional_source_grounded_draft",
+      "matter_id": "cascade-timber",
+      "matter_name": "Cascade Timber Holdings — Coastal Solar IRS examination",
+      "status": "open_regulatory_examination",
+      "last_updated": "2023-09-06",
+      "recorded_production_due": "2023-08-31",
+      "outside_counsel": {
+        "firm": "L&L Associates",
+        "lead": "Grace Lin",
+        "email": "glin@llassociates.com"
+      },
+      "risk": null,
+      "materiality": null,
+      "exposure_range": null,
+      "conflicts_status": "not_established",
+      "settlement_authority": null,
+      "closure_authority": null,
+      "signer": null,
+      "house_style": null,
+      "history": [
+        {
+          "recorded_on": "2023-09-06",
+          "event_date": "2023-09-01",
+          "type": "agency_receipt",
+          "status": "examination_open"
+        }
+      ]
+    },
+    "briefing/counsel-call.json": {
+      "matter_id": "cascade-timber",
+      "as_of": "2023-10-10",
+      "status": "draft_for_attorney_review",
+      "approved": false,
+      "external_actions_performed": false,
+      "sections": {
+        "F01": {
+          "registry_last_updated": "2023-09-06",
+          "registry_age_days": 34,
+          "stale_over_30_days": true,
+          "agency_report_on": "2023-09-23",
+          "posture": "open_examination",
+          "next_confirmed_future_deadline": null
+        },
+        "F02": {
+          "reported_face_ceiling_usd": 2400000,
+          "parcels": [
+            "NW-03",
+            "NW-04",
+            "NW-06",
+            "NW-07"
+          ],
+          "alternative_scenario": "excess_acreage_uncomputed",
+          "penalties_and_interest": "excluded",
+          "adopted_estimate_usd": null
+        },
+        "F03": {
+          "latest_report_on": "2023-09-08",
+          "scope": "three_packet_purposive_pilot",
+          "reference_correction": "complete",
+          "acreage_reconciliations": [
+            "NW-04",
+            "NW-07"
+          ],
+          "program_effectiveness": "not_established",
+          "historical_2022_testing": "not_replaced"
+        },
+        "F04": {
+          "followup_owner": "Sarah Nguyen",
+          "required_next_step": "agree_population_and_assign_owner_dates",
+          "risk_rating": null,
+          "materiality_classification": null,
+          "contingency_conclusion": "requires_broader_assessment"
+        }
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_source_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "missing_contrary_evidence",
+      "kind": "drop_counter",
+      "finding": "F02"
+    },
+    {
+      "name": "unread_citations",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "source_history_corrupted",
+      "kind": "artifact_field",
+      "path": "inputs/matter-draft.json",
+      "pointer": "/status",
+      "value": "closed"
+    },
+    {
+      "name": "registry_not_stale",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/stale_over_30_days",
+      "value": false
+    },
+    {
+      "name": "full_face_adopted_loss",
+      "kind": "answer_field",
+      "finding": "F02",
+      "pointer": "/adopted_estimate_usd",
+      "value": 2400000
+    },
+    {
+      "name": "pilot_proves_program_control",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/program_effectiveness",
+      "value": "established"
+    },
+    {
+      "name": "unapproved_risk_assignment",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/risk_rating",
+      "value": "high"
+    },
+    {
+      "name": "ignore_later_agency_status_report",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/agency_report_on",
+      "value": "2023-09-06"
+    }
+  ]
+}

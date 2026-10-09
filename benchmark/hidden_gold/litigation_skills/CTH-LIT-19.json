@@ -1,0 +1,482 @@
+{
+  "task_id": "CTH-LIT-19",
+  "author_review_status": "author_checked",
+  "independent_review_status": "approved",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "closure_readiness": "blocked_missing_resolution",
+          "agency_status": "open",
+          "resolution_type": null,
+          "resolution_date": null,
+          "required_action": "obtain_resolution_and_attorney_authorization"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "agency_receipt",
+          "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "earlier_plan",
+          "description": "An August plan is not proof of receipt or complete approval-record scope.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-161",
+              "locator": "line:6",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:24",
+              "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "reference_repair": "complete",
+          "substantive_exceptions_open": 2,
+          "clean_program_conclusion": "not_established",
+          "buyer_eligibility_question": "still_open",
+          "closure_from_remediation": "unsupported"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "auditor_scope",
+          "description": "Auditor limits the result to three packets and two open substantive exceptions.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:6",
+              "quote": "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+            }
+          ]
+        },
+        {
+          "id": "buyer_scope",
+          "description": "Buyer distinguishes unresolved eligibility from repaired source reference.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1496",
+              "locator": "line:7",
+              "quote": "That resolves the source-page question, not the eligibility question. We are still asking what screening was done for NW-03 before delivery and whether there is any later survey or county correspondence that changes the position."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "limited_signature",
+          "description": "Second reviewer expressly limits signature and preserves original findings.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1504",
+              "locator": "line:8",
+              "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "final_company_cost_usd": null,
+          "settlement_amount_usd": null,
+          "reserve_accuracy": "not_assessable",
+          "face_ceiling_is_final_cost": false,
+          "actual_tax_loss": "not_established"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "face_not_liability",
+          "description": "Counsel distinguishes face ceiling, exposure and omitted penalties/interest.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:35",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:56",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:105",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:127",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:106",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+            },
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1467",
+              "locator": "line:35",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1468",
+              "locator": "line:56",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1470",
+              "locator": "line:105",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:127",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            },
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:106",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+            }
+          ]
+        },
+        {
+          "id": "no_trigger_or_loss",
+          "description": "Buyer does not assert tax loss or completed disallowance.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1496",
+              "locator": "line:9",
+              "quote": "We aren't quantifying a tax loss or representing that the contractual disallowance trigger has occurred."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "forecast_cost",
+          "description": "Actual attached financial model contains review-cost forecast, not invoice certification.",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+              "locator": "sheet:1:row:4",
+              "quote": "A4=L&L Associates — review costs | B4=$0 | C4=$65,000 | D4=+$65,000"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "active_tracking": "retain",
+          "hold_release": "not_authorized",
+          "source_history": "preserve",
+          "archive_action": "do_not_archive",
+          "lessons": "not_supplied"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "hold_remains",
+          "description": "Formal notice requires preservation pending further Legal direction.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-024",
+              "locator": "line:6",
+              "quote": "Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+            }
+          ]
+        },
+        {
+          "id": "history_preserved",
+          "description": "Finance describes retaining historical source versions, not overwriting.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1474",
+              "locator": "line:9",
+              "quote": "Confirming what's preserved in the restricted legal folder: the 5/24 schedule, the 5/31 two-tab workbook, the face builds for the four parcels, and my emails with Rob on this. I've stopped overwriting the workbook, so any revision will be saved as a new dated file."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "agency_receipt",
+          "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+            },
+            {
+              "document_id": "EMAIL-162",
+              "locator": "line:6",
+              "quote": "confirming receipt of the second production on September 1. The examination remains open."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "inputs/matter-draft.json",
+      "pointer": "",
+      "kind": "preserve"
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/matter_id",
+      "kind": "equals",
+      "value": "cascade-timber"
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/as_of",
+      "kind": "equals",
+      "value": "2023-09-08"
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_for_attorney_review"
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/approved",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/external_actions_performed",
+      "kind": "equals",
+      "value": false
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/sections/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/sections/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/sections/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/sections/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    },
+    {
+      "path": "close/readiness.json",
+      "pointer": "/registry_action",
+      "kind": "equals",
+      "value": {
+        "closed_date": null,
+        "outcome": null,
+        "archived": false,
+        "hold_released": false,
+        "lessons": null
+      }
+    }
+  ],
+  "control_artifacts": {
+    "inputs/matter-draft.json": {
+      "fixture_kind": "provisional_source_grounded_draft",
+      "matter_id": "cascade-timber",
+      "matter_name": "Cascade Timber Holdings — Coastal Solar IRS examination",
+      "status": "open_regulatory_examination",
+      "last_updated": "2023-09-06",
+      "recorded_production_due": "2023-08-31",
+      "outside_counsel": {
+        "firm": "L&L Associates",
+        "lead": "Grace Lin",
+        "email": "glin@llassociates.com"
+      },
+      "risk": null,
+      "materiality": null,
+      "exposure_range": null,
+      "conflicts_status": "not_established",
+      "settlement_authority": null,
+      "closure_authority": null,
+      "signer": null,
+      "house_style": null,
+      "history": [
+        {
+          "recorded_on": "2023-09-06",
+          "event_date": "2023-09-01",
+          "type": "agency_receipt",
+          "status": "examination_open"
+        }
+      ]
+    },
+    "close/readiness.json": {
+      "matter_id": "cascade-timber",
+      "as_of": "2023-09-08",
+      "status": "draft_for_attorney_review",
+      "approved": false,
+      "external_actions_performed": false,
+      "sections": {
+        "F01": {
+          "closure_readiness": "blocked_missing_resolution",
+          "agency_status": "open",
+          "resolution_type": null,
+          "resolution_date": null,
+          "required_action": "obtain_resolution_and_attorney_authorization"
+        },
+        "F02": {
+          "reference_repair": "complete",
+          "substantive_exceptions_open": 2,
+          "clean_program_conclusion": "not_established",
+          "buyer_eligibility_question": "still_open",
+          "closure_from_remediation": "unsupported"
+        },
+        "F03": {
+          "final_company_cost_usd": null,
+          "settlement_amount_usd": null,
+          "reserve_accuracy": "not_assessable",
+          "face_ceiling_is_final_cost": false,
+          "actual_tax_loss": "not_established"
+        },
+        "F04": {
+          "active_tracking": "retain",
+          "hold_release": "not_authorized",
+          "source_history": "preserve",
+          "archive_action": "do_not_archive",
+          "lessons": "not_supplied"
+        }
+      },
+      "registry_action": {
+        "closed_date": null,
+        "outcome": null,
+        "archived": false,
+        "hold_released": false,
+        "lessons": null
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_source_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "missing_contrary_evidence",
+      "kind": "drop_counter",
+      "finding": "F02"
+    },
+    {
+      "name": "unread_citations",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "source_history_corrupted",
+      "kind": "artifact_field",
+      "path": "inputs/matter-draft.json",
+      "pointer": "/status",
+      "value": "closed"
+    },
+    {
+      "name": "receipt_means_closeable",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/closure_readiness",
+      "value": "ready_to_archive"
+    },
+    {
+      "name": "clerical_repair_means_clean",
+      "kind": "answer_field",
+      "finding": "F02",
+      "pointer": "/clean_program_conclusion",
+      "value": "established"
+    },
+    {
+      "name": "face_is_final_cost",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/final_company_cost_usd",
+      "value": 2400000
+    },
+    {
+      "name": "release_hold_automatically",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/hold_release",
+      "value": "automatic_on_production"
+    },
+    {
+      "name": "archive_without_resolution",
+      "kind": "artifact_field",
+      "path": "close/readiness.json",
+      "pointer": "/registry_action/archived",
+      "value": true
+    }
+  ]
+}

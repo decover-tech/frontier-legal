@@ -29,11 +29,25 @@
                 },
                 "role": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "investigated",
+                    "plaintiff",
+                    "defendant",
+                    "claimant",
+                    "not_established"
+                  ]
                 },
                 "source": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "regulator_inquiry_after_internal_report",
+                    "private_demand",
+                    "complaint_served",
+                    "internal_report_only",
+                    "not_established"
+                  ]
                 },
                 "pleaded_claims": {
                   "anyOf": [
@@ -137,7 +151,13 @@
               "properties": {
                 "instrument": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "irs_administrative_summons",
+                    "ordinary_civil_subpoena",
+                    "grand_jury_subpoena",
+                    "not_established"
+                  ]
                 },
                 "original_response_due": {
                   "type": "string",
@@ -153,11 +173,23 @@
                 },
                 "deadline_basis": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "original_due_plus_granted_one_week",
+                    "request_only",
+                    "court_rule_import",
+                    "later_extension_hindsight",
+                    "not_established"
+                  ]
                 },
                 "service_validity": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "established",
+                    "defective",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -265,11 +297,24 @@
                 },
                 "engagement_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "legal_advice_and_internal_review",
+                    "ordinary_tax_preparation",
+                    "audit_assurance",
+                    "all_matters",
+                    "not_established"
+                  ]
                 },
                 "conflicts_clearance": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "not_established",
+                    "cleared",
+                    "waived",
+                    "not_run_confirmed"
+                  ]
                 },
                 "conflicts_method": {
                   "anyOf": [
@@ -284,7 +329,13 @@
                 },
                 "intake_authorization": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "draft_only_pending_conflicts_information",
+                    "approved_operational_intake",
+                    "bypass_authorized",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -378,23 +429,51 @@
               "properties": {
                 "preservation_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "targeted_preparatory_controls_reported",
+                    "company_wide_formal_hold_reported",
+                    "no_controls",
+                    "not_established"
+                  ]
                 },
                 "auto_delete_suspension_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "exec_team_and_draft_custodian_list",
+                    "all_company_and_third_party_systems",
+                    "no_mailboxes",
+                    "not_established"
+                  ]
                 },
                 "hr_departure_safeguard": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "same_day_notification_and_hold_account_closure_until_export",
+                    "immediate_account_deletion",
+                    "routine_deprovisioning",
+                    "not_established"
+                  ]
                 },
                 "company_wide_hold_issuance_by_cutoff": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "disproved"
+                  ]
                 },
                 "collection_completeness": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "not_established",
+                    "established_complete",
+                    "known_total_loss"
+                  ]
                 }
               },
               "required": [
@@ -492,7 +571,13 @@
                 },
                 "excess_acreage_case": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "inputs_blank_not_computed",
+                    "calculated_and_approved",
+                    "discarded",
+                    "not_established"
+                  ]
                 },
                 "penalties_interest_included": {
                   "type": "boolean"

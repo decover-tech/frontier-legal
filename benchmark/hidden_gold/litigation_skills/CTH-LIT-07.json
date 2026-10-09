@@ -1,7 +1,7 @@
 {
   "task_id": "CTH-LIT-07",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
@@ -20,6 +20,11 @@
               "document_id": "EMAIL-1066",
               "locator": "line:7",
               "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            },
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done"
             }
           ]
         },
@@ -55,6 +60,11 @@
               "document_id": "EMAIL-1066",
               "locator": "line:7",
               "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            },
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done"
             }
           ]
         },
@@ -66,6 +76,11 @@
               "document_id": "EMAIL-024",
               "locator": "line:6",
               "quote": "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+            },
+            {
+              "document_id": "ATT-EMAIL-024-04-ad066076d527",
+              "locator": "page:1",
+              "quote": "You are required to preserve all documents, communications, and records — in any format, including email, drafts, calendar invites, text messages, and hard-copy documents — relating to: (1) the Coastal Solar Credit Program; (2) Alder Point Partners; and (3) Bellhaven Advisory."
             }
           ]
         }
@@ -161,6 +176,11 @@
               "document_id": "EMAIL-1066",
               "locator": "line:7",
               "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            },
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done"
             }
           ]
         }
@@ -354,5 +374,6 @@
       "pointer": "/approved",
       "value": true
     }
-  ]
+  ],
+  "review_notes": "Independent reviewer summons_builder identified and checked alternate original/quoted-thread/actual-attachment proof; added only relevant identical propositions or full contextual equivalents. Financial quote alternatives are restricted to the same exposure discussion chain."
 }

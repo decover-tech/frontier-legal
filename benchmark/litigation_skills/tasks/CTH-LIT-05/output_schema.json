@@ -1,0 +1,866 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "object",
+      "properties": {
+        "F01": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "trigger": {
+                  "type": "string",
+                  "enum": [
+                    "substantive_inbound_refund_request",
+                    "irs_instrument_only",
+                    "commercial_subject_only",
+                    "missing_trigger"
+                  ],
+                  "maxLength": 2048
+                },
+                "sender": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "purchaser": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "recipient": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "message_dated_on": {
+                  "type": "string",
+                  "maxLength": 2048,
+                  "description": "Date appearing in the substantive request email header, not independent proof of contractual receipt."
+                },
+                "requested_relief": {
+                  "type": "string",
+                  "enum": [
+                    "replacement_or_refund_election_and_written_confirmation",
+                    "immediate_fixed_cash_payment",
+                    "eligibility_certificate_only",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "demand_amount_usd": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sender_response_deadline": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "trigger",
+                "sender",
+                "purchaser",
+                "recipient",
+                "message_dated_on",
+                "requested_relief",
+                "demand_amount_usd",
+                "sender_response_deadline"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F02": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "controlling_record": {
+                  "type": "string",
+                  "enum": [
+                    "executed_North_Fork_purchase_agreement",
+                    "draft_purchase_agreement",
+                    "generic_placement_template",
+                    "batch_subject_label"
+                  ],
+                  "maxLength": 2048
+                },
+                "agreement_on": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "face_amount_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "unit_price_cents_per_face_dollar": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aggregate_purchase_price_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "draft_face_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "join_basis": {
+                  "type": "string",
+                  "enum": [
+                    "purchaser_and_executed_date_not_batch_label",
+                    "batch_number_only",
+                    "amount_only",
+                    "email_folder_owner"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "controlling_record",
+                "agreement_on",
+                "face_amount_usd",
+                "unit_price_cents_per_face_dollar",
+                "aggregate_purchase_price_usd",
+                "draft_face_usd",
+                "join_basis"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F03": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "contract_section": {
+                  "type": "string",
+                  "maxLength": 2048,
+                  "enum": [
+                    "4",
+                    "7",
+                    "9"
+                  ]
+                },
+                "request_window_days_after_disallowance_notice": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "election_window_days_after_timely_request_received": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "contract_election_holder": {
+                  "type": "string",
+                  "enum": [
+                    "Seller",
+                    "Administrator_alone",
+                    "Purchaser",
+                    "Placement_Agent"
+                  ],
+                  "maxLength": 2048
+                },
+                "trigger_proof": {
+                  "type": "string",
+                  "enum": [
+                    "not_established_by_demand_alone",
+                    "timely_and_complete_proved",
+                    "invalidity_proved"
+                  ],
+                  "maxLength": 2048
+                },
+                "supporting_disallowance_and_notice_required": {
+                  "type": "boolean"
+                },
+                "computed_legal_due_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "notice_delivery_compliance": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "complete",
+                    "defective_proved"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "contract_section",
+                "request_window_days_after_disallowance_notice",
+                "election_window_days_after_timely_request_received",
+                "contract_election_holder",
+                "trigger_proof",
+                "supporting_disallowance_and_notice_required",
+                "computed_legal_due_date",
+                "notice_delivery_compliance"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F04": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "enum": [
+                    "dated_delivery_register",
+                    "superseded_reservation_sheet",
+                    "credit_issuance_date_only"
+                  ],
+                  "maxLength": 2048
+                },
+                "delivered_on": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "register_exported_on": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "nw06_face_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "nw07_face_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "total_face_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "delivery_proves_eligibility": {
+                  "type": "boolean"
+                },
+                "reference_scope": {
+                  "type": "string",
+                  "enum": [
+                    "buyer_slices_not_whole_parcel_disallowance",
+                    "all_parcel_face_at_risk",
+                    "eligibility_determination"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "source",
+                "delivered_on",
+                "register_exported_on",
+                "nw06_face_usd",
+                "nw07_face_usd",
+                "total_face_usd",
+                "delivery_proves_eligibility",
+                "reference_scope"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F05": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "cash_funded_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "credit_face_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "cash_is_current_refund_liability": {
+                  "type": "boolean"
+                },
+                "claimed_refund_usd": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reserve_amount_usd": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "quantification_status": {
+                  "type": "string",
+                  "enum": [
+                    "awaiting_supported_disallowance_scope",
+                    "full_refund_liability_fixed",
+                    "credit_face_is_damages",
+                    "no_liability_proved"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "cash_funded_usd",
+                "credit_face_usd",
+                "cash_is_current_refund_liability",
+                "claimed_refund_usd",
+                "reserve_amount_usd",
+                "quantification_status"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F06": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "routing": {
+                  "type": "string",
+                  "enum": [
+                    "existing_Cascade_matter_review",
+                    "new_unrelated_matter",
+                    "ignore_as_irs_correspondence"
+                  ],
+                  "maxLength": 2048
+                },
+                "merit_rating": {
+                  "type": "string",
+                  "enum": [
+                    "not_ready_for_merit_determination",
+                    "substantial",
+                    "frivolous",
+                    "finally_adjudicated"
+                  ],
+                  "maxLength": 2048
+                },
+                "required_inputs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "disallowance_notice_and_date",
+                      "supporting_calculation",
+                      "contractual_notice_delivery",
+                      "response_signer_and_authority",
+                      "assumed_court_order",
+                      "invented_refund_number"
+                    ],
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "minItems": 0,
+                  "maxItems": 6
+                },
+                "next_step": {
+                  "type": "string",
+                  "enum": [
+                    "acknowledgment_and_document_request_draft_for_counsel_review",
+                    "pay_immediately",
+                    "ignore_without_review",
+                    "serve_final_objections"
+                  ],
+                  "maxLength": 2048
+                },
+                "settlement_protection": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "automatic_from_reserve_rights_label",
+                    "independently_verified"
+                  ],
+                  "maxLength": 2048
+                },
+                "external_action": {
+                  "type": "string",
+                  "enum": [
+                    "not_sent_or_calendarized",
+                    "sent",
+                    "real_calendar_changed"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "routing",
+                "merit_rating",
+                "required_inputs",
+                "next_step",
+                "settlement_protection",
+                "external_action"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "findings"
+  ],
+  "additionalProperties": false
+}

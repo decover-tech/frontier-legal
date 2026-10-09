@@ -1,0 +1,818 @@
+{
+  "task_id": "CTH-LIT-15",
+  "skill": "matter-update",
+  "title": "Append a supported discovery and remediation update",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-09-08T23:59:59-07:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-03",
+    "CTH-LIT-04"
+  ],
+  "instruction": "Build a reviewable proposed log/history update to the supplied managed-draft snapshot. Append two dated events; preserve earlier entries and every immutable field. Do not claim the proposal was approved or written to any live registry.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "What dated discovery update is justified by the agency receipt report, contrasted with the prior production plan?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "event_type": {
+            "type": "string",
+            "enum": [
+              "discovery",
+              "administrative",
+              "resolution"
+            ],
+            "maxLength": 2048
+          },
+          "event_date": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "reported_on": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "examination_status": {
+            "type": "string",
+            "enum": [
+              "open",
+              "closed",
+              "unknown"
+            ],
+            "maxLength": 2048
+          },
+          "complete_production": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "established",
+              "disproved"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "event_type",
+          "event_date",
+          "reported_on",
+          "examination_status",
+          "complete_production"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F02",
+      "question": "What new remediation update can be appended without overwriting first-pass findings or upgrading a limited signature to overall success?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "first_pass_on": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "second_review_on": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "auditor_report_on": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "sample_packets": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "reference_exceptions_corrected": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "acreage_exceptions_open": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "overall_control_conclusion": {
+            "type": "string",
+            "enum": [
+              "not_clean",
+              "clean",
+              "not_tested"
+            ],
+            "maxLength": 2048
+          },
+          "historical_findings": {
+            "type": "string",
+            "enum": [
+              "retain",
+              "replace_with_clean_results",
+              "delete"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "first_pass_on",
+          "second_review_on",
+          "auditor_report_on",
+          "sample_packets",
+          "reference_exceptions_corrected",
+          "acreage_exceptions_open",
+          "overall_control_conclusion",
+          "historical_findings"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Does either the face-ceiling model or the new pilot establish a management estimate, reserve or materiality decision for the draft update?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "credit_face_ceiling_usd": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100000000
+          },
+          "recognized_exposure_usd": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "materiality_decision": {
+            "type": "string",
+            "enum": [
+              "pending_human_assessment",
+              "reserved",
+              "disclosed",
+              "no_change_approved"
+            ],
+            "maxLength": 2048
+          },
+          "reserve_authorization": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "established",
+              "not_required"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "credit_face_ceiling_usd",
+          "recognized_exposure_usd",
+          "materiality_decision",
+          "reserve_authorization"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "How should the draft represent the old production deadline and an unknown next deadline after the receipt report?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "historical_production_due": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "rolling_schedule_due": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "new_next_deadline": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100000000
+              }
+            ]
+          },
+          "deadline_action": {
+            "type": "string",
+            "enum": [
+              "ask_counsel_for_current_schedule",
+              "roll_forward_one_week",
+              "mark_all_deadlines_complete"
+            ],
+            "maxLength": 2048
+          },
+          "timely_compliance": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "established",
+              "disproved"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "historical_production_due",
+          "rolling_schedule_due",
+          "new_next_deadline",
+          "deadline_action",
+          "timely_compliance"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "inputs/matter-draft.json": {
+      "type": "object",
+      "properties": {
+        "fixture_kind": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "matter_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "matter_name": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "last_updated": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "recorded_production_due": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "outside_counsel": {
+          "type": "object",
+          "properties": {
+            "firm": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "lead": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "email": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          "required": [
+            "firm",
+            "lead",
+            "email"
+          ],
+          "additionalProperties": false
+        },
+        "risk": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "materiality": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "exposure_range": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "conflicts_status": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "settlement_authority": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "closure_authority": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "signer": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "house_style": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000000
+            }
+          ]
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "recorded_on": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "event_date": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "type": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "status": {
+                "type": "string",
+                "maxLength": 200
+              }
+            },
+            "required": [
+              "recorded_on",
+              "event_date",
+              "type",
+              "status"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 20
+        }
+      },
+      "required": [
+        "fixture_kind",
+        "matter_id",
+        "matter_name",
+        "status",
+        "last_updated",
+        "recorded_production_due",
+        "outside_counsel",
+        "risk",
+        "materiality",
+        "exposure_range",
+        "conflicts_status",
+        "settlement_authority",
+        "closure_authority",
+        "signer",
+        "house_style",
+        "history"
+      ],
+      "additionalProperties": false
+    },
+    "drafts/matter-update.json": {
+      "type": "object",
+      "properties": {
+        "matter_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "as_of": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft_for_attorney_review",
+            "approved",
+            "sent",
+            "closed"
+          ],
+          "maxLength": 2048
+        },
+        "approved": {
+          "type": "boolean"
+        },
+        "external_actions_performed": {
+          "type": "boolean"
+        },
+        "sections": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "event_type": {
+                  "type": "string",
+                  "enum": [
+                    "discovery",
+                    "administrative",
+                    "resolution"
+                  ],
+                  "maxLength": 2048
+                },
+                "event_date": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "reported_on": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "examination_status": {
+                  "type": "string",
+                  "enum": [
+                    "open",
+                    "closed",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "complete_production": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "disproved"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "event_type",
+                "event_date",
+                "reported_on",
+                "examination_status",
+                "complete_production"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "first_pass_on": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "second_review_on": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "auditor_report_on": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "sample_packets": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "reference_exceptions_corrected": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "acreage_exceptions_open": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "overall_control_conclusion": {
+                  "type": "string",
+                  "enum": [
+                    "not_clean",
+                    "clean",
+                    "not_tested"
+                  ],
+                  "maxLength": 2048
+                },
+                "historical_findings": {
+                  "type": "string",
+                  "enum": [
+                    "retain",
+                    "replace_with_clean_results",
+                    "delete"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "first_pass_on",
+                "second_review_on",
+                "auditor_report_on",
+                "sample_packets",
+                "reference_exceptions_corrected",
+                "acreage_exceptions_open",
+                "overall_control_conclusion",
+                "historical_findings"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "credit_face_ceiling_usd": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100000000
+                },
+                "recognized_exposure_usd": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "materiality_decision": {
+                  "type": "string",
+                  "enum": [
+                    "pending_human_assessment",
+                    "reserved",
+                    "disclosed",
+                    "no_change_approved"
+                  ],
+                  "maxLength": 2048
+                },
+                "reserve_authorization": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "not_required"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "credit_face_ceiling_usd",
+                "recognized_exposure_usd",
+                "materiality_decision",
+                "reserve_authorization"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "historical_production_due": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "rolling_schedule_due": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "new_next_deadline": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000000
+                    }
+                  ]
+                },
+                "deadline_action": {
+                  "type": "string",
+                  "enum": [
+                    "ask_counsel_for_current_schedule",
+                    "roll_forward_one_week",
+                    "mark_all_deadlines_complete"
+                  ],
+                  "maxLength": 2048
+                },
+                "timely_compliance": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "established",
+                    "disproved"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "historical_production_due",
+                "rolling_schedule_due",
+                "new_next_deadline",
+                "deadline_action",
+                "timely_compliance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "recorded_on": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "event_date": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "production_plan",
+                  "agency_receipt",
+                  "remediation_pilot",
+                  "resolution"
+                ],
+                "maxLength": 2048
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "approval_records_scope_pending",
+                  "examination_open",
+                  "two_acreage_exceptions_open",
+                  "all_exceptions_resolved",
+                  "closed"
+                ],
+                "maxLength": 2048
+              }
+            },
+            "required": [
+              "recorded_on",
+              "event_date",
+              "type",
+              "status"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 20
+        },
+        "source_log_written": {
+          "type": "boolean"
+        },
+        "decisions_pending": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "materiality_assessment",
+              "risk_assessment",
+              "current_deadline_confirmation",
+              "settlement_acceptance",
+              "hold_release",
+              "no_decisions"
+            ],
+            "maxLength": 2048
+          },
+          "maxItems": 30,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "matter_id",
+        "as_of",
+        "status",
+        "approved",
+        "external_actions_performed",
+        "sections",
+        "history",
+        "source_log_written",
+        "decisions_pending"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Input draft artifacts and their existing history must remain byte-equivalent JSON values.",
+    "All proposed outputs remain unapproved local drafts.",
+    "No real sending, calendars, source-designation changes, archive or global profile writes.",
+    "Read-only predecessor artifacts cannot override current source evidence or clear unknown approvals."
+  ],
+  "policy_sha256": "034ca1f0f38098d110efecb1b274fb95953fac74bd9e8fd2d42d0f7a730b9324",
+  "schema_sha256": "b36763ee60e6a7690bada7f48749982e15a1318d5393d6631ec6a5ad7aa74c6b",
+  "fixtures_sha256": "edefebfffde10490bb4ead93af47eaf479d5b5e78b658b8402f75f3655351580",
+  "oracle_sha256": "29d0c0b2f74a2f9c5fb23178d49222b9c0313fd8fab005a0cb60dac111a11909",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

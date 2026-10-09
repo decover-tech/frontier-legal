@@ -1,0 +1,224 @@
+{
+  "task_id": "CTH-LIT-19",
+  "reviewer": "root-independent-integrator",
+  "author": "evidence-bundle-agent",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "d7efe17ed075a5c41aed89222a4de60db4731054956753ea6fc4c46d895eca52",
+  "task_semantics_sha256": "9312c1c74d0212284819cd87a8e23ac509ce7429f1cf08f69eaae8bd347a3ded",
+  "policy_sha256": "a3885083ff48c9072dcc089e08c066ffcd1f75935eacadad41362d63a257eb05",
+  "fixtures_sha256": "4be8e36a198c6cb5df94c0ec024c050b56faa1ba32230bc4858abf9eae09cfe4",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "reviewed_proof_alternatives": 27,
+  "reviewed_obligations": 11,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_group": "agency_receipt",
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "agency_receipt",
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "earlier_plan",
+      "document_id": "EMAIL-161",
+      "locator": "line:6",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "finding": "F01",
+      "proof_group": "earlier_plan",
+      "document_id": "EMAIL-162",
+      "locator": "line:24",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "auditor_scope",
+      "document_id": "EMAIL-1506",
+      "locator": "line:6",
+      "quote": "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "buyer_scope",
+      "document_id": "EMAIL-1496",
+      "locator": "line:7",
+      "quote": "That resolves the source-page question, not the eligibility question. We are still asking what screening was done for NW-03 before delivery and whether there is any later survey or county correspondence that changes the position."
+    },
+    {
+      "finding": "F02",
+      "proof_group": "limited_signature",
+      "document_id": "EMAIL-1504",
+      "locator": "line:8",
+      "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1466",
+      "locator": "line:11",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1467",
+      "locator": "line:35",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1468",
+      "locator": "line:56",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1469",
+      "locator": "line:83",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1470",
+      "locator": "line:105",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1473",
+      "locator": "line:127",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1474",
+      "locator": "line:106",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1466",
+      "locator": "line:11",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1467",
+      "locator": "line:35",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1468",
+      "locator": "line:56",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1469",
+      "locator": "line:83",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1470",
+      "locator": "line:105",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1473",
+      "locator": "line:127",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "face_not_liability",
+      "document_id": "EMAIL-1474",
+      "locator": "line:106",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "no_trigger_or_loss",
+      "document_id": "EMAIL-1496",
+      "locator": "line:9",
+      "quote": "We aren't quantifying a tax loss or representing that the contractual disallowance trigger has occurred."
+    },
+    {
+      "finding": "F03",
+      "proof_group": "forecast_cost",
+      "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+      "locator": "sheet:1:row:4",
+      "quote": "A4=L&L Associates — review costs | B4=$0 | C4=$65,000 | D4=+$65,000"
+    },
+    {
+      "finding": "F04",
+      "proof_group": "hold_remains",
+      "document_id": "EMAIL-024",
+      "locator": "line:6",
+      "quote": "Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "history_preserved",
+      "document_id": "EMAIL-1474",
+      "locator": "line:9",
+      "quote": "Confirming what's preserved in the restricted legal folder: the 5/24 schedule, the 5/31 two-tab workbook, the face builds for the four parcels, and my emails with Rob on this. I've stopped overwriting the workbook, so any revision will be saved as a new dated file."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "agency_receipt",
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "finding": "F04",
+      "proof_group": "agency_receipt",
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open."
+    }
+  ],
+  "checks": [
+    "Read complete original agency, financial-model, pilot, counsel, hold and third-party boundary messages supporting these findings; checked referenced spreadsheet rows with column headings.",
+    "Checked every alternate quote against its actual eligible locator and parent date; compared substantive meaning with original message context, not just hash equality.",
+    "Searched direct IRS-sender messages through the cutoff, and top-level messages concerning closure, hold release, final invoices, approved budgets and later remediation; identified and corrected the newer September23 agency record.",
+    "Verified calendar arithmetic, one-matter aggregation, fixture authority boundaries, append-only history, artifact/finding bindings and explicit categorical vocabularies.",
+    "Checked actual reference-skill status/closure instructions; exercises remain bounded simulated work products rather than live actions."
+  ],
+  "issues_resolved": [
+    "Removed a public case-specific missing-trigger declaration; closure rules remain conditional.",
+    "Preserved the agency status, limited reference repair, unknown realized loss and separate hold-release authority.",
+    "Expanded minimally sufficient quoted spans so unrelated trailing prose is not required for credit; preserved substantive auditor/report-date obligations."
+  ],
+  "limitations": [
+    "Independent agent review, not licensed legal or financial advice. Supplied corpus and benchmark rules only.",
+    "Standalone undated documents remain supplied references; historical availability is not established by their presence. These gold proofs use eligible email/attachment dates.",
+    "Global OCR/embedded-media extraction is not fully human-verified. Missing extraction is never proof of absence.",
+    "Unknown fields are qualified to the task fixture and available evidence, not a universal claim that no external decision exists.",
+    "Finite reviewed proof alternatives and bounded structured outputs need blinded model calibration before broad training/evaluation claims."
+  ]
+}

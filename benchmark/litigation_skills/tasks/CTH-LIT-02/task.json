@@ -23,7 +23,12 @@
           },
           "previous_status": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "internal_review_nothing_final",
+              "final_review_completed",
+              "not_established"
+            ]
           },
           "previous_cadence": {
             "anyOf": [
@@ -63,11 +68,24 @@
           },
           "minimum_cadence": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "monthly",
+              "weekly",
+              "quarterly",
+              "on_request",
+              "not_established"
+            ]
           },
           "until": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "Coastal_Solar_issue_resolved",
+              "permanent_all_matters",
+              "next_board_meeting",
+              "not_established"
+            ]
           },
           "approval_to_finalize_global_setup": {
             "type": "boolean"
@@ -91,7 +109,13 @@
         "properties": {
           "permitted_change": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "matter_board_reporting_frequency",
+              "global_risk_framework",
+              "all_profile_sections",
+              "not_established"
+            ]
           },
           "global_risk_framework": {
             "anyOf": [
@@ -128,7 +152,12 @@
           },
           "unrelated_sections": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "preserve",
+              "overwrite",
+              "delete"
+            ]
           }
         },
         "required": [
@@ -150,17 +179,36 @@
         "properties": {
           "apply_scope": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "sandbox_draft_only",
+              "global_practice_profile",
+              "historical_board_report",
+              "not_established"
+            ]
           },
           "history_action": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "append_source_backed_change",
+              "rewrite_all_history",
+              "delete_previous_snapshot",
+              "not_established"
+            ]
           },
           "downstream_uses": {
             "type": "array",
             "items": {
               "type": "string",
-              "maxLength": 2048
+              "maxLength": 2048,
+              "enum": [
+                "matter_briefing",
+                "outside_counsel_status_preparation",
+                "court_filing",
+                "reserve_booking",
+                "new_matter_creation"
+              ]
             },
             "uniqueItems": true,
             "maxItems": 24
@@ -170,7 +218,13 @@
           },
           "substantive_review_conclusion": {
             "type": "string",
-            "maxLength": 2048
+            "maxLength": 2048,
+            "enum": [
+              "still_interim",
+              "finally_cleared",
+              "liability_established",
+              "not_established"
+            ]
           }
         },
         "required": [
@@ -191,7 +245,12 @@
       "properties": {
         "scope": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "matter_only",
+            "practice_wide",
+            "all_clients"
+          ]
         },
         "board_reporting": {
           "type": "object",
@@ -200,7 +259,14 @@
               "anyOf": [
                 {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "monthly",
+                    "weekly",
+                    "quarterly",
+                    "on_request",
+                    "not_established"
+                  ]
                 },
                 {
                   "type": "null"
@@ -271,7 +337,12 @@
         },
         "source_status": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "internal_review_nothing_final",
+            "final_review_completed",
+            "not_established"
+          ]
         },
         "history": {
           "type": "array",
@@ -286,7 +357,17 @@
                   },
                   "type": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "draft_source_snapshot",
+                      "source_backed_reporting_change",
+                      "anonymous_complaint_reported",
+                      "counsel_engaged",
+                      "irs_instrument_received",
+                      "one_week_extension_granted",
+                      "profile_finalized",
+                      "final_filing"
+                    ]
                   },
                   "source_event": {
                     "type": "string",
@@ -309,11 +390,28 @@
                   },
                   "type": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "draft_source_snapshot",
+                      "source_backed_reporting_change",
+                      "anonymous_complaint_reported",
+                      "counsel_engaged",
+                      "irs_instrument_received",
+                      "one_week_extension_granted",
+                      "profile_finalized",
+                      "final_filing"
+                    ]
                   },
                   "minimum_cadence": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "monthly",
+                      "weekly",
+                      "quarterly",
+                      "on_request",
+                      "not_established"
+                    ]
                   },
                   "source_event_on": {
                     "type": "string",
@@ -352,7 +450,15 @@
       "properties": {
         "status": {
           "type": "string",
-          "maxLength": 2048
+          "maxLength": 2048,
+          "enum": [
+            "awaiting_operator_answers",
+            "draft_change",
+            "draft_pending_conflicts_information",
+            "approved_active",
+            "complete",
+            "closed"
+          ]
         },
         "findings": {
           "type": "object",
@@ -366,7 +472,12 @@
                 },
                 "previous_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "internal_review_nothing_final",
+                    "final_review_completed",
+                    "not_established"
+                  ]
                 },
                 "previous_cadence": {
                   "anyOf": [
@@ -401,11 +512,24 @@
                 },
                 "minimum_cadence": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "monthly",
+                    "weekly",
+                    "quarterly",
+                    "on_request",
+                    "not_established"
+                  ]
                 },
                 "until": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "Coastal_Solar_issue_resolved",
+                    "permanent_all_matters",
+                    "next_board_meeting",
+                    "not_established"
+                  ]
                 },
                 "approval_to_finalize_global_setup": {
                   "type": "boolean"
@@ -424,7 +548,13 @@
               "properties": {
                 "permitted_change": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "matter_board_reporting_frequency",
+                    "global_risk_framework",
+                    "all_profile_sections",
+                    "not_established"
+                  ]
                 },
                 "global_risk_framework": {
                   "anyOf": [
@@ -461,7 +591,12 @@
                 },
                 "unrelated_sections": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "preserve",
+                    "overwrite",
+                    "delete"
+                  ]
                 }
               },
               "required": [
@@ -478,17 +613,36 @@
               "properties": {
                 "apply_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "sandbox_draft_only",
+                    "global_practice_profile",
+                    "historical_board_report",
+                    "not_established"
+                  ]
                 },
                 "history_action": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "append_source_backed_change",
+                    "rewrite_all_history",
+                    "delete_previous_snapshot",
+                    "not_established"
+                  ]
                 },
                 "downstream_uses": {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "matter_briefing",
+                      "outside_counsel_status_preparation",
+                      "court_filing",
+                      "reserve_booking",
+                      "new_matter_creation"
+                    ]
                   },
                   "uniqueItems": true,
                   "maxItems": 24
@@ -498,7 +652,13 @@
                 },
                 "substantive_review_conclusion": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "still_interim",
+                    "finally_cleared",
+                    "liability_established",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -535,11 +695,12 @@
   },
   "state_invariants": [
     "Only declared isolated artifacts may change; no global configuration, sending, calendar, or external operations.",
-    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history."
+    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history.",
+    "Categorical answer fields use the explicit public vocabulary; source names may use the attested full institutional suffixes. Dates use ISO YYYY-MM-DD."
   ],
   "policy_sha256": "3792aab1774a6848f31b74804859887d584c578bb30670761c7aecb1ba1f6a1b",
-  "schema_sha256": "410109638028035d2d475901b0282d1ad0a802f7e3cf9748c53e039b6bdd96d7",
+  "schema_sha256": "e9b61b6eadfd1f07c8709695548116b7bce923a7e42d973535e61f6bf0a3a922",
   "fixtures_sha256": "a7971f4d131a916b50905e091774290655c55523040559a11016abb134ec814e",
-  "oracle_sha256": "5c6c484b4d3c780e94c354af9e9c6bd2ef310209229cd69d84e24371881759b7",
+  "oracle_sha256": "25651d10ef6ef15386678b086e0645a371418d0fc953e93a944c5b8cb3aa8249",
   "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
 }

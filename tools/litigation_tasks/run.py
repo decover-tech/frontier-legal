@@ -8,19 +8,21 @@ from .registry import make_environment
 
 def dump(path,data): path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 def harness_hashes():
-    return {p.name:digest(p) for p in sorted(Path(__file__).parent.glob('*.py'))}
+    paths=list(Path(__file__).parent.glob('*.py'))+[ROOT/'tools/rlvr/providers.py',ROOT/'tools/chronology_rlvr/run.py']
+    return {str(p.relative_to(ROOT)):digest(p) for p in sorted(paths)}
 
 def archive(env,initial,kind):
     return {'format':'cascade-litigation-trajectory/1','kind':kind,'task_id':env.task['task_id'],
       'task_sha256':digest(env.directory/'task.json'),'harness_hashes':harness_hashes(),
-      'initial_observation':initial,'transitions':env.trace,'result':env.result}
+      'dependency_artifacts':env.dependency_artifacts,'initial_observation':initial,'transitions':env.trace,'result':env.result}
 
 def replay(data,root=ROOT):
-    env=LitigationEnvironment(data['task_id'],root)
+    env=LitigationEnvironment(data['task_id'],root,dependency_artifacts=data.get('dependency_artifacts',{}))
     if data['task_sha256']!=digest(env.directory/'task.json'): raise ValueError('Task hash changed')
     if data['harness_hashes']!=harness_hashes(): raise ValueError('Harness hash changed')
     if env.reset()!=data['initial_observation']: raise ValueError('Initial observation changed')
     for index,transition in enumerate(data['transitions']):
+        if not transition.get('replayable',True):raise ValueError('Non-JSON Python action is not replayable')
         result=env.step(transition['action'])
         if result['observation']!=transition['observation'] or result['done']!=transition['done']: raise ValueError('Replay diverged at transition '+str(index+1))
     if env.result!=data['result']: raise ValueError('Terminal result changed')

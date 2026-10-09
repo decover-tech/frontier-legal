@@ -25,11 +25,24 @@
                 },
                 "origin": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "anonymous_complaint",
+                    "regulator_inquiry",
+                    "private_demand",
+                    "internal_audit",
+                    "not_established"
+                  ]
                 },
                 "allegation_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "allegation_not_adjudication",
+                    "adjudicated_violation",
+                    "withdrawn_allegation",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -239,11 +252,23 @@
               "properties": {
                 "collection_roster_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "draft_requires_scrubbing",
+                    "approved_clean_roster",
+                    "final_production_log",
+                    "not_established"
+                  ]
                 },
                 "unrelated_template_data": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "patient_identifier",
+                    "source_certificate",
+                    "taxpayer_signature",
+                    "not_established"
+                  ]
                 },
                 "copy_unrelated_identifier_to_profile": {
                   "type": "boolean"
@@ -258,7 +283,13 @@
                 },
                 "alias_effect": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "search_both_names_not_new_person",
+                    "create_two_people",
+                    "ignore_alias",
+                    "not_established"
+                  ]
                 }
               },
               "required": [
@@ -350,13 +381,26 @@
               "properties": {
                 "review_status": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "interim_ongoing",
+                    "final_completed",
+                    "not_started",
+                    "not_established"
+                  ]
                 },
                 "reported_issues": {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "maxLength": 2048
+                    "maxLength": 2048,
+                    "enum": [
+                      "land_eligibility",
+                      "broker_registration_gap",
+                      "unrelated_template_data",
+                      "court_judgment",
+                      "not_established"
+                    ]
                   },
                   "uniqueItems": true,
                   "maxItems": 24
@@ -479,11 +523,24 @@
                 },
                 "minimum_cadence": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "monthly",
+                    "weekly",
+                    "quarterly",
+                    "on_request",
+                    "not_established"
+                  ]
                 },
                 "cadence_scope": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "Coastal_Solar_board_item_until_resolved",
+                    "all_company_matters_forever",
+                    "personal_user_practice",
+                    "not_established"
+                  ]
                 },
                 "operator_identity": {
                   "anyOf": [
@@ -531,7 +588,12 @@
                 },
                 "setup_completion": {
                   "type": "string",
-                  "maxLength": 2048
+                  "maxLength": 2048,
+                  "enum": [
+                    "awaiting_operator_answers",
+                    "complete",
+                    "abandoned"
+                  ]
                 }
               },
               "required": [

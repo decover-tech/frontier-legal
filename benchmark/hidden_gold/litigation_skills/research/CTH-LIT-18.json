@@ -1,0 +1,191 @@
+{
+  "task_id": "CTH-LIT-18",
+  "reference_skill": "oc-status",
+  "reference_skill_sha256": "931dac8dca4f8bf7f65942cb444202940efe0fcdac57e8d80d5261e88c4d855c",
+  "scope_adaptation": "Global config and external operations replaced by isolated declared draft artifacts. Missing approvals remain unknown.",
+  "dependency_context": "CTH-LIT-03 and CTH-LIT-15 provide read-only registry and update context available by the September 20 cutoff. CTH-LIT-17 is excluded because its October 10 cutoff is later than this episode. This does not alter source-grounded answers or the current fixture.",
+  "fixture_grounding": {
+    "snapshot_sources": [
+      {
+        "id": "agency_receipt",
+        "description": "Agency distinguishes receipt event, report date and ongoing examination.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-162",
+            "locator": "line:6",
+            "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+          }
+        ]
+      },
+      {
+        "id": "historical_due",
+        "description": "Final stated production deadline is distinct from rolling schedule.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-158",
+            "locator": "line:6",
+            "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+          },
+          {
+            "document_id": "EMAIL-159",
+            "locator": "line:24",
+            "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+          }
+        ]
+      },
+      {
+        "id": "engagement",
+        "description": "Legal-services retainer establishes counsel engagement; it does not establish conflicts clearance.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-021",
+            "locator": "line:9",
+            "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+          },
+          {
+            "document_id": "EMAIL-022",
+            "locator": "line:30",
+            "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+          }
+        ]
+      },
+      {
+        "id": "verified_recipient",
+        "description": "Identity/address from actual legal-advice correspondence, not inferred domain.",
+        "alternatives": [
+          {
+            "document_id": "EMAIL-1466",
+            "locator": "line:2",
+            "quote": "From: Grace Lin <glin@llassociates.com>"
+          }
+        ]
+      }
+    ],
+    "initial_snapshot_is_historical_fact": false
+  },
+  "evidence_notes": [
+    "Each supplied quote verified as a contiguous normalized passage in the pinned locator.",
+    "Source dates are event/report-specific, including receiptSep1/reportSep6 and pilotSep5/reviewSep6/reportSep8.",
+    "Email1506 expressly qualifies pilot and contingency; do not infer monetary reserve or clean control.",
+    "Whole-corpus search for examination closed, hold release and finalinvoice did not identify an affirmative record; absence conclusions remain limited to source support and extraction coverage."
+  ],
+  "proof_spans": [
+    {
+      "document_id": "EMAIL-021",
+      "locator": "line:9",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "document_id": "EMAIL-022",
+      "locator": "line:30",
+      "quote": "Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week."
+    },
+    {
+      "document_id": "EMAIL-1466",
+      "locator": "line:2",
+      "quote": "From: Grace Lin <glin@llassociates.com>"
+    },
+    {
+      "document_id": "EMAIL-1467",
+      "locator": "line:11",
+      "quote": "Please keep this group as is and don't forward it further."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open."
+    },
+    {
+      "document_id": "EMAIL-158",
+      "locator": "line:6",
+      "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+    },
+    {
+      "document_id": "EMAIL-159",
+      "locator": "line:24",
+      "quote": "Following the one-week extension granted May 31 and the three-week interim extension of June 20, the production deadline is now August 31, 2023."
+    },
+    {
+      "document_id": "EMAIL-158",
+      "locator": "line:6",
+      "quote": "the production deadline is now August 31, 2023."
+    },
+    {
+      "document_id": "EMAIL-159",
+      "locator": "line:24",
+      "quote": "the production deadline is now August 31, 2023."
+    },
+    {
+      "document_id": "EMAIL-161",
+      "locator": "line:6",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:24",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "document_id": "EMAIL-026",
+      "locator": "line:6",
+      "quote": "L&L's initial estimate for the document review is well beyond what we budgeted. We need this done inside of $8,000 given where the year's numbers are."
+    },
+    {
+      "document_id": "EMAIL-027",
+      "locator": "line:25",
+      "quote": "L&L's initial estimate for the document review is well beyond what we budgeted. We need this done inside of $8,000 given where the year's numbers are."
+    },
+    {
+      "document_id": "ATT-EMAIL-071-02-f9630a74a8a1",
+      "locator": "sheet:1:row:4",
+      "quote": "A4=L&L Associates — review costs | B4=$0 | C4=$65,000 | D4=+$65,000"
+    },
+    {
+      "document_id": "EMAIL-071",
+      "locator": "line:6",
+      "quote": "Rob, attached is the Q3 impact model reflecting the Coastal Solar pause, plus the incremental L&L review cost."
+    },
+    {
+      "document_id": "EMAIL-027",
+      "locator": "line:7",
+      "quote": "Grace and I are discussing a faster review approach that should get us within budget and the three-week deadline."
+    },
+    {
+      "document_id": "EMAIL-161",
+      "locator": "line:6",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:24",
+      "quote": "Items (1) and (3) will be in the second production, scheduled for the week of August 28. On item (2), we are gathering the approval records and will confirm scope in that production cover letter."
+    },
+    {
+      "document_id": "EMAIL-1506",
+      "locator": "line:6",
+      "quote": "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open. I may have additional requests after review; no interviews are being scheduled at this time."
+    },
+    {
+      "document_id": "EMAIL-162",
+      "locator": "line:6",
+      "quote": "confirming receipt of the second production on September 1. The examination remains open."
+    },
+    {
+      "document_id": "EMAIL-1506",
+      "locator": "line:8",
+      "quote": "We also haven't reached a conclusion on the accounting contingency from these comparisons; that requires the broader management assessment and the ordinary audit inquiry process."
+    }
+  ],
+  "reference_repository_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "review_refinements": "Applied master reviewer approved proof alternatives, explicit public vocabulary and scope-limited passages; independent review remains a separate record."
+}

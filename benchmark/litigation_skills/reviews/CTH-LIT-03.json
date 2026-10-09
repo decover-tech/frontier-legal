@@ -1,0 +1,245 @@
+{
+  "task_id": "CTH-LIT-03",
+  "reviewer": "independent-privilege-builder-agent",
+  "author": "summons-builder-agent",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "43c97a1b09f8e1832cfe56d97c08aae8b6207c1d36eb65133a2010550dac207c",
+  "task_semantics_sha256": "24c5bd2e8d82489060c828192ca1973b05a5b843923b61e9205bc4a75a38f2fe",
+  "policy_sha256": "dc0cc2acc0ccc008819ed8814da79c02fc06a510f4ebb0b8f5a4ee818bb9e17b",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "reviewed_proof_alternatives": 24,
+  "reviewed_obligations": 16,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "complaint",
+      "document_id": "EMAIL-019",
+      "locator": "line:7",
+      "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "complaint",
+      "document_id": "EMAIL-020",
+      "locator": "line:28",
+      "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "regulatory_arrival",
+      "document_id": "EMAIL-023",
+      "locator": "line:7",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "regulatory_arrival",
+      "document_id": "EMAIL-054",
+      "locator": "line:27",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "regulatory_arrival",
+      "document_id": "EMAIL-055",
+      "locator": "line:48",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "classification",
+      "document_id": "DOC-568de2fba6d1c11aff9a",
+      "locator": "document:paragraph:39",
+      "quote": "Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "original_due",
+      "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+      "locator": "page:1",
+      "quote": "RESPONSE DUE:  On or before June 13, 2023 (21 days)"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "grant",
+      "document_id": "EMAIL-057",
+      "locator": "line:6",
+      "quote": "Mr. Ellery, the Service grants a one-week extension. Revised production deadline is noted on our end."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "counter_groups",
+      "proof_group": "original_label_conflict",
+      "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+      "locator": "page:1",
+      "quote": "SUBPOENA DUCES TECUM\nUNITED STATES OF AMERICA \u2014 DEPARTMENT OF THE TREASURY\nINTERNAL REVENUE SERVICE"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "engagement",
+      "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+      "locator": "page:1",
+      "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "engagement",
+      "document_id": "DOC-0895c4e533316c9832d8",
+      "locator": "page:1",
+      "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "contact",
+      "document_id": "EMAIL-022",
+      "locator": "line:13",
+      "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "contact",
+      "document_id": "EMAIL-021",
+      "locator": "line:3",
+      "quote": "To: Grace Lin <glin@llassociates.com>"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "contact",
+      "document_id": "EMAIL-050",
+      "locator": "line:13",
+      "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "counter_groups",
+      "proof_group": "initial_recommendation",
+      "document_id": "EMAIL-020",
+      "locator": "line:9",
+      "quote": "Recommend engaging outside counsel now rather than waiting."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "prep_controls",
+      "document_id": "EMAIL-206",
+      "locator": "line:6",
+      "quote": "getting ahead of any legal hold: I've suspended automated mailbox deletion for the exec team and the people on John's draft custodian list."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "prep_controls",
+      "document_id": "EMAIL-207",
+      "locator": "line:24",
+      "quote": "I've suspended automated mailbox deletion for the exec team and the people on John's draft custodian list."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "hr_control",
+      "document_id": "EMAIL-207",
+      "locator": "line:6",
+      "quote": "I'll flag any departures on the list to you same-day and hold off account closure until you confirm the export is done."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "scope_inquiry",
+      "document_id": "EMAIL-058",
+      "locator": "line:6",
+      "quote": "Can you send mailbox sizes and confirm hold status for each custodian?"
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "counter_groups",
+      "proof_group": "prior_risk",
+      "document_id": "EMAIL-1078",
+      "locator": "line:6",
+      "quote": "Everything on the current list is exported except the finance share, which should finish Tuesday. One flag: for mailboxes we haven't exported, the standard retention policy is still running, so older items can roll off on schedule."
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "ceiling_not_estimate",
+      "document_id": "EMAIL-1466",
+      "locator": "line:11",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate"
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "ceiling_not_estimate",
+      "document_id": "EMAIL-1469",
+      "locator": "line:83",
+      "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate"
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "uncomputed_case",
+      "document_id": "EMAIL-1469",
+      "locator": "line:13",
+      "quote": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs."
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "counter_groups",
+      "proof_group": "fullparcel_label",
+      "document_id": "EMAIL-1469",
+      "locator": "line:11",
+      "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+    }
+  ],
+  "substantive_checks": [
+    "Complaint, engagement and IRS instrument are distinct February20, February24 and May23 events. Actual EMAIL023 receipt report and its quoted EMAIL054 counterpart support May23 receipt without declaring service legally valid.",
+    "The original attached PDF is labeled SUBPOENA DUCES TECUM, while the enhanced supplied reference classifies an IRS administrative instrument. Public policy says the enhancement is a supplied classification reference, not a historical amendment; no external legal rule was imported.",
+    "EMAIL055 establishes June13 production date and EMAIL057 May31 grants one week. June20 is a disclosed arithmetic result, not independently verified service or a later extension carried backward.",
+    "Actual L&L retention terms and counsel contact establish engagement scope; they do not prove conflicts clearance. The artifacts remain draft_pending_conflicts_information and do not operationally create a matter.",
+    "EMAIL1078 May21 identifies running retention risk outside completed exports. EMAIL206 May26 reports targeted auto-delete suspension, EMAIL207 promises departure safeguards and EMAIL058 May30 asks hold status. Their chronology supports preparatory controls, not a company-wide June13 hold or complete export certification by May31.",
+    "EMAIL1466 and EMAIL1469 distinguish a $2.4m full-parcel face ceiling from exposure, leave excess-acreage inputs blank and exclude penalties/interest from that ceiling. No reserve, risk score or settlement authority follows."
+  ],
+  "issues_resolved": [
+    "Published categorical vocabulary and accepted source-attested institutional suffixes.",
+    "Added actual EMAIL021 recipient/EMAIL050 signature contact alternatives and EMAIL207 quoted original preparatory-control passage."
+  ],
+  "counterevidence_search": [
+    "Read original instrument PDF, enhanced supplied reference, full May23\u201331 deadline correspondence, actual retainer and May21\u201331 preservation sources.",
+    "Checked potential contrary preservation evidence in full corpus and excluded post-cutoff June13 hold issuance from historical conclusions.",
+    "Read full financial chain at May31 cutoff, including full-parcel tab and blank-input qualification rather than relying on a $2.4m headline."
+  ],
+  "checks": {
+    "actual_source_entailment": "passed",
+    "alternate_source_proofs": "passed_with_corrections",
+    "hidden_answer_leakage": "passed",
+    "temporal_eligibility": "passed_with_explicit_undated_reference_limit",
+    "unsupported_conclusions": "passed",
+    "public_task_policy_fixture_binding": "passed",
+    "artifact_state_preservation": "passed",
+    "runtime_controls": "author_reported_positive_1_and_all_negative_controls_reduce_reward"
+  },
+  "undated_supplied_reference_documents": [
+    "DOC-0895c4e533316c9832d8",
+    "DOC-568de2fba6d1c11aff9a"
+  ],
+  "limitations": [
+    "This review applies supplied benchmark references and policy only, not independently researched law or legal enforceability.",
+    "Standalone references without machine dates are task-supplied assets; the review checked cited propositions for temporal fit, and does not claim universal metadata cutoff filtering. Email and attachment eligibility was checked against the cutoff.",
+    "Quoted-thread and actual native attachment alternatives were inspected substantively; this is a finite reviewed proof set, not a general semantic entailment model.",
+    "No paid-model performance, broad professional capability or held-out generalization claim follows from these controls."
+  ]
+}

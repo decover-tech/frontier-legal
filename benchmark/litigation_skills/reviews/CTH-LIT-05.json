@@ -1,0 +1,410 @@
+{
+  "task_id": "CTH-LIT-05",
+  "reviewer": "independent-privilege-builder-agent",
+  "author": "summons-builder-agent",
+  "status": "approved",
+  "review_type": "independent_source_oracle_review",
+  "oracle_semantics_sha256": "f481b890b3827011007ca2f4cfaa8accb9ec8b78dab622fb11e03e8561317424",
+  "task_semantics_sha256": "ff1eb7faec6e6f60b6fe210585f2e7dd880dcda2dc1843bfddd212b6728f7438",
+  "policy_sha256": "755f0b7eab17975cdbcf7db8c156d623e2933641d34f46b1b3fbdcc9001485a7",
+  "fixtures_sha256": "2ef4cd80d490bad9822831fb5c3ba1823ecd13233276f3dc28542b8bfea5cc58",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425",
+  "reviewed_proof_alternatives": 44,
+  "reviewed_obligations": 28,
+  "reviewed_citations": [
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "actual_request",
+      "document_id": "EMAIL-665",
+      "locator": "line:6",
+      "quote": "this email is North Fork's written request under the refund provisions of our purchase agreement for the credits in our lot. We're asking the Administrator to make the election the agreement provides between replacement credits and a refund, and to confirm in writing which applies."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "unquantified",
+      "document_id": "EMAIL-665",
+      "locator": "line:6",
+      "quote": "We aren't in a position to quantify anything yet and reserve all rights. Please confirm receipt and let us know who will be handling this on your side."
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "support_groups",
+      "proof_group": "actual_sender",
+      "document_id": "EMAIL-665",
+      "locator": "line:2",
+      "quote": "From: D Liu <dliu@northforkef.com>"
+    },
+    {
+      "finding": "F01",
+      "proof_kind": "counter_groups",
+      "proof_group": "misleading_subject",
+      "document_id": "EMAIL-694",
+      "locator": "line:6",
+      "quote": "Lot schedule update: reserved lots against the current batch with delivery sequencing to follow. Holding to approved kit versions."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "executed_economics",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:1",
+      "quote": "The purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the \u201cUnit Price\u201d), for\nan aggregate purchase price of $828,000 (the \u201cAggregate Purchase Price\u201d), payable at Closing by wire"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "executed_economics",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:1",
+      "quote": "The purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the \u201cUnit Price\u201d), for\nan aggregate purchase price of $828,000 (the \u201cAggregate Purchase Price\u201d), payable at Closing by wire"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "executed_economics",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:1",
+      "quote": "The purchase price for the Purchased Credits is $0.92 per $1.00 of Face Amount (the \u201cUnit Price\u201d), for\nan aggregate purchase price of $828,000 (the \u201cAggregate Purchase Price\u201d), payable at Closing by wire"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "executed_face",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:3",
+      "quote": "Aggregate Face Amount\n$900,000 of Face Amount"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "executed_face",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:3",
+      "quote": "Aggregate Face Amount\n$900,000 of Face Amount"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "executed_face",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:3",
+      "quote": "Aggregate Face Amount\n$900,000 of Face Amount"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "version_and_date",
+      "document_id": "EMAIL-627",
+      "locator": "line:6",
+      "quote": "attached is the fully executed North Fork purchase agreement you asked for, DocuSigned November 21, 2022. Note the face amount in the signed version is $900,000 \u2014 it came down from the draft at your side's request before signing"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "support_groups",
+      "proof_group": "alternate_batch",
+      "document_id": "EMAIL-637",
+      "locator": "line:6",
+      "quote": "attached is Bellhaven's file copy of the executed North Fork purchase agreement (DocuSign, November 21, 2022)."
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "counter_groups",
+      "proof_group": "draft_version",
+      "document_id": "ATT-EMAIL-681-02-c3db0946f61e",
+      "locator": "page:3",
+      "quote": "Aggregate Face Amount\n$1,000,000 of Face Amount"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "counter_groups",
+      "proof_group": "draft_version",
+      "document_id": "DOC-cedc8868c9f277415c42",
+      "locator": "page:3",
+      "quote": "Aggregate Face Amount\n$1,000,000 of Face Amount"
+    },
+    {
+      "finding": "F02",
+      "proof_kind": "counter_groups",
+      "proof_group": "draft_terms",
+      "document_id": "EMAIL-681",
+      "locator": "line:6",
+      "quote": "Terms as proposed: $1,000,000 face at $0.92, closing on or before November 22."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "conditional_trigger",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a \u201cDisallowance\u201d), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a \u201cRefund Request\u201d)."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "conditional_trigger",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a \u201cDisallowance\u201d), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a \u201cRefund Request\u201d)."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "conditional_trigger",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:2",
+      "quote": "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a \u201cDisallowance\u201d), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a \u201cRefund Request\u201d)."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "seller_election",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "Within thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "seller_election",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "Within thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "seller_election",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:2",
+      "quote": "Within thirty (30) days after receipt of a timely Refund Request, Seller shall, at its election, (a) deliver\nreplacement Credits of equal Face Amount and like vintage, or (b) refund to Purchaser the Unit Price\nmultiplied by the disallowed Face Amount."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "notice_method",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "notice_method",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "support_groups",
+      "proof_group": "notice_method",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:2",
+      "quote": "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,"
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "counter_groups",
+      "proof_group": "sender_ask_not_trigger_proof",
+      "document_id": "EMAIL-665",
+      "locator": "line:6",
+      "quote": "this email is North Fork's written request under the refund provisions of our purchase agreement for the credits in our lot. We're asking the Administrator to make the election the agreement provides between replacement credits and a refund, and to confirm in writing which applies."
+    },
+    {
+      "finding": "F03",
+      "proof_kind": "counter_groups",
+      "proof_group": "sender_ask_not_trigger_proof",
+      "document_id": "EMAIL-665",
+      "locator": "line:6",
+      "quote": "We aren't in a position to quantify anything yet and reserve all rights. Please confirm receipt and let us know who will be handling this on your side."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "northwest_six",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:7",
+      "quote": "North Fork Energy Fund | 2022-11-21 | 2022-11-29 11:18 | CSC-NW-06-2022-0006 | NW-06 | 640000"
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "northwest_seven",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:8",
+      "quote": "North Fork Energy Fund | 2022-11-21 | 2022-11-29 11:18 | CSC-NW-07-2022-0007 | NW-07 | 260000"
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "support_groups",
+      "proof_group": "export_time",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:2",
+      "quote": "Exported 16 August 2023. Source: dated November/December 2022 delivery register."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "counter_groups",
+      "proof_group": "reference_not_eligibility",
+      "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+      "locator": "line:12",
+      "quote": "Purchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded."
+    },
+    {
+      "finding": "F04",
+      "proof_kind": "counter_groups",
+      "proof_group": "prior_reservation_unreliable",
+      "document_id": "EMAIL-1490",
+      "locator": "line:9",
+      "quote": "My working allocation puts some NW-07 into CPP, but I don't trust that line; the sheet was copied from an earlier reservation list. Please don't use it as the delivery register."
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "actual_cash",
+      "document_id": "ATT-EMAIL-1494-07-006d3cdf118e",
+      "locator": "line:5",
+      "quote": "North Fork | 900000 | 0.92 | 828000 | 49680 | 66240 | 712080"
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "not_damages",
+      "document_id": "ATT-EMAIL-1494-07-006d3cdf118e",
+      "locator": "line:9",
+      "quote": "No refund liability, disallowance finding, penalty, interest or reserve is calculated here."
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "support_groups",
+      "proof_group": "no_quantified_demand",
+      "document_id": "EMAIL-665",
+      "locator": "line:6",
+      "quote": "We aren't in a position to quantify anything yet and reserve all rights. Please confirm receipt and let us know who will be handling this on your side."
+    },
+    {
+      "finding": "F05",
+      "proof_kind": "counter_groups",
+      "proof_group": "acreage_not_refund",
+      "document_id": "EMAIL-1502",
+      "locator": "line:8",
+      "quote": "a 52-acre or 44-acre difference isn't a refund amount. We would need the applicable calculation and a decision about the scope of any disallowance before using it that way."
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "intake_questions",
+      "document_id": "EMAIL-665",
+      "locator": "line:6",
+      "quote": "We aren't in a position to quantify anything yet and reserve all rights. Please confirm receipt and let us know who will be handling this on your side."
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "missing_trigger_inputs",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a \u201cDisallowance\u201d), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a \u201cRefund Request\u201d)."
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "missing_trigger_inputs",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a \u201cDisallowance\u201d), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a \u201cRefund Request\u201d)."
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "missing_trigger_inputs",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:2",
+      "quote": "If any Purchased Credit is disallowed, reduced or determined ineligible under the Program or by any\ntaxing authority (a \u201cDisallowance\u201d), Purchaser may deliver a written refund request, with reasonable\nsupporting documentation, to Administrator within ninety (90) days after Purchaser receives notice of\nthe Disallowance (a \u201cRefund Request\u201d)."
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "delivery_input",
+      "document_id": "ATT-EMAIL-627-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,"
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "delivery_input",
+      "document_id": "ATT-EMAIL-637-02-8b74dc6133b7",
+      "locator": "page:2",
+      "quote": "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,"
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "delivery_input",
+      "document_id": "DOC-7e2272d7758b26a0c86c",
+      "locator": "page:2",
+      "quote": "Notices shall be in writing and delivered by email with confirmation copy by overnight courier: if to\nSeller or Administrator, to Alder Point Partners, Attn: Program Administration, Sacramento,"
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "support_groups",
+      "proof_group": "administrator_route",
+      "document_id": "EMAIL-637",
+      "locator": "line:6",
+      "quote": "On your questions about the status of the underlying credits, those are best directed to Alder Point as Program Administrator; Bellhaven's role under the agreement was limited to placement, as set out in Sections 8 and 9."
+    },
+    {
+      "finding": "F06",
+      "proof_kind": "counter_groups",
+      "proof_group": "irs_different_instrument",
+      "document_id": "EMAIL-023",
+      "locator": "line:7",
+      "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+    }
+  ],
+  "substantive_checks": [
+    "Read the full EMAIL665 November2 body and headers: North Fork makes a written replacement/refund election request, asks confirmation of receipt, and expressly cannot quantify it. The corrected message_dated_on records the Date header and does not establish contractual receipt or service.",
+    "Read EMAIL694 with the same refund-demand subject but ordinary lot-schedule body. Read EMAIL628 acknowledging an earlier CPP letter without the letter itself. These prevent both subject-only classification and an unsupported corpus-wide no-other-demand conclusion.",
+    "Independently inspected native text of all four executed North Fork purchase-agreement pages, the November14 draft, EMAIL627 and EMAIL637 copy transmissions and EMAIL681 proposed terms. The executed November21 agreement has $900,000 face, $0.92 per face dollar and $828,000 aggregate price, versus draft $1m face/$920,000 price. Purchaser/date join resolves inconsistent batch4/batch6/lot2 labels; signatures are source-labeled, not independently authenticated.",
+    "Section7 requires Disallowance, reasonable support and a purchaser request within90 days after its notice; Seller elects within30 days of receipt of a timely request. Administrator is the addressee requested by the sender, not the contractual election actor. The current record does not justify a computed response due date or an invalid-demand determination.",
+    "Read the full Section9 continuation across pages2\u20133: email plus overnight confirmation copy, Alder administration and a copy to Cascade Timber Holdings. The current proof anchors establish the delivery-method condition; complete mechanics are preserved in research. The task does not assert compliance merely from the demand email.",
+    "Read the actual dated delivery-register attachment: North Fork November29 delivery comprises NW06 $640,000 and NW07 $260,000, summing to executed $900,000. August16 is the export date. The register limits itself to purchaser slices, excluding broader issuance or eligibility conclusions; earlier EMAIL1490 reservation notes are not the final register.",
+    "Read the actual transaction bridge: North Fork $828,000 funded cash, $49,680/$66,240 fees and $712,080 net are separate from $900,000 credit face. The bridge expressly calculates no refund liability or reserve. EMAIL1502 explains that acreage differences require an applicable calculation and disallowance scope before yielding a refund amount.",
+    "The final triage preserves the incomplete task fixture and remains an internal acknowledgement/document-request draft. It neither rates merits from incomplete predicates nor treats rights-reservation language as settlement protection; no send, actual calendar, payment or authority mutation is allowed.",
+    "Re-read the final public prompt, F01 question and policy after the target clarification; North Fork identification is now an explicit task constraint while evidence retrieval and transactional conclusions remain to be solved."
+  ],
+  "issues_resolved": [
+    "Renamed received_message_on to message_dated_on so email header evidence is not overstated as contractual receipt.",
+    "Published canonical section-number alternatives 4/7/9 rather than hiding a free-string exact format.",
+    "Recorded Section9 page3 continuation and its copy-to-Cascade requirement alongside the page2 delivery method.",
+    "Narrowed the public episode to the North Fork Energy Fund purchaser request so another genuine purchaser demand cannot be rejected as an unstated target. The prompt supplies no message ID, date, agreement terms or outcome."
+  ],
+  "counterevidence_search": [
+    "Reviewed whole-corpus purchaser/refund/disallowance hits, including actual demand, earlier letter acknowledgement, irrelevant subject-only messages and draft/executed purchaser versions.",
+    "Independently inspected complete native agreement and original transactional attachments, not filenames or prose summaries alone.",
+    "Checked both actual and duplicated executed attachments, supplied standalone executed/draft copies and chronology against cutoff."
+  ],
+  "checks": {
+    "actual_source_entailment": "passed",
+    "alternate_source_proofs": "passed",
+    "hidden_answer_leakage": "passed",
+    "temporal_eligibility": "passed_with_explicit_undated_reference_limit",
+    "unsupported_conclusions": "passed_with_date_correction",
+    "public_task_policy_fixture_binding": "passed",
+    "artifact_state_preservation": "passed",
+    "runtime_controls": "author_reported_positive_1_and_all_15_negative_controls_reduce_reward"
+  },
+  "undated_supplied_reference_documents": [
+    "DOC-7e2272d7758b26a0c86c",
+    "DOC-cedc8868c9f277415c42"
+  ],
+  "limitations": [
+    "Review applies supplied contract and benchmark policy; no live legal research, enforceability opinion or signature authentication.",
+    "The finite proof alternatives cover inspected source text and duplicated contract versions, not every possible semantically correct paraphrase.",
+    "Standalone undated supplied references require temporal assessment; dated email and parent-attachment sources were checked against the November2 cutoff.",
+    "No paid model results or generalization claim. Native-text inspection supports this review; the author additionally reports visual inspection of decisive executed/draft pages."
+  ]
+}

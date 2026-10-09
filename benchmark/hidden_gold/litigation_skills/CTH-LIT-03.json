@@ -1,12 +1,21 @@
 {
   "task_id": "CTH-LIT-03",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
         {
           "entity": "Cascade Timber Holdings",
+          "program": "Coastal Solar Credit Program",
+          "initial_complaint_on": "2023-02-20",
+          "irs_receipt_on": "2023-05-23",
+          "role": "investigated",
+          "source": "regulator_inquiry_after_internal_report",
+          "pleaded_claims": null
+        },
+        {
+          "entity": "Cascade Timber Holdings, Inc.",
           "program": "Coastal Solar Credit Program",
           "initial_complaint_on": "2023-02-20",
           "irs_receipt_on": "2023-05-23",
@@ -76,7 +85,7 @@
             {
               "document_id": "DOC-568de2fba6d1c11aff9a",
               "locator": "document:paragraph:39",
-              "quote": "Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
+              "quote": "Legal note: 26 U.S.C. § 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. §§ 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
             }
           ]
         },
@@ -111,7 +120,7 @@
             {
               "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
               "locator": "page:1",
-              "quote": "SUBPOENA DUCES TECUM\nUNITED STATES OF AMERICA \u2014 DEPARTMENT OF THE TREASURY\nINTERNAL REVENUE SERVICE"
+              "quote": "SUBPOENA DUCES TECUM\nUNITED STATES OF AMERICA — DEPARTMENT OF THE TREASURY\nINTERNAL REVENUE SERVICE"
             }
           ]
         }
@@ -129,6 +138,16 @@
           "conflicts_clearance": "not_established",
           "conflicts_method": null,
           "intake_authorization": "draft_only_pending_conflicts_information"
+        },
+        {
+          "outside_firm": "L&L Associates LLP",
+          "lead": "Grace Lin",
+          "email": "glin@llassociates.com",
+          "documented_engagement_on": "2023-02-24",
+          "engagement_scope": "legal_advice_and_internal_review",
+          "conflicts_clearance": "not_established",
+          "conflicts_method": null,
+          "intake_authorization": "draft_only_pending_conflicts_information"
         }
       ],
       "support_groups": [
@@ -139,12 +158,12 @@
             {
               "document_id": "ATT-EMAIL-021-04-235de50fbc43",
               "locator": "page:1",
-              "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+              "quote": "This letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber\nHoldings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
             },
             {
               "document_id": "DOC-0895c4e533316c9832d8",
               "locator": "page:1",
-              "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+              "quote": "This letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber\nHoldings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
             }
           ]
         },
@@ -154,6 +173,16 @@
           "alternatives": [
             {
               "document_id": "EMAIL-022",
+              "locator": "line:13",
+              "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+            },
+            {
+              "document_id": "EMAIL-021",
+              "locator": "line:3",
+              "quote": "To: Grace Lin <glin@llassociates.com>"
+            },
+            {
+              "document_id": "EMAIL-050",
               "locator": "line:13",
               "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
             }
@@ -194,6 +223,11 @@
               "document_id": "EMAIL-206",
               "locator": "line:6",
               "quote": "getting ahead of any legal hold: I've suspended automated mailbox deletion for the exec team and the people on John's draft custodian list."
+            },
+            {
+              "document_id": "EMAIL-207",
+              "locator": "line:24",
+              "quote": "I've suspended automated mailbox deletion for the exec team and the people on John's draft custodian list."
             }
           ]
         },

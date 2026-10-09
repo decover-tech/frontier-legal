@@ -1,7 +1,7 @@
 {
   "task_id": "CTH-LIT-12",
   "author_review_status": "author_checked",
-  "independent_review_status": "pending",
+  "independent_review_status": "approved",
   "findings": {
     "F01": {
       "accepted_answers": [
@@ -58,6 +58,11 @@
               "document_id": "EMAIL-003",
               "locator": "line:6",
               "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+            },
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:6",
+              "quote": "The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
             }
           ]
         },
@@ -74,6 +79,16 @@
               "document_id": "EMAIL-016",
               "locator": "line:14",
               "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            },
+            {
+              "document_id": "EMAIL-015",
+              "locator": "line:6",
+              "quote": "we never got the re-verification done on that batch of parcels"
+            },
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:14",
+              "quote": "we never got the re-verification done on that batch of parcels"
             }
           ]
         }
@@ -122,6 +137,11 @@
               "document_id": "EMAIL-041",
               "locator": "line:6",
               "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+            },
+            {
+              "document_id": "EMAIL-042",
+              "locator": "line:14",
+              "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
             }
           ]
         }
@@ -159,6 +179,16 @@
             {
               "document_id": "EMAIL-1492",
               "locator": "line:6",
+              "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+            },
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:26",
+              "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+            },
+            {
+              "document_id": "EMAIL-1494",
+              "locator": "line:26",
               "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
             }
           ]
@@ -391,5 +421,6 @@
       "pointer": "/answer_prediction",
       "value": "witness_will_confess"
     }
-  ]
+  ],
+  "review_notes": "Independent reviewer summons_builder identified and checked alternate original/quoted-thread/actual-attachment proof; added only relevant identical propositions or full contextual equivalents. Financial quote alternatives are restricted to the same exposure discussion chain."
 }
