@@ -124,3 +124,30 @@ Seed untouched. 009 candid preserved. 045-vs-018 (+029) preserved. 115-vs-117 + 
 - Open-by-design (stay unresolved for demo): Q2 issuance truth ultimately join-dependent (matrix required); Q5 mapping join-dependent; spot-check absence shown by gaps not memo; whistleblower identity stays UNKNOWN (3-live pool); joint-defense absent (no memo either way).
 
 > Gate: approve bible rev.3 + arcs rev.2, then manifest v2. Every new record cites § + tag; join-required rule enforced.
+
+## 13. Density expansion (8 October 2026)
+
+The user authorized a case-density expansion. The register at
+[DENSITY_EXPANSION.md](DENSITY_EXPANSION.md) documents 32 additional fictional
+records, EMAIL-1475–1506, with eight distinct supporting text attachments. These
+facts are **[AUTHORED ADDITIONS]**; original records are unchanged and the historical
+1,400-document volume target is not a new total.
+
+- THR-005: Q4-H1/H2/H3 are local queue references for the three files held in
+  EMAIL-1454, separate from the original NW eight. H1 receives conditional approval
+  for a corrected application and a later narrow acreage check; actual filing is
+  not established. H2/H3 remain unreleased in the added record.
+- THR-006: three existing buyer agreements receive new dated delivery/allocation
+  records. They total 3.25 million face and 2.932 million cash. The original disputed
+  four's 2.40 million face is allocated across them; clean slices add 850,000.
+  Certificate issuance, purchaser delivery, screening and tax loss remain distinct.
+- THR-007: a new purposive September 2023 remediation pilot compares three archived
+  packets. It repairs a reference error and leaves two acreage reconciliations
+  open. Historical quarterly-control performance stays unresolved; this pilot is
+  not retrospective proof that those tests ran.
+
+The full-parcel versus excess-acreage question, recorder-notice mapping, seed
+survey crosswalk, registration issuance truth, Clearwater application sequencing,
+complainant identity and ultimate examination outcome remain open. Added documents
+are not yet expert labeled; label columns are blank and existing benchmark snapshots
+retain their original scope.

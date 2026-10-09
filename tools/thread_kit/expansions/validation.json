@@ -1,0 +1,13 @@
+{
+  "total_messages": 1486,
+  "added_messages": 32,
+  "unique_new_attachments": 8,
+  "attachment_instances": 10,
+  "original_messages_byte_verified": 1454,
+  "spec_errors": 0,
+  "spec_warnings": 0,
+  "indexes_match": true,
+  "new_thread_mismatches": 0,
+  "preexisting_thread_mismatches": 330,
+  "labels": "New documents unreviewed; label columns blank; existing benchmark snapshots unchanged"
+}

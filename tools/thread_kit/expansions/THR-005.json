@@ -1,0 +1,193 @@
+{
+  "thread_id": "THR-005",
+  "anchor": "EMAIL-1454",
+  "arc": "A",
+  "event_id": "THR-005-density-expansion",
+  "start_docid": 1475,
+  "bible_refs": [
+    "§0 Q4 warnings [ESTABLISHED]",
+    "THR-003 / EMAIL-1454 six submitted, three held [ESTABLISHED]",
+    "§1 certificate-delivery recognition [ESTABLISHED]",
+    "§6 spot-check performance remains unresolved",
+    "Density expansion register §1 [AUTHORED FICTIONAL ADDITIONS]"
+  ],
+  "rationale": "Follow the three held files without equating them with the original disputed NW parcels. Records staff obtain missing support, finance separates submission from revenue, and commercial forecasts outrun release authority. Two files remain unreleased; a third gets conditional permission for a corrected application, with actual filing still unknown.",
+  "messages": [
+    {
+      "key": "m1",
+      "parent": "EMAIL-1454",
+      "kind": "reply",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2022-11-08T13:40",
+      "body": "Hannah — thanks for separating them. To keep the folders straight, I've given the three held files tracking names Q4-H1, Q4-H2 and Q4-H3. Those are queue references, not county numbers, and they aren't the original eight Northwest files.\n\nOn the other two, can you confirm whether the county copies you added actually include the recorded easement exhibit? The cover filings were already there; the missing pieces were the recorded versions of the easement language. I don't want our tracker to say complete if we've only added a second cover sheet. Please leave the three on hold while Priya decides the quarter.",
+      "cc": [
+        "snguyen@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m2",
+      "parent": "m1",
+      "kind": "reply",
+      "from": "hcole@cascadetimber.com",
+      "to": [
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2022-11-09T09:15",
+      "body": "Yes, the two copies include the recorded easement exhibit and the map page; I pulled them from our paper files, not the marketing folder. That fills the document gap. It doesn't mean I've reviewed whether the wording meets the program criteria.\n\nFor the three held files, I attached the queue note so everyone has the same references. H1 is an old listing figure against a newer county filing. H2 has two survey areas that may overlap. H3 has a county scan with the acreage line cut off. Those could have different explanations, so I'd rather not use one 'acreage issue' code for all three. Nothing from that subfolder went into yesterday's outgoing batch.",
+      "cc": [
+        "snguyen@cascadetimber.com"
+      ],
+      "attachments": [
+        {
+          "filename": "Q4_held_queue_2022-11-09.txt",
+          "content": "RECORDS QUEUE NOTE — 9 November 2022\nLocal tracking references only; not parcel IDs. Separate from original NW-01–NW-08.\nQ4-H1 | listing acreage differs from newer county filing | transmittal blank | held\nQ4-H2 | two survey areas may overlap | transmittal blank | held\nQ4-H3 | county scan crops acreage line | transmittal blank | held\nOther six files: outgoing Q4 batch; no conclusion on eligibility or certificate delivery.\nPrepared by Hannah Cole from folder contents.\n"
+        }
+      ]
+    },
+    {
+      "key": "m3",
+      "parent": "m2",
+      "kind": "reply_all",
+      "from": "snguyen@cascadetimber.com",
+      "to": [
+        "hcole@cascadetimber.com",
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2022-11-09T11:10",
+      "body": "Please leave the queue references on the tracker and keep the old acreage column as well as any proposed correction. We need to see what changed, not just the final number.\n\nFor H1, ask for the source and date of the listing figure. For H2, a marked plan showing the boundary between the two survey areas would answer more than another summary email. For H3, order the full county copy. My packet request was to document differences; it wasn't permission to submit the held files or an eligibility sign-off. Tom, please get Priya to name the person who can release each one. Hannah's records check and our quarterly sample work are separate steps."
+    },
+    {
+      "key": "m4",
+      "parent": "m3",
+      "kind": "forward",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "pshah@alderpointpartners.com"
+      ],
+      "date": "2022-11-10T08:35",
+      "body": "Priya — Sarah's requests are below. H1 needs a dated source, H2 needs a boundary plan and H3 needs the full scan. Hannah has left all three out.\n\nJay's buyer list still assumes nine files and a Thanksgiving certificate run. Could you tell him to use six until we have release instructions? I can chase documents, but I can't give him a delivery date for a file that's still sitting in the hold folder. If you want H1 sent at the county figure instead, please say that explicitly so Hannah and I don't treat a change in the forecast as an instruction to file.",
+      "keep_attachments": false
+    },
+    {
+      "key": "m5",
+      "parent": "m4",
+      "kind": "reply",
+      "from": "pshah@alderpointpartners.com",
+      "to": [
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2022-11-10T12:20",
+      "body": "Keep the commercial forecast at nine for now; it shows the upside if the documents arrive. I'll have Jay distinguish that from what he can offer. We're not committing all nine to a buyer this week.\n\nH1 looks like the quickest fix if the listing sheet is simply old. Please get the owner to acknowledge the county figure before changing the application. H2 needs the plan Sarah asked for. On H3, see whether the recorder can email a legible copy rather than waiting for the mail. I still want a path to November, but I don't want Hannah guessing which acreage to put on a submitted form.",
+      "cc": [
+        "jwhitfield@alderpointpartners.com"
+      ]
+    },
+    {
+      "key": "m6",
+      "parent": "m5",
+      "kind": "reply_all",
+      "from": "jwhitfield@alderpointpartners.com",
+      "to": [
+        "pshah@alderpointpartners.com",
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2022-11-11T10:05",
+      "body": "I can show six firm and three conditional in the pipeline sheet. My problem is that buyers don't see those columns; they hear the total on the call and ask for a delivery date. Blue River wants a December allocation and North Fork needs its paperwork before their committee meets.\n\nPlease give me an approved sentence for the conditional three. Until then I'll quote only credits already available for allocation and won't promise these files. The Lane/Klamath easement files and these acreage files are getting mixed together in conversations, so I'd like the county documents attached to the right folders before anyone uses them to answer diligence questions."
+    },
+    {
+      "key": "m7",
+      "parent": "m5",
+      "kind": "reply",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "pshah@alderpointpartners.com"
+      ],
+      "date": "2022-11-14T14:30",
+      "body": "Update after the owner calls. H1's listing was prepared before the easement boundary was narrowed. The owner emailed acceptance of the county figure; the revised application is in the folder alongside the first draft. H2's surveyor says the areas may overlap, but wants the original field notes before drawing a boundary line. H3's complete county copy arrived; it is legible and it still differs from our application.\n\nSo one file has a proposed correction and two need more work. I haven't sent any of the three to Hannah as released. If H1 goes this quarter, the forecast needs the revised figure, not the listing acreage. Please confirm who reviews the corrected form.",
+      "cc": [
+        "hcole@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m8",
+      "parent": "m7",
+      "kind": "reply_all",
+      "from": "pshah@alderpointpartners.com",
+      "to": [
+        "treyes@alderpointpartners.com",
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2022-11-15T09:20",
+      "body": "H1 can move on the corrected county figure once Sarah checks the tie-out and Hannah has the owner's acknowledgment in the packet. Please keep both application versions. I'm approving that route, not the original listing acreage.\n\nLeave H2 and H3 out of the outgoing batch until we have reconciliations. Jay can keep them conditional for planning, but they aren't available inventory. Tom, send Craig the revision to the pipeline figure so he isn't modeling all nine at the original amounts. If the H1 paperwork slips past the certificate window, we'll live with Q1 rather than mark it delivered before it is.",
+      "cc": [
+        "snguyen@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m9",
+      "parent": "m8",
+      "kind": "reply_all",
+      "from": "hcole@cascadetimber.com",
+      "to": [
+        "pshah@alderpointpartners.com",
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2022-11-15T11:45",
+      "body": "H1 has the owner email and both application drafts in its folder. Sarah's tie-out is still open, so the release box is blank and I haven't put it in the next courier run. H2 and H3 remain in the separate subfolder. I've attached today's queue note; the November 9 note is retained alongside it.\n\nOne clarification for the system: 'ready for review' and 'submitted' are different statuses. Please don't copy the commercial forecast status into the submission column. The other six have outgoing packet entries, but I don't hold the certificate delivery records, so I can't tell Jay whether they meet his buyer dates.",
+      "cc": [
+        "snguyen@cascadetimber.com",
+        "csato@cascadetimber.com"
+      ],
+      "attachments": [
+        {
+          "filename": "Q4_held_queue_2022-11-15.txt",
+          "content": "RECORDS QUEUE NOTE — 15 November 2022\nQ4-H1 | revised to county figure; owner acknowledgment in folder | Sarah tie-out OPEN | release blank; no transmittal\nQ4-H2 | field notes requested for overlap | release blank; no transmittal\nQ4-H3 | full county scan received; discrepancy remains | release blank; no transmittal\nDo not overwrite the 9 November queue note. Commercial forecast is not a submission register.\n"
+        }
+      ]
+    },
+    {
+      "key": "m10",
+      "parent": "m9",
+      "kind": "reply",
+      "from": "csato@cascadetimber.com",
+      "to": [
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2022-11-16T08:50",
+      "body": "Hannah — this is helpful. I've taken H2 and H3 out of the committed Q4 forecast and moved H1 into a separate conditional line. I won't book any of them from a pipeline status. Under our April policy, certificate delivery is what determines revenue, and I need delivery evidence rather than a packet or an issuance date.\n\nCould you keep the transmittal field separate from the delivery field when the tracker goes to Rob? The original Northwest eight already have their own face builds; these queue references must not be added to that schedule just because both sets have acreage questions. I'll ask Alder for delivery support on the six separately.",
+      "cc": [
+        "rdenniston@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m11",
+      "parent": "m10",
+      "kind": "reply_all",
+      "from": "rdenniston@cascadetimber.com",
+      "to": [
+        "csato@cascadetimber.com",
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2022-11-16T10:40",
+      "body": "Understood on recognition. Send me the bridge between Priya's commercial forecast and your committed number before Friday. I want to know whether the gap is missing support, a lower acreage input or delivery timing; those mean different things for the year-end call.\n\nKeep H1 conditional until the review box is signed. I don't need an eligibility judgment from finance, but I do need the forecast we show Elena to agree with what people are actually able to submit and deliver. Please leave the earlier forecast in the folder so we can explain the change rather than circulate another file called final."
+    },
+    {
+      "key": "m12",
+      "parent": "m9",
+      "kind": "reply",
+      "from": "snguyen@cascadetimber.com",
+      "to": [
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2022-11-17T15:10",
+      "body": "I've checked H1's revised application acreage against the county copy and the owner's acknowledgment. Those figures agree. You can send that corrected version through the normal application route if the rest of the packet checklist is complete; this check covers the acreage tie-out only.\n\nPlease enter the actual transmittal date when it goes, not today's date by default. H2 and H3 stay unreleased. I'll log this as a targeted packet exception check, not as completion of the quarterly sample review. Craig, that distinction needs to survive in the close file: a single corrected file doesn't establish that the framework's quarterly testing was performed.",
+      "cc": [
+        "treyes@alderpointpartners.com",
+        "csato@cascadetimber.com"
+      ]
+    }
+  ]
+}

@@ -6,11 +6,17 @@ email analytics, agentic search, and chronology-builder features. Do not use
 real client data with this file.
 
 > **Current state (2026-09-29).** These are the v3 build notes for the 250-document seed and are kept
-> for history. The collection now holds **1,454** messages (EMAIL-001–EMAIL-1474; IDs 1413–1420,
+> for history. After the density expansion of 8 October 2026, the collection holds **1,486** messages (EMAIL-001–EMAIL-1506; IDs 1413–1420,
 > 1435–1440 and 1455–1460 are unused numbers, not missing documents), dated **November 2, 2021 –
-> December 22, 2023**. The load files index all 1,454. The `X-Decover-*` headers described below were
+> December 22, 2023**. The load files index all 1,486; review labels for EMAIL-1475–1506 are blank pending review. The `X-Decover-*` headers described below were
 > stripped from every file; seed labels live in `benchmark/hidden_gold/seed_header_labels.csv`. See the
 > top-level `README.md` for the current layout.
+
+The newest 32 messages and eight distinct text attachments develop held Q4 files,
+buyer/source-credit reconciliation and a September remediation pilot. See
+[`documentation/DENSITY_EXPANSION.md`](../../documentation/DENSITY_EXPANSION.md)
+for authored fictional facts, evidence limits and validation. All original 1,454
+messages are unchanged; the historical v3 notes below still describe the seed build.
 
 **250 documents total** — the original 30 "hot" documents from the source
 workbook (`EMAIL-001`–`EMAIL-030`, content unchanged), 80 documents added in

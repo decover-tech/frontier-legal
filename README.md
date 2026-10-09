@@ -15,8 +15,8 @@ joins across several documents. All companies, people and events are fictional.
 
 | | |
 |---|---|
-| Documents rendered | 1,454 RFC 5322 `.eml` (250 seed, 1,150 generated in batches, 54 in 4 long threads from `thread_kit`) |
-| Documents planned | 1,454 (`DOCUMENT_MANIFEST.csv`; thread rows have `status=thread-expansion`) |
+| Documents rendered | 1,486 RFC 5322 `.eml` (250 seed, 1,150 generated in batches, 86 in 7 threads from `thread_kit`) |
+| Documents planned | 1,486 (`DOCUMENT_MANIFEST.csv`; thread rows have `status=thread-expansion`) |
 | Time span | Nov 2021 – Dec 2023 |
 | Custodians | 26 mailboxes |
 | Organizations | Cascade Timber (client), Alder Point Partners (administrator), Bellhaven Advisory (broker), L&L Associates (outside counsel), GreenAcre (surveyor), Moss & Lane (auditors), IRS, consultants, buyers |
@@ -44,9 +44,13 @@ joins across several documents. All companies, people and events are fictional.
   quoting follows each sender's mail client (Outlook or Gmail), each organization has its own
   signature, time zones follow daylight saving, and about a third of the corpus is routine
   noise, decoys and near-duplicates.
-- **Long threads, not just pairs.** Four expanded threads (THR-001–004) run 12–14 messages
+- **Long threads, not just pairs.** The first four expanded threads (THR-001–004) run 12–14 messages
   each, with forks, reply-alls that add or drop people, side forwards and unanswered
-  questions. The longest reply chain is 12 deep.
+  questions. With the density extensions, the longest coherent reply chain is 14 deep.
+- **Denser evidence chains.** THR-005–007 add 32 emails and eight supporting text records
+  for held Q4 packets, source-credit allocations to buyers, and a dated remediation pilot.
+  See [the expansion register](documentation/DENSITY_EXPANSION.md) for new fictional
+  facts, counterevidence and questions deliberately left unresolved.
 - **Real contracts, versioned.** KW-01/02 option agreements go from drafts (DOCX) to wet-signed
   scans (PDF, no text layer). The Bellhaven credit purchase agreements and the pre-broker
   template also carry their version history. Each email carries the version that existed on
@@ -62,7 +66,7 @@ joins across several documents. All companies, people and events are fictional.
 ```text
 data/emails/                          # corpus (tracked; new files need `git add -f`, see .gitignore)
   Custodians/<Name>/EMAIL-NNN_<subject>.eml
-  Loadfile_Cascade_Timber.{csv,dat}   # load file: all 1,454 (DOCID, dates, parties, TAG, PRIVILEGED, CONTAINS_PII, …)
+  Loadfile_Cascade_Timber.{csv,dat}   # load file: all 1,486; newest 32 have blank review labels
   README.md                           # corpus build notes (v3 realism pass)
 data/emails/Exhibits/                 # 38 standalone exhibit PDFs + ../Exhibit_Manifest.csv (not attached to emails)
 definitions/                          # labeling protocols: Responsiveness, ACP, Work Product, Subpoena (summons)
@@ -92,9 +96,11 @@ tools/thread_kit/                     # thread expander: context, validate, rend
 | `benchmark/hidden_gold/` | 28 tasks, all answerable from seed documents | Required, counter, distractor and context evidence IDs; gold facts and inferences; `must_include`, `must_not_claim` and `must_qualify` lists; unknowns. The schema is in `schemas/task.schema.json`. |
 | `CASE_BIBLE.md` / `EVIDENCE_ARCS.md` | The whole matter | Prose ground truth with `[ESTABLISHED]`, `[PROPOSED]`, `[DISPUTED]` and `[INFERENCE]` tags. This is the fastest source for writing new (task, evidence, target) examples. |
 
-The emails carry no label headers: the `X-Decover-*` headers were stripped from all 1,454 files. DocIDs
+The emails carry no label headers: the `X-Decover-*` headers were stripped from the original 1,454 files and are absent from the 32 additions. DocIDs
 live in the filenames (`EMAIL-NNN_<subject>.eml`) and the load file. Document-level labels for the whole
-corpus are in `benchmark/GOLD_LABELS.csv` (machine-drafted, expert review pending).
+original corpus are in `benchmark/GOLD_LABELS.csv` (machine-drafted, expert review pending).
+The newest 32 documents are unreviewed and not included in those labels or existing
+hash-pinned benchmark snapshots; their load-file label columns are blank.
 
 ## Splits and leakage
 
@@ -163,6 +169,11 @@ don't depend on them.
   Clearwater scouting (EMAIL-1401–1412), THR-002 Bellhaven registration (1421–1434), THR-003
   Q4 push-through (1441–1454) and THR-004 the $2.4M estimate (1461–1474). Their specs and
   reports are in `Logs/threads/`.
+- The authorized density pass adds THR-005–007 (EMAIL-1475–1506), bringing the total to
+  1,486 messages. All original emails remain byte-identical. Story specs, a metadata
+  synchronization/checking script and validation results are in
+  `tools/thread_kit/expansions/`; [the authoring register](documentation/DENSITY_EXPANSION.md)
+  explains the additions and their limits.
 - The top fixes for training readiness, from `suggestions.md`:
   1. Move labels out of the headers.
   2. Write 150–200 examples reviewed by experts, with multi-label responsiveness, privilege

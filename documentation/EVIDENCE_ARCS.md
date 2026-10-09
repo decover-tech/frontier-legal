@@ -103,3 +103,23 @@
 
 - Resolved by joins: parcel increment scope; KW intent characterization (join, not confession); pause authority trail; messaging version trail; preservation completeness pattern.
 - Stay open: renewal ultimate truth (matrix-dependent); recorder mapping (filing-dependent); spot-check absence (gap-shown); whistleblower ID (3-live pool); joint-defense (absent); IRS theory/resolution.
+
+## Authored density extension — THR-005–007
+
+See [DENSITY_EXPANSION.md](DENSITY_EXPANSION.md) for new fictional facts and scope.
+
+- A/E/F: EMAIL-1475–1486 follow the three Q4 held files through different document
+  problems, conditional release, a corrected acreage check and revenue forecasting.
+  Q4 queue references are separate from the original NW eight. Actual later filing
+  remains unknown; a targeted exception check is not the quarterly sample control.
+- B/C: EMAIL-1487–1496 join a buyer receipt extract, dated source-allocation register,
+  source-reference check and settlement bridge. An outdated reservation sheet supplies
+  counterevidence requiring correction. Allocations reconcile existing contract face
+  and price; no disallowance, monetary loss or refund entitlement is decided.
+- F/H: EMAIL-1497–1506 document a narrow September remediation pilot with first-pass
+  findings and a second reviewer. Correcting an exhibit link does not correct acreage.
+  Historical quarterly testing stays a separate open question, evidenced by its own
+  calendars, packs and source-workpaper requests.
+
+The new records are unreviewed and are outside existing hash-pinned benchmark
+snapshots. New future evidence packages should keep each complete thread together.
