@@ -170,3 +170,9 @@ environments. Inventory answers are computed from original email headers and
 scored deterministically with count accuracy, set F1 and ordered-list accuracy.
 This provides a harder e-discovery calibration without fabricated documents
 or subjective legal judgments. See benchmark/rlvr/README.md for execution.
+
+## Executable development suite (2026-10-08)
+
+The 19-family mapping above is now connected to the executable suite in `benchmark/litigation_skills/README.md` and its generated `COVERAGE.md`. The target is seventeen new packages with their own instructions, evidence-backed output schemas, simulated artifacts, hidden proof obligations, controls and independent review records. Check `COVERAGE.md` for implemented versus pending packages and reviews. Families 09 and 10 retain the existing preservation and chronology pilot implementations. Each package is a bounded initial episode; this does not implement every mode of the reference skills.
+
+Authoring found an actual inbound refund request in EMAIL-665. The demand-received episode uses that record and tests its distinctions from routine updates and the IRS instrument, rather than assuming the dataset lacks an inbound trigger. Extraction coverage and unresolved authority/preferences remain explicit.

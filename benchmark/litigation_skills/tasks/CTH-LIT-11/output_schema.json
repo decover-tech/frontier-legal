@@ -1,0 +1,724 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "object",
+      "properties": {
+        "F01": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "mode": {
+                  "type": "string",
+                  "enum": [
+                    "provisional_factual_issues",
+                    "fraud_elements_final",
+                    "patent_chart"
+                  ],
+                  "maxLength": 2048
+                },
+                "pleaded_elements": {
+                  "type": "string",
+                  "enum": [
+                    "not_supplied",
+                    "confirmed"
+                  ],
+                  "maxLength": 2048
+                },
+                "merits_conclusion": {
+                  "type": "string",
+                  "enum": [
+                    "not_determined",
+                    "liability_proven",
+                    "defense_proven"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "mode",
+                "pleaded_elements",
+                "merits_conclusion"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F02": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "warning": {
+                  "type": "string",
+                  "enum": [
+                    "documented_before_submission_request",
+                    "first_reported_after_inquiry"
+                  ],
+                  "maxLength": 2048
+                },
+                "reverification": {
+                  "type": "string",
+                  "enum": [
+                    "later_reported_not_done",
+                    "completed"
+                  ],
+                  "maxLength": 2048
+                },
+                "continuation": {
+                  "type": "string",
+                  "enum": [
+                    "shah_proceed_instruction",
+                    "full_stop_order"
+                  ],
+                  "maxLength": 2048
+                },
+                "liability": {
+                  "type": "string",
+                  "enum": [
+                    "not_determined",
+                    "fraud_proven"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "warning",
+                "reverification",
+                "continuation",
+                "liability"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F03": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "representation": {
+                  "type": "string",
+                  "enum": [
+                    "authorization_before_solicitation",
+                    "filing_alone_sufficient"
+                  ],
+                  "maxLength": 2048
+                },
+                "renewal": {
+                  "type": "string",
+                  "enum": [
+                    "pending_in_warning_record",
+                    "issued_by_warning"
+                  ],
+                  "maxLength": 2048
+                },
+                "marketing": {
+                  "type": "string",
+                  "enum": [
+                    "reported_not_paused",
+                    "all_marketing_stopped"
+                  ],
+                  "maxLength": 2048
+                },
+                "ultimate_breach": {
+                  "type": "string",
+                  "enum": [
+                    "needs_jurisdiction_and_transaction_proof",
+                    "conclusively_proven"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "representation",
+                "renewal",
+                "marketing",
+                "ultimate_breach"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F04": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "integer"
+                },
+                "basis": {
+                  "type": "string",
+                  "enum": [
+                    "full_parcel_credit_face_ceiling",
+                    "adopted_reserve",
+                    "cash_received"
+                  ],
+                  "maxLength": 2048
+                },
+                "cash_equal": {
+                  "type": "boolean"
+                },
+                "penalties_included": {
+                  "type": "boolean"
+                },
+                "excess_acreage": {
+                  "type": "string",
+                  "enum": [
+                    "unresolved",
+                    "fully_calculated"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "amount",
+                "basis",
+                "cash_equal",
+                "penalties_included",
+                "excess_acreage"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F05": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "performed_work": {
+                  "type": "string",
+                  "enum": [
+                    "three_packet_pilot",
+                    "programwide_random_test"
+                  ],
+                  "maxLength": 2048
+                },
+                "corrected": {
+                  "type": "string",
+                  "enum": [
+                    "one_reference_exception",
+                    "all_acreage"
+                  ],
+                  "maxLength": 2048
+                },
+                "acreage_exceptions": {
+                  "type": "integer"
+                },
+                "eligibility": {
+                  "type": "string",
+                  "enum": [
+                    "not_cleared",
+                    "cleared"
+                  ],
+                  "maxLength": 2048
+                },
+                "control_effectiveness": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "effective"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "performed_work",
+                "corrected",
+                "acreage_exceptions",
+                "eligibility",
+                "control_effectiveness"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F06": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "counsel_advice": {
+                  "type": "string",
+                  "enum": [
+                    "october_pause_recommended",
+                    "no_counsel_warning"
+                  ],
+                  "maxLength": 2048
+                },
+                "management_response": {
+                  "type": "string",
+                  "enum": [
+                    "deferred_pause_for_business_reasons",
+                    "immediate_pause"
+                  ],
+                  "maxLength": 2048
+                },
+                "later_pause": {
+                  "type": "string",
+                  "enum": [
+                    "june_2023_decision",
+                    "october_2022_immediate"
+                  ],
+                  "maxLength": 2048
+                },
+                "historical_cure": {
+                  "type": "string",
+                  "enum": [
+                    "not_retroactive",
+                    "earlier_continuation_cured"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "counsel_advice",
+                "management_response",
+                "later_pause",
+                "historical_cure"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "findings"
+  ],
+  "additionalProperties": false
+}

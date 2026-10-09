@@ -1,0 +1,3540 @@
+{
+  "task_id": "CTH-LIT-13",
+  "author": "privilege_builder",
+  "independent_review_status": "pending",
+  "research_markdown": "# CTH-LIT-13 author research (evaluator-only; never runner evidence)\n\nThis is a simulated first-pass review under supplied Cascade protocols, not a current-law opinion or a served privilege log. The reference skill informs workflow and cautious triage only. Original evidence and native text were inspected; no demo privilege log or hidden label supplies any conclusion. Source hashes and exact extracted body-line/page/sheet locators are in research_sources.json. Native PDF text was complete for the six engagement PDFs reviewed; neither OCR nor image interpretation was needed for these selected sources. PNG signatures/logos are not substantive review targets. The broader evidence bundle records other extraction limitations.\n\nCutoff proposed: 2023-12-31T23:59:59-08:00. Dates are source dates, distinct from later compilation time. The DOCX protocols are supplied evaluation rules prepared in 2026, not historical 2023 communications. Original protocol worked examples explicitly mention answer IDs; public input must use the rule-only projection, excluding case-answer examples. Candidate findings below independently use original matter documents.\n\n## Seven findings and meaningful contrasts\n\n1. **GC advice before the supplied work-product trigger.** EMAIL-012 dated October 4, 2022, From Ellery to Marlowe, body line 3: “this memo and my analysis ... are provided as legal advice”; recommendation pauses placements pending eligibility and licensing clearance. Attachment Privileged_Coastal_Solar_Risk_Assessment.pdf p1 identifies Ellery, October 4, 2022, and analyzes exposure/recommends a pause. ACP supported; WP unsupported under supplied February 24, 2023 trigger despite attachment's work-product banner. Equivalent substantive proof: attachment sections I/IV/V, not merely privilege heading. Counterevidence is actual pre-trigger date. Labels cannot override chronology.\n\n2. **Outside-counsel cover and retention attachment are different items.** EMAIL-021 February 24, 2023, body line3 “Formally engaging L&L Associates to advise on the internal review ... given the complaint received last week” supports a legal-services request. LL_Associates_Engagement_Letter.pdf p1: “This letter confirms the engagement ... to provide legal advice and conduct an internal review”. The attachment is the retention record, independently administrative; its privilege/work-product banner does not make every family member privileged. The task may grade ACP family distinction but should leave WP of the cover cautiously ungraded/attorney-review rather than inventing strategy in a retention message.\n\n3. **Whitaker's counsel-directed analysis versus an unchanged client template.** EMAIL-529 dated September10, from Whitaker to Lin, body line1: “as you asked, I've started tracing the fee wires”, “Prepared at your direction”, and describes fee tracing; support needs the engagement join. EMAIL-137 body line3 and actual Kovel_Engagement_Whitaker_Forensic.pdf p1 establish retained by L&L, solely its direction, assisting legal advice for anticipated litigation, no direct audit/tax services to CTH. EMAIL-138 body line1 confirms reporting only to L&L; EMAIL-141 body line3 is alternate corroboration. ACP and fact-WP candidate for EMAIL-529, subject to first-pass review; no opinion-WP finding required. Attached booking_note.csv contains only header batch,face_value,cash_received,fees_expensed and row NW-batch,,,; EMAIL-529 says “the columns are blank, which is how it came to us”. The preexisting template does not inherit email protection. Do not classify all accountant records alike.\n\n4. **Larsen ordinary-course purpose persists through a bare forward to counsel.** EMAIL-145 From Craig to Ellery August22 top line “FYI —”, no advice request. Quoted original line19 discusses final provision memo, deferred revenue, contingency disclosure; line35 requests “usual provision support” and “Same scope as last year”. Earlier Larsen Q3/Q4 2022 and Q1 2023 engagement PDFs p1 confirm standard business engagement “not at counsel direction”; contemporaneous EMAIL-143/144 may be acceptable equivalents after direct verification. No blanket Kovel inference from tax subject, examination mention, legal recipient, or subsequent date. The purported provision memo is not actually attached to EMAIL-145, so no claim that its page3 was inspected is permissible.\n\n5. **Third-party placement forward is business correspondence.** EMAIL-151 From Priya Shah at Alder to Ellery; top body signature only, then Renee Ford/Bellhaven asks at line11 “any word on when placements might resume?” and mentions interested buyers. Outsider role plus operational purpose rebuts legal-recipient shortcut. ACP not supported; WP not supported on this record. It is not a legal advice disclosure merely because counsel receives it. Distinguish original Renee-to-Priya communication and Priya's bare forward.\n\n6. **Mixed financial model needs an explicit unresolved-purpose flag.** EMAIL-071 July10 from controller Sato to CFO Denniston, no counsel participant, line1 Q3 pause impact plus L&L review costs before board session. Q3_Financial_Impact_Coastal_Solar_Pause.xlsx sheet Q3 Impact A1:D5 has revenue, broker fees, review costs and net effect. It contains no counsel direction, but no comprehensive inquiry settles whether it was prepared because of litigation. Under supplied uncertain-purpose rule: ACP unsupported for email/model, WP needs attorney review; preserve candidate designation and seek instruction/provenance. Costs for L&L alone do not establish WP. EMAIL-1473 describes a *different* restricted exposure workbook; never transfer counsel direction across files based only on finance subject similarity.\n\n7. **Auditor waiver risk is not proof of actual disclosure.** EMAIL-1472 June7 line1 requests advice about Brenda's Q2 support inquiry and asks “What am I allowed to give her?” EMAIL-1473 internal To/CC includes client personnel and Lin, line3 “Don't send Moss & Lane the workbook or anything from this chain”; line5 limits response to ordinary close support, management has not adopted estimate. Original EX_Moss_Audit_Engagement_FY2022.pdf p1 establishes financial-statement audit/testing, not legal-agent retainer. The internal legal communication supports ACP/opinion-WP candidate; assess sharing risk and retain attorney-review flag, but do not conclude the workbook was disclosed or protection waived. Later remediation-pilot packets sent to Moss are different items; disclose nothing from this simulated task.\n\n## Protocol rule locators read directly from DOCX XML paragraphs\n\nACP: ¶26–36 confidentiality/persons/purpose and ordinary/admin exceptions; ¶38–49 roles and outsiders; ¶52–53 substance over labels (exclude misleading reliable-header assertion from public input); ¶61–64 engagement family distinction (case example excluded); ¶70–73 independent family and attorney participation; ¶76–81 counsel-retained agent test; ¶93–94 responsiveness independent.\nWP: ¶24–27 because-of-litigation, fact/opinion distinction; ¶29–33 February24 trigger (exclude case examples); ¶47–48 sharing with IRS; ¶49–51 ambiguous purpose (exclude named case); ¶55–56 waiver. Caution: ¶54 GreenAcre shorthand conflicts with ¶33 pre-trigger treatment; don't use that shorthand as normative answer evidence.\n\n## Equivalence and limits\n\nUse document-level proposition groups and quoted factual support verified against retrieved source text. Accept alternate quotations within reviewed substantive source spans and duplicate original/quoted-thread proof when it actually includes the relevant proposition. Do not accept a title, banner, sender role or empty attachment as proof of legal purpose. There is no model entailment judge; deterministic proof checks approximate only the bounded reviewed propositions. Unreviewed equivalent proof must be surfaced for future oracle expansion, not represented as legal wrongness. Independent reviewer status remains pending until another agent checks these findings and adversarial tests.\n",
+  "sources": [
+    {
+      "document_id": "EMAIL-012",
+      "path": "data/emails/Custodians/John_Ellery/EMAIL-012_Privileged _ Coastal Solar program risk assessment.eml",
+      "sha256": "9c33f803cbeaa6e93b96bf63c764d48bd308a5f4831f4101d2861a6e5607a7be",
+      "headers": {
+        "Date": "Tue, 04 Oct 2022 16:05:00 -0700",
+        "From": "John Ellery <jellery@cascadetimber.com>",
+        "To": "Elena Marlowe <emarlowe@cascadetimber.com>",
+        "Cc": "",
+        "Subject": "Privileged — Coastal Solar program risk assessment"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Elena, per your request, this memo and my analysis of the Coastal Solar program's regulatory exposure are provided as legal advice and are privileged. Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "John Ellery"
+        },
+        {
+          "line": 6,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 7,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 8,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 9,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 12,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 13,
+          "text": "sender immediately and delete all copies."
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "Privileged_Coastal_Solar_Risk_Assessment.pdf",
+          "mime_part_index": 4,
+          "sha256": "73a2126a495d5942e51217e21b273e1b4feb76f2819cc138350c2d50632ae662",
+          "extraction_status": "extracted",
+          "pages": [
+            {
+              "page": 1,
+              "text": "PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK\n PRODUCT\nMEMORANDUM\nTO:  Elena Marlowe, Chief Executive Officer\nFROM:  John Ellery, Head of Legal\nDATE:  October 4, 2022\nRE:  Coastal Solar Credit Program — Regulatory Exposure Assessment\nI. Background\nAt your request, this memorandum summarizes the current regulatory exposure of the Coastal Solar\nCredit Program based on our review to date. This analysis is provided as legal advice and is protected\nby the attorney-client privilege and/or attorney work product doctrine.\nII. Land Eligibility Documentation\nOur review of conservation easement filings for a subset of parcels submitted with Coastal Solar credit\napplications identified acreage figures that do not reconcile with the corresponding county filings. This\nissue was first flagged internally by Alder Point personnel in March 2022 and has not, to our\nknowledge, been resolved.\nIII. Broker Licensing Status\nBellhaven Advisory’s broker registration renewal in Oregon and Washington remains unresolved.\nBellhaven has represented that marketing in those states should pause until renewal clears; our\nunderstanding is that marketing has continued.\nIV. Regulatory Risk\nContinued marketing and credit placement activity while these two issues remain open increases the\nrisk of regulatory scrutiny, including potential exposure under state broker licensing statutes and federal\ntax credit eligibility rules.\nV. Recommendation\nWe recommend pausing new Coastal Solar placements until (1) land eligibility documentation is\nreconciled against county records, and (2) Bellhaven’s broker registration status in all active states is\nconfirmed current.\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "EMAIL-021",
+      "path": "data/emails/Custodians/John_Ellery/EMAIL-021_Engagement _ Coastal Solar internal review.eml",
+      "sha256": "d4172485ef40d3acf7420e20467ac92a1fc1fb92fdd18e7d742494fcf04bdc2d",
+      "headers": {
+        "Date": "Fri, 24 Feb 2023 15:40:00 -0800",
+        "From": "John Ellery <jellery@cascadetimber.com>",
+        "To": "Grace Lin <glin@llassociates.com>",
+        "Cc": "Elena Marlowe <emarlowe@cascadetimber.com>",
+        "Subject": "Engagement — Coastal Solar internal review"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Grace, following up on our call. Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week. Please treat all related communications as privileged."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "John Ellery"
+        },
+        {
+          "line": 6,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 7,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 8,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 9,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 12,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 13,
+          "text": "sender immediately and delete all copies."
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "LL_Associates_Engagement_Letter.pdf",
+          "mime_part_index": 4,
+          "sha256": "235de50fbc43c2d2d26574ff747126c18e9f1c59b359aea341a91be6f474d41e",
+          "extraction_status": "extracted",
+          "pages": [
+            {
+              "page": 1,
+              "text": "PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK\n PRODUCT\nL&L ASSOCIATES\nOutside Counsel — Attorneys at Law\nFebruary 24, 2023\nVIA EMAIL\nJohn Ellery, Head of Legal, Cascade Timber Holdings\nRe: Engagement — Internal Review of Coastal Solar Credit Program\nDear John:\nThis letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber\nHoldings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023.\nAll communications, work product, and materials generated in connection with this engagement are\nintended to be, and should be treated as, protected by the attorney-client privilege and/or attorney work\nproduct doctrine. Please direct all custodian and document collection questions to my attention.\nWe look forward to assisting CTH with this matter.\nSincerely,\nGrace Lin, Partner — L&L Associates\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "EMAIL-071",
+      "path": "data/emails/Custodians/Robert_Denniston/EMAIL-071_Q3 financial impact _ Coastal Solar pause.eml",
+      "sha256": "5903b51e57c9aad16f87db1d1512f1c61b30ba49f5558d6180c8b6c6a0bf16ce",
+      "headers": {
+        "Date": "Mon, 10 Jul 2023 14:00:00 -0700",
+        "From": "Craig Sato <csato@cascadetimber.com>",
+        "To": "Robert Denniston <rdenniston@cascadetimber.com>",
+        "Cc": "",
+        "Subject": "Q3 financial impact — Coastal Solar pause"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "Rob, attached is the Q3 impact model reflecting the Coastal Solar pause, plus the incremental L&L review cost. Let me know if you want me to walk through it before the board session."
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 4,
+          "text": "Controller"
+        },
+        {
+          "line": 5,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 6,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 7,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 10,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 11,
+          "text": "sender immediately and delete all copies."
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "Q3_Financial_Impact_Coastal_Solar_Pause.xlsx",
+          "mime_part_index": 2,
+          "sha256": "f9630a74a8a11ebe59c444c81670338352009dbe83e6fceb143997b6d8130985",
+          "extraction_status": "extracted",
+          "sheets": {
+            "Q3 Impact": [
+              {
+                "row": 1,
+                "cells": [
+                  "Line Item",
+                  "Q3 Budget",
+                  "Q3 Revised (Pause)",
+                  "Variance"
+                ]
+              },
+              {
+                "row": 2,
+                "cells": [
+                  "Coastal Solar credit revenue",
+                  "$2,400,000",
+                  "$0",
+                  "-$2,400,000"
+                ]
+              },
+              {
+                "row": 3,
+                "cells": [
+                  "Broker placement fees (payable)",
+                  "$180,000",
+                  "$0",
+                  "-$180,000"
+                ]
+              },
+              {
+                "row": 4,
+                "cells": [
+                  "L&L Associates — review costs",
+                  "$0",
+                  "$65,000",
+                  "+$65,000"
+                ]
+              },
+              {
+                "row": 5,
+                "cells": [
+                  "Net Q3 impact",
+                  null,
+                  null,
+                  "-$2,515,000"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "EMAIL-137",
+      "path": "data/emails/Custodians/Grace_Lin/EMAIL-137_Engagement _ forensic accounting support for counsel.eml",
+      "sha256": "fefa62a0f3a573508a98520320c50e51a8dde07165393787cfdf252960a68ad6",
+      "headers": {
+        "Date": "Thu, 27 Jul 2023 10:30:00 -0700",
+        "From": "Grace Lin <glin@llassociates.com>",
+        "To": "Dana Whitaker <dwhitaker@whitakerforensic.com>",
+        "Cc": "",
+        "Subject": "Engagement — forensic accounting support for counsel"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Ms. Whitaker — following our call, L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation. The engagement letter is attached — note that you would be retained by and report to this firm, all work is performed at the direction of counsel, and all communications and deliverables are privileged and confidential. Please countersign and return."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "Grace Lin"
+        },
+        {
+          "line": 6,
+          "text": "Partner | L&L Associates LLP"
+        },
+        {
+          "line": 7,
+          "text": "510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 8,
+          "text": "Direct: (415) 555-0121 | glin@llassociates.com"
+        },
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": "PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 11,
+          "text": "may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 12,
+          "text": "disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 13,
+          "text": "recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 14,
+          "text": "sender and destroy all copies."
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "Kovel_Engagement_Whitaker_Forensic.pdf",
+          "mime_part_index": 2,
+          "sha256": "d00ffc4337f410cb4f29b4ab2d642c51f19f63babc6ebd6a6e45a1515ac73953",
+          "extraction_status": "extracted",
+          "pages": [
+            {
+              "page": 1,
+              "text": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK PRODUCT\nL&L ASSOCIATES\nOutside Counsel - Attorneys at Law\nJuly 27, 2023\nVIA EMAIL\nDana Whitaker, CPA/CFF\nPrincipal\nWhitaker Forensic Accounting\nRe: Engagement of Whitaker Forensic Accounting - Assistance to Counsel (Kovel)\nDear Ms. Whitaker:\nThis letter confirms the engagement of Whitaker Forensic Accounting (\"you\" or \"the Firm\") by L&L Associates (\"we\" or\n\"outside counsel\") to assist us in rendering legal advice to our client, Cascade Timber Holdings, in connection with the\ninternal review of the Coastal Solar Credit Program and related litigation that we reasonably anticipate.\nYou will perform forensic accounting analysis of parcel payment records, credit sale proceeds, and related\ndisbursements identified by counsel. Your work will be performed solely at our direction and for the purpose of enabling\nus to provide legal advice to our client; you will not provide accounting, audit, or tax services to Cascade Timber\nHoldings directly.\nAll communications between you and this Firm, and all work papers, analyses, and deliverables prepared in connection\nwith this engagement, are confidential and are intended to be protected by the attorney-client privilege and the work\nproduct doctrine, consistent with the principles of United States v. Kovel. You will deliver all work product exclusively to\nthis Firm, will mark all deliverables 'Privileged & Confidential - Prepared at the Direction of Counsel,' and will not\ncommunicate regarding this engagement with any third party, including the client, without our prior instruction.\nFees will be billed to and paid by this Firm per the attached rate schedule. Please countersign and return this letter to\nconfirm.\nSincerely,\nGrace Lin\nPartner, L&L Associates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "EMAIL-138",
+      "path": "data/emails/Custodians/Grace_Lin/EMAIL-138_RE_ Engagement _ forensic accounting support for counsel.eml",
+      "sha256": "64eac9508a919668ddff29947eb27cefba79b3363ec9b3a445d2dfd61fd172fe",
+      "headers": {
+        "Date": "Fri, 28 Jul 2023 09:15:00 -0700",
+        "From": "Dana Whitaker <dwhitaker@whitakerforensic.com>",
+        "To": "Grace Lin <glin@llassociates.com>",
+        "Cc": "",
+        "Subject": "RE: Engagement — forensic accounting support for counsel"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "Grace — thank you; the countersigned letter is on its way back via DocuSign. Understood on structure: we report only to L&L, and all deliverables will be marked as directed. To start, please have your team transmit: (1) the parcel payment ledger for the Northwest batches, (2) the credit sale proceeds schedule, and (3) any landowner consulting or option agreements. We'll begin on receipt."
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Dana Whitaker, CPA/CFF"
+        },
+        {
+          "line": 4,
+          "text": "Principal | Whitaker Forensic Accounting"
+        },
+        {
+          "line": 5,
+          "text": "dwhitaker@whitakerforensic.com"
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "On Thu, Jul 27, 2023 at 10:30 AM Grace Lin <glin@llassociates.com> wrote:"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "> *** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 10,
+          "text": ">"
+        },
+        {
+          "line": 11,
+          "text": "> Ms. Whitaker — following our call, L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation. The engagement letter is attached — note that you would be retained by and report to this firm, all work is performed at the direction of counsel, and all communications and deliverables are privileged and confidential. Please countersign and return."
+        },
+        {
+          "line": 12,
+          "text": ">"
+        },
+        {
+          "line": 13,
+          "text": "> Grace Lin"
+        },
+        {
+          "line": 14,
+          "text": "> Partner | L&L Associates LLP"
+        },
+        {
+          "line": 15,
+          "text": "> 510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 16,
+          "text": "> Direct: (415) 555-0121 | glin@llassociates.com"
+        },
+        {
+          "line": 17,
+          "text": ">"
+        },
+        {
+          "line": 18,
+          "text": "> PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 19,
+          "text": "> may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 20,
+          "text": "> disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 21,
+          "text": "> recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 22,
+          "text": "> sender and destroy all copies."
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "document_id": "EMAIL-140",
+      "path": "data/emails/Custodians/Grace_Lin/EMAIL-140_Preliminary findings _ parcel payment tracing.eml",
+      "sha256": "2b6d75c8acc4a62c506acf45e242f434002df7784be2cb380e063c280a199dcc",
+      "headers": {
+        "Date": "Mon, 14 Aug 2023 16:45:00 -0700",
+        "From": "Dana Whitaker <dwhitaker@whitakerforensic.com>",
+        "To": "Grace Lin <glin@llassociates.com>",
+        "Cc": "Alan Brooks <abrooks@llassociates.com>",
+        "Subject": "Preliminary findings — parcel payment tracing"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "Grace — preliminary findings attached. Summary: payments on 4 of the 8 Northwest parcels were calculated on acreage figures that do not match the county easement records; total overstatement across those four is roughly 181 acres, or about $512K in credit value at the rates paid. We also found two option payments to Clearwater Land LLC that post-date the credit applications, which is unusual sequencing. Detailed schedule attached. Prepared at the direction of counsel per our engagement."
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Dana Whitaker, CPA/CFF"
+        },
+        {
+          "line": 4,
+          "text": "Principal | Whitaker Forensic Accounting"
+        },
+        {
+          "line": 5,
+          "text": "dwhitaker@whitakerforensic.com"
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "On Mon, Aug 7, 2023 at 11:00 AM Alan Brooks <abrooks@llassociates.com> wrote:"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "> *** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 10,
+          "text": ">"
+        },
+        {
+          "line": 11,
+          "text": "> Dana — transmitting the records you requested under the engagement: the Northwest parcel payment ledger (2021-2022), the credit sale proceeds schedule, and the landowner option agreements. These materials are provided to you as an agent of counsel for the purpose of assisting L&L in rendering legal advice; please treat them as privileged and confidential and direct any questions to me or Grace."
+        },
+        {
+          "line": 12,
+          "text": ">"
+        },
+        {
+          "line": 13,
+          "text": "> Alan Brooks"
+        },
+        {
+          "line": 14,
+          "text": "> Paralegal | L&L Associates LLP"
+        },
+        {
+          "line": 15,
+          "text": "> 510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 16,
+          "text": "> Direct: (415) 555-0123 | abrooks@llassociates.com"
+        },
+        {
+          "line": 17,
+          "text": ">"
+        },
+        {
+          "line": 18,
+          "text": "> PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 19,
+          "text": "> may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 20,
+          "text": "> disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 21,
+          "text": "> recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 22,
+          "text": "> sender and destroy all copies."
+        },
+        {
+          "line": 23,
+          "text": ">"
+        },
+        {
+          "line": 24,
+          "text": "> -----Original Message-----"
+        },
+        {
+          "line": 25,
+          "text": "> From: Dana Whitaker <dwhitaker@whitakerforensic.com>"
+        },
+        {
+          "line": 26,
+          "text": "> Sent: Friday, July 28, 2023 9:15 AM"
+        },
+        {
+          "line": 27,
+          "text": "> To: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 28,
+          "text": "> Subject: RE: Engagement — forensic accounting support for counsel"
+        },
+        {
+          "line": 29,
+          "text": ">"
+        },
+        {
+          "line": 30,
+          "text": "> Grace — thank you; the countersigned letter is on its way back via DocuSign. Understood on structure: we report only to L&L, and all deliverables will be marked as directed. To start, please have your team transmit: (1) the parcel payment ledger for the Northwest batches, (2) the credit sale proceeds schedule, and (3) any landowner consulting or option agreements. We'll begin on receipt."
+        },
+        {
+          "line": 31,
+          "text": ">"
+        },
+        {
+          "line": 32,
+          "text": "> Dana Whitaker, CPA/CFF"
+        },
+        {
+          "line": 33,
+          "text": "> Principal | Whitaker Forensic Accounting"
+        },
+        {
+          "line": 34,
+          "text": "> dwhitaker@whitakerforensic.com"
+        },
+        {
+          "line": 35,
+          "text": ">"
+        },
+        {
+          "line": 36,
+          "text": "> On Thu, Jul 27, 2023 at 10:30 AM Grace Lin <glin@llassociates.com> wrote:"
+        },
+        {
+          "line": 37,
+          "text": ">"
+        },
+        {
+          "line": 38,
+          "text": "> > *** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 39,
+          "text": "> >"
+        },
+        {
+          "line": 40,
+          "text": "> > Ms. Whitaker — following our call, L&L Associates would like to formally engage Whitaker Forensic Accounting to assist our firm in analyzing the parcel payment records at issue in the whistleblower allegations, so that we can provide legal advice to our client in anticipation of litigation. The engagement letter is attached — note that you would be retained by and report to this firm, all work is performed at the direction of counsel, and all communications and deliverables are privileged and confidential. Please countersign and return."
+        },
+        {
+          "line": 41,
+          "text": "> >"
+        },
+        {
+          "line": 42,
+          "text": "> > Grace Lin"
+        },
+        {
+          "line": 43,
+          "text": "> > Partner | L&L Associates LLP"
+        },
+        {
+          "line": 44,
+          "text": "> > 510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 45,
+          "text": "> > Direct: (415) 555-0121 | glin@llassociates.com"
+        },
+        {
+          "line": 46,
+          "text": "> >"
+        },
+        {
+          "line": 47,
+          "text": "> > PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 48,
+          "text": "> > may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 49,
+          "text": "> > disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 50,
+          "text": "> > recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 51,
+          "text": "> > sender and destroy all copies."
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "Whitaker_Parcel_Payment_Analysis.xlsx",
+          "mime_part_index": 2,
+          "sha256": "787ca451405daf276baebcd9815d99e454fb439342ded0c000fe8fa8d3ad356e",
+          "extraction_status": "extracted",
+          "sheets": {
+            "Parcel Payment Analysis": [
+              {
+                "row": 1,
+                "cells": [
+                  "PRIVILEGED & CONFIDENTIAL - PREPARED AT THE DIRECTION OF COUNSEL - DRAFT",
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              },
+              {
+                "row": 2,
+                "cells": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              },
+              {
+                "row": 3,
+                "cells": [
+                  "Parcel ID",
+                  "County",
+                  "Acreage (credit filing)",
+                  "Acreage (county record)",
+                  "Variance (ac)",
+                  "Payment Date",
+                  "Payment Amount (USD)",
+                  "Payee",
+                  "Flag"
+                ]
+              },
+              {
+                "row": 4,
+                "cells": [
+                  "NW-2021-014",
+                  "Klamath, OR",
+                  412,
+                  388,
+                  24,
+                  "2022-02-14",
+                  185000,
+                  "Clearwater Land LLC",
+                  "Acreage variance"
+                ]
+              },
+              {
+                "row": 5,
+                "cells": [
+                  "NW-2021-015",
+                  "Klamath, OR",
+                  356,
+                  301,
+                  55,
+                  "2022-02-14",
+                  142500,
+                  "Clearwater Land LLC",
+                  "Acreage variance"
+                ]
+              },
+              {
+                "row": 6,
+                "cells": [
+                  "NW-2021-018",
+                  "Douglas, OR",
+                  228,
+                  226,
+                  2,
+                  "2022-03-03",
+                  96000,
+                  "J. Marlowe Trust",
+                  null
+                ]
+              },
+              {
+                "row": 7,
+                "cells": [
+                  "NW-2021-022",
+                  "Lane, OR",
+                  501,
+                  447,
+                  54,
+                  "2022-03-21",
+                  210000,
+                  "Ridgeline Holdings",
+                  "Acreage variance"
+                ]
+              },
+              {
+                "row": 8,
+                "cells": [
+                  "NW-2021-025",
+                  "Lane, OR",
+                  175,
+                  173,
+                  2,
+                  "2022-04-02",
+                  74000,
+                  "Ridgeline Holdings",
+                  null
+                ]
+              },
+              {
+                "row": 9,
+                "cells": [
+                  "NW-2021-029",
+                  "Yakima, WA",
+                  640,
+                  592,
+                  48,
+                  "2022-04-19",
+                  268000,
+                  "PNW Conservation Co.",
+                  "Acreage variance"
+                ]
+              },
+              {
+                "row": 10,
+                "cells": [
+                  "NW-2021-031",
+                  "Yakima, WA",
+                  289,
+                  287,
+                  2,
+                  "2022-05-06",
+                  118000,
+                  "PNW Conservation Co.",
+                  null
+                ]
+              },
+              {
+                "row": 11,
+                "cells": [
+                  "NW-2021-034",
+                  "Klamath, OR",
+                  333,
+                  279,
+                  54,
+                  "2022-05-20",
+                  139000,
+                  "Clearwater Land LLC",
+                  "Acreage variance"
+                ]
+              },
+              {
+                "row": 12,
+                "cells": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              },
+              {
+                "row": 13,
+                "cells": [
+                  "Note: Variances computed against county easement filings as of record date. Four of eight parcels show variances materially above survey tolerance. Analysis prepared for counsel's use in rendering legal advice.",
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "EMAIL-141",
+      "path": "data/emails/Custodians/John_Ellery/EMAIL-141_Forensic accountant findings _ privileged summary.eml",
+      "sha256": "4437f0cb692280df2f6065eee6c88550a29f336ed42d847dd0a161a7b67f6a0e",
+      "headers": {
+        "Date": "Wed, 16 Aug 2023 09:30:00 -0700",
+        "From": "Grace Lin <glin@llassociates.com>",
+        "To": "John Ellery <jellery@cascadetimber.com>",
+        "Cc": "",
+        "Subject": "Forensic accountant findings — privileged summary"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "John — summary of Whitaker's preliminary findings. As a reminder, Whitaker is retained by L&L to assist with our legal advice, so their work is protected under Kovel. The four-parcel overstatement is consistent with the survey data and the Cole interview. The post-application option payments are new and may cut against us on intent. Recommended next step: a privileged briefing for you and Elena before any decision on how to characterize this in the examination response."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "Grace Lin"
+        },
+        {
+          "line": 6,
+          "text": "Partner | L&L Associates LLP"
+        },
+        {
+          "line": 7,
+          "text": "510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 8,
+          "text": "Direct: (415) 555-0121 | glin@llassociates.com"
+        },
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": "PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 11,
+          "text": "may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 12,
+          "text": "disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 13,
+          "text": "recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 14,
+          "text": "sender and destroy all copies."
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "document_id": "EMAIL-145",
+      "path": "data/emails/Custodians/John_Ellery/EMAIL-145_FW_ Q3 provision memo _ final.eml",
+      "sha256": "ed7518fb08d5a53416aba1be4a7cd74d1592111c538df58e74b621d4ca202fae",
+      "headers": {
+        "Date": "Tue, 22 Aug 2023 16:10:00 -0700",
+        "From": "Craig Sato <csato@cascadetimber.com>",
+        "To": "John Ellery <jellery@cascadetimber.com>",
+        "Cc": "",
+        "Subject": "FW: Q3 provision memo — final"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "FYI —"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 4,
+          "text": "Controller"
+        },
+        {
+          "line": 5,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 6,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 7,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 10,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 11,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 14,
+          "text": "From: Owen Larsen <olarsen@larsentaxadvisory.com>"
+        },
+        {
+          "line": 15,
+          "text": "Sent: Tuesday, August 22, 2023 10:45 AM"
+        },
+        {
+          "line": 16,
+          "text": "To: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 17,
+          "text": "Subject: Q3 provision memo — final"
+        },
+        {
+          "line": 18,
+          "text": ""
+        },
+        {
+          "line": 19,
+          "text": "Craig — final provision memo attached. Highlights: deferred revenue treatment as proposed is fine, and we're not recommending a contingency reserve at this stage given where the examination stands. Page 3 has the disclosure language for the Q3 pack. Thanks as always."
+        },
+        {
+          "line": 20,
+          "text": ""
+        },
+        {
+          "line": 21,
+          "text": "Owen Larsen"
+        },
+        {
+          "line": 22,
+          "text": "Principal | Larsen Tax Advisory"
+        },
+        {
+          "line": 23,
+          "text": "olarsen@larsentaxadvisory.com"
+        },
+        {
+          "line": 24,
+          "text": ""
+        },
+        {
+          "line": 25,
+          "text": "On Tue, Aug 1, 2023 at 2:30 PM Owen Larsen <olarsen@larsentaxadvisory.com> wrote:"
+        },
+        {
+          "line": 26,
+          "text": ""
+        },
+        {
+          "line": 27,
+          "text": "> Craig — happy to help. Same arrangement as prior quarters works: fixed fee of $18,500, deliverable by the 18th. I'll send the standard engagement confirmation over today. Anything unusual this quarter beyond the pause?"
+        },
+        {
+          "line": 28,
+          "text": ">"
+        },
+        {
+          "line": 29,
+          "text": "> Owen Larsen"
+        },
+        {
+          "line": 30,
+          "text": "> Principal | Larsen Tax Advisory"
+        },
+        {
+          "line": 31,
+          "text": "> olarsen@larsentaxadvisory.com"
+        },
+        {
+          "line": 32,
+          "text": ">"
+        },
+        {
+          "line": 33,
+          "text": "> On Tue, Aug 1, 2023 at 9:00 AM Craig Sato <csato@cascadetimber.com> wrote:"
+        },
+        {
+          "line": 34,
+          "text": ">"
+        },
+        {
+          "line": 35,
+          "text": "> > Owen — Q3 close is coming up and I'd like to retain Larsen for the usual provision support: deferred revenue treatment on the paused credit placements and the contingency disclosure language. Same scope as last year, deliverable by August 18. Can you confirm availability and fees?"
+        },
+        {
+          "line": 36,
+          "text": "> >"
+        },
+        {
+          "line": 37,
+          "text": "> > Craig Sato"
+        },
+        {
+          "line": 38,
+          "text": "> > Controller"
+        },
+        {
+          "line": 39,
+          "text": "> > Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 40,
+          "text": "> > 1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 41,
+          "text": "> > (503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 42,
+          "text": "> >"
+        },
+        {
+          "line": 43,
+          "text": "> > This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 44,
+          "text": "> > legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 45,
+          "text": "> > sender immediately and delete all copies."
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "document_id": "EMAIL-151",
+      "path": "data/emails/Custodians/John_Ellery/EMAIL-151_FW_ Placement timeline _ checking in.eml",
+      "sha256": "cf4b459b079d0006ef9ed83f2db34451c65c030b124d1a8b44d5a9618a63f399",
+      "headers": {
+        "Date": "Wed, 09 Aug 2023 11:45:00 -0700",
+        "From": "Priya Shah <pshah@alderpointpartners.com>",
+        "To": "John Ellery <jellery@cascadetimber.com>",
+        "Cc": "",
+        "Subject": "FW: Placement timeline — checking in"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "Priya Shah"
+        },
+        {
+          "line": 2,
+          "text": "VP Business Development | Alder Point Partners"
+        },
+        {
+          "line": 3,
+          "text": "pshah@alderpointpartners.com"
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "---------- Forwarded message ----------"
+        },
+        {
+          "line": 6,
+          "text": "From: Renee Ford <rford@bellhavenadvisory.com>"
+        },
+        {
+          "line": 7,
+          "text": "Date: Wed, Aug 9, 2023 at 10:00 AM"
+        },
+        {
+          "line": 8,
+          "text": "Subject: Placement timeline — checking in"
+        },
+        {
+          "line": 9,
+          "text": "To: Priya Shah <pshah@alderpointpartners.com>"
+        },
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "Priya — any word on when placements might resume? Our brokers are holding several interested buyers and I'd like to give them something concrete. Even a rough quarter would help."
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "Renee Ford"
+        },
+        {
+          "line": 14,
+          "text": "Compliance Officer | Bellhaven Advisory"
+        },
+        {
+          "line": 15,
+          "text": "rford@bellhavenadvisory.com"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "document_id": "EMAIL-529",
+      "path": "data/emails/Custodians/Grace_Lin/EMAIL-529_Wire_tracing_analysis_fee_payments_counsel_directed.eml",
+      "sha256": "38b0ebf68edacc2246bb444bd0dd514d1671ff87f9493a0672f8f3cbc7782609",
+      "headers": {
+        "Date": "Sun, 10 Sep 2023 10:10:00 -0700",
+        "From": "Dana Whitaker <dwhitaker@whitakerforensic.com>",
+        "To": "Grace Lin <glin@llassociates.com>",
+        "Cc": "",
+        "Subject": "Wire tracing analysis — fee payments (counsel-directed)"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "Grace — as you asked, I've started tracing the fee wires. The attached is the client's booking template; the columns are blank, which is how it came to us, so I'm working from the bank statements rather than the booking note. So far the Bellhaven and Alder fees appear to have been paid from cash proceeds lot by lot, consistent with how finance describes the treatment. I'll have a schedule matching each fee wire to a settlement next week. Prepared at your direction."
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Dana Whitaker, CPA/CFF"
+        },
+        {
+          "line": 4,
+          "text": "Principal | Whitaker Forensic Accounting"
+        },
+        {
+          "line": 5,
+          "text": "dwhitaker@whitakerforensic.com"
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "booking_note.csv",
+          "mime_part_index": 6,
+          "sha256": "e8dcd6edd5e9fdb44da2234ae434502bf7dc2c90a2879b4f83ea8f19cd887f25",
+          "extraction_status": "extracted",
+          "text": "batch,face_value,cash_received,fees_expensed\nNW-batch,,,\n"
+        }
+      ]
+    },
+    {
+      "document_id": "EMAIL-1472",
+      "path": "data/emails/Custodians/Robert_Denniston/EMAIL-1472_RE_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "sha256": "25dd2f14aa2e22065a318866041a0ad84e1316caf3fc659cedb873628bb50169",
+      "headers": {
+        "Date": "Wed, 07 Jun 2023 08:50:00 -0700",
+        "From": "Robert Denniston <rdenniston@cascadetimber.com>",
+        "To": "John Ellery <jellery@cascadetimber.com>",
+        "Cc": "Craig Sato <csato@cascadetimber.com>",
+        "Subject": "RE: Exposure workbook — structure per call (prepared at request of counsel)"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "John — separate issue off Craig's note. Brenda Moss called Friday. Moss & Lane want the Q2 interim support next week, and she asked directly whether we have a \"contingency view\" on the subpoena. What am I allowed to give her? I don't want to look like we're sitting on a number, but I also don't want Craig's workbook ending up in their files."
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 4,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 5,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 6,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 7,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 10,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 11,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 14,
+          "text": "From: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 15,
+          "text": "Sent: Wednesday, May 31, 2023 4:55 PM"
+        },
+        {
+          "line": 16,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 17,
+          "text": "Cc: Grace Lin <glin@llassociates.com>; Mia Chen <mchen@llassociates.com>; Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 18,
+          "text": "Subject: Exposure workbook — structure per call (prepared at request of counsel)"
+        },
+        {
+          "line": 19,
+          "text": ""
+        },
+        {
+          "line": 20,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 21,
+          "text": ""
+        },
+        {
+          "line": 22,
+          "text": "John — prepared at your request, following yesterday's call. The workbook is attached in two tabs."
+        },
+        {
+          "line": 23,
+          "text": ""
+        },
+        {
+          "line": 24,
+          "text": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+        },
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs. Per Grace, I haven't populated it and I haven't pulled acreage from the 2022 survey material."
+        },
+        {
+          "line": 27,
+          "text": ""
+        },
+        {
+          "line": 28,
+          "text": "Neither tab includes penalties or interest. The file is on the finance share in a restricted legal folder, separate from the close folder. Rob, I've taken last week's schedule out of the board working folder."
+        },
+        {
+          "line": 29,
+          "text": ""
+        },
+        {
+          "line": 30,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 31,
+          "text": "Controller"
+        },
+        {
+          "line": 32,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 33,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 34,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 35,
+          "text": ""
+        },
+        {
+          "line": 36,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 37,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 38,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 39,
+          "text": ""
+        },
+        {
+          "line": 40,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 41,
+          "text": "From: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 42,
+          "text": "Sent: Tuesday, May 30, 2023 8:20 AM"
+        },
+        {
+          "line": 43,
+          "text": "To: Mia Chen <mchen@llassociates.com>; John Ellery <jellery@cascadetimber.com>; Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 44,
+          "text": "Cc: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 45,
+          "text": "Subject: RE: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 46,
+          "text": ""
+        },
+        {
+          "line": 47,
+          "text": "Tuesday at 2 works for me, and Rob confirmed on his end this morning. I'll send John the four face builds by noon."
+        },
+        {
+          "line": 48,
+          "text": ""
+        },
+        {
+          "line": 49,
+          "text": "One flag before the call: a couple of the county sheets behind the builds were scanned badly and I've marked those inputs as provisional. They affect how the parcels are documented, not the face totals."
+        },
+        {
+          "line": 50,
+          "text": ""
+        },
+        {
+          "line": 51,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 52,
+          "text": "Controller"
+        },
+        {
+          "line": 53,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 54,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 55,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 56,
+          "text": ""
+        },
+        {
+          "line": 57,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 58,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 59,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 60,
+          "text": ""
+        },
+        {
+          "line": 61,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 62,
+          "text": "From: Mia Chen <mchen@llassociates.com>"
+        },
+        {
+          "line": 63,
+          "text": "Sent: Friday, May 26, 2023 4:45 PM"
+        },
+        {
+          "line": 64,
+          "text": "To: John Ellery <jellery@cascadetimber.com>; Robert Denniston <rdenniston@cascadetimber.com>; Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 65,
+          "text": "Cc: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 66,
+          "text": "Subject: RE: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 67,
+          "text": ""
+        },
+        {
+          "line": 68,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 69,
+          "text": ""
+        },
+        {
+          "line": 70,
+          "text": "John, Rob, Craig — following up on Grace's note below, I've added Rob and Craig so we can get the model structure set up. Could we do 45 minutes on either Tuesday 5/30 at 2:00 PT or Wednesday 5/31 at 10:00 PT? Grace will join for the first half."
+        },
+        {
+          "line": 71,
+          "text": ""
+        },
+        {
+          "line": 72,
+          "text": "Craig, if you could send the credit face builds for NW-03, NW-04, NW-06 and NW-07 to John ahead of the call, that would help. Please keep this group as is and don't forward it further."
+        },
+        {
+          "line": 73,
+          "text": ""
+        },
+        {
+          "line": 74,
+          "text": "Mia Chen"
+        },
+        {
+          "line": 75,
+          "text": "Associate | L&L Associates LLP"
+        },
+        {
+          "line": 76,
+          "text": "510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 77,
+          "text": "Direct: (415) 555-0122 | mchen@llassociates.com"
+        },
+        {
+          "line": 78,
+          "text": ""
+        },
+        {
+          "line": 79,
+          "text": "PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 80,
+          "text": "may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 81,
+          "text": "disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 82,
+          "text": "recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 83,
+          "text": "sender and destroy all copies."
+        },
+        {
+          "line": 84,
+          "text": ""
+        },
+        {
+          "line": 85,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 86,
+          "text": "From: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 87,
+          "text": "Sent: Friday, May 26, 2023 3:20 PM"
+        },
+        {
+          "line": 88,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 89,
+          "text": "Cc: Mia Chen <mchen@llassociates.com>"
+        },
+        {
+          "line": 90,
+          "text": "Subject: RE: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 91,
+          "text": ""
+        },
+        {
+          "line": 92,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 93,
+          "text": ""
+        },
+        {
+          "line": 94,
+          "text": "John — sorry for the delay, I was in a deposition yesterday. Three points."
+        },
+        {
+          "line": 95,
+          "text": ""
+        },
+        {
+          "line": 96,
+          "text": "1. The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+        },
+        {
+          "line": 97,
+          "text": ""
+        },
+        {
+          "line": 98,
+          "text": "2. I wouldn't let finance choose between full-parcel and excess-acreage disallowance. That question depends on documents we don't yet have together in one place: the county filings, the 2022 survey work, the easement records. It could come out either way, and it may not come out the same way for all four parcels."
+        },
+        {
+          "line": 99,
+          "text": ""
+        },
+        {
+          "line": 100,
+          "text": "3. Craig can usefully build the mechanics for both cases now. He shouldn't enter any acreage inputs on the increment side until we give them to him, and nothing from this goes outside the company."
+        },
+        {
+          "line": 101,
+          "text": ""
+        },
+        {
+          "line": 102,
+          "text": "On the board, ceiling plus caveat is right for now. Also, please make sure Craig's drafts, including the version Rob forwarded to you, are kept intact when we issue the hold. Mia will set up a call."
+        },
+        {
+          "line": 103,
+          "text": ""
+        },
+        {
+          "line": 104,
+          "text": "Grace Lin"
+        },
+        {
+          "line": 105,
+          "text": "Partner | L&L Associates LLP"
+        },
+        {
+          "line": 106,
+          "text": "510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 107,
+          "text": "Direct: (415) 555-0121 | glin@llassociates.com"
+        },
+        {
+          "line": 108,
+          "text": ""
+        },
+        {
+          "line": 109,
+          "text": "PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 110,
+          "text": "may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 111,
+          "text": "disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 112,
+          "text": "recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 113,
+          "text": "sender and destroy all copies."
+        },
+        {
+          "line": 114,
+          "text": ""
+        },
+        {
+          "line": 115,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 116,
+          "text": "From: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 117,
+          "text": "Sent: Thursday, May 25, 2023 11:40 AM"
+        },
+        {
+          "line": 118,
+          "text": "To: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 119,
+          "text": "Cc: Mia Chen <mchen@llassociates.com>"
+        },
+        {
+          "line": 120,
+          "text": "Subject: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 121,
+          "text": ""
+        },
+        {
+          "line": 122,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 123,
+          "text": ""
+        },
+        {
+          "line": 124,
+          "text": "Grace — see below. Rob gave Elena a back-of-envelope exposure number yesterday. Craig has now tied it to full face on the four Northwest parcels, and it's going to be mentioned on today's board call as an upper bound. I've asked finance to route anything further through me."
+        },
+        {
+          "line": 125,
+          "text": ""
+        },
+        {
+          "line": 126,
+          "text": "Two questions. Should Craig be building anything on the excess-acreage side now, or should that wait for your team's view of the documents? And do you want the board to hear anything beyond the ceiling at this stage?"
+        },
+        {
+          "line": 127,
+          "text": ""
+        },
+        {
+          "line": 128,
+          "text": "John Ellery"
+        },
+        {
+          "line": 129,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 130,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 131,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 132,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 133,
+          "text": ""
+        },
+        {
+          "line": 134,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 135,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 136,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 137,
+          "text": ""
+        },
+        {
+          "line": 138,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 139,
+          "text": "From: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 140,
+          "text": "Sent: Thursday, May 25, 2023 9:25 AM"
+        },
+        {
+          "line": 141,
+          "text": "To: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 142,
+          "text": "Cc: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 143,
+          "text": "Subject: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 144,
+          "text": ""
+        },
+        {
+          "line": 145,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 146,
+          "text": ""
+        },
+        {
+          "line": 147,
+          "text": "Rob, Craig — using the figure verbally on the call is fine, as long as you say it's the upper bound on credit face and not an estimate of what we owe. I'd rather the schedule not go into the board materials in this form. On its face it reads like a number the company has accepted."
+        },
+        {
+          "line": 148,
+          "text": ""
+        },
+        {
+          "line": 149,
+          "text": "The main thing: the ceiling assumes each of the four parcels fails in full. Whether that's how the Service would look at it, or whether only the excess acreage is at issue, is one of the questions L&L is working through. I don't want a finance document that looks like we've answered it either way."
+        },
+        {
+          "line": 150,
+          "text": ""
+        },
+        {
+          "line": 151,
+          "text": "From here on, please send exposure work to me first and mark it as prepared at my request. I'm going to bring Grace in."
+        },
+        {
+          "line": 152,
+          "text": ""
+        },
+        {
+          "line": 153,
+          "text": "John Ellery"
+        },
+        {
+          "line": 154,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 155,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 156,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 157,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 158,
+          "text": ""
+        },
+        {
+          "line": 159,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 160,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 161,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 162,
+          "text": ""
+        },
+        {
+          "line": 163,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 164,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 165,
+          "text": "Sent: Thursday, May 25, 2023 7:40 AM"
+        },
+        {
+          "line": 166,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 167,
+          "text": "Cc: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 168,
+          "text": "Subject: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 169,
+          "text": ""
+        },
+        {
+          "line": 170,
+          "text": "John — Craig's schedule below, for the board call at 11. Craig asked whether to show a ceiling or a range. My instinct is ceiling only and say out loud that it's the worst case. I don't want a low end on paper that nobody can support yet. Can you look before I send anything to Elena?"
+        },
+        {
+          "line": 171,
+          "text": ""
+        },
+        {
+          "line": 172,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 173,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 174,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 175,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 176,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 177,
+          "text": ""
+        },
+        {
+          "line": 178,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 179,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 180,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 181,
+          "text": ""
+        },
+        {
+          "line": 182,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 183,
+          "text": "From: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 184,
+          "text": "Sent: Wednesday, May 24, 2023 6:10 PM"
+        },
+        {
+          "line": 185,
+          "text": "To: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 186,
+          "text": "Subject: RE: FW: RE: IRS subpoena — heads up"
+        },
+        {
+          "line": 187,
+          "text": ""
+        },
+        {
+          "line": 188,
+          "text": "Rob — your number ties, but only one way. The four Northwest parcels that have been in question since last year are NW-03, NW-04, NW-06 and NW-07. Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+        },
+        {
+          "line": 189,
+          "text": ""
+        },
+        {
+          "line": 190,
+          "text": "A few things it doesn't capture:"
+        },
+        {
+          "line": 191,
+          "text": "- It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+        },
+        {
+          "line": 192,
+          "text": "- No penalties or interest."
+        },
+        {
+          "line": 193,
+          "text": "- If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+        },
+        {
+          "line": 194,
+          "text": ""
+        },
+        {
+          "line": 195,
+          "text": "Schedule attached. Do you want me to show it as a ceiling only, or a range with the low end marked TBD?"
+        },
+        {
+          "line": 196,
+          "text": ""
+        },
+        {
+          "line": 197,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 198,
+          "text": "Controller"
+        },
+        {
+          "line": 199,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 200,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 201,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 202,
+          "text": ""
+        },
+        {
+          "line": 203,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 204,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 205,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 206,
+          "text": ""
+        },
+        {
+          "line": 207,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 208,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 209,
+          "text": "Sent: Wednesday, May 24, 2023 3:55 PM"
+        },
+        {
+          "line": 210,
+          "text": "To: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 211,
+          "text": "Subject: FW: RE: IRS subpoena — heads up"
+        },
+        {
+          "line": 212,
+          "text": ""
+        },
+        {
+          "line": 213,
+          "text": "Craig — see below. I gave Elena a number off the top of my head for tomorrow's board call. I need something I can stand behind before 11 tomorrow: one page, which parcels, what the $2.4M is built from. Don't model penalties yet, just tell me what we'd be leaving out."
+        },
+        {
+          "line": 214,
+          "text": ""
+        },
+        {
+          "line": 215,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 216,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 217,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 218,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 219,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 220,
+          "text": ""
+        },
+        {
+          "line": 221,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 222,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 223,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 224,
+          "text": ""
+        },
+        {
+          "line": 225,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 226,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 227,
+          "text": "Sent: Wednesday, May 24, 2023 1:40 PM"
+        },
+        {
+          "line": 228,
+          "text": "To: Elena Marlowe <emarlowe@cascadetimber.com>"
+        },
+        {
+          "line": 229,
+          "text": "Subject: RE: IRS subpoena — heads up"
+        },
+        {
+          "line": 230,
+          "text": ""
+        },
+        {
+          "line": 231,
+          "text": "Elena — back of envelope: about $2.4M in credits tied to the Northwest batches, plus penalties and interest if it goes badly. I'll have Craig tighten the model before Thursday."
+        },
+        {
+          "line": 232,
+          "text": ""
+        },
+        {
+          "line": 233,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 234,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 235,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 236,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 237,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 238,
+          "text": ""
+        },
+        {
+          "line": 239,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 240,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 241,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 242,
+          "text": ""
+        },
+        {
+          "line": 243,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 244,
+          "text": "From: Elena Marlowe <emarlowe@cascadetimber.com>"
+        },
+        {
+          "line": 245,
+          "text": "Sent: Wednesday, May 24, 2023 9:10 AM"
+        },
+        {
+          "line": 246,
+          "text": "To: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 247,
+          "text": "Subject: IRS subpoena — heads up"
+        },
+        {
+          "line": 248,
+          "text": ""
+        },
+        {
+          "line": 249,
+          "text": "Rob — you've seen John's note from yesterday. Between us: the board call is Thursday and I want a crisp read on financial exposure before it. Nothing formal — just your best numbers on what's at stake if the Northwest parcels get disallowed."
+        },
+        {
+          "line": 250,
+          "text": ""
+        },
+        {
+          "line": 251,
+          "text": "Elena Marlowe"
+        },
+        {
+          "line": 252,
+          "text": "Chief Executive Officer"
+        },
+        {
+          "line": 253,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 254,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 255,
+          "text": "(503) 555-0101 | emarlowe@cascadetimber.com"
+        },
+        {
+          "line": 256,
+          "text": ""
+        },
+        {
+          "line": 257,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 258,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 259,
+          "text": "sender immediately and delete all copies."
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "document_id": "EMAIL-1473",
+      "path": "data/emails/Custodians/John_Ellery/EMAIL-1473_RE_Exposure_workbook_structure_per_call_prepared_at_request_of_counsel.eml",
+      "sha256": "51630adabb406d3a906dbd8014140c8831751c02791b0146c16ed303099065ac",
+      "headers": {
+        "Date": "Wed, 07 Jun 2023 11:35:00 -0700",
+        "From": "John Ellery <jellery@cascadetimber.com>",
+        "To": "Robert Denniston <rdenniston@cascadetimber.com>",
+        "Cc": "Craig Sato <csato@cascadetimber.com>, Grace Lin <glin@llassociates.com>",
+        "Subject": "RE: Exposure workbook — structure per call (prepared at request of counsel)"
+      },
+      "body_lines": [
+        {
+          "line": 1,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "Rob — adding Grace. Don't send Moss & Lane the workbook or anything from this chain. Sharing counsel's analysis with the auditors creates a waiver problem we don't need."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "What you can tell Brenda: we've received a subpoena, we're responding with outside counsel, the assessment is ongoing, and management hasn't adopted an estimate. The Q2 support should be the ordinary close support and nothing else. If she needs more than that, Grace and I will talk to her directly and handle any auditor inquiry letter through the normal process."
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "Grace, flag it if you'd put that differently."
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "John Ellery"
+        },
+        {
+          "line": 10,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 11,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 12,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 13,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 14,
+          "text": ""
+        },
+        {
+          "line": 15,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 16,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 17,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 18,
+          "text": ""
+        },
+        {
+          "line": 19,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 20,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 21,
+          "text": "Sent: Wednesday, June 7, 2023 8:50 AM"
+        },
+        {
+          "line": 22,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 23,
+          "text": "Cc: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 24,
+          "text": "Subject: RE: Exposure workbook — structure per call (prepared at request of counsel)"
+        },
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "John — separate issue off Craig's note. Brenda Moss called Friday. Moss & Lane want the Q2 interim support next week, and she asked directly whether we have a \"contingency view\" on the subpoena. What am I allowed to give her? I don't want to look like we're sitting on a number, but I also don't want Craig's workbook ending up in their files."
+        },
+        {
+          "line": 27,
+          "text": ""
+        },
+        {
+          "line": 28,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 29,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 30,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 31,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 32,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 33,
+          "text": ""
+        },
+        {
+          "line": 34,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 35,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 36,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 37,
+          "text": ""
+        },
+        {
+          "line": 38,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 39,
+          "text": "From: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 40,
+          "text": "Sent: Wednesday, May 31, 2023 4:55 PM"
+        },
+        {
+          "line": 41,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 42,
+          "text": "Cc: Grace Lin <glin@llassociates.com>; Mia Chen <mchen@llassociates.com>; Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 43,
+          "text": "Subject: Exposure workbook — structure per call (prepared at request of counsel)"
+        },
+        {
+          "line": 44,
+          "text": ""
+        },
+        {
+          "line": 45,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 46,
+          "text": ""
+        },
+        {
+          "line": 47,
+          "text": "John — prepared at your request, following yesterday's call. The workbook is attached in two tabs."
+        },
+        {
+          "line": 48,
+          "text": ""
+        },
+        {
+          "line": 49,
+          "text": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total. It's the same figure as last week's schedule."
+        },
+        {
+          "line": 50,
+          "text": ""
+        },
+        {
+          "line": 51,
+          "text": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs. Per Grace, I haven't populated it and I haven't pulled acreage from the 2022 survey material."
+        },
+        {
+          "line": 52,
+          "text": ""
+        },
+        {
+          "line": 53,
+          "text": "Neither tab includes penalties or interest. The file is on the finance share in a restricted legal folder, separate from the close folder. Rob, I've taken last week's schedule out of the board working folder."
+        },
+        {
+          "line": 54,
+          "text": ""
+        },
+        {
+          "line": 55,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 56,
+          "text": "Controller"
+        },
+        {
+          "line": 57,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 58,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 59,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 60,
+          "text": ""
+        },
+        {
+          "line": 61,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 62,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 63,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 64,
+          "text": ""
+        },
+        {
+          "line": 65,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 66,
+          "text": "From: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 67,
+          "text": "Sent: Tuesday, May 30, 2023 8:20 AM"
+        },
+        {
+          "line": 68,
+          "text": "To: Mia Chen <mchen@llassociates.com>; John Ellery <jellery@cascadetimber.com>; Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 69,
+          "text": "Cc: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 70,
+          "text": "Subject: RE: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 71,
+          "text": ""
+        },
+        {
+          "line": 72,
+          "text": "Tuesday at 2 works for me, and Rob confirmed on his end this morning. I'll send John the four face builds by noon."
+        },
+        {
+          "line": 73,
+          "text": ""
+        },
+        {
+          "line": 74,
+          "text": "One flag before the call: a couple of the county sheets behind the builds were scanned badly and I've marked those inputs as provisional. They affect how the parcels are documented, not the face totals."
+        },
+        {
+          "line": 75,
+          "text": ""
+        },
+        {
+          "line": 76,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 77,
+          "text": "Controller"
+        },
+        {
+          "line": 78,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 79,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 80,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 81,
+          "text": ""
+        },
+        {
+          "line": 82,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 83,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 84,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 85,
+          "text": ""
+        },
+        {
+          "line": 86,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 87,
+          "text": "From: Mia Chen <mchen@llassociates.com>"
+        },
+        {
+          "line": 88,
+          "text": "Sent: Friday, May 26, 2023 4:45 PM"
+        },
+        {
+          "line": 89,
+          "text": "To: John Ellery <jellery@cascadetimber.com>; Robert Denniston <rdenniston@cascadetimber.com>; Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 90,
+          "text": "Cc: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 91,
+          "text": "Subject: RE: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 92,
+          "text": ""
+        },
+        {
+          "line": 93,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 94,
+          "text": ""
+        },
+        {
+          "line": 95,
+          "text": "John, Rob, Craig — following up on Grace's note below, I've added Rob and Craig so we can get the model structure set up. Could we do 45 minutes on either Tuesday 5/30 at 2:00 PT or Wednesday 5/31 at 10:00 PT? Grace will join for the first half."
+        },
+        {
+          "line": 96,
+          "text": ""
+        },
+        {
+          "line": 97,
+          "text": "Craig, if you could send the credit face builds for NW-03, NW-04, NW-06 and NW-07 to John ahead of the call, that would help. Please keep this group as is and don't forward it further."
+        },
+        {
+          "line": 98,
+          "text": ""
+        },
+        {
+          "line": 99,
+          "text": "Mia Chen"
+        },
+        {
+          "line": 100,
+          "text": "Associate | L&L Associates LLP"
+        },
+        {
+          "line": 101,
+          "text": "510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 102,
+          "text": "Direct: (415) 555-0122 | mchen@llassociates.com"
+        },
+        {
+          "line": 103,
+          "text": ""
+        },
+        {
+          "line": 104,
+          "text": "PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 105,
+          "text": "may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 106,
+          "text": "disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 107,
+          "text": "recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 108,
+          "text": "sender and destroy all copies."
+        },
+        {
+          "line": 109,
+          "text": ""
+        },
+        {
+          "line": 110,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 111,
+          "text": "From: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 112,
+          "text": "Sent: Friday, May 26, 2023 3:20 PM"
+        },
+        {
+          "line": 113,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 114,
+          "text": "Cc: Mia Chen <mchen@llassociates.com>"
+        },
+        {
+          "line": 115,
+          "text": "Subject: RE: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 116,
+          "text": ""
+        },
+        {
+          "line": 117,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 118,
+          "text": ""
+        },
+        {
+          "line": 119,
+          "text": "John — sorry for the delay, I was in a deposition yesterday. Three points."
+        },
+        {
+          "line": 120,
+          "text": ""
+        },
+        {
+          "line": 121,
+          "text": "1. The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate, and they'll turn largely on what the good-faith record looks like, which we haven't finished assembling."
+        },
+        {
+          "line": 122,
+          "text": ""
+        },
+        {
+          "line": 123,
+          "text": "2. I wouldn't let finance choose between full-parcel and excess-acreage disallowance. That question depends on documents we don't yet have together in one place: the county filings, the 2022 survey work, the easement records. It could come out either way, and it may not come out the same way for all four parcels."
+        },
+        {
+          "line": 124,
+          "text": ""
+        },
+        {
+          "line": 125,
+          "text": "3. Craig can usefully build the mechanics for both cases now. He shouldn't enter any acreage inputs on the increment side until we give them to him, and nothing from this goes outside the company."
+        },
+        {
+          "line": 126,
+          "text": ""
+        },
+        {
+          "line": 127,
+          "text": "On the board, ceiling plus caveat is right for now. Also, please make sure Craig's drafts, including the version Rob forwarded to you, are kept intact when we issue the hold. Mia will set up a call."
+        },
+        {
+          "line": 128,
+          "text": ""
+        },
+        {
+          "line": 129,
+          "text": "Grace Lin"
+        },
+        {
+          "line": 130,
+          "text": "Partner | L&L Associates LLP"
+        },
+        {
+          "line": 131,
+          "text": "510 California Street, Suite 2400, San Francisco, CA 94104"
+        },
+        {
+          "line": 132,
+          "text": "Direct: (415) 555-0121 | glin@llassociates.com"
+        },
+        {
+          "line": 133,
+          "text": ""
+        },
+        {
+          "line": 134,
+          "text": "PRIVILEGED & CONFIDENTIAL — This communication, including any attachments,"
+        },
+        {
+          "line": 135,
+          "text": "may contain information that is privileged, confidential, and exempt from"
+        },
+        {
+          "line": 136,
+          "text": "disclosure under applicable law. It is intended solely for the named"
+        },
+        {
+          "line": 137,
+          "text": "recipient(s). If you received this message in error, please notify the"
+        },
+        {
+          "line": 138,
+          "text": "sender and destroy all copies."
+        },
+        {
+          "line": 139,
+          "text": ""
+        },
+        {
+          "line": 140,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 141,
+          "text": "From: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 142,
+          "text": "Sent: Thursday, May 25, 2023 11:40 AM"
+        },
+        {
+          "line": 143,
+          "text": "To: Grace Lin <glin@llassociates.com>"
+        },
+        {
+          "line": 144,
+          "text": "Cc: Mia Chen <mchen@llassociates.com>"
+        },
+        {
+          "line": 145,
+          "text": "Subject: FW: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 146,
+          "text": ""
+        },
+        {
+          "line": 147,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 148,
+          "text": ""
+        },
+        {
+          "line": 149,
+          "text": "Grace — see below. Rob gave Elena a back-of-envelope exposure number yesterday. Craig has now tied it to full face on the four Northwest parcels, and it's going to be mentioned on today's board call as an upper bound. I've asked finance to route anything further through me."
+        },
+        {
+          "line": 150,
+          "text": ""
+        },
+        {
+          "line": 151,
+          "text": "Two questions. Should Craig be building anything on the excess-acreage side now, or should that wait for your team's view of the documents? And do you want the board to hear anything beyond the ceiling at this stage?"
+        },
+        {
+          "line": 152,
+          "text": ""
+        },
+        {
+          "line": 153,
+          "text": "John Ellery"
+        },
+        {
+          "line": 154,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 155,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 156,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 157,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 158,
+          "text": ""
+        },
+        {
+          "line": 159,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 160,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 161,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 162,
+          "text": ""
+        },
+        {
+          "line": 163,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 164,
+          "text": "From: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 165,
+          "text": "Sent: Thursday, May 25, 2023 9:25 AM"
+        },
+        {
+          "line": 166,
+          "text": "To: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 167,
+          "text": "Cc: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 168,
+          "text": "Subject: RE: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 169,
+          "text": ""
+        },
+        {
+          "line": 170,
+          "text": "*** PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION ***"
+        },
+        {
+          "line": 171,
+          "text": ""
+        },
+        {
+          "line": 172,
+          "text": "Rob, Craig — using the figure verbally on the call is fine, as long as you say it's the upper bound on credit face and not an estimate of what we owe. I'd rather the schedule not go into the board materials in this form. On its face it reads like a number the company has accepted."
+        },
+        {
+          "line": 173,
+          "text": ""
+        },
+        {
+          "line": 174,
+          "text": "The main thing: the ceiling assumes each of the four parcels fails in full. Whether that's how the Service would look at it, or whether only the excess acreage is at issue, is one of the questions L&L is working through. I don't want a finance document that looks like we've answered it either way."
+        },
+        {
+          "line": 175,
+          "text": ""
+        },
+        {
+          "line": 176,
+          "text": "From here on, please send exposure work to me first and mark it as prepared at my request. I'm going to bring Grace in."
+        },
+        {
+          "line": 177,
+          "text": ""
+        },
+        {
+          "line": 178,
+          "text": "John Ellery"
+        },
+        {
+          "line": 179,
+          "text": "Head of Legal"
+        },
+        {
+          "line": 180,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 181,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 182,
+          "text": "(503) 555-0103 | jellery@cascadetimber.com"
+        },
+        {
+          "line": 183,
+          "text": ""
+        },
+        {
+          "line": 184,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 185,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 186,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 187,
+          "text": ""
+        },
+        {
+          "line": 188,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 189,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 190,
+          "text": "Sent: Thursday, May 25, 2023 7:40 AM"
+        },
+        {
+          "line": 191,
+          "text": "To: John Ellery <jellery@cascadetimber.com>"
+        },
+        {
+          "line": 192,
+          "text": "Cc: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 193,
+          "text": "Subject: FW: NW exposure schedule for board call"
+        },
+        {
+          "line": 194,
+          "text": ""
+        },
+        {
+          "line": 195,
+          "text": "John — Craig's schedule below, for the board call at 11. Craig asked whether to show a ceiling or a range. My instinct is ceiling only and say out loud that it's the worst case. I don't want a low end on paper that nobody can support yet. Can you look before I send anything to Elena?"
+        },
+        {
+          "line": 196,
+          "text": ""
+        },
+        {
+          "line": 197,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 198,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 199,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 200,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 201,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 202,
+          "text": ""
+        },
+        {
+          "line": 203,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 204,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 205,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 206,
+          "text": ""
+        },
+        {
+          "line": 207,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 208,
+          "text": "From: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 209,
+          "text": "Sent: Wednesday, May 24, 2023 6:10 PM"
+        },
+        {
+          "line": 210,
+          "text": "To: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 211,
+          "text": "Subject: RE: FW: RE: IRS subpoena — heads up"
+        },
+        {
+          "line": 212,
+          "text": ""
+        },
+        {
+          "line": 213,
+          "text": "Rob — your number ties, but only one way. The four Northwest parcels that have been in question since last year are NW-03, NW-04, NW-06 and NW-07. Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+        },
+        {
+          "line": 214,
+          "text": ""
+        },
+        {
+          "line": 215,
+          "text": "A few things it doesn't capture:"
+        },
+        {
+          "line": 216,
+          "text": "- It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+        },
+        {
+          "line": 217,
+          "text": "- No penalties or interest."
+        },
+        {
+          "line": 218,
+          "text": "- If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+        },
+        {
+          "line": 219,
+          "text": ""
+        },
+        {
+          "line": 220,
+          "text": "Schedule attached. Do you want me to show it as a ceiling only, or a range with the low end marked TBD?"
+        },
+        {
+          "line": 221,
+          "text": ""
+        },
+        {
+          "line": 222,
+          "text": "Craig Sato"
+        },
+        {
+          "line": 223,
+          "text": "Controller"
+        },
+        {
+          "line": 224,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 225,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 226,
+          "text": "(503) 555-0107 | csato@cascadetimber.com"
+        },
+        {
+          "line": 227,
+          "text": ""
+        },
+        {
+          "line": 228,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 229,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 230,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 231,
+          "text": ""
+        },
+        {
+          "line": 232,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 233,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 234,
+          "text": "Sent: Wednesday, May 24, 2023 3:55 PM"
+        },
+        {
+          "line": 235,
+          "text": "To: Craig Sato <csato@cascadetimber.com>"
+        },
+        {
+          "line": 236,
+          "text": "Subject: FW: RE: IRS subpoena — heads up"
+        },
+        {
+          "line": 237,
+          "text": ""
+        },
+        {
+          "line": 238,
+          "text": "Craig — see below. I gave Elena a number off the top of my head for tomorrow's board call. I need something I can stand behind before 11 tomorrow: one page, which parcels, what the $2.4M is built from. Don't model penalties yet, just tell me what we'd be leaving out."
+        },
+        {
+          "line": 239,
+          "text": ""
+        },
+        {
+          "line": 240,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 241,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 242,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 243,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 244,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 245,
+          "text": ""
+        },
+        {
+          "line": 246,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 247,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 248,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 249,
+          "text": ""
+        },
+        {
+          "line": 250,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 251,
+          "text": "From: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 252,
+          "text": "Sent: Wednesday, May 24, 2023 1:40 PM"
+        },
+        {
+          "line": 253,
+          "text": "To: Elena Marlowe <emarlowe@cascadetimber.com>"
+        },
+        {
+          "line": 254,
+          "text": "Subject: RE: IRS subpoena — heads up"
+        },
+        {
+          "line": 255,
+          "text": ""
+        },
+        {
+          "line": 256,
+          "text": "Elena — back of envelope: about $2.4M in credits tied to the Northwest batches, plus penalties and interest if it goes badly. I'll have Craig tighten the model before Thursday."
+        },
+        {
+          "line": 257,
+          "text": ""
+        },
+        {
+          "line": 258,
+          "text": "Robert Denniston"
+        },
+        {
+          "line": 259,
+          "text": "Chief Financial Officer"
+        },
+        {
+          "line": 260,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 261,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 262,
+          "text": "(503) 555-0102 | rdenniston@cascadetimber.com"
+        },
+        {
+          "line": 263,
+          "text": ""
+        },
+        {
+          "line": 264,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 265,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 266,
+          "text": "sender immediately and delete all copies."
+        },
+        {
+          "line": 267,
+          "text": ""
+        },
+        {
+          "line": 268,
+          "text": "-----Original Message-----"
+        },
+        {
+          "line": 269,
+          "text": "From: Elena Marlowe <emarlowe@cascadetimber.com>"
+        },
+        {
+          "line": 270,
+          "text": "Sent: Wednesday, May 24, 2023 9:10 AM"
+        },
+        {
+          "line": 271,
+          "text": "To: Robert Denniston <rdenniston@cascadetimber.com>"
+        },
+        {
+          "line": 272,
+          "text": "Subject: IRS subpoena — heads up"
+        },
+        {
+          "line": 273,
+          "text": ""
+        },
+        {
+          "line": 274,
+          "text": "Rob — you've seen John's note from yesterday. Between us: the board call is Thursday and I want a crisp read on financial exposure before it. Nothing formal — just your best numbers on what's at stake if the Northwest parcels get disallowed."
+        },
+        {
+          "line": 275,
+          "text": ""
+        },
+        {
+          "line": 276,
+          "text": "Elena Marlowe"
+        },
+        {
+          "line": 277,
+          "text": "Chief Executive Officer"
+        },
+        {
+          "line": 278,
+          "text": "Cascade Timber Holdings, Inc."
+        },
+        {
+          "line": 279,
+          "text": "1200 Forest Park Way, Suite 900, Portland, OR 97209"
+        },
+        {
+          "line": 280,
+          "text": "(503) 555-0101 | emarlowe@cascadetimber.com"
+        },
+        {
+          "line": 281,
+          "text": ""
+        },
+        {
+          "line": 282,
+          "text": "This message and any attachments are confidential and may be protected by"
+        },
+        {
+          "line": 283,
+          "text": "legal privilege. If you are not the intended recipient, please notify the"
+        },
+        {
+          "line": 284,
+          "text": "sender immediately and delete all copies."
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "path": "data/contracts/seed/Kovel_Engagement_Whitaker_Forensic.pdf",
+      "sha256": "d00ffc4337f410cb4f29b4ab2d642c51f19f63babc6ebd6a6e45a1515ac73953",
+      "pages": [
+        {
+          "page": 1,
+          "text": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK PRODUCT\nL&L ASSOCIATES\nOutside Counsel - Attorneys at Law\nJuly 27, 2023\nVIA EMAIL\nDana Whitaker, CPA/CFF\nPrincipal\nWhitaker Forensic Accounting\nRe: Engagement of Whitaker Forensic Accounting - Assistance to Counsel (Kovel)\nDear Ms. Whitaker:\nThis letter confirms the engagement of Whitaker Forensic Accounting (\"you\" or \"the Firm\") by L&L Associates (\"we\" or\n\"outside counsel\") to assist us in rendering legal advice to our client, Cascade Timber Holdings, in connection with the\ninternal review of the Coastal Solar Credit Program and related litigation that we reasonably anticipate.\nYou will perform forensic accounting analysis of parcel payment records, credit sale proceeds, and related\ndisbursements identified by counsel. Your work will be performed solely at our direction and for the purpose of enabling\nus to provide legal advice to our client; you will not provide accounting, audit, or tax services to Cascade Timber\nHoldings directly.\nAll communications between you and this Firm, and all work papers, analyses, and deliverables prepared in connection\nwith this engagement, are confidential and are intended to be protected by the attorney-client privilege and the work\nproduct doctrine, consistent with the principles of United States v. Kovel. You will deliver all work product exclusively to\nthis Firm, will mark all deliverables 'Privileged & Confidential - Prepared at the Direction of Counsel,' and will not\ncommunicate regarding this engagement with any third party, including the client, without our prior instruction.\nFees will be billed to and paid by this Firm per the attached rate schedule. Please countersign and return this letter to\nconfirm.\nSincerely,\nGrace Lin\nPartner, L&L Associates"
+        }
+      ],
+      "extraction_status": "extracted_native_text",
+      "ocr_used": false
+    },
+    {
+      "path": "data/contracts/seed/LL_Associates_Engagement_Letter.pdf",
+      "sha256": "235de50fbc43c2d2d26574ff747126c18e9f1c59b359aea341a91be6f474d41e",
+      "pages": [
+        {
+          "page": 1,
+          "text": "PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK\n PRODUCT\nL&L ASSOCIATES\nOutside Counsel — Attorneys at Law\nFebruary 24, 2023\nVIA EMAIL\nJohn Ellery, Head of Legal, Cascade Timber Holdings\nRe: Engagement — Internal Review of Coastal Solar Credit Program\nDear John:\nThis letter confirms the engagement of L&L Associates (“we” or “the Firm”) by Cascade Timber\nHoldings (“CTH” or “the Company”) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023.\nAll communications, work product, and materials generated in connection with this engagement are\nintended to be, and should be treated as, protected by the attorney-client privilege and/or attorney work\nproduct doctrine. Please direct all custodian and document collection questions to my attention.\nWe look forward to assisting CTH with this matter.\nSincerely,\nGrace Lin, Partner — L&L Associates\n"
+        }
+      ],
+      "extraction_status": "extracted_native_text",
+      "ocr_used": false
+    },
+    {
+      "path": "data/emails/Exhibits/EX_Larsen_Q12023.pdf",
+      "sha256": "cd26390abfd0f698b24be2e48ef82732401c482155f6fe1bd807015e98220c33",
+      "pages": [
+        {
+          "page": 1,
+          "text": "ENGAGEMENT CONFIRMATION -- Larsen Tax Advisory (Q1 2023)\nFICTIONAL DEMONSTRATION DOCUMENT -- USA v. Cascade Timber Holdings, Inc.\nLarsen Tax Advisory confirms provision-support scope for Q1 2023: deferred-revenue treatment review and\ncontingency-disclosure drafting support. Fixed fee $18,500, standard business engagement (not at counsel direction).\n/s/ Owen Larsen\nOwen Larsen, Principal, Larsen Tax Advisory\nDate: 2023-01-23\nExhibit EX-TMP | EXECUTED COPY | Page 1/1"
+        }
+      ],
+      "extraction_status": "extracted_native_text",
+      "ocr_used": false
+    },
+    {
+      "path": "data/emails/Exhibits/EX_Larsen_Q32022.pdf",
+      "sha256": "31f17f1235e70aa297d877d643f7f2f0ed5dd1f92f7f9e19edc661c117258554",
+      "pages": [
+        {
+          "page": 1,
+          "text": "ENGAGEMENT CONFIRMATION -- Larsen Tax Advisory (Q3 2022)\nFICTIONAL DEMONSTRATION DOCUMENT -- USA v. Cascade Timber Holdings, Inc.\nLarsen Tax Advisory confirms provision-support scope for Q3 2022: deferred-revenue treatment review and\ncontingency-disclosure drafting support. Fixed fee $18,500, standard business engagement (not at counsel direction).\n/s/ Owen Larsen\nOwen Larsen, Principal, Larsen Tax Advisory\nDate: 2022-07-25\nExhibit EX-TMP | EXECUTED COPY | Page 1/1"
+        }
+      ],
+      "extraction_status": "extracted_native_text",
+      "ocr_used": false
+    },
+    {
+      "path": "data/emails/Exhibits/EX_Larsen_Q42022.pdf",
+      "sha256": "64ccc47b61cb26c276e15aa20438a6d6248d3f21d767f0df8a1d8214720073c9",
+      "pages": [
+        {
+          "page": 1,
+          "text": "ENGAGEMENT CONFIRMATION -- Larsen Tax Advisory (Q4 2022)\nFICTIONAL DEMONSTRATION DOCUMENT -- USA v. Cascade Timber Holdings, Inc.\nLarsen Tax Advisory confirms provision-support scope for Q4 2022: deferred-revenue treatment review and\ncontingency-disclosure drafting support. Fixed fee $18,500, standard business engagement (not at counsel direction).\n/s/ Owen Larsen\nOwen Larsen, Principal, Larsen Tax Advisory\nDate: 2022-10-24\nExhibit EX-TMP | EXECUTED COPY | Page 1/1"
+        }
+      ],
+      "extraction_status": "extracted_native_text",
+      "ocr_used": false
+    },
+    {
+      "path": "data/emails/Exhibits/EX_Moss_Audit_Engagement_FY2022.pdf",
+      "sha256": "b8c86d4a175c6becfbabd11c59b4a456ec517ee1ef657a96d9b98965645304eb",
+      "pages": [
+        {
+          "page": 1,
+          "text": "AUDIT ENGAGEMENT LETTER -- Moss & Lane LLP (FY2022)\nFICTIONAL DEMONSTRATION DOCUMENT -- USA v. Cascade Timber Holdings, Inc.\nMoss & Lane LLP engagement for the FY2022 financial-statement audit, including revenue-recognition testing for the Coastal\nSolar program and review of parcel-file support. Fees on hourly basis per schedule.\n/s/ Brenda Moss\nBrenda Moss, Partner, Audit, Moss & Lane LLP\nDate: 2022-11-28\nExhibit EX-MOSS | EXECUTED COPY | Page 1/1"
+        }
+      ],
+      "extraction_status": "extracted_native_text",
+      "ocr_used": false
+    }
+  ]
+}

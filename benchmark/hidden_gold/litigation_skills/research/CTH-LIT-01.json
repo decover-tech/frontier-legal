@@ -1,0 +1,1728 @@
+{
+  "task_id": "CTH-LIT-01",
+  "authoring_only": true,
+  "reference_skill_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "reference_skill": "cold-start-interview",
+  "cutoff": "2023-03-22T23:59:59-07:00",
+  "sources": [
+    {
+      "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+      "provenance": {
+        "mime_part_index": 4,
+        "original_filename": "LL_Associates_Engagement_Letter.pdf",
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-021_Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "235de50fbc43c2d2d26574ff747126c18e9f1c59b359aea341a91be6f474d41e",
+        "text_sha256": "33d8dc96744263606b47a42fc6fef279571743c67788492b86fcf89f0e4ea729"
+      },
+      "source_date": null,
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 1,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": 1,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "PDF text does not establish signature authenticity, rendering fidelity, or complete image/annotation coverage."
+        ]
+      },
+      "locators": [
+        {
+          "end": 980,
+          "locator": "page:1",
+          "method": "native_text",
+          "page": 1,
+          "start": 0
+        }
+      ],
+      "text": "PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION / ATTORNEY WORK\n PRODUCT\nL&L ASSOCIATES\nOutside Counsel \u2014 Attorneys at Law\nFebruary 24, 2023\nVIA EMAIL\nJohn Ellery, Head of Legal, Cascade Timber Holdings\nRe: Engagement \u2014 Internal Review of Coastal Solar Credit Program\nDear John:\nThis letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023.\nAll communications, work product, and materials generated in connection with this engagement are\nintended to be, and should be treated as, protected by the attorney-client privilege and/or attorney work\nproduct doctrine. Please direct all custodian and document collection questions to my attention.\nWe look forward to assisting CTH with this matter.\nSincerely,\nGrace Lin, Partner \u2014 L&L Associates"
+    },
+    {
+      "document_id": "ATT-EMAIL-022-02-8e678ea9b66e",
+      "provenance": {
+        "mime_part_index": 2,
+        "original_filename": "Custodian_List.xlsx",
+        "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-022_RE_ Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "8e678ea9b66e258dd0ca0c96f846aeb7979979d0deeabc4f88e0887e46f74254",
+        "text_sha256": "19ce750826145bc0685962c5ee4a585b6c42cf307d5178d2693075db331da8dd"
+      },
+      "source_date": null,
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "Cell values/formulas extracted; formulas are not recalculated and charts/images/formatting are not interpreted."
+        ]
+      },
+      "locators": [
+        {
+          "end": 10,
+          "locator": "sheet:1:title",
+          "sheet": 1,
+          "start": 0
+        },
+        {
+          "end": 103,
+          "locator": "sheet:1:row:1",
+          "row": 1,
+          "sheet": 1,
+          "start": 12
+        },
+        {
+          "end": 201,
+          "locator": "sheet:1:row:2",
+          "row": 2,
+          "sheet": 1,
+          "start": 105
+        },
+        {
+          "end": 303,
+          "locator": "sheet:1:row:3",
+          "row": 3,
+          "sheet": 1,
+          "start": 203
+        },
+        {
+          "end": 458,
+          "locator": "sheet:1:row:4",
+          "row": 4,
+          "sheet": 1,
+          "start": 305
+        },
+        {
+          "end": 574,
+          "locator": "sheet:1:row:5",
+          "row": 5,
+          "sheet": 1,
+          "start": 460
+        },
+        {
+          "end": 688,
+          "locator": "sheet:1:row:6",
+          "row": 6,
+          "sheet": 1,
+          "start": 576
+        },
+        {
+          "end": 802,
+          "locator": "sheet:1:row:7",
+          "row": 7,
+          "sheet": 1,
+          "start": 690
+        },
+        {
+          "end": 965,
+          "locator": "sheet:1:row:8",
+          "row": 8,
+          "sheet": 1,
+          "start": 804
+        },
+        {
+          "end": 1069,
+          "locator": "sheet:1:row:9",
+          "row": 9,
+          "sheet": 1,
+          "start": 967
+        },
+        {
+          "end": 1252,
+          "locator": "sheet:1:row:14",
+          "row": 14,
+          "sheet": 1,
+          "start": 1071
+        }
+      ],
+      "text": "Custodians\n\nA1=Custodian Name | B1=Title | C1=Company | D1=Email | E1=Est. Mailbox Size (GB) | F1=Notes\n\nA2=Elena Marlowe | B2=CEO | C2=Cascade Timber Holdings | D2=emarlowe@cascadetimber.com | E2=12.4\n\nA3=Robert Denniston | B3=CFO | C3=Cascade Timber Holdings | D3=rdenniston@cascadetimber.com | E3=9.8\n\nA4=John Ellery | B4=Head of Legal | C4=Cascade Timber Holdings | D4=jellery@cascadetimber.com | E4=18.2 | F4=Privileged review \u2014 filter before production\n\nA5=Sarah Nguyen | B5=Chief Compliance Officer | C5=Cascade Timber Holdings | D5=snguyen@cascadetimber.com | E5=7.1\n\nA6=Priya Shah | B6=VP Business Development | C6=Alder Point Partners | D6=pshah@alderpointpartners.com | E6=10.6\n\nA7=Tom Reyes | B7=Land Acquisition Manager | C7=Alder Point Partners | D7=treyes@alderpointpartners.com | E7=8.9\n\nA8=Jay Whitfield | B8=Regional Sales Director | C8=Alder Point Partners | D8=jwhitfield@alderpointpartners.com | E8=6.3 | F8=Also signs as 'Kane' on some threads\n\nA9=Derek Holt | B9=Managing Director | C9=Bellhaven Advisory | D9=dholt@bellhavenadvisory.com | E9=5.4\n\nA14=Grace Lin | B14=Partner | C14=L&L Associates | D14=glin@llassociates.com | E14=3.2 | F14=Patient MRN: 88213-A \u2014 leftover from unrelated matter template, SCRUB BEFORE CIRCULATING"
+    },
+    {
+      "document_id": "ATT-EMAIL-048-02-8e678ea9b66e",
+      "provenance": {
+        "mime_part_index": 2,
+        "original_filename": "Custodian_List.xlsx",
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-048_RE_ Document collection kickoff _ custodian list draft v1.eml",
+        "source_sha256": "8e678ea9b66e258dd0ca0c96f846aeb7979979d0deeabc4f88e0887e46f74254",
+        "text_sha256": "19ce750826145bc0685962c5ee4a585b6c42cf307d5178d2693075db331da8dd"
+      },
+      "source_date": null,
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": [
+          "Cell values/formulas extracted; formulas are not recalculated and charts/images/formatting are not interpreted."
+        ]
+      },
+      "locators": [
+        {
+          "end": 10,
+          "locator": "sheet:1:title",
+          "sheet": 1,
+          "start": 0
+        },
+        {
+          "end": 103,
+          "locator": "sheet:1:row:1",
+          "row": 1,
+          "sheet": 1,
+          "start": 12
+        },
+        {
+          "end": 201,
+          "locator": "sheet:1:row:2",
+          "row": 2,
+          "sheet": 1,
+          "start": 105
+        },
+        {
+          "end": 303,
+          "locator": "sheet:1:row:3",
+          "row": 3,
+          "sheet": 1,
+          "start": 203
+        },
+        {
+          "end": 458,
+          "locator": "sheet:1:row:4",
+          "row": 4,
+          "sheet": 1,
+          "start": 305
+        },
+        {
+          "end": 574,
+          "locator": "sheet:1:row:5",
+          "row": 5,
+          "sheet": 1,
+          "start": 460
+        },
+        {
+          "end": 688,
+          "locator": "sheet:1:row:6",
+          "row": 6,
+          "sheet": 1,
+          "start": 576
+        },
+        {
+          "end": 802,
+          "locator": "sheet:1:row:7",
+          "row": 7,
+          "sheet": 1,
+          "start": 690
+        },
+        {
+          "end": 965,
+          "locator": "sheet:1:row:8",
+          "row": 8,
+          "sheet": 1,
+          "start": 804
+        },
+        {
+          "end": 1069,
+          "locator": "sheet:1:row:9",
+          "row": 9,
+          "sheet": 1,
+          "start": 967
+        },
+        {
+          "end": 1252,
+          "locator": "sheet:1:row:14",
+          "row": 14,
+          "sheet": 1,
+          "start": 1071
+        }
+      ],
+      "text": "Custodians\n\nA1=Custodian Name | B1=Title | C1=Company | D1=Email | E1=Est. Mailbox Size (GB) | F1=Notes\n\nA2=Elena Marlowe | B2=CEO | C2=Cascade Timber Holdings | D2=emarlowe@cascadetimber.com | E2=12.4\n\nA3=Robert Denniston | B3=CFO | C3=Cascade Timber Holdings | D3=rdenniston@cascadetimber.com | E3=9.8\n\nA4=John Ellery | B4=Head of Legal | C4=Cascade Timber Holdings | D4=jellery@cascadetimber.com | E4=18.2 | F4=Privileged review \u2014 filter before production\n\nA5=Sarah Nguyen | B5=Chief Compliance Officer | C5=Cascade Timber Holdings | D5=snguyen@cascadetimber.com | E5=7.1\n\nA6=Priya Shah | B6=VP Business Development | C6=Alder Point Partners | D6=pshah@alderpointpartners.com | E6=10.6\n\nA7=Tom Reyes | B7=Land Acquisition Manager | C7=Alder Point Partners | D7=treyes@alderpointpartners.com | E7=8.9\n\nA8=Jay Whitfield | B8=Regional Sales Director | C8=Alder Point Partners | D8=jwhitfield@alderpointpartners.com | E8=6.3 | F8=Also signs as 'Kane' on some threads\n\nA9=Derek Holt | B9=Managing Director | C9=Bellhaven Advisory | D9=dholt@bellhavenadvisory.com | E9=5.4\n\nA14=Grace Lin | B14=Partner | C14=L&L Associates | D14=glin@llassociates.com | E14=3.2 | F14=Patient MRN: 88213-A \u2014 leftover from unrelated matter template, SCRUB BEFORE CIRCULATING"
+    },
+    {
+      "document_id": "EMAIL-019",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Sarah_Nguyen/EMAIL-019_Whistleblower complaint received.eml",
+        "source_sha256": "12ab6a2c05f4907c30dbb0f6d173d8defaf6d084b9e60b99b4a2cf31144c53b5",
+        "text_sha256": "f7fbacc6f9244603040be2ac474fc1016bdce1e5dbdc14364939db3b53f472c6"
+      },
+      "source_date": "2023-02-20T07:58:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 85,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 130,
+          "line": 3,
+          "locator": "line:3",
+          "start": 87
+        },
+        {
+          "end": 178,
+          "line": 4,
+          "locator": "line:4",
+          "start": 132
+        },
+        {
+          "end": 221,
+          "line": 5,
+          "locator": "line:5",
+          "start": 180
+        },
+        {
+          "end": 452,
+          "line": 7,
+          "locator": "line:7",
+          "start": 223
+        },
+        {
+          "end": 466,
+          "line": 9,
+          "locator": "line:9",
+          "start": 454
+        },
+        {
+          "end": 492,
+          "line": 10,
+          "locator": "line:10",
+          "start": 468
+        },
+        {
+          "end": 523,
+          "line": 11,
+          "locator": "line:11",
+          "start": 494
+        },
+        {
+          "end": 576,
+          "line": 12,
+          "locator": "line:12",
+          "start": 525
+        },
+        {
+          "end": 620,
+          "line": 13,
+          "locator": "line:13",
+          "start": 578
+        },
+        {
+          "end": 695,
+          "line": 15,
+          "locator": "line:15",
+          "start": 622
+        },
+        {
+          "end": 770,
+          "line": 16,
+          "locator": "line:16",
+          "start": 697
+        },
+        {
+          "end": 813,
+          "line": 17,
+          "locator": "line:17",
+          "start": 772
+        }
+      ],
+      "text": "Date: Mon, 20 Feb 2023 07:58:00 -0800\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Whistleblower complaint received\n\nJohn, Elena \u2014 we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately.\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-020",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-020_RE_ Whistleblower complaint received _ privileged.eml",
+        "source_sha256": "f76a0327fba8a66973bf3fb1c313b2973546f58fa4523964bf2204dea1b2dd7f",
+        "text_sha256": "09133b7532263ba23b7754804e7374171e54b37dd390b62663e50c085320fa9e"
+      },
+      "source_date": "2023-02-21T09:12:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 132,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 178,
+          "line": 4,
+          "locator": "line:4",
+          "start": 134
+        },
+        {
+          "end": 238,
+          "line": 5,
+          "locator": "line:5",
+          "start": 180
+        },
+        {
+          "end": 307,
+          "line": 7,
+          "locator": "line:7",
+          "start": 240
+        },
+        {
+          "end": 519,
+          "line": 9,
+          "locator": "line:9",
+          "start": 309
+        },
+        {
+          "end": 532,
+          "line": 11,
+          "locator": "line:11",
+          "start": 521
+        },
+        {
+          "end": 547,
+          "line": 12,
+          "locator": "line:12",
+          "start": 534
+        },
+        {
+          "end": 578,
+          "line": 13,
+          "locator": "line:13",
+          "start": 549
+        },
+        {
+          "end": 631,
+          "line": 14,
+          "locator": "line:14",
+          "start": 580
+        },
+        {
+          "end": 675,
+          "line": 15,
+          "locator": "line:15",
+          "start": 633
+        },
+        {
+          "end": 750,
+          "line": 17,
+          "locator": "line:17",
+          "start": 677
+        },
+        {
+          "end": 825,
+          "line": 18,
+          "locator": "line:18",
+          "start": 752
+        },
+        {
+          "end": 868,
+          "line": 19,
+          "locator": "line:19",
+          "start": 827
+        },
+        {
+          "end": 896,
+          "line": 21,
+          "locator": "line:21",
+          "start": 870
+        },
+        {
+          "end": 944,
+          "line": 22,
+          "locator": "line:22",
+          "start": 898
+        },
+        {
+          "end": 985,
+          "line": 23,
+          "locator": "line:23",
+          "start": 946
+        },
+        {
+          "end": 1030,
+          "line": 24,
+          "locator": "line:24",
+          "start": 987
+        },
+        {
+          "end": 1078,
+          "line": 25,
+          "locator": "line:25",
+          "start": 1032
+        },
+        {
+          "end": 1121,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1080
+        },
+        {
+          "end": 1352,
+          "line": 28,
+          "locator": "line:28",
+          "start": 1123
+        },
+        {
+          "end": 1366,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1354
+        },
+        {
+          "end": 1392,
+          "line": 31,
+          "locator": "line:31",
+          "start": 1368
+        },
+        {
+          "end": 1423,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1394
+        },
+        {
+          "end": 1476,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1425
+        },
+        {
+          "end": 1520,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1478
+        },
+        {
+          "end": 1595,
+          "line": 36,
+          "locator": "line:36",
+          "start": 1522
+        },
+        {
+          "end": 1670,
+          "line": 37,
+          "locator": "line:37",
+          "start": 1597
+        },
+        {
+          "end": 1713,
+          "line": 38,
+          "locator": "line:38",
+          "start": 1672
+        }
+      ],
+      "text": "Date: Tue, 21 Feb 2023 09:12:00 -0800\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nCc: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSubject: RE: Whistleblower complaint received \u2014 privileged\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nThis response and the attached preliminary assessment are provided as legal advice in anticipation of potential regulatory inquiry and are privileged. Recommend engaging outside counsel now rather than waiting.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Sarah Nguyen <snguyen@cascadetimber.com>\n\nSent: Monday, February 20, 2023 7:58 AM\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Whistleblower complaint received\n\nJohn, Elena \u2014 we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately.\n\nSarah Nguyen\n\nChief Compliance Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0104 | snguyen@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-021",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-021_Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "d4172485ef40d3acf7420e20467ac92a1fc1fb92fdd18e7d742494fcf04bdc2d",
+        "text_sha256": "ae1ea689ae024583419d42cb5f1285f5e76e2ab273960aa2b0c65831e059035c"
+      },
+      "source_date": "2023-02-24T15:40:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 123,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 171,
+          "line": 4,
+          "locator": "line:4",
+          "start": 125
+        },
+        {
+          "end": 224,
+          "line": 5,
+          "locator": "line:5",
+          "start": 173
+        },
+        {
+          "end": 293,
+          "line": 7,
+          "locator": "line:7",
+          "start": 226
+        },
+        {
+          "end": 517,
+          "line": 9,
+          "locator": "line:9",
+          "start": 295
+        },
+        {
+          "end": 530,
+          "line": 11,
+          "locator": "line:11",
+          "start": 519
+        },
+        {
+          "end": 545,
+          "line": 12,
+          "locator": "line:12",
+          "start": 532
+        },
+        {
+          "end": 576,
+          "line": 13,
+          "locator": "line:13",
+          "start": 547
+        },
+        {
+          "end": 629,
+          "line": 14,
+          "locator": "line:14",
+          "start": 578
+        },
+        {
+          "end": 673,
+          "line": 15,
+          "locator": "line:15",
+          "start": 631
+        },
+        {
+          "end": 748,
+          "line": 17,
+          "locator": "line:17",
+          "start": 675
+        },
+        {
+          "end": 823,
+          "line": 18,
+          "locator": "line:18",
+          "start": 750
+        },
+        {
+          "end": 866,
+          "line": 19,
+          "locator": "line:19",
+          "start": 825
+        }
+      ],
+      "text": "Date: Fri, 24 Feb 2023 15:40:00 -0800\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Grace Lin <glin@llassociates.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Engagement \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, following up on our call. Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week. Please treat all related communications as privileged.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-022",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-022_RE_ Engagement _ Coastal Solar internal review.eml",
+        "source_sha256": "6e2c7303f2acf74977a4796d54bf0f399ecee71041130cb1c8d15d8864cbd798",
+        "text_sha256": "ca364011ada6c25305578b135d7db4ad11b9a5d6190ce974029496a2fbbecabc"
+      },
+      "source_date": "2023-03-01T10:26:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 78,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 123,
+          "line": 3,
+          "locator": "line:3",
+          "start": 80
+        },
+        {
+          "end": 180,
+          "line": 4,
+          "locator": "line:4",
+          "start": 125
+        },
+        {
+          "end": 249,
+          "line": 6,
+          "locator": "line:6",
+          "start": 182
+        },
+        {
+          "end": 482,
+          "line": 8,
+          "locator": "line:8",
+          "start": 251
+        },
+        {
+          "end": 493,
+          "line": 10,
+          "locator": "line:10",
+          "start": 484
+        },
+        {
+          "end": 523,
+          "line": 11,
+          "locator": "line:11",
+          "start": 495
+        },
+        {
+          "end": 583,
+          "line": 12,
+          "locator": "line:12",
+          "start": 525
+        },
+        {
+          "end": 631,
+          "line": 13,
+          "locator": "line:13",
+          "start": 585
+        },
+        {
+          "end": 707,
+          "line": 15,
+          "locator": "line:15",
+          "start": 633
+        },
+        {
+          "end": 782,
+          "line": 16,
+          "locator": "line:16",
+          "start": 709
+        },
+        {
+          "end": 852,
+          "line": 17,
+          "locator": "line:17",
+          "start": 784
+        },
+        {
+          "end": 924,
+          "line": 18,
+          "locator": "line:18",
+          "start": 854
+        },
+        {
+          "end": 956,
+          "line": 19,
+          "locator": "line:19",
+          "start": 926
+        },
+        {
+          "end": 984,
+          "line": 21,
+          "locator": "line:21",
+          "start": 958
+        },
+        {
+          "end": 1031,
+          "line": 22,
+          "locator": "line:22",
+          "start": 986
+        },
+        {
+          "end": 1072,
+          "line": 23,
+          "locator": "line:23",
+          "start": 1033
+        },
+        {
+          "end": 1111,
+          "line": 24,
+          "locator": "line:24",
+          "start": 1074
+        },
+        {
+          "end": 1159,
+          "line": 25,
+          "locator": "line:25",
+          "start": 1113
+        },
+        {
+          "end": 1212,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1161
+        },
+        {
+          "end": 1281,
+          "line": 28,
+          "locator": "line:28",
+          "start": 1214
+        },
+        {
+          "end": 1505,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1283
+        },
+        {
+          "end": 1518,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1507
+        },
+        {
+          "end": 1533,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1520
+        },
+        {
+          "end": 1564,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1535
+        },
+        {
+          "end": 1617,
+          "line": 35,
+          "locator": "line:35",
+          "start": 1566
+        },
+        {
+          "end": 1661,
+          "line": 36,
+          "locator": "line:36",
+          "start": 1619
+        },
+        {
+          "end": 1736,
+          "line": 38,
+          "locator": "line:38",
+          "start": 1663
+        },
+        {
+          "end": 1811,
+          "line": 39,
+          "locator": "line:39",
+          "start": 1738
+        },
+        {
+          "end": 1854,
+          "line": 40,
+          "locator": "line:40",
+          "start": 1813
+        }
+      ],
+      "text": "Date: Wed, 01 Mar 2023 10:26:00 -0800\n\nFrom: Grace Lin <glin@llassociates.com>\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nSubject: RE: Engagement \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nJohn, received the custodian list. Note the spreadsheet includes an unredacted patient ID field (MRN 88213-A) in row 14 that appears to be leftover from an unrelated matter template \u2014 worth scrubbing before this circulates further.\n\nGrace Lin\n\nPartner | L&L Associates LLP\n\n510 California Street, Suite 2400, San Francisco, CA 94104\n\nDirect: (415) 555-0121 | glin@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\n\nmay contain information that is privileged, confidential, and exempt from\n\ndisclosure under applicable law. It is intended solely for the named\n\nrecipient(s). If you received this message in error, please notify the\n\nsender and destroy all copies.\n\n-----Original Message-----\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nSent: Friday, February 24, 2023 3:40 PM\n\nTo: Grace Lin <glin@llassociates.com>\n\nCc: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: Engagement \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nGrace, following up on our call. Formally engaging L&L Associates to advise on the internal review of the Coastal Solar program given the complaint received last week. Please treat all related communications as privileged.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-048",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-048_RE_ Document collection kickoff _ custodian list draft v1.eml",
+        "source_sha256": "d4ecc4d08dbe2b6b75edcafcb4440e75dd077b375daa572c644d1d929268c5d1",
+        "text_sha256": "bd83f1a1891d3b89e7867dabfde0f8e2491180646ffbed164ef54f578613fad7"
+      },
+      "source_date": "2023-02-28T14:30:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 83,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 128,
+          "line": 3,
+          "locator": "line:3",
+          "start": 85
+        },
+        {
+          "end": 196,
+          "line": 4,
+          "locator": "line:4",
+          "start": 130
+        },
+        {
+          "end": 265,
+          "line": 6,
+          "locator": "line:6",
+          "start": 198
+        },
+        {
+          "end": 440,
+          "line": 8,
+          "locator": "line:8",
+          "start": 267
+        },
+        {
+          "end": 453,
+          "line": 10,
+          "locator": "line:10",
+          "start": 442
+        },
+        {
+          "end": 485,
+          "line": 11,
+          "locator": "line:11",
+          "start": 455
+        },
+        {
+          "end": 545,
+          "line": 12,
+          "locator": "line:12",
+          "start": 487
+        },
+        {
+          "end": 596,
+          "line": 13,
+          "locator": "line:13",
+          "start": 547
+        },
+        {
+          "end": 672,
+          "line": 15,
+          "locator": "line:15",
+          "start": 598
+        },
+        {
+          "end": 747,
+          "line": 16,
+          "locator": "line:16",
+          "start": 674
+        },
+        {
+          "end": 817,
+          "line": 17,
+          "locator": "line:17",
+          "start": 749
+        },
+        {
+          "end": 889,
+          "line": 18,
+          "locator": "line:18",
+          "start": 819
+        },
+        {
+          "end": 921,
+          "line": 19,
+          "locator": "line:19",
+          "start": 891
+        },
+        {
+          "end": 949,
+          "line": 21,
+          "locator": "line:21",
+          "start": 923
+        },
+        {
+          "end": 996,
+          "line": 22,
+          "locator": "line:22",
+          "start": 951
+        },
+        {
+          "end": 1037,
+          "line": 23,
+          "locator": "line:23",
+          "start": 998
+        },
+        {
+          "end": 1081,
+          "line": 24,
+          "locator": "line:24",
+          "start": 1039
+        },
+        {
+          "end": 1151,
+          "line": 25,
+          "locator": "line:25",
+          "start": 1083
+        },
+        {
+          "end": 1220,
+          "line": 27,
+          "locator": "line:27",
+          "start": 1153
+        },
+        {
+          "end": 1415,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1222
+        },
+        {
+          "end": 1428,
+          "line": 31,
+          "locator": "line:31",
+          "start": 1417
+        },
+        {
+          "end": 1443,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1430
+        },
+        {
+          "end": 1474,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1445
+        },
+        {
+          "end": 1527,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1476
+        },
+        {
+          "end": 1571,
+          "line": 35,
+          "locator": "line:35",
+          "start": 1529
+        },
+        {
+          "end": 1646,
+          "line": 37,
+          "locator": "line:37",
+          "start": 1573
+        },
+        {
+          "end": 1721,
+          "line": 38,
+          "locator": "line:38",
+          "start": 1648
+        },
+        {
+          "end": 1764,
+          "line": 39,
+          "locator": "line:39",
+          "start": 1723
+        }
+      ],
+      "text": "Date: Tue, 28 Feb 2023 14:30:00 -0800\n\nFrom: Alan Brooks <abrooks@llassociates.com>\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nSubject: RE: Document collection kickoff \u2014 custodian list draft v1\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nJohn, draft custodian list attached for your review \u2014 pulled from our standard collection template and filled in with the names you gave me. Let me know if anyone's missing.\n\nAlan Brooks\n\nParalegal | L&L Associates LLP\n\n510 California Street, Suite 2400, San Francisco, CA 94104\n\nDirect: (415) 555-0123 | abrooks@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\n\nmay contain information that is privileged, confidential, and exempt from\n\ndisclosure under applicable law. It is intended solely for the named\n\nrecipient(s). If you received this message in error, please notify the\n\nsender and destroy all copies.\n\n-----Original Message-----\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nSent: Sunday, February 26, 2023 9:00 AM\n\nTo: Alan Brooks <abrooks@llassociates.com>\n\nSubject: Document collection kickoff \u2014 Coastal Solar internal review\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nAlan, per Grace's instructions, let's get started on custodian identification and collection scoping for the internal review. I'll have compliance send over an initial custodian list this week.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-050",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Grace_Lin/EMAIL-050_Interim findings memo.eml",
+        "source_sha256": "9766adeb5e9005d6dd6f30ec63f53567c7b1de0ef1e8a05f435854241983f364",
+        "text_sha256": "75e138d10a2d3c659acc42970f2941dbb1d3f42906f414bb7911e159002dce15"
+      },
+      "source_date": "2023-03-10T17:00:00-08:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 78,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 123,
+          "line": 3,
+          "locator": "line:3",
+          "start": 80
+        },
+        {
+          "end": 155,
+          "line": 4,
+          "locator": "line:4",
+          "start": 125
+        },
+        {
+          "end": 224,
+          "line": 6,
+          "locator": "line:6",
+          "start": 157
+        },
+        {
+          "end": 459,
+          "line": 8,
+          "locator": "line:8",
+          "start": 226
+        },
+        {
+          "end": 470,
+          "line": 10,
+          "locator": "line:10",
+          "start": 461
+        },
+        {
+          "end": 500,
+          "line": 11,
+          "locator": "line:11",
+          "start": 472
+        },
+        {
+          "end": 560,
+          "line": 12,
+          "locator": "line:12",
+          "start": 502
+        },
+        {
+          "end": 608,
+          "line": 13,
+          "locator": "line:13",
+          "start": 562
+        },
+        {
+          "end": 684,
+          "line": 15,
+          "locator": "line:15",
+          "start": 610
+        },
+        {
+          "end": 759,
+          "line": 16,
+          "locator": "line:16",
+          "start": 686
+        },
+        {
+          "end": 829,
+          "line": 17,
+          "locator": "line:17",
+          "start": 761
+        },
+        {
+          "end": 901,
+          "line": 18,
+          "locator": "line:18",
+          "start": 831
+        },
+        {
+          "end": 933,
+          "line": 19,
+          "locator": "line:19",
+          "start": 903
+        }
+      ],
+      "text": "Date: Fri, 10 Mar 2023 17:00:00 -0800\n\nFrom: Grace Lin <glin@llassociates.com>\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nSubject: Interim findings memo\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nJohn, interim findings memo attached. Short version: the complaint tracks with what custodian communications show so far, both on land eligibility and on Bellhaven's broker registration gap. We should discuss with Elena and Rob soon.\n\nGrace Lin\n\nPartner | L&L Associates LLP\n\n510 California Street, Suite 2400, San Francisco, CA 94104\n\nDirect: (415) 555-0121 | glin@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\n\nmay contain information that is privileged, confidential, and exempt from\n\ndisclosure under applicable law. It is intended solely for the named\n\nrecipient(s). If you received this message in error, please notify the\n\nsender and destroy all copies."
+    },
+    {
+      "document_id": "EMAIL-051",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/John_Ellery/EMAIL-051_Privileged _ internal review status update.eml",
+        "source_sha256": "01ab7d5218494ff4623217f31baa76ec320b112707235ef388700dd540c892c3",
+        "text_sha256": "64bade2084ef8b96c3f2dc7da9ab14c5b83a204a99cc0bb572625735bf6809b7"
+      },
+      "source_date": "2023-03-15T10:20:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 84,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 132,
+          "line": 3,
+          "locator": "line:3",
+          "start": 86
+        },
+        {
+          "end": 185,
+          "line": 4,
+          "locator": "line:4",
+          "start": 134
+        },
+        {
+          "end": 238,
+          "line": 5,
+          "locator": "line:5",
+          "start": 187
+        },
+        {
+          "end": 307,
+          "line": 7,
+          "locator": "line:7",
+          "start": 240
+        },
+        {
+          "end": 476,
+          "line": 9,
+          "locator": "line:9",
+          "start": 309
+        },
+        {
+          "end": 489,
+          "line": 11,
+          "locator": "line:11",
+          "start": 478
+        },
+        {
+          "end": 504,
+          "line": 12,
+          "locator": "line:12",
+          "start": 491
+        },
+        {
+          "end": 535,
+          "line": 13,
+          "locator": "line:13",
+          "start": 506
+        },
+        {
+          "end": 588,
+          "line": 14,
+          "locator": "line:14",
+          "start": 537
+        },
+        {
+          "end": 632,
+          "line": 15,
+          "locator": "line:15",
+          "start": 590
+        },
+        {
+          "end": 707,
+          "line": 17,
+          "locator": "line:17",
+          "start": 634
+        },
+        {
+          "end": 782,
+          "line": 18,
+          "locator": "line:18",
+          "start": 709
+        },
+        {
+          "end": 825,
+          "line": 19,
+          "locator": "line:19",
+          "start": 784
+        },
+        {
+          "end": 853,
+          "line": 21,
+          "locator": "line:21",
+          "start": 827
+        },
+        {
+          "end": 894,
+          "line": 22,
+          "locator": "line:22",
+          "start": 855
+        },
+        {
+          "end": 932,
+          "line": 23,
+          "locator": "line:23",
+          "start": 896
+        },
+        {
+          "end": 977,
+          "line": 24,
+          "locator": "line:24",
+          "start": 934
+        },
+        {
+          "end": 1009,
+          "line": 25,
+          "locator": "line:25",
+          "start": 979
+        },
+        {
+          "end": 1078,
+          "line": 27,
+          "locator": "line:27",
+          "start": 1011
+        },
+        {
+          "end": 1313,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1080
+        },
+        {
+          "end": 1324,
+          "line": 31,
+          "locator": "line:31",
+          "start": 1315
+        },
+        {
+          "end": 1354,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1326
+        },
+        {
+          "end": 1414,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1356
+        },
+        {
+          "end": 1462,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1416
+        },
+        {
+          "end": 1538,
+          "line": 36,
+          "locator": "line:36",
+          "start": 1464
+        },
+        {
+          "end": 1613,
+          "line": 37,
+          "locator": "line:37",
+          "start": 1540
+        },
+        {
+          "end": 1683,
+          "line": 38,
+          "locator": "line:38",
+          "start": 1615
+        },
+        {
+          "end": 1755,
+          "line": 39,
+          "locator": "line:39",
+          "start": 1685
+        },
+        {
+          "end": 1787,
+          "line": 40,
+          "locator": "line:40",
+          "start": 1757
+        }
+      ],
+      "text": "Date: Wed, 15 Mar 2023 10:20:00 -0700\n\nFrom: John Ellery <jellery@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nCc: Robert Denniston <rdenniston@cascadetimber.com>\n\nSubject: Privileged \u2014 internal review status update\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nElena, Rob \u2014 this update and Grace's attached interim findings are privileged. We should plan time this week to discuss next steps given what the review is turning up.\n\nJohn Ellery\n\nHead of Legal\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0103 | jellery@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Grace Lin <glin@llassociates.com>\n\nSent: Friday, March 10, 2023 5:00 PM\n\nTo: John Ellery <jellery@cascadetimber.com>\n\nSubject: Interim findings memo\n\n*** PRIVILEGED AND CONFIDENTIAL \u2014 ATTORNEY-CLIENT COMMUNICATION ***\n\nJohn, interim findings memo attached. Short version: the complaint tracks with what custodian communications show so far, both on land eligibility and on Bellhaven's broker registration gap. We should discuss with Elena and Rob soon.\n\nGrace Lin\n\nPartner | L&L Associates LLP\n\n510 California Street, Suite 2400, San Francisco, CA 94104\n\nDirect: (415) 555-0121 | glin@llassociates.com\n\nPRIVILEGED & CONFIDENTIAL \u2014 This communication, including any attachments,\n\nmay contain information that is privileged, confidential, and exempt from\n\ndisclosure under applicable law. It is intended solely for the named\n\nrecipient(s). If you received this message in error, please notify the\n\nsender and destroy all copies."
+    },
+    {
+      "document_id": "EMAIL-052",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-052_Coastal Solar _ board update needed.eml",
+        "source_sha256": "53a74ace03f3ab374b9ae0728a2688f1578f3d1d5f8a0c8c75e31a07910434bf",
+        "text_sha256": "823650a7cb25dffaa173375d3590de9c89be7039c6508062ab70cf09eb6a8d7c"
+      },
+      "source_date": "2023-03-20T08:40:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 87,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 130,
+          "line": 3,
+          "locator": "line:3",
+          "start": 89
+        },
+        {
+          "end": 176,
+          "line": 4,
+          "locator": "line:4",
+          "start": 132
+        },
+        {
+          "end": 415,
+          "line": 6,
+          "locator": "line:6",
+          "start": 178
+        },
+        {
+          "end": 430,
+          "line": 8,
+          "locator": "line:8",
+          "start": 417
+        },
+        {
+          "end": 455,
+          "line": 9,
+          "locator": "line:9",
+          "start": 432
+        },
+        {
+          "end": 486,
+          "line": 10,
+          "locator": "line:10",
+          "start": 457
+        },
+        {
+          "end": 539,
+          "line": 11,
+          "locator": "line:11",
+          "start": 488
+        },
+        {
+          "end": 584,
+          "line": 12,
+          "locator": "line:12",
+          "start": 541
+        },
+        {
+          "end": 659,
+          "line": 14,
+          "locator": "line:14",
+          "start": 586
+        },
+        {
+          "end": 734,
+          "line": 15,
+          "locator": "line:15",
+          "start": 661
+        },
+        {
+          "end": 777,
+          "line": 16,
+          "locator": "line:16",
+          "start": 736
+        }
+      ],
+      "text": "Date: Mon, 20 Mar 2023 08:40:00 -0700\n\nFrom: Elena Marlowe <emarlowe@cascadetimber.com>\n\nTo: Marcus Webb <mwebb@cascadetimber.com>\n\nSubject: Coastal Solar \u2014 board update needed\n\nMarcus, wanted to give you a heads-up ahead of the next board meeting \u2014 we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet, but I'd rather you hear it from me first.\n\nElena Marlowe\n\nChief Executive Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0101 | emarlowe@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-053",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-053_RE_ Coastal Solar _ board update needed.eml",
+        "source_sha256": "bbfe69741338e61ac8524dfee1192e2ba84958f23e7e50c8e98a95dd4415e980",
+        "text_sha256": "06f253a937209692e7c6561b275f1b0ad3972118e654d37c8302cf9276731a27"
+      },
+      "source_date": "2023-03-22T12:15:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 82,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 130,
+          "line": 3,
+          "locator": "line:3",
+          "start": 84
+        },
+        {
+          "end": 180,
+          "line": 4,
+          "locator": "line:4",
+          "start": 132
+        },
+        {
+          "end": 325,
+          "line": 6,
+          "locator": "line:6",
+          "start": 182
+        },
+        {
+          "end": 338,
+          "line": 8,
+          "locator": "line:8",
+          "start": 327
+        },
+        {
+          "end": 351,
+          "line": 9,
+          "locator": "line:9",
+          "start": 340
+        },
+        {
+          "end": 382,
+          "line": 10,
+          "locator": "line:10",
+          "start": 353
+        },
+        {
+          "end": 435,
+          "line": 11,
+          "locator": "line:11",
+          "start": 384
+        },
+        {
+          "end": 477,
+          "line": 12,
+          "locator": "line:12",
+          "start": 437
+        },
+        {
+          "end": 552,
+          "line": 14,
+          "locator": "line:14",
+          "start": 479
+        },
+        {
+          "end": 627,
+          "line": 15,
+          "locator": "line:15",
+          "start": 554
+        },
+        {
+          "end": 670,
+          "line": 16,
+          "locator": "line:16",
+          "start": 629
+        },
+        {
+          "end": 698,
+          "line": 18,
+          "locator": "line:18",
+          "start": 672
+        },
+        {
+          "end": 748,
+          "line": 19,
+          "locator": "line:19",
+          "start": 700
+        },
+        {
+          "end": 786,
+          "line": 20,
+          "locator": "line:20",
+          "start": 750
+        },
+        {
+          "end": 829,
+          "line": 21,
+          "locator": "line:21",
+          "start": 788
+        },
+        {
+          "end": 875,
+          "line": 22,
+          "locator": "line:22",
+          "start": 831
+        },
+        {
+          "end": 1114,
+          "line": 24,
+          "locator": "line:24",
+          "start": 877
+        },
+        {
+          "end": 1129,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1116
+        },
+        {
+          "end": 1154,
+          "line": 27,
+          "locator": "line:27",
+          "start": 1131
+        },
+        {
+          "end": 1185,
+          "line": 28,
+          "locator": "line:28",
+          "start": 1156
+        },
+        {
+          "end": 1238,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1187
+        },
+        {
+          "end": 1283,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1240
+        },
+        {
+          "end": 1358,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1285
+        },
+        {
+          "end": 1433,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1360
+        },
+        {
+          "end": 1476,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1435
+        }
+      ],
+      "text": "Date: Wed, 22 Mar 2023 12:15:00 -0700\n\nFrom: Marcus Webb <mwebb@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: RE: Coastal Solar \u2014 board update needed\n\nAppreciate you flagging it, Elena. Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum.\n\nMarcus Webb\n\nBoard Chair\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0105 | mwebb@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSent: Monday, March 20, 2023 8:40 AM\n\nTo: Marcus Webb <mwebb@cascadetimber.com>\n\nSubject: Coastal Solar \u2014 board update needed\n\nMarcus, wanted to give you a heads-up ahead of the next board meeting \u2014 we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet, but I'd rather you hear it from me first.\n\nElena Marlowe\n\nChief Executive Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0101 | emarlowe@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    }
+  ],
+  "limitations": [
+    "This dossier includes evaluator proofs and is excluded from observations.",
+    "No live legal research, global writes, real sending or model runs performed.",
+    "No absence inferred from failed/unverified OCR; unsupported choices remain unknown.",
+    "Source-dependent knowledge states use report availability at the episode cutoff."
+  ]
+}

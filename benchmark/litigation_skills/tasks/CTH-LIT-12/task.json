@@ -1,0 +1,585 @@
+{
+  "task_id": "CTH-LIT-12",
+  "skill": "deposition-prep",
+  "title": "Tom Reyes source-founded examination outline",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-12-31T23:59:59-08:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-10",
+    "CTH-LIT-11"
+  ],
+  "instruction": "Prepare a prospective Tom Reyes dossier and examination outline. Establish role and personal-document foundations, compare warning/conduct and inconsistent versions, and identify questions for explanation. No deposition is scheduled or corporate designation supplied; do not write testimony in the witness’s voice. Write the declared local artifact and submit the evidence-backed findings. Every required support/counter proposition must be cited from read source text. No sending, filing, live research, global profile or real calendar actions. Task parameters select this simulated exercise; they are not new historical events.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "What role and procedural posture can the dossier establish?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "witness": {
+            "type": "string",
+            "enum": [
+              "Tom Reyes",
+              "John Ellery"
+            ],
+            "maxLength": 2048
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "Land Acquisition Manager",
+              "CTH counsel",
+              "auditor"
+            ],
+            "maxLength": 2048
+          },
+          "organization": {
+            "type": "string",
+            "enum": [
+              "Alder Point Partners",
+              "Cascade Timber Holdings"
+            ],
+            "maxLength": 2048
+          },
+          "testimony_status": {
+            "type": "string",
+            "enum": [
+              "documents_only",
+              "sworn_testimony"
+            ],
+            "maxLength": 2048
+          },
+          "designation": {
+            "type": "string",
+            "enum": [
+              "not_supplied",
+              "corporate_representative"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "witness",
+          "role",
+          "organization",
+          "testimony_status",
+          "designation"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F02",
+      "question": "Build the warning/continuation topic: what documents, contrast and follow-up should be tested?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "foundation": {
+            "type": "string",
+            "enum": [
+              "authenticate_march_warning_and_november_followup",
+              "assume_authentication"
+            ],
+            "maxLength": 2048
+          },
+          "contrast": {
+            "type": "string",
+            "enum": [
+              "requested_reverification_vs_not_done",
+              "verification_completed"
+            ],
+            "maxLength": 2048
+          },
+          "followup": {
+            "type": "string",
+            "enum": [
+              "ask_who_authorized_proceeding_and_what_occurred",
+              "assert_witness_committed_fraud"
+            ],
+            "maxLength": 2048
+          },
+          "premise": {
+            "type": "string",
+            "enum": [
+              "documented_statements_not_assumed_testimony",
+              "prior_sworn_admission"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "foundation",
+          "contrast",
+          "followup",
+          "premise"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Build the broker topic without ignoring the mixed contemporaneous message.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "foundation": {
+            "type": "string",
+            "enum": [
+              "authenticate_renewal_and_intake_messages",
+              "assume_contract_proves_license"
+            ],
+            "maxLength": 2048
+          },
+          "confrontation": {
+            "type": "string",
+            "enum": [
+              "continued_marketing_despite_pending_renewal",
+              "no_renewal_issue"
+            ],
+            "maxLength": 2048
+          },
+          "explanation": {
+            "type": "string",
+            "enum": [
+              "ask_how_intake_encouragement_related_to_holdoff",
+              "omit_encouragement"
+            ],
+            "maxLength": 2048
+          },
+          "issuance": {
+            "type": "string",
+            "enum": [
+              "require_actual_state_record",
+              "infer_from_filing"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "foundation",
+          "confrontation",
+          "explanation",
+          "issuance"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Build a version-control exhibit sequence for CPP’s missing allocation page.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "controlling_source": {
+            "type": "string",
+            "enum": [
+              "dated_delivery_register",
+              "reservation_sheet"
+            ],
+            "maxLength": 2048
+          },
+          "cpp_missing_parcel": {
+            "type": "string",
+            "enum": [
+              "NW-01",
+              "NW-07"
+            ],
+            "maxLength": 2048
+          },
+          "face_slice": {
+            "type": "integer"
+          },
+          "older_version": {
+            "type": "string",
+            "enum": [
+              "superseded_reservation_sheet",
+              "destroyed"
+            ],
+            "maxLength": 2048
+          },
+          "followup": {
+            "type": "string",
+            "enum": [
+              "authenticate_original_register_and_delivery",
+              "replace_original_without_history"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "controlling_source",
+          "cpp_missing_parcel",
+          "face_slice",
+          "older_version",
+          "followup"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F05",
+      "question": "What limits must accompany the corrected allocation and follow-up questions?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "allocation_check": {
+            "type": "string",
+            "enum": [
+              "source_reference_only",
+              "eligibility_audit"
+            ],
+            "maxLength": 2048
+          },
+          "eligibility": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "cleared"
+            ],
+            "maxLength": 2048
+          },
+          "question_target": {
+            "type": "string",
+            "enum": [
+              "underlying_acreage_and_screening_records",
+              "admit_all_credits_valid"
+            ],
+            "maxLength": 2048
+          },
+          "answer_prediction": {
+            "type": "string",
+            "enum": [
+              "none",
+              "witness_will_confess"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "allocation_check",
+          "eligibility",
+          "question_target",
+          "answer_prediction"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "witness/tom-reyes-outline.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "prospective_attorney_outline",
+            "approved_final",
+            "sent"
+          ],
+          "maxLength": 2048
+        },
+        "externally_sent": {
+          "type": "boolean"
+        },
+        "authority_confirmed": {
+          "type": "boolean"
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "witness": {
+                  "type": "string",
+                  "enum": [
+                    "Tom Reyes",
+                    "John Ellery"
+                  ],
+                  "maxLength": 2048
+                },
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "Land Acquisition Manager",
+                    "CTH counsel",
+                    "auditor"
+                  ],
+                  "maxLength": 2048
+                },
+                "organization": {
+                  "type": "string",
+                  "enum": [
+                    "Alder Point Partners",
+                    "Cascade Timber Holdings"
+                  ],
+                  "maxLength": 2048
+                },
+                "testimony_status": {
+                  "type": "string",
+                  "enum": [
+                    "documents_only",
+                    "sworn_testimony"
+                  ],
+                  "maxLength": 2048
+                },
+                "designation": {
+                  "type": "string",
+                  "enum": [
+                    "not_supplied",
+                    "corporate_representative"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "witness",
+                "role",
+                "organization",
+                "testimony_status",
+                "designation"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "foundation": {
+                  "type": "string",
+                  "enum": [
+                    "authenticate_march_warning_and_november_followup",
+                    "assume_authentication"
+                  ],
+                  "maxLength": 2048
+                },
+                "contrast": {
+                  "type": "string",
+                  "enum": [
+                    "requested_reverification_vs_not_done",
+                    "verification_completed"
+                  ],
+                  "maxLength": 2048
+                },
+                "followup": {
+                  "type": "string",
+                  "enum": [
+                    "ask_who_authorized_proceeding_and_what_occurred",
+                    "assert_witness_committed_fraud"
+                  ],
+                  "maxLength": 2048
+                },
+                "premise": {
+                  "type": "string",
+                  "enum": [
+                    "documented_statements_not_assumed_testimony",
+                    "prior_sworn_admission"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "foundation",
+                "contrast",
+                "followup",
+                "premise"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "foundation": {
+                  "type": "string",
+                  "enum": [
+                    "authenticate_renewal_and_intake_messages",
+                    "assume_contract_proves_license"
+                  ],
+                  "maxLength": 2048
+                },
+                "confrontation": {
+                  "type": "string",
+                  "enum": [
+                    "continued_marketing_despite_pending_renewal",
+                    "no_renewal_issue"
+                  ],
+                  "maxLength": 2048
+                },
+                "explanation": {
+                  "type": "string",
+                  "enum": [
+                    "ask_how_intake_encouragement_related_to_holdoff",
+                    "omit_encouragement"
+                  ],
+                  "maxLength": 2048
+                },
+                "issuance": {
+                  "type": "string",
+                  "enum": [
+                    "require_actual_state_record",
+                    "infer_from_filing"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "foundation",
+                "confrontation",
+                "explanation",
+                "issuance"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "controlling_source": {
+                  "type": "string",
+                  "enum": [
+                    "dated_delivery_register",
+                    "reservation_sheet"
+                  ],
+                  "maxLength": 2048
+                },
+                "cpp_missing_parcel": {
+                  "type": "string",
+                  "enum": [
+                    "NW-01",
+                    "NW-07"
+                  ],
+                  "maxLength": 2048
+                },
+                "face_slice": {
+                  "type": "integer"
+                },
+                "older_version": {
+                  "type": "string",
+                  "enum": [
+                    "superseded_reservation_sheet",
+                    "destroyed"
+                  ],
+                  "maxLength": 2048
+                },
+                "followup": {
+                  "type": "string",
+                  "enum": [
+                    "authenticate_original_register_and_delivery",
+                    "replace_original_without_history"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "controlling_source",
+                "cpp_missing_parcel",
+                "face_slice",
+                "older_version",
+                "followup"
+              ],
+              "additionalProperties": false
+            },
+            "F05": {
+              "type": "object",
+              "properties": {
+                "allocation_check": {
+                  "type": "string",
+                  "enum": [
+                    "source_reference_only",
+                    "eligibility_audit"
+                  ],
+                  "maxLength": 2048
+                },
+                "eligibility": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "cleared"
+                  ],
+                  "maxLength": 2048
+                },
+                "question_target": {
+                  "type": "string",
+                  "enum": [
+                    "underlying_acreage_and_screening_records",
+                    "admit_all_credits_valid"
+                  ],
+                  "maxLength": 2048
+                },
+                "answer_prediction": {
+                  "type": "string",
+                  "enum": [
+                    "none",
+                    "witness_will_confess"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "allocation_check",
+                "eligibility",
+                "question_target",
+                "answer_prediction"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05"
+          ],
+          "additionalProperties": false
+        },
+        "question_order": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "F01",
+              "F02",
+              "F03",
+              "F04",
+              "F05"
+            ],
+            "maxLength": 2048
+          },
+          "uniqueItems": true,
+          "minItems": 5,
+          "maxItems": 5
+        }
+      },
+      "required": [
+        "status",
+        "externally_sent",
+        "authority_confirmed",
+        "content",
+        "question_order"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Drafts remain local and unapproved.",
+    "Unknown authority, missing facts and differing evidence scopes stay explicit.",
+    "Evidence dates are distinct from dates of later reports; never infer completion from a plan."
+  ],
+  "policy_sha256": "502587b5cbc39e72e4d67f441b466cfab1d023e3d989a0b03b9dd8d066b923d5",
+  "schema_sha256": "251da1ad03d0ca771a39dd81ac3de2d1694807c5faf1c383daae23edf751622c",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "oracle_sha256": "29f9cb7226478157e931a90a86a493677187ede20a2de566db807f2803750be7",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

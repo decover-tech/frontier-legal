@@ -1,0 +1,34 @@
+{
+  "counts_by_extraction_status": {
+    "complete_text": 1862,
+    "no_text_detected": 81,
+    "ocr_unverified": 821
+  },
+  "counts_by_kind": {
+    "attachment": 331,
+    "contract": 21,
+    "email": 1486,
+    "exhibit": 38,
+    "inline_image": 884,
+    "protocol": 4
+  },
+  "document_count": 2764,
+  "failure_document_ids": [],
+  "intentional_rule_projections": 3,
+  "limitations": [
+    "No missing/empty extraction is evidence of absence.",
+    "OCR transcriptions are unverified and must not decide disputed exact text without page review.",
+    "Paragraph/page locators refer to the original container, not event time.",
+    "Only email Date is machine assigned as source_date; attachment creation/execution dates remain null.",
+    "DOCX media, spreadsheet charts and presentation images are not OCRed.",
+    "Three protocols have rule-only public projections; full text and omitted-paragraph audit are evaluator-only manifest provenance. The summons instrument is complete.",
+    "No filesystem indexes, authoring notes, hidden gold or analysis labels are included in public documents."
+  ],
+  "ocr_human_verified": false,
+  "unique_extracted_payloads": 173,
+  "unique_pdf_native_text_pages": 81,
+  "unique_pdf_ocr_attempted_pages": 34,
+  "unique_pdf_ocr_text_pages": 34,
+  "unique_pdf_pages": 115,
+  "version": "cascade-evidence/1.0.0"
+}

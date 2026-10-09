@@ -1,0 +1,361 @@
+{
+  "task_id": "CTH-LIT-02",
+  "author_review_status": "author_checked",
+  "independent_review_status": "pending",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "previous_report_on": "2023-03-20",
+          "previous_status": "internal_review_nothing_final",
+          "previous_cadence": null,
+          "new_report_on": "2023-03-22"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "old_status",
+          "description": "March20 report is source for unchangedreviewstatus.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-052",
+              "locator": "line:6",
+              "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+            },
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:24",
+              "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+            }
+          ]
+        },
+        {
+          "id": "later_cadence",
+          "description": "March22 reply gives newrequest.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:6",
+              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [],
+      "notes": ""
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "requester": "Marcus Webb",
+          "minimum_cadence": "monthly",
+          "until": "Coastal_Solar_issue_resolved",
+          "approval_to_finalize_global_setup": false
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "direction",
+          "description": "Requested minimumandduration.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:6",
+              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+            }
+          ]
+        },
+        {
+          "id": "identified_requester",
+          "description": "Email sender identifies Marcus with signaturecontext.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:2",
+              "quote": "From: Marcus Webb <mwebb@cascadetimber.com>"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [],
+      "notes": "Requester role read from the same signature segment context; citation may be the complete signature section via an eligible locator covering actual role."
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "permitted_change": "matter_board_reporting_frequency",
+          "global_risk_framework": null,
+          "settlement_authority": null,
+          "practice_role": null,
+          "unrelated_sections": "preserve"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "narrow_subject",
+          "description": "Scope is ongoingCoastal review, not globalpreferences.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:24",
+              "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "limited_directive",
+          "description": "Frequency instruction doesnot supply risk/settlement rolechoices.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:6",
+              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "apply_scope": "sandbox_draft_only",
+          "history_action": "append_source_backed_change",
+          "downstream_uses": [
+            "matter_briefing",
+            "outside_counsel_status_preparation"
+          ],
+          "historical_board_reports_proved_sent": false,
+          "substantive_review_conclusion": "still_interim"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "cadence_source",
+          "description": "Use for futurepreparation, not proof of sentreports.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:6",
+              "quote": "Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "interim_restriction",
+          "description": "Still nothingfinal in sourcecontext.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-052",
+              "locator": "line:6",
+              "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+            },
+            {
+              "document_id": "EMAIL-053",
+              "locator": "line:24",
+              "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/scope",
+      "kind": "preserve"
+    },
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/user_settings",
+      "kind": "preserve"
+    },
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/source_status",
+      "kind": "preserve"
+    },
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/global_config_written",
+      "kind": "preserve"
+    },
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/board_reporting/minimum_cadence",
+      "kind": "equals",
+      "value": "monthly"
+    },
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/history",
+      "kind": "append_only",
+      "min_new": 1
+    },
+    {
+      "path": "profile/scoped-profile.json",
+      "pointer": "/history/1",
+      "kind": "equals",
+      "value": {
+        "recorded_on": "2023-03-22",
+        "type": "source_backed_reporting_change",
+        "minimum_cadence": "monthly",
+        "source_event_on": "2023-03-22"
+      }
+    },
+    {
+      "path": "profile/change-review.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_change"
+    },
+    {
+      "path": "profile/change-review.json",
+      "pointer": "/findings/F01",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "profile/change-review.json",
+      "pointer": "/findings/F02",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "profile/change-review.json",
+      "pointer": "/findings/F03",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "profile/change-review.json",
+      "pointer": "/findings/F04",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    }
+  ],
+  "control_artifacts": {
+    "profile/scoped-profile.json": {
+      "scope": "matter_only",
+      "board_reporting": {
+        "minimum_cadence": "monthly"
+      },
+      "user_settings": {
+        "practice_role": null,
+        "risk_framework": null,
+        "settlement_authority": null,
+        "house_style": null
+      },
+      "source_status": "internal_review_nothing_final",
+      "history": [
+        {
+          "recorded_on": "2023-03-20",
+          "type": "draft_source_snapshot",
+          "source_event": "internal_review_nothing_final"
+        },
+        {
+          "recorded_on": "2023-03-22",
+          "type": "source_backed_reporting_change",
+          "minimum_cadence": "monthly",
+          "source_event_on": "2023-03-22"
+        }
+      ],
+      "global_config_written": false
+    },
+    "profile/change-review.json": {
+      "status": "draft_change",
+      "findings": {
+        "F01": {
+          "previous_report_on": "2023-03-20",
+          "previous_status": "internal_review_nothing_final",
+          "previous_cadence": null,
+          "new_report_on": "2023-03-22"
+        },
+        "F02": {
+          "requester": "Marcus Webb",
+          "minimum_cadence": "monthly",
+          "until": "Coastal_Solar_issue_resolved",
+          "approval_to_finalize_global_setup": false
+        },
+        "F03": {
+          "permitted_change": "matter_board_reporting_frequency",
+          "global_risk_framework": null,
+          "settlement_authority": null,
+          "practice_role": null,
+          "unrelated_sections": "preserve"
+        },
+        "F04": {
+          "apply_scope": "sandbox_draft_only",
+          "history_action": "append_source_backed_change",
+          "downstream_uses": [
+            "matter_briefing",
+            "outside_counsel_status_preparation"
+          ],
+          "historical_board_reports_proved_sent": false,
+          "substantive_review_conclusion": "still_interim"
+        }
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_source_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "no_read_provenance",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "monthly_becomes_weekly",
+      "kind": "answer_field",
+      "finding": "F02",
+      "pointer": "/minimum_cadence",
+      "value": "weekly"
+    },
+    {
+      "name": "global_authority_inferred",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/settlement_authority",
+      "value": "board_chair_unlimited"
+    },
+    {
+      "name": "scope_counter_omitted",
+      "kind": "drop_counter",
+      "finding": "F03"
+    },
+    {
+      "name": "history_overwritten",
+      "kind": "artifact_field",
+      "path": "profile/scoped-profile.json",
+      "pointer": "/history/0/type",
+      "value": "profile_finalized"
+    },
+    {
+      "name": "unrelated_house_style_filled",
+      "kind": "artifact_field",
+      "path": "profile/scoped-profile.json",
+      "pointer": "/user_settings/house_style",
+      "value": "aggressive"
+    },
+    {
+      "name": "global_change_claimed",
+      "kind": "artifact_field",
+      "path": "profile/scoped-profile.json",
+      "pointer": "/global_config_written",
+      "value": true
+    }
+  ]
+}

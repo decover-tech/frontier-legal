@@ -1,0 +1,220 @@
+{
+  "task_id": "CTH-LIT-07",
+  "author": "privilege_builder",
+  "independent_review_status": "pending",
+  "specification_reference": "claude-for-legal/litigation-legal/skills/demand-draft/SKILL.md",
+  "review_method": "Read actual native email text and cited attachment/contract extractions, inspect contrary context and original-versus-quoted equivalents; no hidden labels used.",
+  "findings": [
+    {
+      "question": "What is the proper drafting disposition given the prerequisite and direct-request evidence?",
+      "answer": {
+        "disposition": "hold_for_missing_instructions",
+        "complete_letter": false,
+        "send_status": "not_sent"
+      },
+      "support": [
+        {
+          "id": "external_scope",
+          "description": "Cascade controls explicitly exclude Bellhaven native systems",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            }
+          ]
+        },
+        {
+          "id": "external_inquiry",
+          "description": "Bellhaven asks about preserving its own files",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-070",
+              "locator": "line:6",
+              "quote": "Derek, saw the pause notice from Alder Point. Given the subpoena, should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?"
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": ""
+    },
+    {
+      "question": "Select a factual preservation scope clause for internal review without claiming technical completion.",
+      "answer": {
+        "recipient": "Bellhaven Advisory",
+        "request_component": "preserve_native_program_files_and_confirm_scope",
+        "claim_existing_coverage": false
+      },
+      "support": [
+        {
+          "id": "external_scope",
+          "description": "Cascade controls explicitly exclude Bellhaven native systems",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            }
+          ]
+        },
+        {
+          "id": "preserve_scope",
+          "description": "Actual notice scope is all program records",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-024",
+              "locator": "line:6",
+              "quote": "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "internal_controls",
+          "description": "Internal technical completion has different scope",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-060",
+              "locator": "line:6",
+              "quote": "Following today's legal hold notice: auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "May the candidate letter allege that Nina’s departure destroyed the mailbox?",
+      "answer": {
+        "allegation": "exclude_unsupported_deletion",
+        "source_state": "disabled_not_deleted",
+        "preserve_confirmation": "retain_export_and_hold"
+      },
+      "support": [
+        {
+          "id": "later_report",
+          "description": "Later report records export before departure and disablement without deletion",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1096",
+              "locator": "line:6",
+              "quote": "Per John's direction, her mailbox was exported before her last day, and the account was disabled on June 30 but not deleted."
+            }
+          ]
+        },
+        {
+          "id": "continued_restriction",
+          "description": "Later counsel directs continuing hold and controls access",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1155",
+              "locator": "line:6",
+              "quote": "Dan — for the file, on Nina Alvarez's account: it stays disabled and on hold, and the export copy stays on the review share."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "prior_gap",
+          "description": "Earlier instruction was not completion evidence",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-062",
+              "locator": "line:6",
+              "quote": "Thanks Wendy — yes, please coordinate with Alder Point to preserve and export her mailbox before deprovisioning."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "Can the IRS instrument’s deadline supply a deadline or sanctions clause for this new private request?",
+      "answer": {
+        "response_deadline": null,
+        "sanctions_authority": null,
+        "deadline_source": "requires_new_instruction",
+        "instrument_scope": "different_government_request"
+      },
+      "support": [
+        {
+          "id": "instrument_context",
+          "description": "Actual instrument describes a civil examination, not pleaded counts",
+          "alternatives": [
+            {
+              "document_id": "DOC-568de2fba6d1c11aff9a",
+              "locator": "document:paragraph:18",
+              "quote": "in connection with the Internal Revenue Service's civil examination of the business venture known as the \"Coastal Solar Credit Program,\" developed, marketed, financed, and administered in whole or in part by Cascade Timber Holdings, Inc. and its affiliates."
+            }
+          ]
+        },
+        {
+          "id": "external_scope",
+          "description": "Cascade controls explicitly exclude Bellhaven native systems",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": "Task fixture explicitly withholds response window/legal basis. Do not import dates from a different instrument."
+    },
+    {
+      "question": "What should the internal drafting checklist preserve about legal strategy and consequential action?",
+      "answer": {
+        "internal_analysis": "exclude_from_external_candidate_text",
+        "approval": "not_established",
+        "execution": "no_send_or_calendar"
+      },
+      "support": [
+        {
+          "id": "internal_strategy",
+          "description": "Actual legal advice limits external disclosure of analysis",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:9",
+              "quote": "Don't send Moss & Lane the workbook or anything from this chain. Sharing counsel's analysis with the auditors creates a waiver problem we don't need."
+            }
+          ]
+        },
+        {
+          "id": "ordinary_scope",
+          "description": "Legal advice separates safe ordinary facts from analysis",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1473",
+              "locator": "line:11",
+              "quote": "The Q2 support should be the ordinary close support and nothing else."
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": "Auditor example supports the need to segregate internal analysis; it does not prescribe this demand’s wording or actual waiver law."
+    }
+  ],
+  "source_hashes": {
+    "EMAIL-1066": "4e82935c7b1a81f5420cb91d10ac357aae19b6082c817ca4a4df709d7f449b05",
+    "EMAIL-070": "eaf7a4404196c9de81e34b8662a6ecc2a5446ff0c4957b83082ecc59454f819f",
+    "EMAIL-024": "5a2ae2d91bfb313f774fb1b4c56634359bf4b90276c0b041f4b00081d83435ef",
+    "EMAIL-060": "8b5ae3b4b089bf8e26ab561c50315776216f87d406873c091d673b280f6f1864",
+    "EMAIL-1096": "a88814930a6d66caf80575ca483aa60af9c42e9e02f1de5d4b96c2d56a586dba",
+    "EMAIL-1155": "0cfd25005fa97675f9b61de232ca2b10376cfd73cb29651045e7df075d93ff2a",
+    "EMAIL-062": "79b398cf387e9a084ec6b0e1d87af23d73f299a807d3c2ce38df97d9d83b5359",
+    "DOC-568de2fba6d1c11aff9a": "5efceea70adfe2de16944e974da6d4672f97e8969359558648d003ead9454c75",
+    "EMAIL-1473": "51630adabb406d3a906dbd8014140c8831751c02791b0146c16ed303099065ac"
+  },
+  "limitations": [
+    "Only reviewed bounded propositions are graded; unenumerated valid alternatives need review.",
+    "No actual legal clearance, sending, filing or attorney approval established.",
+    "Task-provided draft prerequisites are not independent historical evidence."
+  ]
+}

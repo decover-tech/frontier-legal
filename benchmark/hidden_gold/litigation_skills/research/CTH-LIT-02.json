@@ -1,0 +1,307 @@
+{
+  "task_id": "CTH-LIT-02",
+  "authoring_only": true,
+  "reference_skill_commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "reference_skill": "customize",
+  "cutoff": "2023-03-22T23:59:59-07:00",
+  "sources": [
+    {
+      "document_id": "EMAIL-052",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-052_Coastal Solar _ board update needed.eml",
+        "source_sha256": "53a74ace03f3ab374b9ae0728a2688f1578f3d1d5f8a0c8c75e31a07910434bf",
+        "text_sha256": "823650a7cb25dffaa173375d3590de9c89be7039c6508062ab70cf09eb6a8d7c"
+      },
+      "source_date": "2023-03-20T08:40:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 87,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 130,
+          "line": 3,
+          "locator": "line:3",
+          "start": 89
+        },
+        {
+          "end": 176,
+          "line": 4,
+          "locator": "line:4",
+          "start": 132
+        },
+        {
+          "end": 415,
+          "line": 6,
+          "locator": "line:6",
+          "start": 178
+        },
+        {
+          "end": 430,
+          "line": 8,
+          "locator": "line:8",
+          "start": 417
+        },
+        {
+          "end": 455,
+          "line": 9,
+          "locator": "line:9",
+          "start": 432
+        },
+        {
+          "end": 486,
+          "line": 10,
+          "locator": "line:10",
+          "start": 457
+        },
+        {
+          "end": 539,
+          "line": 11,
+          "locator": "line:11",
+          "start": 488
+        },
+        {
+          "end": 584,
+          "line": 12,
+          "locator": "line:12",
+          "start": 541
+        },
+        {
+          "end": 659,
+          "line": 14,
+          "locator": "line:14",
+          "start": 586
+        },
+        {
+          "end": 734,
+          "line": 15,
+          "locator": "line:15",
+          "start": 661
+        },
+        {
+          "end": 777,
+          "line": 16,
+          "locator": "line:16",
+          "start": 736
+        }
+      ],
+      "text": "Date: Mon, 20 Mar 2023 08:40:00 -0700\n\nFrom: Elena Marlowe <emarlowe@cascadetimber.com>\n\nTo: Marcus Webb <mwebb@cascadetimber.com>\n\nSubject: Coastal Solar \u2014 board update needed\n\nMarcus, wanted to give you a heads-up ahead of the next board meeting \u2014 we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet, but I'd rather you hear it from me first.\n\nElena Marlowe\n\nChief Executive Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0101 | emarlowe@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    },
+    {
+      "document_id": "EMAIL-053",
+      "provenance": {
+        "mime_part_index": null,
+        "original_filename": null,
+        "source_path": "data/emails/Custodians/Elena_Marlowe/EMAIL-053_RE_ Coastal Solar _ board update needed.eml",
+        "source_sha256": "bbfe69741338e61ac8524dfee1192e2ba84958f23e7e50c8e98a95dd4415e980",
+        "text_sha256": "06f253a937209692e7c6561b275f1b0ad3972118e654d37c8302cf9276731a27"
+      },
+      "source_date": "2023-03-22T12:15:00-07:00",
+      "extraction": {
+        "failures": [],
+        "native_text_pages": 0,
+        "ocr_attempted_pages": 0,
+        "ocr_human_verified": false,
+        "ocr_text_pages": 0,
+        "pages": null,
+        "status": "complete_text",
+        "unextracted_pages": [],
+        "visual_content_reviewed": false,
+        "warnings": []
+      },
+      "locators": [
+        {
+          "end": 37,
+          "line": 1,
+          "locator": "line:1",
+          "start": 0
+        },
+        {
+          "end": 82,
+          "line": 2,
+          "locator": "line:2",
+          "start": 39
+        },
+        {
+          "end": 130,
+          "line": 3,
+          "locator": "line:3",
+          "start": 84
+        },
+        {
+          "end": 180,
+          "line": 4,
+          "locator": "line:4",
+          "start": 132
+        },
+        {
+          "end": 325,
+          "line": 6,
+          "locator": "line:6",
+          "start": 182
+        },
+        {
+          "end": 338,
+          "line": 8,
+          "locator": "line:8",
+          "start": 327
+        },
+        {
+          "end": 351,
+          "line": 9,
+          "locator": "line:9",
+          "start": 340
+        },
+        {
+          "end": 382,
+          "line": 10,
+          "locator": "line:10",
+          "start": 353
+        },
+        {
+          "end": 435,
+          "line": 11,
+          "locator": "line:11",
+          "start": 384
+        },
+        {
+          "end": 477,
+          "line": 12,
+          "locator": "line:12",
+          "start": 437
+        },
+        {
+          "end": 552,
+          "line": 14,
+          "locator": "line:14",
+          "start": 479
+        },
+        {
+          "end": 627,
+          "line": 15,
+          "locator": "line:15",
+          "start": 554
+        },
+        {
+          "end": 670,
+          "line": 16,
+          "locator": "line:16",
+          "start": 629
+        },
+        {
+          "end": 698,
+          "line": 18,
+          "locator": "line:18",
+          "start": 672
+        },
+        {
+          "end": 748,
+          "line": 19,
+          "locator": "line:19",
+          "start": 700
+        },
+        {
+          "end": 786,
+          "line": 20,
+          "locator": "line:20",
+          "start": 750
+        },
+        {
+          "end": 829,
+          "line": 21,
+          "locator": "line:21",
+          "start": 788
+        },
+        {
+          "end": 875,
+          "line": 22,
+          "locator": "line:22",
+          "start": 831
+        },
+        {
+          "end": 1114,
+          "line": 24,
+          "locator": "line:24",
+          "start": 877
+        },
+        {
+          "end": 1129,
+          "line": 26,
+          "locator": "line:26",
+          "start": 1116
+        },
+        {
+          "end": 1154,
+          "line": 27,
+          "locator": "line:27",
+          "start": 1131
+        },
+        {
+          "end": 1185,
+          "line": 28,
+          "locator": "line:28",
+          "start": 1156
+        },
+        {
+          "end": 1238,
+          "line": 29,
+          "locator": "line:29",
+          "start": 1187
+        },
+        {
+          "end": 1283,
+          "line": 30,
+          "locator": "line:30",
+          "start": 1240
+        },
+        {
+          "end": 1358,
+          "line": 32,
+          "locator": "line:32",
+          "start": 1285
+        },
+        {
+          "end": 1433,
+          "line": 33,
+          "locator": "line:33",
+          "start": 1360
+        },
+        {
+          "end": 1476,
+          "line": 34,
+          "locator": "line:34",
+          "start": 1435
+        }
+      ],
+      "text": "Date: Wed, 22 Mar 2023 12:15:00 -0700\n\nFrom: Marcus Webb <mwebb@cascadetimber.com>\n\nTo: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSubject: RE: Coastal Solar \u2014 board update needed\n\nAppreciate you flagging it, Elena. Let's put a standing item on the board agenda until this is resolved \u2014 I'd like a monthly update at minimum.\n\nMarcus Webb\n\nBoard Chair\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0105 | mwebb@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies.\n\n-----Original Message-----\n\nFrom: Elena Marlowe <emarlowe@cascadetimber.com>\n\nSent: Monday, March 20, 2023 8:40 AM\n\nTo: Marcus Webb <mwebb@cascadetimber.com>\n\nSubject: Coastal Solar \u2014 board update needed\n\nMarcus, wanted to give you a heads-up ahead of the next board meeting \u2014 we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet, but I'd rather you hear it from me first.\n\nElena Marlowe\n\nChief Executive Officer\n\nCascade Timber Holdings, Inc.\n\n1200 Forest Park Way, Suite 900, Portland, OR 97209\n\n(503) 555-0101 | emarlowe@cascadetimber.com\n\nThis message and any attachments are confidential and may be protected by\n\nlegal privilege. If you are not the intended recipient, please notify the\n\nsender immediately and delete all copies."
+    }
+  ],
+  "limitations": [
+    "This dossier includes evaluator proofs and is excluded from observations.",
+    "No live legal research, global writes, real sending or model runs performed.",
+    "No absence inferred from failed/unverified OCR; unsupported choices remain unknown.",
+    "Source-dependent knowledge states use report availability at the episode cutoff."
+  ]
+}

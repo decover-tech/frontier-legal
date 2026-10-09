@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "profile/scoped-profile.json": {
+      "scope": "matter_only",
+      "board_reporting": {
+        "minimum_cadence": null
+      },
+      "user_settings": {
+        "practice_role": null,
+        "risk_framework": null,
+        "settlement_authority": null,
+        "house_style": null
+      },
+      "source_status": "internal_review_nothing_final",
+      "history": [
+        {
+          "recorded_on": "2023-03-20",
+          "type": "draft_source_snapshot",
+          "source_event": "internal_review_nothing_final"
+        }
+      ],
+      "global_config_written": false
+    }
+  },
+  "provenance": [
+    {
+      "artifact_path": "profile/scoped-profile.json",
+      "description": "Task-provided draft March20 snapshot. Null usersettings are unknown, not userpreferences.",
+      "sources": [
+        {
+          "document_id": "EMAIL-052",
+          "locator": "line:6",
+          "quote": "we're in the middle of an internal review of the Coastal Solar program following a compliance complaint. Nothing final yet"
+        }
+      ]
+    }
+  ]
+}

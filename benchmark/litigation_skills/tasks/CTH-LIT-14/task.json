@@ -1,0 +1,591 @@
+{
+  "task_id": "CTH-LIT-14",
+  "skill": "brief-section-drafter",
+  "title": "Defense factual section with explicit concessions",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-12-31T23:59:59-08:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-10",
+    "CTH-LIT-11",
+    "CTH-LIT-13"
+  ],
+  "instruction": "Create a bounded internal written statement-of-facts draft from Cascade’s requested defense perspective. Use structured factual paragraph components with fair adverse facts and measured limits; this task grades record fidelity rather than house style. No filed brief, actual motion, court or adopted defense strategy is supplied. Write the declared local artifact and submit the evidence-backed findings. Every required support/counter proposition must be cited from read source text. No sending, filing, live research, global profile or real calendar actions. Task parameters select this simulated exercise; they are not new historical events.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Frame the early warning and later continuation fairly while keeping actors distinct.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "paragraph_claim": {
+            "type": "string",
+            "enum": [
+              "alder_warning_and_unresolved_reverification",
+              "no_preinquiry_warning"
+            ],
+            "maxLength": 2048
+          },
+          "adverse_fact": {
+            "type": "string",
+            "enum": [
+              "shah_proceeded_as_is",
+              "warning_resolved"
+            ],
+            "maxLength": 2048
+          },
+          "inference_limit": {
+            "type": "string",
+            "enum": [
+              "not_by_itself_all_cascade_knowledge_or_liability",
+              "all_cascade_officers_knew_and_liable"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "paragraph_claim",
+          "adverse_fact",
+          "inference_limit"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F02",
+      "question": "Frame the broker evidence with its contrary context, without equating intake to state authorization.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "paragraph_claim": {
+            "type": "string",
+            "enum": [
+              "pending_renewal_and_continued_marketing",
+              "marketing_stopped_immediately"
+            ],
+            "maxLength": 2048
+          },
+          "context": {
+            "type": "string",
+            "enum": [
+              "holt_encouraged_intake_without_renewal_date",
+              "no_conflicting_instructions"
+            ],
+            "maxLength": 2048
+          },
+          "limit": {
+            "type": "string",
+            "enum": [
+              "no_issued_authorization_in_these_messages",
+              "intake_proves_license"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "paragraph_claim",
+          "context",
+          "limit"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "State the financial estimate accurately, including adverse exposure uncertainty.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "paragraph_claim": {
+            "type": "string",
+            "enum": [
+              "2400000_credit_face_ceiling",
+              "2400000_cash_loss",
+              "2400000_adopted_reserve"
+            ],
+            "maxLength": 2048
+          },
+          "cash_equivalence": {
+            "type": "boolean"
+          },
+          "adopted_liability": {
+            "type": "boolean"
+          },
+          "limit": {
+            "type": "string",
+            "enum": [
+              "penalties_interest_and_acreage_outcome_unresolved",
+              "all_loss_quantified"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "paragraph_claim",
+          "cash_equivalence",
+          "adopted_liability",
+          "limit"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "State the allocation correction as a favorable fact without overstating what it proves.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "paragraph_claim": {
+            "type": "string",
+            "enum": [
+              "dated_register_corrected_cpp_missing_slice",
+              "all_program_records_validated"
+            ],
+            "maxLength": 2048
+          },
+          "parcel": {
+            "type": "string",
+            "enum": [
+              "NW-01",
+              "NW-07"
+            ],
+            "maxLength": 2048
+          },
+          "slice": {
+            "type": "integer"
+          },
+          "limit": {
+            "type": "string",
+            "enum": [
+              "reference_reconciliation_not_eligibility_clearance",
+              "eligibility_cleared"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "paragraph_claim",
+          "parcel",
+          "slice",
+          "limit"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F05",
+      "question": "State later remediation progress and remaining issues without claiming a resolved matter.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "paragraph_claim": {
+            "type": "string",
+            "enum": [
+              "pilot_performed_reference_error_corrected",
+              "no_work_performed",
+              "full_control_pass"
+            ],
+            "maxLength": 2048
+          },
+          "counterpoint": {
+            "type": "string",
+            "enum": [
+              "two_acreage_exceptions_open",
+              "none"
+            ],
+            "maxLength": 2048
+          },
+          "resumption": {
+            "type": "string",
+            "enum": [
+              "not_authorized_by_pilot",
+              "approved"
+            ],
+            "maxLength": 2048
+          },
+          "conclusion": {
+            "type": "string",
+            "enum": [
+              "no_programwide_effectiveness_finding",
+              "effective_and_matter_closed"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "paragraph_claim",
+          "counterpoint",
+          "resumption",
+          "conclusion"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F06",
+      "question": "Reconcile Cascade counsel’s October advice, management’s response, and the later June pause. Distinguish actual management knowledge from inference and later mitigation from an earlier cure.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "counsel_advice": {
+            "type": "string",
+            "enum": [
+              "october_pause_recommended",
+              "no_counsel_warning"
+            ],
+            "maxLength": 2048
+          },
+          "management_response": {
+            "type": "string",
+            "enum": [
+              "deferred_pause_for_business_reasons",
+              "immediate_pause"
+            ],
+            "maxLength": 2048
+          },
+          "later_pause": {
+            "type": "string",
+            "enum": [
+              "june_2023_decision",
+              "october_2022_immediate"
+            ],
+            "maxLength": 2048
+          },
+          "historical_cure": {
+            "type": "string",
+            "enum": [
+              "not_retroactive",
+              "earlier_continuation_cured"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "counsel_advice",
+          "management_response",
+          "later_pause",
+          "historical_cure"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "brief/statement-of-facts.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "internal_draft_for_review",
+            "approved_final",
+            "sent"
+          ],
+          "maxLength": 2048
+        },
+        "externally_sent": {
+          "type": "boolean"
+        },
+        "authority_confirmed": {
+          "type": "boolean"
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "paragraph_claim": {
+                  "type": "string",
+                  "enum": [
+                    "alder_warning_and_unresolved_reverification",
+                    "no_preinquiry_warning"
+                  ],
+                  "maxLength": 2048
+                },
+                "adverse_fact": {
+                  "type": "string",
+                  "enum": [
+                    "shah_proceeded_as_is",
+                    "warning_resolved"
+                  ],
+                  "maxLength": 2048
+                },
+                "inference_limit": {
+                  "type": "string",
+                  "enum": [
+                    "not_by_itself_all_cascade_knowledge_or_liability",
+                    "all_cascade_officers_knew_and_liable"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "paragraph_claim",
+                "adverse_fact",
+                "inference_limit"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "paragraph_claim": {
+                  "type": "string",
+                  "enum": [
+                    "pending_renewal_and_continued_marketing",
+                    "marketing_stopped_immediately"
+                  ],
+                  "maxLength": 2048
+                },
+                "context": {
+                  "type": "string",
+                  "enum": [
+                    "holt_encouraged_intake_without_renewal_date",
+                    "no_conflicting_instructions"
+                  ],
+                  "maxLength": 2048
+                },
+                "limit": {
+                  "type": "string",
+                  "enum": [
+                    "no_issued_authorization_in_these_messages",
+                    "intake_proves_license"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "paragraph_claim",
+                "context",
+                "limit"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "paragraph_claim": {
+                  "type": "string",
+                  "enum": [
+                    "2400000_credit_face_ceiling",
+                    "2400000_cash_loss",
+                    "2400000_adopted_reserve"
+                  ],
+                  "maxLength": 2048
+                },
+                "cash_equivalence": {
+                  "type": "boolean"
+                },
+                "adopted_liability": {
+                  "type": "boolean"
+                },
+                "limit": {
+                  "type": "string",
+                  "enum": [
+                    "penalties_interest_and_acreage_outcome_unresolved",
+                    "all_loss_quantified"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "paragraph_claim",
+                "cash_equivalence",
+                "adopted_liability",
+                "limit"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "paragraph_claim": {
+                  "type": "string",
+                  "enum": [
+                    "dated_register_corrected_cpp_missing_slice",
+                    "all_program_records_validated"
+                  ],
+                  "maxLength": 2048
+                },
+                "parcel": {
+                  "type": "string",
+                  "enum": [
+                    "NW-01",
+                    "NW-07"
+                  ],
+                  "maxLength": 2048
+                },
+                "slice": {
+                  "type": "integer"
+                },
+                "limit": {
+                  "type": "string",
+                  "enum": [
+                    "reference_reconciliation_not_eligibility_clearance",
+                    "eligibility_cleared"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "paragraph_claim",
+                "parcel",
+                "slice",
+                "limit"
+              ],
+              "additionalProperties": false
+            },
+            "F05": {
+              "type": "object",
+              "properties": {
+                "paragraph_claim": {
+                  "type": "string",
+                  "enum": [
+                    "pilot_performed_reference_error_corrected",
+                    "no_work_performed",
+                    "full_control_pass"
+                  ],
+                  "maxLength": 2048
+                },
+                "counterpoint": {
+                  "type": "string",
+                  "enum": [
+                    "two_acreage_exceptions_open",
+                    "none"
+                  ],
+                  "maxLength": 2048
+                },
+                "resumption": {
+                  "type": "string",
+                  "enum": [
+                    "not_authorized_by_pilot",
+                    "approved"
+                  ],
+                  "maxLength": 2048
+                },
+                "conclusion": {
+                  "type": "string",
+                  "enum": [
+                    "no_programwide_effectiveness_finding",
+                    "effective_and_matter_closed"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "paragraph_claim",
+                "counterpoint",
+                "resumption",
+                "conclusion"
+              ],
+              "additionalProperties": false
+            },
+            "F06": {
+              "type": "object",
+              "properties": {
+                "counsel_advice": {
+                  "type": "string",
+                  "enum": [
+                    "october_pause_recommended",
+                    "no_counsel_warning"
+                  ],
+                  "maxLength": 2048
+                },
+                "management_response": {
+                  "type": "string",
+                  "enum": [
+                    "deferred_pause_for_business_reasons",
+                    "immediate_pause"
+                  ],
+                  "maxLength": 2048
+                },
+                "later_pause": {
+                  "type": "string",
+                  "enum": [
+                    "june_2023_decision",
+                    "october_2022_immediate"
+                  ],
+                  "maxLength": 2048
+                },
+                "historical_cure": {
+                  "type": "string",
+                  "enum": [
+                    "not_retroactive",
+                    "earlier_continuation_cured"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "counsel_advice",
+                "management_response",
+                "later_pause",
+                "historical_cure"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05",
+            "F06"
+          ],
+          "additionalProperties": false
+        },
+        "section": {
+          "type": "string",
+          "enum": [
+            "statement_of_facts",
+            "argument",
+            "filed_affidavit"
+          ],
+          "maxLength": 2048
+        },
+        "perspective": {
+          "type": "string",
+          "enum": [
+            "cascade_defense_requested_exercise",
+            "historically_approved_strategy"
+          ],
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "status",
+        "externally_sent",
+        "authority_confirmed",
+        "content",
+        "section",
+        "perspective"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Drafts remain local and unapproved.",
+    "Unknown authority, missing facts and differing evidence scopes stay explicit.",
+    "Evidence dates are distinct from dates of later reports; never infer completion from a plan."
+  ],
+  "policy_sha256": "ef90e9f1f0357d80f21f5838df9a8006355e94c67fd167e94bc1cad41c8fda5d",
+  "schema_sha256": "4f17ee9f034227ed54957ae6ac3598d409085d5a4fd6fd8ceef8e689360a1554",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "oracle_sha256": "665672703583c547e81349ab595412d33cf7efcd1a8cb37e7feec5daac273bdc",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}
