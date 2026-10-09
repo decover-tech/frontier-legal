@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "events",
+    "order",
+    "resolutions"
+  ],
+  "properties": {
+    "events": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "auditor_scope": {
+          "$ref": "#/$defs/event"
+        },
+        "claimed_renewal": {
+          "$ref": "#/$defs/event"
+        },
+        "h1_conditional_route": {
+          "$ref": "#/$defs/event"
+        },
+        "h1_still_held": {
+          "$ref": "#/$defs/event"
+        },
+        "h1_tieout": {
+          "$ref": "#/$defs/event"
+        },
+        "held_files_excluded": {
+          "$ref": "#/$defs/event"
+        },
+        "marketing_continue": {
+          "$ref": "#/$defs/event"
+        },
+        "pilot_first_pass": {
+          "$ref": "#/$defs/event"
+        },
+        "pilot_report_to_auditor": {
+          "$ref": "#/$defs/event"
+        },
+        "pilot_scheduling": {
+          "$ref": "#/$defs/event"
+        },
+        "pilot_second_review": {
+          "$ref": "#/$defs/event"
+        },
+        "renewal_pending": {
+          "$ref": "#/$defs/event"
+        },
+        "renewal_restatement": {
+          "$ref": "#/$defs/event"
+        },
+        "verification_gap": {
+          "$ref": "#/$defs/event"
+        }
+      }
+    },
+    "order": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 14,
+      "items": {
+        "enum": [
+          "auditor_scope",
+          "claimed_renewal",
+          "h1_conditional_route",
+          "h1_still_held",
+          "h1_tieout",
+          "held_files_excluded",
+          "marketing_continue",
+          "pilot_first_pass",
+          "pilot_report_to_auditor",
+          "pilot_scheduling",
+          "pilot_second_review",
+          "renewal_pending",
+          "renewal_restatement",
+          "verification_gap"
+        ]
+      }
+    },
+    "resolutions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "registration_issuance": {
+          "$ref": "#/$defs/resolution"
+        },
+        "h1_transmittal": {
+          "$ref": "#/$defs/resolution"
+        },
+        "pilot_exceptions": {
+          "$ref": "#/$defs/resolution"
+        },
+        "historical_quarterly_tests": {
+          "$ref": "#/$defs/resolution"
+        },
+        "pilot_asof_august": {
+          "$ref": "#/$defs/resolution"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_start",
+        "event_end",
+        "precision",
+        "reported_on",
+        "actor",
+        "nature",
+        "evidence"
+      ],
+      "properties": {
+        "event_start": {
+          "type": "string",
+          "format": "date"
+        },
+        "event_end": {
+          "type": "string",
+          "format": "date"
+        },
+        "precision": {
+          "enum": [
+            "day",
+            "interval"
+          ]
+        },
+        "reported_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "actor": {
+          "type": "string"
+        },
+        "nature": {
+          "enum": [
+            "attributed_claim",
+            "instruction",
+            "conditional_authorization",
+            "status_report",
+            "completed_action",
+            "assessment"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "document_id",
+              "quote"
+            ],
+            "properties": {
+              "document_id": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 20,
+                "maxLength": 800
+              }
+            }
+          }
+        }
+      }
+    },
+    "resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "conclusion",
+        "event_date",
+        "rules",
+        "evidence",
+        "challenges"
+      ],
+      "properties": {
+        "conclusion": {
+          "enum": [
+            "established",
+            "not_established",
+            "contradicted",
+            "unverified_not_proven_false"
+          ]
+        },
+        "event_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "rules": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "T1",
+              "T2",
+              "T3",
+              "T4",
+              "T5",
+              "T6"
+            ]
+          },
+          "maxItems": 6
+        },
+        "evidence": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "document_id",
+              "quote"
+            ],
+            "properties": {
+              "document_id": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 20,
+                "maxLength": 800
+              }
+            }
+          }
+        },
+        "challenges": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "document_id",
+              "quote",
+              "reason"
+            ],
+            "properties": {
+              "document_id": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 20,
+                "maxLength": 800
+              },
+              "reason": {
+                "enum": [
+                  "after_cutoff",
+                  "forecast_not_execution",
+                  "later_pilot_not_historical_proof",
+                  "repetition_not_independent_proof",
+                  "review_completion_not_exception_closure",
+                  "tieout_not_transmittal"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

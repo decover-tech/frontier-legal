@@ -1,0 +1,827 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "assessments"
+  ],
+  "properties": {
+    "assessments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "C01": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "scope",
+            "effective_date",
+            "known_by",
+            "responsible",
+            "next_action",
+            "rules",
+            "evidence",
+            "challenges"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "documented_complete",
+                "confirmation_gap",
+                "contradicted",
+                "not_established"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "draft_list_only",
+                "all_cascade_systems",
+                "named_mailbox",
+                "all_alder_custodians",
+                "acknowledging_person_only",
+                "external_native_systems"
+              ]
+            },
+            "effective_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD, before:YYYY-MM-DD, or null; use only evidence-supported precision"
+            },
+            "known_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Earliest qualifying original-message date YYYY-MM-DD, or null when no positive confirmation"
+            },
+            "responsible": {
+              "type": "string"
+            },
+            "next_action": {
+              "enum": [
+                "monitor_stated_scope",
+                "obtain_named_export_confirmation",
+                "retain_export_route_access_to_legal",
+                "verify_remaining_acknowledgments",
+                "request_direct_external_confirmation",
+                "maintain_hold_no_deletion_inference"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4",
+                  "R5",
+                  "R6",
+                  "R7"
+                ]
+              },
+              "maxItems": 7
+            },
+            "evidence": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  }
+                }
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "maxItems": 5,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote",
+                  "reason"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  },
+                  "reason": {
+                    "enum": [
+                      "after_cutoff",
+                      "generic_not_specific",
+                      "instruction_not_completion",
+                      "superseded_status",
+                      "receipt_not_implementation",
+                      "different_system_scope",
+                      "disabled_not_deleted",
+                      "notice_not_first_control"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "C02": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "scope",
+            "effective_date",
+            "known_by",
+            "responsible",
+            "next_action",
+            "rules",
+            "evidence",
+            "challenges"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "documented_complete",
+                "confirmation_gap",
+                "contradicted",
+                "not_established"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "draft_list_only",
+                "all_cascade_systems",
+                "named_mailbox",
+                "all_alder_custodians",
+                "acknowledging_person_only",
+                "external_native_systems"
+              ]
+            },
+            "effective_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD, before:YYYY-MM-DD, or null; use only evidence-supported precision"
+            },
+            "known_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Earliest qualifying original-message date YYYY-MM-DD, or null when no positive confirmation"
+            },
+            "responsible": {
+              "type": "string"
+            },
+            "next_action": {
+              "enum": [
+                "monitor_stated_scope",
+                "obtain_named_export_confirmation",
+                "retain_export_route_access_to_legal",
+                "verify_remaining_acknowledgments",
+                "request_direct_external_confirmation",
+                "maintain_hold_no_deletion_inference"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4",
+                  "R5",
+                  "R6",
+                  "R7"
+                ]
+              },
+              "maxItems": 7
+            },
+            "evidence": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  }
+                }
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "maxItems": 5,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote",
+                  "reason"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  },
+                  "reason": {
+                    "enum": [
+                      "after_cutoff",
+                      "generic_not_specific",
+                      "instruction_not_completion",
+                      "superseded_status",
+                      "receipt_not_implementation",
+                      "different_system_scope",
+                      "disabled_not_deleted",
+                      "notice_not_first_control"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "C03": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "scope",
+            "effective_date",
+            "known_by",
+            "responsible",
+            "next_action",
+            "rules",
+            "evidence",
+            "challenges"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "documented_complete",
+                "confirmation_gap",
+                "contradicted",
+                "not_established"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "draft_list_only",
+                "all_cascade_systems",
+                "named_mailbox",
+                "all_alder_custodians",
+                "acknowledging_person_only",
+                "external_native_systems"
+              ]
+            },
+            "effective_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD, before:YYYY-MM-DD, or null; use only evidence-supported precision"
+            },
+            "known_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Earliest qualifying original-message date YYYY-MM-DD, or null when no positive confirmation"
+            },
+            "responsible": {
+              "type": "string"
+            },
+            "next_action": {
+              "enum": [
+                "monitor_stated_scope",
+                "obtain_named_export_confirmation",
+                "retain_export_route_access_to_legal",
+                "verify_remaining_acknowledgments",
+                "request_direct_external_confirmation",
+                "maintain_hold_no_deletion_inference"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4",
+                  "R5",
+                  "R6",
+                  "R7"
+                ]
+              },
+              "maxItems": 7
+            },
+            "evidence": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  }
+                }
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "maxItems": 5,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote",
+                  "reason"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  },
+                  "reason": {
+                    "enum": [
+                      "after_cutoff",
+                      "generic_not_specific",
+                      "instruction_not_completion",
+                      "superseded_status",
+                      "receipt_not_implementation",
+                      "different_system_scope",
+                      "disabled_not_deleted",
+                      "notice_not_first_control"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "C04": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "scope",
+            "effective_date",
+            "known_by",
+            "responsible",
+            "next_action",
+            "rules",
+            "evidence",
+            "challenges"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "documented_complete",
+                "confirmation_gap",
+                "contradicted",
+                "not_established"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "draft_list_only",
+                "all_cascade_systems",
+                "named_mailbox",
+                "all_alder_custodians",
+                "acknowledging_person_only",
+                "external_native_systems"
+              ]
+            },
+            "effective_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD, before:YYYY-MM-DD, or null; use only evidence-supported precision"
+            },
+            "known_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Earliest qualifying original-message date YYYY-MM-DD, or null when no positive confirmation"
+            },
+            "responsible": {
+              "type": "string"
+            },
+            "next_action": {
+              "enum": [
+                "monitor_stated_scope",
+                "obtain_named_export_confirmation",
+                "retain_export_route_access_to_legal",
+                "verify_remaining_acknowledgments",
+                "request_direct_external_confirmation",
+                "maintain_hold_no_deletion_inference"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4",
+                  "R5",
+                  "R6",
+                  "R7"
+                ]
+              },
+              "maxItems": 7
+            },
+            "evidence": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  }
+                }
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "maxItems": 5,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote",
+                  "reason"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  },
+                  "reason": {
+                    "enum": [
+                      "after_cutoff",
+                      "generic_not_specific",
+                      "instruction_not_completion",
+                      "superseded_status",
+                      "receipt_not_implementation",
+                      "different_system_scope",
+                      "disabled_not_deleted",
+                      "notice_not_first_control"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "C05": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "scope",
+            "effective_date",
+            "known_by",
+            "responsible",
+            "next_action",
+            "rules",
+            "evidence",
+            "challenges"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "documented_complete",
+                "confirmation_gap",
+                "contradicted",
+                "not_established"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "draft_list_only",
+                "all_cascade_systems",
+                "named_mailbox",
+                "all_alder_custodians",
+                "acknowledging_person_only",
+                "external_native_systems"
+              ]
+            },
+            "effective_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD, before:YYYY-MM-DD, or null; use only evidence-supported precision"
+            },
+            "known_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Earliest qualifying original-message date YYYY-MM-DD, or null when no positive confirmation"
+            },
+            "responsible": {
+              "type": "string"
+            },
+            "next_action": {
+              "enum": [
+                "monitor_stated_scope",
+                "obtain_named_export_confirmation",
+                "retain_export_route_access_to_legal",
+                "verify_remaining_acknowledgments",
+                "request_direct_external_confirmation",
+                "maintain_hold_no_deletion_inference"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4",
+                  "R5",
+                  "R6",
+                  "R7"
+                ]
+              },
+              "maxItems": 7
+            },
+            "evidence": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  }
+                }
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "maxItems": 5,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote",
+                  "reason"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  },
+                  "reason": {
+                    "enum": [
+                      "after_cutoff",
+                      "generic_not_specific",
+                      "instruction_not_completion",
+                      "superseded_status",
+                      "receipt_not_implementation",
+                      "different_system_scope",
+                      "disabled_not_deleted",
+                      "notice_not_first_control"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "C06": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "scope",
+            "effective_date",
+            "known_by",
+            "responsible",
+            "next_action",
+            "rules",
+            "evidence",
+            "challenges"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "documented_complete",
+                "confirmation_gap",
+                "contradicted",
+                "not_established"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "draft_list_only",
+                "all_cascade_systems",
+                "named_mailbox",
+                "all_alder_custodians",
+                "acknowledging_person_only",
+                "external_native_systems"
+              ]
+            },
+            "effective_date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD, before:YYYY-MM-DD, or null; use only evidence-supported precision"
+            },
+            "known_by": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Earliest qualifying original-message date YYYY-MM-DD, or null when no positive confirmation"
+            },
+            "responsible": {
+              "type": "string"
+            },
+            "next_action": {
+              "enum": [
+                "monitor_stated_scope",
+                "obtain_named_export_confirmation",
+                "retain_export_route_access_to_legal",
+                "verify_remaining_acknowledgments",
+                "request_direct_external_confirmation",
+                "maintain_hold_no_deletion_inference"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4",
+                  "R5",
+                  "R6",
+                  "R7"
+                ]
+              },
+              "maxItems": 7
+            },
+            "evidence": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  }
+                }
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "maxItems": 5,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "document_id",
+                  "quote",
+                  "reason"
+                ],
+                "properties": {
+                  "document_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 800
+                  },
+                  "reason": {
+                    "enum": [
+                      "after_cutoff",
+                      "generic_not_specific",
+                      "instruction_not_completion",
+                      "superseded_status",
+                      "receipt_not_implementation",
+                      "different_system_scope",
+                      "disabled_not_deleted",
+                      "notice_not_first_control"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "description": "Omitted assessments score zero; full success requires all six."
+    }
+  }
+}

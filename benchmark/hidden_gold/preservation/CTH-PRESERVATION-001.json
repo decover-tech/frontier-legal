@@ -1,0 +1,341 @@
+{
+  "task_id": "CTH-PRESERVATION-001",
+  "review_status": "development_oracle_independent_review_pending",
+  "items": [
+    {
+      "id": "C01",
+      "cutoff": "2023-06-13T23:59:59-07:00",
+      "question": "Were technical mailbox deletion safeguards documented before the formal hold? Identify the earliest documented activation and retain its scope.",
+      "expected": {
+        "status": "documented_complete",
+        "scope": "draft_list_only",
+        "effective_date": "2023-05-26",
+        "known_by": "2023-05-26",
+        "responsible": "dosei@cascadetimber.com",
+        "next_action": "monitor_stated_scope"
+      },
+      "rules": [
+        "R1",
+        "R3",
+        "R6",
+        "R7"
+      ],
+      "support": [
+        {
+          "anchors": [
+            "I've suspended automated mailbox deletion for the exec team and the people on John's draft custodian list."
+          ],
+          "documents": [
+            "EMAIL-206",
+            "EMAIL-207"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory."
+          ],
+          "documents": [
+            "EMAIL-024"
+          ],
+          "reason": "notice_not_first_control"
+        }
+      ],
+      "rationale": "Author-reviewed against the cited source passages and supplied policy; independent review pending."
+    },
+    {
+      "id": "C02",
+      "cutoff": "2023-07-07T23:59:59-07:00",
+      "question": "Was completion of Nina Alvarez's mailbox export documented by this checkpoint? Reconcile pending work, instructions, generic export updates, departure and later confirmation.",
+      "expected": {
+        "status": "confirmation_gap",
+        "scope": "named_mailbox",
+        "effective_date": null,
+        "known_by": null,
+        "responsible": "wpark@cascadetimber.com",
+        "next_action": "obtain_named_export_confirmation"
+      },
+      "rules": [
+        "R1",
+        "R2",
+        "R5",
+        "R6",
+        "R7"
+      ],
+      "support": [
+        {
+          "anchors": [
+            "Nina Alvarez's mailbox is flagged pending",
+            "Nina Alvarez's mailbox is next in line because of her end-of-June departure"
+          ],
+          "documents": [
+            "EMAIL-059",
+            "EMAIL-1063"
+          ]
+        },
+        {
+          "anchors": [
+            "please coordinate with Alder Point to preserve and export her mailbox before deprovisioning."
+          ],
+          "documents": [
+            "EMAIL-062"
+          ]
+        },
+        {
+          "anchors": [
+            "my last day at Alder Point Partners is June 30.",
+            "Nina Alvarez (Alder Point) is departing June 30."
+          ],
+          "documents": [
+            "EMAIL-061",
+            "EMAIL-062",
+            "EMAIL-082"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "her mailbox was exported before her last day"
+          ],
+          "documents": [
+            "EMAIL-1096"
+          ],
+          "reason": "after_cutoff"
+        },
+        {
+          "anchors": [
+            "Collection update: mailbox exports underway per the custodian list, with hold status confirmed per mailbox. Export manifest to follow."
+          ],
+          "documents": [
+            "EMAIL-1055",
+            "EMAIL-1060",
+            "EMAIL-1061",
+            "EMAIL-1062",
+            "EMAIL-1064",
+            "EMAIL-1067",
+            "EMAIL-1068",
+            "EMAIL-1070",
+            "EMAIL-1085",
+            "EMAIL-1090",
+            "EMAIL-1097",
+            "EMAIL-1102",
+            "EMAIL-1104",
+            "EMAIL-1118",
+            "EMAIL-1119",
+            "EMAIL-1122",
+            "EMAIL-1124",
+            "EMAIL-1130",
+            "EMAIL-1136"
+          ],
+          "reason": "generic_not_specific"
+        },
+        {
+          "anchors": [
+            "please coordinate with Alder Point to preserve and export her mailbox before deprovisioning."
+          ],
+          "documents": [
+            "EMAIL-062"
+          ],
+          "reason": "instruction_not_completion"
+        }
+      ],
+      "rationale": "Author-reviewed against the cited source passages and supplied policy; independent review pending."
+    },
+    {
+      "id": "C03",
+      "cutoff": "2023-07-26T23:59:59-07:00",
+      "question": "Reassess Nina's export and permitted access at this later checkpoint. Identify the supported event-time bound and earliest qualifying confirmation; reconcile the earlier pending status.",
+      "expected": {
+        "status": "documented_complete",
+        "scope": "named_mailbox",
+        "effective_date": "before:2023-06-30",
+        "known_by": "2023-07-11",
+        "responsible": "jellery@cascadetimber.com",
+        "next_action": "retain_export_route_access_to_legal"
+      },
+      "rules": [
+        "R1",
+        "R2",
+        "R6",
+        "R7"
+      ],
+      "support": [
+        {
+          "anchors": [
+            "her mailbox was exported before her last day"
+          ],
+          "documents": [
+            "EMAIL-1096"
+          ]
+        },
+        {
+          "anchors": [
+            "Any Alder request for access to her mailbox or folders, including from Tom or Priya, comes to me first."
+          ],
+          "documents": [
+            "EMAIL-1155"
+          ]
+        },
+        {
+          "anchors": [
+            "my last day at Alder Point Partners is June 30.",
+            "Nina Alvarez (Alder Point) is departing June 30."
+          ],
+          "documents": [
+            "EMAIL-061",
+            "EMAIL-062",
+            "EMAIL-082"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "Nina Alvarez's mailbox is flagged pending",
+            "Nina Alvarez's mailbox is next in line because of her end-of-June departure"
+          ],
+          "documents": [
+            "EMAIL-059",
+            "EMAIL-1063"
+          ],
+          "reason": "superseded_status"
+        }
+      ],
+      "rationale": "Author-reviewed against the cited source passages and supplied policy; independent review pending."
+    },
+    {
+      "id": "C04",
+      "cutoff": "2023-06-14T23:59:59-07:00",
+      "question": "What Alder hold-notice receipt is actually documented? Identify who acknowledged and distinguish that fact from group-wide implementation.",
+      "expected": {
+        "status": "documented_complete",
+        "scope": "acknowledging_person_only",
+        "effective_date": "2023-06-14",
+        "known_by": "2023-06-14",
+        "responsible": "pshah@alderpointpartners.com",
+        "next_action": "verify_remaining_acknowledgments"
+      },
+      "rules": [
+        "R1",
+        "R3",
+        "R6",
+        "R7"
+      ],
+      "support": [
+        {
+          "anchors": [
+            "Confirming receipt of the legal hold notice."
+          ],
+          "documents": [
+            "EMAIL-025"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+          ],
+          "documents": [
+            "EMAIL-060"
+          ],
+          "reason": "receipt_not_implementation"
+        }
+      ],
+      "rationale": "Author-reviewed against the cited source passages and supplied policy; independent review pending."
+    },
+    {
+      "id": "C05",
+      "cutoff": "2023-11-10T23:59:59-08:00",
+      "question": "Do the records establish preservation on Bellhaven's own systems? Reconcile its inquiry, Cascade's technical controls and the later IT scope clarification.",
+      "expected": {
+        "status": "confirmation_gap",
+        "scope": "external_native_systems",
+        "effective_date": null,
+        "known_by": null,
+        "responsible": "jellery@cascadetimber.com",
+        "next_action": "request_direct_external_confirmation"
+      },
+      "rules": [
+        "R1",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ],
+      "support": [
+        {
+          "anchors": [
+            "should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?"
+          ],
+          "documents": [
+            "EMAIL-070"
+          ]
+        },
+        {
+          "anchors": [
+            "Nothing on Bellhaven's own systems is covered by anything IT has done"
+          ],
+          "documents": [
+            "EMAIL-1066"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+          ],
+          "documents": [
+            "EMAIL-060"
+          ],
+          "reason": "different_system_scope"
+        }
+      ],
+      "rationale": "Author-reviewed against the cited source passages and supplied policy; independent review pending."
+    },
+    {
+      "id": "C06",
+      "cutoff": "2023-07-26T23:59:59-07:00",
+      "question": "Assess the claim: Nina's June 30 account disablement proves her mailbox was deleted that day. Distinguish operational account state from data loss.",
+      "expected": {
+        "status": "contradicted",
+        "scope": "named_mailbox",
+        "effective_date": "2023-06-30",
+        "known_by": "2023-07-11",
+        "responsible": "jellery@cascadetimber.com",
+        "next_action": "maintain_hold_no_deletion_inference"
+      },
+      "rules": [
+        "R1",
+        "R5",
+        "R6",
+        "R7"
+      ],
+      "support": [
+        {
+          "anchors": [
+            "the account was disabled on June 30 but not deleted."
+          ],
+          "documents": [
+            "EMAIL-1096"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "the account was disabled on June 30 but not deleted."
+          ],
+          "documents": [
+            "EMAIL-1096"
+          ],
+          "reason": "disabled_not_deleted"
+        }
+      ],
+      "rationale": "Author-reviewed against the cited source passages and supplied policy; independent review pending."
+    }
+  ]
+}

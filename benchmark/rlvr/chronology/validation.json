@@ -1,0 +1,52 @@
+{
+  "kind": "development_verifier_validation_not_model_evaluation",
+  "validated_at": "2026-10-09T01:56:43.731806+00:00",
+  "task_id": "CTH-CHRONOLOGY-001",
+  "suite_task_number": 2,
+  "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+  "source_count": 1486,
+  "milestones": 14,
+  "resolution_questions": 5,
+  "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+  "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+  "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+  "checks": {
+    "unittest_suite": {
+      "tests": 30,
+      "passed": 30,
+      "command": "python3 -m unittest discover -s tools/chronology_rlvr/tests -v"
+    },
+    "oracle_search_read_submit": {
+      "reward": 1.0,
+      "success": true,
+      "steps": 39,
+      "observation_chars": 111797,
+      "command": "python3 -m tools.chronology_rlvr.run --self-test"
+    },
+    "empty_submission": {
+      "reward": 0.0,
+      "success": false
+    },
+    "source_and_asset_integrity": "All pinned source and asset hashes checked when constructing the environment; accepted anchor documents checked against corpus text.",
+    "syntax_and_whitespace": "New Python/JSON task assets parsed successfully; no trailing whitespace."
+  },
+  "control_run": "output/rlvr/chronology/20261009T015552Z-250f7998",
+  "live_model_calls": 0,
+  "independent_oracle_review": "pending",
+  "frontier_calibration": "pending",
+  "code_hashes": {
+    "tools/chronology_rlvr/__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+    "tools/chronology_rlvr/controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+    "tools/chronology_rlvr/environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978",
+    "tools/chronology_rlvr/run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+    "tools/chronology_rlvr/tests/test_chronology.py": "876150996971270653a4a8063c08223081a85bcd4810fa4a4d78d0e3e39aa929",
+    "benchmark/hidden_gold/chronology/build_assets.py": "8fd28288afb1a2d1c4fce632e89edd00596125f24058baa6c933598d74fd3158"
+  },
+  "shared_dependency_hashes": {
+    "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+    "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+    "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+    "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+    "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+  }
+}

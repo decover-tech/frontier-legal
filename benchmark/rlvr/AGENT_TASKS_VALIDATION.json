@@ -1,0 +1,60 @@
+{
+  "kind": "clean_pull_request_checkout_validation",
+  "validated_at": "2026-10-09T02:50:09.816529+00:00",
+  "base_commit": "4bfb912c00e123ecefc3508e91955c9da433866e",
+  "tasks": {
+    "CTH-PRESERVATION-001": {
+      "task_sha256": "a2a91b272699f95a953c2371e2fbc1507f1934d8741b4257be80147fd952bb6c",
+      "source_count": 1486,
+      "policy_sha256": "c86358e7a88d39853cc0ac138701a3cb537b4fd6eb274623b9f15214cb1e3b3c",
+      "oracle_sha256": "3cb2a2ccb85e7ac2780fca98af9fb0a7be2a79fbdda8dba4f9c51fe42d13c537",
+      "schema_sha256": "b46e4585f276c488a55557822751d38e9a9e95fd7abc71000069033e4d1b1871"
+    },
+    "CTH-CHRONOLOGY-001": {
+      "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+      "source_count": 1486,
+      "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+      "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+      "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38"
+    }
+  },
+  "tests": {
+    "legacy_and_provider_transport": 38,
+    "preservation": 21,
+    "chronology": 30,
+    "total_passed": 89
+  },
+  "offline_replay": {
+    "archive": "benchmark/rlvr/chronology/results/frontier-five-2026-10-08-trajectories.json",
+    "archive_sha256": "2e8572be4fea3c0da45f0c07cf180234f56549d7415f8eea650f89e4ed37d983",
+    "matched_transitions": 149,
+    "models": 5,
+    "all_final_scores_match": true,
+    "command": "python3 -m tools.chronology_rlvr.replay benchmark/rlvr/chronology/results/frontier-five-2026-10-08-trajectories.json"
+  },
+  "code_hashes": {
+    "tools/chronology_rlvr/__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+    "tools/chronology_rlvr/controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+    "tools/chronology_rlvr/environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978",
+    "tools/chronology_rlvr/replay.py": "c7165fcc8311c1be9052a278797f601681a627718e0caeb57bd31202dcbdd530",
+    "tools/chronology_rlvr/run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+    "tools/chronology_rlvr/tests/test_chronology.py": "876150996971270653a4a8063c08223081a85bcd4810fa4a4d78d0e3e39aa929",
+    "tools/preservation_rlvr/__init__.py": "72088172b3aa27299176c4c7b922bc92d0b6ea21c6ae03dc57c5c2f186a4da1f",
+    "tools/preservation_rlvr/controls.py": "b025ae13ef054b09f9c756e06e35c3cc82b9ad86867ddc6f49d674b72c7612cc",
+    "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+    "tools/preservation_rlvr/run.py": "f340f780534098e3fc0175948d4d179a1678ac41be8914a4954008710191ad69",
+    "tools/preservation_rlvr/tests/test_preservation.py": "6221809ef2b7bb68b537a4b79b7f1bc13bc80472ae5d7d3ec642a15234591e9f",
+    "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3",
+    "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+    "tools/rlvr/providers.py": "10eb760c04f46ec74eae94004c681e1b51f6b4748752b522cbf0f1822bc03d44",
+    "tools/rlvr/run.py": "c5359316e926ab768e80508af6d197e82e5355f16bd39757c69fdf470c4bfe8a",
+    "tools/rlvr/tests/test_agent_transport.py": "eed09a6464f40ccb09ccb01b95a5ceeb9b47f62a931338237b977fc03b852d51"
+  },
+  "live_provider_calls_during_pr_validation": 0,
+  "notes": [
+    "Historical live-run provenance is retained unchanged in the comparison records.",
+    "PR provider adapter includes only required reasoning and budget support; unrelated inventory CLI work is excluded.",
+    "Initial observations, task assets, source bytes and recorded scores are unchanged.",
+    "Independent oracle review remains pending."
+  ]
+}

@@ -1,6 +1,6 @@
 # Cascade Timber RLVR pilot
 
-Four executable development tasks, all restricted to original Cascade Timber
+Four single-turn development tasks, all restricted to original Cascade Timber
 emails, with deterministic rewards and a multi-provider single-turn runner.
 Use **CTH-INVENTORY-002** for difficulty calibration; the original date task
 is only an infrastructure smoke test. No training run or held-out ranking is claimed.
@@ -11,6 +11,12 @@ is only an infrastructure smoke test. No training run or held-out ranking is cla
 | CTH-AUDIT-001 | 75 emails | 18 | Cross-document factual reasoning and citations |
 | CTH-INVENTORY-001 | 75 emails | 12 | Collection reconciliation calibration |
 | CTH-INVENTORY-002 | 300 emails | 12 | Larger collection reconciliation challenge |
+
+Two additional [evidence-agent tasks](AGENT_TASKS.md) provide multi-turn search,
+read and submit environments over the 1,486-email corpus: a six-checkpoint
+preservation audit and a chronology with 14 milestones and five disputed
+inferences. See the [chronology five-model pilot](chronology/FRONTIER_FIVE_2026-10-08_RUN2.md)
+for measured rewards, reproducible response traces and verifier-review limitations.
 
 ## Quick start
 

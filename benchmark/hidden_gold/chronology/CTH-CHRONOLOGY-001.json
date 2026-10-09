@@ -1,0 +1,1037 @@
+{
+  "task_id": "CTH-CHRONOLOGY-001",
+  "review_status": "author_checked_independent_review_pending",
+  "events": [
+    {
+      "id": "renewal_pending",
+      "prompt": "Holt reports pending renewal and asks that marketing wait.",
+      "expected": {
+        "event_start": "2022-09-15",
+        "event_end": "2022-09-15",
+        "precision": "day",
+        "reported_on": "2022-09-15",
+        "actor": "dholt@bellhavenadvisory.com",
+        "nature": "status_report"
+      },
+      "support": [
+        {
+          "anchors": [
+            "our broker registration in a couple of the Northwest states is still pending renewal"
+          ],
+          "documents": [
+            "EMAIL-009",
+            "EMAIL-010",
+            "EMAIL-011",
+            "EMAIL-1421",
+            "EMAIL-1422",
+            "EMAIL-1423",
+            "EMAIL-1424",
+            "EMAIL-1425",
+            "EMAIL-1426",
+            "EMAIL-1427",
+            "EMAIL-1428",
+            "EMAIL-1429",
+            "EMAIL-1430",
+            "EMAIL-1431",
+            "EMAIL-1432",
+            "EMAIL-1433",
+            "EMAIL-1434"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing_continue",
+      "prompt": "Shah instructs Reyes to continue marketing.",
+      "expected": {
+        "event_start": "2022-09-16",
+        "event_end": "2022-09-16",
+        "precision": "day",
+        "reported_on": "2022-09-16",
+        "actor": "pshah@alderpointpartners.com",
+        "nature": "instruction"
+      },
+      "support": [
+        {
+          "anchors": [
+            "Let's keep going \u2014 we're already behind on Q3 targets"
+          ],
+          "documents": [
+            "EMAIL-011",
+            "EMAIL-1421",
+            "EMAIL-1422",
+            "EMAIL-1423",
+            "EMAIL-1424",
+            "EMAIL-1429",
+            "EMAIL-1434"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "held_files_excluded",
+      "prompt": "The three held Q4 files were excluded from the outgoing batch, as confirmed the following day.",
+      "expected": {
+        "event_start": "2022-11-08",
+        "event_end": "2022-11-08",
+        "precision": "day",
+        "reported_on": "2022-11-09",
+        "actor": "hcole@cascadetimber.com",
+        "nature": "completed_action"
+      },
+      "support": [
+        {
+          "anchors": [
+            "Nothing from that subfolder went into yesterday's outgoing batch."
+          ],
+          "documents": [
+            "EMAIL-1476",
+            "EMAIL-1477",
+            "EMAIL-1478",
+            "EMAIL-1479",
+            "EMAIL-1480",
+            "EMAIL-1481",
+            "EMAIL-1482",
+            "EMAIL-1483",
+            "EMAIL-1484",
+            "EMAIL-1485",
+            "EMAIL-1486"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h1_conditional_route",
+      "prompt": "Shah authorizes a conditional route for the corrected H1 packet.",
+      "expected": {
+        "event_start": "2022-11-15",
+        "event_end": "2022-11-15",
+        "precision": "day",
+        "reported_on": "2022-11-15",
+        "actor": "pshah@alderpointpartners.com",
+        "nature": "conditional_authorization"
+      },
+      "support": [
+        {
+          "anchors": [
+            "H1 can move on the corrected county figure once Sarah checks the tie-out and Hannah has the owner's acknowledgment in the packet."
+          ],
+          "documents": [
+            "EMAIL-1482",
+            "EMAIL-1483",
+            "EMAIL-1484",
+            "EMAIL-1485",
+            "EMAIL-1486"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h1_still_held",
+      "prompt": "Cole reports the H1 release box still blank and no entry in the next courier run.",
+      "expected": {
+        "event_start": "2022-11-15",
+        "event_end": "2022-11-15",
+        "precision": "day",
+        "reported_on": "2022-11-15",
+        "actor": "hcole@cascadetimber.com",
+        "nature": "status_report"
+      },
+      "support": [
+        {
+          "anchors": [
+            "Sarah's tie-out is still open, so the release box is blank and I haven't put it in the next courier run."
+          ],
+          "documents": [
+            "EMAIL-1483",
+            "EMAIL-1484",
+            "EMAIL-1485",
+            "EMAIL-1486"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h1_tieout",
+      "prompt": "Nguyen completes the H1 acreage tie-out, preserving the limits on submission.",
+      "expected": {
+        "event_start": "2022-11-17",
+        "event_end": "2022-11-17",
+        "precision": "day",
+        "reported_on": "2022-11-17",
+        "actor": "snguyen@cascadetimber.com",
+        "nature": "completed_action"
+      },
+      "support": [
+        {
+          "anchors": [
+            "I've checked H1's revised application acreage against the county copy and the owner's acknowledgment. Those figures agree."
+          ],
+          "documents": [
+            "EMAIL-1486"
+          ]
+        },
+        {
+          "anchors": [
+            "Please enter the actual transmittal date when it goes, not today's date by default."
+          ],
+          "documents": [
+            "EMAIL-1486"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claimed_renewal",
+      "prompt": "The underlying renewal occurrence claimed in Holt's contemporaneous December message: retain its supported date range and attribution.",
+      "expected": {
+        "event_start": "2022-12-19",
+        "event_end": "2022-12-20",
+        "precision": "interval",
+        "reported_on": "2022-12-20",
+        "actor": "dholt@bellhavenadvisory.com",
+        "nature": "attributed_claim"
+      },
+      "support": [
+        {
+          "anchors": [
+            "our OR/WA broker registration renewal finalized this week."
+          ],
+          "documents": [
+            "EMAIL-045"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verification_gap",
+      "prompt": "Shah says registration has not been confirmed.",
+      "expected": {
+        "event_start": "2023-01-10",
+        "event_end": "2023-01-10",
+        "precision": "day",
+        "reported_on": "2023-01-10",
+        "actor": "pshah@alderpointpartners.com",
+        "nature": "status_report"
+      },
+      "support": [
+        {
+          "anchors": [
+            "Haven't confirmed. I'll ask Derek again"
+          ],
+          "documents": [
+            "EMAIL-018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal_restatement",
+      "prompt": "Holt restates the December claim for the record in response to the subpoena context; date this communication, not a new renewal.",
+      "expected": {
+        "event_start": "2023-06-25",
+        "event_end": "2023-06-25",
+        "precision": "day",
+        "reported_on": "2023-06-25",
+        "actor": "dholt@bellhavenadvisory.com",
+        "nature": "attributed_claim"
+      },
+      "support": [
+        {
+          "anchors": [
+            "our OR/WA broker registration was finalized in December 2022."
+          ],
+          "documents": [
+            "EMAIL-029"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilot_scheduling",
+      "prompt": "Nguyen issues the instruction scheduling the pilot; date the scheduling communication, not the future target.",
+      "expected": {
+        "event_start": "2023-08-18",
+        "event_end": "2023-08-18",
+        "precision": "day",
+        "reported_on": "2023-08-18",
+        "actor": "snguyen@cascadetimber.com",
+        "nature": "instruction"
+      },
+      "support": [
+        {
+          "anchors": [
+            "I'll schedule the pilot for September 5 after the initial production work."
+          ],
+          "documents": [
+            "EMAIL-1501",
+            "EMAIL-1502",
+            "EMAIL-1503",
+            "EMAIL-1504"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilot_first_pass",
+      "prompt": "Cole completes the pilot first pass; reconcile the contemporaneous update with Nguyen's later dated report.",
+      "expected": {
+        "event_start": "2023-09-05",
+        "event_end": "2023-09-05",
+        "precision": "day",
+        "reported_on": "2023-09-05",
+        "actor": "hcole@cascadetimber.com",
+        "nature": "completed_action"
+      },
+      "support": [
+        {
+          "anchors": [
+            "The pilot first pass is done."
+          ],
+          "documents": [
+            "EMAIL-1503",
+            "EMAIL-1504"
+          ]
+        },
+        {
+          "anchors": [
+            "the archived-packet pilot ran September 5 with Craig's second review on September 6."
+          ],
+          "documents": [
+            "EMAIL-1505",
+            "EMAIL-1506"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilot_second_review",
+      "prompt": "Sato reports the second review and its findings about the substantive exceptions.",
+      "expected": {
+        "event_start": "2023-09-06",
+        "event_end": "2023-09-06",
+        "precision": "day",
+        "reported_on": "2023-09-06",
+        "actor": "csato@cascadetimber.com",
+        "nature": "completed_action"
+      },
+      "support": [
+        {
+          "anchors": [
+            "Second review completed this morning."
+          ],
+          "documents": [
+            "EMAIL-1504"
+          ]
+        },
+        {
+          "anchors": [
+            "The arithmetic ties; the two substantive exceptions are still open."
+          ],
+          "documents": [
+            "EMAIL-1504"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilot_report_to_auditor",
+      "prompt": "Nguyen sends the retrospective pilot summary to the auditor.",
+      "expected": {
+        "event_start": "2023-09-07",
+        "event_end": "2023-09-07",
+        "precision": "day",
+        "reported_on": "2023-09-07",
+        "actor": "snguyen@cascadetimber.com",
+        "nature": "status_report"
+      },
+      "support": [
+        {
+          "anchors": [
+            "the archived-packet pilot ran September 5 with Craig's second review on September 6."
+          ],
+          "documents": [
+            "EMAIL-1505",
+            "EMAIL-1506"
+          ]
+        },
+        {
+          "anchors": [
+            "We are not presenting it as the missing workpapers for the 2022 quarters or as a test of every packet."
+          ],
+          "documents": [
+            "EMAIL-1505",
+            "EMAIL-1506"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auditor_scope",
+      "prompt": "Moss describes the supported scope of the remediation pilot.",
+      "expected": {
+        "event_start": "2023-09-08",
+        "event_end": "2023-09-08",
+        "precision": "day",
+        "reported_on": "2023-09-08",
+        "actor": "bmoss@mosslane-cpa.com",
+        "nature": "assessment"
+      },
+      "support": [
+        {
+          "anchors": [
+            "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open."
+          ],
+          "documents": [
+            "EMAIL-1506"
+          ]
+        }
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "registration_issuance",
+      "cutoff": "2023-09-08T23:59:59-07:00",
+      "prompt": "Assess whether the record establishes the actual OR/WA issuance date in light of Holt's December and June statements and the coverage follow-ups. Classify the finding and give an actual date only if supported.",
+      "expected": {
+        "conclusion": "unverified_not_proven_false",
+        "event_date": null,
+        "rules": [
+          "T2",
+          "T3",
+          "T4",
+          "T6"
+        ]
+      },
+      "support": [
+        {
+          "anchors": [
+            "our OR/WA broker registration renewal finalized this week."
+          ],
+          "documents": [
+            "EMAIL-045"
+          ]
+        },
+        {
+          "anchors": [
+            "Haven't confirmed. I'll ask Derek again"
+          ],
+          "documents": [
+            "EMAIL-018"
+          ]
+        },
+        {
+          "anchors": [
+            "The broker coverage worksheet still has the issuance date blank for Bellhaven's Oregon and Washington entries."
+          ],
+          "documents": [
+            "EMAIL-761"
+          ]
+        },
+        {
+          "anchors": [
+            "Filing receipts show only when an application was submitted and won't answer the question on their own."
+          ],
+          "documents": [
+            "EMAIL-768"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "our OR/WA broker registration was finalized in December 2022."
+          ],
+          "documents": [
+            "EMAIL-029"
+          ],
+          "reason": "repetition_not_independent_proof"
+        }
+      ]
+    },
+    {
+      "id": "h1_transmittal",
+      "cutoff": "2023-09-08T23:59:59-07:00",
+      "prompt": "Does the record establish that H1 was actually transmitted on the day of Nguyen's tie-out? Distinguish commercial forecasting, permission and completed transmission.",
+      "expected": {
+        "conclusion": "not_established",
+        "event_date": null,
+        "rules": [
+          "T3",
+          "T5",
+          "T6"
+        ]
+      },
+      "support": [
+        {
+          "anchors": [
+            "H1 can move on the corrected county figure once Sarah checks the tie-out and Hannah has the owner's acknowledgment in the packet."
+          ],
+          "documents": [
+            "EMAIL-1482",
+            "EMAIL-1483",
+            "EMAIL-1484",
+            "EMAIL-1485",
+            "EMAIL-1486"
+          ]
+        },
+        {
+          "anchors": [
+            "Sarah's tie-out is still open, so the release box is blank and I haven't put it in the next courier run."
+          ],
+          "documents": [
+            "EMAIL-1483",
+            "EMAIL-1484",
+            "EMAIL-1485",
+            "EMAIL-1486"
+          ]
+        },
+        {
+          "anchors": [
+            "Please enter the actual transmittal date when it goes, not today's date by default."
+          ],
+          "documents": [
+            "EMAIL-1486"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "Keep the commercial forecast at nine for now; it shows the upside if the documents arrive."
+          ],
+          "documents": [
+            "EMAIL-1479",
+            "EMAIL-1480",
+            "EMAIL-1481",
+            "EMAIL-1482",
+            "EMAIL-1483",
+            "EMAIL-1484",
+            "EMAIL-1485",
+            "EMAIL-1486"
+          ],
+          "reason": "forecast_not_execution"
+        },
+        {
+          "anchors": [
+            "I've checked H1's revised application acreage against the county copy and the owner's acknowledgment. Those figures agree."
+          ],
+          "documents": [
+            "EMAIL-1486"
+          ],
+          "reason": "tieout_not_transmittal"
+        }
+      ]
+    },
+    {
+      "id": "pilot_exceptions",
+      "cutoff": "2023-09-08T23:59:59-07:00",
+      "prompt": "Does the second-review completion establish that the two acreage exceptions were closed on that date?",
+      "expected": {
+        "conclusion": "contradicted",
+        "event_date": null,
+        "rules": [
+          "T3",
+          "T4",
+          "T5",
+          "T6"
+        ]
+      },
+      "support": [
+        {
+          "anchors": [
+            "The arithmetic ties; the two substantive exceptions are still open."
+          ],
+          "documents": [
+            "EMAIL-1504"
+          ]
+        },
+        {
+          "anchors": [
+            "We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open."
+          ],
+          "documents": [
+            "EMAIL-1506"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "Second review completed this morning."
+          ],
+          "documents": [
+            "EMAIL-1504"
+          ],
+          "reason": "review_completion_not_exception_closure"
+        }
+      ]
+    },
+    {
+      "id": "historical_quarterly_tests",
+      "cutoff": "2023-09-08T23:59:59-07:00",
+      "prompt": "Does the September pilot establish when the historical 2022 quarterly controls were performed?",
+      "expected": {
+        "conclusion": "not_established",
+        "event_date": null,
+        "rules": [
+          "T1",
+          "T3",
+          "T5",
+          "T6"
+        ]
+      },
+      "support": [
+        {
+          "anchors": [
+            "A pilot on archived packets can show the new procedure operating in September. It cannot establish that the quarterly control operated in 2022 or earlier this year."
+          ],
+          "documents": [
+            "EMAIL-1498",
+            "EMAIL-1499",
+            "EMAIL-1500",
+            "EMAIL-1501",
+            "EMAIL-1502",
+            "EMAIL-1503",
+            "EMAIL-1504"
+          ]
+        },
+        {
+          "anchors": [
+            "We are not presenting it as the missing workpapers for the 2022 quarters or as a test of every packet."
+          ],
+          "documents": [
+            "EMAIL-1505",
+            "EMAIL-1506"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "Second review completed this morning."
+          ],
+          "documents": [
+            "EMAIL-1504"
+          ],
+          "reason": "later_pilot_not_historical_proof"
+        }
+      ]
+    },
+    {
+      "id": "pilot_asof_august",
+      "cutoff": "2023-08-21T23:59:59-07:00",
+      "prompt": "At this earlier checkpoint, was pilot execution already established, and what actual execution date could be assigned?",
+      "expected": {
+        "conclusion": "not_established",
+        "event_date": null,
+        "rules": [
+          "T1",
+          "T3",
+          "T4",
+          "T6"
+        ]
+      },
+      "support": [
+        {
+          "anchors": [
+            "I'll schedule the pilot for September 5 after the initial production work."
+          ],
+          "documents": [
+            "EMAIL-1501",
+            "EMAIL-1502",
+            "EMAIL-1503",
+            "EMAIL-1504"
+          ]
+        },
+        {
+          "anchors": [
+            "I can do the second review on September 6."
+          ],
+          "documents": [
+            "EMAIL-1502"
+          ]
+        }
+      ],
+      "challenges": [
+        {
+          "anchors": [
+            "The pilot first pass is done."
+          ],
+          "documents": [
+            "EMAIL-1503",
+            "EMAIL-1504"
+          ],
+          "reason": "after_cutoff"
+        }
+      ]
+    }
+  ],
+  "order_pairs": [
+    [
+      "renewal_pending",
+      "marketing_continue"
+    ],
+    [
+      "renewal_pending",
+      "held_files_excluded"
+    ],
+    [
+      "renewal_pending",
+      "h1_conditional_route"
+    ],
+    [
+      "renewal_pending",
+      "h1_still_held"
+    ],
+    [
+      "renewal_pending",
+      "h1_tieout"
+    ],
+    [
+      "renewal_pending",
+      "claimed_renewal"
+    ],
+    [
+      "renewal_pending",
+      "verification_gap"
+    ],
+    [
+      "renewal_pending",
+      "renewal_restatement"
+    ],
+    [
+      "renewal_pending",
+      "pilot_scheduling"
+    ],
+    [
+      "renewal_pending",
+      "pilot_first_pass"
+    ],
+    [
+      "renewal_pending",
+      "pilot_second_review"
+    ],
+    [
+      "renewal_pending",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "renewal_pending",
+      "auditor_scope"
+    ],
+    [
+      "marketing_continue",
+      "held_files_excluded"
+    ],
+    [
+      "marketing_continue",
+      "h1_conditional_route"
+    ],
+    [
+      "marketing_continue",
+      "h1_still_held"
+    ],
+    [
+      "marketing_continue",
+      "h1_tieout"
+    ],
+    [
+      "marketing_continue",
+      "claimed_renewal"
+    ],
+    [
+      "marketing_continue",
+      "verification_gap"
+    ],
+    [
+      "marketing_continue",
+      "renewal_restatement"
+    ],
+    [
+      "marketing_continue",
+      "pilot_scheduling"
+    ],
+    [
+      "marketing_continue",
+      "pilot_first_pass"
+    ],
+    [
+      "marketing_continue",
+      "pilot_second_review"
+    ],
+    [
+      "marketing_continue",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "marketing_continue",
+      "auditor_scope"
+    ],
+    [
+      "held_files_excluded",
+      "h1_conditional_route"
+    ],
+    [
+      "held_files_excluded",
+      "h1_still_held"
+    ],
+    [
+      "held_files_excluded",
+      "h1_tieout"
+    ],
+    [
+      "held_files_excluded",
+      "claimed_renewal"
+    ],
+    [
+      "held_files_excluded",
+      "verification_gap"
+    ],
+    [
+      "held_files_excluded",
+      "renewal_restatement"
+    ],
+    [
+      "held_files_excluded",
+      "pilot_scheduling"
+    ],
+    [
+      "held_files_excluded",
+      "pilot_first_pass"
+    ],
+    [
+      "held_files_excluded",
+      "pilot_second_review"
+    ],
+    [
+      "held_files_excluded",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "held_files_excluded",
+      "auditor_scope"
+    ],
+    [
+      "h1_conditional_route",
+      "h1_tieout"
+    ],
+    [
+      "h1_conditional_route",
+      "claimed_renewal"
+    ],
+    [
+      "h1_conditional_route",
+      "verification_gap"
+    ],
+    [
+      "h1_conditional_route",
+      "renewal_restatement"
+    ],
+    [
+      "h1_conditional_route",
+      "pilot_scheduling"
+    ],
+    [
+      "h1_conditional_route",
+      "pilot_first_pass"
+    ],
+    [
+      "h1_conditional_route",
+      "pilot_second_review"
+    ],
+    [
+      "h1_conditional_route",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "h1_conditional_route",
+      "auditor_scope"
+    ],
+    [
+      "h1_still_held",
+      "h1_tieout"
+    ],
+    [
+      "h1_still_held",
+      "claimed_renewal"
+    ],
+    [
+      "h1_still_held",
+      "verification_gap"
+    ],
+    [
+      "h1_still_held",
+      "renewal_restatement"
+    ],
+    [
+      "h1_still_held",
+      "pilot_scheduling"
+    ],
+    [
+      "h1_still_held",
+      "pilot_first_pass"
+    ],
+    [
+      "h1_still_held",
+      "pilot_second_review"
+    ],
+    [
+      "h1_still_held",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "h1_still_held",
+      "auditor_scope"
+    ],
+    [
+      "h1_tieout",
+      "claimed_renewal"
+    ],
+    [
+      "h1_tieout",
+      "verification_gap"
+    ],
+    [
+      "h1_tieout",
+      "renewal_restatement"
+    ],
+    [
+      "h1_tieout",
+      "pilot_scheduling"
+    ],
+    [
+      "h1_tieout",
+      "pilot_first_pass"
+    ],
+    [
+      "h1_tieout",
+      "pilot_second_review"
+    ],
+    [
+      "h1_tieout",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "h1_tieout",
+      "auditor_scope"
+    ],
+    [
+      "claimed_renewal",
+      "verification_gap"
+    ],
+    [
+      "claimed_renewal",
+      "renewal_restatement"
+    ],
+    [
+      "claimed_renewal",
+      "pilot_scheduling"
+    ],
+    [
+      "claimed_renewal",
+      "pilot_first_pass"
+    ],
+    [
+      "claimed_renewal",
+      "pilot_second_review"
+    ],
+    [
+      "claimed_renewal",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "claimed_renewal",
+      "auditor_scope"
+    ],
+    [
+      "verification_gap",
+      "renewal_restatement"
+    ],
+    [
+      "verification_gap",
+      "pilot_scheduling"
+    ],
+    [
+      "verification_gap",
+      "pilot_first_pass"
+    ],
+    [
+      "verification_gap",
+      "pilot_second_review"
+    ],
+    [
+      "verification_gap",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "verification_gap",
+      "auditor_scope"
+    ],
+    [
+      "renewal_restatement",
+      "pilot_scheduling"
+    ],
+    [
+      "renewal_restatement",
+      "pilot_first_pass"
+    ],
+    [
+      "renewal_restatement",
+      "pilot_second_review"
+    ],
+    [
+      "renewal_restatement",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "renewal_restatement",
+      "auditor_scope"
+    ],
+    [
+      "pilot_scheduling",
+      "pilot_first_pass"
+    ],
+    [
+      "pilot_scheduling",
+      "pilot_second_review"
+    ],
+    [
+      "pilot_scheduling",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "pilot_scheduling",
+      "auditor_scope"
+    ],
+    [
+      "pilot_first_pass",
+      "pilot_second_review"
+    ],
+    [
+      "pilot_first_pass",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "pilot_first_pass",
+      "auditor_scope"
+    ],
+    [
+      "pilot_second_review",
+      "pilot_report_to_auditor"
+    ],
+    [
+      "pilot_second_review",
+      "auditor_scope"
+    ],
+    [
+      "pilot_report_to_auditor",
+      "auditor_scope"
+    ],
+    [
+      "h1_conditional_route",
+      "h1_still_held"
+    ]
+  ]
+}
