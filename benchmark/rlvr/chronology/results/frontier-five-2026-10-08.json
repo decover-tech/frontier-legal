@@ -1,0 +1,406 @@
+{
+  "batch": {
+    "batch_id": "20261009T020101Z-frontier-five-ee56a4",
+    "status": "completed_with_errors",
+    "started_at": "2026-10-09T02:02:02.377061+00:00",
+    "models": [
+      "openai/gpt-6-astra",
+      "anthropic/claude-opus-5.5",
+      "google/gemini-3.1-pro-preview",
+      "x-ai/grok-4.7",
+      "z-ai/glm-5.3-prime"
+    ],
+    "task_id": "CTH-CHRONOLOGY-001",
+    "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+    "repetitions": 1,
+    "reasoning_effort": "low",
+    "max_output_tokens_per_request": 16384,
+    "episode_output_tokens": 131072,
+    "limits": {
+      "max_steps": 120,
+      "max_observation_chars": 300000,
+      "search_page_size": 8,
+      "read_page_chars": 6000
+    },
+    "socket_timeout": 180,
+    "wall_timeout_per_request": 300,
+    "fallbacks": false,
+    "automatic_retries": false,
+    "orchestrator_sha256": "f7c365ce23adf21d35f907657b21e8c0c27e523ec6e7eefbad72946a806d3e87",
+    "notes": [
+      "One development task and one episode per model; not a general model ranking.",
+      "Exact same observation, task, tool interface, verifier and requested limits.",
+      "Provider errors are unscored, not zero; observed token-cap deviations are reported.",
+      "No post-hoc output repair or answer correction."
+    ],
+    "finished_at": "2026-10-09T02:02:10.747967+00:00"
+  },
+  "records": [
+    {
+      "model": "openai/gpt-6-astra",
+      "trial": 1,
+      "exit_code": 2,
+      "wall_seconds": 8.355,
+      "status": "request_error",
+      "reward": null,
+      "success": false,
+      "failure_codes": [
+        "HTTP_402"
+      ],
+      "evaluation": {
+        "done": true,
+        "reward": null,
+        "success": false,
+        "failure_codes": [
+          "HTTP_402"
+        ],
+        "status": "request_error"
+      },
+      "calls": 1,
+      "steps": 0,
+      "reported_output_tokens": 0,
+      "reported_input_tokens": 0,
+      "reported_reasoning_tokens": 0,
+      "reported_cost_usd": null,
+      "known_cost_subtotal_usd": 0.0,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [],
+      "routing_providers": [],
+      "run_directory": "output/rlvr/chronology/20261009T020101Z-frontier-five-ee56a4/openai--gpt-6-astra/20261009T020210Z-8cc40f16",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020210Z-8cc40f16",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "openai/gpt-6-astra"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 0,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "trial": 1,
+      "exit_code": 2,
+      "wall_seconds": 8.334,
+      "status": "request_error",
+      "reward": null,
+      "success": false,
+      "failure_codes": [
+        "HTTP_402"
+      ],
+      "evaluation": {
+        "done": true,
+        "reward": null,
+        "success": false,
+        "failure_codes": [
+          "HTTP_402"
+        ],
+        "status": "request_error"
+      },
+      "calls": 1,
+      "steps": 0,
+      "reported_output_tokens": 0,
+      "reported_input_tokens": 0,
+      "reported_reasoning_tokens": 0,
+      "reported_cost_usd": null,
+      "known_cost_subtotal_usd": 0.0,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [],
+      "routing_providers": [],
+      "run_directory": "output/rlvr/chronology/20261009T020101Z-frontier-five-ee56a4/anthropic--claude-opus-5.5/20261009T020210Z-0db17acd",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020210Z-0db17acd",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "anthropic/claude-opus-5.5"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 0,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "trial": 1,
+      "exit_code": 2,
+      "wall_seconds": 8.325,
+      "status": "request_error",
+      "reward": null,
+      "success": false,
+      "failure_codes": [
+        "HTTP_402"
+      ],
+      "evaluation": {
+        "done": true,
+        "reward": null,
+        "success": false,
+        "failure_codes": [
+          "HTTP_402"
+        ],
+        "status": "request_error"
+      },
+      "calls": 1,
+      "steps": 0,
+      "reported_output_tokens": 0,
+      "reported_input_tokens": 0,
+      "reported_reasoning_tokens": 0,
+      "reported_cost_usd": null,
+      "known_cost_subtotal_usd": 0.0,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [],
+      "routing_providers": [],
+      "run_directory": "output/rlvr/chronology/20261009T020101Z-frontier-five-ee56a4/google--gemini-3.1-pro-preview/20261009T020210Z-edd192d1",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020210Z-edd192d1",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "google/gemini-3.1-pro-preview"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 0,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "trial": 1,
+      "exit_code": 2,
+      "wall_seconds": 8.338,
+      "status": "request_error",
+      "reward": null,
+      "success": false,
+      "failure_codes": [
+        "HTTP_402"
+      ],
+      "evaluation": {
+        "done": true,
+        "reward": null,
+        "success": false,
+        "failure_codes": [
+          "HTTP_402"
+        ],
+        "status": "request_error"
+      },
+      "calls": 1,
+      "steps": 0,
+      "reported_output_tokens": 0,
+      "reported_input_tokens": 0,
+      "reported_reasoning_tokens": 0,
+      "reported_cost_usd": null,
+      "known_cost_subtotal_usd": 0.0,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [],
+      "routing_providers": [],
+      "run_directory": "output/rlvr/chronology/20261009T020101Z-frontier-five-ee56a4/x-ai--grok-4.7/20261009T020210Z-ca0ef3b4",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020210Z-ca0ef3b4",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "x-ai/grok-4.7"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 0,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "z-ai/glm-5.3-prime",
+      "trial": 1,
+      "exit_code": 2,
+      "wall_seconds": 8.354,
+      "status": "request_error",
+      "reward": null,
+      "success": false,
+      "failure_codes": [
+        "HTTP_402"
+      ],
+      "evaluation": {
+        "done": true,
+        "reward": null,
+        "success": false,
+        "failure_codes": [
+          "HTTP_402"
+        ],
+        "status": "request_error"
+      },
+      "calls": 1,
+      "steps": 0,
+      "reported_output_tokens": 0,
+      "reported_input_tokens": 0,
+      "reported_reasoning_tokens": 0,
+      "reported_cost_usd": null,
+      "known_cost_subtotal_usd": 0.0,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [],
+      "routing_providers": [],
+      "run_directory": "output/rlvr/chronology/20261009T020101Z-frontier-five-ee56a4/z-ai--glm-5.3-prime/20261009T020210Z-46daae7f",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020210Z-46daae7f",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "z-ai/glm-5.3-prime"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 0,
+        "status": "matched"
+      }
+    }
+  ],
+  "same_initial_observation": true,
+  "same_harness": true,
+  "known_cost_subtotal_usd": 0.0,
+  "all_costs_known": false,
+  "billing_diagnosis": {
+    "reason": "insufficient_account_credit",
+    "key_allowance_was_not_exhausted": true,
+    "source": "OpenRouter authenticated /api/v1/key and /api/v1/credits endpoints",
+    "model_responses_received": 0,
+    "performance_scores_available": false
+  }
+}

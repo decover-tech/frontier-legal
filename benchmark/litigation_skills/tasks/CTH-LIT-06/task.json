@@ -1,0 +1,529 @@
+{
+  "task_id": "CTH-LIT-06",
+  "skill": "demand-intake",
+  "title": "Third-party preservation demand readiness",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-12-31T23:59:59-08:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-03",
+    "CTH-LIT-09"
+  ],
+  "instruction": "Prepare intake for a proposed Cascade preservation request addressing outstanding third-party records; do not assume any demand was sent. Reconcile the latest preservation scope and dated cure evidence, select a source-backed candidate recipient, and identify the missing instructions that prevent a complete intake. Write the declared local artifact and submit the evidence-backed findings. Every required support/counter proposition must be cited from read source text. No sending, filing, live research, global profile or real calendar actions. Task parameters select this simulated exercise; they are not new historical events.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Which third party and records create the current direct-request need?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "recipient_entity": {
+            "type": "string",
+            "enum": [
+              "Bellhaven Advisory",
+              "Alder Point Partners",
+              "Cascade IT"
+            ],
+            "maxLength": 2048
+          },
+          "scope": {
+            "type": "string",
+            "enum": [
+              "native_bellhaven_systems",
+              "cascade_mailboxes_only",
+              "all_systems_confirmed"
+            ],
+            "maxLength": 2048
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "direct_confirmation_needed",
+              "already_complete",
+              "proven_destroyed"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "recipient_entity",
+          "scope",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F02",
+      "question": "What does the latest record establish about Nina’s mailbox; should intake still allege loss?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "mailbox_status": {
+            "type": "string",
+            "enum": [
+              "exported_and_retained",
+              "deleted",
+              "still_only_requested"
+            ],
+            "maxLength": 2048
+          },
+          "disabled_date": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "report_date": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "loss_allegation": {
+            "type": "string",
+            "enum": [
+              "unsupported",
+              "proven"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "mailbox_status",
+          "disabled_date",
+          "report_date",
+          "loss_allegation"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "What candidate record scope can intake support, and what does acknowledgement prove?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "records": {
+            "type": "string",
+            "enum": [
+              "program_records_including_drafts_and_calendar",
+              "final_emails_only",
+              "unrelated_matters"
+            ],
+            "maxLength": 2048
+          },
+          "receipt": {
+            "type": "string",
+            "enum": [
+              "individual_acknowledgement",
+              "all_custodians_confirmed",
+              "no_receipt"
+            ],
+            "maxLength": 2048
+          },
+          "technical_coverage": {
+            "type": "string",
+            "enum": [
+              "not_groupwide_proof",
+              "all_systems_confirmed"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "records",
+          "receipt",
+          "technical_coverage"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Identify supported recipient contact evidence without inventing signing authority.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "contact_email": {
+            "type": "string",
+            "enum": [
+              "rford@bellhavenadvisory.com",
+              "glin@llassociates.com",
+              "unknown"
+            ],
+            "maxLength": 2048
+          },
+          "contact_role": {
+            "type": "string",
+            "enum": [
+              "Compliance Officer",
+              "CTH counsel",
+              "CEO"
+            ],
+            "maxLength": 2048
+          },
+          "sender_signer": {
+            "type": "string",
+            "enum": [
+              "unknown",
+              "John Ellery approved",
+              "Grace Lin approved"
+            ],
+            "maxLength": 2048
+          },
+          "delivery_authority": {
+            "type": "string",
+            "enum": [
+              "unconfirmed",
+              "approved"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "contact_email",
+          "contact_role",
+          "sender_signer",
+          "delivery_authority"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F05",
+      "question": "Is a preservation demand ready to draft/send from these records, and what remains open?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "readiness": {
+            "type": "string",
+            "enum": [
+              "incomplete_intake",
+              "ready_to_send"
+            ],
+            "maxLength": 2048
+          },
+          "signer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "tone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "response_window": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "legal_basis": {
+            "type": "string",
+            "enum": [
+              "not_supplied_for_private_request",
+              "verified_sanctions_authority"
+            ],
+            "maxLength": 2048
+          },
+          "historical_send": {
+            "type": "string",
+            "enum": [
+              "not_established",
+              "confirmed_sent"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "readiness",
+          "signer",
+          "tone",
+          "response_window",
+          "legal_basis",
+          "historical_send"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    }
+  ],
+  "artifact_schemas": {
+    "demand/intake.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "incomplete_intake",
+            "approved_final",
+            "sent"
+          ],
+          "maxLength": 2048
+        },
+        "externally_sent": {
+          "type": "boolean"
+        },
+        "authority_confirmed": {
+          "type": "boolean"
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "recipient_entity": {
+                  "type": "string",
+                  "enum": [
+                    "Bellhaven Advisory",
+                    "Alder Point Partners",
+                    "Cascade IT"
+                  ],
+                  "maxLength": 2048
+                },
+                "scope": {
+                  "type": "string",
+                  "enum": [
+                    "native_bellhaven_systems",
+                    "cascade_mailboxes_only",
+                    "all_systems_confirmed"
+                  ],
+                  "maxLength": 2048
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "direct_confirmation_needed",
+                    "already_complete",
+                    "proven_destroyed"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "recipient_entity",
+                "scope",
+                "status"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "mailbox_status": {
+                  "type": "string",
+                  "enum": [
+                    "exported_and_retained",
+                    "deleted",
+                    "still_only_requested"
+                  ],
+                  "maxLength": 2048
+                },
+                "disabled_date": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "report_date": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "loss_allegation": {
+                  "type": "string",
+                  "enum": [
+                    "unsupported",
+                    "proven"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "mailbox_status",
+                "disabled_date",
+                "report_date",
+                "loss_allegation"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "records": {
+                  "type": "string",
+                  "enum": [
+                    "program_records_including_drafts_and_calendar",
+                    "final_emails_only",
+                    "unrelated_matters"
+                  ],
+                  "maxLength": 2048
+                },
+                "receipt": {
+                  "type": "string",
+                  "enum": [
+                    "individual_acknowledgement",
+                    "all_custodians_confirmed",
+                    "no_receipt"
+                  ],
+                  "maxLength": 2048
+                },
+                "technical_coverage": {
+                  "type": "string",
+                  "enum": [
+                    "not_groupwide_proof",
+                    "all_systems_confirmed"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "records",
+                "receipt",
+                "technical_coverage"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "contact_email": {
+                  "type": "string",
+                  "enum": [
+                    "rford@bellhavenadvisory.com",
+                    "glin@llassociates.com",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "contact_role": {
+                  "type": "string",
+                  "enum": [
+                    "Compliance Officer",
+                    "CTH counsel",
+                    "CEO"
+                  ],
+                  "maxLength": 2048
+                },
+                "sender_signer": {
+                  "type": "string",
+                  "enum": [
+                    "unknown",
+                    "John Ellery approved",
+                    "Grace Lin approved"
+                  ],
+                  "maxLength": 2048
+                },
+                "delivery_authority": {
+                  "type": "string",
+                  "enum": [
+                    "unconfirmed",
+                    "approved"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "contact_email",
+                "contact_role",
+                "sender_signer",
+                "delivery_authority"
+              ],
+              "additionalProperties": false
+            },
+            "F05": {
+              "type": "object",
+              "properties": {
+                "readiness": {
+                  "type": "string",
+                  "enum": [
+                    "incomplete_intake",
+                    "ready_to_send"
+                  ],
+                  "maxLength": 2048
+                },
+                "signer": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "tone": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "response_window": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "legal_basis": {
+                  "type": "string",
+                  "enum": [
+                    "not_supplied_for_private_request",
+                    "verified_sanctions_authority"
+                  ],
+                  "maxLength": 2048
+                },
+                "historical_send": {
+                  "type": "string",
+                  "enum": [
+                    "not_established",
+                    "confirmed_sent"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "readiness",
+                "signer",
+                "tone",
+                "response_window",
+                "legal_basis",
+                "historical_send"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "status",
+        "externally_sent",
+        "authority_confirmed",
+        "content"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Drafts remain local and unapproved.",
+    "Unknown authority, missing facts and differing evidence scopes stay explicit.",
+    "Evidence dates are distinct from dates of later reports; never infer completion from a plan."
+  ],
+  "policy_sha256": "9385c7d71230ebb79667c8580eb44c27dde8c7ca73c79203574f2c2f8d770a9e",
+  "schema_sha256": "2a6adccf85901fae1507c8af8eaac4416c0cf2331014a56b821ae60cad884f02",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "oracle_sha256": "a9f42471dbb1f411fb081c44efa7093b5445c92054c6de3de0cbd375ce4c0241",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

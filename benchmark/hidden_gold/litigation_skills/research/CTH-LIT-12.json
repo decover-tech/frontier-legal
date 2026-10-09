@@ -1,0 +1,249 @@
+{
+  "task_id": "CTH-LIT-12",
+  "author": "privilege_builder",
+  "independent_review_status": "pending",
+  "specification_reference": "claude-for-legal/litigation-legal/skills/deposition-prep/SKILL.md",
+  "review_method": "Read actual native email text and cited attachment/contract extractions, inspect contrary context and original-versus-quoted equivalents; no hidden labels used.",
+  "findings": [
+    {
+      "question": "What role and procedural posture can the dossier establish?",
+      "answer": {
+        "witness": "Tom Reyes",
+        "role": "Land Acquisition Manager",
+        "organization": "Alder Point Partners",
+        "testimony_status": "documents_only",
+        "designation": "not_supplied"
+      },
+      "support": [
+        {
+          "id": "authorship",
+          "description": "Document authored by Reyes",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:2",
+              "quote": "From: Tom Reyes <treyes@alderpointpartners.com>"
+            }
+          ]
+        },
+        {
+          "id": "role",
+          "description": "Signature identifies employer/role",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:9",
+              "quote": "Land Acquisition Manager | Alder Point Partners"
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": ""
+    },
+    {
+      "question": "Build the warning/continuation topic: what documents, contrast and follow-up should be tested?",
+      "answer": {
+        "foundation": "authenticate_march_warning_and_november_followup",
+        "contrast": "requested_reverification_vs_not_done",
+        "followup": "ask_who_authorized_proceeding_and_what_occurred",
+        "premise": "documented_statements_not_assumed_testimony"
+      },
+      "support": [
+        {
+          "id": "early_warning",
+          "description": "Reyes identifies mismatch and requests verification before submission",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:6",
+              "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+            }
+          ]
+        },
+        {
+          "id": "unresolved_later",
+          "description": "Reyes says requested verification was never done",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-015",
+              "locator": "line:6",
+              "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            },
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:14",
+              "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "counter_instruction",
+          "description": "Shah directs proceeding despite issue",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:6",
+              "quote": "Proceed as-is for now, we're too close to year-end to slow down. Flag it for the annual review."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "Build the broker topic without ignoring the mixed contemporaneous message.",
+      "answer": {
+        "foundation": "authenticate_renewal_and_intake_messages",
+        "confrontation": "continued_marketing_despite_pending_renewal",
+        "explanation": "ask_how_intake_encouragement_related_to_holdoff",
+        "issuance": "require_actual_state_record"
+      },
+      "support": [
+        {
+          "id": "continue",
+          "description": "Reyes later states marketing had not paused",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-044",
+              "locator": "line:6",
+              "quote": "Priya, Renee at Bellhaven is asking directly whether we paused marketing in OR/WA. We haven't. What do you want me to tell her?"
+            }
+          ]
+        },
+        {
+          "id": "renewal_warning",
+          "description": "Contemporaneous state backlog and hold-off warning",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-041",
+              "locator": "line:6",
+              "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "mixed_message",
+          "description": "Holt encourages intake without fixing renewal timing",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1427",
+              "locator": "line:20",
+              "quote": "Nothing new on timing. It's with the states, and these usually sort themselves out. Renee is keeping an eye on the filings. In the meantime feel free to send over whatever interest you have and we'll get intake started on our end. We'll sequence the closings."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "Build a version-control exhibit sequence for CPP’s missing allocation page.",
+      "answer": {
+        "controlling_source": "dated_delivery_register",
+        "cpp_missing_parcel": "NW-01",
+        "face_slice": 110000,
+        "older_version": "superseded_reservation_sheet",
+        "followup": "authenticate_original_register_and_delivery"
+      },
+      "support": [
+        {
+          "id": "final_register",
+          "description": "Later export identifies original source and superseded reservation version",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1492",
+              "locator": "line:6",
+              "quote": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list."
+            }
+          ]
+        },
+        {
+          "id": "inspect_register",
+          "description": "Actual delivered slice in native text attachment",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+              "locator": "line:6",
+              "quote": "Cascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-01-2022-0001 | NW-01 | 110000"
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "issuance_date",
+          "description": "Issue dates are separate from receipt/transmission",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:8",
+              "quote": "The dates on the source certificates are issuance dates. The receipt and transmission entries in your register are later and shouldn't replace them on the source copies."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "What limits must accompany the corrected allocation and follow-up questions?",
+      "answer": {
+        "allocation_check": "source_reference_only",
+        "eligibility": "not_established",
+        "question_target": "underlying_acreage_and_screening_records",
+        "answer_prediction": "none"
+      },
+      "support": [
+        {
+          "id": "allocation_review",
+          "description": "Actual corrected source quantities",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:6",
+              "quote": "The references match the source copies in records. NW-07 is 560,000 total; the 260,000 and 300,000 slices exhaust it. NW-01 and NW-05 have remaining face outside these three purchases, so don't treat those buyer slices as the full parcel amounts."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "reference_not_eligibility",
+          "description": "Source references checked, acreage not reexamined",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1493",
+              "locator": "line:8",
+              "quote": "This is a reference check; I haven't re-examined the acreage or the program screening."
+            },
+            {
+              "document_id": "ATT-EMAIL-1492-06-0c0c680ffe4f",
+              "locator": "line:12",
+              "quote": "Purchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "source_hashes": {
+    "EMAIL-003": "c3c2c32ff72a06ff8c8b37cfdfef7d0b342a48e5fb3edba37fae4160d5b8a558",
+    "EMAIL-015": "8b67cb301ac02511fce9165075843d3c1caf9ca9ee8c262e03eef98706341afc",
+    "EMAIL-016": "6472f9d424c229b05b78dbb4596324cbbdd4a7db56bc190dc47c0eb21f26c80e",
+    "EMAIL-044": "ea68343e7f9c8d1678dbc7292a68871998d04e666653cece80a16140d8387b67",
+    "EMAIL-041": "f019a706807827c708960c8a24f249baaea8879302b780c207e7d7c33a362fad",
+    "EMAIL-1427": "1421bc2772951485145502731001287a2e0465a47f4270f2d8cfb728cc9481db",
+    "EMAIL-1492": "310cf146eb3981a35a1a53627863b32ba926ab26945c702245dd7d0002d106a1",
+    "ATT-EMAIL-1492-06-0c0c680ffe4f": "0c0c680ffe4f8790085f1836d79957aeb89df3d7df26eda717f308bc237d7441",
+    "EMAIL-1493": "8a51633407dfc74afcec0580d66b1640b995ceaac56081d5a34796faa5371f4f"
+  },
+  "limitations": [
+    "Only reviewed bounded propositions are graded; unenumerated valid alternatives need review.",
+    "No actual legal clearance, sending, filing or attorney approval established.",
+    "Task-provided draft prerequisites are not independent historical evidence."
+  ]
+}

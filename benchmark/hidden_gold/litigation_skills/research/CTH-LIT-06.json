@@ -1,0 +1,212 @@
+{
+  "task_id": "CTH-LIT-06",
+  "author": "privilege_builder",
+  "independent_review_status": "pending",
+  "specification_reference": "claude-for-legal/litigation-legal/skills/demand-intake/SKILL.md",
+  "review_method": "Read actual native email text and cited attachment/contract extractions, inspect contrary context and original-versus-quoted equivalents; no hidden labels used.",
+  "findings": [
+    {
+      "question": "Which third party and records create the current direct-request need?",
+      "answer": {
+        "recipient_entity": "Bellhaven Advisory",
+        "scope": "native_bellhaven_systems",
+        "status": "direct_confirmation_needed"
+      },
+      "support": [
+        {
+          "id": "external_inquiry",
+          "description": "Bellhaven asks about preserving its own files",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-070",
+              "locator": "line:6",
+              "quote": "Derek, saw the pause notice from Alder Point. Given the subpoena, should we be doing anything on our end to preserve our own files, or just wait to hear from their counsel?"
+            }
+          ]
+        },
+        {
+          "id": "external_scope",
+          "description": "Cascade controls explicitly exclude Bellhaven native systems",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "Nothing on Bellhaven's own systems is covered by anything IT has done, and as far as I know no hold notice went to them from us."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "internal_controls",
+          "description": "Internal technical completion has different scope",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-060",
+              "locator": "line:6",
+              "quote": "Following today's legal hold notice: auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "What does the latest record establish about Nina’s mailbox; should intake still allege loss?",
+      "answer": {
+        "mailbox_status": "exported_and_retained",
+        "disabled_date": "2023-06-30",
+        "report_date": "2023-07-11",
+        "loss_allegation": "unsupported"
+      },
+      "support": [
+        {
+          "id": "later_report",
+          "description": "Later report records export before departure and disablement without deletion",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1096",
+              "locator": "line:6",
+              "quote": "Per John's direction, her mailbox was exported before her last day, and the account was disabled on June 30 but not deleted."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "prior_gap",
+          "description": "Earlier instruction was not completion evidence",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-062",
+              "locator": "line:6",
+              "quote": "Thanks Wendy — yes, please coordinate with Alder Point to preserve and export her mailbox before deprovisioning."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "What candidate record scope can intake support, and what does acknowledgement prove?",
+      "answer": {
+        "records": "program_records_including_drafts_and_calendar",
+        "receipt": "individual_acknowledgement",
+        "technical_coverage": "not_groupwide_proof"
+      },
+      "support": [
+        {
+          "id": "preserve_scope",
+          "description": "Actual notice scope is all program records",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-024",
+              "locator": "line:6",
+              "quote": "This is a legal hold notice. Preserve all documents, communications, and records related to the Coastal Solar Credit Program, Alder Point Partners, and Bellhaven Advisory. Do not delete or alter any related files pending further notice."
+            }
+          ]
+        },
+        {
+          "id": "ack_scope",
+          "description": "One Alder acknowledgement includes drafts/calendar invites, not system-wide proof",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-025",
+              "locator": "line:7",
+              "quote": "Confirming receipt of the legal hold notice. Please make sure nothing related to Coastal Solar gets deleted, including old drafts and calendar invites."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "internal_controls",
+          "description": "Internal technical completion has different scope",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-060",
+              "locator": "line:6",
+              "quote": "Following today's legal hold notice: auto-delete has been disabled for all mailboxes under hold, and a litigation-hold flag has been applied in the email system."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "Identify supported recipient contact evidence without inventing signing authority.",
+      "answer": {
+        "contact_email": "rford@bellhavenadvisory.com",
+        "contact_role": "Compliance Officer",
+        "sender_signer": "unknown",
+        "delivery_authority": "unconfirmed"
+      },
+      "support": [
+        {
+          "id": "contact",
+          "description": "Actual Bellhaven contact header and role",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-070",
+              "locator": "line:2",
+              "quote": "From: Renee Ford <rford@bellhavenadvisory.com>"
+            }
+          ]
+        },
+        {
+          "id": "role",
+          "description": "Record signature role",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-070",
+              "locator": "line:9",
+              "quote": "Compliance Officer | Bellhaven Advisory"
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": ""
+    },
+    {
+      "question": "Is a preservation demand ready to draft/send from these records, and what remains open?",
+      "answer": {
+        "readiness": "incomplete_intake",
+        "signer": null,
+        "tone": null,
+        "response_window": null,
+        "legal_basis": "not_supplied_for_private_request",
+        "historical_send": "not_established"
+      },
+      "support": [
+        {
+          "id": "direct_request_pending",
+          "description": "IT describes need for separate counsel request",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1066",
+              "locator": "line:7",
+              "quote": "If counsel wants their files preserved, that would have to be a request to Bellhaven directly. I can't do it technically from here."
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": "Unknown posture is deliberate task-prerequisite absence; evidence establishes need rather than proving corpus-wide no sending."
+    }
+  ],
+  "source_hashes": {
+    "EMAIL-070": "eaf7a4404196c9de81e34b8662a6ecc2a5446ff0c4957b83082ecc59454f819f",
+    "EMAIL-1066": "4e82935c7b1a81f5420cb91d10ac357aae19b6082c817ca4a4df709d7f449b05",
+    "EMAIL-060": "8b5ae3b4b089bf8e26ab561c50315776216f87d406873c091d673b280f6f1864",
+    "EMAIL-1096": "a88814930a6d66caf80575ca483aa60af9c42e9e02f1de5d4b96c2d56a586dba",
+    "EMAIL-062": "79b398cf387e9a084ec6b0e1d87af23d73f299a807d3c2ce38df97d9d83b5359",
+    "EMAIL-024": "5a2ae2d91bfb313f774fb1b4c56634359bf4b90276c0b041f4b00081d83435ef",
+    "EMAIL-025": "37917be212bee2353ce009727e686784f4ecc25d16a885ee6f2cd717226fd9ed"
+  },
+  "limitations": [
+    "Only reviewed bounded propositions are graded; unenumerated valid alternatives need review.",
+    "No actual legal clearance, sending, filing or attorney approval established.",
+    "Task-provided draft prerequisites are not independent historical evidence."
+  ]
+}

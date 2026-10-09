@@ -1,0 +1,541 @@
+{
+  "task_id": "CTH-LIT-03",
+  "author_review_status": "author_checked",
+  "independent_review_status": "pending",
+  "findings": {
+    "F01": {
+      "accepted_answers": [
+        {
+          "entity": "Cascade Timber Holdings",
+          "program": "Coastal Solar Credit Program",
+          "initial_complaint_on": "2023-02-20",
+          "irs_receipt_on": "2023-05-23",
+          "role": "investigated",
+          "source": "regulator_inquiry_after_internal_report",
+          "pleaded_claims": null
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "complaint",
+          "description": "Internal origin and allegations.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-019",
+              "locator": "line:7",
+              "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+            },
+            {
+              "document_id": "EMAIL-020",
+              "locator": "line:28",
+              "quote": "we received an anonymous complaint today alleging that Coastal Solar credit applications include land parcels that don't meet conservation eligibility requirements. Recommend we begin an internal review immediately."
+            }
+          ]
+        },
+        {
+          "id": "regulatory_arrival",
+          "description": "Later IRSreceipt distinctfrom complaint.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-023",
+              "locator": "line:7",
+              "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+            },
+            {
+              "document_id": "EMAIL-054",
+              "locator": "line:27",
+              "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+            },
+            {
+              "document_id": "EMAIL-055",
+              "locator": "line:48",
+              "quote": "we received a subpoena from the IRS this morning requesting records related to the Coastal Solar Credit Program, including marketing materials, investor communications, and records tied to Alder Point Partners."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [],
+      "notes": ""
+    },
+    "F02": {
+      "accepted_answers": [
+        {
+          "instrument": "irs_administrative_summons",
+          "original_response_due": "2023-06-13",
+          "extension_granted_on": "2023-05-31",
+          "derived_extended_due": "2023-06-20",
+          "deadline_basis": "original_due_plus_granted_one_week",
+          "service_validity": "not_established"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "classification",
+          "description": "Supplied enhanced instrument controls exercise classification.",
+          "alternatives": [
+            {
+              "document_id": "DOC-568de2fba6d1c11aff9a",
+              "locator": "document:paragraph:39",
+              "quote": "Legal note: 26 U.S.C. \u00a7 7602 authorizes an IRS administrative summons, enforceable in federal district court under 26 U.S.C. \u00a7\u00a7 7402(b) and 7604; the IRS does not issue a subpoena duces tecum in a civil examination."
+            }
+          ]
+        },
+        {
+          "id": "original_due",
+          "description": "Original attached response date.",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+              "locator": "page:1",
+              "quote": "RESPONSE DUE:  On or before June 13, 2023 (21 days)"
+            }
+          ]
+        },
+        {
+          "id": "grant",
+          "description": "Agency grants oneweek, not merely request.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-057",
+              "locator": "line:6",
+              "quote": "Mr. Ellery, the Service grants a one-week extension. Revised production deadline is noted on our end."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "original_label_conflict",
+          "description": "Original title mustnot import civilrules.",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-023-04-ca39ab3e1770",
+              "locator": "page:1",
+              "quote": "SUBPOENA DUCES TECUM\nUNITED STATES OF AMERICA \u2014 DEPARTMENT OF THE TREASURY\nINTERNAL REVENUE SERVICE"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F03": {
+      "accepted_answers": [
+        {
+          "outside_firm": "L&L Associates",
+          "lead": "Grace Lin",
+          "email": "glin@llassociates.com",
+          "documented_engagement_on": "2023-02-24",
+          "engagement_scope": "legal_advice_and_internal_review",
+          "conflicts_clearance": "not_established",
+          "conflicts_method": null,
+          "intake_authorization": "draft_only_pending_conflicts_information"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "engagement",
+          "description": "Actual letter confirms scope; not conflictclearance.",
+          "alternatives": [
+            {
+              "document_id": "ATT-EMAIL-021-04-235de50fbc43",
+              "locator": "page:1",
+              "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+            },
+            {
+              "document_id": "DOC-0895c4e533316c9832d8",
+              "locator": "page:1",
+              "quote": "This letter confirms the engagement of L&L Associates (\u201cwe\u201d or \u201cthe Firm\u201d) by Cascade Timber\nHoldings (\u201cCTH\u201d or \u201cthe Company\u201d) to provide legal advice and conduct an internal review of the\nCoastal Solar Credit Program in connection with the anonymous complaint received on February 20,\n2023."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "description": "Actual counselcontact.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-022",
+              "locator": "line:13",
+              "quote": "Direct: (415) 555-0121 | glin@llassociates.com"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "initial_recommendation",
+          "description": "Earlier suggestion not proof of formal engagement orclearance.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-020",
+              "locator": "line:9",
+              "quote": "Recommend engaging outside counsel now rather than waiting."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F04": {
+      "accepted_answers": [
+        {
+          "preservation_status": "targeted_preparatory_controls_reported",
+          "auto_delete_suspension_scope": "exec_team_and_draft_custodian_list",
+          "hr_departure_safeguard": "same_day_notification_and_hold_account_closure_until_export",
+          "company_wide_hold_issuance_by_cutoff": "not_established",
+          "collection_completeness": "not_established"
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "prep_controls",
+          "description": "May26 targetedcontrols actuallyreported.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-206",
+              "locator": "line:6",
+              "quote": "getting ahead of any legal hold: I've suspended automated mailbox deletion for the exec team and the people on John's draft custodian list."
+            }
+          ]
+        },
+        {
+          "id": "hr_control",
+          "description": "Departure/deprovision safeguard, not completedexport.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-207",
+              "locator": "line:6",
+              "quote": "I'll flag any departures on the list to you same-day and hold off account closure until you confirm the export is done."
+            }
+          ]
+        },
+        {
+          "id": "scope_inquiry",
+          "description": "May30 asks custodianscope/holdverification, not complete certification.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-058",
+              "locator": "line:6",
+              "quote": "Can you send mailbox sizes and confirm hold status for each custodian?"
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "prior_risk",
+          "description": "May21 limits exportcompleteness and retentioncoverage; May26 changes onlynamed scope.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1078",
+              "locator": "line:6",
+              "quote": "Everything on the current list is exported except the finance share, which should finish Tuesday. One flag: for mailboxes we haven't exported, the standard retention policy is still running, so older items can roll off on schedule."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "F05": {
+      "accepted_answers": [
+        {
+          "credit_face_ceiling_usd": 2400000,
+          "ceiling_is_liability_estimate": false,
+          "excess_acreage_case": "inputs_blank_not_computed",
+          "penalties_interest_included": false,
+          "reserve_amount": null,
+          "settlement_authority": null,
+          "house_risk_rating": null
+        }
+      ],
+      "support_groups": [
+        {
+          "id": "ceiling_not_estimate",
+          "description": "Counsel distinguishes faceceiling from exposure.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1466",
+              "locator": "line:11",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate"
+            },
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:83",
+              "quote": "The $2.4M is a ceiling on credit face. It isn't an exposure figure. Penalties and interest are separate"
+            }
+          ]
+        },
+        {
+          "id": "uncomputed_case",
+          "description": "May31 workbook lacks inputs; sourcequote prevents inventedreserve.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:13",
+              "quote": "Tab 2 is the excess-acreage case. The formulas are in, but the supported-acreage column is blank, so the tab computes nothing until someone gives me inputs."
+            }
+          ]
+        }
+      ],
+      "counter_groups": [
+        {
+          "id": "fullparcel_label",
+          "description": "Workbookpositive number is fullparcel creditface, not liability.",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1469",
+              "locator": "line:11",
+              "quote": "Tab 1 is the full-parcel case: NW-03, NW-04, NW-06 and NW-07 at credit face, $2.40M total."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/id",
+      "kind": "equals",
+      "value": "cascade-timber-coastal-solar"
+    },
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/status",
+      "kind": "equals",
+      "value": "draft_pending_conflicts_information"
+    },
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/identification",
+      "kind": "equals_finding",
+      "finding": "F01",
+      "answer_pointer": ""
+    },
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/deadlines",
+      "kind": "equals_finding",
+      "finding": "F02",
+      "answer_pointer": ""
+    },
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/counsel_and_conflicts",
+      "kind": "equals_finding",
+      "finding": "F03",
+      "answer_pointer": ""
+    },
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/preservation",
+      "kind": "equals_finding",
+      "finding": "F04",
+      "answer_pointer": ""
+    },
+    {
+      "path": "intake/matter-draft.json",
+      "pointer": "/financial_readiness",
+      "kind": "equals_finding",
+      "finding": "F05",
+      "answer_pointer": ""
+    },
+    {
+      "path": "intake/history-draft.json",
+      "pointer": "",
+      "kind": "equals",
+      "value": {
+        "entries": [
+          {
+            "recorded_on": "2023-05-31",
+            "event_type": "task_intake_draft",
+            "operational_matter_opened": false,
+            "source_events": [
+              {
+                "date": "2023-02-20",
+                "type": "anonymous_complaint_reported"
+              },
+              {
+                "date": "2023-02-24",
+                "type": "counsel_engaged"
+              },
+              {
+                "date": "2023-05-23",
+                "type": "irs_instrument_received"
+              },
+              {
+                "date": "2023-05-31",
+                "type": "one_week_extension_granted"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "intake/ledger-draft.json",
+      "pointer": "",
+      "kind": "equals",
+      "value": {
+        "rows": [
+          {
+            "id": "cascade-timber-coastal-solar",
+            "status": "draft_pending_conflicts_information",
+            "conflicts_clearance": "not_established",
+            "reserve_amount": null,
+            "next_response_due": "2023-06-20",
+            "deadline_is_arithmetic": true
+          }
+        ],
+        "operational_ledger_written": false
+      }
+    }
+  ],
+  "control_artifacts": {
+    "intake/matter-draft.json": {
+      "id": "cascade-timber-coastal-solar",
+      "status": "draft_pending_conflicts_information",
+      "identification": {
+        "entity": "Cascade Timber Holdings",
+        "program": "Coastal Solar Credit Program",
+        "initial_complaint_on": "2023-02-20",
+        "irs_receipt_on": "2023-05-23",
+        "role": "investigated",
+        "source": "regulator_inquiry_after_internal_report",
+        "pleaded_claims": null
+      },
+      "deadlines": {
+        "instrument": "irs_administrative_summons",
+        "original_response_due": "2023-06-13",
+        "extension_granted_on": "2023-05-31",
+        "derived_extended_due": "2023-06-20",
+        "deadline_basis": "original_due_plus_granted_one_week",
+        "service_validity": "not_established"
+      },
+      "counsel_and_conflicts": {
+        "outside_firm": "L&L Associates",
+        "lead": "Grace Lin",
+        "email": "glin@llassociates.com",
+        "documented_engagement_on": "2023-02-24",
+        "engagement_scope": "legal_advice_and_internal_review",
+        "conflicts_clearance": "not_established",
+        "conflicts_method": null,
+        "intake_authorization": "draft_only_pending_conflicts_information"
+      },
+      "preservation": {
+        "preservation_status": "targeted_preparatory_controls_reported",
+        "auto_delete_suspension_scope": "exec_team_and_draft_custodian_list",
+        "hr_departure_safeguard": "same_day_notification_and_hold_account_closure_until_export",
+        "company_wide_hold_issuance_by_cutoff": "not_established",
+        "collection_completeness": "not_established"
+      },
+      "financial_readiness": {
+        "credit_face_ceiling_usd": 2400000,
+        "ceiling_is_liability_estimate": false,
+        "excess_acreage_case": "inputs_blank_not_computed",
+        "penalties_interest_included": false,
+        "reserve_amount": null,
+        "settlement_authority": null,
+        "house_risk_rating": null
+      }
+    },
+    "intake/history-draft.json": {
+      "entries": [
+        {
+          "recorded_on": "2023-05-31",
+          "event_type": "task_intake_draft",
+          "operational_matter_opened": false,
+          "source_events": [
+            {
+              "date": "2023-02-20",
+              "type": "anonymous_complaint_reported"
+            },
+            {
+              "date": "2023-02-24",
+              "type": "counsel_engaged"
+            },
+            {
+              "date": "2023-05-23",
+              "type": "irs_instrument_received"
+            },
+            {
+              "date": "2023-05-31",
+              "type": "one_week_extension_granted"
+            }
+          ]
+        }
+      ]
+    },
+    "intake/ledger-draft.json": {
+      "rows": [
+        {
+          "id": "cascade-timber-coastal-solar",
+          "status": "draft_pending_conflicts_information",
+          "conflicts_clearance": "not_established",
+          "reserve_amount": null,
+          "next_response_due": "2023-06-20",
+          "deadline_is_arithmetic": true
+        }
+      ],
+      "operational_ledger_written": false
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "fabricated_source_quote",
+      "kind": "fabricate_quote",
+      "finding": "F01"
+    },
+    {
+      "name": "no_read_provenance",
+      "kind": "unread_citations"
+    },
+    {
+      "name": "caption_invents_filed_claims",
+      "kind": "answer_field",
+      "finding": "F01",
+      "pointer": "/pleaded_claims",
+      "value": "tax_fraud_complaint"
+    },
+    {
+      "name": "future_deadline_leaks_back",
+      "kind": "answer_field",
+      "finding": "F02",
+      "pointer": "/derived_extended_due",
+      "value": "2023-08-31"
+    },
+    {
+      "name": "engagement_means_conflicts_cleared",
+      "kind": "answer_field",
+      "finding": "F03",
+      "pointer": "/conflicts_clearance",
+      "value": "cleared"
+    },
+    {
+      "name": "formal_notice_backdated",
+      "kind": "answer_field",
+      "finding": "F04",
+      "pointer": "/company_wide_hold_issuance_by_cutoff",
+      "value": "established"
+    },
+    {
+      "name": "face_ceiling_as_reserve",
+      "kind": "answer_field",
+      "finding": "F05",
+      "pointer": "/reserve_amount",
+      "value": "2400000"
+    },
+    {
+      "name": "retention_counter_ignored",
+      "kind": "drop_counter",
+      "finding": "F04"
+    },
+    {
+      "name": "operational_ledger_claimed",
+      "kind": "artifact_field",
+      "path": "intake/ledger-draft.json",
+      "pointer": "/operational_ledger_written",
+      "value": true
+    }
+  ]
+}

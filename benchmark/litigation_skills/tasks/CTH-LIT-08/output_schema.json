@@ -1,0 +1,1140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "object",
+      "properties": {
+        "F01": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "classification_under_supplied_protocol": {
+                  "type": "string",
+                  "enum": [
+                    "irs_administrative_summons",
+                    "ordinary_civil_subpoena",
+                    "grand_jury_subpoena",
+                    "unresolved"
+                  ],
+                  "maxLength": 2048
+                },
+                "original_attachment_title": {
+                  "type": "string",
+                  "enum": [
+                    "subpoena_duces_tecum",
+                    "summons",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "enhanced_title": {
+                  "type": "string",
+                  "enum": [
+                    "subpoena_duces_tecum",
+                    "summons",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "historical_amendment_or_reservice": {
+                  "type": "string",
+                  "enum": [
+                    "established",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "issue_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reported_receipt_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "service_validity": {
+                  "type": "string",
+                  "enum": [
+                    "established",
+                    "defective",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "classification_under_supplied_protocol",
+                "original_attachment_title",
+                "enhanced_title",
+                "historical_amendment_or_reservice",
+                "issue_date",
+                "reported_receipt_date",
+                "service_validity"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F02": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "original_due": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "extension_requested_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "one_week_extension_granted_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "arithmetic_first_extended_due": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "interim_extension_event_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "interim_extension_report_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "current_overall_production_due": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "rolling_schedule_due": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "interim_extension_weeks": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "original_due",
+                "extension_requested_on",
+                "one_week_extension_granted_on",
+                "arithmetic_first_extended_due",
+                "interim_extension_event_date",
+                "interim_extension_report_date",
+                "current_overall_production_due",
+                "rolling_schedule_due",
+                "interim_extension_weeks"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F03": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "followup_categories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "bellhaven_agreements_and_amendments",
+                      "acreage_approval_records",
+                      "northwest_parcel_surveys",
+                      "all_investor_testimony",
+                      "settlement_authority"
+                    ],
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "minItems": 0,
+                  "maxItems": 5
+                },
+                "second_batch_planned_week": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "approval_records_scope_as_august17": {
+                  "type": "string",
+                  "enum": [
+                    "gathering_not_confirmed",
+                    "complete",
+                    "withheld",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "second_production_received_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "receipt_reported_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "complete_compliance": {
+                  "type": "string",
+                  "enum": [
+                    "established",
+                    "not_established",
+                    "disproved"
+                  ],
+                  "maxLength": 2048
+                },
+                "timely_compliance": {
+                  "type": "string",
+                  "enum": [
+                    "established",
+                    "not_established",
+                    "disproved"
+                  ],
+                  "maxLength": 2048
+                },
+                "examination_status": {
+                  "type": "string",
+                  "enum": [
+                    "open",
+                    "closed",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "irs_interviews": {
+                  "type": "string",
+                  "enum": [
+                    "scheduled",
+                    "not_scheduled",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "followup_categories",
+                "second_batch_planned_week",
+                "approval_records_scope_as_august17",
+                "second_production_received_on",
+                "receipt_reported_on",
+                "complete_compliance",
+                "timely_compliance",
+                "examination_status",
+                "irs_interviews"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F04": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "original_request_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "enhanced_request_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "enhanced_request_matrix": {
+                  "type": "object",
+                  "properties": {
+                    "1": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    },
+                    "2": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    },
+                    "3": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    },
+                    "4": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    },
+                    "5": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    },
+                    "6": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    },
+                    "7": {
+                      "type": "string",
+                      "enum": [
+                        "tax_credit_transactions_origination_eligibility_appraisal_structuring_2021_2023",
+                        "program_marketing_sales_broker_investor_materials_2022_2023",
+                        "program_participant_advisor_relationships_engagement_fees_diligence",
+                        "alder_affiliates_entities_ownership_intercompany_and_program_brokers",
+                        "program_tax_accounting_banking_loans_and_related_filings",
+                        "board_internal_compliance_tax_valuation_risk_nonprivileged_counsel_opinions",
+                        "document_level_log_of_responsive_withheld_privileged_or_work_product_records",
+                        "not_established"
+                      ],
+                      "maxLength": 2048
+                    }
+                  },
+                  "required": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                  ],
+                  "additionalProperties": false
+                },
+                "scope_version_status": {
+                  "type": "string",
+                  "enum": [
+                    "distinct_original_and_supplied_enhanced_versions",
+                    "identical_versions",
+                    "historical_amendment_proved",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "original_request_count",
+                "enhanced_request_count",
+                "enhanced_request_matrix",
+                "scope_version_status"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F05": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "formal_hold_notice_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "nina_june02_hold": {
+                  "type": "string",
+                  "enum": [
+                    "pending",
+                    "applied",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "nina_june02_export": {
+                  "type": "string",
+                  "enum": [
+                    "not_started",
+                    "queued",
+                    "completed",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "nina_cure_by_cutoff": {
+                  "type": "string",
+                  "enum": [
+                    "export_and_hold_reported",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "it_control_scope": {
+                  "type": "string",
+                  "enum": [
+                    "cascade_mailboxes_and_shared_drive_not_alder_own_systems",
+                    "all_company_and_third_party_systems",
+                    "mailboxes_only",
+                    "none_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "bellhaven_own_system_preservation": {
+                  "type": "string",
+                  "enum": [
+                    "established",
+                    "not_established",
+                    "disproved"
+                  ],
+                  "maxLength": 2048
+                },
+                "next_step": {
+                  "type": "string",
+                  "enum": [
+                    "verify_custodian_completion_and_coordinate_third_party_preservation",
+                    "release_all_holds",
+                    "certify_complete_preservation",
+                    "no_action"
+                  ],
+                  "maxLength": 2048
+                },
+                "nina_exact_export_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "formal_hold_notice_on",
+                "nina_june02_hold",
+                "nina_june02_export",
+                "nina_cure_by_cutoff",
+                "it_control_scope",
+                "bellhaven_own_system_preservation",
+                "next_step",
+                "nina_exact_export_date"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        },
+        "F06": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "object",
+              "properties": {
+                "permitted_production_formats": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "native_with_metadata",
+                      "legible_category_organized_copies",
+                      "tiff_only",
+                      "summary_only"
+                    ],
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "minItems": 0,
+                  "maxItems": 4
+                },
+                "permitted_transmission": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "encrypted_media",
+                      "irs_secure_portal",
+                      "public_link",
+                      "ordinary_email"
+                    ],
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "minItems": 0,
+                  "maxItems": 4
+                },
+                "cover_letter_fields": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "custodians",
+                      "date_ranges_by_category",
+                      "conceded_liability",
+                      "settlement_amount"
+                    ],
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "minItems": 0,
+                  "maxItems": 4
+                },
+                "privilege_log_scope": {
+                  "type": "string",
+                  "enum": [
+                    "responsive_records_withheld_by_document",
+                    "all_messages_from_any_lawyer",
+                    "none"
+                  ],
+                  "maxLength": 2048
+                },
+                "segregation_and_joint_document_coordination": {
+                  "type": "string",
+                  "enum": [
+                    "recommended_by_counsel",
+                    "completed",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "entire_ellery_mailbox_privileged": {
+                  "type": "string",
+                  "enum": [
+                    "established",
+                    "not_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "objection_deadline": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "motion_deadline": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "response_posture": {
+                  "type": "string",
+                  "enum": [
+                    "internal_counsel_review_draft_only",
+                    "final_objections_served",
+                    "production_sent"
+                  ],
+                  "maxLength": 2048
+                },
+                "authority_status": {
+                  "type": "string",
+                  "enum": [
+                    "supplied_instrument_unverified",
+                    "current_law_independently_verified"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "permitted_production_formats",
+                "permitted_transmission",
+                "cover_letter_fields",
+                "privilege_log_scope",
+                "segregation_and_joint_document_coordination",
+                "entire_ellery_mailbox_privileged",
+                "objection_deadline",
+                "motion_deadline",
+                "response_posture",
+                "authority_status"
+              ],
+              "additionalProperties": false
+            },
+            "support": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 8,
+              "uniqueItems": true
+            },
+            "counter": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "document_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "locator": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                },
+                "required": [
+                  "document_id",
+                  "locator",
+                  "quote"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 6,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "answer",
+            "support",
+            "counter"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "findings"
+  ],
+  "additionalProperties": false
+}

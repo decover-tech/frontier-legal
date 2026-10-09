@@ -15,3 +15,4 @@ __pycache__/
 
 # Local RLVR traces and API evaluation artifacts
 output/rlvr/
+output/litigation_skills/

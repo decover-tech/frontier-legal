@@ -1,0 +1,27 @@
+{
+  "artifacts": {
+    "demand/intake.json": {
+      "status": "draft_prerequisite",
+      "request_type": "preservation",
+      "candidate_recipient": "Bellhaven Advisory",
+      "signer": null,
+      "tone": null,
+      "response_window": null,
+      "legal_basis": null,
+      "approved": false
+    }
+  },
+  "provenance": [
+    {
+      "artifact_path": "demand/intake.json",
+      "description": "Task-provided draft prerequisite; not proof of historical approval or sending. Candidate Bellhaven need is source-backed by November IT scope clarification. Unknown posture comes from task parameter, not invented correspondence.",
+      "sources": [
+        {
+          "document_id": "EMAIL-1066",
+          "locator": "line:7",
+          "quote": "If counsel wants their files preserved, that would have to be a request to Bellhaven directly. I can't do it technically from here."
+        }
+      ]
+    }
+  ]
+}

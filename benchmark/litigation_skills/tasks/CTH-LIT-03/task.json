@@ -1,0 +1,678 @@
+{
+  "task_id": "CTH-LIT-03",
+  "skill": "matter-intake",
+  "title": "Historical intake with conflicted readiness and preservation state",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-05-31T23:59:59-07:00",
+  "instruction": "Prepare draft matter, history and one-row ledger for the Coastal Solar examination at the May31 cutoff. Join the internal initiation, counsel engagement, regulatory instrument, deadline chain, preservation and financial records. Preserve unknown conflicts/authority and do not create an operationally approved matter or import later events.",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-01"
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Reconstruct the internal and regulatory initiation and source-supported matter role without inventing pleaded claims.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "entity": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "program": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "initial_complaint_on": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "irs_receipt_on": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "role": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "source": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "pleaded_claims": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "entity",
+          "program",
+          "initial_complaint_on",
+          "irs_receipt_on",
+          "role",
+          "source",
+          "pleaded_claims"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F02",
+      "question": "Identify the instrument and current deadline as of this historical cutoff, resolving original terminology and request/grant distinctions.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "instrument": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "original_response_due": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "extension_granted_on": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "derived_extended_due": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "deadline_basis": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "service_validity": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "instrument",
+          "original_response_due",
+          "extension_granted_on",
+          "derived_extended_due",
+          "deadline_basis",
+          "service_validity"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Identify counsel engagement/contact and conflicts readiness; can an operationally approved intake be recorded?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "outside_firm": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "lead": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "email": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "documented_engagement_on": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "engagement_scope": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "conflicts_clearance": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "conflicts_method": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "intake_authorization": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "outside_firm",
+          "lead",
+          "email",
+          "documented_engagement_on",
+          "engagement_scope",
+          "conflicts_clearance",
+          "conflicts_method",
+          "intake_authorization"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Reconcile collection and retention activity before the formal hold phase: identify controls actually reported, limited scope and missing completion proof.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "preservation_status": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "auto_delete_suspension_scope": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "hr_departure_safeguard": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "company_wide_hold_issuance_by_cutoff": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "collection_completeness": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "preservation_status",
+          "auto_delete_suspension_scope",
+          "hr_departure_safeguard",
+          "company_wide_hold_issuance_by_cutoff",
+          "collection_completeness"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F05",
+      "question": "Resolve whether the finance figure can fill risk/reserve/settlement fields; distinguish face ceiling from uncomputed alternatives and authority.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "credit_face_ceiling_usd": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "ceiling_is_liability_estimate": {
+            "type": "boolean"
+          },
+          "excess_acreage_case": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "penalties_interest_included": {
+            "type": "boolean"
+          },
+          "reserve_amount": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "settlement_authority": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "house_risk_rating": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "credit_face_ceiling_usd",
+          "ceiling_is_liability_estimate",
+          "excess_acreage_case",
+          "penalties_interest_included",
+          "reserve_amount",
+          "settlement_authority",
+          "house_risk_rating"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "intake/matter-draft.json": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "identification": {
+          "type": "object",
+          "properties": {
+            "entity": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "program": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "initial_complaint_on": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "irs_receipt_on": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "role": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "source": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "pleaded_claims": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "entity",
+            "program",
+            "initial_complaint_on",
+            "irs_receipt_on",
+            "role",
+            "source",
+            "pleaded_claims"
+          ],
+          "additionalProperties": false
+        },
+        "deadlines": {
+          "type": "object",
+          "properties": {
+            "instrument": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "original_response_due": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "extension_granted_on": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "derived_extended_due": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "deadline_basis": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "service_validity": {
+              "type": "string",
+              "maxLength": 2048
+            }
+          },
+          "required": [
+            "instrument",
+            "original_response_due",
+            "extension_granted_on",
+            "derived_extended_due",
+            "deadline_basis",
+            "service_validity"
+          ],
+          "additionalProperties": false
+        },
+        "counsel_and_conflicts": {
+          "type": "object",
+          "properties": {
+            "outside_firm": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "lead": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "email": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "documented_engagement_on": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "engagement_scope": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "conflicts_clearance": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "conflicts_method": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "intake_authorization": {
+              "type": "string",
+              "maxLength": 2048
+            }
+          },
+          "required": [
+            "outside_firm",
+            "lead",
+            "email",
+            "documented_engagement_on",
+            "engagement_scope",
+            "conflicts_clearance",
+            "conflicts_method",
+            "intake_authorization"
+          ],
+          "additionalProperties": false
+        },
+        "preservation": {
+          "type": "object",
+          "properties": {
+            "preservation_status": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "auto_delete_suspension_scope": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "hr_departure_safeguard": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "company_wide_hold_issuance_by_cutoff": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "collection_completeness": {
+              "type": "string",
+              "maxLength": 2048
+            }
+          },
+          "required": [
+            "preservation_status",
+            "auto_delete_suspension_scope",
+            "hr_departure_safeguard",
+            "company_wide_hold_issuance_by_cutoff",
+            "collection_completeness"
+          ],
+          "additionalProperties": false
+        },
+        "financial_readiness": {
+          "type": "object",
+          "properties": {
+            "credit_face_ceiling_usd": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "ceiling_is_liability_estimate": {
+              "type": "boolean"
+            },
+            "excess_acreage_case": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "penalties_interest_included": {
+              "type": "boolean"
+            },
+            "reserve_amount": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "settlement_authority": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "house_risk_rating": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "credit_face_ceiling_usd",
+            "ceiling_is_liability_estimate",
+            "excess_acreage_case",
+            "penalties_interest_included",
+            "reserve_amount",
+            "settlement_authority",
+            "house_risk_rating"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "status",
+        "identification",
+        "deadlines",
+        "counsel_and_conflicts",
+        "preservation",
+        "financial_readiness"
+      ],
+      "additionalProperties": false
+    },
+    "intake/history-draft.json": {
+      "type": "object",
+      "properties": {
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "recorded_on": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "event_type": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "operational_matter_opened": {
+                "type": "boolean"
+              },
+              "source_events": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "date": {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    "type": {
+                      "type": "string",
+                      "maxLength": 2048
+                    }
+                  },
+                  "required": [
+                    "date",
+                    "type"
+                  ],
+                  "additionalProperties": false
+                },
+                "uniqueItems": true,
+                "maxItems": 24
+              }
+            },
+            "required": [
+              "recorded_on",
+              "event_type",
+              "operational_matter_opened",
+              "source_events"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true,
+          "maxItems": 24
+        }
+      },
+      "required": [
+        "entries"
+      ],
+      "additionalProperties": false
+    },
+    "intake/ledger-draft.json": {
+      "type": "object",
+      "properties": {
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "status": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "conflicts_clearance": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "reserve_amount": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "maxLength": 2048
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "next_response_due": {
+                "type": "string",
+                "maxLength": 2048
+              },
+              "deadline_is_arithmetic": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id",
+              "status",
+              "conflicts_clearance",
+              "reserve_amount",
+              "next_response_due",
+              "deadline_is_arithmetic"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true,
+          "maxItems": 24
+        },
+        "operational_ledger_written": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "rows",
+        "operational_ledger_written"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Only declared isolated artifacts may change; no global configuration, sending, calendar, or external operations.",
+    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history."
+  ],
+  "policy_sha256": "dc0cc2acc0ccc008819ed8814da79c02fc06a510f4ebb0b8f5a4ee818bb9e17b",
+  "schema_sha256": "5a57084d2f1d51d64947b4b558ad54b692c3243c5288b6c3d0a6ad955bfb1e72",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "oracle_sha256": "3c278e342784bcf0a1a5edbb055af36e82ed255a0d5113bf58d60ba71663cf8e",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

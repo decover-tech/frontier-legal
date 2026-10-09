@@ -1,0 +1,597 @@
+{
+  "task_id": "CTH-LIT-01",
+  "skill": "cold-start-interview",
+  "title": "Matter-scoped setup with unresolved operator profile",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-03-22T23:59:59-07:00",
+  "instruction": "Prepare a matter-scoped setup draft from the available records. Validate counsel, collection sources and reporting instructions, resolve misleading template/identity assumptions and list the unanswered setup questions. Do not treat a person in the emails as the current operator or finalize global setup.",
+  "availability": "partial",
+  "dependencies": [],
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Identify the matter and initiation from source records; distinguish allegation from adjudicated fact.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "matter_entity": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "program": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "initiating_report_on": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "origin": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "allegation_status": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "matter_entity",
+          "program",
+          "initiating_report_on",
+          "origin",
+          "allegation_status"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    },
+    {
+      "id": "F02",
+      "question": "Identify the documented legal engagement, its timing and actual contact. Can the source identify the operator's profession?",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "outside_firm": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "lead": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "lead_email": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "engagement_on": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "client": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "operator_profession": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "outside_firm",
+          "lead",
+          "lead_email",
+          "engagement_on",
+          "client",
+          "operator_profession"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Validate the draft collection roster before using it for setup: resolve aliases and unrelated template content.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "collection_roster_status": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "unrelated_template_data": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "copy_unrelated_identifier_to_profile": {
+            "type": "boolean"
+          },
+          "alias_subject": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "alias": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "alias_effect": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "collection_roster_status",
+          "unrelated_template_data",
+          "copy_unrelated_identifier_to_profile",
+          "alias_subject",
+          "alias",
+          "alias_effect"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Reconcile counsel's interim concerns with management's status and identify unsupported practice choices.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "review_status": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "reported_issues": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 2048
+            },
+            "uniqueItems": true,
+            "maxItems": 24
+          },
+          "finding_is_final": {
+            "type": "boolean"
+          },
+          "house_risk_bands": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "settlement_authority": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "review_status",
+          "reported_issues",
+          "finding_is_final",
+          "house_risk_bands",
+          "settlement_authority"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F05",
+      "question": "Scope the requested reporting cadence and preserve the missing operator/interview answers; decide whether setup can be called complete.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "reporting_recipient": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "minimum_cadence": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "cadence_scope": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "operator_identity": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "operator_role": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "practice_side_default": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "house_style": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2048
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "setup_completion": {
+            "type": "string",
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "reporting_recipient",
+          "minimum_cadence",
+          "cadence_scope",
+          "operator_identity",
+          "operator_role",
+          "practice_side_default",
+          "house_style",
+          "setup_completion"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": false
+    }
+  ],
+  "artifact_schemas": {
+    "profile/matter-scoped-draft.json": {
+      "type": "object",
+      "properties": {
+        "scope": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "global_config_written": {
+          "type": "boolean"
+        },
+        "profile": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "matter_entity": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "program": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "initiating_report_on": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "origin": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "allegation_status": {
+                  "type": "string",
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "matter_entity",
+                "program",
+                "initiating_report_on",
+                "origin",
+                "allegation_status"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "outside_firm": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "lead": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "lead_email": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "engagement_on": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "client": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "operator_profession": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "outside_firm",
+                "lead",
+                "lead_email",
+                "engagement_on",
+                "client",
+                "operator_profession"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "collection_roster_status": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "unrelated_template_data": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "copy_unrelated_identifier_to_profile": {
+                  "type": "boolean"
+                },
+                "alias_subject": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "alias": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "alias_effect": {
+                  "type": "string",
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "collection_roster_status",
+                "unrelated_template_data",
+                "copy_unrelated_identifier_to_profile",
+                "alias_subject",
+                "alias",
+                "alias_effect"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "review_status": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "reported_issues": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 2048
+                  },
+                  "uniqueItems": true,
+                  "maxItems": 24
+                },
+                "finding_is_final": {
+                  "type": "boolean"
+                },
+                "house_risk_bands": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "settlement_authority": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "review_status",
+                "reported_issues",
+                "finding_is_final",
+                "house_risk_bands",
+                "settlement_authority"
+              ],
+              "additionalProperties": false
+            },
+            "F05": {
+              "type": "object",
+              "properties": {
+                "reporting_recipient": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "minimum_cadence": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "cadence_scope": {
+                  "type": "string",
+                  "maxLength": 2048
+                },
+                "operator_identity": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "operator_role": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "practice_side_default": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "house_style": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 2048
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "setup_completion": {
+                  "type": "string",
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "reporting_recipient",
+                "minimum_cadence",
+                "cadence_scope",
+                "operator_identity",
+                "operator_role",
+                "practice_side_default",
+                "house_style",
+                "setup_completion"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "scope",
+        "global_config_written",
+        "profile"
+      ],
+      "additionalProperties": false
+    },
+    "profile/unanswered-setup.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 2048
+          },
+          "uniqueItems": true,
+          "maxItems": 24
+        },
+        "answers_inferred_from_correspondents": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "questions",
+        "answers_inferred_from_correspondents"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "Only declared isolated artifacts may change; no global configuration, sending, calendar, or external operations.",
+    "Fixture records are task-provided drafts, not newly invented historical sources. Preserve unknown authority/approvals and existing history."
+  ],
+  "policy_sha256": "ad5d9ecded3448b89f784deb520693336b50238c317e8ef93269fec94a0965f2",
+  "schema_sha256": "700979d0b06e4cc00bd1cbb41a1e4ff8d74772db95334f4af49f9c8f3a2bb5e7",
+  "fixtures_sha256": "2a8f3315c3dd32e86f77c51f88e1a589cb422fd20a0b4e39d5e4713d039356a2",
+  "oracle_sha256": "46e44d490550d4bc72507cbad376e49d87477b39caac118910f8f4cd6dcc9f10",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

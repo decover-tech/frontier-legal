@@ -1,0 +1,27 @@
+{
+  "kind": "development_verifier_validation_not_model_evaluation",
+  "task_id": "CTH-PRESERVATION-001",
+  "task_sha256": "a2a91b272699f95a953c2371e2fbc1507f1934d8741b4257be80147fd952bb6c",
+  "source_count": 1486,
+  "checks": {
+    "oracle_search_read_submit": {
+      "reward": 1.0,
+      "success": true,
+      "steps": 25,
+      "observation_chars": 40645
+    },
+    "unittest_suite": {
+      "tests": 21,
+      "passed": 21,
+      "command": "python3 -m unittest discover -s tools/preservation_rlvr/tests -v"
+    }
+  },
+  "live_model_calls": 0,
+  "independent_oracle_review": "pending",
+  "code_hashes": {
+    "tools/preservation_rlvr/__init__.py": "72088172b3aa27299176c4c7b922bc92d0b6ea21c6ae03dc57c5c2f186a4da1f",
+    "tools/preservation_rlvr/controls.py": "b025ae13ef054b09f9c756e06e35c3cc82b9ad86867ddc6f49d674b72c7612cc",
+    "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+    "tools/preservation_rlvr/run.py": "f340f780534098e3fc0175948d4d179a1678ac41be8914a4954008710191ad69"
+  }
+}

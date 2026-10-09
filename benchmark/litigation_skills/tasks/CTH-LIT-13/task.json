@@ -1,0 +1,849 @@
+{
+  "task_id": "CTH-LIT-13",
+  "skill": "privilege-log-review",
+  "title": "Privilege family and consultant-purpose review",
+  "version": "1.0.0",
+  "split": "development",
+  "cutoff": "2023-12-31T23:59:59-08:00",
+  "availability": "partial",
+  "dependencies": [
+    "CTH-LIT-03",
+    "CTH-LIT-10"
+  ],
+  "instruction": "Prepare a simulated first-pass privilege review for the seven described record families. Search and read original emails, actual attachments and engagement records; distinguish primary legal purpose, temporal trigger, consultant scope, family membership and proposed versus actual disclosure. Do not use banners as answers. Populate review/privilege-log.json and submit all findings. This is a draft under supplied benchmark protocols, with conflicts/controlling forum authority and production approval unestablished. No designation may be changed or item served. The referenced record dates identify review targets, not all supporting evidence. Attachments mentioned in quoted prose may be absent from the actual MIME family.",
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Review Ellery’s October 2022 regulatory risk-assessment email to Marlowe and its attached memorandum. Assess ACP separately from work product and explain the operative temporal basis.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "email_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "memo_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "work_product": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "time_basis": {
+            "type": "string",
+            "enum": [
+              "pre_trigger_original",
+              "post_trigger_forward",
+              "date_unknown"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "email_acp",
+          "memo_acp",
+          "work_product",
+          "time_basis"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F02",
+      "question": "Review Ellery’s formal February 2023 outside-counsel engagement message and its retention-letter attachment. Determine whether their ACP treatment must be the same.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "cover_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "engagement_attachment_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "family_treatment": {
+            "type": "string",
+            "enum": [
+              "independent_members",
+              "inherit_cover_protection",
+              "inherit_attachment_treatment"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "cover_acp",
+          "engagement_attachment_acp",
+          "family_treatment"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F03",
+      "question": "Review Whitaker’s September 2023 wire-tracing update to Lin and the attached booking template. Establish engagement, scope and creation purpose, then distinguish each family member.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "consultant_role": {
+            "type": "string",
+            "enum": [
+              "counsel_retained_legal_facilitation",
+              "ordinary_business_tax_support",
+              "independent_auditor",
+              "unknown"
+            ],
+            "maxLength": 2048
+          },
+          "email_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "email_wp": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "booking_attachment_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "booking_attachment_wp": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "template_status": {
+            "type": "string",
+            "enum": [
+              "preexisting_blank_business_template",
+              "new_counsel_analysis",
+              "substantive_content_unavailable"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "consultant_role",
+          "email_acp",
+          "email_wp",
+          "booking_attachment_acp",
+          "booking_attachment_wp",
+          "template_status"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F04",
+      "question": "Review Sato’s August 2023 bare forward of the final Larsen Q3 provision note to Ellery. Establish vendor role and purpose; state what attachment can actually be inspected from that forwarded record.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "forward_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "work_product": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "larsen_role": {
+            "type": "string",
+            "enum": [
+              "ordinary_business_tax_support",
+              "counsel_retained_legal_facilitation",
+              "unknown"
+            ],
+            "maxLength": 2048
+          },
+          "provision_memo_status": {
+            "type": "string",
+            "enum": [
+              "mentioned_not_attached_here",
+              "attached_and_inspected",
+              "proven_never_existed"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "forward_acp",
+          "work_product",
+          "larsen_role",
+          "provision_memo_status"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F05",
+      "question": "Review Shah’s August 2023 bare forward to Ellery of Ford’s placement-resumption inquiry. Resolve whether counsel’s receipt changes the business communication’s protection.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "work_product": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "participants": {
+            "type": "string",
+            "enum": [
+              "separate_business_parties",
+              "joint_defense_team",
+              "same_client_personnel"
+            ],
+            "maxLength": 2048
+          },
+          "purpose": {
+            "type": "string",
+            "enum": [
+              "placement_status",
+              "legal_advice_request",
+              "litigation_investigation"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "acp",
+          "work_product",
+          "participants",
+          "purpose"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F06",
+      "question": "Review the July 2023 Q3 pause-impact email/model sent from Sato to Denniston. Distinguish review-cost content from evidence of creation at counsel’s direction, and identify the proper first-pass action.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "work_product": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "purpose_evidence": {
+            "type": "string",
+            "enum": [
+              "unresolved_for_this_model",
+              "counsel_direction_established_for_this_model",
+              "ordinary_purpose_conclusively_established"
+            ],
+            "maxLength": 2048
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "retain_candidate_flag_and_seek_direction",
+              "automatically_remove_designation",
+              "finalize_withholding"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "acp",
+          "work_product",
+          "purpose_evidence",
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    },
+    {
+      "id": "F07",
+      "question": "Review the June 2023 internal request and legal response about sharing an exposure workbook with Moss & Lane. Establish auditor role, distinguish a proposed disclosure from one proved to occur, and assess the internal advice separately.",
+      "answer_schema": {
+        "type": "object",
+        "properties": {
+          "internal_acp": {
+            "type": "string",
+            "enum": [
+              "supported_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "internal_work_product": {
+            "type": "string",
+            "enum": [
+              "fact_candidate",
+              "opinion_candidate",
+              "not_supported",
+              "attorney_review_needed"
+            ],
+            "maxLength": 2048
+          },
+          "moss_role": {
+            "type": "string",
+            "enum": [
+              "independent_financial_auditor",
+              "counsel_agent",
+              "unknown"
+            ],
+            "maxLength": 2048
+          },
+          "sharing_status": {
+            "type": "string",
+            "enum": [
+              "request_and_restriction_not_proven_disclosure",
+              "workbook_disclosure_proven",
+              "no_auditor_request"
+            ],
+            "maxLength": 2048
+          },
+          "waiver_status": {
+            "type": "string",
+            "enum": [
+              "risk_flag_not_established_waiver",
+              "waiver_definitively_established",
+              "no_possible_waiver_risk"
+            ],
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "internal_acp",
+          "internal_work_product",
+          "moss_role",
+          "sharing_status",
+          "waiver_status"
+        ],
+        "additionalProperties": false
+      },
+      "counterevidence_required": true
+    }
+  ],
+  "artifact_schemas": {
+    "review/privilege-log.json": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft_for_attorney_review",
+            "service_ready",
+            "served"
+          ],
+          "maxLength": 2048
+        },
+        "served": {
+          "type": "boolean"
+        },
+        "source_designations_modified": {
+          "type": "boolean"
+        },
+        "rule_basis": {
+          "type": "string",
+          "enum": [
+            "supplied_protocol_only",
+            "current_forum_law_confirmed"
+          ],
+          "maxLength": 2048
+        },
+        "entries": {
+          "type": "object",
+          "properties": {
+            "F01": {
+              "type": "object",
+              "properties": {
+                "email_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "memo_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "time_basis": {
+                  "type": "string",
+                  "enum": [
+                    "pre_trigger_original",
+                    "post_trigger_forward",
+                    "date_unknown"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "email_acp",
+                "memo_acp",
+                "work_product",
+                "time_basis"
+              ],
+              "additionalProperties": false
+            },
+            "F02": {
+              "type": "object",
+              "properties": {
+                "cover_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "engagement_attachment_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "family_treatment": {
+                  "type": "string",
+                  "enum": [
+                    "independent_members",
+                    "inherit_cover_protection",
+                    "inherit_attachment_treatment"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "cover_acp",
+                "engagement_attachment_acp",
+                "family_treatment"
+              ],
+              "additionalProperties": false
+            },
+            "F03": {
+              "type": "object",
+              "properties": {
+                "consultant_role": {
+                  "type": "string",
+                  "enum": [
+                    "counsel_retained_legal_facilitation",
+                    "ordinary_business_tax_support",
+                    "independent_auditor",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "email_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "email_wp": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "booking_attachment_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "booking_attachment_wp": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "template_status": {
+                  "type": "string",
+                  "enum": [
+                    "preexisting_blank_business_template",
+                    "new_counsel_analysis",
+                    "substantive_content_unavailable"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "consultant_role",
+                "email_acp",
+                "email_wp",
+                "booking_attachment_acp",
+                "booking_attachment_wp",
+                "template_status"
+              ],
+              "additionalProperties": false
+            },
+            "F04": {
+              "type": "object",
+              "properties": {
+                "forward_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "larsen_role": {
+                  "type": "string",
+                  "enum": [
+                    "ordinary_business_tax_support",
+                    "counsel_retained_legal_facilitation",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "provision_memo_status": {
+                  "type": "string",
+                  "enum": [
+                    "mentioned_not_attached_here",
+                    "attached_and_inspected",
+                    "proven_never_existed"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "forward_acp",
+                "work_product",
+                "larsen_role",
+                "provision_memo_status"
+              ],
+              "additionalProperties": false
+            },
+            "F05": {
+              "type": "object",
+              "properties": {
+                "acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "participants": {
+                  "type": "string",
+                  "enum": [
+                    "separate_business_parties",
+                    "joint_defense_team",
+                    "same_client_personnel"
+                  ],
+                  "maxLength": 2048
+                },
+                "purpose": {
+                  "type": "string",
+                  "enum": [
+                    "placement_status",
+                    "legal_advice_request",
+                    "litigation_investigation"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "acp",
+                "work_product",
+                "participants",
+                "purpose"
+              ],
+              "additionalProperties": false
+            },
+            "F06": {
+              "type": "object",
+              "properties": {
+                "acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "purpose_evidence": {
+                  "type": "string",
+                  "enum": [
+                    "unresolved_for_this_model",
+                    "counsel_direction_established_for_this_model",
+                    "ordinary_purpose_conclusively_established"
+                  ],
+                  "maxLength": 2048
+                },
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "retain_candidate_flag_and_seek_direction",
+                    "automatically_remove_designation",
+                    "finalize_withholding"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "acp",
+                "work_product",
+                "purpose_evidence",
+                "action"
+              ],
+              "additionalProperties": false
+            },
+            "F07": {
+              "type": "object",
+              "properties": {
+                "internal_acp": {
+                  "type": "string",
+                  "enum": [
+                    "supported_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "internal_work_product": {
+                  "type": "string",
+                  "enum": [
+                    "fact_candidate",
+                    "opinion_candidate",
+                    "not_supported",
+                    "attorney_review_needed"
+                  ],
+                  "maxLength": 2048
+                },
+                "moss_role": {
+                  "type": "string",
+                  "enum": [
+                    "independent_financial_auditor",
+                    "counsel_agent",
+                    "unknown"
+                  ],
+                  "maxLength": 2048
+                },
+                "sharing_status": {
+                  "type": "string",
+                  "enum": [
+                    "request_and_restriction_not_proven_disclosure",
+                    "workbook_disclosure_proven",
+                    "no_auditor_request"
+                  ],
+                  "maxLength": 2048
+                },
+                "waiver_status": {
+                  "type": "string",
+                  "enum": [
+                    "risk_flag_not_established_waiver",
+                    "waiver_definitively_established",
+                    "no_possible_waiver_risk"
+                  ],
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "internal_acp",
+                "internal_work_product",
+                "moss_role",
+                "sharing_status",
+                "waiver_status"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05",
+            "F06",
+            "F07"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "status",
+        "served",
+        "source_designations_modified",
+        "rule_basis",
+        "entries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "limits": {
+    "max_steps": 120,
+    "max_observation_chars": 220000,
+    "search_page_size": 8,
+    "read_page_chars": 6000
+  },
+  "state_invariants": [
+    "All recommendations remain draft and unserved.",
+    "No existing source designation changes.",
+    "Work product and ACP are independent; every family member has its own assessment.",
+    "Missing attachment is not proof of nonexistence; preserve unresolved purpose."
+  ],
+  "policy_sha256": "b84816b852694a968f1872ac5236f395f249ef06e2cc5af4a491d43d0108b35b",
+  "schema_sha256": "70667f75d63f25e82306d4e0dde05c24cf9975ba5c3e5d7d9a6497659015f416",
+  "fixtures_sha256": "a0d94ca7cf7c1969982fd511196bd96cf932ffe1a10cca40a83c9fc54b6d2791",
+  "oracle_sha256": "e6995dfc42d9a662a457a8919b84ae6dd9df34501e9ecd06973d199d33ec26da",
+  "bundle_manifest_sha256": "3dea7421b5fdec8b0d42f43e779090878d62d1b8dabec3712a41dad79a22f425"
+}

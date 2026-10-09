@@ -1,0 +1,7 @@
+# Bounded Cascade workflow policy
+
+This executable development episode uses only the supplied Cascade evidence and benchmark output contract. It is not a representation that legal work was historically authorized, issued, served or completed. The reference skill supplies workflow structure only; no global practice profile, calendar, mailbox or external action is accessed.
+
+Find relevant evidence, reconstruct events and report dates, distinguish conflicting versions/systems, apply the following evaluation rules, and produce a supported local artifact. An actual email request is not proof of performance; internal technical controls do not prove coverage of another company’s systems. A document’s quoted attachment mention is not an inspected attachment. An extraction gap cannot establish absence. Preserve contrary evidence and history; distinguish financial face value, cash and liability. No pleaded cause of action, controlling legal elements, settlement/reserve decision, deposition designation, legal authority, privilege waiver or final resolution may be invented.
+
+Build a prospective witness examination outline from authored/received documents. Quotes are documentary statements, not sworn testimony. Suggested question sequences require foundation, one proposition at a time, an opportunity to explain contrary context, and a source/version follow-up. No scheduled deposition, corporate designation, expected answer or witness hostility is established.

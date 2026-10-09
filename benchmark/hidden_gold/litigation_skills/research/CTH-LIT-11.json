@@ -1,0 +1,339 @@
+{
+  "task_id": "CTH-LIT-11",
+  "author": "privilege_builder",
+  "independent_review_status": "pending",
+  "specification_reference": "claude-for-legal/litigation-legal/skills/claim-chart/SKILL.md",
+  "review_method": "Read actual native email text and cited attachment/contract extractions, inspect contrary context and original-versus-quoted equivalents; no hidden labels used.",
+  "findings": [
+    {
+      "question": "What chart mode and legal limits fit the supplied initiating instrument?",
+      "answer": {
+        "mode": "provisional_factual_issues",
+        "pleaded_elements": "not_supplied",
+        "merits_conclusion": "not_determined"
+      },
+      "support": [
+        {
+          "id": "instrument_context",
+          "description": "Actual instrument describes a civil examination, not pleaded counts",
+          "alternatives": [
+            {
+              "document_id": "DOC-568de2fba6d1c11aff9a",
+              "locator": "document:paragraph:18",
+              "quote": "in connection with the Internal Revenue Service's civil examination of the business venture known as the \"Coastal Solar Credit Program,\" developed, marketed, financed, and administered in whole or in part by Cascade Timber Holdings, Inc. and its affiliates."
+            }
+          ]
+        }
+      ],
+      "counter": [],
+      "notes": ""
+    },
+    {
+      "question": "Map the theory that mismatch warnings were identified but not timely reverified.",
+      "answer": {
+        "warning": "documented_before_submission_request",
+        "reverification": "later_reported_not_done",
+        "continuation": "shah_proceed_instruction",
+        "liability": "not_determined"
+      },
+      "support": [
+        {
+          "id": "early_warning",
+          "description": "Reyes identifies mismatch and requests verification before submission",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-003",
+              "locator": "line:6",
+              "quote": "Priya, I pulled the conservation easement filings on the last batch of parcels and a few of these don't look like they'd hold up if anyone checked closely. The acreage doesn't match what's in the county filings. Can we get someone to re-verify before we submit the credit applications?"
+            }
+          ]
+        },
+        {
+          "id": "unresolved_later",
+          "description": "Reyes says requested verification was never done",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-015",
+              "locator": "line:6",
+              "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            },
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:14",
+              "quote": "Priya, following up on my note from March — we never got the re-verification done on that batch of parcels. Should I loop in outside counsel or just proceed with the applications as-is?"
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "counter_instruction",
+          "description": "Shah directs proceeding despite issue",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-016",
+              "locator": "line:6",
+              "quote": "Proceed as-is for now, we're too close to year-end to slow down. Flag it for the annual review."
+            }
+          ]
+        }
+      ],
+      "notes": "The continuation is harmful evidence; it does not prove every legal element or all subsequent applications."
+    },
+    {
+      "question": "Map broker authorization representations against the renewal and continuation record.",
+      "answer": {
+        "representation": "authorization_before_solicitation",
+        "renewal": "pending_in_warning_record",
+        "marketing": "reported_not_paused",
+        "ultimate_breach": "needs_jurisdiction_and_transaction_proof"
+      },
+      "support": [
+        {
+          "id": "contract",
+          "description": "Actual placement agreement has prerequisite representation",
+          "alternatives": [
+            {
+              "document_id": "DOC-b238b8376e8c96b82a42",
+              "locator": "page:1",
+              "quote": "Broker represents and warrants that it holds, or will hold prior to soliciting any placement, all licenses, registrations, and other authorizations required under applicable state and federal law to broker renewable energy tax credits in each jurisdiction in which it operates on Company’s behalf."
+            }
+          ]
+        },
+        {
+          "id": "renewal_warning",
+          "description": "Contemporaneous state backlog and hold-off warning",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-041",
+              "locator": "line:6",
+              "quote": "Derek, heads up — our renewal filings for Oregon and Washington are stuck behind a state processing backlog. Realistically a few weeks out. We should probably hold off on any new marketing in those two states with Alder Point until it clears."
+            }
+          ]
+        },
+        {
+          "id": "continue",
+          "description": "Reyes later states marketing had not paused",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-044",
+              "locator": "line:6",
+              "quote": "Priya, Renee at Bellhaven is asking directly whether we paused marketing in OR/WA. We haven't. What do you want me to tell her?"
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "mixed_message",
+          "description": "Holt encourages intake without fixing renewal timing",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1427",
+              "locator": "line:20",
+              "quote": "Nothing new on timing. It's with the states, and these usually sort themselves out. Renee is keeping an eye on the filings. In the meantime feel free to send over whatever interest you have and we'll get intake started on our end. We'll sequence the closings."
+            }
+          ]
+        }
+      ],
+      "notes": "Holt’s intake encouragement is contrary context but not proof of issued authorization; no imported legal standard."
+    },
+    {
+      "question": "Map the amount evidence without converting gross face into cash, reserve or liability.",
+      "answer": {
+        "amount": 2400000,
+        "basis": "full_parcel_credit_face_ceiling",
+        "cash_equal": false,
+        "penalties_included": false,
+        "excess_acreage": "unresolved"
+      },
+      "support": [
+        {
+          "id": "face_ceiling",
+          "description": "Four-parcel full-disallowance face ceiling",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1462",
+              "locator": "line:6",
+              "quote": "Face value on the credits placed against them is $620K, $580K, $640K and $560K, which is $2.40M. So $2.4M assumes all four parcels are disallowed in full."
+            }
+          ]
+        },
+        {
+          "id": "cashdistinction",
+          "description": "Cash differs from face",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1462",
+              "locator": "line:9",
+              "quote": "It's face. Cash we actually received on those placements was closer to 90 cents on the dollar, and the fees to Bellhaven and Alder came out of cash."
+            }
+          ]
+        },
+        {
+          "id": "no_penalties",
+          "description": "Explicit exclusion",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1462",
+              "locator": "line:10",
+              "quote": "- No penalties or interest."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "financial_limits",
+          "description": "Financial basis and unresolved acreage constrain inference",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1462",
+              "locator": "line:11",
+              "quote": "If the problem is only the acreage above the county filings, the number is smaller. I can't tell you how much smaller. I don't have a supported-acreage figure per parcel that I'd put my name to, and I'm not going to guess one for a board call."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "Does the later remediation/reference work resolve substantive eligibility?",
+      "answer": {
+        "performed_work": "three_packet_pilot",
+        "corrected": "one_reference_exception",
+        "acreage_exceptions": 2,
+        "eligibility": "not_cleared",
+        "control_effectiveness": "not_established"
+      },
+      "support": [
+        {
+          "id": "pilot_work",
+          "description": "Performed comparisons and correction with open acreage exceptions",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1503",
+              "locator": "line:6",
+              "quote": "The pilot first pass is done. NW-07's paper binder supplied the missing exhibit pages; the working-copy index now points to that copy, and the old link is retained in the change log. The recorded figure is still 231 against 275 on the application copy. Repairing the link did not reconcile the acreage."
+            }
+          ]
+        },
+        {
+          "id": "second_review",
+          "description": "Second review confirms limits",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1504",
+              "locator": "line:6",
+              "quote": "Second review completed this morning. I reproduced the three comparisons from the cited copies and checked the NW-07 index repair against the paper-binder copy. The arithmetic ties; the two substantive exceptions are still open."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "pilot_limit",
+          "description": "Later auditor explicitly rejects program-wide effectiveness inference",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-1506",
+              "locator": "line:6",
+              "quote": "Please include Craig's dated confirmation in the same PBC item. We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control."
+            },
+            {
+              "document_id": "EMAIL-1504",
+              "locator": "line:8",
+              "quote": "I've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question": "Reconcile Cascade counsel’s October advice, management’s response, and the later June pause. Distinguish actual management knowledge from inference and later mitigation from an earlier cure.",
+      "answer": {
+        "counsel_advice": "october_pause_recommended",
+        "management_response": "deferred_pause_for_business_reasons",
+        "later_pause": "june_2023_decision",
+        "historical_cure": "not_retroactive"
+      },
+      "support": [
+        {
+          "id": "gc_advice",
+          "description": "Actual counsel advice to CTH CEO",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-012",
+              "locator": "line:8",
+              "quote": "Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+            },
+            {
+              "document_id": "EMAIL-013",
+              "locator": "line:27",
+              "quote": "Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+            },
+            {
+              "document_id": "EMAIL-014",
+              "locator": "line:45",
+              "quote": "Summary: land eligibility documentation is inconsistent, and our broker's licensing status in two states is unresolved. Recommend pausing new placements until both are cleared."
+            }
+          ]
+        },
+        {
+          "id": "management_choice",
+          "description": "CEO acknowledges issues but defers pause",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-013",
+              "locator": "line:7",
+              "quote": "Rob, John's flagged some real issues here (see below, privileged). Given where we are on the year, I don't think we can afford to pause placements right now. Let's revisit in Q1."
+            },
+            {
+              "document_id": "EMAIL-014",
+              "locator": "line:25",
+              "quote": "Rob, John's flagged some real issues here (see below, privileged). Given where we are on the year, I don't think we can afford to pause placements right now. Let's revisit in Q1."
+            }
+          ]
+        }
+      ],
+      "counter": [
+        {
+          "id": "later_pause",
+          "description": "Later pause is favorable subsequent conduct but does not erase earlier choice",
+          "alternatives": [
+            {
+              "document_id": "EMAIL-068",
+              "locator": "line:26",
+              "quote": "Given everything that's come up, let's plan to pause new Coastal Solar placements until the review with L&L is complete. Rob, John — let's align on messaging to the board this week."
+            }
+          ]
+        }
+      ],
+      "notes": "Separate actual Cascade management knowledge from earlier Alder warnings. Later June27 quoted decision is reported in June30 email, not an October cure. Draft remains internal because its supporting content includes legal advice."
+    }
+  ],
+  "source_hashes": {
+    "DOC-568de2fba6d1c11aff9a": "5efceea70adfe2de16944e974da6d4672f97e8969359558648d003ead9454c75",
+    "EMAIL-003": "c3c2c32ff72a06ff8c8b37cfdfef7d0b342a48e5fb3edba37fae4160d5b8a558",
+    "EMAIL-015": "8b67cb301ac02511fce9165075843d3c1caf9ca9ee8c262e03eef98706341afc",
+    "EMAIL-016": "6472f9d424c229b05b78dbb4596324cbbdd4a7db56bc190dc47c0eb21f26c80e",
+    "DOC-b238b8376e8c96b82a42": "c0443e1e9232cd8ce01b9671739c706065def0de7b95046e8e9c7bdce7ad8464",
+    "EMAIL-041": "f019a706807827c708960c8a24f249baaea8879302b780c207e7d7c33a362fad",
+    "EMAIL-044": "ea68343e7f9c8d1678dbc7292a68871998d04e666653cece80a16140d8387b67",
+    "EMAIL-1427": "1421bc2772951485145502731001287a2e0465a47f4270f2d8cfb728cc9481db",
+    "EMAIL-1462": "379594e2a98758c1604ef1013e098cf235ea71ce13679e3b0e13c159560bc8b3",
+    "EMAIL-1503": "e435df75001fe36b115b56499e5dc99fe070d25d324511fbf2d68d5f73827350",
+    "EMAIL-1504": "9c7ec6e231f794a968d52e988a85529c42aa7cb72da1cb06b8ce1bd81b61ecb6",
+    "EMAIL-1506": "672152ed6eb2e110104925b9da419893410e5ce2dba7f4e225783df1d4434348",
+    "EMAIL-012": "9c33f803cbeaa6e93b96bf63c764d48bd308a5f4831f4101d2861a6e5607a7be",
+    "EMAIL-013": "15266e0bda49986271216a53a2bce6b49ded2547b521d3067b375bc1c1bc217b",
+    "EMAIL-014": "73da96b5bbabda8f0b73648e09a4819007b3ffc54409d4e46e559b4d8e25b586",
+    "EMAIL-068": "2b51a20949c79345dba6ecd168b4a3745dad57c94ce877d1449733f454c5dede"
+  },
+  "limitations": [
+    "Only reviewed bounded propositions are graded; unenumerated valid alternatives need review.",
+    "No actual legal clearance, sending, filing or attorney approval established.",
+    "Task-provided draft prerequisites are not independent historical evidence."
+  ]
+}

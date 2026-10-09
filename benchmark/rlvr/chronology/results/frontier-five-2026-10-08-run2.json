@@ -1,0 +1,1545 @@
+{
+  "batch": {
+    "batch_id": "20261009T020421Z-frontier-five-5bba54",
+    "status": "completed",
+    "started_at": "2026-10-09T02:04:36.766491+00:00",
+    "models": [
+      "openai/gpt-6-astra",
+      "anthropic/claude-opus-5.5",
+      "google/gemini-3.1-pro-preview",
+      "x-ai/grok-4.7",
+      "z-ai/glm-5.3-prime"
+    ],
+    "task_id": "CTH-CHRONOLOGY-001",
+    "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+    "repetitions": 1,
+    "reasoning_effort": "low",
+    "max_output_tokens_per_request": 16384,
+    "episode_output_tokens": 131072,
+    "limits": {
+      "max_steps": 120,
+      "max_observation_chars": 300000,
+      "search_page_size": 8,
+      "read_page_chars": 6000
+    },
+    "socket_timeout": 180,
+    "wall_timeout_per_request": 300,
+    "fallbacks": false,
+    "automatic_retries": false,
+    "credential_source": "environment; supplied for this run, never saved",
+    "supersedes_unscored_batch": "20261009T020101Z-frontier-five-ee56a4",
+    "orchestrator_sha256": "011e3f6b6172bf1018d88b1d8179657ac49402b5ff855e2129ed022e87d06514",
+    "notes": [
+      "One development task and one episode per model; not a general model ranking.",
+      "Exact same observation, task, tool interface, verifier and requested limits.",
+      "Provider errors are unscored, not zero; observed token-cap deviations are reported.",
+      "No post-hoc output repair or answer correction."
+    ],
+    "finished_at": "2026-10-09T02:07:28.253230+00:00"
+  },
+  "records": [
+    {
+      "model": "openai/gpt-6-astra",
+      "trial": 1,
+      "exit_code": 0,
+      "wall_seconds": 86.328,
+      "status": "scored",
+      "reward": 0.852426282051,
+      "success": false,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "evaluation": {
+        "done": true,
+        "steps": 25,
+        "reward": 0.852426282051,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+        ],
+        "verifier_version": "evidence-chronology/1.0.0",
+        "events": {
+          "renewal_pending": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "marketing_continue": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "held_files_excluded": {
+            "reward": 0.875,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 0.5
+          },
+          "h1_conditional_route": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_still_held": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_tieout": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "claimed_renewal": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "verification_gap": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "renewal_restatement": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_scheduling": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_first_pass": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_second_review": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_report_to_auditor": {
+            "reward": 0.5,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0
+          },
+          "auditor_scope": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          }
+        },
+        "resolutions": {
+          "registration_issuance": {
+            "reward": 0.917777777778,
+            "support_coverage": 1.0,
+            "evidence_precision": 0.8,
+            "conflict_resolution": 1.0,
+            "rule_selection": 0.8888888888888888,
+            "event_date": 1.0
+          },
+          "h1_transmittal": {
+            "reward": 0.480952380952,
+            "support_coverage": 0.6666666666666666,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.16666666666666666,
+            "rule_selection": 0.8571428571428571,
+            "event_date": 1.0
+          },
+          "pilot_exceptions": {
+            "reward": 0.410714285714,
+            "support_coverage": 0.5,
+            "evidence_precision": 0.5,
+            "conflict_resolution": 1.0,
+            "rule_selection": 0.8571428571428571,
+            "event_date": 1.0
+          },
+          "historical_quarterly_tests": {
+            "reward": 0.6,
+            "support_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666,
+            "conflict_resolution": 0.0,
+            "rule_selection": 1.0,
+            "event_date": 1.0
+          },
+          "pilot_asof_august": {
+            "reward": 0.76,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.3333333333333333,
+            "rule_selection": 0.8,
+            "event_date": 1.0
+          }
+        },
+        "components": {
+          "events": 0.9553571428571429,
+          "ordering": 0.9120879120879121,
+          "resolutions": 0.6338888888888
+        }
+      },
+      "calls": 25,
+      "steps": 25,
+      "reported_output_tokens": 3397,
+      "reported_input_tokens": 356788,
+      "reported_reasoning_tokens": 105,
+      "reported_cost_usd": 0.7892714999999999,
+      "known_cost_subtotal_usd": 0.7892714999999999,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [
+        "openai/gpt-6-astra"
+      ],
+      "routing_providers": [
+        "OpenAI"
+      ],
+      "run_directory": "output/rlvr/chronology/20261009T020421Z-frontier-five-5bba54/openai--gpt-6-astra/20261009T020441Z-82a15dce",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020441Z-82a15dce",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "openai/gpt-6-astra"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 25,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "trial": 1,
+      "exit_code": 0,
+      "wall_seconds": 147.065,
+      "status": "scored",
+      "reward": 0.684491941392,
+      "success": false,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "evaluation": {
+        "done": true,
+        "steps": 29,
+        "reward": 0.684491941392,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+        ],
+        "verifier_version": "evidence-chronology/1.0.0",
+        "events": {
+          "renewal_pending": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "marketing_continue": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "held_files_excluded": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": false,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_conditional_route": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_still_held": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_tieout": {
+            "reward": 0.916666666667,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666
+          },
+          "claimed_renewal": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "verification_gap": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "renewal_restatement": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_scheduling": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_first_pass": {
+            "reward": 0.916666666667,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 0.6666666666666666
+          },
+          "pilot_second_review": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_report_to_auditor": {
+            "reward": 0.5,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0
+          },
+          "auditor_scope": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          }
+        },
+        "resolutions": {
+          "registration_issuance": {
+            "reward": 0.485714285714,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 1.0,
+            "rule_selection": 0.8571428571428571,
+            "event_date": 1.0
+          },
+          "h1_transmittal": {
+            "reward": 0.32,
+            "support_coverage": 0.3333333333333333,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 1.0,
+            "rule_selection": 0.8,
+            "event_date": 1.0
+          },
+          "pilot_exceptions": {
+            "reward": 0.0,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 1.0,
+            "rule_selection": 0.6666666666666666,
+            "event_date": 1.0
+          },
+          "historical_quarterly_tests": {
+            "reward": 0.29,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.4,
+            "event_date": 1.0
+          },
+          "pilot_asof_august": {
+            "reward": 0.307142857143,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.5714285714285714,
+            "event_date": 1.0
+          }
+        },
+        "components": {
+          "events": 0.8809523809524286,
+          "ordering": 0.7719780219780985,
+          "resolutions": 0.2805714285714
+        }
+      },
+      "calls": 29,
+      "steps": 29,
+      "reported_output_tokens": 9083,
+      "reported_input_tokens": 503118,
+      "reported_reasoning_tokens": 1279,
+      "reported_cost_usd": 2.194132,
+      "known_cost_subtotal_usd": 2.194132,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 5,
+      "resolved_models": [
+        "anthropic/claude-opus-5.5"
+      ],
+      "routing_providers": [
+        "Claude Platform on AWS"
+      ],
+      "run_directory": "output/rlvr/chronology/20261009T020421Z-frontier-five-5bba54/anthropic--claude-opus-5.5/20261009T020441Z-f8dd236c",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020441Z-f8dd236c",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "anthropic/claude-opus-5.5"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 29,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "trial": 1,
+      "exit_code": 0,
+      "wall_seconds": 32.85,
+      "status": "scored",
+      "reward": 0.0,
+      "success": false,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "evaluation": {
+        "done": true,
+        "steps": 3,
+        "reward": 0.0,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+        ],
+        "verifier_version": "evidence-chronology/1.0.0",
+        "events": {
+          "renewal_pending": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 0.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "marketing_continue": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "held_files_excluded": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 0.0,
+            "nature_correct": false,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "h1_conditional_route": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "h1_still_held": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "h1_tieout": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "claimed_renewal": {
+            "reward": 0.0,
+            "timing": 0.0,
+            "report_time": 0.0,
+            "actor": 0.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "verification_gap": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "renewal_restatement": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 0.0,
+            "nature_correct": false,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "pilot_scheduling": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "pilot_first_pass": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "pilot_second_review": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "pilot_report_to_auditor": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "auditor_scope": {
+            "reward": 0.0,
+            "timing": 0.3333333333333333,
+            "report_time": 0.0,
+            "actor": 1.0,
+            "nature_correct": false,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          }
+        },
+        "resolutions": {
+          "registration_issuance": {
+            "reward": 0.0,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.6666666666666666,
+            "event_date": 1.0
+          },
+          "h1_transmittal": {
+            "reward": 0.0,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.8,
+            "event_date": 1.0
+          },
+          "pilot_exceptions": {
+            "reward": 0.0,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.4,
+            "event_date": 1.0
+          },
+          "historical_quarterly_tests": {
+            "reward": 0.0,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.4,
+            "event_date": 1.0
+          },
+          "pilot_asof_august": {
+            "reward": 0.0,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.6666666666666666,
+            "event_date": 1.0
+          }
+        },
+        "components": {
+          "events": 0.0,
+          "ordering": 0.0,
+          "resolutions": 0.0
+        }
+      },
+      "calls": 3,
+      "steps": 3,
+      "reported_output_tokens": 2872,
+      "reported_input_tokens": 13382,
+      "reported_reasoning_tokens": 584,
+      "reported_cost_usd": 0.061228000000000005,
+      "known_cost_subtotal_usd": 0.061228000000000005,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 0,
+      "resolved_models": [
+        "google/gemini-3.1-pro-preview"
+      ],
+      "routing_providers": [
+        "Google"
+      ],
+      "run_directory": "output/rlvr/chronology/20261009T020421Z-frontier-five-5bba54/google--gemini-3.1-pro-preview/20261009T020441Z-5fceb4a2",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020441Z-5fceb4a2",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "google/gemini-3.1-pro-preview"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 3,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "trial": 1,
+      "exit_code": 0,
+      "wall_seconds": 122.927,
+      "status": "scored",
+      "reward": 0.684972527473,
+      "success": false,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "evaluation": {
+        "done": true,
+        "steps": 63,
+        "reward": 0.684972527473,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+        ],
+        "verifier_version": "evidence-chronology/1.0.0",
+        "events": {
+          "renewal_pending": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "marketing_continue": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "held_files_excluded": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": false,
+            "support_coverage": 1.0,
+            "evidence_precision": 0.5
+          },
+          "h1_conditional_route": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_still_held": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "h1_tieout": {
+            "reward": 0.5,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0
+          },
+          "claimed_renewal": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "verification_gap": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "renewal_restatement": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_scheduling": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_first_pass": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_second_review": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_report_to_auditor": {
+            "reward": 0.5,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0
+          },
+          "auditor_scope": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          }
+        },
+        "resolutions": {
+          "registration_issuance": {
+            "reward": 0.0,
+            "support_coverage": 0.5,
+            "evidence_precision": 0.5,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.8888888888888888,
+            "event_date": 1.0
+          },
+          "h1_transmittal": {
+            "reward": 0.4,
+            "support_coverage": 0.6666666666666666,
+            "evidence_precision": 0.6666666666666666,
+            "conflict_resolution": 0.0,
+            "rule_selection": 1.0,
+            "event_date": 1.0
+          },
+          "pilot_exceptions": {
+            "reward": 0.260714285714,
+            "support_coverage": 0.5,
+            "evidence_precision": 0.5,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.8571428571428571,
+            "event_date": 1.0
+          },
+          "historical_quarterly_tests": {
+            "reward": 0.671428571429,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.8571428571428571,
+            "event_date": 1.0
+          },
+          "pilot_asof_august": {
+            "reward": 0.4,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.5,
+            "rule_selection": 0.75,
+            "event_date": 1.0
+          }
+        },
+        "components": {
+          "events": 0.8571428571428571,
+          "ordering": 0.7307692307692307,
+          "resolutions": 0.34642857142860006
+        }
+      },
+      "calls": 63,
+      "steps": 63,
+      "reported_output_tokens": 4880,
+      "reported_input_tokens": 1422816,
+      "reported_reasoning_tokens": 220,
+      "reported_cost_usd": 0.825888,
+      "known_cost_subtotal_usd": 0.825888,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 2,
+      "resolved_models": [
+        "x-ai/grok-4.7"
+      ],
+      "routing_providers": [
+        "xAI"
+      ],
+      "run_directory": "output/rlvr/chronology/20261009T020421Z-frontier-five-5bba54/x-ai--grok-4.7/20261009T020441Z-7df66614",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020441Z-7df66614",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "x-ai/grok-4.7"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 63,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "z-ai/glm-5.3-prime",
+      "trial": 1,
+      "exit_code": 0,
+      "wall_seconds": 170.392,
+      "status": "scored",
+      "reward": 0.431307692308,
+      "success": false,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "evaluation": {
+        "done": true,
+        "steps": 29,
+        "reward": 0.431307692308,
+        "success": false,
+        "failure_codes": [
+          "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+        ],
+        "verifier_version": "evidence-chronology/1.0.0",
+        "events": {
+          "renewal_pending": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "marketing_continue": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "held_files_excluded": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": false,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "h1_conditional_route": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "h1_still_held": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "h1_tieout": {
+            "reward": 0.4375,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.5,
+            "evidence_precision": 0.5
+          },
+          "claimed_renewal": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "verification_gap": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "renewal_restatement": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_scheduling": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_first_pass": {
+            "reward": 0.4375,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.5,
+            "evidence_precision": 0.5
+          },
+          "pilot_second_review": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": false,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          },
+          "pilot_report_to_auditor": {
+            "reward": 0.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 0.0,
+            "evidence_precision": 0.0
+          },
+          "auditor_scope": {
+            "reward": 1.0,
+            "timing": 1.0,
+            "report_time": 1.0,
+            "actor": 1.0,
+            "nature_correct": true,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0
+          }
+        },
+        "resolutions": {
+          "registration_issuance": {
+            "reward": 0.475,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 1.0,
+            "rule_selection": 0.75,
+            "event_date": 1.0
+          },
+          "h1_transmittal": {
+            "reward": 0.183333333333,
+            "support_coverage": 0.3333333333333333,
+            "evidence_precision": 0.5,
+            "conflict_resolution": 0.0,
+            "rule_selection": 1.0,
+            "event_date": 1.0
+          },
+          "pilot_exceptions": {
+            "reward": 0.0,
+            "support_coverage": 1.0,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.6666666666666666,
+            "event_date": 1.0
+          },
+          "historical_quarterly_tests": {
+            "reward": 0.241666666667,
+            "support_coverage": 0.5,
+            "evidence_precision": 0.5,
+            "conflict_resolution": 0.0,
+            "rule_selection": 0.6666666666666666,
+            "event_date": 1.0
+          },
+          "pilot_asof_august": {
+            "reward": 0.375,
+            "support_coverage": 0.5,
+            "evidence_precision": 1.0,
+            "conflict_resolution": 0.5,
+            "rule_selection": 0.5,
+            "event_date": 1.0
+          }
+        },
+        "components": {
+          "events": 0.5625,
+          "ordering": 0.30288461538461536,
+          "resolutions": 0.255
+        }
+      },
+      "calls": 29,
+      "steps": 29,
+      "reported_output_tokens": 15551,
+      "reported_input_tokens": 365823,
+      "reported_reasoning_tokens": 2776,
+      "reported_cost_usd": 0.4214155999999999,
+      "known_cost_subtotal_usd": 0.4214155999999999,
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "invalid_actions": 5,
+      "resolved_models": [
+        "z-ai/glm-5.3-prime"
+      ],
+      "routing_providers": [
+        "Alibaba"
+      ],
+      "run_directory": "output/rlvr/chronology/20261009T020421Z-frontier-five-5bba54/z-ai--glm-5.3-prime/20261009T020441Z-6ef12bbc",
+      "observation_sha256": "3e3c16ec8f7f840211ce204adf015f9ea57d42ee6e3f84ed3aa62ff37ea14e25",
+      "run_provenance": {
+        "run_id": "20261009T020441Z-6ef12bbc",
+        "task_id": "CTH-CHRONOLOGY-001",
+        "task_sha256": "fb9a8e4c0c9184295cec0dadbdd7f43efffda0a8b707f4faf9aecebf5266647d",
+        "source_count": 1486,
+        "schema_sha256": "7f996c45081dc5c1f41bab82b1e92aada2fd9ebfba8c41b98ae5e93ca9f8bb38",
+        "policy_sha256": "3da5811c244e1d74dfb751a7b400e60c5beb2346d4230e7f73cd45dd4d12aa9f",
+        "oracle_sha256": "c2e46ddf81e4dd3628769d4e71944c4a7386f824d8ffdfece9b0bc1c98eba291",
+        "harness_hashes": {
+          "controls.py": "3dfb047ebb1c991cd3c126aa47070e2e8f5277325eafd3b70024a589c3d2a4a7",
+          "run.py": "79646658c50cd8fe0ae8ab8551157d47ad01629c9b2bd70f516c65c1bc7adb0d",
+          "__init__.py": "0b8bfaf69fd8bd1b8dd4f63563ebb09cbf2db70a81df90af0e56d267f0953206",
+          "environment.py": "ee1ee2f9bfac3d10d80c2aeb2fddc7c22603b53ed48a4892b02262bc4bf84978"
+        },
+        "model": [
+          "openrouter",
+          "z-ai/glm-5.3-prime"
+        ],
+        "reasoning_effort": "low",
+        "max_output_tokens_per_request": 16384,
+        "episode_output_tokens": 131072,
+        "socket_timeout": 180,
+        "wall_timeout_per_request": 300,
+        "shared_dependency_hashes": {
+          "tools/preservation_rlvr/environment.py": "69c666dc1a05c738d49392b0c35e8eefe3e0c27f45206ba15b16fdaac2b295eb",
+          "tools/rlvr/providers.py": "7a9f26b17b89e1a352a99b23d30a773f982aa6e49e8842464453531b8156aea5",
+          "tools/rlvr/run.py": "a829051b005d37fea56a840d9a983d9bf4aacd852372e3670cf9ee6708fe44d4",
+          "tools/rlvr/environment.py": "0a34900baf391ce3d63891519a5f148a3e985ba6db21a8994400a77744fde679",
+          "tools/rlvr/audit.py": "dcf0408b7a2dca46b070a5f6d165ed80e6b780e6cf3384a93b6741980727b8c3"
+        },
+        "review_status": "Development oracle; independent review and frontier calibration pending"
+      },
+      "offline_replay": {
+        "matched_transitions": 29,
+        "status": "matched"
+      }
+    }
+  ],
+  "same_initial_observation": true,
+  "same_harness": true,
+  "known_cost_subtotal_usd": 4.2919351,
+  "all_costs_known": true,
+  "comparison": [
+    {
+      "model": "openai/gpt-6-astra",
+      "display_name": "GPT-6 Astra",
+      "status": "scored",
+      "reward": 0.852426282051,
+      "success": false,
+      "components": {
+        "events": 0.9553571428571429,
+        "ordering": 0.9120879120879121,
+        "resolutions": 0.6338888888888
+      },
+      "full_credit_events": 12,
+      "full_credit_resolutions": 0,
+      "steps": 25,
+      "calls": 25,
+      "actions": {
+        "search": 11,
+        "read": 13,
+        "submit": 1,
+        "invalid": 0
+      },
+      "input_tokens": 356788,
+      "output_tokens": 3397,
+      "reported_reasoning_tokens": 105,
+      "cost_usd": 0.7892714999999999,
+      "known_cost_subtotal_usd": 0.7892714999999999,
+      "wall_seconds": 86.328,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "offline_replay": {
+        "matched_transitions": 25,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "display_name": "Grok 4.7",
+      "status": "scored",
+      "reward": 0.684972527473,
+      "success": false,
+      "components": {
+        "events": 0.8571428571428571,
+        "ordering": 0.7307692307692307,
+        "resolutions": 0.34642857142860006
+      },
+      "full_credit_events": 11,
+      "full_credit_resolutions": 0,
+      "steps": 63,
+      "calls": 63,
+      "actions": {
+        "search": 43,
+        "read": 17,
+        "submit": 1,
+        "invalid": 2
+      },
+      "input_tokens": 1422816,
+      "output_tokens": 4880,
+      "reported_reasoning_tokens": 220,
+      "cost_usd": 0.825888,
+      "known_cost_subtotal_usd": 0.825888,
+      "wall_seconds": 122.927,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "offline_replay": {
+        "matched_transitions": 63,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "display_name": "Claude Opus 5.5",
+      "status": "scored",
+      "reward": 0.684491941392,
+      "success": false,
+      "components": {
+        "events": 0.8809523809524286,
+        "ordering": 0.7719780219780985,
+        "resolutions": 0.2805714285714
+      },
+      "full_credit_events": 10,
+      "full_credit_resolutions": 0,
+      "steps": 29,
+      "calls": 29,
+      "actions": {
+        "search": 8,
+        "read": 15,
+        "submit": 1,
+        "invalid": 5
+      },
+      "input_tokens": 503118,
+      "output_tokens": 9083,
+      "reported_reasoning_tokens": 1279,
+      "cost_usd": 2.194132,
+      "known_cost_subtotal_usd": 2.194132,
+      "wall_seconds": 147.065,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "offline_replay": {
+        "matched_transitions": 29,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "z-ai/glm-5.3-prime",
+      "display_name": "GLM 5.3 Prime",
+      "status": "scored",
+      "reward": 0.431307692308,
+      "success": false,
+      "components": {
+        "events": 0.5625,
+        "ordering": 0.30288461538461536,
+        "resolutions": 0.255
+      },
+      "full_credit_events": 7,
+      "full_credit_resolutions": 0,
+      "steps": 29,
+      "calls": 29,
+      "actions": {
+        "search": 10,
+        "read": 13,
+        "submit": 1,
+        "invalid": 5
+      },
+      "input_tokens": 365823,
+      "output_tokens": 15551,
+      "reported_reasoning_tokens": 2776,
+      "cost_usd": 0.4214155999999999,
+      "known_cost_subtotal_usd": 0.4214155999999999,
+      "wall_seconds": 170.392,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "offline_replay": {
+        "matched_transitions": 29,
+        "status": "matched"
+      }
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "display_name": "Gemini 3.1 Pro Preview",
+      "status": "scored",
+      "reward": 0.0,
+      "success": false,
+      "components": {
+        "events": 0.0,
+        "ordering": 0.0,
+        "resolutions": 0.0
+      },
+      "full_credit_events": 0,
+      "full_credit_resolutions": 0,
+      "steps": 3,
+      "calls": 3,
+      "actions": {
+        "search": 2,
+        "read": 0,
+        "submit": 1,
+        "invalid": 0
+      },
+      "input_tokens": 13382,
+      "output_tokens": 2872,
+      "reported_reasoning_tokens": 584,
+      "cost_usd": 0.061228000000000005,
+      "known_cost_subtotal_usd": 0.061228000000000005,
+      "wall_seconds": 32.85,
+      "failure_codes": [
+        "INCOMPLETE_OR_UNSUPPORTED_CHRONOLOGY"
+      ],
+      "output_budget_stops": 0,
+      "output_cap_exceeded_calls": 0,
+      "offline_replay": {
+        "matched_transitions": 3,
+        "status": "matched"
+      }
+    }
+  ],
+  "diagnostic_field_accuracy": [
+    {
+      "model": "openai/gpt-6-astra",
+      "event_date_fields_correct_out_of_14": 14,
+      "report_dates_correct_out_of_14": 14,
+      "event_natures_correct_out_of_14": 14,
+      "resolution_conclusions_correct_out_of_5": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "event_date_fields_correct_out_of_14": 14,
+      "report_dates_correct_out_of_14": 14,
+      "event_natures_correct_out_of_14": 13,
+      "resolution_conclusions_correct_out_of_5": 4
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "event_date_fields_correct_out_of_14": 3,
+      "report_dates_correct_out_of_14": 3,
+      "event_natures_correct_out_of_14": 11,
+      "resolution_conclusions_correct_out_of_5": 3
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "event_date_fields_correct_out_of_14": 14,
+      "report_dates_correct_out_of_14": 14,
+      "event_natures_correct_out_of_14": 13,
+      "resolution_conclusions_correct_out_of_5": 4
+    },
+    {
+      "model": "z-ai/glm-5.3-prime",
+      "event_date_fields_correct_out_of_14": 14,
+      "report_dates_correct_out_of_14": 14,
+      "event_natures_correct_out_of_14": 12,
+      "resolution_conclusions_correct_out_of_5": 4
+    }
+  ],
+  "interpretation": {
+    "date_reconstruction": "Four models matched all 14 event-date bounds/precision and all 14 report dates. Date reconstruction alone did not separate those four in this episode.",
+    "gemini_zero": "Gemini submitted after two searches and no read actions; required read-evidence coverage was zero.",
+    "verifier_review_required": true,
+    "review_example": {
+      "model": "openai/gpt-6-astra",
+      "item": "pilot_exceptions",
+      "submitted_document_id": "EMAIL-1506",
+      "submitted_quote": "The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open.",
+      "issue": "This is plausible alternative support for unresolved exceptions, but the oracle requires a different clause from the auditor assessment. Independent review must determine acceptable alternatives; the raw score is unchanged."
+    },
+    "review_scope": "Required support groups, treatment of additional relevant quotations, policy-rule selection and event-nature/conclusion distinctions.",
+    "score_changes": "None. Original task, answer key and observed scores are retained.",
+    "ranking_limit": "One episode per model, one development task, low reasoning effort; no statistical ranking claim."
+  },
+  "committed_replay_archive": {
+    "path": "benchmark/rlvr/chronology/results/frontier-five-2026-10-08-trajectories.json",
+    "sha256": "2e8572be4fea3c0da45f0c07cf180234f56549d7415f8eea650f89e4ed37d983",
+    "command": "python3 -m tools.chronology_rlvr.replay benchmark/rlvr/chronology/results/frontier-five-2026-10-08-trajectories.json"
+  }
+}

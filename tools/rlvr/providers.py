@@ -25,11 +25,14 @@ def tls_context():
     return ssl.create_default_context(cafile=certifi.where())
 
 
-def request_spec(provider, model, messages, max_tokens):
+def request_spec(provider, model, messages, max_tokens, reasoning_effort=None):
+    if reasoning_effort is not None and provider != "openrouter":
+        raise ValueError("Explicit reasoning effort currently requires OpenRouter")
     if provider == "openrouter":
         return "https://openrouter.ai/api/v1/chat/completions", {
             "model": model, "messages": messages, "max_tokens": max_tokens,
-            "provider": {"allow_fallbacks": False},
+            "provider": {"allow_fallbacks": False, **({"require_parameters": True} if reasoning_effort else {})},
+            **({"reasoning": {"effort": reasoning_effort}} if reasoning_effort else {}),
         }
     if provider == "openai":
         return "https://api.openai.com/v1/responses", {
@@ -104,7 +107,7 @@ def read_openrouter_key(path):
     return matches.pop()
 
 
-def generate(provider, model, messages, max_tokens=1024, timeout=45, openrouter_key_file=None):
+def generate(provider, model, messages, max_tokens=1024, timeout=45, openrouter_key_file=None, reasoning_effort=None):
     key = os.environ.get(KEYS[provider])
     if provider == "openrouter" and openrouter_key_file is not None:
         key = read_openrouter_key(openrouter_key_file)
@@ -112,7 +115,7 @@ def generate(provider, model, messages, max_tokens=1024, timeout=45, openrouter_
         key = key or os.environ.get("GOOGLE_API_KEY")
     if not key:
         raise ProviderError("MISSING_CREDENTIAL:" + KEYS[provider])
-    url, body = request_spec(provider, model, messages, max_tokens)
+    url, body = request_spec(provider, model, messages, max_tokens, reasoning_effort)
     headers = {"Content-Type": "application/json"}
     if provider in {"openai", "openrouter"}:
         headers["Authorization"] = "Bearer " + key
@@ -134,3 +137,20 @@ def generate(provider, model, messages, max_tokens=1024, timeout=45, openrouter_
         raise ProviderError("NETWORK_OR_TLS_ERROR") from None
     except (ValueError, KeyError, TypeError, AttributeError):
         raise ProviderError("INVALID_PROVIDER_RESPONSE") from None
+
+
+def budget_diagnostics(result, requested_max_tokens):
+    """Usage observations, not inferred reasoning text or verifier changes."""
+    output = result.get("tokens", {}).get("output")
+    usage = result.get("usage") or {}
+    details = usage.get("completion_tokens_details") or usage.get("output_tokens_details") or {}
+    reasoning = details.get("reasoning_tokens", usage.get("thoughtsTokenCount"))
+    return {
+        "requested_max_output_tokens": requested_max_tokens,
+        "reported_output_tokens": output,
+        "reported_reasoning_tokens": reasoning,
+        "estimated_visible_tokens": max(0, output - reasoning) if isinstance(output, int) and isinstance(reasoning, int) else None,
+        "reported_output_exceeds_requested_limit": output > requested_max_tokens if isinstance(output, int) else None,
+        "output_budget_exhausted": result.get("stop_reason") in {"length", "max_tokens", "MAX_TOKENS"},
+        "empty_completion": not bool(result.get("completion", "").strip()),
+    }
