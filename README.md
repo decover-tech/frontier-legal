@@ -1,6 +1,6 @@
 # Frontier Legal
 
-A legal-agent evaluation benchmark built around a synthetic eDiscovery matter, *USA v. Cascade Timber Holdings, Inc.*, built by DecoverAI. It is
+A legal-agent evaluation benchmark built around a synthetic matter, *USA v. Cascade Timber Holdings, Inc.*, built by DecoverAI. It is
 an email corpus with planted evidence chains, designed for training and evaluating models on
 **legal evidence reasoning**: responsiveness, privilege, chronology, knowledge analysis and
 joins across several documents. All companies, people and events are fictional.
