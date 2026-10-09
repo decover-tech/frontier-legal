@@ -1,6 +1,6 @@
-# Cascade Timber: Synthetic Legal-Investigation Corpus
+# Frontier Legal
 
-A synthetic eDiscovery matter, *USA v. Cascade Timber Holdings, Inc.*, built by DecoverAI. It is
+A legal-agent evaluation benchmark built around a synthetic eDiscovery matter, *USA v. Cascade Timber Holdings, Inc.*, built by DecoverAI. It is
 an email corpus with planted evidence chains, designed for training and evaluating models on
 **legal evidence reasoning**: responsiveness, privilege, chronology, knowledge analysis and
 joins across several documents. All companies, people and events are fictional.
@@ -21,8 +21,105 @@ joins across several documents. All companies, people and events are fictional.
 | Custodians | 26 mailboxes |
 | Organizations | Cascade Timber (client), Alder Point Partners (administrator), Bellhaven Advisory (broker), L&L Associates (outside counsel), GreenAcre (surveyor), Moss & Lane (auditors), IRS, consultants, buyers |
 | Labels | Seed documents only: 1 review tag each, plus privileged and PII flags |
-| Benchmark | 28 tasks, 10 flagship and 18 atomic, with separate hidden gold |
+| Benchmark | 51 distinct tasks: 10 flagship, 18 atomic/retrieval/join, 6 RLVR pilots and 17 litigation skill episodes |
 | Matters | 1 |
+
+## All tasks
+
+The catalog follows the linked task-table format in [FrontierSWE v2](https://github.com/Proximal-Labs/frontier-swe-v2).
+It covers **51 distinct tasks** in this repository. The 19 litigation skill family IDs
+include two aliases for existing pilots: `CTH-LIT-09` maps to `CTH-PRESERVATION-001`
+and `CTH-LIT-10` maps to `CTH-CHRONOLOGY-001`; those episodes are counted once.
+
+### Flagship investigations (10)
+
+Agent-visible prompts are in [the flagship task pack](benchmark/tasks/flagship_prompts.jsonl).
+These use the [evidence-based scoring rubric](benchmark/eval/scoring_rubric.md).
+
+| Task ID | Task | Category | Split |
+|---|---|---|---|
+| CTH-AGENT-001 | [Acreage knowledge chain](benchmark/tasks/flagship_prompts.jsonl#L1) | knowledge chronology | `train` |
+| CTH-AGENT-002 | [Northwest parcel reconstruction](benchmark/tasks/flagship_prompts.jsonl#L2) | transaction reconstruction | `train` |
+| CTH-AGENT-003 | [Broker registration and authority](benchmark/tasks/flagship_prompts.jsonl#L3) | registration authority | `train` |
+| CTH-AGENT-004 | [Post-warning program continuation](benchmark/tasks/flagship_prompts.jsonl#L4) | autonomous investigation | `test_ood` |
+| CTH-AGENT-005 | [Clearwater transaction sequencing](benchmark/tasks/flagship_prompts.jsonl#L5) | temporal join | `test_ood` |
+| CTH-AGENT-006 | [Privilege and work-product review](benchmark/tasks/flagship_prompts.jsonl#L6) | privilege review | `test_id` |
+| CTH-AGENT-007 | [Whistleblower complaint and insider pool](benchmark/tasks/flagship_prompts.jsonl#L7) | whistleblower credibility | `test_ood` |
+| CTH-AGENT-008 | [Examination and preservation timeline](benchmark/tasks/flagship_prompts.jsonl#L8) | preservation analysis | `test_id` |
+| CTH-AGENT-009 | [Financial trail and exposure](benchmark/tasks/flagship_prompts.jsonl#L9) | financial reconstruction | `test_id` |
+| CTH-AGENT-010 | [Matter theory memo](benchmark/tasks/flagship_prompts.jsonl#L10) | case theory memo | `test_ood` |
+
+### Atomic, retrieval and join tasks (18)
+
+Agent-visible prompts are in [the atomic task pack](benchmark/tasks/tier1_tier2_sample.jsonl).
+These use the same evidence-based rubric; difficulty and split are recorded per prompt.
+
+| Task ID | Task | Category | Split |
+|---|---|---|---|
+| CTH-T1-001 | [Responsiveness: transaction email](benchmark/tasks/tier1_tier2_sample.jsonl#L1) | responsiveness | `train` |
+| CTH-T1-002 | [Responsiveness: disputed program scope](benchmark/tasks/tier1_tier2_sample.jsonl#L2) | responsiveness | `train` |
+| CTH-T1-003 | [Privilege: counsel risk memo](benchmark/tasks/tier1_tier2_sample.jsonl#L3) | privilege single | `train` |
+| CTH-T1-004 | [Privilege: bare forward](benchmark/tasks/tier1_tier2_sample.jsonl#L4) | privilege single | `train` |
+| CTH-T1-005 | [Kovel retention contrast](benchmark/tasks/tier1_tier2_sample.jsonl#L5) | kovel contrast | `train` |
+| CTH-T0-006 | [Entity and employer resolution](benchmark/tasks/tier1_tier2_sample.jsonl#L6) | entity resolution | `train` |
+| CTH-T0-007 | [Event date versus document date](benchmark/tasks/tier1_tier2_sample.jsonl#L7) | date extraction | `train` |
+| CTH-R-008 | [Acreage verification retrieval](benchmark/tasks/tier1_tier2_sample.jsonl#L8) | retrieval | `train` |
+| CTH-R-009 | [Broker authority retrieval](benchmark/tasks/tier1_tier2_sample.jsonl#L9) | retrieval | `train` |
+| CTH-T2-010 | [Registration-status contradiction](benchmark/tasks/tier1_tier2_sample.jsonl#L10) | contradiction | `train` |
+| CTH-T2-011 | [Investor-description change](benchmark/tasks/tier1_tier2_sample.jsonl#L11) | contradiction | `validation` |
+| CTH-T2-012 | [Parcel-scope competing explanations](benchmark/tasks/tier1_tier2_sample.jsonl#L12) | contradiction | `train` |
+| CTH-T2-013 | [Broker-gap evidence join](benchmark/tasks/tier1_tier2_sample.jsonl#L13) | evidence join | `train` |
+| CTH-T2-014 | [Acreage concern chronology](benchmark/tasks/tier1_tier2_sample.jsonl#L14) | chronology | `train` |
+| CTH-T2-015 | [Notice and subsequent action](benchmark/tasks/tier1_tier2_sample.jsonl#L15) | knowledge | `train` |
+| CTH-T1-016 | [Responsiveness versus privilege](benchmark/tasks/tier1_tier2_sample.jsonl#L16) | responsiveness | `validation` |
+| CTH-T2-017 | [Abstention on examination closure](benchmark/tasks/tier1_tier2_sample.jsonl#L17) | negative control | `validation` |
+| CTH-T2-018 | [Program-separation distractor control](benchmark/tasks/tier1_tier2_sample.jsonl#L18) | distractor control | `train` |
+
+### Executable RLVR pilots (6)
+
+These tasks have deterministic verifiers. The first four are single-turn;
+preservation and chronology are multi-turn search/read/submit episodes.
+See the [RLVR runner](benchmark/rlvr/README.md) and [evidence-agent interface](benchmark/rlvr/AGENT_TASKS.md).
+
+| Task ID | Task | Category | Mode |
+|---|---|---|---|
+| CTH-DATE-001 | [Sent-date extraction](benchmark/rlvr/tasks/CTH-DATE-001.json) | Date extraction | Single-turn smoke test |
+| CTH-AUDIT-001 | [Evidence audit (75 emails, 18 questions)](benchmark/rlvr/tasks/CTH-AUDIT-001.json) | Cross-document reasoning | Single-turn development |
+| CTH-INVENTORY-001 | [Collection reconciliation (75 emails)](benchmark/rlvr/tasks/CTH-INVENTORY-001.json) | Collection inventory | Single-turn development |
+| CTH-INVENTORY-002 | [Collection reconciliation (300 emails)](benchmark/rlvr/tasks/CTH-INVENTORY-002.json) | Collection inventory | Single-turn development |
+| CTH-PRESERVATION-001 | [Preservation audit (CTH-LIT-09 / legal-hold)](benchmark/rlvr/preservation/CTH-PRESERVATION-001.json) | Preservation | Multi-turn development |
+| CTH-CHRONOLOGY-001 | [Evidence chronology (CTH-LIT-10 / chronology)](benchmark/rlvr/chronology/CTH-CHRONOLOGY-001.json) | Chronology | Multi-turn development |
+
+### Litigation skill episodes (17 new; 19 families with pilot aliases)
+
+These bounded development episodes have deterministic evidence and artifact checks.
+The [registry](benchmark/litigation_skills/registry.json) is authoritative for task packages,
+pilot aliases and dependencies. See [suite usage](benchmark/litigation_skills/README.md)
+and [coverage and review status](benchmark/litigation_skills/COVERAGE.md).
+They evaluate supplied-policy exercises within one matter; the legacy preservation
+and chronology pilots still need separate independent oracle review.
+
+| Task ID | Task | Skill family |
+|---|---|---|
+| CTH-LIT-01 | [Matter-scoped setup with unresolved operator profile](benchmark/litigation_skills/tasks/CTH-LIT-01/task.json) | `cold-start-interview` |
+| CTH-LIT-02 | [Narrow board-reporting correction with preserved unknowns](benchmark/litigation_skills/tasks/CTH-LIT-02/task.json) | `customize` |
+| CTH-LIT-03 | [Historical intake with conflicted readiness and preservation state](benchmark/litigation_skills/tasks/CTH-LIT-03/task.json) | `matter-intake` |
+| CTH-LIT-04 | [Single-matter sandbox organization preserving intake history](benchmark/litigation_skills/tasks/CTH-LIT-04/task.json) | `matter-workspace` |
+| CTH-LIT-05 | [Actual purchaser refund demand with executed-version and trigger conflicts](benchmark/litigation_skills/tasks/CTH-LIT-05/task.json) | `demand-received` |
+| CTH-LIT-06 | [Third-party preservation demand readiness](benchmark/litigation_skills/tasks/CTH-LIT-06/task.json) | `demand-intake` |
+| CTH-LIT-07 | [Preservation drafting gate and safe handoff](benchmark/litigation_skills/tasks/CTH-LIT-07/task.json) | `demand-draft` |
+| CTH-LIT-08 | [IRS instrument version, deadline and production triage](benchmark/litigation_skills/tasks/CTH-LIT-08/task.json) | `subpoena-triage` |
+| CTH-LIT-11 | [Provisional issue chart with contrary proof](benchmark/litigation_skills/tasks/CTH-LIT-11/task.json) | `claim-chart` |
+| CTH-LIT-12 | [Tom Reyes source-founded examination outline](benchmark/litigation_skills/tasks/CTH-LIT-12/task.json) | `deposition-prep` |
+| CTH-LIT-13 | [Privilege family and consultant-purpose review](benchmark/litigation_skills/tasks/CTH-LIT-13/task.json) | `privilege-log-review` |
+| CTH-LIT-14 | [Defense factual section with explicit concessions](benchmark/litigation_skills/tasks/CTH-LIT-14/task.json) | `brief-section-drafter` |
+| CTH-LIT-15 | [Append a supported discovery and remediation update](benchmark/litigation_skills/tasks/CTH-LIT-15/task.json) | `matter-update` |
+| CTH-LIT-16 | [Read-only counsel briefing with stale snapshot and current evidence](benchmark/litigation_skills/tasks/CTH-LIT-16/task.json) | `matter-briefing` |
+| CTH-LIT-17 | [One-matter portfolio rollup with unknowns and qualified anomalies](benchmark/litigation_skills/tasks/CTH-LIT-17/task.json) | `portfolio-status` |
+| CTH-LIT-18 | [Review-only outside-counsel status request and run summary](benchmark/litigation_skills/tasks/CTH-LIT-18/task.json) | `oc-status` |
+| CTH-LIT-19 | [Closure-readiness handoff without unsupported archive or hold release](benchmark/litigation_skills/tasks/CTH-LIT-19/task.json) | `matter-close` |
+
+`CTH-LIT-19` tests closure readiness with a missing trigger; its inclusion does not imply that closure is authorized.
 
 ## Model leaderboard
 
