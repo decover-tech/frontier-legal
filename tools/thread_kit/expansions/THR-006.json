@@ -1,0 +1,175 @@
+{
+  "thread_id": "THR-006",
+  "anchor": "EMAIL-704",
+  "arc": "C",
+  "event_id": "THR-006-density-expansion",
+  "start_docid": 1487,
+  "bible_refs": [
+    "§1 gross face, cash discounts, fees [BINDING AUTHORING RULE]",
+    "§2 disputed four face totals [ESTABLISHED in EMAIL-1462]",
+    "CSC-CPA-BELLHAVEN executed buyer versions [EXISTING]",
+    "EX-028–035 source certificate numbers and issuance dates [EXISTING]",
+    "Density expansion register §2 [AUTHORED FICTIONAL ALLOCATIONS AND RECEIPTS]"
+  ],
+  "rationale": "Buyer reconciliation joins agreements, source-certificate allocations, actual delivery and cash. A buyer copy lacks one source-reference page; an initial reconstruction misallocates NW-07 until a dated register is produced. The three named purchases are only a subset of annual revenue. Refund entitlement, tax loss and eligibility remain open.",
+  "messages": [
+    {
+      "key": "m1",
+      "parent": "EMAIL-704",
+      "kind": "reply",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "jorr@cppension.org"
+      ],
+      "date": "2023-08-14T09:30",
+      "body": "J — the signed copy matches our agreement file: November 9, face 1.25 million, unit price 0.90. The batch number in my tracker is unreliable; I'm joining on your purchaser name and agreement date instead.\n\nI'm pulling the delivery emails and the source allocation pages now. Your status question is fair, and the July pause note didn't answer it. We need to distinguish a certificate we issued from one we actually transmitted to you. Could you send the list your custodian has, including any missing source pages? I'll reconcile your copy with ours rather than tell you everything was delivered from a 'closed' box on our tracker.",
+      "cc": [
+        "dholt@bellhavenadvisory.com"
+      ]
+    },
+    {
+      "key": "m2",
+      "parent": "m1",
+      "kind": "reply",
+      "from": "jorr@cppension.org",
+      "to": [
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2023-08-14T13:15",
+      "body": "Tom — our custodian's receipt log shows one secure delivery on November 16 for 1.25 million face. The source list has NW-03 at 620,000 and NW-02 at 520,000. The remaining 110,000 has a certificate reference but no source parcel on the page in our saved set.\n\nWe had the May eligibility checklist in the committee packet and understood the signed representation to cover all of the purchased credits. This request isn't a statement that we have a disallowance notice; we don't. We want a complete source list and a factual status before the committee meets. Please identify which page is missing rather than sending the whole approved kit again.",
+      "cc": [
+        "dholt@bellhavenadvisory.com"
+      ],
+      "attachments": [
+        {
+          "filename": "CPP_custodian_receipt_extract_2023-08-14.txt",
+          "content": "CPP CUSTODIAN RECEIPT EXTRACT — 14 August 2023\nPurchase agreement effective 9 November 2022.\nSecure delivery received 16 November 2022, 14:06 PT; aggregate face 1,250,000.\nSaved source entries: NW-03 620,000; NW-02 520,000; final entry 110,000 source parcel page missing in saved copy.\nThis is a purchaser receipt-log extract, not an eligibility determination. No disallowance notice recorded here.\n"
+        }
+      ]
+    },
+    {
+      "key": "m3",
+      "parent": "m2",
+      "kind": "reply_all",
+      "from": "dholt@bellhavenadvisory.com",
+      "to": [
+        "jorr@cppension.org",
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2023-08-15T10:10",
+      "body": "J — I've found our settlement entry for your November 9 funding: 1,125,000 cash against 1,250,000 face. That ties to the signed price, not the earlier 0.89 draft. It doesn't answer the missing source page. Tom's team maintains those allocations.\n\nOur intake sheet says delivery complete because it carries Alder's completion date. It is not a receipt from your custodian, and I'm not relying on it to say what you actually received. Tom, please send the allocation directly to J with the date of the source record. I'd also like the same list in our file so we stop answering from different versions."
+    },
+    {
+      "key": "m4",
+      "parent": "m2",
+      "kind": "forward",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "csato@cascadetimber.com"
+      ],
+      "date": "2023-08-15T14:20",
+      "body": "Craig — CPP's receipt extract is below. We need the missing 110,000 source page and a clean link between the source certificates and the buyer schedule. Can you reconcile that without using my batch numbers?\n\nFor the other two signed purchases, I've pulled North Fork at 900,000 face on November 21 and Blue River at 1.1 million on December 6. My working allocation puts some NW-07 into CPP, but I don't trust that line; the sheet was copied from an earlier reservation list. Please don't use it as the delivery register. I'm asking for ordinary transaction support, not counsel's exposure workbook.",
+      "keep_attachments": false,
+      "cc": [
+        "hcole@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m5",
+      "parent": "m4",
+      "kind": "reply",
+      "from": "csato@cascadetimber.com",
+      "to": [
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2023-08-16T09:05",
+      "body": "The contract totals tie, but your NW-07 reservation line doesn't. The source certificate is 560,000 face, and your draft allocates more than that across the buyers. Please send the dated final register rather than adjust the overage by moving a number to another parcel.\n\nI can reconcile funding from the settlements and delivery from receipts. Neither record proves the underlying acreage was correct. Also, my May full-parcel schedule wasn't buyer-specific, and the excess-acreage tab is still separate legal work. We shouldn't answer CPP's document request with an allocation reverse-engineered from an exposure ceiling. Hannah, can you check the certificate references on the copy Tom sends?",
+      "cc": [
+        "hcole@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m6",
+      "parent": "m5",
+      "kind": "reply_all",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "csato@cascadetimber.com",
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2023-08-16T15:40",
+      "body": "Found the dated delivery register in the November/December administration archive. Attached is a text export of just these three purchases. It places CPP's final 110,000 against NW-01, not NW-07. My reservation sheet predates the November 15 NW-07 issuance and should not have been used as the final list.\n\nNW-07 is split between North Fork and Blue River in the register. Please check the sum against the source certificate before I send buyer-specific extracts. The export references source certificates rather than creating new certificate numbers for each slice. I've left the original reservation sheet in the folder and marked it superseded, so the mismatch remains explainable.",
+      "attachments": [
+        {
+          "filename": "Three_purchase_delivery_register_export_2023-08-16.txt",
+          "content": "ALDER ADMINISTRATION ARCHIVE — three-purchase delivery register extract\nExported 16 August 2023. Source: dated November/December 2022 delivery register.\nBuyer | Agreement effective | Delivered PT | Source certificate | Parcel | Allocated face\nCascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-03-2022-0003 | NW-03 | 620000\nCascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-02-2022-0002 | NW-02 | 520000\nCascade Pension Partners | 2022-11-09 | 2022-11-16 14:06 | CSC-NW-01-2022-0001 | NW-01 | 110000\nNorth Fork Energy Fund | 2022-11-21 | 2022-11-29 11:18 | CSC-NW-06-2022-0006 | NW-06 | 640000\nNorth Fork Energy Fund | 2022-11-21 | 2022-11-29 11:18 | CSC-NW-07-2022-0007 | NW-07 | 260000\nBlue River Capital | 2022-12-06 | 2022-12-14 09:42 | CSC-NW-04-2022-0004 | NW-04 | 580000\nBlue River Capital | 2022-12-06 | 2022-12-14 09:42 | CSC-NW-07-2022-0007 | NW-07 | 300000\nBlue River Capital | 2022-12-06 | 2022-12-14 09:42 | CSC-NW-05-2022-0005 | NW-05 | 220000\nPurchaser slices reference source certificates; this extract is not a new issuance or an eligibility determination. Other purchasers are excluded.\n"
+        }
+      ]
+    },
+    {
+      "key": "m7",
+      "parent": "m6",
+      "kind": "reply_all",
+      "from": "hcole@cascadetimber.com",
+      "to": [
+        "treyes@alderpointpartners.com",
+        "csato@cascadetimber.com"
+      ],
+      "date": "2023-08-17T10:20",
+      "body": "The references match the source copies in records. NW-07 is 560,000 total; the 260,000 and 300,000 slices exhaust it. NW-01 and NW-05 have remaining face outside these three purchases, so don't treat those buyer slices as the full parcel amounts.\n\nThe dates on the source certificates are issuance dates. The receipt and transmission entries in your register are later and shouldn't replace them on the source copies. CPP's missing page points to NW-01, whose source certificate was issued October 4. I can provide that source-reference page to Tom. This is a reference check; I haven't re-examined the acreage or the program screening."
+    },
+    {
+      "key": "m8",
+      "parent": "m6",
+      "kind": "reply",
+      "from": "csato@cascadetimber.com",
+      "to": [
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2023-08-18T08:45",
+      "body": "I've attached the settlement bridge for these three agreements. Face is 3.25 million and cash is 2.932 million, before the Bellhaven and Alder fees. The fees are expenses paid from cash, not deductions from the face revenue line. All three delivery dates are in 2022.\n\nThat is only part of the 6.8 million annual recognized figure; don't label this the annual reconciliation. Across these three purchases, the four parcels on the May schedule allocate 2.4 million face, but buyer cash attributable to those slices differs by contract price. None of that tells us whether a whole parcel or only excess acreage would be affected. Please send each buyer only its own supporting entries.",
+      "attachments": [
+        {
+          "filename": "Three_purchase_settlement_bridge_2023-08-18.txt",
+          "content": "CRAIG SATO — TRANSACTION SUPPORT — 18 August 2023\nAmounts in dollars. Three purchases only, not annual revenue reconciliation.\nBuyer | Face | Unit price | Cash funded | Bellhaven fee 6% of cash | Alder fee 8% of cash | Cash after both fees\nCPP | 1250000 | 0.90 | 1125000 | 67500 | 90000 | 967500\nNorth Fork | 900000 | 0.92 | 828000 | 49680 | 66240 | 712080\nBlue River | 1100000 | 0.89 | 979000 | 58740 | 78320 | 841940\nTOTAL | 3250000 | mixed | 2932000 | 175920 | 234560 | 2521520\nGross face recognized at certificate delivery under current policy; discounts affect cash; fees expensed.\nNo refund liability, disallowance finding, penalty, interest or reserve is calculated here.\n"
+        }
+      ]
+    },
+    {
+      "key": "m9",
+      "parent": "m7",
+      "kind": "forward",
+      "from": "treyes@alderpointpartners.com",
+      "to": [
+        "jorr@cppension.org"
+      ],
+      "date": "2023-08-18T14:10",
+      "body": "J — Hannah checked the source references and found your missing entry: 110,000 against NW-01, source certificate CSC-NW-01-2022-0001. Together with NW-03 and NW-02, that ties to the 1.25 million in your November 16 receipt. Attached is your allocation extract; it contains no other buyer's records.\n\nThe June pause stopped new placements. It wasn't a determination that your delivered credits were disallowed. We haven't received a determination on those credits that I can send you. I'm not asking your committee to accept the allocation list as fresh eligibility screening; it answers which source credits the delivery register says were allocated to you.",
+      "quote": false,
+      "keep_attachments": false,
+      "cc": [
+        "dholt@bellhavenadvisory.com"
+      ],
+      "attachments": [
+        {
+          "filename": "CPP_source_allocation_extract_2023-08-18.txt",
+          "content": "CPP PURCHASE — ADMINISTRATOR SOURCE EXTRACT — 18 August 2023\nAgreement effective 9 November 2022; delivery register date 16 November 2022.\nCSC-NW-03-2022-0003 | NW-03 | 620000 face\nCSC-NW-02-2022-0002 | NW-02 | 520000 face\nCSC-NW-01-2022-0001 | NW-01 | 110000 face\nTotal 1250000 face. Source-reference reconciliation only; no new eligibility finding.\n"
+        }
+      ]
+    },
+    {
+      "key": "m10",
+      "parent": "m9",
+      "kind": "reply",
+      "from": "jorr@cppension.org",
+      "to": [
+        "treyes@alderpointpartners.com"
+      ],
+      "date": "2023-08-21T11:25",
+      "body": "Received; the missing reference is now in our committee file. That resolves the source-page question, not the eligibility question. We are still asking what screening was done for NW-03 before delivery and whether there is any later survey or county correspondence that changes the position.\n\nPlease preserve the versions of the checklist and deck actually supplied with our agreement. A current replacement deck would not answer what our committee reviewed last November. We aren't quantifying a tax loss or representing that the contractual disallowance trigger has occurred. We do want the Administrator to respond to the screening question and keep us updated when there is something substantive to report.",
+      "cc": [
+        "dholt@bellhavenadvisory.com"
+      ]
+    }
+  ]
+}

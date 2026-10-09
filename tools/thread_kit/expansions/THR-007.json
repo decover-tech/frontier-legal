@@ -1,0 +1,158 @@
+{
+  "thread_id": "THR-007",
+  "anchor": "EMAIL-932",
+  "arc": "F",
+  "event_id": "THR-007-density-expansion",
+  "start_docid": 1497,
+  "bible_refs": [
+    "§0 / EMAIL-185–186 approved framework [ESTABLISHED]",
+    "§6 / Arc F historical spot-check gap [OPEN BY DESIGN]",
+    "EMAIL-203 remediation outline [ESTABLISHED]",
+    "§2 acreage pairs [EXISTING AUTHORING MODEL / EX-020–027]",
+    "Density expansion register §3 [AUTHORED SEPTEMBER PILOT]"
+  ],
+  "rationale": "Separate evidence of historical control performance from a narrow September remediation pilot on archived packets. A real test catches a reference error and finds unresolved support; its sign-off does not bless eligibility, authorize a restart, or prove old tests ran.",
+  "messages": [
+    {
+      "key": "m1",
+      "parent": "EMAIL-932",
+      "kind": "reply",
+      "from": "snguyen@cascadetimber.com",
+      "to": [
+        "bmoss@mosslane-cpa.com"
+      ],
+      "date": "2023-08-14T08:40",
+      "body": "Brenda — I'll send the remediation workplan separately from the historical record request. The calendars, quarterly packs and packet folders live in different locations; I'm preserving those locations rather than moving documents into a new 'testing' folder.\n\nFor the workplan, the first deliverable is a records test on a small archived sample: confirm the application version, recorded filing and acreage comparison can be traced from the packet index. That is narrower than deciding whether a credit qualifies. The broker-registration check will be a separate workstream. Could you tell me which fields you need in the sample record so the pilot produces something your team can inspect rather than another calendar entry?"
+    },
+    {
+      "key": "m2",
+      "parent": "m1",
+      "kind": "reply",
+      "from": "bmoss@mosslane-cpa.com",
+      "to": [
+        "snguyen@cascadetimber.com"
+      ],
+      "date": "2023-08-15T09:25",
+      "body": "For each selected packet, please record the population you selected from, selection method, application version/date, county recording reference, both acreage figures, reviewer and review date, plus the evidence for closing any exception. Preserve the first result when a document is corrected.\n\nA pilot on archived packets can show the new procedure operating in September. It cannot establish that the quarterly control operated in 2022 or earlier this year. We'll evaluate historical performance from dated workpapers and follow-up evidence for those periods. Also, please keep a missing document distinct from an acreage mismatch; a blank cell should not be treated as a match or an automatic eligibility failure."
+    },
+    {
+      "key": "m3",
+      "parent": "m2",
+      "kind": "forward",
+      "from": "snguyen@cascadetimber.com",
+      "to": [
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2023-08-16T11:30",
+      "body": "Hannah — Brenda's suggested fields are below. I'd like to use NW-02, NW-04 and NW-07 for a records pilot, selected deliberately to cover a clean comparison, a known mismatch and an exhibit-reference question. This isn't a random sample or a basis for estimating a failure rate.\n\nPlease inventory those three packet folders as they stand. If an application copy lacks a transmittal stamp, record that rather than substituting the current tracker date. The original files stay where they are under the hold; working copies can go in the pilot folder with source paths. Tom can supply Alder records through the collection channel if needed, but please don't ask anyone to rewrite the historical packet.",
+      "keep_attachments": false
+    },
+    {
+      "key": "m4",
+      "parent": "m3",
+      "kind": "reply",
+      "from": "hcole@cascadetimber.com",
+      "to": [
+        "snguyen@cascadetimber.com"
+      ],
+      "date": "2023-08-17T14:15",
+      "body": "I've inventoried the copies. NW-02 has an application copy and recorded filing, both at 185 acres. NW-04 carries 340 on the application and 288 on the recorded filing. The NW-07 index points to a scan called Exhibit B, but the file behind that link is from a different folder; I'm checking the paper binder before assigning it a parcel.\n\nTwo application copies lack a filing stamp in the scan set. We have transmittal entries elsewhere, but I won't label these copies 'as filed' from that alone. I attached the source inventory with those qualifications. Please keep the pilot result separate from the county notice mapping question; the wrong link doesn't tell us which parcel the recorder's correction notice refers to.",
+      "attachments": [
+        {
+          "filename": "Pilot_source_inventory_2023-08-17.txt",
+          "content": "RECORDS INVENTORY — 17 August 2023 — Hannah Cole\nPurposive archived sample: NW-02, NW-04, NW-07. Source files remain in place.\nNW-02 | application copy 185 ac | recorded filing 185 ac | comparison available\nNW-04 | application copy 340 ac | recorded filing 288 ac | difference 52 ac; reconciliation unresolved\nNW-07 | application copy 275 ac | recorded filing 231 ac | index exhibit link requires paper-binder check; difference 44 ac\nTwo application scans lack filing stamps. Transmittal entries do not alone authenticate as-filed contents.\nNo recorder notice is mapped by this inventory. No retrospective quarterly-control finding.\n"
+        }
+      ]
+    },
+    {
+      "key": "m5",
+      "parent": "m4",
+      "kind": "reply",
+      "from": "snguyen@cascadetimber.com",
+      "to": [
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2023-08-18T10:35",
+      "body": "That's the distinction I need. Leave the mismatch entries open. For NW-07, save the incorrect index link and its current target before repairing the working-copy index. Record what the paper binder supplies, including the page count, so a reviewer can reproduce the change.\n\nI'll schedule the pilot for September 5 after the initial production work. Craig will be the second reviewer for the reference and arithmetic checks only. Neither of us will sign off eligibility from those checks. For the historical quarterly records, continue giving Alan source locations; the inventory you're preparing now should carry its current date even where the underlying documents are older.",
+      "cc": [
+        "csato@cascadetimber.com"
+      ]
+    },
+    {
+      "key": "m6",
+      "parent": "m5",
+      "kind": "reply_all",
+      "from": "csato@cascadetimber.com",
+      "to": [
+        "snguyen@cascadetimber.com",
+        "hcole@cascadetimber.com"
+      ],
+      "date": "2023-08-21T08:55",
+      "body": "I can do the second review on September 6. Please leave the first-pass findings visible rather than giving me only a cleaned-up packet. I'll check the source reference and recompute the differences, then sign the entries I actually reviewed.\n\nThe face builds in finance use claimed acreage. A records comparison is useful evidence for the review, but a 52-acre or 44-acre difference isn't a refund amount. We would need the applicable calculation and a decision about the scope of any disallowance before using it that way. The archived NW-04/NW-07 amounts should also stay out of the new Q4 held-file queue; those are different files."
+    },
+    {
+      "key": "m7",
+      "parent": "m5",
+      "kind": "reply_all",
+      "from": "hcole@cascadetimber.com",
+      "to": [
+        "snguyen@cascadetimber.com",
+        "csato@cascadetimber.com"
+      ],
+      "date": "2023-09-05T16:10",
+      "body": "The pilot first pass is done. NW-07's paper binder supplied the missing exhibit pages; the working-copy index now points to that copy, and the old link is retained in the change log. The recorded figure is still 231 against 275 on the application copy. Repairing the link did not reconcile the acreage.\n\nNW-02 ties at 185. NW-04 remains 340 against 288. The workpaper records which versions I used and which application scans weren't authenticated as filed. Attached is the first-pass extract for Craig's review tomorrow. This is a test of records we already held, not permission to restart placements or confirmation that an earlier sample was performed.",
+      "attachments": [
+        {
+          "filename": "Records_pilot_first_pass_2023-09-05.txt",
+          "content": "ARCHIVED PACKET RECORDS PILOT — FIRST PASS — 5 September 2023\nSelection: purposive NW-02/NW-04/NW-07, three separate issue types; no statistical inference.\nReviewer: Hannah Cole. Second review pending.\nNW-02 | 185 vs 185 | difference 0 | reference comparison complete\nNW-04 | 340 vs 288 | difference 52 | substantive reconciliation open\nNW-07 | 275 vs 231 | difference 44 | exhibit index repaired from paper binder; substantive reconciliation open\nIndex change: saved original broken-link target; added paper-binder copy to working index only.\nApplication-copy authenticity limitations retained from 17 August inventory.\nNo eligibility clearance, historical control assurance, monetary loss or restart authorization.\n"
+        }
+      ]
+    },
+    {
+      "key": "m8",
+      "parent": "m7",
+      "kind": "reply_all",
+      "from": "csato@cascadetimber.com",
+      "to": [
+        "hcole@cascadetimber.com",
+        "snguyen@cascadetimber.com"
+      ],
+      "date": "2023-09-06T11:45",
+      "body": "Second review completed this morning. I reproduced the three comparisons from the cited copies and checked the NW-07 index repair against the paper-binder copy. The arithmetic ties; the two substantive exceptions are still open.\n\nI've signed the reference-check section only. Please don't change the workpaper's overall status to passed because my signature is there. Sarah owns the follow-up; if Alder sends a reconciliation, it should have its own received date and source, with these first-pass results retained. For the auditor packet, use the workpaper and this review confirmation together. The calendar invite proves we scheduled the work, not what was tested."
+    },
+    {
+      "key": "m9",
+      "parent": "m8",
+      "kind": "forward",
+      "from": "snguyen@cascadetimber.com",
+      "to": [
+        "bmoss@mosslane-cpa.com"
+      ],
+      "date": "2023-09-07T10:20",
+      "body": "Brenda — the archived-packet pilot ran September 5 with Craig's second review on September 6. Attached are the dated first-pass extract and the source inventory. The reference correction on NW-07 is complete; the NW-04 and NW-07 acreage reconciliations remain open. I've kept the initial findings intact.\n\nThis is the new remediation procedure operating on a purposive sample. We are not presenting it as the missing workpapers for the 2022 quarters or as a test of every packet. The original calendar and quarterly-pack materials are still being supplied by source location. Please let me know if the review confirmation needs to be in the same PBC item rather than filed as correspondence.",
+      "quote": false,
+      "keep_attachments": false,
+      "attachments": [
+        {
+          "filename": "Pilot_source_inventory_2023-08-17.txt",
+          "content": "RECORDS INVENTORY — 17 August 2023 — Hannah Cole\nPurposive archived sample: NW-02, NW-04, NW-07. Source files remain in place.\nNW-02 | application copy 185 ac | recorded filing 185 ac | comparison available\nNW-04 | application copy 340 ac | recorded filing 288 ac | difference 52 ac; reconciliation unresolved\nNW-07 | application copy 275 ac | recorded filing 231 ac | index exhibit link requires paper-binder check; difference 44 ac\nTwo application scans lack filing stamps. Transmittal entries do not alone authenticate as-filed contents.\nNo recorder notice is mapped by this inventory. No retrospective quarterly-control finding.\n"
+        },
+        {
+          "filename": "Records_pilot_first_pass_2023-09-05.txt",
+          "content": "ARCHIVED PACKET RECORDS PILOT — FIRST PASS — 5 September 2023\nSelection: purposive NW-02/NW-04/NW-07, three separate issue types; no statistical inference.\nReviewer: Hannah Cole. Second review pending.\nNW-02 | 185 vs 185 | difference 0 | reference comparison complete\nNW-04 | 340 vs 288 | difference 52 | substantive reconciliation open\nNW-07 | 275 vs 231 | difference 44 | exhibit index repaired from paper binder; substantive reconciliation open\nIndex change: saved original broken-link target; added paper-binder copy to working index only.\nApplication-copy authenticity limitations retained from 17 August inventory.\nNo eligibility clearance, historical control assurance, monetary loss or restart authorization.\n"
+        }
+      ]
+    },
+    {
+      "key": "m10",
+      "parent": "m9",
+      "kind": "reply",
+      "from": "bmoss@mosslane-cpa.com",
+      "to": [
+        "snguyen@cascadetimber.com"
+      ],
+      "date": "2023-09-08T09:40",
+      "body": "Please include Craig's dated confirmation in the same PBC item. We'll describe the scope as a three-packet remediation pilot, with one document-reference exception corrected and two acreage reconciliations still open. It isn't a clean operating-effectiveness conclusion on the program control.\n\nFor the next round, agree the sampling population before selection and name an owner and target date for each open exception. Keep the record of what you receive from Alder distinct from your assessment of it. Our request for the historical quarterly support remains separate. We also haven't reached a conclusion on the accounting contingency from these comparisons; that requires the broader management assessment and the ordinary audit inquiry process."
+    }
+  ]
+}
